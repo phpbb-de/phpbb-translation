@@ -74,16 +74,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Das Suchformular ausblenden',
 
 	'IM_ADD_CONTACT'		=> 'Kontakt hinzufügen',
-	'IM_AIM'				=> 'Bitte beachte, dass du AOL Instant Messenger installiert haben musst, um diese Funktion zu nutzen.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Anwendung herunterladen',
-	'IM_ICQ'				=> 'Bitte beachte, dass die Benutzer den Empfang unverlangter Nachrichten deaktiviert haben können.',
 	'IM_JABBER'				=> 'Bitte beachte, dass die Benutzer den Empfang unverlangter Nachrichten deaktiviert haben können.',
 	'IM_JABBER_SUBJECT'		=> 'Dies ist eine automatische Nachricht, bitte beantworte sie nicht. Nachricht von Benutzer %1$s auf %2$s.',
 	'IM_MESSAGE'			=> 'Deine Nachricht',
-	'IM_MSNM'				=> 'Bitte beachte, dass du Windows Live Messenger installiert haben musst, um diese Funktion zu nutzen.',
-	'IM_MSNM_BROWSER'		=> 'Dein Browser unterstützt diese Funktion nicht.',
-	'IM_MSNM_CONNECT'		=> 'Es besteht keine Verbindung zu Windows Live Messenger.\nUm fortzufahren, muss eine Verbindung zu Windows Live Messenger bestehen.',
 	'IM_NAME'				=> 'Dein Name',
 	'IM_NO_DATA'			=> 'Es gibt keine passenden Kontaktdaten für diesen Benutzer.',
 	'IM_NO_JABBER'			=> 'Direkter Kontakt zu Jabber-Benutzern wird auf diesem Board nicht unterstützt. Du benötigst einen installierten Jabber-Client auf deinem Rechner, um den Benutzer kontaktieren zu können.',
@@ -95,11 +89,13 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Letzte Aktivität',
 	'LESS_THAN'					=> 'Weniger als',
-	'LIST_USER'					=> '1 Mitglied',
-	'LIST_USERS'				=> '%d Mitglieder',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Du musst registriert und angemeldet sein, um die Liste der Team-Mitglieder anzuschauen.',
+	'LIST_USERS'				=> array
+		1	=> '1 Mitglied',
+		2	=> '%d Mitglieder',
+	),
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Du musst registriert und angemeldet sein, um auf die Mitgliederliste zuzugreifen.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Du musst registriert und angemeldet sein, um nach Mitgliedern zu suchen.',
+	'LOGIN_EXPLAIN_TEAM'		=> 'Du musst registriert und angemeldet sein, um die Liste der Team-Mitglieder anzuschauen.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Du musst registriert und angemeldet sein, um Profile anzuschauen.',
 
 	'MORE_THAN'				=> 'Mehr als',
@@ -119,12 +115,10 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Markierte auswählen',
 	'SELECT_SORT_METHOD'	=> 'Sortierung auswählen',
-	'SEND_AIM_MESSAGE'		=> 'AIM-Nachricht senden',
 	'SEND_ICQ_MESSAGE'		=> 'ICQ-Nachricht senden',
 	'SEND_IM'				=> 'Instant Message senden',
 	'SEND_JABBER_MESSAGE'	=> 'Jabber-Nachricht senden',
 	'SEND_MESSAGE'			=> 'Nachricht',
-	'SEND_MSNM_MESSAGE'		=> 'WLM-Nachricht senden',
 	'SEND_YIM_MESSAGE'		=> 'YIM-Nachricht senden',
 	'SORT_EMAIL'			=> 'E-Mail',
 	'SORT_LAST_ACTIVE'		=> 'Letzte Aktivität',
@@ -141,9 +135,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Anwesenheit im Board',
+	'USERS_PER_PAGE'		=> '#Users per page',
 
 	'VIEWING_PROFILE'		=> 'Profil von %s',
-	'VISITED'				=> 'Letzte Anmeldung',
-
-	'WWW'					=> 'Website',
 ));

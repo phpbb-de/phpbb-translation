@@ -38,6 +38,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'APPROVE'							=> '#Approve',
 	'ATTACHMENT'						=> 'Dateianhang',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Die Funktion für Dateianhänge wurde deaktiviert.',
 
@@ -50,19 +51,23 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Thema als neu markieren',
 
 	'CODE'					=> 'Code',
-	'COLLAPSE_QR'			=> 'Schnellantwort ausblenden',
 
 	'DELETE_TOPIC'			=> 'Thema löschen',
+	'DELETED_INFORMATION'	=> '#Deleted by %1$s on %2$s',
+	'DISAPPROVE'			=> '#Disapprove',
 	'DOWNLOAD_NOTICE'		=> 'Du hast keine ausreichende Berechtigung, um die Dateianhänge dieses Beitrags anzusehen.',
 
-	'EDITED_TIMES_TOTAL'	=> 'Zuletzt geändert von %1$s am %2$s, insgesamt %3$d-mal geändert.',
-	'EDITED_TIME_TOTAL'		=> 'Zuletzt geändert von %1$s am %2$s, insgesamt %3$d-mal geändert.',
+	'EDITED_TIMES_TOTAL'	=> array(
+		1	=> 'Zuletzt geändert von %1$s am %2$s, insgesamt %3$d-mal geändert.',
+		2	=> 'Zuletzt geändert von %1$s am %2$s, insgesamt %3$d-mal geändert.',
+	),
 	'EMAIL_TOPIC'			=> 'Thema weiterempfehlen',
 	'ERROR_NO_ATTACHMENT'	=> 'Der ausgewählte Dateianhang existiert nicht mehr.',
 
 	'FILE_NOT_FOUND_404'	=> 'Die Datei <strong>%s</strong> existiert nicht.',
 	'FORK_TOPIC'			=> 'Thema duplizieren',
 	'FULL_EDITOR'			=> 'Vollständiger Editor',
+	'FULL_EDITOR'			=> '#Full Editor &amp; Preview',
 
 	'LINKAGE_FORBIDDEN'		=> 'Du bist nicht berechtigt, diese Seite anzusehen, von ihr herunterzuladen oder auf sie zu linken.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Du wurdest über einen neuen Beitrag in diesem Thema informiert. Bitte melde dich an, um es anzusehen.',
@@ -72,8 +77,10 @@ $lang = array_merge($lang, array(
 	'MAKE_GLOBAL'				=> 'In globale Bekanntmachung ändern',
 	'MAKE_NORMAL'				=> 'In Standard-Thema ändern',
 	'MAKE_STICKY'				=> 'In wichtiges Thema ändern',
-	'MAX_OPTIONS_SELECT'		=> 'Du kannst bis zu <strong>%d</strong> Optionen auswählen',
-	'MAX_OPTION_SELECT'			=> 'Du kannst <strong>eine</strong> Option auswählen',
+	'MAX_OPTIONS_SELECT'		=> array(
+		1	=> 'Du kannst <strong>eine</strong> Option auswählen',
+		2	=> 'Du kannst bis zu <strong>%d</strong> Optionen auswählen',
+	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'Der Dateianhang <strong>%s</strong> existiert nicht mehr.',
 	'MOVE_TOPIC'				=> 'Thema verschieben',
 
@@ -87,6 +94,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Umfrage endete am %s',
 	'POLL_RUN_TILL'			=> 'Die Umfrage läuft bis %s.',
 	'POLL_VOTED_OPTION'		=> 'Du hast für diese Option gestimmt',
+	'POST_DELETED_RESTORE'	=> '#This post has been deleted. It can be restored.',
 	'PRINT_TOPIC'			=> 'Druckansicht',
 
 	'QUICK_MOD'				=> 'Schnellmoderation',
@@ -94,11 +102,13 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Zitat',
 
 	'REPLY_TO_TOPIC'		=> 'Auf das Thema antworten',
+	'RESTORE'				=> '#Restore',
+	'RESTORE_TOPIC'			=> '#Restore topic',
 	'RETURN_POST'			=> '%sZurück zum Beitrag%s',
 
-	'SHOW_QR'				=> 'Schnellantwort',
 	'SUBMIT_VOTE'			=> 'Abstimmen',
 
+	'TOPIC_TOOLS'			=> '#Topic tools',
 	'TOTAL_VOTES'			=> 'Abstimmungen insgesamt',
 
 	'UNLOCK_TOPIC'			=> 'Thema entsperren',
@@ -107,10 +117,11 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_TOPIC'		=> 'Nächstes Thema',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Vorheriges Thema',
 	'VIEW_RESULTS'			=> 'Ergebnis anzeigen',
-	'VIEW_TOPIC_POST'		=> '1 Beitrag',
-	'VIEW_TOPIC_POSTS'		=> '%d Beiträge',
+	'VIEW_TOPIC_POSTS'		=> array(
+		1	=> '1 Beitrag',
+		2	=> '%d Beiträge',
+	),
 	'VIEW_UNREAD_POST'		=> 'Erster ungelesener Beitrag',
-	'VISIT_WEBSITE'			=> 'Website besuchen',
 	'VOTE_SUBMITTED'		=> 'Deine Abstimmung wurde erfasst.',
 	'VOTE_CONVERTED'		=> 'Das Ändern der Abstimmung ist bei Umfragen nicht möglich, die konvertiert wurden.',
 ));

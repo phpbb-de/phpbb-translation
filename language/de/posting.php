@@ -80,8 +80,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Nachricht löschen',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Bist du dir sicher, dass du diese Nachricht löschen möchtest?',
 	'DELETE_OWN_POSTS'			=> 'Du kannst nur deine eigenen Beiträge löschen.',
+	'DELETE_PERMANENTLY'		=> '#Delete permanently',
 	'DELETE_POST_CONFIRM'		=> 'Bist du dir sicher, dass du diesen Beitrag löschen möchtest?',
-	'DELETE_POST_WARN'			=> 'Nach dem Löschen kann der Beitrag nicht wiederhergestellt werden.',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete this post?',
+	'DELETE_POST_PERMANENTLY'	=> '#Permanently delete this post so it can not be recovered',
+	'DELETE_POSTS_CONFIRM'		=> '#Are you sure you want to delete these posts?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete these posts?',
+	'DELETE_REASON'				=> '#Soft delete reason',
+	'DELETE_REASON_EXPLAIN'		=> '#The specified reason for deletion will be visible to moderators.',
+	'DELETE_POST_WARN'			=> '#Delete this post',
+	'DELETE_TOPIC_CONFIRM'		=> '#Are you sure you want to delete this topic?',
+	'DELETE_TOPIC_PERMANENTLY'	=> '#Permanently delete this topic so it can not be recovered',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete this topic?',
+	'DELETE_TOPICS_CONFIRM'		=> '#Are you sure you want to delete these topics?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete these topics?',
 	'DISABLE_BBCODE'			=> 'BBCode ausschalten',
 	'DISABLE_MAGIC_URL'			=> 'URLs nicht automatisch verlinken',
 	'DISABLE_SMILIES'			=> 'Smilies ausschalten',
@@ -124,13 +136,31 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Du musst dich anmelden, um in diesem Forum Beiträge zu zitieren.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Du musst dich anmelden, um in diesem Forum auf Beiträge zu antworten.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Die Schriftgröße darf maximal %1$d betragen.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Deine Flash-Dateien dürfen maximal %1$d Pixel hoch sein.',
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Deine Flash-Dateien dürfen maximal %1$d Pixel breit sein.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Deine Bilder dürfen maximal %1$d Pixel hoch sein.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Deine Bilder dürfen maximal %1$d Pixel breit sein.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Die Schriftgröße darf maximal %d betragen.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %d.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> '#Your flash files may only be up to %d pixel high.',
+		2	=> '#Your flash files may only be up to %d pixels high.',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> '#Your flash files may only be up to %d pixel wide.',
+		2	=> '#Your flash files may only be up to %d pixels wide.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> '#Your images may only be up to %1$d pixel high.',
+		2	=> '#Your images may only be up to %1$d pixels high.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> '#Your images may only be up to %d pixel wide.',
+		2	=> '#Your images may only be up to %d pixels wide.',
+	),
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Gib deine Nachricht hier ein. Sie darf nicht mehr als <strong>%d</strong> Zeichen enthalten.',
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> '#Enter your message here, it may contain no more than <strong>%d</strong> character.',
+		2	=> 'Gib deine Nachricht hier ein. Sie darf nicht mehr als <strong>%d</strong> Zeichen enthalten.',
+	),
+	'MESSAGE_BODY_EXPLAIN'		=> 
 	'MESSAGE_DELETED'			=> 'Der Beitrag wurde erfolgreich gelöscht.',
 	'MORE_SMILIES'				=> 'Mehr Smilies anzeigen',
 
@@ -148,12 +178,20 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Im Beitrag anzeigen',
 	'POLL_DELETE'				=> 'Umfrage löschen',
 	'POLL_FOR'					=> 'Umfrage durchführen für',
-	'POLL_FOR_EXPLAIN'			=> 'Damit diese Umfrage nie endet, stelle als Wert 0 ein oder lasse ihn leer.',
+	'POLL_FOR_EXPLAIN'			=> 'Damit diese Umfrage nie endet, stelle als Wert 0 ein.',
 	'POLL_MAX_OPTIONS'			=> 'Auswahlmöglichkeiten pro Benutzer',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Diese Anzahl an Optionen kann ein Benutzer maximal auswählen.',
 	'POLL_OPTIONS'				=> 'Antworten der Umfrage',
 	'POLL_OPTIONS_EXPLAIN'		=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst bis zu <strong>%d</strong> Antwortmöglichkeiten angeben.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> '#Place each option on a new line. You may enter <strong>%d</strong> option.',
+		2	=> '#Place each option on a new line. You may enter up to <strong>%d</strong> options.',
+	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst bis zu <strong>%d</strong> Antwortmöglichkeiten angeben. Wenn du Optionen entfernst oder hinzufügst, werden alle vorherigen Abstimmungen zurückgesetzt.',
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> '#Place each option on a new line. You may enter <strong>%d</strong> option. If you remove or add options all previous votes will be reset.',
+		2	=> '#Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
+	),
 	'POLL_QUESTION'				=> 'Frage',
 	'POLL_TITLE_TOO_LONG'		=> 'Die Frage der Umfrage muss weniger als 100 Zeichen enthalten.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> 'Die umgesetzte Größe deiner Frage ist zu lang. Entferne ggf. BBCode oder Smilies.',
@@ -178,7 +216,10 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'				=> 'Thema schreiben als',
 	'PROGRESS_BAR'				=> 'Statusanzeige',
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Es können maximal %1$d Zitate ineinander verschachtelt werden.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> '#You may embed only %d quote within each other.',
+		2	=> 'Es können maximal %1$d Zitate ineinander verschachtelt werden.',
+	),
 
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
@@ -189,16 +230,23 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Smilies sind <em>eingeschaltet</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Zeitlimit für wichtige Themen/Bekanntmachungen',
 	'STICK_TOPIC_FOR'			=> 'Thema anpinnen für',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Damit dieses Thema für immer als wichtig/Bekanntmachung erscheint, stelle als Wert 0 ein oder lasse ihn leer. Beachte, dass sich diese Angabe auf den Erstellungszeitpunkt des Themas bezieht.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Damit dieses Thema für immer als wichtig/Bekanntmachung erscheint, stelle als Wert 0 ein. Beachte, dass sich diese Angabe auf den Erstellungszeitpunkt des Themas bezieht.',
 	'STYLES_TIP'				=> 'Tipp: Formatierungen können schnell auf den markierten Text angewandt werden.',
 
 	'TOO_FEW_CHARS'				=> 'Die eingegebene Nachricht ist zu kurz.',
-	'TOO_FEW_CHARS_LIMIT'		=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
+		2	=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Du musst mindestens zwei Antwortmöglichkeiten für die Umfrage eingeben.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Du kannst keinen weiteren Dateianhang hinzufügen. Die maximale Anzahl liegt bei %d.',
 	'TOO_MANY_CHARS'			=> 'Dein Beitrag enthält zu viele Zeichen.',
-	'TOO_MANY_CHARS_POST'		=> 'Dein Beitrag enthält %1$d Zeichen. Es sind maximal %2$d Zeichen erlaubt.',
-	'TOO_MANY_CHARS_SIG'		=> 'Deine Signatur enthält %1$d Zeichen. Es sind maximal %2$d Zeichen erlaubt.',
+	'TOO_MANY_CHARS_POST'		=> array(
+		2	=> 'Dein Beitrag enthält %1$d Zeichen. Es sind maximal %2$d Zeichen erlaubt.',
+	),
+	'TOO_MANY_CHARS_SIG'		=> array(
+		2	=> 'Deine Signatur enthält %1$d Zeichen. Es sind maximal %2$d Zeichen erlaubt.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Du hast zu viele Antwortmöglichkeiten eingegeben',
 	'TOO_MANY_SMILIES'			=> 'Dein Beitrag enthält zu viele Smilies. Die maximal erlaubte Anzahl von Smilies ist %d.',
 	'TOO_MANY_URLS'				=> 'Dein Beitrag enthält zu viele URLs. Die maximal erlaubte Anzahl von URLs ist %d.',
@@ -223,4 +271,5 @@ $lang = array_merge($lang, array(
 
 	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1d %2s.',
 	'WRONG_SIZE'				=> 'Das Bild muss zwischen %1$d und %3$d Pixel breit sowie zwischen %2$d und %4$d Pixel hoch sein. Das angegebene Bild ist %5$d Pixel breit und %6$d Pixel hoch.',
+	'WRONG_SIZE'				=> '#The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
 ));
