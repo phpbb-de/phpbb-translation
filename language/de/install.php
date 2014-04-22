@@ -4,7 +4,6 @@
 * install [Deutsch — Du]
 *
 * @package language
-* @version $Id: install.php 626 2013-10-01 10:39:28Z nickvergessen $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

@@ -4,7 +4,6 @@
 * acp_styles [English]
 *
 * @package language
-* @version $Id: styles.php 593 2012-06-23 16:25:42Z philippk $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

@@ -4,7 +4,6 @@
 * ucp [English]
 *
 * @package language
-* @version $Id: ucp.php 607 2013-07-15 18:45:11Z philippk $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

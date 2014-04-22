@@ -4,7 +4,6 @@
 * acp_forums [English]
 *
 * @package language
-* @version $Id: forums.php 581 2011-11-22 19:15:46Z philippk $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

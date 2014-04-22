@@ -4,7 +4,6 @@
 * search_ignore_words [English]
 *
 * @package language
-* @version $Id: search_ignore_words.php 432 2010-02-24 13:07:45Z philippk $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *

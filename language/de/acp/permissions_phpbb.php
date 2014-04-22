@@ -4,7 +4,6 @@
 * acp_permissions_phpbb (phpBB Permission Set) [Deutsch — Du]
 *
 * @package language
-* @version $Id: permissions_phpbb.php 617 2013-09-29 10:21:18Z pyramide $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
