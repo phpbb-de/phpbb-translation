@@ -39,6 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Hier kannst du alle Benutzergruppen verwalten. Du kannst bestehende löschen oder ändern oder neue Gruppen erstellen, Gruppenleiter auswählen, den Gruppenstatus (offen, versteckt, geschlossen) ändern sowie Name und Beschreibung der Gruppe einstellen.',
+	'ADD_GROUP_CATEGORY'			=> '#Add category',
 	'ADD_USERS'						=> 'Benutzer hinzufügen',
 	'ADD_USERS_EXPLAIN'				=> 'Hier kannst du neue Benutzer zur Gruppe hinzufügen. Du kannst einstellen, ob die Gruppe die neue Hauptgruppe für die gewählten Benutzer wird. Außerdem kannst du die Benutzer als Gruppenleiter eintragen. Bitte gib je einen Benutzernamen pro Zeile ein.',
 
@@ -53,11 +54,14 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Freigegebene Mitglieder',
 	'GROUP_AVATAR'					=> 'Gruppen-Avatar',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Dieses Bild wird in den Gruppendetails angezeigt.',
+	'GROUP_CATEGORY_NAME'			=> '#Category name',
 	'GROUP_CLOSED'					=> 'Geschlossen',
 	'GROUP_COLOR'					=> 'Gruppen-Farbe',
 	'GROUP_COLOR_EXPLAIN'			=> 'Farbe, die für die Mitglieder der Gruppe benutzt wird. Frei lassen für Standardfarbe der Benutzer.',
-	'GROUP_CONFIRM_ADD_USER'		=> 'Bist du dir sicher, dass du den Benutzer %1$s der Gruppe hinzufügen willst?',
-	'GROUP_CONFIRM_ADD_USERS'		=> 'Bist du dir sicher, dass du die Benutzer %1$s der Gruppe hinzufügen willst?',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> 'Bist du dir sicher, dass du den Benutzer %1$s der Gruppe hinzufügen willst?',
+		2	=> 'Bist du dir sicher, dass du die Benutzer %1$s der Gruppe hinzufügen willst?',
+	),
 	'GROUP_CREATED'					=> 'Gruppe erfolgreich erstellt.',
 	'GROUP_DEFAULT'					=> 'Zur Hauptgruppe des Mitglieds machen',
 	'GROUP_DEFS_UPDATED'			=> 'Hauptgruppe für alle ausgewählten Mitglieder gesetzt.',
@@ -99,6 +103,8 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'Gruppenweite Einstellungen',
 	'GROUP_SKIP_AUTH'				=> 'Gruppenleiter von Berechtigungen ausnehmen',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Wenn gesetzt, gelten die Berechtigungen der Gruppe nicht für die Gruppenleiter.',
+	'GROUP_SPECIAL'					=> '#Pre-defined',
+	'GROUP_TEAMPAGE'				=> '#Display group on teampage',
 	'GROUP_TYPE'					=> 'Gruppentyp',
 	'GROUP_TYPE_EXPLAIN'			=> 'Hier kannst du einstellen, wer die Gruppe sehen oder ihr beitreten darf.',
 	'GROUP_UPDATED'					=> 'Gruppeneinstellungen erfolgreich aktualisiert.',
@@ -107,19 +113,37 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_EXIST'				=> 'Die gewählten Benutzer sind bereits Mitglied der Gruppen.',
 	'GROUP_USERS_REMOVE'			=> 'Benutzer aus der Gruppe entfernt; neue Hauptgruppen erfolgreich eingestellt.',
 
+	'LEGEND_EXPLAIN'				=> '#These are the groups which are displayed in the group legend:',
+	'LEGEND_SETTINGS'				=> '#Legend settings',
+	'LEGEND_SORT_GROUPNAME'			=> '#Sort legend by group name',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> '#The order below is ignored when this option is enabled.',
+
+	'MANAGE_LEGEND'			=> '#Manage group legend',
+	'MANAGE_TEAMPAGE'		=> '#Manage teampage',
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Zur Hauptgruppe jedes Mitglieds machen',
 	'MEMBERS'				=> 'Mitglieder',
 
 	'NO_GROUP'					=> 'Keine Gruppe angegeben.',
+	'NO_GROUPS_ADDED'			=> '#No groups added yet.',
 	'NO_GROUPS_CREATED'			=> 'Es wurden bislang keine Gruppen erstellt.',
 	'NO_PERMISSIONS'			=> 'Berechtigungen nicht kopieren',
 	'NO_USERS'					=> 'Du hast keine Benutzer angegeben.',
 	'NO_USERS_ADDED'			=> 'Es wurden keine Benutzer der Gruppe hinzugefügt.',
 	'NO_VALID_USERS'			=> 'Du hast keine Benutzer angegeben, für die dieser Vorgang möglich wäre.',
 
+	'SELECT_GROUP'				=> '#Select a group',
 	'SPECIAL_GROUPS'			=> 'Systemgruppen',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Systemgruppen sind spezielle Gruppen, die nicht gelöscht oder bearbeitet werden können. Allerdings kannst du Benutzer hinzufügen und Grundeinstellungen ändern.',
 
+	'TEAMPAGE'					=> '#Teampage',
+	'TEAMPAGE_DISP_ALL'			=> '#All memberships',
+	'TEAMPAGE_DISP_DEFAULT'		=> '#User’s default group only',
+	'TEAMPAGE_DISP_FIRST'		=> '#First membership only',
+	'TEAMPAGE_EXPLAIN'			=> '#These are the groups which are displayed on the teampage:',
+	'TEAMPAGE_FORUMS'			=> '#Display moderated forums',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> '#If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.',
+	'TEAMPAGE_MEMBERSHIPS'		=> '#Display user memberships',
+	'TEAMPAGE_SETTINGS'			=> '#Teampage settings',
 	'TOTAL_MEMBERS'				=> 'Mitglieder',
 
 	'USERS_APPROVED'				=> 'Benutzer erfolgreich bestätigt',

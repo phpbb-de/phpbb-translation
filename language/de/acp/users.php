@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Du kannst keine erneute Aktivierung für Benutzerkonten von Gründern erzwingen.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Du kannst für dein eigenes Benutzerkonto keine erneute Aktivierung erzwingen.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Du kannst das Gäste-Benutzerkonto nicht löschen.',
+	'CANNOT_REMOVE_FOUNDER'			=> '#You are not allowed to remove founder accounts.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Du kannst dein eigenes Benutzerkonto nicht löschen.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Du kannst keine ignorierten Mitglieder zu Gründern ernennen.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Du musst Benutzer erst aktivieren, bevor du sie zum Gründer ernennen kannst, da nur aktive Benutzer zum Gründer ernannt werden können.',
