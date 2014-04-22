@@ -47,6 +47,7 @@ $help = array(
 	array(
 		0 => 'Warum werde ich automatisch abgemeldet?',
 		1 => 'Wenn du beim Anmelden das Kontrollkästchen „Mich bei jedem Besuch automatisch anmelden“ nicht auswählst, wirst du nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch deines Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, kannst du dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn du dich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befindest. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.'
+		1 => '#If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
 	),
 	array(
 		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
@@ -90,7 +91,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ich habe die Zeitzone eingestellt, aber die Forenuhr geht immer noch falsch!',
-		1 => 'Wenn du dir sicher bist, dass du die Zeitzone und die Sommerzeit richtig eingestellt hast und die Zeit trotzdem noch falsch ist, geht die Uhr des Servers vermutlich falsch. Kontaktiere einen Administrator, damit er das Problem beheben kann.'
+		1 => 'Wenn du dir sicher bist, dass du die Zeitzone richtig eingestellt hast und die Zeit trotzdem noch falsch ist, geht die Uhr des Servers vermutlich falsch. Kontaktiere einen Administrator, damit er das Problem beheben kann.'
 		),
 	array(
 		0 => 'Meine Sprache steht auf diesem Board nicht zur Auswahl!',

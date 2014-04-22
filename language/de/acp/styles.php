@@ -238,7 +238,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kannst du den ausgewählten Style und die dazugehörigen Komponenten installieren. Wenn du die relevanten Komponenten des Styles bereits installiert hast, werden diese nicht überschrieben. Manche Styles benötigen zusätzliche Komponenten, die bereits installiert sein müssen. Wenn du einen solchen Style installierst und nicht alle erforderlichen Komponenten hast, wirst du darüber informiert.',
 	'INSTALL_STYLES_EXPLAIN'	=> '#Here you can install new styles.<br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.',
 	'INSTALLED_STYLE'			=> 'Installierte Styles',
-	'INVALID_STYLE_ID'			=> 'Invalid style ID.',
+	'INVALID_STYLE_ID'			=> '#Invalid style ID.',
 
 	'LINE_SPACING'				=> 'Zeilenabstand',
 	'LOCALISED_IMAGES'			=> 'Übersetzt',
