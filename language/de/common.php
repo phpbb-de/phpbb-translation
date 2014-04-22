@@ -199,7 +199,7 @@ $lang = array_merge($lang, array(
 	),
 
 	'EDIT_POST'							=> 'Ändere Beitrag',
-	'ELLIPSIS'							=>	'…',
+	'ELLIPSIS'							=> '…',
 	'EMAIL'								=> 'E-Mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'E-Mail-Adresse',
 	'EMAIL_INVALID_EMAIL'				=> 'Die angegebenen E-Mail-Adresse ist ungültig.',
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'ERR_UNWATCHING'					=> 'Beim Versuch, das Thema nicht mehr zu beobachten, ist ein Fehler aufgetreten.',
 	'ERR_WATCHING'						=> 'Beim Versuch, das Thema zu beobachten, ist ein Fehler aufgetreten.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Der angegebene phpBB-Pfad scheint ungültig zu sein.',
-	'ERROR'									=> 'Fehler',
+	'ERROR'								=> 'Fehler',
 	'EXPAND_VIEW'						=> 'Ansicht erweitern',
 	'EXTENSION'							=> 'Dateierweiterung',
 	'EXTENSION_CONTROLLER_MISSING'		=> 'Die Erweiterung <strong>%s</strong> besitzt keine Steuerungs-Klasse und ist daher nicht über die Oberfläche zugänglich.', // TODO: Klärung controller class
@@ -451,7 +451,7 @@ $lang = array_merge($lang, array(
 	),
 	'NOTIFICATION_REPORT_PM'			=> '%1$s hat eine Private Nachricht „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s hat einen Beitrag „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
-	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s hat die Meldung geschlossen, die du für „%2$s“ erstellt hast.',
+	'NOTIFICATION_REPORT_CLOSED'		=> '%1$s hat die Meldung geschlossen, die du für „%2$s“ erstellt hast.',
 	'NOTIFICATION_TOPIC'				=> '%1$s hat ein neues Thema „%2$s“ im Forum „%3$s“ erstellt.',
 	'NOTIFICATION_TOPIC_APPROVED'		=> 'Dein Beitrag „%2$s“ im Forum „%3$s“ wurde freigegeben.',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Die Freigabe deines Beitrags „%1$s“ wurde aus folgendem Grund abgelehnt: „%2$s“.',
