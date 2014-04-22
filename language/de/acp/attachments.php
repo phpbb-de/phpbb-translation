@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximale Größe pro Datei in Privaten Nachrichten; 0 bedeutet unbegrenzt.',
 	'ATTACH_ORPHAN_URL'					=> 'Verwaiste Dateianhänge',
 	'ATTACH_POST_ID'					=> 'Beitrags-ID',
+	'ATTACH_POST_TYPE'					=> '#Post type',
 	'ATTACH_QUOTA'						=> 'Maximales Kontingent für Dateianhänge',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximaler für Dateianhänge verfügbarer Speicherplatz für das gesamte Forum; 0 bedeutet unbegrenzt.',
 	'ATTACH_TO_POST'					=> 'Datei an den Beitrag anhängen',
