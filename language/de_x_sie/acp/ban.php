@@ -83,5 +83,3 @@ $lang = array_merge($lang, array(
 	'USER_UNBAN'				=> 'Benutzernamen entsperren oder Ausnahmen entfernen',
 	'USER_UNBAN_EXPLAIN'		=> 'Sie können mehrere Benutzer gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem Sie mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markieren. Benutzernamen auf der Ausnahmeliste sind hervorgehoben.'
 ));
-
-?>

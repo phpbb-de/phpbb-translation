@@ -130,5 +130,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Wenn hier ja gewählt wird, wird diese Gruppe die Hauptgruppe für die neu hinzugefügten Benutzer.',
 	'USER_GROUP_LEADER'				=> 'Zum Gruppenleiter machen',
 ));
-
-?>

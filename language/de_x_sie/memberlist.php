@@ -147,5 +147,3 @@ $lang = array_merge($lang, array(
 
 	'WWW'					=> 'Website',
 ));
-
-?>

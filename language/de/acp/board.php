@@ -548,5 +548,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Jabber-Benutzername oder JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Gib einen bereits registrierten Benutzernamen oder eine gültige JID an. Der Benutzername wird nicht auf Gültigkeit geprüft. Wenn du nur einen Benutzernamen angibst, wird die JID aus dem Benutzernamen und dem oben festgelegten Server ermittelt. Gebe ansonsten eine gültige JID wie <samp>user@jabber.org</samp> ein.',
 ));
-
-?>

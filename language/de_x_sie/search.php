@@ -105,5 +105,3 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_AUTHOR_CHARS'	=> 'Sie müssen mindestens %d Zeichen des Benutzernamens angeben.',
 ));
-
-?>

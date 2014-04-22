@@ -50,5 +50,3 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_EXPLAIN'				=> 'Um automatische Eingaben zu unterbinden, müssen Sie die beiden angezeigten Wörter in das untenstehende Feld eingeben.',
 ));
-
-?>

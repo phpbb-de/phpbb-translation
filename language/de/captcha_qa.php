@@ -63,5 +63,3 @@ $lang = array_merge($lang, array(
 	'QA_LAST_QUESTION'			=> 'Du kannst nicht alle Fragen löschen, solange das Plugin aktiv ist.',
 
 ));
-
-?>

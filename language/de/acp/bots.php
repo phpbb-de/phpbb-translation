@@ -71,5 +71,3 @@ $lang = array_merge($lang, array(
 	'NO_BOT'		=> 'Konnte keinen Bot mit der angegebenen ID finden.',
 	'NO_BOT_GROUP'	=> 'Die spezielle Bot-Gruppe konnte nicht gefunden werden.',
 ));
-
-?>

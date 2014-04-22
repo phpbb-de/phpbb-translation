@@ -898,5 +898,3 @@ $lang = array_merge($lang, array(
 	'default_dateformat'	=> 'D j. M Y, H:i', // Mo 1. Jan 2007, 13:57
 
 ));
-
-?>

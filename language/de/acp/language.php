@@ -101,5 +101,3 @@ $lang = array_merge($lang, array(
 
 	'WRONG_LANGUAGE_FILE'		=> 'Die gewählte Sprachdatei ist ungültig.',
 ));
-
-?>

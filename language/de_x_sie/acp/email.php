@@ -67,5 +67,3 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'		=> 'Sie müssen eine Nachricht angeben.',
 	'NO_EMAIL_SUBJECT'		=> 'Sie müssen einen Betreff für die Nachricht angeben.',
 ));
-
-?>

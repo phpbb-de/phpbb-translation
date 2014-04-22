@@ -47,5 +47,3 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you enter both of the words displayed into the text field underneath.',
 ));
-
-?>

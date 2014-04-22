@@ -241,5 +241,3 @@ $lang = array_merge($lang, array(
 	'acl_a_backup'		=> array('lang' => 'Kann ein Backup der Datenbank vornehmen und sie wiederherstellen', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'Kann Such-Backends verwalten und einstellen', 'cat' => 'misc'),
 ));
-
-?>

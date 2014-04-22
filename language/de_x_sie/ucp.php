@@ -599,5 +599,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'Sie haben keine laufenden Beitrittsanfragen',
 	'NO_NONMEMBER'	=> 'Es gibt keine Gruppe, in der Sie nicht Mitglied sind',
 ));
-
-?>

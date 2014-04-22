@@ -114,5 +114,3 @@ $help = array(
 		1 => 'Wenn Sie ein Administrator mit entsprechenden Rechten auf diesem Board sind, können Sie im Bereich für benutzerdefinierte BBCode-Tags weitere Tags definieren.'
 	)
 );
-
-?>

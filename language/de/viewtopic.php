@@ -114,5 +114,3 @@ $lang = array_merge($lang, array(
 	'VOTE_SUBMITTED'		=> 'Deine Abstimmung wurde erfasst.',
 	'VOTE_CONVERTED'		=> 'Das Ändern der Abstimmung ist bei Umfragen nicht möglich, die konvertiert wurden.',
 ));
-
-?>

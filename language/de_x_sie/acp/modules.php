@@ -82,5 +82,3 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MODULE'			=> 'Wählen Sie ein Modul',
 ));
-
-?>

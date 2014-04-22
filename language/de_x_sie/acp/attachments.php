@@ -172,5 +172,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Upload-Symbol',
 	'UPLOAD_NOT_DIR'				=> 'Der angegebene Pfad für hochgeladene Dateien ist kein existierendes Verzeichnis.',
 ));
-
-?>

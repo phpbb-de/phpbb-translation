@@ -495,5 +495,3 @@ $words = array(
 	'zwar',
 	'zwischen',
 );
-
-?>

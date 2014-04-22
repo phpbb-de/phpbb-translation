@@ -286,5 +286,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_TYPE'				=> 'Falsche Berechtigungs-Art ausgewählt.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Die Berechtigungs-Einstellungen sind in einem falschen Format, phpBB kann sie nicht verarbeiten.',
 ));
-
-?>

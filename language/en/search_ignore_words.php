@@ -267,5 +267,3 @@ $words = array(
 	'ROTFLMAO',
 	'YMMV',
 );
-
-?>

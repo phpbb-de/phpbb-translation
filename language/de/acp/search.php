@@ -107,5 +107,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Aktualisierung des Suchindexes erlauben',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Erlaubt eine Aktualisierung des Indexes beim Erstellen/Ändern von Beiträgen. Wird überschrieben, wenn die Suchfunktion deaktiviert ist.',
 ));
-
-?>

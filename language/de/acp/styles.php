@@ -437,5 +437,3 @@ $lang = array_merge($lang, array(
 	'UNSET'					=> 'Nicht definiert',
 
 ));
-
-?>

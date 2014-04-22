@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	'QA_ERROR_MSG'				=> 'Bitte füllen Sie alle Felder aus und geben Sie mindestens eine Antwort an.',
 	'QA_LAST_QUESTION'			=> 'Sie können nicht alle Fragen löschen, solange das Plugin aktiv ist.',
 ));
-
-?>

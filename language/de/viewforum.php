@@ -69,5 +69,3 @@ $lang = array_merge($lang, array(
 	'VIEW_FORUM_TOPIC'		=> '1 Thema',
 	'VIEW_FORUM_TOPICS'		=> '%d Themen',
 ));
-
-?>

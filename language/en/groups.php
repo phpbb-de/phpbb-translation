@@ -91,5 +91,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?',
 	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.',
 ));
-
-?>

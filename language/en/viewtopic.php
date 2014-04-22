@@ -112,5 +112,3 @@ $lang = array_merge($lang, array(
 	'VOTE_CONVERTED'		=> 'Changing votes is not supported for converted polls.',
 
 ));
-
-?>

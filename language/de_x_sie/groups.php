@@ -94,5 +94,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Sind Sie sich sicher, dass Sie Ihr Amt als Gruppenleiter der ausgewählten Gruppe niederlegen möchten?',
 	'USER_GROUP_DEMOTED'		=> 'Die Führung wurde erfolgreich niedergelegt.',
 ));
-
-?>
