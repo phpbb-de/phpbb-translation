@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: users.php 595 2012-08-01 15:20:33Z philippk $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 

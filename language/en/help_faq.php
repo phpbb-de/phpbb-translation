@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: help_faq.php 610 2013-08-13 19:38:53Z philippk $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 

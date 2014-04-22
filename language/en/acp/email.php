@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: email.php 566 2011-06-15 20:18:41Z philippk $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 

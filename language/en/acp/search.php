@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: search.php 606 2013-07-14 19:49:11Z philippk $
 * @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 

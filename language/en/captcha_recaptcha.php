@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: captcha_recaptcha.php 565 2011-06-14 20:43:48Z philippk $
 * @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
