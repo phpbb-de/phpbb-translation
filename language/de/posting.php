@@ -4,7 +4,7 @@
 * posting [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -213,7 +213,7 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Statusanzeige',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'Es kannst Zitate nicht ineinander verschachteln.', // https://tracker.phpbb.com/browse/PHPBB3-12433
+		1	=> 'Du kannst Zitate nicht ineinander verschachteln.', // https://tracker.phpbb.com/browse/PHPBB3-12433
 		2	=> 'Es können maximal %d Zitate ineinander verschachtelt werden.',
 	),
 

@@ -4,7 +4,7 @@
 * common [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -219,10 +219,7 @@ $lang = array_merge($lang, array(
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'Der angegebene phpBB-Pfad scheint ungültig zu sein.',
 	'ERROR'								=> 'Fehler',
 	'EXPAND_VIEW'						=> 'Ansicht erweitern',
-	'EXTENSION'							=> 'Erweiterung',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'Die Erweiterung <strong>%s</strong> besitzt keine Steuerungs-Klasse und ist daher nicht über die Oberfläche zugänglich.', // TODO: Klärung controller class
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'Die Steuerungs-Klasse <strong>%s</strong> der Erweiterung ist keine Instanz von phpbb_extension_controller_interface.', // TODO: Klärung controller class
-	'EXTENSION_DISABLED'				=> 'Die Erweiterung <strong>%s</strong> ist nicht aktiviert.',
+	'EXTENSION'							=> 'Dateierweiterung',
 	'EXTENSION_CONTROLLER_MISSING'		=> 'Die Erweiterung <strong>%s</strong> besitzt keine Steuerungs-Klasse und ist daher nicht über die Oberfläche zugänglich.', // TODO: Klärung controller class
 	'EXTENSION_CLASS_WRONG_TYPE'		=> 'Die Steuerungs-Klasse <strong>%s</strong> der Erweiterung ist keine Instanz von phpbb_extension_controller_interface.', // TODO: Klärung controller class
 	'EXTENSION_DISABLED'				=> 'Die Erweiterung <strong>%s</strong> ist nicht aktiviert.',
