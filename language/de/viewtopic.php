@@ -4,7 +4,7 @@
 * viewtopic [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'							=> '#Approve',
+	'APPROVE'								=> 'Freigeben',
 	'ATTACHMENT'						=> 'Dateianhang',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Die Funktion für Dateianhänge wurde deaktiviert.',
 
@@ -53,21 +53,20 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Code',
 
 	'DELETE_TOPIC'			=> 'Thema löschen',
-	'DELETED_INFORMATION'	=> '#Deleted by %1$s on %2$s',
-	'DISAPPROVE'			=> '#Disapprove',
+	'DELETED_INFORMATION'	=> 'Gelöscht durch %1$s am %2$s',
+	'DISAPPROVE'					=> 'Freigabe zurückziehen',
 	'DOWNLOAD_NOTICE'		=> 'Du hast keine ausreichende Berechtigung, um die Dateianhänge dieses Beitrags anzusehen.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Zuletzt geändert von %1$s am %2$s, insgesamt %3$d-mal geändert.',
-		2	=> 'Zuletzt geändert von %1$s am %2$s, insgesamt %3$d-mal geändert.',
+		1	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.', // TODO: einmal vs. 1-mal
+		2	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.',
 	),
 	'EMAIL_TOPIC'			=> 'Thema weiterempfehlen',
 	'ERROR_NO_ATTACHMENT'	=> 'Der ausgewählte Dateianhang existiert nicht mehr.',
 
 	'FILE_NOT_FOUND_404'	=> 'Die Datei <strong>%s</strong> existiert nicht.',
 	'FORK_TOPIC'			=> 'Thema duplizieren',
-	'FULL_EDITOR'			=> 'Vollständiger Editor',
-	'FULL_EDITOR'			=> '#Full Editor &amp; Preview',
+	'FULL_EDITOR'			=> 'Vollständiger Editor &amp; Vorschau',
 
 	'LINKAGE_FORBIDDEN'		=> 'Du bist nicht berechtigt, diese Seite anzusehen, von ihr herunterzuladen oder auf sie zu linken.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Du wurdest über einen neuen Beitrag in diesem Thema informiert. Bitte melde dich an, um es anzusehen.',
@@ -94,7 +93,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'Umfrage endete am %s',
 	'POLL_RUN_TILL'			=> 'Die Umfrage läuft bis %s.',
 	'POLL_VOTED_OPTION'		=> 'Du hast für diese Option gestimmt',
-	'POST_DELETED_RESTORE'	=> '#This post has been deleted. It can be restored.',
+	'POST_DELETED_RESTORE'	=> 'Dieser Beitrag wurde gelöscht, kann aber wiederhergestellt werden.',
 	'PRINT_TOPIC'			=> 'Druckansicht',
 
 	'QUICK_MOD'				=> 'Schnellmoderation',
@@ -102,8 +101,8 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Zitat',
 
 	'REPLY_TO_TOPIC'		=> 'Auf das Thema antworten',
-	'RESTORE'				=> '#Restore',
-	'RESTORE_TOPIC'			=> '#Restore topic',
+	'RESTORE'				=> 'Wiederherstellen',
+	'RESTORE_TOPIC'			=> 'Thema wiederherstellen',
 	'RETURN_POST'			=> '%sZurück zum Beitrag%s',
 
 	'SUBMIT_VOTE'			=> 'Abstimmen',
@@ -118,10 +117,11 @@ $lang = array_merge($lang, array(
 	'VIEW_PREVIOUS_TOPIC'	=> 'Vorheriges Thema',
 	'VIEW_RESULTS'			=> 'Ergebnis anzeigen',
 	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '1 Beitrag',
+		1	=> '%d Beitrag',
 		2	=> '%d Beiträge',
 	),
 	'VIEW_UNREAD_POST'		=> 'Erster ungelesener Beitrag',
 	'VOTE_SUBMITTED'		=> 'Deine Abstimmung wurde erfasst.',
 	'VOTE_CONVERTED'		=> 'Das Ändern der Abstimmung ist bei Umfragen nicht möglich, die konvertiert wurden.',
+
 ));

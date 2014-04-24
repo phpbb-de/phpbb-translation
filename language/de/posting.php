@@ -4,7 +4,7 @@
 * posting [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -80,20 +80,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Nachricht löschen',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Bist du dir sicher, dass du diese Nachricht löschen möchtest?',
 	'DELETE_OWN_POSTS'			=> 'Du kannst nur deine eigenen Beiträge löschen.',
-	'DELETE_PERMANENTLY'		=> '#Delete permanently',
+	'DELETE_PERMANENTLY'		=> 'Endgültig löschen', // TODO: oder Dauerhaft löschen?
 	'DELETE_POST_CONFIRM'		=> 'Bist du dir sicher, dass du diesen Beitrag löschen möchtest?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete this post?',
-	'DELETE_POST_PERMANENTLY'	=> '#Permanently delete this post so it can not be recovered',
-	'DELETE_POSTS_CONFIRM'		=> '#Are you sure you want to delete these posts?',
-	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete these posts?',
-	'DELETE_REASON'				=> '#Soft delete reason',
-	'DELETE_REASON_EXPLAIN'		=> '#The specified reason for deletion will be visible to moderators.',
-	'DELETE_POST_WARN'			=> '#Delete this post',
-	'DELETE_TOPIC_CONFIRM'		=> '#Are you sure you want to delete this topic?',
-	'DELETE_TOPIC_PERMANENTLY'	=> '#Permanently delete this topic so it can not be recovered',
-	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete this topic?',
-	'DELETE_TOPICS_CONFIRM'		=> '#Are you sure you want to delete these topics?',
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> '#Are you sure you want to <strong>permanently</strong> delete these topics?',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Bist du dir sicher, dass du diesen Beitrag <strong>endgültig</strong> löschen möchtest?',
+	'DELETE_POST_PERMANENTLY'	=> 'Diesen Beitrag endgültig löschen, so dass er nicht wiederhergestellt werden kann',
+	'DELETE_POSTS_CONFIRM'		=> 'Bist du dir sicher, dass du diese Beiträge löschen möchtest?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Bist du dir sicher, dass du diese Beiträge <strong>endgültig</strong> löschen möchtest?',
+	'DELETE_REASON'				=> 'Begründung für Löschung',
+	'DELETE_REASON_EXPLAIN'		=> 'Moderatoren können die für die Löschung angegebene Begründung lesen.',
+	'DELETE_POST_WARN'			=> 'Diesen Beitrag löschen',
+	'DELETE_TOPIC_CONFIRM'		=> 'Bist du dir sicher, dass du dieses Thema löschen möchtest?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Dieses Theme endgültig löschen, so dass es nicht wiederhergestellt werden kann',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Bist du dir sicher, dass du dieses Theme <strong>endgültig</strong> löschen möchtest?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Bist du dir sicher, dass du diese Themen löschen möchtest?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Bist du dir sicher, dass du diese Themen <strong>endgültig</strong> löschen möchtest?',
 	'DISABLE_BBCODE'			=> 'BBCode ausschalten',
 	'DISABLE_MAGIC_URL'			=> 'URLs nicht automatisch verlinken',
 	'DISABLE_SMILIES'			=> 'Smilies ausschalten',
@@ -137,27 +137,26 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_REPLY'		=> 'Du musst dich anmelden, um in diesem Forum auf Beiträge zu antworten.',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Die Schriftgröße darf maximal %d betragen.',
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
-		1	=> '#Your flash files may only be up to %d pixel high.',
-		2	=> '#Your flash files may only be up to %d pixels high.',
+		1	=> 'Deine Flash-Dateien dürfen maximal %1$d Pixel hoch sein.',
+		2	=> 'Deine Flash-Dateien dürfen maximal %1$d Pixel hoch sein.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
-		1	=> '#Your flash files may only be up to %d pixel wide.',
-		2	=> '#Your flash files may only be up to %d pixels wide.',
+		1	=> 'Deine Flash-Dateien dürfen maximal %1$d Pixel breit sein.',
+		2	=> 'Deine Flash-Dateien dürfen maximal %1$d Pixel breit sein.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
-		1	=> '#Your images may only be up to %1$d pixel high.',
-		2	=> '#Your images may only be up to %1$d pixels high.',
+		1	=> 'Deine Bilder dürfen maximal %1$d Pixel hoch sein.',
+		2	=> 'Deine Bilder dürfen maximal %1$d Pixel hoch sein.',
 	),
 	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
-		1	=> '#Your images may only be up to %d pixel wide.',
-		2	=> '#Your images may only be up to %d pixels wide.',
+		1	=> 'Deine Bilder dürfen maximal %1$d Pixel breit sein.',
+		2	=> 'Deine Bilder dürfen maximal %1$d Pixel breit sein.',
 	),
 
 	'MESSAGE_BODY_EXPLAIN'		=> array(
 		0	=> '', // zero means no limit, so we don't view a message here.
-		1	=> '#Enter your message here, it may contain no more than <strong>%d</strong> character.',
+		1	=> 'Gib deine Nachricht hier ein. Sie darf nicht mehr als <strong>%d</strong> Zeichen enthalten.',
 		2	=> 'Gib deine Nachricht hier ein. Sie darf nicht mehr als <strong>%d</strong> Zeichen enthalten.',
 	),
 	'MESSAGE_DELETED'			=> 'Der Beitrag wurde erfolgreich gelöscht.',
@@ -181,15 +180,13 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS'			=> 'Auswahlmöglichkeiten pro Benutzer',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Diese Anzahl an Optionen kann ein Benutzer maximal auswählen.',
 	'POLL_OPTIONS'				=> 'Antworten der Umfrage',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst bis zu <strong>%d</strong> Antwortmöglichkeiten angeben.',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
-		1	=> '#Place each option on a new line. You may enter <strong>%d</strong> option.',
-		2	=> '#Place each option on a new line. You may enter up to <strong>%d</strong> options.',
+		1	=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst <strong>eine</strong> Antwortmöglichkeit angeben.',
+		2	=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst bis zu <strong>%d</strong> Antwortmöglichkeiten angeben.',
 	),
-	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst bis zu <strong>%d</strong> Antwortmöglichkeiten angeben. Wenn du Optionen entfernst oder hinzufügst, werden alle vorherigen Abstimmungen zurückgesetzt.',
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
-		1	=> '#Place each option on a new line. You may enter <strong>%d</strong> option. If you remove or add options all previous votes will be reset.',
-		2	=> '#Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
+		1	=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst <strong>eine</strong> Antwortmöglichkeit angeben. Wenn du Optionen entfernst oder hinzufügst, werden alle vorherigen Abstimmungen zurückgesetzt.',
+		2	=> 'Gib jede Antwort in einer separaten Zeile ein. Du kannst bis zu <strong>%d</strong> Antwortmöglichkeiten angeben. Wenn du Optionen entfernst oder hinzufügst, werden alle vorherigen Abstimmungen zurückgesetzt.',
 	),
 	'POLL_QUESTION'				=> 'Frage',
 	'POLL_TITLE_TOO_LONG'		=> 'Die Frage der Umfrage muss weniger als 100 Zeichen enthalten.',
@@ -216,8 +213,8 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Statusanzeige',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> '#You may embed only %d quote within each other.',
-		2	=> 'Es können maximal %1$d Zitate ineinander verschachtelt werden.',
+		1	=> 'Du kannst Zitate nicht ineinander verschachteln.', // https://tracker.phpbb.com/browse/PHPBB3-12433
+		2	=> 'Es können maximal %d Zitate ineinander verschachtelt werden.',
 	),
 
 	'SAVE'						=> 'Entwurf speichern',
@@ -269,6 +266,5 @@ $lang = array_merge($lang, array(
 	'VIEW_PRIVATE_MESSAGE'		=> '%sDeine Private Nachricht anzeigen%s',
 
 	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1d %2s.',
-	'WRONG_SIZE'				=> 'Das Bild muss zwischen %1$d und %3$d Pixel breit sowie zwischen %2$d und %4$d Pixel hoch sein. Das angegebene Bild ist %5$d Pixel breit und %6$d Pixel hoch.',
-	'WRONG_SIZE'				=> '#The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
+	'WRONG_SIZE'				=> 'Das Bild muss zwischen %1$s und %3$s breit sowie zwischen %2$s und %4$s hoch sein. Das angegebene Bild ist %5$d breit und %6$d hoch.',
 ));

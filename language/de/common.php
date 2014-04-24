@@ -4,7 +4,7 @@
 * common [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'	=> 'Deutsche Übersetzung durch <a href="https://www.phpbb.de/">phpBB.de</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|j. M Y|',	// 1. Jan 2007 (with Relative days enabled)
-	'DATETIME_FORMAT'	=> '|j. M Y, H:i|',	// 1. Jan 2007, 13:37 (with Relative days enabled)
+	'DATETIME_FORMAT'	=> '|j. M Y H:i|',	// 1. Jan 2007 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'de',
 
 	// You can define different rules for the determination of plural forms here.
