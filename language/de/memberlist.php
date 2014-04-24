@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Letzte Aktivität',
 	'LESS_THAN'					=> 'Weniger als',
-	'LIST_USERS'				=> array
+	'LIST_USERS'				=> array(
 		1	=> '1 Mitglied',
 		2	=> '%d Mitglieder',
 	),
