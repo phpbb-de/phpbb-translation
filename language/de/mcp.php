@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Letzte Verwarnung',
 	'LATEST_WARNINGS'			=> 'Die letzten 5 Verwarnungen',
 	'LEAVE_SHADOW'				=> 'Einen Link im alten Forum beibehalten',
-	'LIST_REPORTS'				=> array
+	'LIST_REPORTS'				=> array(
 		1	=> '1 Meldung',
 		2	=> '%d Meldungen',
 	),

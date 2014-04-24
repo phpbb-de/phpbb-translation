@@ -160,7 +160,6 @@ $lang = array_merge($lang, array(
 		1	=> '#Enter your message here, it may contain no more than <strong>%d</strong> character.',
 		2	=> 'Gib deine Nachricht hier ein. Sie darf nicht mehr als <strong>%d</strong> Zeichen enthalten.',
 	),
-	'MESSAGE_BODY_EXPLAIN'		=> 
 	'MESSAGE_DELETED'			=> 'Der Beitrag wurde erfolgreich gelöscht.',
 	'MORE_SMILIES'				=> 'Mehr Smilies anzeigen',
 

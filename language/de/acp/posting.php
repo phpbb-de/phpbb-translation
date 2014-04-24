@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Kein Smilie wurde aktualisiert.',
 		1	=> 'Der Smilie wurde erfolgreich aktualisiert.',
 		2	=> 'Die Smilies wurden erfolgreich aktualisiert.',
-	),,
+	),
 	'SMILIES_EMOTION'			=> 'Beschreibung',
 	'SMILIES_HEIGHT'			=> 'Höhe',
 	'SMILIES_IMAGE'				=> 'Smilie-Bild',
