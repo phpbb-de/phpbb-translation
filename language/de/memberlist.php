@@ -4,7 +4,7 @@
 * memberlist [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -89,13 +89,13 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Letzte Aktivität',
 	'LESS_THAN'					=> 'Weniger als',
-	'LIST_USERS'				=> array
-		1	=> '1 Mitglied',
+	'LIST_USERS'				=> array(
+		1	=> '%d Mitglied',
 		2	=> '%d Mitglieder',
 	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'Du musst registriert und angemeldet sein, um die Liste der Team-Mitglieder anzuschauen.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Du musst registriert und angemeldet sein, um auf die Mitgliederliste zuzugreifen.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Du musst registriert und angemeldet sein, um nach Mitgliedern zu suchen.',
-	'LOGIN_EXPLAIN_TEAM'		=> 'Du musst registriert und angemeldet sein, um die Liste der Team-Mitglieder anzuschauen.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Du musst registriert und angemeldet sein, um Profile anzuschauen.',
 
 	'MORE_THAN'				=> 'Mehr als',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Anwesenheit im Board',
-	'USERS_PER_PAGE'		=> '#Users per page',
+	'USERS_PER_PAGE'		=> 'Mitglieder pro Seite',
 
 	'VIEWING_PROFILE'		=> 'Profil von %s',
 ));

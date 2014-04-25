@@ -4,7 +4,7 @@
 * search [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
+* @copyright (c) 2005 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Die Suche ergab %d Treffer',
 		2	=> 'Die Suche ergab %d Treffer',
 	),
-	'FOUND_MORE_SEARCH_MATCHES'	=> array(
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
 		1	=> 'Die Suche ergab mehr als %d Treffer',
 		2	=> 'Die Suche ergab mehr als %d Treffer',
 	),
@@ -68,8 +68,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Deine Suchanfrage enthält zu viele Wörter. Bitte gib nicht mehr als %1$d Wörter an.',
 	),
 
-	'NO_KEYWORDS'			=> 'Du musst mindestens ein Wort angeben, nach dem gesucht werden soll. Jedes Wort muss aus mindestens %d Buchstaben bestehen und darf ohne Platzhalter nicht mehr als %d Buchstaben haben.',
-	'NO_KEYWORDS'			=> '#You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
+	'NO_KEYWORDS'			=> 'Du musst mindestens ein Wort angeben, nach dem gesucht werden soll. Jedes Wort muss aus mindestens %s bestehen und darf ohne Platzhalter nicht mehr als %s haben.',
 	'NO_RECENT_SEARCHES'	=> 'In der letzten Zeit wurden keine Suchanfragen durchgeführt.',
 	'NO_SEARCH'				=> 'Du bist leider nicht berechtigt, die Suche zu verwenden.',
 	'NO_SEARCH_RESULTS'		=> 'Es wurden keine passenden Ergebnisse gefunden.',
@@ -79,7 +78,7 @@ $lang = array_merge($lang, array(
 	'WORDS_IN_NO_POST'		=> 'Es wurden keine Beiträge gefunden, weil die Wörter <strong>%s</strong> in keinem Beitrag enthalten sind.',
 
 	'POST_CHARACTERS'		=> 'Zeichen der Beiträge anzeigen',
-	'PHRASE_SEARCH_DISABLED'	=> '#Searching by exact phrase is not supported on this board.',
+	'PHRASE_SEARCH_DISABLED'	=> 'Die Suche nach einem exakten Ausdruck wird auf diesem Board nicht unterstützt.',
 
 	'RECENT_SEARCHES'		=> 'Die letzten Suchanfragen',
 	'RESULT_DAYS'			=> 'Suchzeitraum begrenzen',
@@ -112,8 +111,8 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Forum',
 	'SORT_POST_SUBJECT'			=> 'Betreff des Beitrags',
 	'SORT_TIME'					=> 'Erstellungsdatum des Beitrags',
-	'SPHINX_SEARCH_FAILED'		=> '#Search failed: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> '#Sorry, search could not be performed. More information about this failure has been logged in the error log.',
+	'SPHINX_SEARCH_FAILED'		=> 'Suche gescheitert: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Die Suche konnte leider nicht ausgeführt werden. Mehr Informationen zu diesem Fehler können im erstellten Fehler-Protokoll gefunden werden.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
 		1	=> 'Du musst mindestens %d Zeichen des Benutzernamens angeben.',
