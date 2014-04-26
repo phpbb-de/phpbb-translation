@@ -4,7 +4,7 @@
 * recaptcha [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2009 phpBB Group
+* @copyright (c) 2009 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -49,5 +49,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Dein privater reCaptcha-Schlüssel. Schlüssel können über <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> bezogen werden.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'Um automatische Eingaben zu unterbinden, musst du die beiden angezeigten Wörter in das untenstehende Feld eingeben.',
-	'RECAPTCHA_SOCKET_ERROR'		=> '#There was a problem connecting to the RECAPTCHA service: could not open socket. Try again later.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Bei der Verbingung mit dem reCaptcha-Service ist ein Problem aufgetreten: Socket konnte nicht geöffnet werden. Bitte versuche es später erneut.',
 ));

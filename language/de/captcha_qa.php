@@ -4,7 +4,7 @@
 * captcha_qa [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2009 phpBB Group
+* @copyright (c) 2009 phpBB Group; 2006-2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
