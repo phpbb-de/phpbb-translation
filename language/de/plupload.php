@@ -5,7 +5,7 @@
 *
 * @package language
 * @copyright (c) 2010-2013 Moxiecode Systems AB
-* @copyright (c) 2012 phpBB Group; 2006-2014 phpBB.de
+* @copyright (c) 2012 phpBB Group; 2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
