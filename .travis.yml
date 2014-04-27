@@ -1,0 +1,9 @@
+language: php
+
+php:
+  - 5.3.3
+  - 5.5
+
+script:
+  - sudo apt-get install parallel
+  - find . -type f -name "*.php" | parallel --gnu --keep-order 'php -l {} > /dev/null' || exit 1
