@@ -1,5 +1,5 @@
 <?php
-/**
+**
 *
 * common [Deutsch — Sie]
 *
