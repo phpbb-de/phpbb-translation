@@ -191,11 +191,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Nachdem nun festgestellt wurde, dass phpBB auf deinem Server betrieben werden kann, musst du noch einige Informationen angeben. Wenn du nicht weißt, wie die Verbindungsdaten für deine Datenbank lauten, kontaktiere bitte als erstes deinen Webhosting-Provider oder wende dich an die phpBB Support-Foren. Wenn du Daten eingibst, prüfe diese bitte sorgfältig, bevor du fortfährst.',
 	'INSTALL_CONGRATS'			=> 'Herzlichen Glückwunsch!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		Du hast phpBB %1$s erfolgreich installiert. Bitte fahre mit einer der folgenden Optionen fort:</p>
+		<p>Du hast phpBB %1$s erfolgreich installiert. Bitte fahre mit einer der folgenden Optionen fort:</p>
 		<h2>Ein bestehendes Board auf phpBB3 konvertieren</h2>
 		<p>Das phpBB-Konvertierungs-System unterstützt die Konvertierung von phpBB 2.0.x und anderen Board-Systemen auf phpBB3. Wenn du ein bestehendes Board konvertieren willst, fahre bitte <a href="%2$s">mit dem Konverter fort</a>.</p>
 		<h2>Starte mit phpBB3 durch!</h2>
-		<p>Wenn du unten auf die Schaltfläche klickst, wirst du zu einem Formular im Administrations-Bereich weitergeleitet, mit dem du statistische Daten an phpBB.com übermitteln kannst. Wir würden uns freuen, wenn du unsere Arbeit mit deinen Angaben unterstützen würdest. Anschließend solltest du dir etwas Zeit nehmen, um die verfügbaren Optionen kennen zu lernen. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/documentation/3.0/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3/dokumentation">deutsche Übersetzung</a>), die <a href="%3$s">README</a> und das <a href="https://www.phpbb.com/community/viewforum.php?f=46">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).<br /><br /><strong>Bitte lösche oder verschiebe das Installations-Verzeichnis „install“ oder nenne es um, bevor du dein Board benutzt. Solange dieses Verzeichnis existiert, ist nur der Administrations-Bereich zugänglich.</strong>',
+		<p>Wenn du unten auf die Schaltfläche klickst, wirst du zu einem Formular im Administrations-Bereich weitergeleitet, mit dem du statistische Daten an phpBB.com übermitteln kannst. Wir würden uns freuen, wenn du unsere Arbeit mit deinen Angaben unterstützen würdest. Anschließend solltest du dir etwas Zeit nehmen, um die verfügbaren Optionen kennen zu lernen. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/documentation/3.0/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3/dokumentation">deutsche Übersetzung</a>), die <a href="%3$s">README</a> und das <a href="https://www.phpbb.com/community/viewforum.php?f=46">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).<br /><br /><strong>Bitte lösche oder verschiebe das Installations-Verzeichnis „install“ oder nenne es um, bevor du dein Board benutzt. Solange dieses Verzeichnis existiert, ist nur der Administrations-Bereich zugänglich.</strong></p>',
 	'INSTALL_INTRO'				=> 'Willkommen bei der Installation',
 	'INSTALL_INTRO_BODY'		=> 'Dieser Assistent ermöglicht dir die Installation von phpBB3 auf deinem Server.</p><p>Bevor du fortsetzen kannst, benötigst du die Daten deiner Datenbank. Wenn du die Daten deiner Datenbank nicht kennst, kontaktiere bitte deinen Server-Betreiber und frage nach den Daten. Ohne die Datenbankdaten kannst du nicht fortfahren. Du benötigst:</p>
 	<ul>
@@ -268,8 +268,8 @@ $lang = array_merge($lang, array(
 	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> muss entweder 0 oder 4 sein.',
 	'MBSTRING_ENCODING_TRANSLATION'			=> 'Transparente Zeichenkodierung',
 	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> muss 0 sein.',
-	'MBSTRING_HTTP_INPUT'					=> 'HTTP-Eingabe-Kodierung',
-	'MBSTRING_HTTP_INPUT_EXPLAIN'			=> '<var>mbstring.http_input</var> muss auf <samp>pass</samp> eingestellt sein.',
+	'MBSTRING_HTTP_INPUT' 					=> 'HTTP-Eingabe-Kodierung',
+	'MBSTRING_HTTP_INPUT_EXPLAIN' 			=> '<var>mbstring.http_input</var> muss auf <samp>pass</samp> eingestellt sein.',
 	'MBSTRING_HTTP_OUTPUT'					=> 'HTTP-Ausgabe-Kodierung',
 	'MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> muss auf <samp>pass</samp> eingestellt sein.',
 
@@ -293,8 +293,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB wird <strong>nicht</strong> funktionieren, wenn deine PHP-Installation ohne UTF-8-Unterstützung in der PCRE-Erweiterung kompiliert wurde.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-Funktion getimagesize() ist verfügbar',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Voraussetzung</strong> — Damit phpBB richtig funktioniert, muss die Funktion getimagesize() verfügbar sein.',
-	'PHP_JSON_SUPPORT'				=> '#PHP JSON support',
-	'PHP_JSON_SUPPORT_EXPLAIN'		=> '#<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
+	'PHP_JSON_SUPPORT'        		=> 'PHP JSON-Unterstützung',
+	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Voraussetzung</strong> - Damit phpBB richtig funktioniert, muss die PHP JSON-Erweiterung verfügbar sein.',
 	'PHP_OPTIONAL_MODULE'			=> 'Optionale Module',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Optional</strong> — Diese Module oder Applikationen sind optional. Sollten sie verfügbar sein, so ermöglichen sie zusätzliche Funktionen.',
 	'PHP_SUPPORTED_DB'				=> 'Unterstützte Datenbanken',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'Server-Konfiguration',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'Der Suchindex wurde nicht konvertiert',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Dein alter Suchindex wurde nicht konvertiert. Eine Suche wird immer zu einem leeren Ergebnis führen. Um einen neuen Suchindex zu erstellen, gehe in den Administrations-Bereich, wähle dort das Register Wartung aus und rufe dann den Punkt Such-Indizes auf.',
-	'SELECT_FORUM_GA'			=> '#In phpBB 3.1 the global announcements are linked to forums. Select a forum for your current global announcements (can be moved later):',
+	'SELECT_FORUM_GA'			=> 'In phpBB 3.1 sind Globale Bekanntmachungen mit Foren verknüpft. Wähle ein Forum für deine aktuellen globalen Bekanntmachungen aus (du kannst sie später verschieben):',
 	'SOFTWARE'					=> 'Board-Software',
 	'SPECIFY_OPTIONS'			=> 'Konvertierungs-Optionen festlegen',
 	'STAGE_ADMINISTRATOR'		=> 'Administrator-Details',
@@ -398,11 +398,11 @@ $lang = array_merge($lang, array(
 	'CURRENT_FILE'					=> 'Anfang des Konflikts — Inhalt der originalen Datei vor Aktualisierung',
 	'CURRENT_VERSION'				=> 'Derzeit installierte Version',
 
-	'DATABASE_TYPE'						=> 'Datenbanktyp',
-	'DATABASE_UPDATE_COMPLETE'			=> '#Database updater has completed!',
-	'DATABASE_UPDATE_CONTINUE'			=> '#Continue database update',
+	'DATABASE_TYPE'						=> 'Datenbank-Typ',
+	'DATABASE_UPDATE_COMPLETE'			=> 'Das Datenbank-Update wurde fertiggestellt!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Mit dem Datenbank-Update fortfahren',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Die Datenbank-Aktualisierungsdatei im install-Verzeichnis ist veraltet. Bitte stelle sicher, dass du die korrekte Version der Datei hochgeladen hast.',
-	'DATABASE_UPDATE_NOT_COMPLETED'		=> '#The database update has not yet completed.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Das Datenbank-Update ist noch nicht abgeschlossen.',
 	'DELETE_USER_REMOVE'				=> 'Benutzer löschen und Beiträge entfernen',
 	'DELETE_USER_RETAIN'				=> 'Benutzer löschen, aber Beiträge beibehalten',
 	'DESTINATION'						=> 'Zieldatei',
@@ -423,7 +423,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_USERNAME'	=> 'Benutzernamen ändern',
 	'ERROR'			=> 'Fehler',
-	'EVERYTHING_UP_TO_DATE'		=> '#Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.',
+	'EVERYTHING_UP_TO_DATE'		=> 'Es wurde alles auf die aktuelle phpBB-Version aktualisiert. Du solltest dich jetzt <a href="%1$s">in deinem Forum anmelden</a> und prüfen, ob alles funktioniert. Vergiss nicht, das Installations-Verzeichnis „install“ zu löschen, umzubenennen, oder zu verschieben! Bitte sende uns aktualisierte Informationen über deinen Server und deine Board-Konfiguration über das <a href="%2$s">Statistik-Übermittlungs</a>-Modul in deinem Administrations-Bereich.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Die Datei ist bereits auf dem neuesten Stand.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Unterschiedsanzeige für diese Datei nicht möglich.',
@@ -492,7 +492,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS_VERSION'					=> 'Vorherige Version',
 	'PROGRESS'							=> 'Fortschritt',
 
-	'RELEASE_ANNOUNCEMENT'		=> '#Announcement',
+	'RELEASE_ANNOUNCEMENT'		=> 'Bekanntmachung',
 	'RESULT'					=> 'Ergebnis',
 	'RUN_DATABASE_SCRIPT'		=> 'Datenbank jetzt aktualisieren',
 
@@ -531,12 +531,11 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOTICE'			=> 'Bitte stelle sicher, dass du auch die Dateien des Boards aktualisiert hast. Diese Datei aktualisiert nur die Datenbank.',
 	'UPDATE_INSTALLATION'			=> 'Update der phpBB-Installation',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Mit dieser Option kannst du deine phpBB-Version auf den neuesten Stand bringen.<br />Während dieses Prozesses wird die Integrität aller deiner Dateien überprüft. Du hast die Möglichkeit, alle Dateiunterschiede vor dem Update zu überprüfen.<br /><br />Die Dateiaktualisierung an sich kann auf zwei Wegen erfolgen:</p><h2>Manuelle Aktualisierung</h2><p>Bei dieser Methode lädst du nur die von dir geänderten Dateien herunter, damit du sichergehen kannst, dass die erfolgten Dateiänderungen nicht verloren gehen. Nach dem Herunterladen dieses Archivs musst du die Dateien in die entsprechenden Verzeichnisse deiner phpBB-Installation hochladen. Nachdem du das getan hast, kannst du die Dateiüberprüfung erneut ausführen, um zu sehen, ob du alle Dateien korrekt hochgeladen hast.</p><h2>Automatische Aktualisierung über FTP</h2><p>Diese Methode ist der ersten sehr ähnlich, mit dem Unterschied, dass du die veränderten Dateien nicht herunter- und anschließend von Hand wieder hochladen musst. Dies wird automatisch erledigt. Um diese Methode nutzen zu können, musst du deine FTP-Anmeldedaten kennen und eingeben. Nach der Fertigstellung wird auch hier eine Integritätsprüfung der Dateien ausgeführt.',
-	'UPDATE_INSTRUCTIONS'			=> '#
+	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Bekanntmachungen zur Veröffentlichung</h1>
 
-		<p>Bitte lies <a href="%1$s" title="%1$s"><strong>die Bekanntmachung zur Veröffentlichung (Release announcement) der neuesten Version</strong></a> bevor du den Update-Prozess beginnst, sie enthält wichtige Informationen. Außerdem enthält sie die Download-Links sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
-		<p>Please read the release announcement for the latest version before you continue your update process, it may contain useful information. It also contains full download links as well as the change log.</p>
+		<p>Bitte lies die Bekanntmachung zur Veröffentlichung (Release announcement) der neuesten Version, bevor du den Update-Prozess beginnst, sie enthält wichtige Informationen. Außerdem enthält sie die Download-Links sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
 
 		<br />
 
@@ -567,8 +566,8 @@ $lang = array_merge($lang, array(
 	'UPDATED_VERSION'				=> 'Aktualisierte Version',
 	'UPLOAD_METHOD'					=> 'Upload-Methode',
 
-	'UPDATE_DB_SUCCESS'				=> 'Das Datenbank-Update war erfolgreich.',
-	'UPDATE_FILE_SUCCESS'			=> '#File update was successful.',
+	'UPDATE_DB_SUCCESS'				=> 'Das Update der Datenbank war erfolgreich.',
+	'UPDATE_FILE_SUCCESS'			=> 'Das Update der Dateien war erfolgreich.',
 	'USER_ACTIVE'					=> 'Aktiver Benutzer',
 	'USER_INACTIVE'					=> 'Inaktiver Benutzer',
 
