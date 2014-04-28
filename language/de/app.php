@@ -4,7 +4,7 @@
 * app [Deutsch — Du]
 *
 * @package language
-* @copyright (c) 2012 phpBB Group
+* @copyright (c) 2012 phpBB Group; 2014 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
@@ -42,11 +42,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> '#Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> '#No controller has been specified.',
-	'CONTROLLER_NOT_FOUND'				=> '#The requested page could not be found.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> '#No method was specified for the controller.',
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> '#The controller "<strong>%s</strong>" must have a service specified in ./config/routing.yml.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> '#The service for controller "<strong>%s</strong>" is not defined in ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> '#The controller object <strong>%s</strong> must return a Symfony\Component\HttpFoundation\Response object.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Fehlender Wert für Argument #%1$s: <strong>%3$s</strong> in Klasse <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Es wurde kein Controller definiert.', // TODO: Übersetzung Controller
+	'CONTROLLER_NOT_FOUND'				=> 'Die angeforderte Seite konnte nicht gefunden werden.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Für den Controller wurde keine Methode festgelegt.', // TODO: Übersetzung Controller
+	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'Der Controller "<strong>%s</strong>" muss einen Service besitzen, der in ./config/routing.yml definiert wird.', // TODO: Übersetzung Controller
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Der Service für den Controller "<strong>%s</strong>" ist nicht in ./config/services.yml definiert.', // TODO: Übersetzung Controller
+	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'Das Controller-Objekt <strong>%s</strong> muss ein <em>Symfony\Component\HttpFoundation\Response</em>-Objekt zurückgeben.', // TODO: Übersetzung Controller
 ));
