@@ -1,4 +1,4 @@
-Subject: Beitragsfreigabe verweigert — „{POST_SUBJECT}“
+#Subject: Beitragsfreigabe verweigert — „{POST_SUBJECT}“
 
 Hallo {USERNAME},
 

@@ -1,4 +1,4 @@
-Subject: Thema freigegeben — „{TOPIC_TITLE}“
+#Subject: Thema freigegeben — „{TOPIC_TITLE}“
 
 Hallo {USERNAME},
 

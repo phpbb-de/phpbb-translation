@@ -71,7 +71,28 @@ $lang = array_merge($lang, array(
 		<li>Die Änderungen gelten als anerkannt und verbindlich, wenn der Nutzer den Änderungen zugestimmt hat.</li></ol>
 
 		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzrichtlinie enthalten.',
-	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
+	//TODO
+	//>>>>>> OLD <<<<<<: This policy explains in detail how “%1$s” along with its affiliated companies (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”) and phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) use any information collected during any session of usage by you (hereinafter “your information”).<br />
+	//	<br />
+	//	Your information is collected via two ways. Firstly, by browsing “%1$s” will cause the phpBB software to create a number of cookies, which are small text files that are downloaded on to your computer’s web browser temporary files. The first two cookies just contain a user identifier (hereinafter “user-id”) and an anonymous session identifier (hereinafter “session-id”), automatically assigned to you by the phpBB software. A third cookie will be created once you have browsed topics within “%1$s” and is used to store which topics have been read, thereby improving your user experience.<br />
+	//	<br />
+	//	We may also create cookies external to the phpBB software whilst browsing “%1$s”, though these are outside the scope of this document which is intended to only cover the pages created by the phpBB software. The second way in which we collect your information is by what you submit to us. This can be, and is not limited to: posting as an anonymous user (hereinafter “anonymous posts”), registering on “%1$s” (hereinafter “your account”) and posts submitted by you after registration and whilst logged in (hereinafter “your posts”).<br />
+	//	<br />
+	//	Your account will at a bare minimum contain a uniquely identifiable name (hereinafter “your user name”), a personal password used for logging into your account (hereinafter “your password”) and a personal, valid e-mail address (hereinafter “your e-mail”). Your information for your account at “%1$s” is protected by data-protection laws applicable in the country that hosts us. Any information beyond your user name, your password, and your e-mail address required by “%1$s” during the registration process is either mandatory or optional, at the discretion of “%1$s”. In all cases, you have the option of what information in your account is publicly displayed. Furthermore, within your account, you have the option to opt-in or opt-out of automatically generated e-mails from the phpBB software.<br />
+	//	<br />
+	//	Your password is ciphered (a one-way hash) so that it is secure. However, it is recommended that you do not reuse the same password across a number of different websites. Your password is the means of accessing your account at “%1$s”, so please guard it carefully and under no circumstance will anyone affiliated with “%1$s”, phpBB or another 3rd party, legitimately ask you for your password. Should you forget your password for your account, you can use the “I forgot my password” feature provided by the phpBB software. This process will ask you to submit your user name and your e-mail, then the phpBB software will generate a new password to reclaim your account.<br />
+	//	
+	//>>>>>>> NEW <<<<<<: This policy explains in detail how “%1$s” along with its affiliated companies (hereinafter “we”, “us”, “our”, “%1$s”, “%2$s”) and phpBB (hereinafter “they”, “them”, “their”, “phpBB software”, “www.phpbb.com”, “phpBB Group”, “phpBB Teams”) use any information collected during any session of usage by you (hereinafter “your information”).<br />
+	//	<br />
+	//	Your information is collected via two ways. Firstly, by browsing “%1$s” will cause the phpBB software to create a number of cookies, which are small text files that are downloaded on to your computer’s web browser temporary files. The first two cookies just contain a user identifier (hereinafter “user-id”) and an anonymous session identifier (hereinafter “session-id”), automatically assigned to you by the phpBB software. A third cookie will be created once you have browsed topics within “%1$s” and is used to store which topics have been read, thereby improving your user experience.<br />
+	//	<br />
+	//	We may also create cookies external to the phpBB software whilst browsing “%1$s”, though these are outside the scope of this document which is intended to only cover the pages created by the phpBB software. The second way in which we collect your information is by what you submit to us. This can be, and is not limited to: posting as an anonymous user (hereinafter “anonymous posts”), registering on “%1$s” (hereinafter “your account”) and posts submitted by you after registration and whilst logged in (hereinafter “your posts”).<br />
+	//	<br />
+	//	Your account will at a bare minimum contain a uniquely identifiable name (hereinafter “your user name”), a personal password used for logging into your account (hereinafter “your password”) and a personal, valid email address (hereinafter “your email”). Your information for your account at “%1$s” is protected by data-protection laws applicable in the country that hosts us. Any information beyond your user name, your password, and your email address required by “%1$s” during the registration process is either mandatory or optional, at the discretion of “%1$s”. In all cases, you have the option of what information in your account is publicly displayed. Furthermore, within your account, you have the option to opt-in or opt-out of automatically generated emails from the phpBB software.<br />
+	//	<br />
+	//	Your password is ciphered (a one-way hash) so that it is secure. However, it is recommended that you do not reuse the same password across a number of different websites. Your password is the means of accessing your account at “%1$s”, so please guard it carefully and under no circumstance will anyone affiliated with “%1$s”, phpBB or another 3rd party, legitimately ask you for your password. Should you forget your password for your account, you can use the “I forgot my password” feature provided by the phpBB software. This process will ask you to submit your user name and your email, then the phpBB software will generate a new password to reclaim your account.<br />
+	//	
+	'PRIVACY_POLICY'		=> '#Diese Richtlinie beschreibt, wie „%1$s“ und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
 		<h3>Umfang und Art der Datenspeicherung</h3>
 		<p>Deine Daten werden auf zwei verschiedene Arten gesammelt:</p>
 		<ol style="list-style-type: decimal;"><li>phpBB erstellt bei deinem Besuch des Boards mehrere Cookies. Cookies sind kleine Textdateien, die dein Browser als temporäre Dateien ablegt. Zwei dieser Cookies enthalten eine eindeutige Benutzer-Nummer (Benutzer-ID) sowie eine anonyme Sitzungs-Nummer (Session-ID), die dir von phpBB automatisch zugewiesen wird. Ein drittes Cookie wird erstellt, sobald du Themen besucht hast und wird dazu verwendet, Informationen über die von dir gelesenen Beiträge zu speichern, um die ungelesenen Beiträge markieren zu können.</li>
@@ -102,13 +123,34 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Das Benutzerkonto wurde aktiviert.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Dein Benutzerkonto wurde erfolgreich reaktiviert.',
 	'ACCOUNT_ADDED'					=> 'Vielen Dank für die Registrierung, dein Benutzerkonto wurde erstellt. Du kannst dich nun mit deinem Benutzername und deinem Passwort anmelden.',
-	'ACCOUNT_COPPA'					=> 'Dein Benutzerkonto wurde erstellt, muss jedoch erst freigegeben werden. Bitte überprüfe deine E-Mails für weitere Informationen.',
-	'ACCOUNT_EMAIL_CHANGED'			=> 'Dein Benutzerkonto wurde aktualisiert. Jedoch erfordert dieses Board nach der Änderung der E-Mail-Adresse eine erneute Aktivierung. Dazu wurde ein Aktivierungs-Schlüssel an die von dir neu angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Dein Benutzerkonto wurde aktualisiert. Jedoch erfordert dieses Board nach der Änderung der E-Mail-Adresse eine erneute Aktivierung durch einen Administrator. Die Administratoren wurden per E-Mail informiert und du wirst benachrichtigt, sobald dein Benutzerkonto wieder freigeschaltet wurde.',
-	'ACCOUNT_INACTIVE'				=> 'Dein Benutzerkonto wurde erstellt. Du musst es jedoch erst freischalten. Dazu wurde ein Aktivierungs-Schlüssel an die von dir angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen.',
-	'ACCOUNT_INACTIVE_ADMIN'		=> 'Dein Benutzerkonto wurde erstellt. Es muss jedoch erst durch einen Administrator freigeschaltet werden. Die Administratoren wurden per E-Mail über dein neues Benutzerkonto informiert und du wirst benachrichtigt, sobald dein Benutzerkonto freigeschaltet wurde.',
-	'ACTIVATION_EMAIL_SENT'			=> 'Der Aktivierungs-Schlüssel wurde an deine E-Mail-Adresse geschickt.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Der Aktivierungs-Schlüssel wurde per E-Mail an die Board-Administration gesendet.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Your account has been created but has to be approved, please check your e-mail for details.
+	//>>>>>>> NEW <<<<<<: Your account has been created but has to be approved, please check your email for details.
+	'ACCOUNT_COPPA'					=> '#Dein Benutzerkonto wurde erstellt, muss jedoch erst freigegeben werden. Bitte überprüfe deine E-Mails für weitere Informationen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Your account has been updated. However, this board requires account reactivation on e-mail changes. An activation key has been sent to the new e-mail address you provided. Please check your e-mail for further information.
+	//>>>>>>> NEW <<<<<<: Your account has been updated. However, this board requires account reactivation on email changes. An activation key has been sent to the new email address you provided. Please check your email for further information.
+	'ACCOUNT_EMAIL_CHANGED'			=> '#Dein Benutzerkonto wurde aktualisiert. Jedoch erfordert dieses Board nach der Änderung der E-Mail-Adresse eine erneute Aktivierung. Dazu wurde ein Aktivierungs-Schlüssel an die von dir neu angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Your account has been updated. However, this board requires account reactivation by the administrators on e-mail changes. An e-mail has been sent to them and you will be informed when your account has been reactivated.
+	//>>>>>>> NEW <<<<<<: Your account has been updated. However, this board requires account reactivation by the administrators on email changes. An email has been sent to them and you will be informed when your account has been reactivated.
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> '#Dein Benutzerkonto wurde aktualisiert. Jedoch erfordert dieses Board nach der Änderung der E-Mail-Adresse eine erneute Aktivierung durch einen Administrator. Die Administratoren wurden per E-Mail informiert und du wirst benachrichtigt, sobald dein Benutzerkonto wieder freigeschaltet wurde.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Your account has been created. However, this board requires account activation, an activation key has been sent to the e-mail address you provided. Please check your e-mail for further information.
+	//>>>>>>> NEW <<<<<<: Your account has been created. However, this board requires account activation, an activation key has been sent to the email address you provided. Please check your email for further information.
+	'ACCOUNT_INACTIVE'				=> '#Dein Benutzerkonto wurde erstellt. Du musst es jedoch erst freischalten. Dazu wurde ein Aktivierungs-Schlüssel an die von dir angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Your account has been created. However, this board requires account activation by the administrator group. An e-mail has been sent to them and you will be informed when your account has been activated.
+	//>>>>>>> NEW <<<<<<: Your account has been created. However, this board requires account activation by the administrator group. An email has been sent to them and you will be informed when your account has been activated.
+	'ACCOUNT_INACTIVE_ADMIN'		=> '#Dein Benutzerkonto wurde erstellt. Es muss jedoch erst durch einen Administrator freigeschaltet werden. Die Administratoren wurden per E-Mail über dein neues Benutzerkonto informiert und du wirst benachrichtigt, sobald dein Benutzerkonto freigeschaltet wurde.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The activation e-mail has been sent to your e-mail address.
+	//>>>>>>> NEW <<<<<<: The activation email has been sent to your email address.
+	'ACTIVATION_EMAIL_SENT'			=> '#Der Aktivierungs-Schlüssel wurde an deine E-Mail-Adresse geschickt.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The activation e-mail has been sent to the administrators e-mail addresses.
+	//>>>>>>> NEW <<<<<<: The activation email has been sent to the administrators email addresses.
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '#Der Aktivierungs-Schlüssel wurde per E-Mail an die Board-Administration gesendet.',
 	'ADD'							=> 'Hinzufügen',
 	'ADD_BCC'						=> '[ BCC ]',
 	'ADD_FOES'						=> 'Weitere Mitglieder ignorieren',
@@ -120,7 +162,10 @@ $lang = array_merge($lang, array(
 	'ADD_RULE'						=> 'Regel erstellen',
 	'ADD_TO'						=> '[ An ]',
 	'ADD_USERS_UCP_EXPLAIN'			=> 'Hier kannst du neue Benutzer der Gruppe hinzufügen. Du kannst festlegen, ob die Gruppe zur Standardgruppe der angegebenen Benutzer wird. Bitte gib jeden Benutzernamen in einer neuen Zeile ein.',
-	'ADMIN_EMAIL'					=> 'Administratoren dürfen mir Informationen per E-Mail schicken',
+	//TODO
+	//>>>>>> OLD <<<<<<: Administrators can e-mail me information
+	//>>>>>>> NEW <<<<<<: Administrators can email me information
+	'ADMIN_EMAIL'					=> '#Administratoren dürfen mir Informationen per E-Mail schicken',
 	'AGREE'							=> 'Ich bin mit diesen Bedingungen einverstanden',
 	'ALLOW_PM'						=> 'Andere Mitglieder dürfen mir Private Nachrichten schicken',
 	'ALLOW_PM_EXPLAIN'				=> 'Administratoren und Moderatoren dürfen dir immer Private Nachrichten schicken.',
@@ -216,16 +261,28 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Führung niederlegen',
 	'DISABLE_CENSORS'			=> 'Wortzensur aktivieren',
 	'DISPLAY_GALLERY'			=> 'Galerie anzeigen',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Die für die E-Mail angegebene Domain hat keinen gültigen MX-Eintrag.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The entered e-mail domain has no valid MX record.
+	//>>>>>>> NEW <<<<<<: The entered email domain has no valid MX record.
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> '#Die für die E-Mail angegebene Domain hat keinen gültigen MX-Eintrag.',
 	'DOWNLOADS'					=> 'Downloads',
 	'DRAFTS_DELETED'			=> 'Alle ausgewählten Entwürfe wurden erfolgreich gelöscht.',
 	'DRAFTS_EXPLAIN'			=> 'Hier kannst du deine gespeicherten Entwürfe ansehen, ändern oder löschen.',
 	'DRAFT_UPDATED'				=> 'Entwurf erfolgreich aktualisiert.',
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Hier hast du die Möglichkeit, deine Entwürfe zu ändern. Entwürfe enthalten keine Informationen zu Dateianhängen und Umfragen.',
-	'EMAIL_BANNED_EMAIL'		=> 'Die von dir angegebene E-Mail-Adresse darf nicht benutzt werden.',
-	'EMAIL_REMIND'				=> 'Du musst die E-Mail-Adresse angeben, die in deinem Profil hinterlegt ist. Diese hast du bei der Registrierung angegeben oder nachträglich in deinem persönlichen Bereich geändert.',
-	'EMAIL_TAKEN_EMAIL'			=> 'Die angegebene E-Mail-Adresse wird bereits verwendet.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The e-mail address you entered is not allowed to be used.
+	//>>>>>>> NEW <<<<<<: The email address you entered is not allowed to be used.
+	'EMAIL_BANNED_EMAIL'		=> '#Die von dir angegebene E-Mail-Adresse darf nicht benutzt werden.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This must be the e-mail address associated with your account. If you have not changed this via your user control panel then it is the e-mail address you registered your account with.
+	//>>>>>>> NEW <<<<<<: This must be the email address associated with your account. If you have not changed this via your user control panel then it is the email address you registered your account with.
+	'EMAIL_REMIND'				=> '#Du musst die E-Mail-Adresse angeben, die in deinem Profil hinterlegt ist. Diese hast du bei der Registrierung angegeben oder nachträglich in deinem persönlichen Bereich geändert.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The entered e-mail address is already in use.
+	//>>>>>>> NEW <<<<<<: The entered email address is already in use.
+	'EMAIL_TAKEN_EMAIL'			=> '#Die angegebene E-Mail-Adresse wird bereits verwendet.',
 	'EMPTY_DRAFT'				=> 'Du musst eine Nachricht eingeben, um deine Änderungen zu speichern.',
 	'EMPTY_DRAFT_TITLE'			=> 'Du musst einen Titel für den Entwurf angeben.',
 	'EXPORT_AS_XML'				=> 'Exportiere im XML-Format',
@@ -375,7 +432,10 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY_METHOD'				=> 'Benachrichtigungs-Methode',
 	'NOTIFY_METHOD_BOTH'		=> 'Beide',
-	'NOTIFY_METHOD_EMAIL'		=> 'Nur per E-Mail',
+	//TODO
+	//>>>>>> OLD <<<<<<: E-mail only
+	//>>>>>>> NEW <<<<<<: Email only
+	'NOTIFY_METHOD_EMAIL'			=> '#Nur per E-Mail',
 	'NOTIFY_METHOD_EXPLAIN'		=> 'Methode, die für den Versand von Nachrichten über das Board verwendet wird.',
 	'NOTIFY_METHOD_IM'			=> 'Nur per Jabber',
 	'NOTIFY_ON_PM'				=> 'Benachrichtige mich über neue Nachrichten',
@@ -414,7 +474,10 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS'				=> 'Du hast keine Lesezeichen gesetzt.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Du hast keine Lesezeichen ausgewählt.',
 	'NO_EDIT_READ_MESSAGE'		=> 'Diese Private Nachricht kann nicht geändert werden, da sie bereits gelesen wurde.',
-	'NO_EMAIL_USER'				=> 'Es existiert kein Benutzer mit dieser Kombination aus Benutzernamen und E-Mail-Adresse.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The e-mail/username information submitted could not be found.
+	//>>>>>>> NEW <<<<<<: The email/username information submitted could not be found.
+	'NO_EMAIL_USER'				=> '#Es existiert kein Benutzer mit dieser Kombination aus Benutzernamen und E-Mail-Adresse.',
 	'NO_FOES'					=> 'Derzeit sind keine ignorierten Mitglieder definiert',
 	'NO_FRIENDS'				=> 'Derzeit sind keine Freunde definiert',
 	'NO_FRIENDS_OFFLINE'		=> 'Keine Freunde offline',
@@ -440,7 +503,10 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Das Passwort muss zwischen %1$s und %2$s lang sein und muss aus Groß- und Kleinbuchstaben, Ziffern sowie Sonderzeichen bestehen.',
 	'PASSWORD'					=> 'Passwort',
 	'PASSWORD_ACTIVATED'		=> 'Dein neues Passwort wurde aktiviert.',
-	'PASSWORD_UPDATED'			=> 'Dein neues Passwort wurde an deine hinterlegte E-Mail-Adresse gesendet.',
+	//TODO
+	//>>>>>> OLD <<<<<<: A new password was sent to your registered e-mail address.
+	//>>>>>>> NEW <<<<<<: A new password was sent to your registered email address.
+	'PASSWORD_UPDATED'			=> '#Dein neues Passwort wurde an deine hinterlegte E-Mail-Adresse gesendet.',
 	'PERMISSIONS_RESTORED'		=> 'Ursprüngliche Berechtigungen wieder hergestellt.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Berechtigungen von <strong>%s</strong> erfolgreich übernommen. Du kannst nun das Board mit den Rechten des Benutzers testen.<br />Bitte beachte, dass Administrationsrechte nicht übernommen wurden. Du kannst jederzeit zu deinen Berechtigungen zurückkehren.',
 	'PM_DISABLED'				=> 'Private Nachrichten sind auf diesem Board deaktiviert.',
@@ -500,7 +566,10 @@ $lang = array_merge($lang, array(
 	'SEARCH_YOUR_POSTS'			=> 'Deine Beiträge anzeigen',
 	'SEND_PASSWORD'				=> 'Passwort senden',
 	'SENT_AT'					=> 'Gesendet',			// Used before dates in private messages
-	'SHOW_EMAIL'				=> 'Mitglieder dürfen mich per E-Mail kontaktieren',
+	//TODO
+	//>>>>>> OLD <<<<<<: Users can contact me by e-mail
+	//>>>>>>> NEW <<<<<<: Users can contact me by email
+	'SHOW_EMAIL'				=> '#Mitglieder dürfen mich per E-Mail kontaktieren',
 	'SIGNATURE_EXPLAIN'			=> 'Eine Signatur ist ein Text, der an deine Nachrichten angefügt werden kann. Sie ist auf %d Zeichen begrenzt.',
 	'SIGNATURE_PREVIEW'			=> 'Deine Signatur wird folgendermaßen aussehen',
 	'SIGNATURE_TOO_LONG'		=> 'Deine Signatur ist zu lang.',
@@ -527,7 +596,10 @@ $lang = array_merge($lang, array(
 
 	'UCP'						=> 'Persönlicher Bereich',
 	'UCP_ACTIVATE'				=> 'Benutzerkonto aktivieren',
-	'UCP_ADMIN_ACTIVATE'		=> 'Bitte beachte, dass du eine gültige E-Mail-Adresse angeben musst, bevor dein Benutzerkonto aktiviert wird. Ein Administrator wird dein Benutzerkonto überprüfen und wenn er es freigibt, erhältst du eine Nachricht an die angegebene E-Mail-Adresse.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Please note that you will need to enter a valid e-mail address before your account is activated. The administrator will review your account and if approved you will receive an e-mail at the address you specified.
+	//>>>>>>> NEW <<<<<<: Please note that you will need to enter a valid email address before your account is activated. The administrator will review your account and if approved you will receive an email at the address you specified.
+	'UCP_ADMIN_ACTIVATE'		=> '#Bitte beachte, dass du eine gültige E-Mail-Adresse angeben musst, bevor dein Benutzerkonto aktiviert wird. Ein Administrator wird dein Benutzerkonto überprüfen und wenn er es freigibt, erhältst du eine Nachricht an die angegebene E-Mail-Adresse.',
 	'UCP_ATTACHMENTS'			=> 'Dateianhänge',
 	'UCP_AUTH_LINK'				=> 'Externes Konto',
 	'UCP_AUTH_LINK_ASK'			=> 'Du hast dein Benutzerkonto derzeit nicht mit diesem Dienst verknüpft. Mit unten stehender Schaltfläche kannst du dein Benutzerkonto mit einem Konto dieses externen Dienstes verknüpfen.',
@@ -539,7 +611,10 @@ $lang = array_merge($lang, array(
 	'UCP_AUTH_LINK_UNLINK'		=> 'Verknüpfung lösen',
 	'UCP_COPPA_BEFORE'			=> 'Vor dem %s',
 	'UCP_COPPA_ON_AFTER'		=> 'Am %s oder später',
-	'UCP_EMAIL_ACTIVATE'		=> 'Bitte beachte, dass du eine gültige E-Mail-Adresse angeben musst, bevor dein Benutzerkonto aktiviert wird. Du erhältst eine E-Mail an die angegebene Adresse, in der ein Aktivierungs-Schlüssel enthalten ist.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Please note that you will need to enter a valid e-mail address before your account is activated. You will receive an e-mail at the address you provide that contains an account activation link.
+	//>>>>>>> NEW <<<<<<: Please note that you will need to enter a valid email address before your account is activated. You will receive an email at the address you provide that contains an account activation link.
+	'UCP_EMAIL_ACTIVATE'		=> '#Bitte beachte, dass du eine gültige E-Mail-Adresse angeben musst, bevor dein Benutzerkonto aktiviert wird. Du erhältst eine E-Mail an die angegebene Adresse, in der ein Aktivierungs-Schlüssel enthalten ist.',
 	'UCP_JABBER'				=> 'Jabber-ID',
 	'UCP_LOGIN_LINK'			=> 'Verknüpfung mit externem Konto einrichten',
 
@@ -583,7 +658,10 @@ $lang = array_merge($lang, array(
 	'UCP_PASSWORD_RESET_DISABLED'	=> 'Die Funktion zum Zurücksetzen eines Passworts wurde deaktiviert. Wenn du Unterstützung beim Zugriff auf dein Benutzerkonto benötigst, wende dich bitte an die %sBoard-Administration%s',
 	'UCP_REGISTER_DISABLE'			=> 'Eine Registrierung ist derzeit nicht möglich.',
 	'UCP_REMIND'					=> 'Passwort senden',
-	'UCP_RESEND'					=> 'Aktivierungs-Schlüssel senden',
+	//TODO
+	//>>>>>> OLD <<<<<<: Send activation e-mail
+	//>>>>>>> NEW <<<<<<: Send activation email
+	'UCP_RESEND'					=> '#Aktivierungs-Schlüssel senden',
 	'UCP_WELCOME'					=> 'Willkommen im persönlichen Bereich. Hier kannst du dein Profil, deine Präferenzen, deine beobachteten Foren und Themen überwachen, ansehen und aktualisieren. Du kannst auch Nachrichten an andere Mitglieder schicken (sofern erlaubt). Bitte lies alle Bekanntmachungen, bevor du fortfährst.',
 	'UCP_ZEBRA'						=> 'Freunde und ignorierte Mitglieder',
 	'UCP_ZEBRA_FOES'				=> 'Ignorierte Mitglieder verwalten',

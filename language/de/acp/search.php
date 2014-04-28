@@ -111,14 +111,12 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Wartezeit zwischen zwei Suchvorgängen von Gästen',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Zeit in Sekunden, die Gäste zwischen Suchvorgängen warten müssen. Wenn ein Gast eine Suche durchgeführt hat, müssen alle Gäste so lange warten, bis sie die Suchfunktion wieder nutzen können.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Alle Beiträge bis Beitrags-ID %1$d wurden in den Suchindex aufgenommen, davon %2$d in diesem Schritt.<br />Die aktuelle Indizierungsgeschwindigkeit beträgt ungefähr %3$.1f Beiträge pro Sekunde.<br />Indizierung in Arbeit…',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
 		2	=> '#All posts up to post id %2$d have now been indexed, of which %1$d posts were within this step.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
 		2	=> '#The current rate of indexing is approximately %1$.1f posts per second.<br />Indexing in progress…',
 	),
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Alle Beiträge bis Beitrags-ID %1$d wurden aus dem Suchindex entfernt.<br />Löschen in Arbeit…',
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
 		2	=> '#All posts up to post id %2$d have been removed from the search index.<br />Deleting in progress…',
 	),

@@ -1,4 +1,4 @@
-Subject: Themenfreigabe verweigert — „{TOPIC_TITLE}“
+#Subject: Themenfreigabe verweigert — „{TOPIC_TITLE}“
 
 Hallo {USERNAME},
 
