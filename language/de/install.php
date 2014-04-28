@@ -102,13 +102,28 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Konnte Bot nicht in bots-Tabelle eintragen.',
 	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Konnte Benutzer nicht in user_group-Tabelle eintragen.',
 	'CONV_ERROR_MESSAGE_PARSER'			=> 'Fehler beim Message Parser',
-	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Hinweis an Entwickler: $convertor[\'avatar_path\'] muss angegeben werden, um %s zu benutzen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Note to developer: you must specify $convertor[\'avatar_path\'] to use %s.
+	//>>>>>>> NEW <<<<<<: Note to developer: you must specify $convertor[\\'avatar_path\\'] to use %s.
+	'CONV_ERROR_NO_AVATAR_PATH'			=> '#Hinweis an Entwickler: $convertor[\'avatar_path\'] muss angegeben werden, um %s zu benutzen.',
 	'CONV_ERROR_NO_FORUM_PATH'			=> 'Der relative Pfad zum Quell-Board wurde nicht angegeben.',
-	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Hinweis an Entwickler: $convertor[\'avatar_gallery_path\'] muss angegeben werden, um %s zu benutzen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Note to developer: you must specify $convertor[\'avatar_gallery_path\'] to use %s.
+	//>>>>>>> NEW <<<<<<: Note to developer: you must specify $convertor[\\'avatar_gallery_path\\'] to use %s.
+	'CONV_ERROR_NO_GALLERY_PATH'		=> '#Hinweis an Entwickler: $convertor[\'avatar_gallery_path\'] muss angegeben werden, um %s zu benutzen.',
 	'CONV_ERROR_NO_GROUP'				=> 'Gruppe „%1$s“ konnte nicht in %2$s gefunden werden.',
-	'CONV_ERROR_NO_RANKS_PATH'			=> 'Hinweis an Entwickler: $convertor[\'ranks_path\'] muss angegeben werden, um %s zu benutzen.',
-	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Hinweis an Entwickler: $convertor[\'smilies_path\'] muss angegeben werden, um %s zu benutzen.',
-	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Hinweis an Entwickler: $convertor[\'upload_path\'] muss angegeben werden, um %s zu benutzen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Note to developer: you must specify $convertor[\'ranks_path\'] to use %s.
+	//>>>>>>> NEW <<<<<<: Note to developer: you must specify $convertor[\\'ranks_path\\'] to use %s.
+	'CONV_ERROR_NO_RANKS_PATH'			=> '#Hinweis an Entwickler: $convertor[\'ranks_path\'] muss angegeben werden, um %s zu benutzen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Note to developer: you must specify $convertor[\'smilies_path\'] to use %s.
+	//>>>>>>> NEW <<<<<<: Note to developer: you must specify $convertor[\\'smilies_path\\'] to use %s.
+	'CONV_ERROR_NO_SMILIES_PATH'		=> '#Hinweis an Entwickler: $convertor[\'smilies_path\'] muss angegeben werden, um %s zu benutzen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Note to developer: you must specify $convertor[\'upload_path\'] to use %s.
+	//>>>>>>> NEW <<<<<<: Note to developer: you must specify $convertor[\\'upload_path\\'] to use %s.
+	'CONV_ERROR_NO_UPLOAD_DIR'			=> '#Hinweis an Entwickler: $convertor[\'upload_path\'] muss angegeben werden, um %s zu benutzen.',
 	'CONV_ERROR_PERM_SETTING'			=> 'Konnte Berechtigungen nicht einfügen / ändern.',
 	'CONV_ERROR_PM_COUNT'				=> 'Konnte Nachrichtenzahl des PN-Verzeichnisses nicht abrufen.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Konnte neues Forum als Ersatz der alten Kategorie nicht einfügen.',
@@ -149,9 +164,9 @@ $lang = array_merge($lang, array(
 	'DLL_MBSTRING'				=> 'Multibyte-Zeichenketten-Unterstützung',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
 	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ über ODBC',
+	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ Nativ ]',
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL mit MySQLi-Erweiterung',
-	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ Nativ ]',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
@@ -241,8 +256,14 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Die Datenbank, die du für Firebird ausgewählt hast, hat eine Seitengröße kleiner als 8192. Die Seitengröße muss mindestens 8192 betragen.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'Die ausgewählte Datenbank wurde nicht mit der Codierung <var>UNICODE</var> oder <var>UTF8</var> erstellt. Bitte versuche die Installation erneut mit einer Datenbank, die mit dieser Codierung erstellt wurde.',
 	'INST_ERR_DB_NO_NAME'		=> 'Kein Datenbank-Name angegeben.',
-	'INST_ERR_EMAIL_INVALID'	=> 'Die angegebene E-Mail-Adresse ist ungültig.',
-	'INST_ERR_EMAIL_MISMATCH'	=> 'Die angegebenen E-Mail-Adressen stimmen nicht überein.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The e-mail address you entered is invalid.
+	//>>>>>>> NEW <<<<<<: The email address you entered is invalid.
+	'INST_ERR_EMAIL_INVALID'	=> '#Die angegebene E-Mail-Adresse ist ungültig.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The e-mails you entered did not match.
+	//>>>>>>> NEW <<<<<<: The emails you entered did not match.
+	'INST_ERR_EMAIL_MISMATCH'	=> '#Die angegebenen E-Mail-Adressen stimmen nicht überein.',
 	'INST_ERR_FATAL'			=> 'Schwerer Installations-Fehler',
 	'INST_ERR_FATAL_DB'			=> 'Es trat ein Datenbankfehler auf, der nicht von phpBB selbst behoben werden kann. Dies kann daran liegen, dass der angegebene Benutzer keine ausreichenden Berechtigungen hat, um die Befehle <code>CREATE TABLE</code> oder <code>INSERT</code> etc. auszuführen. Weitere Informationen werden möglicherweise unten angezeigt. Bitte wende dich zuerst an deinen Webhosting-Provider oder an die Support-Foren von phpBB für weitere Unterstützung.',
 	'INST_ERR_FTP_PATH'			=> 'Kann nicht in das angegebene Verzeichnis wechseln, bitte prüfe den Pfad.',
@@ -427,7 +448,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Die Datei ist bereits auf dem neuesten Stand.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Unterschiedsanzeige für diese Datei nicht möglich.',
-	'FILE_USED'						=> 'Informationen benutzt von',
+	'FILE_USED'						=> 'Informationen benutzt von',			// Single file
 	'FILES_CONFLICT'				=> 'Problematische Dateien',
 	'FILES_CONFLICT_EXPLAIN'		=> 'Die folgenden Dateien wurden geändert und entsprechen nicht den Originaldateien der alten Version. phpBB hat festgestellt, dass die Dateien nicht zusammengeführt werden können, da beide Versionen verändert wurden. Bitte sieh dir diese Konflikte an und versuche, sie von Hand zu lösen oder fahre mit der Aktualisierung fort, indem du deine bevorzugte Methode des Zusammenführens auswählst. Wenn du die Konflikte von Hand löst, prüfe die Dateien nach der Bearbeitung erneut. Du kannst außerdem die Zusammenführungsmethode für jede Datei getrennt angeben. Die erste Methode erzeugt eine Datei, in der die problematischen Zeilen deiner alten Datei verworfen werden, die andere Methode verwirft die Änderungen in der neuen Datei.',
 	'FILES_MODIFIED'				=> 'Geänderte Dateien',

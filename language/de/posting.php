@@ -197,9 +197,18 @@ $lang = array_merge($lang, array(
 	'POST_APPROVAL_NOTIFY'		=> 'Du wirst informiert, sobald dein Beitrag freigegeben wurde.',
 	'POST_CONFIRMATION'			=> 'Bestätigung des Beitrags',
 	'POST_CONFIRM_EXPLAIN'		=> 'Um automatisch verfasste Beiträge zu verhindern, musst du einen Bestätigungscode eingeben. Den Code siehst du im folgenden Bild. Wenn du nur über ein eingeschränktes Sehvermögen verfügst oder aus einem anderen Grund den Code nicht lesen kannst, kontaktiere bitte die %sBoard-Administration%s.',
-	'POST_DELETED'				=> 'Der Beitrag wurde erfolgreich gelöscht.',
-	'POST_EDITED'				=> 'Der Beitrag wurde erfolgreich bearbeitet.',
-	'POST_EDITED_MOD'			=> 'Der Beitrag wurde erfolgreich bearbeitet. Er muss jedoch erst von einem Moderator freigegeben werden, bevor er öffentlich einsehbar ist.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This message has been deleted successfully.
+	//>>>>>>> NEW <<<<<<: This post has been deleted successfully.
+	'POST_DELETED'				=> '#Der Beitrag wurde erfolgreich gelöscht.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This message has been edited successfully.
+	//>>>>>>> NEW <<<<<<: This post has been edited successfully.
+	'POST_EDITED'				=> '#Der Beitrag wurde erfolgreich bearbeitet.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This message has been edited successfully, but it will need to be approved by a moderator before it is publicly viewable.
+	//>>>>>>> NEW <<<<<<: This post has been edited successfully, but it will need to be approved by a moderator before it is publicly viewable.
+	'POST_EDITED_MOD'			=> '#Der Beitrag wurde erfolgreich bearbeitet. Er muss jedoch erst von einem Moderator freigegeben werden, bevor er öffentlich einsehbar ist.',
 	'POST_GLOBAL'				=> 'Globale Bekanntmachung',
 	'POST_ICON'					=> 'Beitrags-Symbol',
 	'POST_NORMAL'				=> 'Normal',

@@ -58,7 +58,10 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_YOURSELF'		=> 'Du kannst dein eigenes Benutzerkonto nicht löschen.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Du kannst keine ignorierten Mitglieder zu Gründern ernennen.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Du musst Benutzer erst aktivieren, bevor du sie zum Gründer ernennen kannst, da nur aktive Benutzer zum Gründer ernannt werden können.',
-	'CONFIRM_EMAIL_EXPLAIN'			=> 'Muss nur angegeben werden, wenn du die E-Mail-Adresse änderst.',
+	//TODO
+	//>>>>>> OLD <<<<<<: You only need to specify this if you are changing the users e-mail address.
+	//>>>>>>> NEW <<<<<<: You only need to specify this if you are changing the users email address.
+	'CONFIRM_EMAIL_EXPLAIN'			=> '#Muss nur angegeben werden, wenn du die E-Mail-Adresse änderst.',
 
 	'DELETE_POSTS'			=> 'Beiträge löschen',
 	'DELETE_USER'			=> 'Benutzer löschen',
@@ -97,8 +100,14 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_ACTIVATE'			=> 'Benutzer aktivieren',
 	'USER_ADMIN_ACTIVATED'			=> 'Benutzer erfolgreich aktiviert.',
 	'USER_ADMIN_AVATAR_REMOVED'		=> 'Avatar erfolgreich aus dem Benutzerkonto entfernt.',
-	'USER_ADMIN_BAN_EMAIL'			=> 'Über E-Mail-Adresse sperren',
-	'USER_ADMIN_BAN_EMAIL_REASON'	=> 'E-Mail-Adresse über Benutzer-Verwaltung gesperrt',
+	//TODO
+	//>>>>>> OLD <<<<<<: Ban by e-mail
+	//>>>>>>> NEW <<<<<<: Ban by email
+	'USER_ADMIN_BAN_EMAIL'			=> '#Über E-Mail-Adresse sperren',
+	//TODO
+	//>>>>>> OLD <<<<<<: E-mail address banned via user management
+	//>>>>>>> NEW <<<<<<: Email address banned via user management
+	'USER_ADMIN_BAN_EMAIL_REASON'	=> '#E-Mail-Adresse über Benutzer-Verwaltung gesperrt',
 	'USER_ADMIN_BAN_IP'				=> 'Über IP-Adresse sperren',
 	'USER_ADMIN_BAN_IP_REASON'		=> 'IP-Adresse über Benutzer-Verwaltung gesperrt',
 	'USER_ADMIN_BAN_NAME_REASON'	=> 'Benutzername über Benutzer-Verwaltung gesperrt',

@@ -147,7 +147,10 @@ $lang = array_merge($lang, array(
 	'MCP_ADD'						=> 'Eine Verwarnung hinzufügen',
 
 	'MCP_BAN'					=> 'Sperren',
-	'MCP_BAN_EMAILS'			=> 'E-Mails sperren',
+	//TODO
+	//>>>>>> OLD <<<<<<: Ban e-mails
+	//>>>>>>> NEW <<<<<<: Ban emails
+	'MCP_BAN_EMAILS'			=> '#E-Mails sperren',
 	'MCP_BAN_IPS'				=> 'IPs sperren',
 	'MCP_BAN_USERNAMES'			=> 'Benutzernamen sperren',
 

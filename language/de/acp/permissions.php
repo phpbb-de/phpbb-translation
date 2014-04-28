@@ -60,7 +60,10 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nie',
 	'ACL_SET'				=> 'Berechtigungen setzen',
-	'ACL_SET_EXPLAIN'		=> 'Berechtigungen basieren auf einem einfachen <strong>JA/NEIN</strong>-System. Wird eine Einstellung für einen Benutzer oder eine Gruppe auf <strong>NIE</strong> gesetzt, so überschreibt dieser Wert alle anderen gesetzten Werte. Wenn du bei diesem Benutzer/dieser Gruppe keinen Wert für eine Einstellung vornehmen willst, wähle <strong>NEIN</strong> aus. Wenn an anderer Stelle eine Einstellung vorgenommen wurde, so wird diese verwendet; ansonsten wird von <strong>NIE</strong> ausgegangen. Alle (mit dem davorstehendem Kontrollkästchen) ausgewählten Objekte werden die von dir definierten Berechtigungen übernehmen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Permissions are based on a simple <samp>YES</samp>/<samp>NO</samp> system. Setting an option to <samp>NEVER</samp> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <samp>NO</samp>. If values are assigned for this option elsewhere they will be used in preference, else <samp>NEVER</samp> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined.
+	//>>>>>>> NEW <<<<<<: Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> system. Setting an option to <strong>NEVER</strong> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <strong>NO</strong>. If values are assigned for this option elsewhere they will be used in preference, else <strong>NEVER</strong> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined.
+	'ACL_SET_EXPLAIN'		=> '#Berechtigungen basieren auf einem einfachen <strong>JA/NEIN</strong>-System. Wird eine Einstellung für einen Benutzer oder eine Gruppe auf <strong>NIE</strong> gesetzt, so überschreibt dieser Wert alle anderen gesetzten Werte. Wenn du bei diesem Benutzer/dieser Gruppe keinen Wert für eine Einstellung vornehmen willst, wähle <strong>NEIN</strong> aus. Wenn an anderer Stelle eine Einstellung vorgenommen wurde, so wird diese verwendet; ansonsten wird von <strong>NIE</strong> ausgegangen. Alle (mit dem davorstehendem Kontrollkästchen) ausgewählten Objekte werden die von dir definierten Berechtigungen übernehmen.',
 	'ACL_SETTING'			=> 'Einstellung',
 
 	'ACL_TYPE_A_'			=> 'Administrator-Berechtigungen',
@@ -103,10 +106,19 @@ $lang = array_merge($lang, array(
 	'ADD_USERS'					=> 'Benutzer hinzufügen',
 	'ADVANCED_PERMISSIONS'		=> 'Erweiterte Berechtigungen',
 	'ALL_GROUPS'				=> 'Alle Gruppen auswählen',
-	'ALL_NEVER'					=> 'Alle <strong>Nie</strong>',
-	'ALL_NO'					=> 'Alle <strong>Nein</strong>',
+	//TODO
+	//>>>>>> OLD <<<<<<: All <samp>NEVER</samp>
+	//>>>>>>> NEW <<<<<<: All <strong>NEVER</strong>
+	'ALL_NEVER'					=> '#Alle <strong>Nie</strong>',
+	//TODO
+	//>>>>>> OLD <<<<<<: All <samp>NO</samp>
+	//>>>>>>> NEW <<<<<<: All <strong>NO</strong>
+	'ALL_NO'					=> '#Alle <strong>Nein</strong>',
 	'ALL_USERS'					=> 'Alle Benutzer auswählen',
-	'ALL_YES'					=> 'Alle <strong>Ja</strong>',
+	//TODO
+	//>>>>>> OLD <<<<<<: All <samp>YES</samp>
+	//>>>>>>> NEW <<<<<<: All <strong>YES</strong>
+	'ALL_YES'					=> '#Alle <strong>Ja</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> 'Alle Berechtigungen anwenden',
 	'APPLY_PERMISSIONS'			=> 'Berechtigungen anwenden',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Die definierten Berechtigungen und die definierte Rolle werden nur für dieses und alle markierten Objekte angewandt.',
@@ -140,7 +152,10 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'Keine definierten Berechtigungen gefunden',
 	'NO_ROLE_ASSIGNED'			=> 'Keine Rolle zugewiesen …',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Die Auswahl dieser Rolle ändert die rechts angegebenen Rechte nicht. Wenn du alle Berechtigungen entfernen willst, verwende den „<strong>Alle Nie</strong>“-Link.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Setting to this role does not change permissions on the right. If you want to unset/remove all permissions you should use the “All <samp>NO</samp>” link.
+	//>>>>>>> NEW <<<<<<: Setting to this role does not change permissions on the right. If you want to unset/remove all permissions you should use the “All <strong>NO</strong>” link.
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> '#Die Auswahl dieser Rolle ändert die rechts angegebenen Rechte nicht. Wenn du alle Berechtigungen entfernen willst, verwende den „<strong>Alle Nie</strong>“-Link.',
 	'NO_ROLE_AVAILABLE'			=> 'Keine Rolle verfügbar',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Bitte gib der Rolle einen Namen.',
 	'NO_ROLE_SELECTED'			=> 'Die Rolle kann nicht gefunden werden.',
@@ -198,17 +213,26 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Wie „Standard-Zugang“, kann aber auch Umfragen erstellen.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Kann das Forum lesen, aber keine neuen Themen oder Antworten erstellen.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Kann die meisten Foren-Funktionen inkl. Dateianhänge nutzen und kann eigene Themen löschen, kann aber keine Umfragen erstellen.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <samp>NIE</samp>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
+	//TODO
+	//>>>>>> OLD <<<<<<: A role for members of the special newly registered users group; contains <samp>NEVER</samp> permissions to lock features for new users.
+	//>>>>>>> NEW <<<<<<: A role for members of the special newly registered users group; contains <strong>NEVER</strong> permissions to lock features for new users.
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> '#Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <samp>NIE</samp>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Kann alle Moderations-Funktionen inkl. der Sperren nutzen.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Kann die Moderations-Warteschlange benutzen, um Beiträge zu bestätigen und zu ändern — aber nichts anderes.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Kann nur die themenbezogenen Grundfunktionen nutzen. Kann keine Verwarnungen erteilen oder die Moderations-Warteschlange nutzen.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Kann die meisten Moderations-Funktionen nutzen, kann aber keine Benutzer sperren oder den Autor eines Beitrags ändern.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> 'Kann alle verfügbaren Benutzer-Funktionen verwenden inkl. der Änderung des Benutzernamens und des Übergehens der Wartezeit.<br />Verwendung wird nicht empfohlen.',
-	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Kann bestimmte Benutzer-Funktionen verwenden. Dateianhänge, E-Mails oder Instant Messages sind nicht erlaubt.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Can access some of the user features. Attachments, e-mails, or instant messages are not allowed.
+	//>>>>>>> NEW <<<<<<: Can access some of the user features. Attachments, emails, or instant messages are not allowed.
+	'ROLE_DESCRIPTION_USER_LIMITED'			=> '#Kann bestimmte Benutzer-Funktionen verwenden. Dateianhänge, E-Mails oder Instant Messages sind nicht erlaubt.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Hat eingeschränkte Rechte und kann keinen Avatar benutzen.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Hat eingeschränkte Rechte und kann keine Privaten Nachrichten benutzen.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Kann fast alle Benutzer-Funktionen verwenden. Ausgenommen sind z.&nbsp;B. die Änderung des Benutzernames oder das Übergehen der Wartezeit.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <samp>NIE</samp>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
+	//TODO
+	//>>>>>> OLD <<<<<<: A role for members of the special newly registered users group; contains <samp>NEVER</samp> permissions to lock features for new users.
+	//>>>>>>> NEW <<<<<<: A role for members of the special newly registered users group; contains <strong>NEVER</strong> permissions to lock features for new users.
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> '#Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <samp>NIE</samp>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Du kannst eine kurze Beschreibung angeben, was diese Rolle macht oder für was sie gedacht ist. Der Text, den du hier angibst, wird auch in der Berechtigungs-Verwaltung angezeigt.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Die Beschreibung der Rolle ist zu lang. Sie muss weniger als 4000 Zeichen umfassen.',
@@ -229,48 +253,153 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> 'Benutzer-Berechtigungen festlegen',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'Benutzerspezifische Forenrechte festlegen',
 
-	'TRACE_DEFAULT'							=> 'Standardmäßig ist jede Berechtigung auf <strong>NEIN</strong> (nicht definiert), so dass die Berechtigung durch andere Berechtigungen überschrieben werden kann.',
+	//TODO
+	//>>>>>> OLD <<<<<<: By default every permission is <samp>NO</samp> (unset). So the permission can be overwritten by other settings.
+	//>>>>>>> NEW <<<<<<: By default every permission is <strong>NO</strong> (unset). So the permission can be overwritten by other settings.
+	'TRACE_DEFAULT'					=> '#Standardmäßig ist jede Berechtigung auf <strong>NEIN</strong> (nicht definiert), so dass die Berechtigung durch andere Berechtigungen überschrieben werden kann.',
 	'TRACE_FOR'								=> 'Verfolgung der Einstellung von',
 	'TRACE_GLOBAL_SETTING'					=> '%s (global)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'			=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'			=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_NEVER_TOTAL_YES'			=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
-	'TRACE_GROUP_NO'						=> 'Die Berechtigung dieser Gruppe ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
-	'TRACE_GROUP_NO_LOCAL'					=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'			=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
-	'TRACE_GROUP_YES_TOTAL_NO'				=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_YES_TOTAL_YES'				=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission is set to <samp>NEVER</samp> like the total result so the old result is kept.
+	//>>>>>>> NEW <<<<<<: This group’s permission is set to <strong>NEVER</strong> like the total result so the old result is kept.
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> '#Die Berechtigung dieser Gruppe ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission for this forum is set to <samp>NEVER</samp> like the total result so the old result is kept.
+	//>>>>>>> NEW <<<<<<: This group’s permission for this forum is set to <strong>NEVER</strong> like the total result so the old result is kept.
+	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission is set to <samp>NEVER</samp> which becomes the new total value because it wasn’t set yet (set to <samp>NO</samp>).
+	//>>>>>>> NEW <<<<<<: This group’s permission is set to <strong>NEVER</strong> which becomes the new total value because it wasn’t set yet (set to <strong>NO</strong>).
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> '#Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission for this forum is set to <samp>NEVER</samp> which becomes the new total value because it wasn’t set yet (set to <samp>NO</samp>).
+	//>>>>>>> NEW <<<<<<: This group’s permission for this forum is set to <strong>NEVER</strong> which becomes the new total value because it wasn’t set yet (set to <strong>NO</strong>).
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission is set to <samp>NEVER</samp> which overwrites the total <samp>YES</samp> to a <samp>NEVER</samp> for this user.
+	//>>>>>>> NEW <<<<<<: This group’s permission is set to <strong>NEVER</strong> which overwrites the total <strong>YES</strong> to a <strong>NEVER</strong> for this user.
+	'TRACE_GROUP_NEVER_TOTAL_YES'	=> '#Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission for this forum is set to <samp>NEVER</samp> which overwrites the total <samp>YES</samp> to a <samp>NEVER</samp> for this user.
+	//>>>>>>> NEW <<<<<<: This group’s permission for this forum is set to <strong>NEVER</strong> which overwrites the total <strong>YES</strong> to a <strong>NEVER</strong> for this user.
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The permission is <samp>NO</samp> for this group so the old total value is kept.
+	//>>>>>>> NEW <<<<<<: The permission is <strong>NO</strong> for this group so the old total value is kept.
+	'TRACE_GROUP_NO'				=> '#Die Berechtigung dieser Gruppe ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The permission is <samp>NO</samp> for this group within this forum so the old total value is kept.
+	//>>>>>>> NEW <<<<<<: The permission is <strong>NO</strong> for this group within this forum so the old total value is kept.
+	'TRACE_GROUP_NO_LOCAL'			=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission is set to <samp>YES</samp> but the total <samp>NEVER</samp> cannot be overwritten.
+	//>>>>>>> NEW <<<<<<: This group’s permission is set to <strong>YES</strong> but the total <strong>NEVER</strong> cannot be overwritten.
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> '#Die Berechtigung dieser Gruppe ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission for this forum is set to <samp>YES</samp> but the total <samp>NEVER</samp> cannot be overwritten.
+	//>>>>>>> NEW <<<<<<: This group’s permission for this forum is set to <strong>YES</strong> but the total <strong>NEVER</strong> cannot be overwritten.
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission is set to <samp>YES</samp> which becomes the new total value because it wasn’t set yet (set to <samp>NO</samp>).
+	//>>>>>>> NEW <<<<<<: This group’s permission is set to <strong>YES</strong> which becomes the new total value because it wasn’t set yet (set to <strong>NO</strong>).
+	'TRACE_GROUP_YES_TOTAL_NO'		=> '#Die Berechtigung dieser Gruppe ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission for this forum is set to <samp>YES</samp> which becomes the new total value because it wasn’t set yet (set to <samp>NO</samp>).
+	//>>>>>>> NEW <<<<<<: This group’s permission for this forum is set to <strong>YES</strong> which becomes the new total value because it wasn’t set yet (set to <strong>NO</strong>).
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission is set to <samp>YES</samp> and the total permission is already set to <samp>YES</samp>, so the total result is kept.
+	//>>>>>>> NEW <<<<<<: This group’s permission is set to <strong>YES</strong> and the total permission is already set to <strong>YES</strong>, so the total result is kept.
+	'TRACE_GROUP_YES_TOTAL_YES'		=> '#Die Berechtigung dieser Gruppe ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: This group’s permission for this forum is set to <samp>YES</samp> and the total permission is already set to <samp>YES</samp>, so the total result is kept.
+	//>>>>>>> NEW <<<<<<: This group’s permission for this forum is set to <strong>YES</strong> and the total permission is already set to <strong>YES</strong>, so the total result is kept.
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> '#Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
 	'TRACE_PERMISSION'						=> 'Einstellung verfolgen — %s',
 	'TRACE_RESULT'							=> 'Ergebnis der Verfolgung',
 	'TRACE_SETTING'							=> 'Einstellung verfolgen',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'Die forenunabhängigen Benutzerrechte ergeben <strong>JA</strong>, so dass das Ergebnis beibehalten wird. %sVerfolge globale Berechtigung%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'Die forenunabhängigen Benutzerrechte ergeben <strong>JA</strong>, was das lokale Ergebnis NIE überschreibt. %sVerfolge globale Berechtigung%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'Die forenunabhängigen Benutzerrechte ergeben <strong>NIE</strong>, was das lokale Ergebnis nicht beeinflusst. %sVerfolge globale Berechtigung%s',
+	//TODO
+	//>>>>>> OLD <<<<<<: The forum independent user permission evaluates to <samp>YES</samp> but the total permission is already set to <samp>YES</samp>, so the total result is kept. %sTrace global permission%s
+	//>>>>>>> NEW <<<<<<: The forum independent user permission evaluates to <strong>YES</strong> but the total permission is already set to <strong>YES</strong>, so the total result is kept. %sTrace global permission%s
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> '#Die forenunabhängigen Benutzerrechte ergeben <strong>JA</strong>, so dass das Ergebnis beibehalten wird. %sVerfolge globale Berechtigung%s',
+	//TODO
+	//>>>>>> OLD <<<<<<: The forum independent user permission evaluates to <samp>YES</samp> which overwrites the current local result <samp>NEVER</samp>. %sTrace global permission%s
+	//>>>>>>> NEW <<<<<<: The forum independent user permission evaluates to <strong>YES</strong> which overwrites the current local result <strong>NEVER</strong>. %sTrace global permission%s
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> '#Die forenunabhängigen Benutzerrechte ergeben <strong>JA</strong>, was das lokale Ergebnis NIE überschreibt. %sVerfolge globale Berechtigung%s',
+	//TODO
+	//>>>>>> OLD <<<<<<: The forum independent user permission evaluates to <samp>NEVER</samp> which doesn’t influence the local permission. %sTrace global permission%s
+	//>>>>>>> NEW <<<<<<: The forum independent user permission evaluates to <strong>NEVER</strong> which doesn’t influence the local permission. %sTrace global permission%s
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> '#Die forenunabhängigen Benutzerrechte ergeben <strong>NIE</strong>, was das lokale Ergebnis nicht beeinflusst. %sVerfolge globale Berechtigung%s',
 
-	'TRACE_USER_FOUNDER'					=> 'Der Benutzer ist ein Gründer, so dass Administrationsrechte immer auf <strong>JA</strong> gesetzt sind.',
-	'TRACE_USER_KEPT'						=> 'Die Berechtigung dieses Benutzers ist <strong>NEIN</strong>, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_USER_KEPT_LOCAL'					=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NEIN</strong>, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'Die Berechtigung dieses Benutzers ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_USER_NEVER_TOTAL_NO'				=> 'Die Berechtigung dieses Benutzers ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_USER_NEVER_TOTAL_YES'			=> 'Die Berechtigung dieses Benutzers ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> mit <strong>NIE</strong> überschreibt.',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> mit <strong>NIE</strong> überschreibt.',
-	'TRACE_USER_NO_TOTAL_NO'				=> 'Die Berechtigung dieses Benutzers ist <strong>NEIN</strong> wie das Ergebnis, so dass es zum Standardwert <strong>NIE</strong> wird.',
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NEIN</strong> wie das Ergebnis, so dass es zum Standardwert <strong>NIE</strong> wird.',
-	'TRACE_USER_YES_TOTAL_NEVER'			=> 'Die Berechtigung dieses Benutzers ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschrieben werden.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschrieben werden.',
-	'TRACE_USER_YES_TOTAL_NO'				=> 'Die Berechtigung dieses Benutzers ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert war (<strong>NEIN</strong>).',
-	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert war (<strong>NEIN</strong>).',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'Die Berechtigung dieses Benutzers ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'Die Berechtigung dieses Benutzers für dieses Forum ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user is a founder, therefore admin permissions are always set to <samp>YES</samp>.
+	//>>>>>>> NEW <<<<<<: The user is a founder, therefore admin permissions are always set to <strong>YES</strong>.
+	'TRACE_USER_FOUNDER'					=> '#Der Benutzer ist ein Gründer, so dass Administrationsrechte immer auf <strong>JA</strong> gesetzt sind.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is <samp>NO</samp> so the old total value is kept.
+	//>>>>>>> NEW <<<<<<: The user’s permission is <strong>NO</strong> so the old total value is kept.
+	'TRACE_USER_KEPT'						=> '#Die Berechtigung dieses Benutzers ist <strong>NEIN</strong>, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is <samp>NO</samp> so the old total value is kept.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is <strong>NO</strong> so the old total value is kept.
+	'TRACE_USER_KEPT_LOCAL'					=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NEIN</strong>, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is set to <samp>NEVER</samp> and the total value is set to <samp>NEVER</samp>, so nothing is changed.
+	//>>>>>>> NEW <<<<<<: The user’s permission is set to <strong>NEVER</strong> and the total value is set to <strong>NEVER</strong>, so nothing is changed.
+	'TRACE_USER_NEVER_TOTAL_NEVER'			=> '#Die Berechtigung dieses Benutzers ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is set to <samp>NEVER</samp> and the total value is set to <samp>NEVER</samp>, so nothing is changed.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is set to <strong>NEVER</strong> and the total value is set to <strong>NEVER</strong>, so nothing is changed.
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is set to <samp>NEVER</samp> which becomes the total value because it was set to NO.
+	//>>>>>>> NEW <<<<<<: The user’s permission is set to <strong>NEVER</strong> which becomes the total value because it was set to NO.
+	'TRACE_USER_NEVER_TOTAL_NO'				=> '#Die Berechtigung dieses Benutzers ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is set to <samp>NEVER</samp> which becomes the total value because it was set to NO.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is set to <strong>NEVER</strong> which becomes the total value because it was set to NO.
+	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is set to <samp>NEVER</samp> and overwrites the previous <samp>YES</samp>.
+	//>>>>>>> NEW <<<<<<: The user’s permission is set to <strong>NEVER</strong> and overwrites the previous <strong>YES</strong>.
+	'TRACE_USER_NEVER_TOTAL_YES'			=> '#Die Berechtigung dieses Benutzers ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> mit <strong>NIE</strong> überschreibt.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is set to <samp>NEVER</samp> and overwrites the previous <samp>YES</samp>.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is set to <strong>NEVER</strong> and overwrites the previous <strong>YES</strong>.
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> mit <strong>NIE</strong> überschreibt.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is <samp>NO</samp> and the total value was set to NO so it defaults to <samp>NEVER</samp>.
+	//>>>>>>> NEW <<<<<<: The user’s permission is <strong>NO</strong> and the total value was set to NO so it defaults to <strong>NEVER</strong>.
+	'TRACE_USER_NO_TOTAL_NO'				=> '#Die Berechtigung dieses Benutzers ist <strong>NEIN</strong> wie das Ergebnis, so dass es zum Standardwert <strong>NIE</strong> wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is <samp>NO</samp> and the total value was set to NO so it defaults to <samp>NEVER</samp>.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is <strong>NO</strong> and the total value was set to NO so it defaults to <strong>NEVER</strong>.
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>NEIN</strong> wie das Ergebnis, so dass es zum Standardwert <strong>NIE</strong> wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is set to <samp>YES</samp> but the total <samp>NEVER</samp> cannot be overwritten.
+	//>>>>>>> NEW <<<<<<: The user’s permission is set to <strong>YES</strong> but the total <strong>NEVER</strong> cannot be overwritten.
+	'TRACE_USER_YES_TOTAL_NEVER'			=> '#Die Berechtigung dieses Benutzers ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschrieben werden.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is set to <samp>YES</samp> but the total <samp>NEVER</samp> cannot be overwritten.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is set to <strong>YES</strong> but the total <strong>NEVER</strong> cannot be overwritten.
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschrieben werden.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is set to <samp>YES</samp> which becomes the total value because it was set to <samp>NO</samp>.
+	//>>>>>>> NEW <<<<<<: The user’s permission is set to <strong>YES</strong> which becomes the total value because it was set to <strong>NO</strong>.
+	'TRACE_USER_YES_TOTAL_NO'				=> '#Die Berechtigung dieses Benutzers ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert war (<strong>NEIN</strong>).',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is set to <samp>YES</samp> which becomes the total value because it was set to <samp>NO</samp>.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is set to <strong>YES</strong> which becomes the total value because it was set to <strong>NO</strong>.
+	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert war (<strong>NEIN</strong>).',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission is set to <samp>YES</samp> and the total value is set to <samp>YES</samp>, so nothing is changed.
+	//>>>>>>> NEW <<<<<<: The user’s permission is set to <strong>YES</strong> and the total value is set to <strong>YES</strong>, so nothing is changed.
+	'TRACE_USER_YES_TOTAL_YES'				=> '#Die Berechtigung dieses Benutzers ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	//TODO
+	//>>>>>> OLD <<<<<<: The user’s permission for this forum is set to <samp>YES</samp> and the total value is set to <samp>YES</samp>, so nothing is changed.
+	//>>>>>>> NEW <<<<<<: The user’s permission for this forum is set to <strong>YES</strong> and the total value is set to <strong>YES</strong>, so nothing is changed.
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> '#Die Berechtigung dieses Benutzers für dieses Forum ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
 	'TRACE_WHO'								=> 'Wer',
 	'TRACE_TOTAL'							=> 'Ergebnis',
 

@@ -1,12 +1,10 @@
 <?php
 /**
-*
 * acp_permissions_phpbb (phpBB Permission Set) [Deutsch — Du]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
 * siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
 *
@@ -119,8 +117,8 @@ $lang = array_merge($lang, array(
 	'ACL_F_REPORT'		=> 'Kann Beiträge melden',
 
 	'ACL_F_POST'		=> 'Kann neue Themen im Forum starten',
-	'ACL_F_ANNOUNCE'	=> 'Kann Bekanntmachungen erstellen',
 	'ACL_F_STICKY'		=> 'Kann wichtige Themen erstellen',
+	'ACL_F_ANNOUNCE'	=> 'Kann Bekanntmachungen erstellen',
 	'ACL_F_REPLY'		=> 'Kann auf Themen antworten',
 	'ACL_F_EDIT'		=> 'Kann eigene Beiträge ändern',
 	'ACL_F_DELETE'		=> 'Kann eigene Beiträge löschen',
@@ -132,8 +130,8 @@ $lang = array_merge($lang, array(
 	'ACL_F_ATTACH'		=> 'Kann Dateianhänge anfügen',
 	'ACL_F_ICONS'		=> 'Kann Themen-/Beitrags-Symbole verwenden',
 	'ACL_F_BBCODE'		=> 'Kann BBCode verwenden',
-	'ACL_F_IMG'			=> 'Kann den [img]-BBCode-Tag verwenden',
 	'ACL_F_FLASH'		=> 'Kann den [flash]-BBCode-Tag verwenden',
+	'ACL_F_IMG'			=> 'Kann den [img]-BBCode-Tag verwenden',
 	'ACL_F_SIGS'		=> 'Kann Signatur verwenden',
 	'ACL_F_SMILIES'		=> 'Kann Smilies verwenden',
 
