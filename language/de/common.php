@@ -375,7 +375,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_REQUIRED'					=> 'Du musst angemeldet sein, um diesen Vorgang durchzuführen.',
 	'LOGOUT'							=> 'Abmelden',
 	'LOGOUT_USER'						=> 'Abmelden [ %s ]',
-	'LOG_ME_IN'							=> 'Angemeldet bleiben', // TODO: Übersetzung 'Remember me'
+	'LOG_ME_IN'							=> 'Angemeldet bleiben',
 
 	'MAIN'					=> 'Übersicht', // TODO: Übersetzung: Main
 	'MARK'					=> 'Markieren',

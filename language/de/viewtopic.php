@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_NOTICE'		=> 'Du hast keine ausreichende Berechtigung, um die Dateianhänge dieses Beitrags anzusehen.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.', // TODO: einmal vs. 1-mal
+		1	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.',
 		2	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.',
 	),
 	//TODO
