@@ -58,10 +58,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ich habe mich registriert, kann mich aber nicht anmelden!',
-		//TODO
-		//>>>>>> OLD <<<<<<: First, check your username and password. If they are correct, then one of two things may have happened. If COPPA support is enabled and you specified being under 13 years old during registration, you will have to follow the instructions you received. Some boards will also require new registrations to be activated, either by yourself or by an administrator before you can logon; this information was present during registration. If you were sent an e-mail, follow the instructions. If you did not receive an e-mail, you may have provided an incorrect e-mail address or the e-mail may have been picked up by a spam filer. If you are sure the e-mail address you provided is correct, try contacting an administrator.
-		//>>>>>>> NEW <<<<<<: First, check your username and password. If they are correct, then one of two things may have happened. If COPPA support is enabled and you specified being under 13 years old during registration, you will have to follow the instructions you received. Some boards will also require new registrations to be activated, either by yourself or by an administrator before you can logon; this information was present during registration. If you were sent an email, follow the instructions. If you did not receive an email, you may have provided an incorrect email address or the email may have been picked up by a spam filer. If you are sure the email address you provided is correct, try contacting an administrator.
-		1 => '#Überprüfe zuerst, ob du den richtigen Benutzernamen und das richtige Passwort eingegeben hast. Wenn diese stimmen, dann gibt es zwei Möglichkeiten. Wenn <a href="faq.php#f07">COPPA</a> aktiviert ist und du angegeben hast, dass du unter 13 Jahre alt bist, musst du bzw. einer deiner Eltern oder deiner Erziehungsberechtigten den Anweisungen folgen, die du erhalten hast. Wenn dies nicht der Fall ist, muss dein Benutzerkonto vielleicht aktiviert werden. Bei einigen Boards müssen alle neu angemeldeten Mitglieder erst freigeschaltet werden – entweder musst du dies selbst erledigen oder ein Administrator. Bei der Registrierung wurde dir mitgeteilt, ob eine Aktivierung nötig ist oder nicht. Wenn du eine E-Mail erhalten hast, folge den dort enthaltenen Anweisungen. Ansonsten prüfe, ob du deine E-Mail-Adresse korrekt eingegeben hast oder die E-Mail von einem Spam-Filter blockiert wurde. Wenn du dir sicher bist, dass deine E-Mail-Adresse korrekt eingegeben wurde, dann kontaktiere einen Administrator.'
+		1 => 'Überprüfe zuerst, ob du den richtigen Benutzernamen und das richtige Passwort eingegeben hast. Wenn diese stimmen, dann gibt es zwei Möglichkeiten. Wenn <a href="faq.php#f07">COPPA</a> aktiviert ist und du angegeben hast, dass du unter 13 Jahre alt bist, musst du bzw. einer deiner Eltern oder deiner Erziehungsberechtigten den Anweisungen folgen, die du erhalten hast. Wenn dies nicht der Fall ist, muss dein Benutzerkonto vielleicht aktiviert werden. Bei einigen Boards müssen alle neu angemeldeten Mitglieder erst freigeschaltet werden – entweder musst du dies selbst erledigen oder ein Administrator. Bei der Registrierung wurde dir mitgeteilt, ob eine Aktivierung nötig ist oder nicht. Wenn du eine E-Mail erhalten hast, folge den dort enthaltenen Anweisungen. Ansonsten prüfe, ob du deine E-Mail-Adresse korrekt eingegeben hast oder die E-Mail von einem Spam-Filter blockiert wurde. Wenn du dir sicher bist, dass deine E-Mail-Adresse korrekt eingegeben wurde, dann kontaktiere einen Administrator.'
 	),
 	array(
 		0 => 'Ich habe mich vor einiger Zeit registriert, kann mich aber nicht mehr anmelden?!',
@@ -108,14 +105,8 @@ $help = array(
 		1 => 'Ränge, die unter deinem Benutzernamen stehen, zeigen an, wie viele Beiträge du bislang erstellt hast oder identifizieren bestimmte Benutzer wie Moderatoren und Administratoren. Normalerweise kannst du den Wortlaut eines Ranges nicht direkt ändern, da sie von der Board-Administration festgelegt wurden. Bitte schreibe keine sinnlosen Beiträge, nur um deinen Rang zu erhöhen — die meisten Boards dulden dieses Verhalten nicht und ein Moderator oder Administrator wird deinen Rang unter Umständen einfach wieder zurücksetzen.'
 	),
 	array(
-		//TODO
-		//>>>>>> OLD <<<<<<: When I click the e-mail link for a user it asks me to login?
-		//>>>>>>> NEW <<<<<<: When I click the email link for a user it asks me to login?
-		0 => '#Wenn ich bei einem Benutzer auf den E-Mail-Link klicke, werde ich aufgefordert, mich anzumelden.',
-		//TODO
-		//>>>>>> OLD <<<<<<: Only registered users can send e-mail to other users via the built-in e-mail form, and only if the administrator has enabled this feature. This is to prevent malicious use of the e-mail system by anonymous users.
-		//>>>>>>> NEW <<<<<<: Only registered users can send email to other users via the built-in email form, and only if the administrator has enabled this feature. This is to prevent malicious use of the email system by anonymous users.
-		1 => '#Nur registrierte Benutzer dürfen die foreninterne E-Mail-Funktion für Nachrichten an andere Benutzer nutzen, falls diese von der Board-Administration freigeschaltet wurde. Diese Maßnahme soll den Missbrauch dieses Systems durch Gäste verhindern.'
+		0 => 'Wenn ich bei einem Benutzer auf den E-Mail-Link klicke, werde ich aufgefordert, mich anzumelden.',
+		1 => 'Nur registrierte Benutzer dürfen die foreninterne E-Mail-Funktion für Nachrichten an andere Benutzer nutzen, falls diese von der Board-Administration freigeschaltet wurde. Diese Maßnahme soll den Missbrauch dieses Systems durch Gäste verhindern.'
 	),
 	array(
 		0 => '--',
@@ -267,14 +258,8 @@ $help = array(
 		1 => 'Du kannst unterbinden, dass ein Mitglied dir Private Nachrichten sendet, indem du in deinem persönlichen Bereich eine entsprechende Regel erstellst. Falls du belästigende Nachrichten von jemandem erhältst, so kannst du dies auch einem Administrator melden. Dieser kann dem betreffenden Mitglied dann verbieten, Private Nachrichten zu versenden.'
 	),
 	array(
-		//TODO
-		//>>>>>> OLD <<<<<<: I have received a spamming or abusive e-mail from someone on this board!
-		//>>>>>>> NEW <<<<<<: I have received a spamming or abusive email from someone on this board!
-		0 => '#Ich habe eine Spam-E-Mail von einem Mitglied dieses Forums erhalten!',
-		//TODO
-		//>>>>>> OLD <<<<<<: We are sorry to hear that. The e-mail form feature of this board includes safeguards to try and track users who send such posts, so e-mail the board administrator with a full copy of the e-mail you received. It is very important that this includes the headers that contain the details of the user that sent the e-mail. The board administrator can then take action.
-		//>>>>>>> NEW <<<<<<: We are sorry to hear that. The email form feature of this board includes safeguards to try and track users who send such posts, so email the board administrator with a full copy of the email you received. It is very important that this includes the headers that contain the details of the user that sent the email. The board administrator can then take action.
-		1 => '#Es tut uns leid, das zu hören. Das E-Mail-Formular dieses Forums hat einige Sicherheitsvorkehrungen, die Benutzer, die solche Nachrichten senden, identifizieren sollen. Du solltest einem Administrator die komplette E-Mail, die du bekommen hast, weiterleiten. Dabei ist es ganz wichtig, die Kopfzeilen (Headers) mitzuschicken. Diese enthalten Details über den Benutzer, der die E-Mail verschickt hat. Der Administrator kann dann entsprechend reagieren.'
+		0 => 'Ich habe eine Spam-E-Mail von einem Mitglied dieses Forums erhalten!',
+		1 => 'Es tut uns leid, das zu hören. Das E-Mail-Formular dieses Forums hat einige Sicherheitsvorkehrungen, die Benutzer, die solche Nachrichten senden, identifizieren sollen. Du solltest einem Administrator die komplette E-Mail, die du bekommen hast, weiterleiten. Dabei ist es ganz wichtig, die Kopfzeilen (Headers) mitzuschicken. Diese enthalten Details über den Benutzer, der die E-Mail verschickt hat. Der Administrator kann dann entsprechend reagieren.'
 	),
 	array(
 		0 => '--',

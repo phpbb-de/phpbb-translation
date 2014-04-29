@@ -47,10 +47,7 @@ $lang = array_merge($lang, array(
 
 	'COMPOSE'				=> 'Entwerfen',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: There were one or more errors while sending the e-mail. Please check the %sError log%s for detailed error messages.
-	//>>>>>>> NEW <<<<<<: There were one or more errors while sending the email. Please check the %sError log%s for detailed error messages.
-	'EMAIL_SEND_ERROR'		=> '#Es sind ein oder mehrere Fehler beim Versand der E-Mail aufgetreten. Bitte prüfe das %sFehler-Protokoll%s für detailliertere Fehlermeldungen.',
+	'EMAIL_SEND_ERROR'		=> 'Es sind ein oder mehrere Fehler beim Versand der E-Mail aufgetreten. Bitte prüfe das %sFehler-Protokoll%s für detailliertere Fehlermeldungen.',
 	'EMAIL_SENT'			=> 'Die Nachricht wurde versendet.',
 	'EMAIL_SENT_QUEUE'		=> 'Die Nachricht wurde in die Warteschlange eingereiht.',
 
@@ -62,10 +59,7 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS_EXPLAIN'	=> 'Hier eingegebene Namen überschreiben jede oben ausgewählte Gruppe. Gib jeden Benutzer in einer neuen Zeile an.',
 
 	'MAIL_BANNED'			=> 'Gesperrte Benutzer einschließen',
-	//TODO
-	//>>>>>> OLD <<<<<<: When sending a mass e-mail to a group you can select here whether banned users will also receive the e-mail.
-	//>>>>>>> NEW <<<<<<: When sending a mass email to a group you can select here whether banned users will also receive the email.
-	'MAIL_BANNED_EXPLAIN'	=> '#Wenn du eine Nachricht an eine Gruppe sendest, kannst du hier auswählen, ob gesperrte Benutzer auch eine E-Mail erhalten sollen.',
+	'MAIL_BANNED_EXPLAIN'	=> 'Wenn du eine Nachricht an eine Gruppe sendest, kannst du hier auswählen, ob gesperrte Benutzer auch eine E-Mail erhalten sollen.',
 	'MAIL_HIGH_PRIORITY'	=> 'Hoch',
 	'MAIL_LOW_PRIORITY'		=> 'Niedrig',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
