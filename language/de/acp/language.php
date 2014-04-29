@@ -41,7 +41,10 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Sprachdateien Administrations-Bereich',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kannst du Sprachpakete installieren und entfernen. Das Standard-Sprachpaket ist mit einem Stern (*) gekennzeichnet.',
 
-	'EMAIL_FILES'			=> 'E-Mail-Templates',
+	//TODO
+	//>>>>>> OLD <<<<<<: E-mail templates
+	//>>>>>>> NEW <<<<<<: Email templates
+	'EMAIL_FILES'			=> '#E-Mail-Templates',
 
 	'FILE_CONTENTS'				=> 'Datei-Inhalte',
 	'FILE_FROM_STORAGE'			=> 'Datei aus Speicher-Ordner',

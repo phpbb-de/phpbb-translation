@@ -1,4 +1,4 @@
-
+#
 Die folgende Nachricht wurde dir von einem Administrator von „{SITENAME}“ gesendet. Wenn diese Nachricht Werbung, Beleidigungen oder anderen anstößigen Inhalt enthält, kannst du die Board-Administration unter folgender Adresse erreichen:
 
 {CONTACT_EMAIL}

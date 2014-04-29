@@ -38,7 +38,10 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> '#Here you can manage the available styles on your board. You may alter existing styles, delete, deactivate, reactivate, install new ones. You can also see what a style will look like using the preview function. Also listed is the total user count for each style, note that overriding user styles will not be reflected here.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Here you can manage the available styles on your board. A style consists of a template, theme and imageset. You may alter existing styles, delete, deactivate, reactivate, create or import new ones. You can also see what a style will look like using the preview function. The current default style is noted by the presence of an asterisk (*). Also listed is the total user count for each style, note that overriding user styles will not be reflected here.
+	//>>>>>>> NEW <<<<<<: Here you can manage the available styles on your board. You may alter existing styles, delete, deactivate, reactivate, install new ones. You can also see what a style will look like using the preview function. Also listed is the total user count for each style, note that overriding user styles will not be reflected here.
+	'ACP_STYLES_EXPLAIN'	=> '#Hier kannst du die auf deinem Board verfügbaren Styles verwalten. Ein Style besteht aus einem Template, einem Theme und einer Grafiksammlung. Du kannst bestehende Styles ändern, löschen, deaktivieren, reaktivieren oder neue erstellen oder importieren. Du kannst mit der Vorschau-Funktion auch sehen, wie ein Style aussehen wird. Der derzeit aktive Standard-Style ist durch einen Stern (*) gekennzeichnet. Außerdem ist die Zahl der Benutzer angegeben, die ein Style verwenden. Bitte beachte, dass hier nicht berücksichtigt wird, ob der Style überschrieben wird.',
 	'ADD_TEMPLATE'			=> 'Template erstellen',
 	'ADD_TEMPLATE_EXPLAIN'	=> 'Hier kannst du ein neues Template erstellen. Abhängig von der Serverkonfiguration und den Dateirechten können dir zusätzliche Funktionen zur Verfügung stehen. Du kannst z.&nbsp;B. die Template-Sammlung auf Grundlage einer anderen aufbauen. Du kannst eventuell auch ein Template-Archiv hochladen oder (vom store-Verzeichnis) importieren. Wenn du ein Archiv hochlädst oder importierst, kann der Name des Templates auf Wunsch auch aus dem Archiv übernommen werden (lass dazu den Namen leer).',
 	'ARCHIVE_FORMAT'		=> 'Dateiarchiv-Typ',
@@ -82,9 +85,15 @@ $lang = array_merge($lang, array(
 	'EDIT_DETAILS_TEMPLATE'				=> 'Template-Details ändern',
 	'EDIT_DETAILS_TEMPLATE_EXPLAIN'		=> 'Hier kannst du bestimmte Template-Details wie z.&nbsp;B. seinen Namen ändern.',
 	'EDIT_DETAILS_THEME'				=> 'Theme-Details ändern',
+	//TODO
+	//>>>>>> OLD <<<<<<: Here you can edit certain theme details such as its name. You may also have the option to switch storage of the stylesheet from the filesystem to the database and vice versa. This option depends on your PHP configuration and whether your stylesheet can be written to by the web server.
+	//>>>>>>> NEW <<<<<<: Here you can edit certain theme details such as its name.
+	'EDIT_DETAILS_THEME_EXPLAIN'		=> '#Hier kannst du bestimmte Details eines Themes wie z.&nbsp;B. seinen Namen ändern. Du hast die Möglichkeit, den Ablageort des Stylesheets vom Dateisystem zur Datenbank oder andersherum zu ändern, sofern PHP-Konfiguration und Webserver es erlauben, in die Stylesheet-Datei zu schreiben.',
 	'EDIT_TEMPLATE'						=> 'Template ändern',
-	'EDIT_TEMPLATE_EXPLAIN'				=> 'Hier kannst du deine Template-Sammlung direkt ändern. Bitte beachte, dass diese Änderungen dauerhaft sind und nicht rückgängig gemacht werden können, sobald sie abgesandt wurden. Wenn PHP direkt in die Template-Dateien in deinem styles-Verzeichnis schreiben kann, werden die Änderungen direkt in diese Dateien geschrieben. Wenn PHP nicht in diese Dateien schreiben kann, werden die Änderungen nur in der Datenbank gespeichert. Bitte sei bei der Änderung der Template-Sammlung vorsichtig. Stelle sicher, dass alle Variablen ({XXXX}) und alle bedingten Anweisungen richtig geschlossen werden.',
-	'EDIT_TEMPLATE_EXPLAIN'				=> '#Here you can edit your template set directly. Please remember that these edits are permanent and cannot be undone once submitted. Please take care when editing your template set, remember to close all replacement variable terms {XXXX} and conditional statements.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Here you can edit your template set directly. Please remember that these edits are permanent and cannot be undone once submitted. If PHP can write to the template files in your styles directory any changes here will be written directly to those files. If PHP cannot write to those files they will be copied into the database and all changes will only be reflected there. Please take care when editing your template set, remember to close all replacement variable terms {XXXX} and conditional statements.
+	//>>>>>>> NEW <<<<<<: Here you can edit your template set directly. Please remember that these edits are permanent and cannot be undone once submitted. Please take care when editing your template set, remember to close all replacement variable terms {XXXX} and conditional statements.
+	'EDIT_TEMPLATE_EXPLAIN'				=> '#Hier kannst du deine Template-Sammlung direkt ändern. Bitte beachte, dass diese Änderungen dauerhaft sind und nicht rückgängig gemacht werden können, sobald sie abgesandt wurden. Wenn PHP direkt in die Template-Dateien in deinem styles-Verzeichnis schreiben kann, werden die Änderungen direkt in diese Dateien geschrieben. Wenn PHP nicht in diese Dateien schreiben kann, werden die Änderungen nur in der Datenbank gespeichert. Bitte sei bei der Änderung der Template-Sammlung vorsichtig. Stelle sicher, dass alle Variablen ({XXXX}) und alle bedingten Anweisungen richtig geschlossen werden.',
 	'EDIT_THEME'						=> 'Theme ändern',
 	'EDIT_THEME_EXPLAIN'				=> 'Hier kannst du das ausgewählte Theme anpassen und Farben, Grafiken usw. ändern.',
 	'EDITOR_DISABLED'					=> 'Der Template-Editor ist deaktiviert.',
@@ -185,7 +194,10 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_BACK_TOP'		=> 'Nach oben',
 
-	'IMG_ICON_CONTACT_EMAIL'	=> 'E-Mail senden',
+	//TODO
+	//>>>>>> OLD <<<<<<: Send e-mail
+	//>>>>>>> NEW <<<<<<: Send email
+	'IMG_ICON_CONTACT_EMAIL'	=> '#E-Mail senden',
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber',
 	'IMG_ICON_CONTACT_PM'		=> 'Nachricht senden',
 
@@ -235,8 +247,10 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Geerbt von',
 	'INSTALL_STYLE'				=> 'Style installieren',
 	'INSTALL_STYLES'			=> 'Styles installieren',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kannst du den ausgewählten Style und die dazugehörigen Komponenten installieren. Wenn du die relevanten Komponenten des Styles bereits installiert hast, werden diese nicht überschrieben. Manche Styles benötigen zusätzliche Komponenten, die bereits installiert sein müssen. Wenn du einen solchen Style installierst und nicht alle erforderlichen Komponenten hast, wirst du darüber informiert.',
-	'INSTALL_STYLES_EXPLAIN'	=> '#Here you can install new styles.<br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Here you can install a new style and if appropriate the corresponding style elements. If you already have the relevant style elements installed they will not be overwritten. Some styles require existing style elements to already be installed. If you try installing such a style and do not have the required elements you will be notified.
+	//>>>>>>> NEW <<<<<<: Here you can install new styles.<br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.
+	'INSTALL_STYLES_EXPLAIN'	=> '#Hier kannst du den ausgewählten Style und die dazugehörigen Komponenten installieren. Wenn du die relevanten Komponenten des Styles bereits installiert hast, werden diese nicht überschrieben. Manche Styles benötigen zusätzliche Komponenten, die bereits installiert sein müssen. Wenn du einen solchen Style installierst und nicht alle erforderlichen Komponenten hast, wirst du darüber informiert.',
 	'INSTALLED_STYLE'			=> 'Installierte Styles',
 	'INVALID_STYLE_ID'			=> '#Invalid style ID.',
 
@@ -290,8 +304,10 @@ $lang = array_merge($lang, array(
 	'STYLE_DEFAULT'				=> 'Als Standard-Style festlegen',
 	'STYLE_DEFAULT_CHANGE'		=> '#Change default style',
 	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> '#You must activate style before making it default style.',
-	'STYLE_DELETED'				=> 'Style erfolgreich gelöscht.',
-	'STYLE_DELETED'				=> '#Style "%s" deleted successfully.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Style deleted successfully.
+	//>>>>>>> NEW <<<<<<: Style "%s" deleted successfully.
+	'STYLE_DELETED'				=> '#Style erfolgreich gelöscht.',
 	'STYLE_DETAILS_UPDATED'		=> 'Style erfolgreich geändert.',
 	'STYLE_ERR_ARCHIVE'			=> 'Bitte wähle einen Typ für das Dateiarchiv aus.',
 	'STYLE_ERR_COPY_LONG'		=> 'Das Copyright darf nicht länger als 60 Zeichen sein.',
@@ -303,8 +319,10 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NOT_STYLE'		=> 'Das angegebene oder hochgeladene Archiv enthält kein gültiges Style.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Du musst einen Namen für diesen Style angeben.',
 	'STYLE_EXPORT'				=> 'Style exportieren',
-	'STYLE_EXPORT_EXPLAIN'		=> 'Hier kannst du ein Style in Form eines Archives exportieren. Ein Style muss nicht alle Elemente beinhalten, aber mindestens eins. Wenn du zum Beispiel ein neues Theme und eine neue Grafiksammlung für ein weit verbreitetes Template erstellt hast, solltest du nur Theme und Grafiksammlung exportieren und das Template auslassen. Du kannst auswählen, ob du die Datei direkt herunterladen oder im store-Ordner ablegen möchtest, damit du sie später per FTP herunterladen kannst.',
-	'STYLE_EXPORT_EXPLAIN'		=> '#Here you can export a style in the form of an archive. A style does not need to contain all elements but it must contain at least one. For example if you have created a new theme for a commonly used template you could simply export the theme and omit the template. You may select whether to download the file directly or to place it in your store folder for download later or via FTP.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Here you can export a style in the form of an archive. A style does not need to contain all elements but it must contain at least one. For example if you have created a new theme and imageset for a commonly used template you could simply export the theme and imageset and omit the template. You may select whether to download the file directly or to place it in your store folder for download later or via FTP.
+	//>>>>>>> NEW <<<<<<: Here you can export a style in the form of an archive. A style does not need to contain all elements but it must contain at least one. For example if you have created a new theme for a commonly used template you could simply export the theme and omit the template. You may select whether to download the file directly or to place it in your store folder for download later or via FTP.
+	'STYLE_EXPORT_EXPLAIN'		=> '#Hier kannst du ein Style in Form eines Archives exportieren. Ein Style muss nicht alle Elemente beinhalten, aber mindestens eins. Wenn du zum Beispiel ein neues Theme und eine neue Grafiksammlung für ein weit verbreitetes Template erstellt hast, solltest du nur Theme und Grafiksammlung exportieren und das Template auslassen. Du kannst auswählen, ob du die Datei direkt herunterladen oder im store-Ordner ablegen möchtest, damit du sie später per FTP herunterladen kannst.',
 	'STYLE_EXPORTED'			=> 'Style erfolgreich exportiert und als %s gespeichert.',
 	'STYLE_INSTALLED'			=> '#Style "%s" has been installed.',
 	'STYLE_INSTALLED_EDIT_DETAILS'	=> '#<a href="%s">Click here</a> to edit style details or to change default style.',
@@ -326,7 +344,10 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_CACHE_EXPLAIN'	=> 'Standardmäßig speichert phpBB die kompilierte Version seiner Templates. Dies reduziert jedes Mal die Serverlast, wenn eine Seite angezeigt wird und kann daher die zur Seitenerstellung benötigte Zeit reduzieren. Hier kannst du den Cache-Status jeder Datei sehen und einzelne gecachte Dateien oder den gesamten Cache leeren.',
 	'TEMPLATE_CACHE_CLEARED'	=> 'Template-Cache erfolgreich geleert.',
 	'TEMPLATE_CACHE_EMPTY'		=> 'Es sind keine gecachten Templates vorhanden.',
-	'TEMPLATE_DELETED_FS'		=> 'Die Template-Sammlung wurde erfolgreich gelöscht, aber einige Dateien verbleiben im Dateisystem.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Template set removed from database but some files may remain on the filesystem.
+	//>>>>>>> NEW <<<<<<: Template set removed from database but files remain on the filesystem.
+	'TEMPLATE_DELETED_FS'		=> '#Die Template-Sammlung wurde erfolgreich gelöscht, aber einige Dateien verbleiben im Dateisystem.',
 	'TEMPLATE_DETAILS_UPDATED'	=> 'Template-Details erfolgreich aktualisiert.',
 	'TEMPLATE_EDITOR'			=> 'HTML-Template-Editor',
 	'TEMPLATE_EDITOR_HEIGHT'	=> 'Höhe des Template-Editors',

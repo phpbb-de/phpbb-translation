@@ -1,4 +1,4 @@
-
+#
 Hallo {TO_USERNAME},
 
 die folgende Nachricht wurde dir von {FROM_USERNAME} über dein Benutzerkonto auf „{SITENAME}“ geschickt. Wenn diese Nachricht Werbung, Beleidigungen oder anderen anstößigen Inhalt enthält, kannst du die Board-Administration unter folgender Adresse erreichen:

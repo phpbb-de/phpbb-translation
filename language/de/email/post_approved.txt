@@ -1,4 +1,4 @@
-Subject: Beitrag freigegeben — „{POST_SUBJECT}“
+#Subject: Beitrag freigegeben — „{POST_SUBJECT}“
 
 Hallo {USERNAME},
 

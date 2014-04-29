@@ -61,7 +61,10 @@ $lang = array_merge($lang, array(
 		1	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.', // TODO: einmal vs. 1-mal
 		2	=> 'Zuletzt geändert von %2$s am %3$s, insgesamt %1$d-mal geändert.',
 	),
-	'EMAIL_TOPIC'			=> 'Thema weiterempfehlen',
+	//TODO
+	//>>>>>> OLD <<<<<<: E-mail friend
+	//>>>>>>> NEW <<<<<<: Email friend
+	'EMAIL_TOPIC'			=> '#Thema weiterempfehlen',
 	'ERROR_NO_ATTACHMENT'	=> 'Der ausgewählte Dateianhang existiert nicht mehr.',
 
 	'FILE_NOT_FOUND_404'	=> 'Die Datei <strong>%s</strong> existiert nicht.',

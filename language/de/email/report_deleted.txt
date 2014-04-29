@@ -1,4 +1,4 @@
-Subject: Meldung gelöscht — „{POST_SUBJECT}“
+#Subject: Meldung gelöscht — „{POST_SUBJECT}“
 
 Hallo {USERNAME},
 

@@ -47,8 +47,8 @@ $lang = array_merge($lang, array(
 	'BBCODE_DANGER_PROCEED'		=> 'Fortfahren', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode erfolgreich hinzugefügt.',
-	'BBCODE_DELETED'			=> '#The BBCode has been removed successfully.',
 	'BBCODE_EDITED'				=> 'BBCode erfolgreich bearbeitet.',
+	'BBCODE_DELETED'			=> '#The BBCode has been removed successfully.',
 	'BBCODE_NOT_EXIST'			=> 'Der gewählte BBCode existiert nicht.',
 	'BBCODE_HELPLINE'			=> 'Tipp-Anzeige',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Gib hier den Text ein, der in der Tipp-Zeile erscheinen soll, wenn sich der Mauszeiger auf der Schaltfläche befindet.',
@@ -84,7 +84,10 @@ $lang = array_merge($lang, array(
 		'INTTEXT'		=> 'Unicode-Buchstaben, Ziffern, Leerzeichen, Komma, Punkt, Minus, Plus, Bindestrich, Unterstrich und Leerräume.',
 		'IDENTIFIER'	=> 'Zeichen des lateinischen Alphabets (A-Z), Ziffern, Bindestrich und Unterstrich',
 		'NUMBER'		=> 'Ziffernfolgen',
-		'EMAIL'			=> 'Eine gültige E-Mail-Adresse',
+		//TODO
+		//>>>>>> OLD <<<<<<: A valid e-mail address
+		//>>>>>>> NEW <<<<<<: A valid email address
+		'EMAIL'			=> '#Eine gültige E-Mail-Adresse',
 		'URL'			=> 'Eine gültige URL eines beliebigen Protokolls (http, ftp usw. — kann nicht für JavaScript-Exploits verwendet werden). Falls nicht angegeben, wird „http://“ vorangestellt.',
 		'LOCAL_URL'		=> 'Eine lokale URL. Muss relativ zur Themenansicht angegeben werden. Protokoll und Domain darf nicht vorangestellt werden, da den Links „%s“ vorangestellt wird.',
 		'RELATIVE_URL'	=> 'Eine relative URL. Kann verwendet werden, um Teile einer URL zu prüfen. Achtung: auch eine vollständige URL ist eine gültige relative URL. Wenn relative URLs zur Adresse des Boards verwendet werden sollen, sollte der LOCAL_URL-Token verwendet werden.',
