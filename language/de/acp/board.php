@@ -221,10 +221,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Hier kannst du Einstellungen bezüglich der Registrierung und der Mitgliederprofile vornehmen.',
 
 	'ACC_ACTIVATION'				=> 'Benutzerkonto-Aktivierung',
-	//TODO
-	//>>>>>> OLD <<<<<<: This determines whether users have immediate access to the board or if confirmation is required. You can also completely disable new registrations. “Board-wide e-mail” must be enabled in order to use user or admin activation.
-	//>>>>>>> NEW <<<<<<: This determines whether users have immediate access to the board or if confirmation is required. You can also completely disable new registrations. “Board-wide email” must be enabled in order to use user or admin activation.
-	'ACC_ACTIVATION_EXPLAIN'		=> '#Diese Einstellung legt fest, ob Benutzer sofortigen Zugang zum Board haben, oder ob eine Bestätigung erforderlich ist. Du kannst neue Registrierungen auch komplett deaktivieren. Die E-Mail-Funktionalität des Boards muss aktiviert sein, damit eine Aktivierung durch den Benutzer oder einen Administrator möglich ist.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Diese Einstellung legt fest, ob Benutzer sofortigen Zugang zum Board haben, oder ob eine Bestätigung erforderlich ist. Du kannst neue Registrierungen auch komplett deaktivieren. Die E-Mail-Funktionalität des Boards muss aktiviert sein, damit eine Aktivierung durch den Benutzer oder einen Administrator möglich ist.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Grenze für kürzlich registrierte Benutzer',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Jeder neu registrierte Benutzer ist Mitglied der Gruppe „Kürzlich registrierte Benutzer“, bis er diese Zahl von Beiträgen erreicht hat. Du kannst diese Gruppe nutzen, um für sie die Nutzung von Privaten Nachrichten zu unterbinden oder um eine Freigabe ihrer Beiträge erforderlich zu machen. <strong>Ein Wert von 0 deaktiviert diese Funktion.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Kürzlich registrierte Benutzer-Gruppe als Standard setzen',
@@ -233,19 +230,10 @@ $lang = array_merge($lang, array(
 	'ACC_ADMIN'					=> 'Durch einen Administrator',
 	'ACC_DISABLE'				=> 'Registrierung deaktivieren',
 	'ACC_NONE'					=> 'Keine Aktivierung (direkter Zugang ohne Prüfung)',
-	//TODO
-	//>>>>>> OLD <<<<<<: By user (e-mail verification)
-	//>>>>>>> NEW <<<<<<: By user (email verification)
-	'ACC_USER'					=> '#Durch den Benutzer (Verifizierung der E-Mail-Adresse)',
+	'ACC_USER'					=> 'Durch den Benutzer (Verifizierung der E-Mail-Adresse)',
 //	'ACC_USER_ADMIN'			=> 'User + Admin',
-	//TODO
-	//>>>>>> OLD <<<<<<: Allow e-mail address re-use
-	//>>>>>>> NEW <<<<<<: Allow email address re-use
-	'ALLOW_EMAIL_REUSE'			=> '#Mehrfachnutzung der E-Mail-Adresse erlauben',
-	//TODO
-	//>>>>>> OLD <<<<<<: Different users can register with the same e-mail address.
-	//>>>>>>> NEW <<<<<<: Different users can register with the same email address.
-	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> '#Mehrere Benutzer können sich mit derselben E-Mail-Adresse registrieren.',
+	'ALLOW_EMAIL_REUSE'			=> 'Mehrfachnutzung der E-Mail-Adresse erlauben',
+	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Mehrere Benutzer können sich mit derselben E-Mail-Adresse registrieren.',
 	'COPPA'						=> 'COPPA',
 	'COPPA_FAX'					=> 'COPPA-Fax-Nummer',
 	'COPPA_MAIL'				=> 'COPPA-Post-Adresse',
@@ -428,19 +416,10 @@ $lang = array_merge($lang, array(
 
 	'LDAP_DN'						=> 'LDAP-Basis <var>DN</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Distinguished Name des Verzeichnisses, in dem sich die Benutzer-Daten befinden, z.&nbsp;B. <samp>o=Meine&nbsp;Firma,c=DE</samp>.',
-	//TODO
-	//>>>>>> OLD <<<<<<: LDAP e-mail attribute
-	//>>>>>>> NEW <<<<<<: LDAP email attribute
-	'LDAP_EMAIL'					=> '#LDAP-E-Mail-Attribut',
-	//TODO
-	//>>>>>> OLD <<<<<<: Set this to the name of your user entry e-mail attribute (if one exists) in order to automatically set the e-mail address for new users. Leaving this empty results in empty e-mail address for users who log in for the first time.
-	//>>>>>>> NEW <<<<<<: Set this to the name of your user entry email attribute (if one exists) in order to automatically set the email address for new users. Leaving this empty results in empty email address for users who log in for the first time.
-	'LDAP_EMAIL_EXPLAIN'			=> '#Gib hier den Namen des E-Mail-Attributes (falls existent) ein, um die E-Mail-Adresse für neue Benutzer automatisch zu setzen. Wenn dieses Feld freigelassen wird, ist bei Benutzern, die sich zum ersten Mal anmelden, keine E-Mail-Adresse gesetzt.',
+	'LDAP_EMAIL'					=> 'LDAP-E-Mail-Attribut',
+	'LDAP_EMAIL_EXPLAIN'			=> 'Gib hier den Namen des E-Mail-Attributes (falls existent) ein, um die E-Mail-Adresse für neue Benutzer automatisch zu setzen. Wenn dieses Feld freigelassen wird, ist bei Benutzern, die sich zum ersten Mal anmelden, keine E-Mail-Adresse gesetzt.',
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Die Verbindung zum LDAP-Server mit der angegebenen Benutzernamen und Passwort ist gescheitert.',
-	//TODO
-	//>>>>>> OLD <<<<<<: The specified e-mail attribute does not exist.
-	//>>>>>>> NEW <<<<<<: The specified email attribute does not exist.
-	'LDAP_NO_EMAIL'					=> '#Das angegebene E-Mail-Attribut existiert nicht.',
+	'LDAP_NO_EMAIL'					=> 'Das angegebene E-Mail-Attribut existiert nicht.',
 	'LDAP_NO_IDENTITY'				=> 'Kann keine Anmeldekennung für %s finden.',
 	'LDAP_PASSWORD'					=> 'LDAP-Passwort',
 	'LDAP_PASSWORD_EXPLAIN'			=> 'Lasse das Feld für eine anonyme Verbindung frei; ansonsten gib das Passwort für obigen Benutzer an. Erforderlich bei Active Directory-Servern.<br /><em><strong>WARNUNG:</strong> Dieses Passwort wird im Klartext in der Datenbank gespeichert und ist daher für jeden einsehbar, der Zugriff auf die Datenbank oder diese Konfigurationsseite hat.</em>',
@@ -458,10 +437,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you define server and domain dependant settings. Please ensure the data you enter is accurate, errors will result in e-mails containing incorrect information. When entering the domain name remember it does include http:// or other protocol term. Only alter the port number if you know your server uses a different value, port 80 is correct in most cases.
-	//>>>>>>> NEW <<<<<<: Here you define server and domain dependent settings. Please ensure the data you enter is accurate, errors will result in emails containing incorrect information. When entering the domain name remember it does include http:// or other protocol term. Only alter the port number if you know your server uses a different value, port 80 is correct in most cases.
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> '#Hier kannst du einige Einstellungen bezüglich Server und Domain vornehmen. Bitte stelle sicher, dass die Daten, die du eingibst, auch wirklich stimmen, denn fehlerhafte Angaben könnten zu E-Mails führen, die falsche Informationen enthalten. Wenn du den Domain-Namen eingibst, denk daran, dass http:// oder eine andere Protokoll-Bezeichnung darin enthalten ist. Ändere den Port nur, wenn du weißt, dass dein Server einen anderen Port nutzt; Port 80 ist in den allermeisten Fällen richtig.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Hier kannst du einige Einstellungen bezüglich Server und Domain vornehmen. Bitte stelle sicher, dass die Daten, die du eingibst, auch wirklich stimmen, denn fehlerhafte Angaben könnten zu E-Mails führen, die falsche Informationen enthalten. Wenn du den Domain-Namen eingibst, denk daran, dass http:// oder eine andere Protokoll-Bezeichnung darin enthalten ist. Ändere den Port nur, wenn du weißt, dass dein Server einen anderen Port nutzt; Port 80 ist in den allermeisten Fällen richtig.',
 
 	'ENABLE_GZIP'				=> 'gzip-Komprimierung aktivieren',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Der Seiteninhalt wird vor dem Senden an den Benutzer komprimiert. Dies kann den Netzverkehr reduzieren, wird aber auch zu einer Erhöhung der CPU-Last sowohl auf Server- als auch auf Benutzerseite führen. Erfordert, dass die zlib-Erweiterung von PHP geladen ist.',
@@ -522,14 +498,8 @@ $lang = array_merge($lang, array(
 	'CHECK_DNSBL_EXPLAIN'			=> 'Wenn aktiviert, wird die IP-Adresse des Benutzers bei der Registrierung und bei der Beitragserstellung gegen folgende DNSBL-Dienste geprüft: <a href="http://spamcop.net">spamcop.net</a> und <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Diese Prüfung kann, abhängig von der Serverkonfiguration, etwas Zeit in Anspruch nehmen. Wenn Verzögerungen oder zu viele falsche Ablehnungen beobachtet werden, sollte diese Prüfung deaktiviert werden.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
-	//TODO
-	//>>>>>> OLD <<<<<<: Check e-mail domain for valid MX record
-	//>>>>>>> NEW <<<<<<: Check email domain for valid MX record
-	'EMAIL_CHECK_MX'				=> '#E-Mail-Domain auf gültigen MX-Eintrag prüfen',
-	//TODO
-	//>>>>>> OLD <<<<<<: If enabled, the e-mail domain provided on registration and profile changes is checked for a valid MX record.
-	//>>>>>>> NEW <<<<<<: If enabled, the email domain provided on registration and profile changes is checked for a valid MX record.
-	'EMAIL_CHECK_MX_EXPLAIN'		=> '#Wenn aktiviert, wird die Domain der E-Mail-Adresse bei der Registrierung und der Änderung des Profils auf einen gültigen MX-Eintrag geprüft.',
+	'EMAIL_CHECK_MX'				=> 'E-Mail-Domain auf gültigen MX-Eintrag prüfen',
+	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Wenn aktiviert, wird die Domain der E-Mail-Adresse bei der Registrierung und der Änderung des Profils auf einen gültigen MX-Eintrag geprüft.',
 	'FORCE_PASS_CHANGE'				=> 'Passwortänderung erzwingen',
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Verlangt von den Benutzern, ihr Passwort nach einer festgelegten Anzahl an Tagen zu erneuern. Um dieses Verhalten abzuschalten, stelle als Wert 0 ein.',
 	'FORM_TIME_MAX'					=> 'Maximale Zeit zur Übermittlung eines Formulars',
@@ -566,75 +536,24 @@ $lang = array_merge($lang, array(
 
 // Email Settings
 $lang = array_merge($lang, array(
-	//TODO
-	//>>>>>> OLD <<<<<<: This information is used when the board sends e-mails to your users. Please ensure the e-mail address you specify is valid, any bounced or undeliverable messages will likely be sent to that address. If your host does not provide a native (PHP based) e-mail service you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your provider if necessary). If the server requires authentication (and only if it does) enter the necessary username, password and authentication method.
-	//>>>>>>> NEW <<<<<<: This information is used when the board sends emails to your users. Please ensure the email address you specify is valid, any bounced or undeliverable messages will likely be sent to that address. If your host does not provide a native (PHP based) email service you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your provider if necessary). If the server requires authentication (and only if it does) enter the necessary username, password and authentication method.
-	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> '#Diese Informationen werden benötigt, wenn das Board E-Mails an deine Benutzer sendet. Stelle bitte sicher, dass die von dir angegebene Adresse gültig ist; geblockte oder nicht zustellbare Nachrichten werden an diese Adresse geschickt. Falls dein Webhosting-Provider keinen PHP-basierten E-Mail Service anbietet, kannst du deine Nachrichten auch direkt über SMTP versenden. Dies erfordert die Angabe der Adresse eines geeigneten Servers (frage falls nötig deinen Provider). Falls der Server eine Authentifizierung erfordert (und nur, wenn dies der Fall ist), gib den Benutzernamen und das Passwort ein und wähle eine Authentifizierungsmethode aus.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Diese Informationen werden benötigt, wenn das Board E-Mails an deine Benutzer sendet. Stelle bitte sicher, dass die von dir angegebene Adresse gültig ist; geblockte oder nicht zustellbare Nachrichten werden an diese Adresse geschickt. Falls dein Webhosting-Provider keinen PHP-basierten E-Mail Service anbietet, kannst du deine Nachrichten auch direkt über SMTP versenden. Dies erfordert die Angabe der Adresse eines geeigneten Servers (frage falls nötig deinen Provider). Falls der Server eine Authentifizierung erfordert (und nur, wenn dies der Fall ist), gib den Benutzernamen und das Passwort ein und wähle eine Authentifizierungsmethode aus.',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: Return e-mail address
-	//>>>>>>> NEW <<<<<<: Return email address
-	'ADMIN_EMAIL'					=> '#Antwort-E-Mail-Adresse',
-	//TODO
-	//>>>>>> OLD <<<<<<: This will be used as the return address on all e-mails, the technical contact e-mail address. It will always be used as the <samp>Return-Path</samp> and <samp>Sender</samp> address in e-mails.
-	//>>>>>>> NEW <<<<<<: This will be used as the return address on all emails, the technical contact email address. It will always be used as the <samp>Return-Path</samp> and <samp>Sender</samp> address in emails.
-	'ADMIN_EMAIL_EXPLAIN'			=> '#Diese technische Kontakt-Adresse wird als Antwort-Adresse für alle E-Mails genommen. Sie wird in allen E-Mails als <samp>Rückleitungs</samp>- und <samp>Absender</samp>-Adresse verwendet.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Users send e-mail via board
-	//>>>>>>> NEW <<<<<<: Users send email via board
-	'BOARD_EMAIL_FORM'				=> '#E-Mails über das Board versenden',
-	//TODO
-	//>>>>>> OLD <<<<<<: Instead of showing the users e-mail address users are able to send e-mails via the board.
-	//>>>>>>> NEW <<<<<<: Instead of showing the users email address users are able to send emails via the board.
-	'BOARD_EMAIL_FORM_EXPLAIN'		=> '#Anstatt die E-Mail-Adresse der Benutzer anzuzeigen, können diese ihre E-Mails über das Board versenden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Hide e-mail addresses
-	//>>>>>>> NEW <<<<<<: Hide email addresses
-	'BOARD_HIDE_EMAILS'				=> '#E-Mail-Adressen verstecken',
-	//TODO
-	//>>>>>> OLD <<<<<<: This function keeps e-mail addresses completely private.
-	//>>>>>>> NEW <<<<<<: This function keeps email addresses completely private.
-	'BOARD_HIDE_EMAILS_EXPLAIN'		=> '#Diese Funktion hält E-Mail-Adressen komplett privat.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Contact e-mail address
-	//>>>>>>> NEW <<<<<<: Contact email address
-	'CONTACT_EMAIL'					=> '#Kontakt-E-Mail-Adresse',
-	//TODO
-	//>>>>>> OLD <<<<<<: This address will be used whenever a specific contact point is needed, e.g. spam, error output, etc. It will always be used as the <samp>From</samp> and <samp>Reply-To</samp> address in e-mails.
-	//>>>>>>> NEW <<<<<<: This address will be used whenever a specific contact point is needed, e.g. spam, error output, etc. It will always be used as the <samp>From</samp> and <samp>Reply-To</samp> address in emails.
-	'CONTACT_EMAIL_EXPLAIN'			=> '#Diese Adresse wird angegeben, wann immer eine spezifische Kontaktmöglichkeit benötigt wird, z.&nbsp;B. bei Spam, Fehlermeldungen etc. Sie wird in allen E-Mails als <samp>Von</samp>- und <samp>Antwort</samp>-Adresse verwendet.',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail function name
-	//>>>>>>> NEW <<<<<<: Email function name
-	'EMAIL_FUNCTION_NAME'			=> '#Name der E-Mail-Funktion',
-	//TODO
-	//>>>>>> OLD <<<<<<: The e-mail function used to send mails through PHP.
-	//>>>>>>> NEW <<<<<<: The email function used to send mails through PHP.
-	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> '#Die PHP-Funktion, die genutzt wird, um E-Mails zu versenden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail package size
-	//>>>>>>> NEW <<<<<<: Email package size
-	'EMAIL_PACKAGE_SIZE'			=> '#Größe von E-Mail-Paketen',
-	//TODO
-	//>>>>>> OLD <<<<<<: This is the number of maximum e-mails sent out in one package. This setting is applied to the internal message queue; set this value to 0 if you have problems with non-delivered notification e-mails.
-	//>>>>>>> NEW <<<<<<: This is the number of maximum emails sent out in one package. This setting is applied to the internal message queue; set this value to 0 if you have problems with non-delivered notification emails.
-	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> '#Dies ist die Anzahl der E-Mails, die maximal in einem Paket gesendet werden können. Diese Einstellung greift für die interne Nachrichten-Warteschlange; verwende 0, wenn du Probleme mit nicht versandten Benachrichtigungs-E-Mails hast.',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail signature
-	//>>>>>>> NEW <<<<<<: Email signature
-	'EMAIL_SIG'						=> '#E-Mail-Signatur',
-	//TODO
-	//>>>>>> OLD <<<<<<: This text will be attached to all e-mails the board sends.
-	//>>>>>>> NEW <<<<<<: This text will be attached to all emails the board sends.
-	'EMAIL_SIG_EXPLAIN'				=> '#Dieser Text wird an alle E-Mails angehängt, die das Board versendet.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Enable board-wide e-mails
-	//>>>>>>> NEW <<<<<<: Enable board-wide emails
-	'ENABLE_EMAIL'					=> '#Aktiviere E-Mail-Funktionalität',
-	//TODO
-	//>>>>>> OLD <<<<<<: If this is set to disabled no e-mails will be sent by the board at all. <em>Note the user and admin account activation settings require this setting to be enabled. If currently using “user” or “admin” activation in the activation settings, disabling this setting will require no activation of new accounts.</em>
-	//>>>>>>> NEW <<<<<<: If this is set to disabled no emails will be sent by the board at all. <em>Note the user and admin account activation settings require this setting to be enabled. If currently using “user” or “admin” activation in the activation settings, disabling this setting will require no activation of new accounts.</em>
-	'ENABLE_EMAIL_EXPLAIN'			=> '#Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Die Aktivierung von Benutzerkonten durch den Benutzer oder einen Administrator erfordert, dass diese Option aktiviert ist. Wenn derzeit die Aktivierung durch den Benutzer oder einen Administrator aktiviert ist, ist bei einer Deaktivierung dieser Option keine Aktivierung mehr erforderlich.</em>',
+	'ADMIN_EMAIL'					=> 'Antwort-E-Mail-Adresse',
+	'ADMIN_EMAIL_EXPLAIN'			=> 'Diese technische Kontakt-Adresse wird als Antwort-Adresse für alle E-Mails genommen. Sie wird in allen E-Mails als <samp>Rückleitungs</samp>- und <samp>Absender</samp>-Adresse verwendet.',
+	'BOARD_EMAIL_FORM'				=> 'E-Mails über das Board versenden',
+	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'Anstatt die E-Mail-Adresse der Benutzer anzuzeigen, können diese ihre E-Mails über das Board versenden.',
+	'BOARD_HIDE_EMAILS'				=> 'E-Mail-Adressen verstecken',
+	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Diese Funktion hält E-Mail-Adressen komplett privat.',
+	'CONTACT_EMAIL'					=> 'Kontakt-E-Mail-Adresse',
+	'CONTACT_EMAIL_EXPLAIN'			=> 'Diese Adresse wird angegeben, wann immer eine spezifische Kontaktmöglichkeit benötigt wird, z.&nbsp;B. bei Spam, Fehlermeldungen etc. Sie wird in allen E-Mails als <samp>Von</samp>- und <samp>Antwort</samp>-Adresse verwendet.',
+	'EMAIL_FUNCTION_NAME'			=> 'Name der E-Mail-Funktion',
+	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Die PHP-Funktion, die genutzt wird, um E-Mails zu versenden.',
+	'EMAIL_PACKAGE_SIZE'			=> 'Größe von E-Mail-Paketen',
+	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Dies ist die Anzahl der E-Mails, die maximal in einem Paket gesendet werden können. Diese Einstellung greift für die interne Nachrichten-Warteschlange; verwende 0, wenn du Probleme mit nicht versandten Benachrichtigungs-E-Mails hast.',
+	'EMAIL_SIG'						=> 'E-Mail-Signatur',
+	'EMAIL_SIG_EXPLAIN'				=> 'Dieser Text wird an alle E-Mails angehängt, die das Board versendet.',
+	'ENABLE_EMAIL'					=> 'Aktiviere E-Mail-Funktionalität',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Die Aktivierung von Benutzerkonten durch den Benutzer oder einen Administrator erfordert, dass diese Option aktiviert ist. Wenn derzeit die Aktivierung durch den Benutzer oder einen Administrator aktiviert ist, ist bei einer Deaktivierung dieser Option keine Aktivierung mehr erforderlich.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Authentifizierungsmethode für SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Nur benötigt, wenn ein Benutzername/Passwort eingegeben ist. Frage deinen Webhosting-Provider, falls du nicht sicher bist, welche Methode du wählen sollst.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -650,14 +569,8 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-Einstellungen',
 	'SMTP_USERNAME'					=> 'SMTP-Benutzername',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Gib nur einen Benutzernamen ein, wenn dein SMTP-Server dies erfordert.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Use SMTP server for e-mail
-	//>>>>>>> NEW <<<<<<: Use SMTP server for email
-	'USE_SMTP'						=> '#SMTP-Server für E-Mail nutzen',
-	//TODO
-	//>>>>>> OLD <<<<<<: Select “Yes” if you want or have to send e-mail via a named server instead of the local mail function.
-	//>>>>>>> NEW <<<<<<: Select “Yes” if you want or have to send email via a named server instead of the local mail function.
-	'USE_SMTP_EXPLAIN'				=> '#Wähle „Ja“ aus, wenn du E-Mails über einen SMTP-Server senden möchtest (oder musst), anstatt die PHP-eigene Mail-Funktion zu nutzen.',
+	'USE_SMTP'						=> 'SMTP-Server für E-Mail nutzen',
+	'USE_SMTP_EXPLAIN'				=> 'Wähle „Ja“ aus, wenn du E-Mails über einen SMTP-Server senden möchtest (oder musst), anstatt die PHP-eigene Mail-Funktion zu nutzen.',
 ));
 
 // Jabber settings

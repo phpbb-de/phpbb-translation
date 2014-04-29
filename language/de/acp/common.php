@@ -50,10 +50,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_BACKUP'				=> 'Backup',
 	'ACP_BAN'					=> 'Sperren',
-	//TODO
-	//>>>>>> OLD <<<<<<: Ban e-mails
-	//>>>>>>> NEW <<<<<<: Ban emails
-	'ACP_BAN_EMAILS'			=> '#E-Mail-Adressen sperren',
+	'ACP_BAN_EMAILS'			=> 'E-Mail-Adressen sperren',
 	'ACP_BAN_IPS'				=> 'IP-Adressen sperren',
 	//TODO
 	//>>>>>> OLD <<<<<<: Ban usernames
@@ -92,10 +89,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW'				=> 'Verbieten',
 	'ACP_DISALLOW_USERNAMES'	=> 'Benutzernamen verbieten',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail settings
-	//>>>>>>> NEW <<<<<<: Email settings
-	'ACP_EMAIL_SETTINGS'		=> '#Board-E-Mails',
+	'ACP_EMAIL_SETTINGS'		=> 'Board-E-Mails',
 	//TODO
 	//>>>>>> OLD <<<<<<: Manage extension groups
 	//>>>>>>> NEW <<<<<<: Manage attachment extension groups
@@ -147,10 +141,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_RANKS'			=> 'Ränge verwalten',
 	'ACP_MANAGE_REASONS'		=> 'Meldungs-/Ablehnungs-Gründe verwalten',
 	'ACP_MANAGE_USERS'			=> 'Benutzer verwalten',
-	//TODO
-	//>>>>>> OLD <<<<<<: Mass e-mail
-	//>>>>>>> NEW <<<<<<: Mass email
-	'ACP_MASS_EMAIL'			=> '#Massen-E-Mail',
+	'ACP_MASS_EMAIL'			=> 'Massen-E-Mail',
 	'ACP_MESSAGES'				=> 'Nachrichten',
 	'ACP_MESSAGE_SETTINGS'		=> 'Private Nachrichten',
 	'ACP_MODULE_MANAGEMENT'		=> 'Modul-Konfiguration',
@@ -293,10 +284,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY'				=> 'Benachrichtigung',
 	'NO_ADMIN'				=> 'Du bist nicht berechtigt, dieses Board zu administrieren.',
-	//TODO
-	//>>>>>> OLD <<<<<<: No valid e-mail addresses found.
-	//>>>>>>> NEW <<<<<<: No valid email addresses found.
-	'NO_EMAILS_DEFINED'		=> '#Keine gültigen E-Mail-Adressen gefunden.',
+	'NO_EMAILS_DEFINED'		=> 'Keine gültigen E-Mail-Adressen gefunden.',
 	'NO_FILES_TO_DELETE'	=> '#Attachments you selected for deletion do not exist.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Du musst deine Anmeldung bestätigen, um auf den Administrations-Bereich zugreifen zu können.',
 
@@ -343,10 +331,7 @@ $lang = array_merge($lang, array(
 // Logs
 $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Diese Liste zeigt alle Vorgänge, die von Board-Administratoren durchgeführt wurden. Du kannst nach Benutzername, Datum, IP-Adresse oder Vorgang sortieren. Sofern du ausreichende Rechte hast, kannst du auch einzelne Einträge oder das ganze Protokoll löschen.',
-	//TODO
-	//>>>>>> OLD <<<<<<: This lists the actions carried out by the board itself. This log provides you with information you are able to use for solving specific problems, for example non-delivery of e-mails. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.
-	//>>>>>>> NEW <<<<<<: This lists the actions carried out by the board itself. This log provides you with information you are able to use for solving specific problems, for example non-delivery of emails. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> '#Diese Liste zeigt alle Vorgänge, die durch das Board selbst ausgeführt wurden. Dieses Protokoll stellt dir Informationen zur Lösung spezifischer Probleme bereit, wie z.&nbsp;B. die Nicht-Auslieferung von E-Mails. Du kannst nach Benutzername, Datum, IP-Adresse oder Vorgang sortieren. Sofern du ausreichende Rechte hast, kannst du auch einzelne Einträge oder das ganze Protokoll löschen.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Diese Liste zeigt alle Vorgänge, die durch das Board selbst ausgeführt wurden. Dieses Protokoll stellt dir Informationen zur Lösung spezifischer Probleme bereit, wie z.&nbsp;B. die Nicht-Auslieferung von E-Mails. Du kannst nach Benutzername, Datum, IP-Adresse oder Vorgang sortieren. Sofern du ausreichende Rechte hast, kannst du auch einzelne Einträge oder das ganze Protokoll löschen.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Diese Liste zeigt alle Vorgänge, die von Moderatoren an Foren, Themen, Beiträgen und Benutzern ausgeführt wurden — inklusive von Sperrungen. Du kannst nach Benutzername, Datum, IP-Adresse oder Vorgang sortieren. Sofern du ausreichende Rechte hast, kannst du auch einzelne Einträge oder das ganze Protokoll löschen.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Diese Liste zeigt alle Vorgänge, die von oder an Benutzern ausgeführt wurden (Meldungen, Verwarnungen und Notizen).',
 	'ALL_ENTRIES'				=> 'Alle Einträge',
@@ -461,14 +446,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Reaktivierung erzwungen',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Unbekannt',
 	'INACTIVE_USERS'				=> 'Inaktive Benutzer',
-	//TODO
-	//>>>>>> OLD <<<<<<: This is a list of users who have registered but whose accounts are inactive. You can activate, delete or remind (by sending an e-mail) these users if you wish.
-	//>>>>>>> NEW <<<<<<: This is a list of users who have registered but whose accounts are inactive. You can activate, delete or remind (by sending an email) these users if you wish.
-	'INACTIVE_USERS_EXPLAIN'		=> '#Dies ist eine Liste der Benutzer, deren Konto inaktiv ist. Du kannst diese Benutzer aktivieren, löschen oder erinnern (per E-Mail).',
-	//TODO
-	//>>>>>> OLD <<<<<<: This is a list of the last 10 registered users who have inactive accounts. Accounts are inactive either because account activation was enabled in user registration settings and these users’ accounts have not yet been activated, or because these accounts have been deactivated. A full list is available by following the link below from where you can activate, delete or remind (by sending an e-mail) these users if you wish.
-	//>>>>>>> NEW <<<<<<: This is a list of the last 10 registered users who have inactive accounts. Accounts are inactive either because account activation was enabled in user registration settings and these users’ accounts have not yet been activated, or because these accounts have been deactivated. A full list is available by following the link below from where you can activate, delete or remind (by sending an email) these users if you wish.
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> '#Dies ist eine Liste der 10 zuletzt registrierten Benutzer, deren Konto inaktiv ist. Benutzerkonten können inaktiv sein, wenn in den Registrierungs-Einstellungen eine Benutzerkonto-Aktivierung eingestellt wurde, diese bei dem Benutzer aber nicht durchgeführt wurde oder weil die Benutzerkonten deaktiviert wurden. Eine vollständige Liste ist über den unten stehenden Link zugänglich, von der aus du diese Benutzer aktivieren, löschen oder erinnern (per E-Mail) kannst.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Dies ist eine Liste der Benutzer, deren Konto inaktiv ist. Du kannst diese Benutzer aktivieren, löschen oder erinnern (per E-Mail).',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Dies ist eine Liste der 10 zuletzt registrierten Benutzer, deren Konto inaktiv ist. Benutzerkonten können inaktiv sein, wenn in den Registrierungs-Einstellungen eine Benutzerkonto-Aktivierung eingestellt wurde, diese bei dem Benutzer aber nicht durchgeführt wurde oder weil die Benutzerkonten deaktiviert wurden. Eine vollständige Liste ist über den unten stehenden Link zugänglich, von der aus du diese Benutzer aktivieren, löschen oder erinnern (per E-Mail) kannst.',
 
 	'NO_INACTIVE_USERS'	=> 'Keine inaktiven Benutzer',
 
@@ -538,22 +517,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Benutzer von Sperre ausgenommen</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP von Sperre ausgenommen</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Excluded e-mail from ban</strong> for reason “<em>%1$s</em>”<br />» %2$s
-	//>>>>>>> NEW <<<<<<: <strong>Excluded email from ban</strong> for reason “<em>%1$s</em>”<br />» %2$s
-	'LOG_BAN_EXCLUDE_EMAIL' => '#<strong>E-Mail von Sperre ausgenommen</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>E-Mail von Sperre ausgenommen</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
 	'LOG_BAN_USER'			=> '<strong>Benutzer gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
 	'LOG_BAN_IP'			=> '<strong>IP gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Banned e-mail</strong> for reason “<em>%1$s</em>”<br />» %2$s
-	//>>>>>>> NEW <<<<<<: <strong>Banned email</strong> for reason “<em>%1$s</em>”<br />» %2$s
-	'LOG_BAN_EMAIL'			=> '#<strong>E-Mail gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>E-Mail gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Benutzer entsperrt</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>IP entsperrt</strong><br />» %s',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Unbanned e-mail</strong><br />» %s
-	//>>>>>>> NEW <<<<<<: <strong>Unbanned email</strong><br />» %s
-	'LOG_UNBAN_EMAIL'		=> '#<strong>E-Mail entsperrt</strong><br />» %s',
+	'LOG_UNBAN_EMAIL'		=> '<strong>E-Mail entsperrt</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'		=> '<strong>Neuen BBCode hinzugefügt</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>BBCode geändert</strong><br />» %s',
@@ -573,10 +543,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_AUTH'			=> '<strong>Authentifizierungs-Einstellungen geändert</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>Avatar-Einstellungen geändert</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>Cookie-Einstellungen geändert</strong>',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Altered e-mail settings</strong>
-	//>>>>>>> NEW <<<<<<: <strong>Altered email settings</strong>
-	'LOG_CONFIG_EMAIL'			=> '#<strong>E-Mail-Einstellungen geändert</strong>',
+	'LOG_CONFIG_EMAIL'			=> '<strong>E-Mail-Einstellungen geändert</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>Board-Funktionalitäten geändert</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>Last-Einstellungen geändert</strong>',
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Private Nachrichten-Einstellungen geändert</strong>',
@@ -634,10 +601,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>IP/Hostname aus Download-Liste entfernt</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber-Fehler</strong><br />» %s',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>E-mail error</strong><br />» %s
-	//>>>>>>> NEW <<<<<<: <strong>Email error</strong><br />» %s
-	'LOG_ERROR_EMAIL'		=> '#<strong>E-Mail-Fehler</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>E-Mail-Fehler</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Forum erstellt</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Foren-Berechtigungen kopiert</strong> von %1$s<br />» %2$s',
@@ -673,10 +637,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Inaktive Benutzer aktiviert</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'		=> '<strong>Inaktive Benutzer gelöscht</strong><br />» %s',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Sent reminder e-mails to inactive users</strong><br />» %s
-	//>>>>>>> NEW <<<<<<: <strong>Sent reminder emails to inactive users</strong><br />» %s
-	'LOG_INACTIVE_REMIND'	=> '#<strong>Erinnerungs-E-Mail an inaktive Benutzer verschickt</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>Erinnerungs-E-Mail an inaktive Benutzer verschickt</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Konvertiert von %1$s zu phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>phpBB %s installiert</strong>',
 
@@ -693,10 +654,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Sprachdatei ersetzt</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Sprachdatei gesendet und im store-Ordner abgelegt</strong><br />» %s',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Sent mass e-mail</strong><br />» %s
-	//>>>>>>> NEW <<<<<<: <strong>Sent mass email</strong><br />» %s
-	'LOG_MASS_EMAIL'		=> '#<strong>Massen-E-Mail verschickt</strong><br />» %s',
+	'LOG_MASS_EMAIL'		=> '<strong>Massen-E-Mail verschickt</strong><br />» %s',
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Autor in Thema „%1$s“ geändert</strong><br />» von %2$s nach %3$s',
 
@@ -793,10 +751,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE'		=> '<strong>Benutzer aktiviert</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Benutzer über Benutzer-Verwaltung gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
 	'LOG_USER_BAN_IP'		=> '<strong>IP über Benutzer-Verwaltung gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>Banned e-mail via user management</strong> for reason “<em>%1$s</em>”<br />» %2$s
-	//>>>>>>> NEW <<<<<<: <strong>Banned email via user management</strong> for reason “<em>%1$s</em>”<br />» %2$s
-	'LOG_USER_BAN_EMAIL'	=> '#<strong>E-Mail über Benutzer-Verwaltung gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>E-Mail über Benutzer-Verwaltung gesperrt</strong> auf Grund „<em>%1$s</em>“<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Benutzer gelöscht</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Alle von einem Benutzer erstellte Dateianhänge gelöscht</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Avatar eines Benutzers entfernt</strong><br />» %s',
@@ -809,10 +764,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE'	=> '<strong>Erneute Aktivierung des Benutzerkontos erzwungen</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Kürzlich registriert-Flag von Benutzer entfernt</strong><br />» %s',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>User “%1$s” changed e-mail</strong><br />» from “%2$s” to “%3$s”
-	//>>>>>>> NEW <<<<<<: <strong>User “%1$s” changed email</strong><br />» from “%2$s” to “%3$s”
-	'LOG_USER_UPDATE_EMAIL'	=> '#<strong>E-Mail-Adresse von Benutzer „%1$s“ geändert</strong><br />» von „%2$s“ nach „%3$s“',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>E-Mail-Adresse von Benutzer „%1$s“ geändert</strong><br />» von „%2$s“ nach „%3$s“',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Benutzernamen geändert</strong><br />» von „%1$s“ in „%2$s“',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Details eines Benutzers geändert</strong><br />» %s',
 

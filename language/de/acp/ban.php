@@ -43,10 +43,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 Minuten',
 	'6_HOURS'		=> '6 Stunden',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you can control the banning of users by name, IP or e-mail address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.
-	//>>>>>>> NEW <<<<<<: Here you can control the banning of users by name, IP or email address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.
-	'ACP_BAN_EXPLAIN'	=> '#Hier kannst du die Sperrung von Benutzern nach Benutzername, IP-Adresse oder E-Mail-Adresse steuern. Wenn du willst, kannst du eine kurze Begründung (bis zu 3000 Zeichen) für die Sperre angeben, die im Administrations-Protokoll angezeigt wird. Die Dauer der Sperre kann ebenfalls festgelegt werden. Wenn du willst, dass die Sperre statt nach einer festgelegten Zeit an einem bestimmten Tag endet, wähle <span style="text-decoration: underline;">Bis zum -&gt;</span> für die Dauer aus und gib das Enddatum im Format <kbd>JJJJ-MM-TT</kbd> an.',
+	'ACP_BAN_EXPLAIN'	=> 'Hier kannst du die Sperrung von Benutzern nach Benutzername, IP-Adresse oder E-Mail-Adresse steuern. Wenn du willst, kannst du eine kurze Begründung (bis zu 3000 Zeichen) für die Sperre angeben, die im Administrations-Protokoll angezeigt wird. Die Dauer der Sperre kann ebenfalls festgelegt werden. Wenn du willst, dass die Sperre statt nach einer festgelegten Zeit an einem bestimmten Tag endet, wähle <span style="text-decoration: underline;">Bis zum -&gt;</span> für die Dauer aus und gib das Enddatum im Format <kbd>JJJJ-MM-TT</kbd> an.',
 
 	'BAN_EXCLUDE'			=> 'Von Sperre ausnehmen',
 	'BAN_LENGTH'			=> 'Dauer der Sperre',
@@ -56,30 +53,12 @@ $lang = array_merge($lang, array(
 	'BANNED_UNTIL_DATE'		=> 'bis zum %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (bis zum %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	//TODO
-	//>>>>>> OLD <<<<<<: Ban one or more e-mail addresses
-	//>>>>>>> NEW <<<<<<: Ban one or more email addresses
-	'EMAIL_BAN'					=> '#Eine oder mehrere E-Mail-Adressen sperren',
-	//TODO
-	//>>>>>> OLD <<<<<<: Enable this to exclude the entered e-mail address from all current bans.
-	//>>>>>>> NEW <<<<<<: Enable this to exclude the entered email address from all current bans.
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> '#Aktiviere diese Option, um die Adresse von allen aktuellen Sperren auszunehmen.',
-	//TODO
-	//>>>>>> OLD <<<<<<: To specify more than one e-mail address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.
-	//>>>>>>> NEW <<<<<<: To specify more than one email address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.
-	'EMAIL_BAN_EXPLAIN'			=> '#Um mehr als eine E-Mail-Adresse anzugeben, gib jede Adresse in einer neuen Zeile ein. Um Übereinstimmungen von Teilen einer Adresse anzugeben, verwende „*“ als Platzhalter; z.&nbsp;B. <samp>*@phpbb.com</samp>, <samp>*@*.domain.tld</samp> usw.',
-	//TODO
-	//>>>>>> OLD <<<<<<: No banned e-mail addresses
-	//>>>>>>> NEW <<<<<<: No banned email addresses
-	'EMAIL_NO_BANNED'			=> '#Keine gesperrten E-Mail-Adressen.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Un-ban or un-exclude e-mails
-	//>>>>>>> NEW <<<<<<: Un-ban or un-exclude emails
-	'EMAIL_UNBAN'				=> '#E-Mail-Adressen entsperren oder Ausnahmen entfernen',
-	//TODO
-	//>>>>>> OLD <<<<<<: You can unban (or un-exclude) multiple e-mail addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded e-mail addresses are emphasised.
-	//>>>>>>> NEW <<<<<<: You can unban (or un-exclude) multiple email addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded email addresses are emphasised.
-	'EMAIL_UNBAN_EXPLAIN'		=> '#Du kannst mehrere E-Mail-Adressen gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. E-Mail-Adressen auf der Ausnahmeliste sind hervorgehoben.',
+	'EMAIL_BAN'					=> 'Eine oder mehrere E-Mail-Adressen sperren',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Aktiviere diese Option, um die Adresse von allen aktuellen Sperren auszunehmen.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Um mehr als eine E-Mail-Adresse anzugeben, gib jede Adresse in einer neuen Zeile ein. Um Übereinstimmungen von Teilen einer Adresse anzugeben, verwende „*“ als Platzhalter; z.&nbsp;B. <samp>*@phpbb.com</samp>, <samp>*@*.domain.tld</samp> usw.',
+	'EMAIL_NO_BANNED'			=> 'Keine gesperrten E-Mail-Adressen.',
+	'EMAIL_UNBAN'				=> 'E-Mail-Adressen entsperren oder Ausnahmen entfernen',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Du kannst mehrere E-Mail-Adressen gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. E-Mail-Adressen auf der Ausnahmeliste sind hervorgehoben.',
 
 	'IP_BAN'					=> 'Eine oder mehrere IP-Adressen sperren',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Aktiviere diese Option, um die Adresse von allen aktuellen Sperren auszunehmen.',

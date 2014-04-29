@@ -117,10 +117,7 @@ $lang = array_merge($lang, array(
 
 	'BACK_TO_TOP'			=> 'Nach oben',
 	'BACK_TO_PREV'			=> 'Zurück zur vorherigen Seite',
-	//TODO
-	//>>>>>> OLD <<<<<<: A ban has been issued on your e-mail address.
-	//>>>>>>> NEW <<<<<<: A ban has been issued on your email address.
-	'BAN_TRIGGERED_BY_EMAIL'=> '#Deine E-Mail-Adresse wurde gesperrt.',
+	'BAN_TRIGGERED_BY_EMAIL'=> 'Deine E-Mail-Adresse wurde gesperrt.',
 	'BAN_TRIGGERED_BY_IP'	=> 'Deine IP-Adresse wurde gesperrt.',
 	'BAN_TRIGGERED_BY_USER'	=> 'Dein Benutzername wurde gesperrt.',
 	'BBCODE_GUIDE'			=> 'BBCode-Anleitung',
@@ -203,22 +200,10 @@ $lang = array_merge($lang, array(
 
 	'EDIT_POST'							=> 'Ändere Beitrag',
 	'ELLIPSIS'							=> '…',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail
-	//>>>>>>> NEW <<<<<<: Email
-	'EMAIL'								=> '#E-Mail', // Short form for EMAIL_ADDRESS
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail address
-	//>>>>>>> NEW <<<<<<: Email address
-	'EMAIL_ADDRESS'						=> '#E-Mail-Adresse',
-	//TODO
-	//>>>>>> OLD <<<<<<: The e-mail address you entered is invalid.
-	//>>>>>>> NEW <<<<<<: The email address you entered is invalid.
-	'EMAIL_INVALID_EMAIL'				=> '#Die angegebenen E-Mail-Adresse ist ungültig.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Ran into problems sending e-mail at <strong>Line %1$s</strong>. Response: %2$s.
-	//>>>>>>> NEW <<<<<<: Ran into problems sending email at <strong>Line %1$s</strong>. Response: %2$s.
-	'EMAIL_SMTP_ERROR_RESPONSE'			=> '#Probleme beim Mailversand in <strong>Zeile %1$s</strong>. Antwort: %2$s.',
+	'EMAIL'								=> 'E-Mail', // Short form for EMAIL_ADDRESS
+	'EMAIL_ADDRESS'						=> 'E-Mail-Adresse',
+	'EMAIL_INVALID_EMAIL'				=> 'Die angegebenen E-Mail-Adresse ist ungültig.',
+	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Probleme beim Mailversand in <strong>Zeile %1$s</strong>. Antwort: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Du musst einen Betreff angeben, wenn du ein neues Thema erstellen möchtest.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Du musst einen Betreff angeben, wenn du eine neue Nachricht verfassen möchtest.',
 	'ENABLED'							=> 'Aktiviert',
@@ -346,10 +331,7 @@ $lang = array_merge($lang, array(
 	'INSECURE_REDIRECT'			=> 'Es wurde versucht, zu einer möglicherweise unsicheren URL weiterzuleiten.',
 	'INTERESTS'					=> 'Interessen',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Ungültiger Digest Challenge.',
-	//TODO
-	//>>>>>> OLD <<<<<<: <strong>%s</strong> possibly an invalid e-mail address?
-	//>>>>>>> NEW <<<<<<: <strong>%s</strong> possibly an invalid email address?
-	'INVALID_EMAIL_LOG'			=> '#<strong>%s</strong> ist vermutlich eine ungültige E-Mail-Adresse.',
+	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> ist vermutlich eine ungültige E-Mail-Adresse.',
 	'INVALID_PLURAL_RULE'		=> 'Die ausgewählte Plural-Regel ist ungültig. Zulässig sind ganzzahlige Werte von 0 bis 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Deine IP-Adresse %1$s wurde gesperrt, da sie auf der schwarzen Liste steht. Details findest du unter <a href="%2$s">%2$s</a>.',
@@ -492,15 +474,9 @@ $lang = array_merge($lang, array(
 	'NO_AVATAR_SELECTED'		=> 'Du hast keinen Avatar ausgewählt.',
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Verbindung zum SMTP-Server kann nicht hergestellt werden: %1$s : %2$s.',
 	'NO_BIRTHDAYS'				=> 'Heute hat kein Mitglied Geburtstag',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail message was blank.
-	//>>>>>>> NEW <<<<<<: Email message was blank.
-	'NO_EMAIL_MESSAGE'			=> '#Die E-Mail-Nachricht ist leer.',
+	'NO_EMAIL_MESSAGE'			=> 'Die E-Mail-Nachricht ist leer.',
 	'NO_EMAIL_RESPONSE_CODE'	=> 'Der Antwort-Code des Servers konnte nicht empfangen werden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: No e-mail subject specified.
-	//>>>>>>> NEW <<<<<<: No email subject specified.
-	'NO_EMAIL_SUBJECT'			=> '#Es wurde kein Betreff für die E-Mail angegeben.',
+	'NO_EMAIL_SUBJECT'			=> 'Es wurde kein Betreff für die E-Mail angegeben.',
 	'NO_FORUM'					=> 'Das von dir ausgewählte Forum existiert nicht.',
 	'NO_FORUMS'					=> 'Dieses Board hat keine Foren.',
 	'NO_GROUP'					=> 'Die von dir ausgewählte Benutzergruppe existiert nicht.',
@@ -634,10 +610,7 @@ $lang = array_merge($lang, array(
 	'REPORT_BY'					=> 'Gemeldet von',
 	'REPORT_POST'				=> 'Diesen Beitrag melden',
 	'REPORTING_POST'			=> 'Meldet einen Beitrag',
-	//TODO
-	//>>>>>> OLD <<<<<<: Resend activation e-mail
-	//>>>>>>> NEW <<<<<<: Resend activation email
-	'RESEND_ACTIVATION'			=> '#Die Aktivierungs-E-Mail erneut senden',
+	'RESEND_ACTIVATION'			=> 'Die Aktivierungs-E-Mail erneut senden',
 	'RESET'						=> 'Zurücksetzen',
 	'RESTORE_PERMISSIONS'		=> 'Berechtigungen wiederherstellen',
 	'RETURN_INDEX'				=> '%sZurück zur Foren-Übersicht%s',
@@ -689,14 +662,8 @@ $lang = array_merge($lang, array(
 	'SELECT_ALL_CODE'			=> 'Alles auswählen',
 	'SELECT_DESTINATION_FORUM'	=> 'Wähle bitte ein Zielforum aus',
 	'SELECT_FORUM'				=> 'Wähle ein Forum aus',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail
-	//>>>>>>> NEW <<<<<<: Email
-	'SEND_EMAIL'				=> '#E-Mail senden',				// Used for submit buttons
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail
-	//>>>>>>> NEW <<<<<<: Email
-	'SEND_EMAIL_USER'			=> '#E-Mail senden an',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
+	'SEND_EMAIL'				=> 'E-Mail senden',				// Used for submit buttons
+	'SEND_EMAIL_USER'			=> 'E-Mail senden an',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Private Nachricht senden',
 	'SETTINGS'					=> 'Einstellungen',
 	'SIGNATURE'					=> 'Signatur',
@@ -745,10 +712,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_PASSWORD_CONFIRM'		=> 'Die angegebene Bestätigung des Passworts ist zu lang.',
 	'TOO_LONG_USER_PASSWORD'		=> 'Das angegebene Passwort ist zu lang.',
 	'TOO_LONG_USERNAME'				=> 'Der angegebene Benutzername ist zu lang.',
-	//TODO
-	//>>>>>> OLD <<<<<<: The e-mail address you entered is too long.
-	//>>>>>>> NEW <<<<<<: The email address you entered is too long.
-	'TOO_LONG_EMAIL'				=> '#Die angegebene E-Mail-Adresse ist zu lang.',
+	'TOO_LONG_EMAIL'				=> 'Die angegebene E-Mail-Adresse ist zu lang.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Du hast versucht, für zu viele Optionen zu stimmen.',
 
@@ -761,10 +725,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'Die angegebene Bestätigung für das Passwort ist zu kurz.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'Das angegebene Passwort ist zu kurz.',
 	'TOO_SHORT_USERNAME'			=> 'Der angegebene Benutzername ist zu kurz.',
-	//TODO
-	//>>>>>> OLD <<<<<<: The e-mail address you entered is too short.
-	//>>>>>>> NEW <<<<<<: The email address you entered is too short.
-	'TOO_SHORT_EMAIL'				=> '#Die angegebene E-Mail-Adresse ist zu kurz.',
+	'TOO_SHORT_EMAIL'				=> 'Die angegebene E-Mail-Adresse ist zu kurz.',
 
 	'TOO_SMALL'						=> 'Der angegebene Wert ist zu klein.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Die Zahl, die als <strong>Maximale Anzahl zulässiger Empfänger pro Privater Nachricht</strong> angegeben wurde, ist zu klein.',

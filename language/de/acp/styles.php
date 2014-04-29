@@ -194,10 +194,7 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_BACK_TOP'		=> 'Nach oben',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: Send e-mail
-	//>>>>>>> NEW <<<<<<: Send email
-	'IMG_ICON_CONTACT_EMAIL'	=> '#E-Mail senden',
+	'IMG_ICON_CONTACT_EMAIL'	=> 'E-Mail senden',
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber',
 	'IMG_ICON_CONTACT_PM'		=> 'Nachricht senden',
 

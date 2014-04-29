@@ -49,49 +49,25 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Vor dem',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: Send a copy of this e-mail to yourself.
-	//>>>>>>> NEW <<<<<<: Send a copy of this email to yourself.
-	'CC_EMAIL'				=> '#Eine Kopie dieser E-Mail an mich senden.',
+	'CC_EMAIL'				=> 'Eine Kopie dieser E-Mail an mich senden.',
 	'CONTACT_USER'			=> 'Kontaktdaten',
 
 	'DEST_LANG'				=> 'Sprache',
 	'DEST_LANG_EXPLAIN'		=> 'Wähle — sofern verfügbar — eine passende Sprache aus, in der der Empfänger die Nachricht erhalten soll.',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: This message will be sent as plain text, do not include any HTML or BBCode. The return address for this message will be set to your e-mail address.
-	//>>>>>>> NEW <<<<<<: This message will be sent as plain text, do not include any HTML or BBCode. The return address for this message will be set to your email address.
-	'EMAIL_BODY_EXPLAIN'	=> '#Diese Nachricht wird als reiner Text verschickt, verwende daher kein HTML oder BBCode. Als Antwort-Adresse für die E-Mail wird deine E-Mail-Adresse angegeben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Sorry but all e-mail related functions have been disabled.
-	//>>>>>>> NEW <<<<<<: Sorry but all email related functions have been disabled.
-	'EMAIL_DISABLED'		=> '#Leider wurden alle E-Mail-Funktionen deaktiviert.',
-	//TODO
-	//>>>>>> OLD <<<<<<: The e-mail has been sent.
-	//>>>>>>> NEW <<<<<<: The email has been sent.
-	'EMAIL_SENT'			=> '#Die E-Mail wurde gesendet.',
-	//TODO
-	//>>>>>> OLD <<<<<<: This message will be sent as plain text, do not include any HTML or BBCode. Please note that the topic information is already included in the message. The return address for this message will be set to your e-mail address.
-	//>>>>>>> NEW <<<<<<: This message will be sent as plain text, do not include any HTML or BBCode. Please note that the topic information is already included in the message. The return address for this message will be set to your email address.
-	'EMAIL_TOPIC_EXPLAIN'	=> '#Diese Nachricht wird als reiner Text verschickt, verwende daher kein HTML oder BBCode. Hinweise zu dem Thema werden der Nachricht automatisch hinzugefügt. Als Antwort-Adresse für die E-Mail wird deine E-Mail-Adresse angegeben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: You must provide a valid e-mail address for the recipient.
-	//>>>>>>> NEW <<<<<<: You must provide a valid email address for the recipient.
-	'EMPTY_ADDRESS_EMAIL'	=> '#Du musst eine gültige E-Mail-Adresse für den Empfänger angeben.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Diese Nachricht wird als reiner Text verschickt, verwende daher kein HTML oder BBCode. Als Antwort-Adresse für die E-Mail wird deine E-Mail-Adresse angegeben.',
+	'EMAIL_DISABLED'		=> 'Leider wurden alle E-Mail-Funktionen deaktiviert.',
+	'EMAIL_SENT'			=> 'Die E-Mail wurde gesendet.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Diese Nachricht wird als reiner Text verschickt, verwende daher kein HTML oder BBCode. Hinweise zu dem Thema werden der Nachricht automatisch hinzugefügt. Als Antwort-Adresse für die E-Mail wird deine E-Mail-Adresse angegeben.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Du musst eine gültige E-Mail-Adresse für den Empfänger angeben.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Du musst eine Nachricht angeben, die versendet werden soll.',
 	'EMPTY_MESSAGE_IM'		=> 'Du musst eine Nachricht angeben, die versendet werden soll.',
 	'EMPTY_NAME_EMAIL'		=> 'Du musst den Namen des Empfängers angeben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: You must specify a subject for the e-mail.
-	//>>>>>>> NEW <<<<<<: You must specify a subject for the email.
-	'EMPTY_SUBJECT_EMAIL'	=> '#Du musst einen Betreff für die E-Mail angeben.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Du musst einen Betreff für die E-Mail angeben.',
 	'EQUAL_TO'				=> 'Entspricht',
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Benutze dieses Formular, um nach Mitgliedern zu suchen. Es müssen nicht alle Felder ausgefüllt werden. Verwende ein * als Platzhalter für teilweise Übereinstimmungen. Verwende das Format <kbd>JJJJ-MM-TT</kbd> (z.&nbsp;B. <samp>2002-01-01</samp>), um Datumswerte anzugeben. Benutze die Kontrollkästchen, um mehrere Benutzer auszuwählen (mehrere Benutzer werden abhängig vom Formular akzeptiert) und wähle dann „Markierte auswählen“.',
-	//TODO
-	//>>>>>> OLD <<<<<<: You cannot send another e-mail at this time. Please try again later.
-	//>>>>>>> NEW <<<<<<: You cannot send another email at this time. Please try again later.
-	'FLOOD_EMAIL_LIMIT'		=> '#Du kannst derzeit keine weitere E-Mail versenden. Bitte versuche es später erneut.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Du kannst derzeit keine weitere E-Mail versenden. Bitte versuche es später erneut.',
 
 	'GROUP_LEADER'			=> 'Gruppenleiter',
 
@@ -124,10 +100,7 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Mehr als',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: You are not permitted to send e-mail to this user.
-	//>>>>>>> NEW <<<<<<: You are not permitted to send email to this user.
-	'NO_EMAIL'				=> '#Du bist nicht berechtigt, eine E-Mail an diesen Benutzer zu senden.',
+	'NO_EMAIL'				=> 'Du bist nicht berechtigt, eine E-Mail an diesen Benutzer zu senden.',
 	'NO_VIEW_USERS'			=> 'Du bist nicht berechtigt, die Mitgliederliste oder Profile anzusehen.',
 
 	'ORDER'					=> 'Sortierung',
@@ -147,10 +120,7 @@ $lang = array_merge($lang, array(
 	'SEND_JABBER_MESSAGE'	=> 'Jabber-Nachricht senden',
 	'SEND_MESSAGE'			=> 'Nachricht',
 	'SEND_YIM_MESSAGE'		=> 'YIM-Nachricht senden',
-	//TODO
-	//>>>>>> OLD <<<<<<: E-mail
-	//>>>>>>> NEW <<<<<<: Email
-	'SORT_EMAIL'			=> '#E-Mail',
+	'SORT_EMAIL'			=> 'E-Mail',
 	'SORT_LAST_ACTIVE'		=> 'Letzte Aktivität',
 	'SORT_POST_COUNT'		=> 'Beitragszahl',
 
