@@ -1,4 +1,4 @@
-#Subject: phpBB erfolgreich installiert
+Subject: phpBB erfolgreich installiert
 
 Herzlichen Glückwunsch!
 

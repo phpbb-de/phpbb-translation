@@ -1,4 +1,4 @@
-#Subject: „{SITENAME}“ — Information über ein Thema
+Subject: „{SITENAME}“ — Information über ein Thema
 
 Hallo {TO_USERNAME},
 
