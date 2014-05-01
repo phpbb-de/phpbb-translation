@@ -52,10 +52,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> 'Sperren',
 	'ACP_BAN_EMAILS'			=> 'E-Mail-Adressen sperren',
 	'ACP_BAN_IPS'				=> 'IP-Adressen sperren',
-	//TODO
-	//>>>>>> OLD <<<<<<: Ban usernames
-	//>>>>>>> NEW <<<<<<: Ban users
-	'ACP_BAN_USERNAMES'			=> '#Benutzernamen sperren',
+	'ACP_BAN_USERNAMES'			=> 'Benutzer sperren',
 	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> 'Board-Konfiguration',
 	'ACP_BOARD_FEATURES'		=> 'Board-Funktionalitäten',
@@ -65,12 +62,9 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> '#Customise',
+	'ACP_CAT_CUSTOMISE'			=> 'Individualisieren', // TODO: Individualisieren / Anpassen
 	'ACP_CAT_DATABASE'			=> 'Datenbank',
-	//TODO
-	//>>>>>> OLD <<<<<<: .MODs
-	//>>>>>>> NEW <<<<<<: Extensions
-	'ACP_CAT_DOT_MODS'			=> '#Mods',
+	'ACP_CAT_DOT_MODS'			=> 'Erweiterungen',
 	'ACP_CAT_FORUMS'			=> 'Foren',
 	'ACP_CAT_GENERAL'			=> 'Allgemein',
 	'ACP_CAT_MAINTENANCE'		=> 'Wartung',
@@ -90,12 +84,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Benutzernamen verbieten',
 
 	'ACP_EMAIL_SETTINGS'		=> 'Board-E-Mails',
-	//TODO
-	//>>>>>> OLD <<<<<<: Manage extension groups
-	//>>>>>>> NEW <<<<<<: Manage attachment extension groups
-	'ACP_EXTENSION_GROUPS'		=> '#Dateityp-Gruppen verwalten',
-	'ACP_EXTENSION_MANAGEMENT'	=> '#Extension management',
-	'ACP_EXTENSIONS'			=> '#Manage extensions',
+	'ACP_EXTENSION_GROUPS'		=> 'Dateityp-Gruppen verwalten',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Erweiterungs-Verwaltung',
+	'ACP_EXTENSIONS'			=> 'Verwalte Erweiterungen',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forenbasierte Berechtigungen',
 	'ACP_FORUM_LOGS'				=> 'Forums-Protokolle',
@@ -114,7 +105,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Gruppen verwalten',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Gruppen-Verwaltung',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Gruppenrechte',
-	'ACP_GROUPS_POSITION'			=> '#Manage group positions',
+	'ACP_GROUPS_POSITION'			=> 'Gruppen-Positionierung verwalten',
 
 	'ACP_ICONS'					=> 'Beitrags-Symbole',
 	'ACP_ICONS_SMILIES'			=> 'Beitrags-Symbole/Smilies',
@@ -130,13 +121,10 @@ $lang = array_merge($lang, array(
 
 	'ACP_MAIN'					=> 'Admin-Übersicht',
 
-	'ACP_MANAGE_ATTACHMENTS'			=> '#Manage attachments',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> '#Here you can list and delete files attached to posts and private messages.',
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Dateianhänge verwalten',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Hier kannst du Dateianhänge von Beiträgen und Privaten Nachrichten anzeigen und löschen.',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: Manage extensions
-	//>>>>>>> NEW <<<<<<: Manage attachment extensions
-	'ACP_MANAGE_EXTENSIONS'		=> '#Dateitypen verwalten',
+	'ACP_MANAGE_EXTENSIONS'		=> 'Dateitypen verwalten',
 	'ACP_MANAGE_FORUMS'			=> 'Foren verwalten',
 	'ACP_MANAGE_RANKS'			=> 'Ränge verwalten',
 	'ACP_MANAGE_REASONS'		=> 'Meldungs-/Ablehnungs-Gründe verwalten',
@@ -185,8 +173,8 @@ $lang = array_merge($lang, array(
 	'ACP_SMILIES'				=> 'Smilies',
 	'ACP_STYLE_MANAGEMENT'		=> 'Style-Verwaltung',
 	'ACP_STYLES'				=> 'Styles',
-	'ACP_STYLES_CACHE'			=> '#Purge Cache',
-	'ACP_STYLES_INSTALL'		=> '#Install Styles',
+	'ACP_STYLES_CACHE'			=> 'Cache leeren',
+	'ACP_STYLES_INSTALL'		=> 'Styles installieren',
 
 	'ACP_SUBMIT_CHANGES'		=> 'Änderungen übermitteln',
 
@@ -248,15 +236,15 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Herunterladen als',
 	'DOWNLOAD_STORE'			=> 'Datei herunterladen oder speichern',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Du kannst die Datei direkt herunterladen oder sie in deinem <samp>store/</samp>-Ordner speichern.',
-	'DOWNLOADS'          		=> '#Downloads',
+	'DOWNLOADS'          		=> 'Downloads',
 
 	'EDIT'					=> 'Ändern',
 	'ENABLE'				=> 'Aktivieren',
 	'EXPORT_DOWNLOAD'		=> 'Herunterladen',
 	'EXPORT_STORE'			=> 'Speichern',
 
-	'FILES_GONE'			=> '#Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
-	'FILES_STATS_WRONG'		=> '#Your files statistics are probably inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.',
+	'FILES_GONE'			=> 'Einige der Dateianhänge, die du zum Löschen ausgewählt hast, existieren nicht. Sie könnten bereits gelöscht worden sein. Dateianhänge, die existierten, wurden gelöscht.',
+	'FILES_STATS_WRONG'		=> 'Deine Datei-Statistik ist vermutlich fehlerhaft und muss resynchronisiert werden. Aktuelle Werte: Anzahl von Dateianhängen = %1$d, Gesamtgröße der Dateianhänge = %2$s.',
 
 	'GENERAL_OPTIONS'		=> 'Allgemeine Optionen',
 	'GENERAL_SETTINGS'		=> 'Allgemeine Einstellungen',
@@ -266,8 +254,8 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Benutzer-IP',
 	'IP_HOSTNAME'			=> 'IP-Adressen oder Host-Namen',
 
-	'LOAD_NOTIFICATIONS'			=> '#Display Notifications',
-	'LOAD_NOTIFICATIONS_EXPLAIN'	=> '#Display the notifications list on every page (typically in the header).',
+	'LOAD_NOTIFICATIONS'			=> 'Benachrichtigungen anzeigen',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Zeigt die Liste der Benachrichtigungen auf jeder Seite an (üblicherweise in der Kopfzeile).',
 	'LOGGED_IN_AS'			=> 'Du bist angemeldet als:',
 	'LOGIN_ADMIN'			=> 'Um das Board administrieren zu können, musst du ein authentifizierter Benutzer sein.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'Um das Board administrieren zu können, musst du deine Anmeldung bestätigen.',
@@ -285,7 +273,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Benachrichtigung',
 	'NO_ADMIN'				=> 'Du bist nicht berechtigt, dieses Board zu administrieren.',
 	'NO_EMAILS_DEFINED'		=> 'Keine gültigen E-Mail-Adressen gefunden.',
-	'NO_FILES_TO_DELETE'	=> '#Attachments you selected for deletion do not exist.',
+	'NO_FILES_TO_DELETE'	=> 'Die Dateianhänge, die du zum Löschen ausgewählt hast, existieren nicht.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Du musst deine Anmeldung bestätigen, um auf den Administrations-Bereich zugreifen zu können.',
 
 	'OFF'					=> 'Aus',
@@ -300,8 +288,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Erinnern',
 	'RESYNC'							=> 'Synchronisieren',
-	'RESYNC_FILES_STATS'				=> '#Resynchronise files statistics',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> '#Recalculates the total number and size of files attached to posts and private messages.',
+	'RESYNC_FILES_STATS'				=> 'Datei-Statistiken resynchronisieren',
+	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Berechnet die Gesamtzahl und -größe der Dateien, die an Beiträge und Private Nachrichten angehangen wurden.',
 	'SELECT_ANONYMOUS'		=> 'Gäste-Benutzerkonto auswählen',
 	'SELECT_OPTION'			=> 'Option auswählen',
 
@@ -312,7 +300,7 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Alle Vorgänge anzeigen',
 
-	'TOTAL_SIZE'      		=> '#Total size',
+	'TOTAL_SIZE'      		=> 'Gesamtgröße',
 
 	'UCP'					=> 'Persönlicher Bereich',
 	'USERNAMES_EXPLAIN'		=> 'Verwende für jeden Benutzernamen eine neue Zeile.',
@@ -373,7 +361,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'gzip-Komprimierung',
 
-	'NO_SEARCH_INDEX'	=> '#The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.',
+	'NO_SEARCH_INDEX'	=> 'Das ausgewählte Such-Backend hat keinen Such-Index.<br />Bitte erstelle den Index für „%1$s“ im Bereich %2$sSuch-Indizes%3$s.',
 	'NOT_AVAILABLE'		=> 'nicht verfügbar',
 	'NUMBER_FILES'		=> 'Anzahl Dateianhänge',
 	'NUMBER_POSTS'		=> 'Anzahl Beiträge',
@@ -388,39 +376,39 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Den Cache leeren',
 	'PURGE_CACHE_CONFIRM'	=> 'Bist du dir sicher, dass du den Cache leeren möchtest?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Löscht alle Daten des Caches, darunter alle zwischengespeicherten Template-Dateien und Abfragen.',
-	'PURGE_CACHE_SUCCESS'	=> '#Cache successfully purged.',
+	'PURGE_CACHE_SUCCESS'	=> 'Cache erfolgreich geleert.',
 
 	'PURGE_SESSIONS'			=> 'Sitzungsdaten löschen',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Bist du dir sicher, dass du alle Sitzungsdaten löschen möchtest? Dies wird alle Benutzer abmelden.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Alle Sitzungsdaten löschen. Dies wird alle Benutzer abmelden, indem die Sitzungstabelle geleert wird.',
-	'PURGE_SESSIONS_SUCCESS'	=> '#Sessions successfully purged.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'Sitzungen erfolgreich gelöscht.',
 
 	'RESET_DATE'					=> 'Einrichtungsdatum des Boards zurücksetzen',
 	'RESET_DATE_CONFIRM'			=> 'Bist du dir sicher, dass du das Einrichtungsdatum des Boards zurücksetzen willst?',
-	'RESET_DATE_SUCCESS'			=> '#Board’s start date reset',
+	'RESET_DATE_SUCCESS'			=> 'Das Einrichtungsdatum des Boards wurde erfolgreich zurückgesetzt',
 	'RESET_ONLINE'					=> 'Besucherrekord zurücksetzen',
 	'RESET_ONLINE_CONFIRM'			=> 'Bist du dir sicher, dass du den Benutzerrekord zurücksetzen willst?',
-	'RESET_ONLINE_SUCCESS'			=> '#Most users ever online reset',
-	'RESYNC_FILES_STATS_CONFIRM'	=> '#Are you sure you wish to resynchronise files statistics?',
+	'RESET_ONLINE_SUCCESS'			=> 'Der Besucherrekord wurde erfolgreich zurückgesetzt',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Bist du dir sicher, dass du die Datei-Statistiken zurücksetzen willst?',
 	'RESYNC_POSTCOUNTS'				=> 'Beitragszähler resynchronisieren',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Nur existierende Beiträge werden berücksichtigt, nicht jedoch automatisch gelöschte.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Bist du dir sicher, dass du die Beitragszähler resynchronisieren willst?',
-	'RESYNC_POSTCOUNTS_SUCCESS'		=> '#Resynchronised post counts',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Die Beitragszähler wurden erfolgreich resynchronisiert',
 	'RESYNC_POST_MARKING'			=> 'Markierung eigener Beiträge resynchronisieren',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Bist du dir sicher, dass du die Markierung eigener Beiträge resynchronisieren willst?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Entfernt zuerst alle Markierungen und markiert dann alle Themen richtig, die in den letzten sechs Monaten aktiv waren.',
-	'RESYNC_POST_MARKING_SUCCESS'	=> '#Resynchronised dotted topics',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Die Markierung eigener Beiträge wurde erfolgreich resynchronisiert',
 	'RESYNC_STATS'					=> 'Statistiken resynchronisieren',
 	'RESYNC_STATS_CONFIRM'			=> 'Bist du dir sicher, dass du die Statistiken resynchronisieren willst?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Berechnet die Anzahl von Beiträgen, Themen, Benutzern und Dateien neu.',
-	'RESYNC_STATS_SUCCESS'			=> '#Resynchronised statistics',
+	'RESYNC_STATS_SUCCESS'			=> 'Die Statistiken wurden erfolgreich resynchronisiert',
 	'RUN'							=> 'Jetzt ausführen',
 
 	'STATISTIC'					=> 'Statistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronisieren oder Statistiken zurücksetzen',
 
-	'TIMEZONE_INVALID'	=> '#The timezone you selected is invalid.',
-	'TIMEZONE_SELECTED'	=> '#(currently selected)',
+	'TIMEZONE_INVALID'	=> 'Die von dir ausgewählte Zeitzone ist ungültig.',
+	'TIMEZONE_SELECTED'	=> '(derzeit ausgewählt)',
 	'TOPICS_PER_DAY'	=> 'Themen pro Tag',
 
 	'UPLOAD_DIR_SIZE'	=> 'Größe der hochgeladenen Dateien',
@@ -559,9 +547,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Thema freigegeben</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Thema als neu markiert</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Beitrag „%1$s“ gelöscht - geschrieben von</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Beitrag „%1$s“ gelöscht — geschrieben von</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Link zum verschobenem Thema gelöscht</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Thema „%1$s“ gelöscht - geschrieben von</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Thema „%1$s“ gelöscht — geschrieben von</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Thema dupliziert</strong><br />» von %s',
 	'LOG_LOCK'					=> '<strong>Thema gesperrt</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Beitrag gesperrt</strong><br />» %s',
@@ -572,17 +560,17 @@ $lang = array_merge($lang, array(
 	'LOG_POST_APPROVED'			=> '<strong>Beitrag freigegeben</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Freigabe von Beitrag „%1$s“ verweigert aus folgendem Grund</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Beitrag „%1$s“ geändert, erstellt von</strong><br />» %2$s',
-	'LOG_POST_RESTORED'			=> '#<strong>Restored post</strong><br />» %s',
+	'LOG_POST_RESTORED'			=> '<strong>Beitrag wiederhergestellt</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Meldung geschlossen</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Meldung gelöscht</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '#<strong>Restored topic “%1$s” written by</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '#<strong>Soft deleted post “%1$s” written by</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '#<strong>Soft deleted topic “%1$s” written by</strong><br />» %2$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Thema „%1$s“ wiederhergestellt — geschrieben von</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Beitrag „%1$s“ als gelöscht markiert — geschrieben von</strong><br />» %2$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Thema „%1$s“ als gelöscht markiert — geschrieben von</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Abgetrennte Beiträge verschoben</strong><br />» nach %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Beiträge abgetrennt</strong><br />» von %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Thema freigegeben</strong><br />» %s',
-	'LOG_TOPIC_RESTORED'		=> '#<strong>Restored topic</strong><br />» %s',
+	'LOG_TOPIC_RESTORED'		=> '<strong>Thema wiederhergestellt</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Freigabe von Thema „%1$s“ verweigert aus folgendem Grund</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Thema resynchronisiert</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Themen-Art geändert</strong><br />» %s',
@@ -679,7 +667,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Benutzer-Rolle geändert</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Benutzer-Rolle entfernt</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'		=> '#<strong>Unable to open %1$s for tidying, check permissions.</strong><br />Exception: %2$s<br />Trace: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>%1$s konnte nicht zum Aufräumen geöffnet werden. Prüfe die Berechtigung.</strong><br />Ausnahme: %2$s<br />Trace: %3$s', // TODO: Trace übersetzen?
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profilfeld aktiviert</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profilfeld hinzugefügt</strong><br />» %s',
@@ -708,14 +696,14 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Überprüfung des Referrers gescheitert</strong><br />»Referrer war „<em>%1$s</em>“. Anfrage wurde abgewiesen und Sitzung beendet.',
 	'LOG_RESET_DATE'			=> '<strong>Einrichtungsdatum zurückgesetzt</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Besucherrekord zurückgesetzt</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '#<strong>Files statistics resynchronised</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Datei-Statistiken resynchronisiert</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Beitragszähler resynchronisiert</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Eigene Beiträge resynchronisiert</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Beitrags-, Themen- und Benutzerstatistik resynchronisiert</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Suchindex erstellt für</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Suchindex entfernt für</strong><br />» %s',
-	'LOG_SPHINX_ERROR'			=> '#<strong>Sphinx Error</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx-Fehler</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Neuen Style hinzugefügt</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Style gelöscht</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Style geändert</strong><br />» %s',
