@@ -200,7 +200,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Signatur',
 	'ACP_USER_WARNINGS'				=> 'Verwarnungen',
 
-	'ACP_VC_SETTINGS'					=> 'CAPTCHA-Modul-Einstellungen',
+	'ACP_VC_SETTINGS'					=> 'Anti-Spam-Bot-Maßnahmen',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA Bild-Vorschau',
 	'ACP_VERSION_CHECK'					=> 'Auf Update prüfen',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Administrator-Berechtigungen anzeigen',
