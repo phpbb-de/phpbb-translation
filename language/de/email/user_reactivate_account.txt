@@ -1,4 +1,4 @@
-#Subject: Reaktiviere dein Benutzerkonto „{SITENAME}“
+Subject: Reaktiviere dein Benutzerkonto „{SITENAME}“
 
 Ein Board-Administrator hat eine erneute Aktivierung deines Benutzerkontos erzwungen. Dein Benutzerkonto ist derzeit inaktiv.
 Bitte folge den Anweisungen, um dein Konto wieder zu aktivieren.
@@ -14,6 +14,5 @@ Dein Passwort wurde sicher in unserer Datenbank gespeichert und kann nicht wiede
 Bitte besuche folgenden Link, um dein Benutzerkonto zu reaktivieren:
 
 {U_ACTIVATE}
-
 
 {EMAIL_SIG}

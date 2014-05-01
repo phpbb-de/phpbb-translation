@@ -1,4 +1,4 @@
-#Subject: Themenfreigabe verweigert — „{TOPIC_TITLE}“
+Subject: Themenfreigabe verweigert — „{TOPIC_TITLE}“
 
 Hallo {USERNAME},
 
@@ -7,6 +7,5 @@ du erhältst diese Benachrichtigung, weil deinem Thema „{TOPIC_TITLE}“ auf �
 Der folgende Grund wurde dafür angegeben:
 
 {REASON}
-
 
 {EMAIL_SIG}
