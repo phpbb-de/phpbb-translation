@@ -421,7 +421,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Inaktive Benutzer anzeigen',
 
 	'WELCOME_PHPBB'			=> 'Willkommen bei phpBB',
-	'WRITABLE_CONFIG'		=> 'Deine Konfigurations-Datei (config.php) ist derzeit von jedermann beschreibbar. Es wird dringend empfohlen, die Berechtigungen auf 640 oder zumindest auf 644 (z. B.: <a href="http://de.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) zu setzen.',
+	'WRITABLE_CONFIG'		=> 'Deine Konfigurations-Datei (config.php) ist derzeit von jedermann beschreibbar. Es wird dringend empfohlen, die Berechtigungen auf 640 oder zumindest auf 644 (z.&nbsp;B.: <a href="http://de.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) zu setzen.',
 ));
 
 // Inactive Users
