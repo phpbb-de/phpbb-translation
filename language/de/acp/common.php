@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Induvidualisieren', // TODO: Individualisieren / Anpassen
+	'ACP_CAT_CUSTOMISE'			=> 'Individualisieren', // TODO: Individualisieren / Anpassen
 	'ACP_CAT_DATABASE'			=> 'Datenbank',
 	'ACP_CAT_DOT_MODS'			=> 'Erweiterungen',
 	'ACP_CAT_FORUMS'			=> 'Foren',
@@ -393,7 +393,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_POSTCOUNTS'				=> 'Beitragszähler resynchronisieren',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Nur existierende Beiträge werden berücksichtigt, nicht jedoch automatisch gelöschte.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Bist du dir sicher, dass du die Beitragszähler resynchronisieren willst?',
-	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Die Beitragszähler wurden erfolgreich resynchronisiert.',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Die Beitragszähler wurden erfolgreich resynchronisiert',
 	'RESYNC_POST_MARKING'			=> 'Markierung eigener Beiträge resynchronisieren',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Bist du dir sicher, dass du die Markierung eigener Beiträge resynchronisieren willst?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Entfernt zuerst alle Markierungen und markiert dann alle Themen richtig, die in den letzten sechs Monaten aktiv waren.',
