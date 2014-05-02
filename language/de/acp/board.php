@@ -40,27 +40,24 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Hier kannst du einige grundlegende Einstellungen deines Boards vornehmen, ihm einen passenden Namen und eine Beschreibung geben und, neben anderen Werten, die Standard-Einstellungen für Zeitzone und Sprache anpassen.',
-	'BOARD_INDEX_TEXT'				=> '#Board index text',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> '#This text is displayed as the board index in the board’s breadcrumbs. If not specified, it will default to “Board index”.',
+	'BOARD_INDEX_TEXT'				=> 'Bezeichnung für Foren-Übersicht',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Dieser Text wird für die Foren-Übersicht in der Brotkrumennavigation des Boards angezeigt. Wenn kein Text festgelegt ist, wird der Standardwert „Foren-Übersicht“ verwendet.',
 	'CUSTOM_DATEFORMAT'				=> 'Eigenes …',
 	'DEFAULT_DATE_FORMAT'			=> 'Datumsformat',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Die Syntax entspricht der der <a href="http://www.php.net/date"><code>date()</code></a>-Funktion von PHP.',
 	'DEFAULT_LANGUAGE'				=> 'Standard-Sprache',
 	'DEFAULT_STYLE'					=> 'Standard-Style',
 	'DISABLE_BOARD'					=> 'Board deaktivieren',
-	//TODO
-	//>>>>>> OLD <<<<<<: This will make the board unavailable to users. You can also enter a short (255 character) message to display if you wish.
-	//>>>>>>> NEW <<<<<<: This will make the board unavailable to users who are neither administrators nor moderators. You can also enter a short (255 character) message to display if you wish.
-	'DISABLE_BOARD_EXPLAIN'			=> '#Hiermit sperrst du das Board für alle Benutzer. Wenn du möchtest, kannst du eine kurze Nachricht (bis zu 255 Zeichen) angeben.',
-	'DISPLAY_LAST_SUBJECT'			=> '#Display subject of last added post on forum list',
-	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> '#The subject of the last added post will be displayed in the forum list with a hyperlink to the post. Subjects from password protected forums and forums in which user doesn’t have read access are not shown.',
+	'DISABLE_BOARD_EXPLAIN'			=> 'Hiermit sperrst du das Board für alle Benutzer, die weder Administrator noch Moderator sind. Wenn du möchtest, kannst du eine kurze Nachricht (bis zu 255 Zeichen) angeben.',
+	'DISPLAY_LAST_SUBJECT'			=> 'Betreff des letzten Beitrags in Foren-Liste anzeigen',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Der Betreff des zuletzt erstellten Beitrags wird in der Foren-Liste angezeigt und mit dem Beitrag verlinkt. Betreffe von passwort-geschützten Foren und Foren, die der Benutzer nicht lesen darf, werden nicht angezeigt.',
 	'OVERRIDE_STYLE'				=> 'Benutzer-Style überschreiben',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Verwendet den Standard-Style statt der individuell von den Benutzern gewählten Styles.',
 	'SITE_DESC'						=> 'Beschreibung des Boards',
-	'SITE_HOME_TEXT'				=> '#Main website text',
-	'SITE_HOME_TEXT_EXPLAIN'		=> '#This text will be displayed as a link to your website homepage in the board’s breadcrumbs. If not specified, it will default to “Home”.',
-	'SITE_HOME_URL'					=> '#Main website URL',
-	'SITE_HOME_URL_EXPLAIN'			=> '#If specified, a link to this URL will be prepended to your board’s breadcrumbs and the board logo will link to this URL instead of the forum index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>.',
+	'SITE_HOME_TEXT'				=> 'Bezeichnung der Homepage',
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Dieser Text wird als Link auf deine Homepage in der Brotkrumennavigation des Boards angezeigt. Wenn kein Text festgelegt ist, wird der Standardwert „Startseite“ verwendet.',
+	'SITE_HOME_URL'					=> 'URL der Homepage',
+	'SITE_HOME_URL_EXPLAIN'			=> 'Wenn festgelegt, wird ein Link zu dieser Seite der Brotkrumennavigation des Boards vorangestellt und das Logo des Boards wird auf diese Seite statt der Foren-Übersicht verweisen. Es muss eine vollständige URL angegeben werden, z.&nbsp;B. <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Name des Boards',
 	'SYSTEM_TIMEZONE'				=> 'Zeitzone für Gäste',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Zeitzone, die für Benutzer verwendet wird, die nicht angemeldet sind (Gäste, Bots). Angemeldete Benutzer legen ihre Zeitzone während der Registrierung fest und können sie im persönlichen Bereich ändern.',
@@ -107,7 +104,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_AVATARS'					=> 'Avatare erlauben',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Erlaubt die generelle Nutzung von Avataren.<br />Wenn du Avatare generell oder die eines bestimmten Typs deaktivierst, werden die deaktivierten Avatare nicht mehr im Board angezeigt, Benutzer können ihren Avatar aber weiterhin im persönlichen Bereich herunterladen.',
-	'ALLOW_GRAVATAR'				=> '#Enable gravatar avatars',
+	'ALLOW_GRAVATAR'				=> 'Gravatar-Avatare erlauben',
 	'ALLOW_LOCAL'					=> 'Galerie-Avatare erlauben',
 	'ALLOW_REMOTE'					=> 'Remote-Avatare erlauben',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Avatare, die von einer anderen Website verlinkt werden.',
@@ -360,21 +357,21 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Hier kannst du einige Board-Funktionen aktivieren und deaktivieren, um die beanspruchte Rechenleistung zu verringern. Auf den meisten Servern ist es allerdings nicht nötig, irgendeine Funktion zu deaktivieren. Andererseits kann es auf einigen Systemen oder auf Servern, die man sich mit anderen teilt, durchaus Vorteile bringen, wenn Funktionen abgeschaltet werden, die nicht wirklich benötigt werden. Du kannst hier auch Limits für die Systemauslastung und für die aktiven Sitzungen festlegen, bei deren Überschreitung das Board offline geht.',
 
-	'ALLOW_CDN'						=> '#Allow usage of third party content delivery networks',
-	'ALLOW_CDN_EXPLAIN'				=> '#If this setting is enabled, some files will be served from external third party servers instead of your server. This reduces the network bandwidth required by your server, but may present a privacy issue for some board administrators. In a default phpBB installation, this includes loading “jQuery” and the font “Open Sans” from Google’s content delivery network.',
-	'CUSTOM_PROFILE_FIELDS'			=> 'Zusätzliche Profil-Felder',
+	'ALLOW_CDN'						=> 'Nutzung von Drittanbieter-Netzen zulassen',
+	'ALLOW_CDN_EXPLAIN'				=> 'Wenn diese Einstellung aktiviert ist, werden manche Dateien von Servern externer Drittanbieter bezogen und nicht von deinem Server. Dadurch wird die Bandbreite reduziert, die dein Server in Anspruch nimmt. Allerdings kann diese Einstellung aus Sicht einiger Administratoren datenschutzrechtlich problematisch sein. In einer Standard-phpBB-Installation betrifft dies „jQuery“ und die Schriftart „Open Sans“, die über das Netzwerk von Google bezogen werden.',
+	'CUSTOM_PROFILE_FIELDS'			=> 'Benutzerdefinierte Profil-Felder',
 	'LIMIT_LOAD'					=> 'Schränke Systemauslastung ein',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Wenn die durchschnittliche Systemauslastung der letzten Minute (load average) diesen Wert überschreitet, geht das Board automatisch offline. 1.0 steht für eine ca. 100-prozentige Auslastung eines Prozessors. Diese Einstellung steht nur auf System zur Verfügung, die auf UNIX basieren und bei denen dieser Wert zugänglich ist. Der Wert stellt sich auf 0 zurück, wenn phpBB diesen Wert nicht auslesen konnte.',
 	'LIMIT_SESSIONS'				=> 'Schränke Sitzungen ein',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Wenn die Zahl der Sitzungen innerhalb einer Minute diesen Wert überschreitet, geht das Board offline. Um keine Begrenzung festzulegen, stelle als Wert 0 ein.',
-	'LOAD_CPF_MEMBERLIST'			=> 'Erlaubt Styles, zusätzliche Profil-Felder in der Mitgliederliste anzuzeigen',
-	'LOAD_CPF_PM'					=> '#Display custom profile fields in private messages',
-	'LOAD_CPF_VIEWPROFILE'			=> 'Zusätzliche Profil-Felder in Mitgliederprofilen anzeigen',
-	'LOAD_CPF_VIEWTOPIC'			=> 'Zusätzliche Profil-Felder in der Themen-Ansicht anzeigen',
+	'LOAD_CPF_MEMBERLIST'			=> 'Erlaubt Styles, benutzerdefinierte Profil-Felder in der Mitgliederliste anzuzeigen',
+	'LOAD_CPF_PM'					=> 'Benutzerdefinierte Profil-Felder in Privaten Nachrichten anzeigen',
+	'LOAD_CPF_VIEWPROFILE'			=> 'Benutzerdefinierte Profil-Felder in Mitgliederprofilen anzeigen',
+	'LOAD_CPF_VIEWTOPIC'			=> 'Benutzerdefinierte Profil-Felder in der Themen-Ansicht anzeigen',
 	'LOAD_USER_ACTIVITY'			=> 'Aktivität der Mitglieder anzeigen',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Zeigt im Profil und im persönlichen Bereich an, in welchen Foren und Themen ein Mitglied am aktivsten ist. Es wird empfohlen, diese Funktion in Foren zu deaktivieren, die mehr als eine Million Beiträge haben.',
-	'READ_NOTIFICATION_EXPIRE_DAYS'	=> '#Read Notification Expiration',
-	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => '#Number of days that will elapse before a read notification will automatically be deleted. Set this value to 0 to make notifications permanent.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Aufbewahrung gelesener Benachrichtungen',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Anzahl von Tagen, nach denen gelesene Benachrichtungen automatisch gelöscht werden. Stelle einen Wert von 0 ein, damit Benachrichtigungen dauerhaft erhalten bleiben.',
 	'RECOMPILE_STYLES'				=> 'Rekompilieren veralteter Style-Komponenten',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Prüft auf neue Style-Komponenten und rekompiliert diese.',
 	'YES_ANON_READ_MARKING'			=> 'Gelesen-Markierung für Gäste',
@@ -398,19 +395,16 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	//TODO
-	//>>>>>> OLD <<<<<<: phpBB supports authentication plug-ins, or modules. These allow you determine how users are authenticated when they log into the board. By default three plug-ins are provided; DB, LDAP and Apache. Not all methods require additional information so only fill out fields if they are relevant to the selected method.
-	//>>>>>>> NEW <<<<<<: phpBB supports authentication plug-ins, or modules. These allow you determine how users are authenticated when they log into the board. By default four plug-ins are provided: DB, LDAP, Apache, and OAuth. Not all methods require additional information so only fill out fields if they are relevant to the selected method.
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> '#phpBB unterstützt Authentifizierungs-Plugins oder -Module. Mit diesen kannst du festlegen, wie Benutzer authentifiziert werden, wenn sie sich im Forum anmelden. Standardmäßig gibt es drei Plugins: DB, LDAP und Apache. Nicht alle Methoden benötigen zusätzliche Angaben, fülle daher nur Felder aus, wenn sie für die gewählte Methode von Belang sind.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB unterstützt Authentifizierungs-Plugins oder -Module. Mit diesen kannst du festlegen, wie Benutzer authentifiziert werden, wenn sie sich im Forum anmelden. Standardmäßig gibt es vier Plugins: DB, LDAP, Apache und OAuth. Nicht alle Methoden benötigen zusätzliche Angaben, fülle daher nur Felder aus, wenn sie für die gewählte Methode von Belang sind.',
 
 
 	'AUTH_METHOD'				=> 'Authentifizierungs-Methode wählen',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> '#Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> '#Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.',
-	'AUTH_PROVIDER_OAUTH_KEY'					=> '#Key',
-	'AUTH_PROVIDER_OAUTH_TITLE'					=> '#OAuth',
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> '#Secret',
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Für jeden aktivierten OAuth-Anbieter muss sowohl der Key als auch das Secret angegeben werden. Für einen OAuth-Anbieter wurde nur ein Wert angegeben.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Für jeden OAuth-Anbieter wird sowohl ein eindeutiger Key <em>(Schlüssel)</em> als auch ein Secret <em>(Geheimnis)</em> benötigt, um eine Authentifizierung vornehmen zu können.<br />Diese sollten dir vom OAuth-Provider bei der Registrierung deiner Website bereitgestellt werden und exakt so eingegeben werden, wie sie bereitgestellt wurden.<br />Ein Anbieter, für den nicht sowohl Key als auch Secret angegeben wurde, wird den Benutzern deines Forums nicht zur Verfügung stehen.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Du musst die Apache-Authentifizierung konfigurieren, bevor diese Methode in phpBB eingestellt wird. Beachte, dass der Benutzername der Apache-Authentifizierung deinem phpBB-Benutzernamen entsprechen muss. Die Apache-Authentifizierung kann nur mit mod_php (nicht mit der CGI-Version) und deaktiviertem safe_mode verwendet werden.',
 
@@ -445,10 +439,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Wenn dies auf „Ja“ gestellt wird, werden die hier vorgenommenen Server-Einstellungen anstelle der automatisch ermittelten Werte genommen.',
 	'ICONS_PATH'				=> 'Speicherpfad für Themen-Symbole',
 	'ICONS_PATH_EXPLAIN'		=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/icons</samp>.',
-	'MOD_REWRITE_ENABLE'					=> '#Enable URL Rewriting',
-	'MOD_REWRITE_ENABLE_EXPLAIN'			=> '#When enabled, URLs containing ’app.php’ will be rewritten to remove the filename (i.e. app.php/foo will become /foo). <strong>Apache server’s mod_rewrite module is required for this functionality to work; if this option is enabled without mod_rewrite support, URLs on your board may be broken.</strong>',
-	'MOD_REWRITE_DISABLED'					=> '#The <strong>mod_rewrite</strong> module on your Apache web server is disabled. Enable the module or contact your web hosting provider if you wish to enable this feature.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE'	=> '#We are unable to determine whether or not this server supports URL rewriting. This setting may be enabled but if URL rewriting is not available, paths generated by this board (such as for use in links) may be broken. Contact your web hosting provider if you are unsure whether or not you can safely enable this feature.',
+	'MOD_REWRITE_ENABLE'					=> 'Umschreiben von URLs aktivieren',
+	'MOD_REWRITE_ENABLE_EXPLAIN'			=> 'Wenn aktiviert, werden URLs, die ‚app.php‘ enthalten, umgeschrieben, so dass sie keinen Dateinamen mehr enthalten. (z.&nbsp;B. wird <samp>app.php/foo</samp> zu <samp>/foo</samp>). <strong>Das Modul mod_rewrite des Apache-Webservers ist notwendig, damit dies funktioniert. Wenn diese Option aktiviert wird, ohne dass mod_rewrite verfügbar ist, können URLs deines Boards ungültig werden.</strong>',
+	'MOD_REWRITE_DISABLED'					=> 'Das Modul <strong>mod_rewrite</strong> deines Apache-Webservers ist deaktiviert. Aktiviere das Modul oder kontaktiere deinen Webhosting-Provider, wenn du willst, dass diese Funktion aktiviert wird.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE'	=> 'Es konnte nicht festgestellt werden, ob dieser Server die Umschreibung von URLs unterstützt. Diese Funktion kann aktiviert werden, aber wenn die Umschreibung von URLs nicht unterstützt wird, können vom Board erstellte Pfadangaben (z.&nbsp;B. bei Links) ungültig sein. Kontaktiere deinen Webhosting-Provider, wenn du dir nicht sicher bist, ob du diese Funktion problemlos aktivieren kannst.',
 	'PATH_SETTINGS'				=> 'Pfad-Einstellungen',
 	'RANKS_PATH'				=> 'Speicherpfad für Rang-Bilder',
 	'RANKS_PATH_EXPLAIN'		=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/ranks</samp>.',
@@ -465,8 +459,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Speicherpfad der Dateityp-Gruppen-Symbole',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> '#Run periodic tasks from system cron',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> '#When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).',
+	'USE_SYSTEM_CRON'			=> 'Wiederkehrende Aufgaben über Cron-Job des Systems ausführen',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Wenn deaktiviert, wird sich phpBB darum kümmern, dass wiederkehrende Aufgaben automatisch ausgeführt werden. Wenn aktiviert, wird phpBB wiederkehrende Aufgaben nicht selbst ausführen; der System-Administrator muss dann dafür sorgen, dass <code>cron.php</code> regelmäßig (z.&nbsp;B. alle 5 Minuten) durch einen Cron-Job des Systems aufgerufen wird.',
 ));
 
 // Security Settings
@@ -474,24 +468,12 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Hier können die Einstellungen zu Sitzungen und zur Anmeldung festgelegt werden.',
 
 	'ALL'							=> 'Alle',
-	//TODO
-	//>>>>>> OLD <<<<<<: Allow persistent logins
-	//>>>>>>> NEW <<<<<<: Allow "Remember Me" logins
-	'ALLOW_AUTOLOGIN'				=> '#Dauerhafte Anmeldung erlauben',
-	//TODO
-	//>>>>>> OLD <<<<<<: Determines whether users can autologin when they visit the board.
-	//>>>>>>> NEW <<<<<<: Determines whether users are given "Remember Me" option when they visit the board.
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> '#Legt fest, ob Benutzer sich automatisch bei jedem Besuch des Boards anmelden können.',
-	'ALLOW_PASSWORD_RESET'			=> '#Allow password reset ("Forgot Password")',
-	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> '#Determines whether or not users are able to use the "I forgot my password" link on the login page to recover their account. If you use an external authentication mechanism you may wish to disable this feature.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Persistent login key expiration length (in days)
-	//>>>>>>> NEW <<<<<<: "Remember Me" login key expiration length (in days)
-	'AUTOLOGIN_LENGTH'				=> '#Verfallszeit für Anmelde-Schlüssel',
-	//TODO
-	//>>>>>> OLD <<<<<<: Number of days after which persistent login keys are removed or zero to disable.
-	//>>>>>>> NEW <<<<<<: Number of days after which "Remember Me" login keys are removed or zero to disable.
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> '#Die Anzahl der Tage, nach denen ein Anmelde-Schlüssel für die automatische Anmeldung verfällt. Um den Schlüssel nicht verfallen zu lassen, stelle als Wert 0 ein.',
+	'ALLOW_AUTOLOGIN'				=> 'Dauerhafte Anmeldungen erlauben',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Legt fest, ob sich Benutzer dauerhaft am Board anmelden können.',
+	'ALLOW_PASSWORD_RESET'			=> 'Zurücksetzen von Passwörtern zulassen',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Legt fest, ob Benutzuer die Funktion „Ich habe mein Passwort vergessen“ auf der Anmeldeseite nutzen können, um wieder Zugang zu ihrem Benutzerkonto bekommen zu können. Wenn du einen externen Authentifizierungsservice nutzt, möchtest du diese Funktion möglicherweise deaktivieren.',
+	'AUTOLOGIN_LENGTH'				=> 'Verfallszeit für Anmelde-Schlüssel (in Tagen)',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Die Anzahl der Tage, nach denen ein Anmelde-Schlüssel für die dauerhafte Anmeldung verfällt. Um den Schlüssel nicht verfallen zu lassen, stelle als Wert 0 ein.',
 	'BROWSER_VALID'					=> 'Browser prüfen',
 	'BROWSER_VALID_EXPLAIN'			=> 'Aktiviert die Prüfung des Browsers für die jeweilige Sitzung, um die Sicherheit zu erhöhen.',
 	'CHECK_DNSBL'					=> 'IP gegen Schwarze DNS-Liste prüfen',
