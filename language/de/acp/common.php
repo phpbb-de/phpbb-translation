@@ -4,7 +4,7 @@
 * acp_common [Deutsch — Du]
 *
 * @package language
-* @version $Id: common.php 617 2013-09-29 10:21:18Z pyramide $
+* @version $Id: common.php 627 2014-05-01 21:17:19Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -193,7 +193,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Signatur',
 	'ACP_USER_WARNINGS'				=> 'Verwarnungen',
 
-	'ACP_VC_SETTINGS'					=> 'CAPTCHA-Modul-Einstellungen',
+	'ACP_VC_SETTINGS'					=> 'Anti-Spam-Bot-Maßnahmen',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA Bild-Vorschau',
 	'ACP_VERSION_CHECK'					=> 'Auf Update prüfen',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Administrator-Berechtigungen anzeigen',

@@ -4,7 +4,7 @@
 * ucp [Deutsch — Sie]
 *
 * @package language
-* @version $Id: ucp.php 617 2013-09-29 10:21:18Z pyramide $
+* @version $Id: ucp.php 627 2014-05-01 21:17:19Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Nachrichten im zu löschenden Ordner verschieben nach',
 	'MOVE_DOWN'						=> 'Nach unten',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Markierte verschieben nach %s',
-	'MOVE_PM_ERROR'					=> 'Beim Verschieben Ihrer Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurden nur %1d von %2d Nachrichten verschoben.',
+	'MOVE_PM_ERROR'					=> 'Beim Verschieben Ihrer Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurden nur %1$d von %2$d Nachrichten verschoben.',
 	'MOVE_TO_FOLDER'				=> 'In Ordner verschieben',
 	'MOVE_UP'						=> 'Nach oben',
 
