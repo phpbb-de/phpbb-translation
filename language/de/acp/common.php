@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Individualisieren', // TODO: Individualisieren / Anpassen
+	'ACP_CAT_CUSTOMISE'			=> 'Anpassen',
 	'ACP_CAT_DATABASE'			=> 'Datenbank',
 	'ACP_CAT_DOT_MODS'			=> 'Erweiterungen',
 	'ACP_CAT_FORUMS'			=> 'Foren',
@@ -407,7 +407,7 @@ $lang = array_merge($lang, array(
 	'STATISTIC'					=> 'Statistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronisieren oder Statistiken zurücksetzen',
 
-	'TIMEZONE_INVALID'	=> 'Die von dir ausgewählte Zeitzone ist ungültig.',
+	'TIMEZONE_INVALID'	=> 'Die ausgewählte Zeitzone ist ungültig.',
 	'TIMEZONE_SELECTED'	=> '(derzeit ausgewählt)',
 	'TOPICS_PER_DAY'	=> 'Themen pro Tag',
 
