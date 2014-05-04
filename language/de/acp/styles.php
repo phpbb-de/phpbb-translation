@@ -38,10 +38,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you can manage the available styles on your board. A style consists of a template, theme and imageset. You may alter existing styles, delete, deactivate, reactivate, create or import new ones. You can also see what a style will look like using the preview function. The current default style is noted by the presence of an asterisk (*). Also listed is the total user count for each style, note that overriding user styles will not be reflected here.
-	//>>>>>>> NEW <<<<<<: Here you can manage the available styles on your board. You may alter existing styles, delete, deactivate, reactivate, install new ones. You can also see what a style will look like using the preview function. Also listed is the total user count for each style, note that overriding user styles will not be reflected here.
-	'ACP_STYLES_EXPLAIN'	=> '#Hier kannst du die auf deinem Board verfügbaren Styles verwalten. Ein Style besteht aus einem Template, einem Theme und einer Grafiksammlung. Du kannst bestehende Styles ändern, löschen, deaktivieren, reaktivieren oder neue erstellen oder importieren. Du kannst mit der Vorschau-Funktion auch sehen, wie ein Style aussehen wird. Der derzeit aktive Standard-Style ist durch einen Stern (*) gekennzeichnet. Außerdem ist die Zahl der Benutzer angegeben, die ein Style verwenden. Bitte beachte, dass hier nicht berücksichtigt wird, ob der Style überschrieben wird.',
+	'ACP_STYLES_EXPLAIN'	=> 'Hier kannst du die auf deinem Board verfügbaren Styles verwalten. Du kannst bestehende Styles ändern, löschen, deaktivieren, reaktivieren oder neue installieren. Du kannst mit der Vorschau-Funktion auch sehen, wie ein Style aussehen wird. Außerdem ist die Zahl der Benutzer angegeben, die ein Style verwenden. Bitte beachte, dass hier nicht berücksichtigt wird, ob der Style überschrieben wird.',
 	'ADD_TEMPLATE'			=> 'Template erstellen',
 	'ADD_TEMPLATE_EXPLAIN'	=> 'Hier kannst du ein neues Template erstellen. Abhängig von der Serverkonfiguration und den Dateirechten können dir zusätzliche Funktionen zur Verfügung stehen. Du kannst z.&nbsp;B. die Template-Sammlung auf Grundlage einer anderen aufbauen. Du kannst eventuell auch ein Template-Archiv hochladen oder (vom store-Verzeichnis) importieren. Wenn du ein Archiv hochlädst oder importierst, kann der Name des Templates auf Wunsch auch aus dem Archiv übernommen werden (lass dazu den Namen leer).',
 	'ARCHIVE_FORMAT'		=> 'Dateiarchiv-Typ',
@@ -58,10 +55,10 @@ $lang = array_merge($lang, array(
 	'CACHE_FILENAME'				=> 'Template-Datei',
 	'CACHE_FILESIZE'				=> 'Dateigröße',
 	'CACHE_MODIFIED'				=> 'Modifiziert',
-	'CANNOT_BE_INSTALLED'			=> '#Cannot be installed',
+	'CANNOT_BE_INSTALLED'			=> 'Kann nicht installiert werden',
 	'CONFIRM_TEMPLATE_CLEAR_CACHE'	=> 'Bist du dir sicher, dass du alle gecachten Versionen deiner Template-Sammlung löschen möchtest?',
-	'CONFIRM_DELETE_STYLES'			=> '#Are you sure you wish to delete selected styles?',
-	'CONFIRM_UNINSTALL_STYLES'		=> '#Are you sure you wish to uninstall selected styles?',
+	'CONFIRM_DELETE_STYLES'			=> 'Bist du dir sicher, dass du den ausgewählten Style löschen willst?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Bist du dir sicher, dass du den ausgewählten Style deinstallieren willst?',
 	'COPYRIGHT'						=> 'Copyright',
 	'CREATE_STYLE'					=> 'Neuen Style erstellen',
 	'CREATE_TEMPLATE'				=> 'Neue Template-Sammlung erstellen',
@@ -72,8 +69,8 @@ $lang = array_merge($lang, array(
 	'DELETE_FROM_FS'			=> 'Vom Dateisystem löschen',
 	'DELETE_STYLE'				=> 'Style löschen',
 	'DELETE_STYLE_EXPLAIN'		=> 'Hier kannst du das ausgewählte Style löschen. Sei vorsichtig beim Löschen von Styles, es gibt keine Rückgängig-Funktion.',
-	'DELETE_STYLE_FILES_FAILED'		=> '#Error deleting files for style "%s".',
-	'DELETE_STYLE_FILES_SUCCESS'	=> '#Files for style "%s" have been deleted.',
+	'DELETE_STYLE_FILES_FAILED'		=> 'Fehler beim Löschen der Dateien von Style „%s“.',
+	'DELETE_STYLE_FILES_SUCCESS'	=> 'Die Dateien von Style „%s“ wurden gelöscht.',
 	'DELETE_TEMPLATE'			=> 'Template löschen',
 	'DELETE_TEMPLATE_EXPLAIN'	=> 'Hier kannst du die ausgewählte Template-Sammlung aus der Datenbank entfernen. Beachte, dass es keine Rückgängig-Funktion gibt. Du solltest daher vorher die Sammlung für zukünftige Zwecke exportieren.',
 	'DETAILS'					=> 'Details',
@@ -85,15 +82,9 @@ $lang = array_merge($lang, array(
 	'EDIT_DETAILS_TEMPLATE'				=> 'Template-Details ändern',
 	'EDIT_DETAILS_TEMPLATE_EXPLAIN'		=> 'Hier kannst du bestimmte Template-Details wie z.&nbsp;B. seinen Namen ändern.',
 	'EDIT_DETAILS_THEME'				=> 'Theme-Details ändern',
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you can edit certain theme details such as its name. You may also have the option to switch storage of the stylesheet from the filesystem to the database and vice versa. This option depends on your PHP configuration and whether your stylesheet can be written to by the web server.
-	//>>>>>>> NEW <<<<<<: Here you can edit certain theme details such as its name.
-	'EDIT_DETAILS_THEME_EXPLAIN'		=> '#Hier kannst du bestimmte Details eines Themes wie z.&nbsp;B. seinen Namen ändern. Du hast die Möglichkeit, den Ablageort des Stylesheets vom Dateisystem zur Datenbank oder andersherum zu ändern, sofern PHP-Konfiguration und Webserver es erlauben, in die Stylesheet-Datei zu schreiben.',
+	'EDIT_DETAILS_THEME_EXPLAIN'		=> 'Hier kannst du bestimmte Details eines Themes wie z.&nbsp;B. seinen Namen ändern.',
 	'EDIT_TEMPLATE'						=> 'Template ändern',
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you can edit your template set directly. Please remember that these edits are permanent and cannot be undone once submitted. If PHP can write to the template files in your styles directory any changes here will be written directly to those files. If PHP cannot write to those files they will be copied into the database and all changes will only be reflected there. Please take care when editing your template set, remember to close all replacement variable terms {XXXX} and conditional statements.
-	//>>>>>>> NEW <<<<<<: Here you can edit your template set directly. Please remember that these edits are permanent and cannot be undone once submitted. Please take care when editing your template set, remember to close all replacement variable terms {XXXX} and conditional statements.
-	'EDIT_TEMPLATE_EXPLAIN'				=> '#Hier kannst du deine Template-Sammlung direkt ändern. Bitte beachte, dass diese Änderungen dauerhaft sind und nicht rückgängig gemacht werden können, sobald sie abgesandt wurden. Wenn PHP direkt in die Template-Dateien in deinem styles-Verzeichnis schreiben kann, werden die Änderungen direkt in diese Dateien geschrieben. Wenn PHP nicht in diese Dateien schreiben kann, werden die Änderungen nur in der Datenbank gespeichert. Bitte sei bei der Änderung der Template-Sammlung vorsichtig. Stelle sicher, dass alle Variablen ({XXXX}) und alle bedingten Anweisungen richtig geschlossen werden.',
+	'EDIT_TEMPLATE_EXPLAIN'				=> 'Hier kannst du deine Template-Sammlung direkt ändern. Bitte beachte, dass diese Änderungen dauerhaft sind und nicht rückgängig gemacht werden können, sobald sie abgesandt wurden. Bitte sei bei der Änderung der Template-Sammlung vorsichtig. Stelle sicher, dass alle Variablen ({XXXX}) und alle bedingten Anweisungen richtig geschlossen werden.',
 	'EDIT_THEME'						=> 'Theme ändern',
 	'EDIT_THEME_EXPLAIN'				=> 'Hier kannst du das ausgewählte Theme anpassen und Farben, Grafiken usw. ändern.',
 	'EDITOR_DISABLED'					=> 'Der Template-Editor ist deaktiviert.',
@@ -244,12 +235,9 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Geerbt von',
 	'INSTALL_STYLE'				=> 'Style installieren',
 	'INSTALL_STYLES'			=> 'Styles installieren',
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you can install a new style and if appropriate the corresponding style elements. If you already have the relevant style elements installed they will not be overwritten. Some styles require existing style elements to already be installed. If you try installing such a style and do not have the required elements you will be notified.
-	//>>>>>>> NEW <<<<<<: Here you can install new styles.<br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.
-	'INSTALL_STYLES_EXPLAIN'	=> '#Hier kannst du den ausgewählten Style und die dazugehörigen Komponenten installieren. Wenn du die relevanten Komponenten des Styles bereits installiert hast, werden diese nicht überschrieben. Manche Styles benötigen zusätzliche Komponenten, die bereits installiert sein müssen. Wenn du einen solchen Style installierst und nicht alle erforderlichen Komponenten hast, wirst du darüber informiert.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kannst du neue Styles installieren.<br />Wenn ein Style nicht in der untenstehenden Liste aufgeführt wird, prüfe, ob er nicht bereits schon installiert wurde. Wenn er noch nicht installiert wurde, prüfe, ob er richtig hochgeladen wurde.',
 	'INSTALLED_STYLE'			=> 'Installierte Styles',
-	'INVALID_STYLE_ID'			=> '#Invalid style ID.',
+	'INVALID_STYLE_ID'			=> 'Ungültige Style-ID.',
 
 	'LINE_SPACING'				=> 'Zeilenabstand',
 	'LOCALISED_IMAGES'			=> 'Übersetzt',
@@ -257,7 +245,7 @@ $lang = array_merge($lang, array(
 	'NO_CLASS'					=> 'Kann Klasse in Stylesheet nicht finden.',
 	'NO_IMAGE'					=> 'Keine Grafik',
 	'NO_IMAGE_ERROR'			=> 'Kann Grafik nicht im Dateisystem finden.',
-	'NO_MATCHING_STYLES_FOUND'	=> '#No styles match your query.',
+	'NO_MATCHING_STYLES_FOUND'	=> 'Keine Styles entsprachen der Abfrage.',
 	'NO_STYLE'					=> 'Kann Style nicht im Dateisystem finden.',
 	'NO_TEMPLATE'				=> 'Kann Template nicht im Dateisystem finden.',
 	'NO_THEME'					=> 'Kann Theme nicht im Dateisystem finden.',
@@ -266,8 +254,8 @@ $lang = array_merge($lang, array(
 
 	'ONLY_STYLE'			=> 'Dies ist der einzig verbleibende Style. Du kannst ihn nicht löschen.',
 
-	'PARENT_STYLE_NOT_FOUND'	=> '#Parent style was not found. This style may not work correctly. Please uninstall it.',
-	'PURGED_CACHE'				=> '#Cache was purged.',
+	'PARENT_STYLE_NOT_FOUND'	=> 'Übergeordneter Style wurde nicht gefunden. Dieser Style wird vermutlich nicht richtig funktionieren. Bitte deinstalliere ihn.',
+	'PURGED_CACHE'				=> 'Der Cache wurde geleert.',
 
 	'REFRESH'					=> 'Aktualisieren',
 	'REPEAT_NO'					=> 'Keiner',
@@ -281,7 +269,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_THEME'				=> 'Theme ersetzen durch',
 	'REPLACE_THEME_EXPLAIN'		=> 'Dieses Theme ersetzt das gelöschte Theme in allen Styles, die es derzeit verwenden.',
 	'REPLACE_WITH_OPTION'		=> 'Durch „%s“ ersetzen',
-	'REQUIRES_STYLE'			=> '#This style requires the style "%s" to be installed.',
+	'REQUIRES_STYLE'			=> 'Dieser Style erfordert, dass der Style „%s“ installiert ist.',
 
 	'SELECT_IMAGE'				=> 'Grafik auswählen',
 	'SELECT_TEMPLATE'			=> 'Template-Datei auswählen',
@@ -293,22 +281,19 @@ $lang = array_merge($lang, array(
 	'SELECTED_THEME_FILE'		=> 'Ausgewählte Theme-Datei',
 	'STORE_FILESYSTEM'			=> 'Dateisystem',
 	'STYLE_ACTIVATE'			=> 'Aktivieren',
-	'STYLE_ACTIVATED'			=> '#Style activated successfully',
+	'STYLE_ACTIVATED'			=> 'Style erfolgreich aktiviert',
 	'STYLE_ACTIVE'				=> 'Aktiv',
 	'STYLE_ADDED'				=> 'Style erfolgreich hinzugefügt.',
 	'STYLE_DEACTIVATE'			=> 'Deaktivieren',
-	'STYLE_DEACTIVATED'			=> '#Style deactivated successfully',
+	'STYLE_DEACTIVATED'			=> 'Style erfolgreich deaktiviert',
 	'STYLE_DEFAULT'				=> 'Als Standard-Style festlegen',
-	'STYLE_DEFAULT_CHANGE'		=> '#Change default style',
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> '#You must activate style before making it default style.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Style deleted successfully.
-	//>>>>>>> NEW <<<<<<: Style "%s" deleted successfully.
-	'STYLE_DELETED'				=> '#Style erfolgreich gelöscht.',
+	'STYLE_DEFAULT_CHANGE'		=> 'Standard-Style änderun',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Du musst den Style aktivieren, bevor du ihn zum Stanrd-Style machen kannst.',
+	'STYLE_DELETED'				=> 'Style „%s“ erfolgreich gelöscht.',
 	'STYLE_DETAILS_UPDATED'		=> 'Style erfolgreich geändert.',
 	'STYLE_ERR_ARCHIVE'			=> 'Bitte wähle einen Typ für das Dateiarchiv aus.',
 	'STYLE_ERR_COPY_LONG'		=> 'Das Copyright darf nicht länger als 60 Zeichen sein.',
-	'STYLE_ERR_INVALID_PARENT'	=> '#Invalid parent style.',
+	'STYLE_ERR_INVALID_PARENT'	=> 'Ungültiger übergeordneter Style.',
 	'STYLE_ERR_MORE_ELEMENTS'	=> 'Du musst mindestens ein Style-Element auswählen.',
 	'STYLE_ERR_NAME_CHARS'		=> 'Der Name des Styles darf nur alphanumerische Zeichen, -, +, _ und Leerzeichen enthalten.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Ein Style mit diesem Namen existiert bereits.',
@@ -316,24 +301,21 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NOT_STYLE'		=> 'Das angegebene oder hochgeladene Archiv enthält kein gültiges Style.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Du musst einen Namen für diesen Style angeben.',
 	'STYLE_EXPORT'				=> 'Style exportieren',
-	//TODO
-	//>>>>>> OLD <<<<<<: Here you can export a style in the form of an archive. A style does not need to contain all elements but it must contain at least one. For example if you have created a new theme and imageset for a commonly used template you could simply export the theme and imageset and omit the template. You may select whether to download the file directly or to place it in your store folder for download later or via FTP.
-	//>>>>>>> NEW <<<<<<: Here you can export a style in the form of an archive. A style does not need to contain all elements but it must contain at least one. For example if you have created a new theme for a commonly used template you could simply export the theme and omit the template. You may select whether to download the file directly or to place it in your store folder for download later or via FTP.
-	'STYLE_EXPORT_EXPLAIN'		=> '#Hier kannst du ein Style in Form eines Archives exportieren. Ein Style muss nicht alle Elemente beinhalten, aber mindestens eins. Wenn du zum Beispiel ein neues Theme und eine neue Grafiksammlung für ein weit verbreitetes Template erstellt hast, solltest du nur Theme und Grafiksammlung exportieren und das Template auslassen. Du kannst auswählen, ob du die Datei direkt herunterladen oder im store-Ordner ablegen möchtest, damit du sie später per FTP herunterladen kannst.',
+	'STYLE_EXPORT_EXPLAIN'		=> 'Hier kannst du ein Style in Form eines Archives exportieren. Ein Style muss nicht alle Elemente beinhalten, aber mindestens eins. Wenn du zum Beispiel ein neues Theme für ein weit verbreitetes Template erstellt hast, solltest du nur das Theme exportieren und das Template auslassen. Du kannst auswählen, ob du die Datei direkt herunterladen oder im store-Ordner ablegen möchtest, damit du sie später per FTP herunterladen kannst.',
 	'STYLE_EXPORTED'			=> 'Style erfolgreich exportiert und als %s gespeichert.',
-	'STYLE_INSTALLED'			=> '#Style "%s" has been installed.',
-	'STYLE_INSTALLED_EDIT_DETAILS'	=> '#<a href="%s">Click here</a> to edit style details or to change default style.',
-	'STYLE_INSTALLED_RETURN_STYLES'	=> '#<a href="%s">Click here</a> to return to installed styles list.',
-	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '#<a href="%s">Click here</a> to install more styles.',
+	'STYLE_INSTALLED'			=> 'Style „%s“ wurde installiert.',
+	'STYLE_INSTALLED_EDIT_DETAILS'	=> '<a href="%s">Hier klicken</a>, um Details des Styles zu ändern oder den Standard-Style zu ändern.', // TODO: oder besser '<a href="%s">Details des Styles zu ändern oder Standard-Style ändern</a>'?
+	'STYLE_INSTALLED_RETURN_STYLES'	=> '<a href="%s">Hier klicken</a>, um zur Liste der installierten Styles zurückzukehren.', // TODO: siehe oben
+	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '<a href="%s">Hier klicken</a>, um mehr Styles zu installieren.', // TODO: siehe oben
 	'STYLE_NAME'				=> 'Name des Styles',
-	'STYLE_NOT_INSTALLED'		=> '#Style "%s" was not installed.',
-	'STYLE_PATH'				=> '#Style path:',
-	'STYLE_PARENT'				=> '#Parent style:',
+	'STYLE_NOT_INSTALLED'		=> 'Style „%s“ wurde nicht installiert.',
+	'STYLE_PATH'				=> 'Pfad des Styles:',
+	'STYLE_PARENT'				=> 'Übergeordenter Style:',
 	'STYLE_TEMPLATE'			=> 'Template',
 	'STYLE_THEME'				=> 'Theme',
-	'STYLE_UNINSTALL'			=> '#Uninstall',
-	'STYLE_UNINSTALL_DEPENDENT'	=> '#Style "%s" cannot be uninstalled because it has one or more child styles.',
-	'STYLE_UNINSTALLED'			=> '#Style "%s" uninstalled successfully.',
+	'STYLE_UNINSTALL'			=> 'Deinstallieren',
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style „%s“ kann nicht deinstalliert werden, da untegeordnete Styles auf ihn aufbauen.',
+	'STYLE_UNINSTALLED'			=> 'Style „%s“ wurde erfolgreich deinstalliert.',
 	'STYLE_USED_BY'				=> 'Verwendet von (inklusive Spiders/Robots)',
 
 	'TEMPLATE_ADDED'			=> 'Template-Sammlung hinzugefügt.',
@@ -341,10 +323,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_CACHE_EXPLAIN'	=> 'Standardmäßig speichert phpBB die kompilierte Version seiner Templates. Dies reduziert jedes Mal die Serverlast, wenn eine Seite angezeigt wird und kann daher die zur Seitenerstellung benötigte Zeit reduzieren. Hier kannst du den Cache-Status jeder Datei sehen und einzelne gecachte Dateien oder den gesamten Cache leeren.',
 	'TEMPLATE_CACHE_CLEARED'	=> 'Template-Cache erfolgreich geleert.',
 	'TEMPLATE_CACHE_EMPTY'		=> 'Es sind keine gecachten Templates vorhanden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Template set removed from database but some files may remain on the filesystem.
-	//>>>>>>> NEW <<<<<<: Template set removed from database but files remain on the filesystem.
-	'TEMPLATE_DELETED_FS'		=> '#Die Template-Sammlung wurde erfolgreich gelöscht, aber einige Dateien verbleiben im Dateisystem.',
+	'TEMPLATE_DELETED_FS'		=> 'Die Template-Sammlung wurde erfolgreich gelöscht. Die Dateien sind noch im Dateisystem vorhanden.',
 	'TEMPLATE_DETAILS_UPDATED'	=> 'Template-Details erfolgreich aktualisiert.',
 	'TEMPLATE_EDITOR'			=> 'HTML-Template-Editor',
 	'TEMPLATE_EDITOR_HEIGHT'	=> 'Höhe des Template-Editors',
@@ -377,7 +356,7 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_NOT_THEME'		=> 'Das angegebene Archiv enthält kein gültiges Theme.',
 	'THEME_ERR_STYLE_NAME'		=> 'Du musst einen Namen für dieses Theme angeben.',
 	'THEME_FILE'				=> 'Theme-Datei',
-	'THEME_FILE_NOT_WRITABLE'	=> '#Unable to write to theme file %s. Please check the permissions for the directory and the files.',
+	'THEME_FILE_NOT_WRITABLE'	=> 'Die Theme-Datei %s konnte nicht beschrieben werden. Bitte prüfe die Berechtigungen des Verzeichnisses und der Dateien.',
 	'THEME_EXPORT'				=> 'Theme exportieren',
 	'THEME_EXPORT_EXPLAIN'		=> 'Hier kannst du ein Theme in Form eines Archives exportieren. Dieses Archiv wird allen Dateien enthalten, die erforderlich sind, um das Theme auf einem anderen Board zu installieren. Du kannst auswählen, ob du die Datei direkt herunterladen oder im store-Ordner ablegen möchtest, damit du sie später per FTP herunterladen kannst.',
 	'THEME_EXPORTED'			=> 'Theme erfolgreich exportiert und in %s gespeichert.',
@@ -385,7 +364,7 @@ $lang = array_merge($lang, array(
 	'THEME_UPDATED'				=> 'Theme erfolgreich geändert.',
 
 	'UNDERLINE'				=> 'Unterstrichen',
-	'UNINSTALL_DEFAULT'		=> '#You cannot uninstall the default style.',
+	'UNINSTALL_DEFAULT'		=> 'Der Standard-Style kann nicht deinstalliert werden.',
 	'UNSET'					=> 'Nicht definiert',
 
 ));
