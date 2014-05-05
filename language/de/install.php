@@ -4,7 +4,7 @@
 * install [Deutsch — Du]
 *
 * @package language
-* @version $Id: install.php 626 2013-10-01 10:39:28Z nickvergessen $
+* @version $Id: install.php 627 2014-05-01 21:17:19Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Bekanntmachungen zur Veröffentlichung</h1>
 
-		<p>Bitte lies <a href="%1$s" title="%1$s"><strong>die Bekanntmachung zur Veröffentlichung (Release announcement) der neuesten Version</strong></a> bevor du den Update-Prozess beginnst, sie enthält wichtige Informationen. Außerdem enthält sie die Download-Links sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
+		<p>Bitte lies <a href="%1$s" title="%1$s"><strong>die Bekanntmachung zur Veröffentlichung (Release announcement) der neuesten Version</strong></a>, bevor du den Update-Prozess beginnst, sie enthält wichtige Informationen. Außerdem enthält sie die Download-Links sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
 
 		<br />
 
