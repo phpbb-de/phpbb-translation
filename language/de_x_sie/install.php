@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Bekanntmachungen zur Veröffentlichung</h1>
 
-		<p>Bitte lesen Sie <a href="%1$s" title="%1$s"><strong>die Bekanntmachung zur Veröffentlichung (Release announcement) der neuesten Version</strong></a> bevor Sie den Update-Prozess beginnen, sie enthält wichtige Informationen. Außerdem enthält sie die Download-Links sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
+		<p>Bitte lesen Sie <a href="%1$s" title="%1$s"><strong>die Bekanntmachung zur Veröffentlichung (Release announcement) der neuesten Version</strong></a>, bevor Sie den Update-Prozess beginnen, sie enthält wichtige Informationen. Außerdem enthält sie die Download-Links sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
 
 		<br />
 
