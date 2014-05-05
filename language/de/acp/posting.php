@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'BBCode erfolgreich hinzugefügt.',
 	'BBCODE_EDITED'				=> 'BBCode erfolgreich bearbeitet.',
-	'BBCODE_DELETED'			=> '#The BBCode has been removed successfully.',
+	'BBCODE_DELETED'			=> 'Der BBCode wurde erfolgreich entfernt.',
 	'BBCODE_NOT_EXIST'			=> 'Der gewählte BBCode existiert nicht.',
 	'BBCODE_HELPLINE'			=> 'Tipp-Anzeige',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Gib hier den Text ein, der in der Tipp-Zeile erscheinen soll, wenn sich der Mauszeiger auf der Schaltfläche befindet.',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_WIDTH'				=> 'Breite',
 
 	'TOO_MANY_SMILIES'			=> array(
-		1	=> '#Limit of %d smiley reached.',
+		1	=> 'Das Limit von %d Smilie wurde erreicht.',
 		2	=> 'Das Limit von %d Smilies wurde erreicht.',
 	),
 
