@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_CHGEMAIL'	=> 'Kann E-Mail-Adresse ändern',
 	'ACL_U_CHGAVATAR'	=> 'Kann Avatar ändern',
 	'ACL_U_CHGGRP'		=> 'Kann Hauptgruppe ändern',
-	'ACL_U_CHGPROFILEINFO'	=> '#Can change profile field information',
+	'ACL_U_CHGPROFILEINFO'	=> 'Kann Informationen in Profilfeldern ändern',
 
 	'ACL_U_ATTACH'		=> 'Kann Dateianhänge erstellen',
 	'ACL_U_DOWNLOAD'	=> 'Kann Dateianhänge herunterladen',
@@ -143,8 +143,8 @@ $lang = array_merge($lang, array(
 // Moderator Permissions
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Kann Beiträge ändern',
-	'ACL_M_DELETE'		=> 'Kann Beiträge löschen',
-	'ACL_M_SOFTDELETE'	=> '#Can soft delete posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>',
+	'ACL_M_DELETE'		=> 'Kann Beiträge dauerhaft löschen',
+	'ACL_M_SOFTDELETE'	=> 'Kann Beiträge als gelöscht markieren<br /><em>Moderatoren, die Beiträge freigeben können, können als gelöscht markierte Beiträge wiederherstellen.</em>',
 	'ACL_M_APPROVE'		=> 'Kann Beiträge freigeben',
 	'ACL_M_REPORT'		=> 'Kann Meldungen schließen und löschen',
 	'ACL_M_CHGPOSTER'	=> 'Kann Autor eines Beitrags ändern',
@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_SWITCHPERM'	=> 'Kann andere Berechtigungen testen',
 
 	'ACL_A_STYLES'		=> 'Kann Styles verwalten',
-	'ACL_A_EXTENSIONS'	=> '#Can manage extensions',
+	'ACL_A_EXTENSIONS'	=> 'Kann Erweiterungen verwalten',
 	'ACL_A_VIEWLOGS'	=> 'Kann Protokolle anzeigen',
 	'ACL_A_CLEARLOGS'	=> 'Kann Protokolle löschen',
 	'ACL_A_MODULES'		=> 'Kann Module verwalten',
