@@ -1,10 +1,10 @@
-#Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: Beitragsfreigabe verweigert — „{POST_SUBJECT}“
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+du erhältst diese Nachricht, weil deinem Beitrag „{POST_SUBJECT}“ auf „{SITENAME}“ von einem Moderator oder Administrator die Freigabe verweigert wurde.
 
-The following reason was given for the disapproval:
+Der folgende Grund wurde dafür angegeben:
 
 {REASON}
 
