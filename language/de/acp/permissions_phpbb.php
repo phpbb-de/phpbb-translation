@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Kann Beiträge ändern',
 	'ACL_M_DELETE'		=> 'Kann Beiträge dauerhaft löschen',
 	'ACL_M_SOFTDELETE'	=> 'Kann Beiträge als gelöscht markieren<br /><em>Moderatoren, die Beiträge freigeben können, können als gelöscht markierte Beiträge wiederherstellen.</em>',
-	'ACL_M_APPROVE'		=> 'Kann Beiträge freigeben und wiederherstellen',
+	'ACL_M_APPROVE'		=> 'Kann Beiträge freigeben',
 	'ACL_M_REPORT'		=> 'Kann Meldungen schließen und löschen',
 	'ACL_M_CHGPOSTER'	=> 'Kann Autor eines Beitrags ändern',
 
