@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	'MEMBERS'				=> 'Mitglieder',
 
 	'NO_GROUP'					=> 'Keine Gruppe angegeben.',
-	'NO_GROUPS_ADDED'			=> 'Es wurden noch keine Gruppen erstellt.',
+	'NO_GROUPS_ADDED'			=> 'Es wurden noch keine Gruppen hinzugefügt.',
 	'NO_GROUPS_CREATED'			=> 'Es wurden bislang keine Gruppen erstellt.',
 	'NO_PERMISSIONS'			=> 'Berechtigungen nicht kopieren',
 	'NO_USERS'					=> 'Du hast keine Benutzer angegeben.',
