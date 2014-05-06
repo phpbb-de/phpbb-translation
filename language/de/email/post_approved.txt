@@ -1,4 +1,4 @@
-#Subject: Beitrag freigegeben — „{POST_SUBJECT}“
+Subject: Beitrag freigegeben — „{POST_SUBJECT}“
 
 Hallo {USERNAME},
 
@@ -9,6 +9,5 @@ Wenn du den Beitrag ansehen möchtest, verwende folgenden Link:
 
 Wenn du das Thema ansehen möchtest, verwende folgenden Link:
 {U_VIEW_TOPIC}
-
 
 {EMAIL_SIG}

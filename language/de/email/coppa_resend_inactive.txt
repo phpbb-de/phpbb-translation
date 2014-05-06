@@ -1,4 +1,4 @@
-#Subject: Willkommen auf „{SITENAME}“
+Subject: Willkommen auf „{SITENAME}“
 
 {WELCOME_MSG}
 
@@ -13,7 +13,7 @@ oder sende sie per Post an:
 {MAIL_INFO}
 
 -------------------------- HIER AUSSCHNEIDEN -------------------------
-Genehmigung der Teilnahme auf „{SITENAME}“  — {U_BOARD}
+Genehmigung der Teilnahme auf „{SITENAME}“ — {U_BOARD}
 
 Benutzername: {USERNAME}
 E-Mail-Adresse: {EMAIL_ADDRESS}

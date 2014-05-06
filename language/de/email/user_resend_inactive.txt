@@ -1,4 +1,4 @@
-#Subject: Willkommen auf „{SITENAME}“
+Subject: Willkommen auf „{SITENAME}“
 
 {WELCOME_MSG}
 
@@ -13,8 +13,6 @@ Dein Passwort wurde sicher in unserer Datenbank gespeichert und kann nicht wiede
 Bitte besuche folgenden Link, um den Account zu aktivieren:
 
 {U_ACTIVATE}
-
-
 
 Vielen Dank für deine Registrierung.
 

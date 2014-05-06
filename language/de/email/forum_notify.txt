@@ -1,4 +1,4 @@
-#Subject: Benachrichtigung über neue Antwort — „{FORUM_NAME}“
+Subject: Benachrichtigung über neue Antwort — „{FORUM_NAME}“
 
 Hallo {USERNAME},
 
