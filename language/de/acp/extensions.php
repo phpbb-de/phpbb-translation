@@ -38,75 +38,75 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'EXTENSION'					=> '#Extension',
-	'EXTENSIONS'				=> '#Extensions',
-	'EXTENSIONS_ADMIN'			=> '#Extensions Manager',
-	'EXTENSIONS_EXPLAIN'		=> '#The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-	'EXTENSION_INVALID_LIST'	=> '#The “%s” extension is not valid.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> '#The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
-	'EXTENSION_DIR_INVALID'		=> '#The selected extension has an invalid directory structure and cannot be enabled.',
+	'EXTENSION'					=> 'Erweiterung',
+	'EXTENSIONS'				=> 'Erweiterungen',
+	'EXTENSIONS_ADMIN'			=> 'Erweiterungen verwalten',
+	'EXTENSIONS_EXPLAIN'		=> 'Hier kannst du den Status all deiner Erweiterungen prüfen und Informationen über sie einsehen.',
+	'EXTENSION_INVALID_LIST'	=> 'Die Erweiterung „%s“ ist ungültig.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'Die ausgewählte Erweiterung ist nicht mit deinem Board kompatibel. Bitte prüfe auf der Details-Seite, ob deine phpBB- und PHP-Version unterstützt werden.',
+	'EXTENSION_DIR_INVALID'		=> 'Die ausgewählte Erweiterung besitzt eine ungültige Verzeichnisstruktur und kann nicht aktiviert werden.',
 
-	'DETAILS'				=> '#Details',
+	'DETAILS'				=> 'Details',
 
-	'EXTENSIONS_DISABLED'	=> '#Disabled Extensions',
-	'EXTENSIONS_ENABLED'	=> '#Enabled Extensions',
+	'EXTENSIONS_DISABLED'	=> 'Deaktivierte Erweiterunge',
+	'EXTENSIONS_ENABLED'	=> 'Aktivierte Erweiterungen',
 
-	'EXTENSION_DELETE_DATA'	=> '#Delete data',
-	'EXTENSION_DISABLE'		=> '#Disable',
-	'EXTENSION_ENABLE'		=> '#Enable',
+	'EXTENSION_DELETE_DATA'	=> 'Daten löschen',
+	'EXTENSION_DISABLE'		=> 'Deaktivieren',
+	'EXTENSION_ENABLE'		=> 'Aktivieren',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> '#Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> '#Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
-	'EXTENSION_ENABLE_EXPLAIN'		=> '#Enabling an extension allows you to use it on your board.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Durch das Löschen der Daten einer Erweiterung werden allen Daten und Einstellungen gelöscht. Die Dateien der Erweiterung bleiben erhalten, so dass sie erneut aktiviert werden kann.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Durch das Deaktivieren einer Erweiterung bleiben alle Dateien, Daten und Einstellungen erhalten, die Erweiterung steht auf deinem Board jedoch nicht mehr zur Verfügung.',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'Durch das Aktivieren einer Erweiterung kannst du sie auf deinem Board nutzen.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> '#The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> '#The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> '#The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Die Daten der Erweiterung werden derzeit gelöscht. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde..',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Die Erweiterung wird derzeit deaktiviert. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Die Erweiterung wird derzeit aktiviert. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> '#The extension’s data was deleted successfully',
-	'EXTENSION_DISABLE_SUCCESS'		=> '#The extension was disabled successfully',
-	'EXTENSION_ENABLE_SUCCESS'		=> '#The extension was enabled successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Die Daten der Erweiterung wurden erfolgreich gelöscht',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'Die Erweiterung wurde erfolgreich deaktiviert',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'Die Erweiterung wurde erfolgreich aktiviert',
 
-	'EXTENSION_NAME'			=> '#Extension Name',
-	'EXTENSION_ACTIONS'			=> '#Actions',
-	'EXTENSION_OPTIONS'			=> '#Options',
-	'EXTENSION_UPDATE_HEADLINE'	=> '#Updating an extension',
-	'EXTENSION_UPDATE_EXPLAIN'	=> '#<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s files from the filesystem</li>
-			<li>Upload the new files</li>
-			<li>Enable the extension</li>
+	'EXTENSION_NAME'			=> 'Name der Erweiterung',
+	'EXTENSION_ACTIONS'			=> 'Vorgänge',
+	'EXTENSION_OPTIONS'			=> 'Optionen',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Eine Erweiterung aktualisieren',
+	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
+			<li>Deaktiviere die Erweiterung</li>
+			<li>Lösche die Dateien der Erweiterung aus dem Dateisystem</li>
+			<li>Lade die neuen Dateien hoch</li>
+			<li>Aktiviere die Erweiterung</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> '#Completly removing an extension from your board',
-	'EXTENSION_REMOVE_EXPLAIN'	=> '#<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s data</li>
-			<li>Delete the extension’s files from the filesystem</li>
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Eine Erweiterung komplett aus dem Board entfernen',
+	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
+			<li>Deaktiviere die Erweiterung</li>
+			<li>Lösche die Daten der Erweiterung</li>
+			<li>Lösche die Dateien der Erweiterung aus dem Dateisystem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> '#Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
-	'EXTENSION_DISABLE_CONFIRM'		=> '#Are you sure that you wish to disable the “%s” extension?',
-	'EXTENSION_ENABLE_CONFIRM'		=> '#Are you sure that you wish to enable the “%s” extension?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Bist du dir sicher, dass du die Daten, die „%s“ zugeordnet sind, löschen möchtest?<br /><br />Dadurch werden alle Daten und Einstellungen dieser Erweiterung entfernt. <strong>Dieser Vorgang kann nicht rückgängig gemacht werden!</strong>',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ deaktivieren möchtest?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ aktivieren möchtest?',
 
-	'RETURN_TO_EXTENSION_LIST'	=> '#Return to the extension list',
+	'RETURN_TO_EXTENSION_LIST'	=> 'Zurück zur Liste der Erweiterungen',
 
-	'EXT_DETAILS'			=> '#Extension Details',
-	'DISPLAY_NAME'			=> '#Display Name',
-	'CLEAN_NAME'			=> '#Clean Name',
-	'TYPE'					=> '#Type',
-	'DESCRIPTION'			=> '#Description',
-	'VERSION'				=> '#Version',
-	'HOMEPAGE'				=> '#Homepage',
-	'PATH'					=> '#File Path',
-	'TIME'					=> '#Release Time',
-	'LICENSE'				=> '#Licence',
+	'EXT_DETAILS'			=> 'Informationen zur Erweiterung',
+	'DISPLAY_NAME'			=> 'Angezeigter Name',
+	'CLEAN_NAME'			=> 'Bereinigter Name',
+	'TYPE'					=> 'Typ',
+	'DESCRIPTION'			=> 'Beschreibung',
+	'VERSION'				=> 'Version',
+	'HOMEPAGE'				=> 'Homepage',
+	'PATH'					=> 'Datei-Pfad',
+	'TIME'					=> 'Veröffentlichungszeitpunkt',
+	'LICENSE'				=> 'Lizenz',
 
-	'REQUIREMENTS'			=> '#Requirements',
-	'PHPBB_VERSION'			=> '#phpBB Version',
-	'PHP_VERSION'			=> '#PHP Version',
-	'AUTHOR_INFORMATION'	=> '#Author Information',
-	'AUTHOR_NAME'			=> '#Name',
-	'AUTHOR_EMAIL'			=> '#Email',
-	'AUTHOR_HOMEPAGE'		=> '#Homepage',
-	'AUTHOR_ROLE'			=> '#Role',
+	'REQUIREMENTS'			=> 'Voraussetzungen',
+	'PHPBB_VERSION'			=> 'phpBB-Version',
+	'PHP_VERSION'			=> 'PHP-Version',
+	'AUTHOR_INFORMATION'	=> 'Informationen zum Autor',
+	'AUTHOR_NAME'			=> 'Name',
+	'AUTHOR_EMAIL'			=> 'E-Mail',
+	'AUTHOR_HOMEPAGE'		=> 'Homepage',
+	'AUTHOR_ROLE'			=> 'Rolle',
 ));

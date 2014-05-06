@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS'		=> 'Board-E-Mails',
 	'ACP_EXTENSION_GROUPS'		=> 'Dateityp-Gruppen verwalten',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Erweiterungs-Verwaltung',
-	'ACP_EXTENSIONS'			=> 'Verwalte Erweiterungen',
+	'ACP_EXTENSIONS'			=> 'Erweiterungen verwalten',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forenbasierte Berechtigungen',
 	'ACP_FORUM_LOGS'				=> 'Forums-Protokolle',
