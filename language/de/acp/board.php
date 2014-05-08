@@ -357,7 +357,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Hier kannst du einige Board-Funktionen aktivieren und deaktivieren, um die beanspruchte Rechenleistung zu verringern. Auf den meisten Servern ist es allerdings nicht nötig, irgendeine Funktion zu deaktivieren. Andererseits kann es auf einigen Systemen oder auf Servern, die man sich mit anderen teilt, durchaus Vorteile bringen, wenn Funktionen abgeschaltet werden, die nicht wirklich benötigt werden. Du kannst hier auch Limits für die Systemauslastung und für die aktiven Sitzungen festlegen, bei deren Überschreitung das Board offline geht.',
 
-	'ALLOW_CDN'						=> 'Nutzung von Drittanbieter-Netzen zulassen',
+	'ALLOW_CDN'						=> 'Nutzung von Drittanbieter-Servern zulassen',
 	'ALLOW_CDN_EXPLAIN'				=> 'Wenn diese Einstellung aktiviert ist, werden manche Dateien von Servern externer Drittanbieter bezogen und nicht von deinem Server. Dadurch wird die Bandbreite reduziert, die dein Server in Anspruch nimmt. Allerdings kann diese Einstellung aus Sicht einiger Administratoren datenschutzrechtlich problematisch sein. In einer Standard-phpBB-Installation betrifft dies „jQuery“ und die Schriftart „Open Sans“, die über das Netzwerk von Google bezogen werden.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Benutzerdefinierte Profil-Felder',
 	'LIMIT_LOAD'					=> 'Schränke Systemauslastung ein',
@@ -471,7 +471,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_AUTOLOGIN'				=> 'Dauerhafte Anmeldungen erlauben',
 	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Legt fest, ob sich Benutzer dauerhaft am Board anmelden können.',
 	'ALLOW_PASSWORD_RESET'			=> 'Zurücksetzen von Passwörtern zulassen',
-	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Legt fest, ob Benutzuer die Funktion „Ich habe mein Passwort vergessen“ auf der Anmeldeseite nutzen können, um wieder Zugang zu ihrem Benutzerkonto bekommen zu können. Wenn du einen externen Authentifizierungsservice nutzt, möchtest du diese Funktion möglicherweise deaktivieren.',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Legt fest, ob Benutzer die Funktion „Ich habe mein Passwort vergessen“ auf der Anmeldeseite nutzen können, um wieder Zugang zu ihrem Benutzerkonto bekommen zu können. Wenn du einen externen Authentifizierungsservice nutzt, möchtest du diese Funktion möglicherweise deaktivieren.',
 	'AUTOLOGIN_LENGTH'				=> 'Verfallszeit für Anmelde-Schlüssel (in Tagen)',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Die Anzahl der Tage, nach denen ein Anmelde-Schlüssel für die dauerhafte Anmeldung verfällt. Um den Schlüssel nicht verfallen zu lassen, stelle als Wert 0 ein.',
 	'BROWSER_VALID'					=> 'Browser prüfen',
