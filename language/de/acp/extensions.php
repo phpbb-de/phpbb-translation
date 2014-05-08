@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Details',
 
-	'EXTENSIONS_DISABLED'	=> 'Deaktivierte Erweiterunge',
+	'EXTENSIONS_DISABLED'	=> 'Deaktivierte Erweiterungen',
 	'EXTENSIONS_ENABLED'	=> 'Aktivierte Erweiterungen',
 
 	'EXTENSION_DELETE_DATA'	=> 'Daten löschen',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Durch das Deaktivieren einer Erweiterung bleiben alle Dateien, Daten und Einstellungen erhalten, die Erweiterung steht auf deinem Board jedoch nicht mehr zur Verfügung.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Durch das Aktivieren einer Erweiterung kannst du sie auf deinem Board nutzen.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Die Daten der Erweiterung werden derzeit gelöscht. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde..',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Die Daten der Erweiterung werden derzeit gelöscht. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Die Erweiterung wird derzeit deaktiviert. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Die Erweiterung wird derzeit aktiviert. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 
 	'EXT_DETAILS'			=> 'Informationen zur Erweiterung',
 	'DISPLAY_NAME'			=> 'Angezeigter Name',
-	'CLEAN_NAME'			=> 'Bereinigter Name',
+	'CLEAN_NAME'			=> 'Technischer Name',
 	'TYPE'					=> 'Typ',
 	'DESCRIPTION'			=> 'Beschreibung',
 	'VERSION'				=> 'Version',
