@@ -1,19 +1,19 @@
-#Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Benachrichtigung über neue Antwort — „{TOPIC_TITLE}“
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because a topic you bookmarked, "{TOPIC_TITLE}" at "{SITENAME}", has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+du erhältst diese Benachrichtigung, weil du für das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ ein Lesezeichen gesetzt hast. Seit deinem letzten Besuch wurde zu diesem Thema eine neue Antwort erstellt. Du kannst den folgenden Link benutzen, um die neuen Antworten anzusehen. Du erhältst keine weitere Benachrichtigung, bis du das Thema besucht hast.
 
-If you want to view the newest post made since your last visit, click the following link:
+Wenn du die neuesten Antworten seit deinem letzten Besuch ansehen möchtest, verwende folgenden Link:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Wenn du das Thema ansehen möchtest, verwende folgenden Link:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Wenn du das Forum ansehen möchtest, verwende folgenden Link:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies to bookmarks, please update your notification settings here:
+Wenn du nicht länger E-Mails erhalten willst, wenn auf ein Thema, für das du ein Lesezeichen gesetzt hast, geantwortet wurde, ändere bitte deine Benachrichtigungseinstellungen unter folgender Adresse:
 
 {U_NOTIFICATION_SETTINGS}
 

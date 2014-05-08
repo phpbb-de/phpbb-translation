@@ -1,13 +1,13 @@
-#Subject: Topic moderation notification - "{TOPIC_TITLE}"
+Subject: Benachrichtigung zur Themen-Moderation — „{TOPIC_TITLE}“
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
+du erhältst diese Nachricht, weil das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ auf Freigabe wartet.
 
-If you want to view the topic, click the following link:
+Wenn du das Thema ansehen möchtest, verwende folgenden Link:
 {U_VIEW_TOPIC}
 
-If you want to view the forum, click the following link:
+Wenn du das Forum ansehen möchtest, verwende folgenden Link:
 {U_FORUM}
 
 {EMAIL_SIG}

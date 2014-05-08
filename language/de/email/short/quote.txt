@@ -1,19 +1,19 @@
-#Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Benachrichtigung über neue Antwort — „{TOPIC_TITLE}“
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+du erhältst diese Benachrichtigung, weil „{AUTHOR_NAME}“ dich im Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ zitiert hat. Du kannst den folgenden Link benutzen, um die erstellte Antwort anzusehen.
 
-If you want to view the quoted post, click the following link:
+Wenn du den Beitrag, in dem du zitiert wurdest, ansehen möchtest, verwende folgenden Link:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Wenn du das Thema ansehen möchtest, verwende folgenden Link:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Wenn du das Forum ansehen möchtest, verwende folgenden Link:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
+Wenn du nicht länger E-Mails erhalten willst, wenn du in einem Beitrag zitiert wurdest, ändere bitte deine Benachrichtigungseinstellungen unter folgender Adresse:
 
 {U_NOTIFICATION_SETTINGS}
 

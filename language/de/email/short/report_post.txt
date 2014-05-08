@@ -1,13 +1,13 @@
-#Subject: Post report - "{TOPIC_TITLE}"
+Subject: Gemeldeter Beitrag — „{TOPIC_TITLE}“
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+du erhältst diese Benachrichtigung, weil der Beitrag „{POST_SUBJECT}“ auf „{SITENAME}“ gemeldet wurde.
 
-If you want to view the report, click the following link:
+Wenn du die Meldung ansehen möchtest, verwende folgenden Link:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Wenn du den Beitrag ansehen möchtest, verwende folgenden Link:
 {U_VIEW_POST}
 
 {EMAIL_SIG}
