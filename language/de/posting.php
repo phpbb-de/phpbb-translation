@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_I_HELP'				=> 'Kursiv: [i]Text[/i]',
 	'BBCODE_L_HELP'				=> 'Aufzählung: [list][*]Text[/list]',
 	'BBCODE_LISTITEM_HELP'		=> 'Listeneintrag: [*]Text',
-	'BBCODE_O_HELP'				=> 'Geordnete Aufzählung: z. B. [list=1][*]Erster Punkt[/list] oder [list=a][*]Punkt a[/list]',
+	'BBCODE_O_HELP'				=> 'Geordnete Aufzählung: z.&nbsp;B. [list=1][*]Erster Punkt[/list] oder [list=a][*]Punkt a[/list]',
 	'BBCODE_P_HELP'				=> 'Bild einfügen: [img]http://bild_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Zitat: [quote]Text[/quote]',
 	'BBCODE_S_HELP'				=> 'Schriftfarbe: [color=red]Text[/color]  Tipp: Du kannst auch color=#FF0000 benutzen',
