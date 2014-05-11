@@ -399,7 +399,6 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB unterstützt Authentifizierungs-Plugins oder -Module. Mit diesen kannst du festlegen, wie Benutzer authentifiziert werden, wenn sie sich im Forum anmelden. Standardmäßig gibt es vier Plugins: DB, LDAP, Apache und OAuth. Nicht alle Methoden benötigen zusätzliche Angaben, fülle daher nur Felder aus, wenn sie für die gewählte Methode von Belang sind.',
 
-
 	'AUTH_METHOD'				=> 'Authentifizierungs-Methode wählen',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Für jeden aktivierten OAuth-Anbieter muss sowohl der Key als auch das Secret angegeben werden. Für einen OAuth-Anbieter wurde nur ein Wert angegeben.',
