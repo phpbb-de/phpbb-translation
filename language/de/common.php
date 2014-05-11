@@ -438,18 +438,21 @@ $lang = array_merge($lang, array(
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '%1$s hat auf das Thema „%2$s“ geantwortet, für das du ein Lesezeichen gesetzt hast.',
+		2	=> '%1$s haben auf das Thema „%2$s“ geantwortet, für das du ein Lesezeichen gesetzt hast.',
 	),
 	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s hat beantragt, Mitglied der Gruppe %2$s zu werden.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Dein Antrag, der Gruppe %1$s beizutreten, wurde akzeptiert.',
 	'NOTIFICATION_PM'					=> '%1$s hat dir eine Private Nachricht gesendet: „%2$s“.',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '%1$s hat auf das Thema „%2$s“ geantwortet.',
+		2	=> '%1$s haben auf das Thema „%2$s“ geantwortet.',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> 'Dein Beitrag wurde freigegeben: „%2$s“.',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Die Freigabe deines Beitrags „%1$s“ wurde mit folgender Begründung abgelehnt: „%2$s“.',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Ein neuer Beitrag mit dem Titel „%2$s“ wurde von %1$s erstellt und wartet auf Freigabe.',
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '%1$s hat dich im Beitrag „%2$s“ zitiert.',
+		2	=> '%1$s haben dich im Beitrag „%2$s“ zitiert.',
 	),
 	'NOTIFICATION_REPORT_PM'			=> '%1$s hat eine Private Nachricht „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s hat einen Beitrag „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
