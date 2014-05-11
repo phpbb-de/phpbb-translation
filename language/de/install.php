@@ -154,7 +154,8 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL mit MySQLi-Erweiterung',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'XML Unterstützung [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib Kompressions-Unterstützung [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'Konfigurationsdatei herunterladen',
@@ -213,6 +214,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 und höher (MySQLi wird unterstützt)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
+		<li>SQLite 3.6.15+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 und höher (direkt oder über ODBC)</li>
 		<li>MS SQL Server 2005 und höher (nativ)</li>
@@ -236,6 +238,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Es wurde keine Fehlermeldung übergeben.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'Die auf diesem System installierte MySQL-Version ist nicht kompatibel mit der „MySQL mit MySQLi-Erweiterung“-Option, die von dir gewählt wurde. Bitte versuche es stattdessen mit der „MySQL“-Option.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'Die installierte Version der SQLite-Erweiterung ist zu alt, sie muss auf 2.8.2 oder höher aktualisiert werden.',
+	'INST_ERR_DB_NO_SQLITE3'		=> 'Die installierte Version der SQLite-Erweiterung ist zu alt, sie muss auf 3.6.15 oder höher aktualisiert werden.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'Die installierte Oracle-Version erfordert, dass der Parameter <var>NLS_CHARACTERSET</var> auf <var>UTF8</var> gesetzt ist. Bitte aktualisiere die Oracle-Version oder ändere den genannten Parameter entsprechend.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'Die installierte Firebird-Version ist älter als 2.1 und muss aktualisiert werden.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'Die Datenbank, die du für Firebird ausgewählt hast, hat eine Seitengröße kleiner als 8192. Die Seitengröße muss mindestens 8192 betragen.',

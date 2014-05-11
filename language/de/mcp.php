@@ -429,6 +429,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Die gemeldete Nachricht hat nur zum Ziel, für eine Website oder ein anderes Produkt zu werben.',
 			'OFF_TOPIC'	=> 'Die gemeldete Nachricht betrifft ein anderes Thema.',
 			'OTHER'		=> 'Keine der genannten Kategorien. Bitte benutze „Weitere Informationen“ für deine Meldung.',
-		)
+		),
 	),
 ));
