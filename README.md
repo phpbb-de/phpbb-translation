@@ -1,6 +1,6 @@
-Deutsch (Du) für phpBB 3.0.11
------------------------------
-Stand: 2012-08-25
+Deutsch (Du) für phpBB 3.1.0-b3
+-------------------------------
+Stand: {TODO}
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
@@ -43,4 +43,4 @@ deren Beachtung wir dringend empfehlen:
 Fehler
 ------
 Fehler in den deutschen Sprachdateien können unter
-https://www.phpbb.de/go/3/sprachdateienfehler gemeldet werden.
+https://www.phpbb.de/go/3.1/sprachdateienfehler gemeldet werden.
