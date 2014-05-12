@@ -368,7 +368,7 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Beiträge pro Tag',
 
-	'PURGE_CACHE'			=> 'Den Cache leeren',
+	'PURGE_CACHE'			=> 'Cache leeren',
 	'PURGE_CACHE_CONFIRM'	=> 'Bist du dir sicher, dass du den Cache leeren möchtest?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Löscht alle Daten des Caches, darunter alle zwischengespeicherten Template-Dateien und Abfragen.',
 	'PURGE_CACHE_SUCCESS'	=> 'Cache erfolgreich geleert.',

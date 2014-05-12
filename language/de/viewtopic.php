@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_TOPIC'			=> 'Thema löschen',
 	'DELETED_INFORMATION'	=> 'Gelöscht durch %1$s am %2$s',
-	'DISAPPROVE'					=> 'Freigabe zurückziehen',
+	'DISAPPROVE'					=> 'Freigabe verweigern',
 	'DOWNLOAD_NOTICE'		=> 'Du hast keine ausreichende Berechtigung, um die Dateianhänge dieses Beitrags anzusehen.',
 
 	'EDITED_TIMES_TOTAL'	=> array(

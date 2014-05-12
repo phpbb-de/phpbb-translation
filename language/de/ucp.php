@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Profil ändern',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Registrierungs-Details ändern',
 	'UCP_PROFILE_SIGNATURE'		=> 'Signatur ändern',
-	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Verwalte gespeicherte Anmeldungen',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Gespeicherte Anmeldungen verwalten',
 
 	'UCP_USERGROUPS'			=> 'Benutzergruppen',
 	'UCP_USERGROUPS_MEMBER'		=> 'Mitgliedschaften ändern',
