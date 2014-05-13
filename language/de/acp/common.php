@@ -552,7 +552,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Meldung zu Privater Nachricht geschlossen</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Meldung zu Privater Nachricht gelöscht</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Beitrag freigegeben</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Freigabe von Beitrag „%1$s“ von Autor „%3$s“ verweigert aus folgendem Grund</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Freigabe von Beitrag „%1$s“ (Autor: „%3$s“) verweigert aus folgendem Grund</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Beitrag „%1$s“ geändert, erstellt von</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Beitrag wiederhergestellt</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Meldung geschlossen</strong><br />» %s',
@@ -565,7 +565,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Thema freigegeben</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Thema wiederhergestellt</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Freigabe von Thema „%1$s“ von Autor „%3$s“ verweigert aus folgendem Grund</strong><br />» %2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Freigabe von Thema „%1$s“ (Autor: „%3$s“) verweigert aus folgendem Grund</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Thema resynchronisiert</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Themen-Art geändert</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Thema entsperrt</strong><br />» %s',
