@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	'SUBMIT_VOTE'			=> 'Abstimmen',
 
-	'TOPIC_TOOLS'			=> 'Werkzeuge', // TODO: passende Übersetzung
+	'TOPIC_TOOLS'			=> 'Themen-Optionen',
 	'TOTAL_VOTES'			=> 'Abstimmungen insgesamt',
 
 	'UNLOCK_TOPIC'			=> 'Thema entsperren',
