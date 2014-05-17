@@ -464,9 +464,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Die notwendige Datei für die Benachrichtigungs-Art „%s“ ist nicht vorhanden.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Der Benutzer „%1$s“ hat sich kürzlich registriert und muss freigegeben werden.',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
-	'NOTIFICATION_MANY_OTHERS'			=> 'andere',
+	'NOTIFICATION_MANY_OTHERS'			=> 'viele weitere Mitglieder',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d andere',
+		2	=> '%d weitere Mitglieder',
 	),
 	'NOTIFY_ADMIN'				=> 'Bitte informiere die Board-Administration oder den Webmaster.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Bitte informiere die Board-Administration oder den Webmaster: <a href="mailto:%1$s">%1$s</a>',
