@@ -72,8 +72,8 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NAME_EXIST'		=> 'Ein Style mit diesem Namen existiert bereits.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Du musst einen Namen für diesen Style angeben.',
 	'STYLE_INSTALLED'			=> 'Style „%s“ wurde installiert.',
-	'STYLE_INSTALLED_RETURN_STYLES'	=> '<a href="%s">Hier klicken</a>, um zur Liste der installierten Styles zurückzukehren.', // TODO: siehe oben
-	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '<a href="%s">Hier klicken</a>, um mehr Styles zu installieren.', // TODO: siehe oben
+	'STYLE_INSTALLED_RETURN_STYLES'	=> '<a href="%s">Zurück zur Liste der installierten Styles</a>.',
+	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '<a href="%s">Weitere Styles installieren</a>.',
 	'STYLE_NAME'				=> 'Name des Styles',
 	'STYLE_NOT_INSTALLED'		=> 'Style „%s“ wurde nicht installiert.',
 	'STYLE_PATH'				=> 'Pfad des Styles',
