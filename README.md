@@ -1,6 +1,6 @@
 Deutsch (Du) für phpBB 3.1.0-b3
 -------------------------------
-Stand: {TODO}
+Stand: 2014-05-18
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
