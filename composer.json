@@ -1,6 +1,6 @@
 {
 	"require-dev": {
-		"phing/phing": "2.4.*",
+		"phing/phing": "2.7.*",
 		"phpbb/translation-validator": "1.3.*"
 	}
 }
