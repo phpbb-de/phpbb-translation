@@ -34,9 +34,16 @@
 		<phingcall target="prepare-package-language">
 			<property name="language" value="de" />
 		</phingcall>
+		<phingcall target="prepare-package-language">
+			<property name="language" value="de_x_sie" />
+		</phingcall>
 
 		<phingcall target="create-package-language">
 			<property name="language" value="de" />
+		</phingcall>
+
+		<phingcall target="create-package-language">
+			<property name="language" value="de_x_sie" />
 		</phingcall>
 	</target>
 
@@ -101,11 +108,17 @@
 		<exec command="vendor/bin/PhpbbTranslationValidator.php
 				validate de --package-dir=packages --phpbb-version=${validator-version}"
 			passthru="true" />
+		<exec command="vendor/bin/PhpbbTranslationValidator.php
+				validate de_x_sie --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true" />
 	</target>
 
 	<target name="validate-windows">
 		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
 				validate de --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true" />
+		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
+				validate de_x_sie --package-dir=packages --phpbb-version=${validator-version}"
 			passthru="true" />
 	</target>
 </project>
