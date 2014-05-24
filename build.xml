@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="phpBB" description="The phpBB forum software" default="all" basedir="">
+	<property name="validator-version" value="3.0" />
+	<property name="version" value="${version}" />
+
+	<!-- These are the main targets which you will probably want to use -->
+	<target name="all" depends="clean,prepare,package,validate" />
+	<target name="build" depends="clean,prepare,package" />
+
+	<target name="clean">
+		<delete dir="packages" />
+	</target>
+
+	<target name="prepare">
+		<mkdir dir="packages" />
+		<mkdir dir="packages/de" />
+		<mkdir dir="packages/de_x_sie" />
+		<mkdir dir="packages/en" />
+		<mkdir dir="packages/upload" />
+		<mkdir dir="packages/git" />
+	</target>
+
+	<target name="package">
+		<echo msg="Packaging ${version}" />
+
+		<phingcall target="git-archive">
+			<property name="archive-version" value="${version}" />
+		</phingcall>
+
+		<phingcall target="prepare-package-language">
+			<property name="language" value="en" />
+		</phingcall>
+		<phingcall target="prepare-package-language">
+			<property name="language" value="de" />
+		</phingcall>
+
+		<phingcall target="create-package-language">
+			<property name="language" value="de" />
+		</phingcall>
+	</target>
+
+	<target name="git-archive">
+		<echo msg="Getting archive for ${archive-version}" />
+		<if>
+			<not><os family="windows"/></not>
+			<then>
+				<exec command="git archive release-${archive-version} | tar -xf - -C packages/git/release-${archive-version}"
+				checkreturn="true" />
+			</then>
+			<else>
+				<mkdir dir="packages/git/release-${archive-version}-tmp" />
+				<exec dir="packages/git/release-${archive-version}-tmp"
+					command="git --git-dir=../../../.git checkout release-${archive-version} -- ."
+					passthru="true" />
+				<copy todir="packages/git/release-${archive-version}">
+					<fileset dir="packages/git/release-${archive-version}-tmp">
+						<include name="**"></include>
+					</fileset>
+				</copy>
+				<exec dir="packages/git/release-${archive-version}-tmp"
+					command="git --git-dir=../../../.git reset --hard"
+					passthru="true" />
+				<delete dir="packages/git/release-${archive-version}-tmp" />
+			</else>
+		</if>
+	</target>
+
+	<target name="prepare-package-language">
+		<echo msg="Preparing package (${language})" />
+
+		<copy todir="packages/${language}">
+			<fileset dir="packages/git/release-${version}">
+				<include name="**/${language}/**"></include>
+			</fileset>
+		</copy>
+		<copy todir="packages/${language}/language/${language}">
+			<filelist dir="packages/git/release-${version}" files="LICENSE,AUTHORS.md,README.md" />
+		</copy>
+	</target>
+
+	<target name="create-package-language">
+		<echo msg="Creating archives (${language})" />
+		<zip basedir="packages/${language}/" destfile="packages/upload/lang_${language}.zip" />
+		<tar basedir="packages/${language}/" destfile="packages/upload/lang_${language}.tar.gz" compression="gzip" />
+	</target>
+
+	<target name="validate">
+		<if>
+			<not><os family="windows"/></not>
+			<then>
+				<phingcall target="validate-non-windows" />
+			</then>
+			<else>
+				<phingcall target="validate-windows" />
+			</else>
+		</if>
+	</target>
+
+	<target name="validate-non-windows">
+		<exec command="vendor/bin/PhpbbTranslationValidator.php
+				validate de --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true" />
+	</target>
+
+	<target name="validate-windows">
+		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
+				validate de --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true" />
+	</target>
+</project>
