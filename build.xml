@@ -50,21 +50,21 @@
 	<target name="git-archive">
 		<echo msg="Getting archive for ${archive-version}" />
 
-		<exec command="git archive release-${archive-version} --format zip --output packages/git/release-${archive-version}.zip"
+		<exec command="git archive ${archive-version} --format zip --output packages/git/${archive-version}.zip"
 			checkreturn="true" />
-		<unzip file="packages/git/release-${archive-version}.zip" todir="packages/git/release-${archive-version}" />
+		<unzip file="packages/git/${archive-version}.zip" todir="packages/git/${archive-version}" />
 	</target>
 
 	<target name="prepare-package-language">
 		<echo msg="Preparing package (${language})" />
 
 		<copy todir="packages/${language}">
-			<fileset dir="packages/git/release-${version}">
+			<fileset dir="packages/git/${version}">
 				<include name="**/${language}/**"></include>
 			</fileset>
 		</copy>
 		<copy todir="packages/${language}/language/${language}">
-			<filelist dir="packages/git/release-${version}" files="LICENSE,AUTHORS.md,README.md" />
+			<filelist dir="packages/git/${version}" files="LICENSE,AUTHORS.md,README.md" />
 		</copy>
 	</target>
 
