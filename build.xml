@@ -49,28 +49,10 @@
 
 	<target name="git-archive">
 		<echo msg="Getting archive for ${archive-version}" />
-		<if>
-			<not><os family="windows"/></not>
-			<then>
-				<exec command="git archive release-${archive-version} | tar -xf - -C packages/git/release-${archive-version}"
-				checkreturn="true" />
-			</then>
-			<else>
-				<mkdir dir="packages/git/release-${archive-version}-tmp" />
-				<exec dir="packages/git/release-${archive-version}-tmp"
-					command="git --git-dir=../../../.git checkout release-${archive-version} -- ."
-					passthru="true" />
-				<copy todir="packages/git/release-${archive-version}">
-					<fileset dir="packages/git/release-${archive-version}-tmp">
-						<include name="**"></include>
-					</fileset>
-				</copy>
-				<exec dir="packages/git/release-${archive-version}-tmp"
-					command="git --git-dir=../../../.git reset --hard"
-					passthru="true" />
-				<delete dir="packages/git/release-${archive-version}-tmp" />
-			</else>
-		</if>
+
+		<exec command="git archive release-${archive-version} --format zip --output packages/git/release-${archive-version}.zip"
+			checkreturn="true" />
+		<unzip file="packages/git/release-${archive-version}.zip" todir="packages/git/release-${archive-version}" />
 	</target>
 
 	<target name="prepare-package-language">
