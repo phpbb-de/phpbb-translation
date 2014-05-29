@@ -54,7 +54,7 @@
 
 		<copy todir="packages/${package-language}">
 			<fileset dir="packages/git/${version}">
-				<include name="**/${package-language}/**"></include>
+				<include name="**/${package-language}/**" />
 			</fileset>
 		</copy>
 		<copy todir="packages/${package-language}/language/${package-language}">
