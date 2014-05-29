@@ -8,11 +8,5 @@ install:
   - sudo apt-get install parallel
   - php composer.phar install --dev --no-interaction --prefer-source
 
-before_script:
-  - cp LICENSE language/de/LICENSE
-  - cp LICENSE language/de_x_sie/LICENSE
-
 script:
-  - vendor/bin/phing lint
-  - php vendor/bin/PhpbbTranslationValidator.php validate de --phpbb-version=3.0 --language-dir=language
-  - php vendor/bin/PhpbbTranslationValidator.php validate de_x_sie --phpbb-version=3.0 --language-dir=language
+  - vendor/bin/phing -Dversion=HEAD
