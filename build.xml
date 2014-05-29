@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="phpBB" description="The phpBB forum software" default="all" basedir="">
+<project name="German phpBB Translation" description="The phpBB forum software" default="all" basedir="">
 	<property name="validator-version" value="3.0" />
 	<property name="version" value="${version}" />
 
@@ -87,10 +87,10 @@
 	</target>
 
 	<target name="validate-non-windows">
-		<exec command="vendor/bin/PhpbbTranslationValidator.php
+		<exec command="php vendor/bin/PhpbbTranslationValidator.php
 				validate de --package-dir=packages --phpbb-version=${validator-version}"
 			passthru="true" />
-		<exec command="vendor/bin/PhpbbTranslationValidator.php
+		<exec command="php vendor/bin/PhpbbTranslationValidator.php
 				validate de_x_sie --package-dir=packages --phpbb-version=${validator-version}"
 			passthru="true" />
 	</target>
