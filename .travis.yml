@@ -8,4 +8,5 @@ install:
   - php composer.phar install --dev --no-interaction --prefer-source
 
 script:
-  - vendor/bin/phing -Dversion=HEAD
+  - vendor/bin/phing -Dlanguage=de -Dversion=HEAD
+  - vendor/bin/phing -Dlanguage=de_x_sie -Dversion=HEAD

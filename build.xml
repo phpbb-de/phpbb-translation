@@ -3,6 +3,7 @@
 <project name="German phpBB Translation" description="The phpBB forum software" default="all" basedir="">
 	<property name="validator-version" value="3.0" />
 	<property name="version" value="${version}" />
+	<property name="language" value="${language}" />
 
 	<!-- These are the main targets which you will probably want to use -->
 	<target name="all" depends="lint,clean,prepare,package,validate" />
@@ -32,18 +33,11 @@
 			<property name="language" value="en" />
 		</phingcall>
 		<phingcall target="prepare-package-language">
-			<property name="language" value="de" />
-		</phingcall>
-		<phingcall target="prepare-package-language">
-			<property name="language" value="de_x_sie" />
+			<property name="language" value="${language}" />
 		</phingcall>
 
 		<phingcall target="create-package-language">
-			<property name="language" value="de" />
-		</phingcall>
-
-		<phingcall target="create-package-language">
-			<property name="language" value="de_x_sie" />
+			<property name="language" value="${language}" />
 		</phingcall>
 	</target>
 
@@ -88,20 +82,16 @@
 
 	<target name="validate-non-windows">
 		<exec command="php vendor/bin/PhpbbTranslationValidator.php
-				validate de --package-dir=packages --phpbb-version=${validator-version}"
-			passthru="true" />
-		<exec command="php vendor/bin/PhpbbTranslationValidator.php
-				validate de_x_sie --package-dir=packages --phpbb-version=${validator-version}"
-			passthru="true" />
+				validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true"
+			checkreturn="true" />
 	</target>
 
 	<target name="validate-windows">
 		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
-				validate de --package-dir=packages --phpbb-version=${validator-version}"
-			passthru="true" />
-		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
-				validate de_x_sie --package-dir=packages --phpbb-version=${validator-version}"
-			passthru="true" />
+				validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true"
+			checkreturn="true" />
 	</target>
 
 	<target name="lint">
