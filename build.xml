@@ -5,8 +5,8 @@
 	<property name="version" value="${version}" />
 
 	<!-- These are the main targets which you will probably want to use -->
-	<target name="all" depends="clean,prepare,package,validate" />
-	<target name="build" depends="clean,prepare,package" />
+	<target name="all" depends="lint,clean,prepare,package,validate" />
+	<target name="build" depends="lint,clean,prepare,package" />
 
 	<target name="clean">
 		<delete dir="packages" />
@@ -102,5 +102,13 @@
 		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
 				validate de_x_sie --package-dir=packages --phpbb-version=${validator-version}"
 			passthru="true" />
+	</target>
+
+	<target name="lint">
+		<phplint>
+			<fileset dir="language">
+				<include name="**/*.php"/>
+			</fileset>
+		</phplint>
 	</target>
 </project>
