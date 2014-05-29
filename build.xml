@@ -30,14 +30,14 @@
 		</phingcall>
 
 		<phingcall target="prepare-package-language">
-			<property name="language" value="en" />
+			<property name="package-language" value="en" />
 		</phingcall>
 		<phingcall target="prepare-package-language">
-			<property name="language" value="${language}" />
+			<property name="package-language" value="${language}" />
 		</phingcall>
 
 		<phingcall target="create-package-language">
-			<property name="language" value="${language}" />
+			<property name="package-language" value="${language}" />
 		</phingcall>
 	</target>
 
@@ -50,22 +50,22 @@
 	</target>
 
 	<target name="prepare-package-language">
-		<echo msg="Preparing package (${language})" />
+		<echo msg="Preparing package (${package-language})" />
 
-		<copy todir="packages/${language}">
+		<copy todir="packages/${package-language}">
 			<fileset dir="packages/git/${version}">
-				<include name="**/${language}/**"></include>
+				<include name="**/${package-language}/**"></include>
 			</fileset>
 		</copy>
-		<copy todir="packages/${language}/language/${language}">
+		<copy todir="packages/${package-language}/language/${package-language}">
 			<filelist dir="packages/git/${version}" files="LICENSE,AUTHORS.md,README.md" />
 		</copy>
 	</target>
 
 	<target name="create-package-language">
-		<echo msg="Creating archives (${language})" />
-		<zip basedir="packages/${language}/" destfile="packages/upload/lang_${language}.zip" />
-		<tar basedir="packages/${language}/" destfile="packages/upload/lang_${language}.tar.gz" compression="gzip" />
+		<echo msg="Creating archives (${package-language})" />
+		<zip basedir="packages/${package-language}/" destfile="packages/upload/lang_${package-language}.zip" />
+		<tar basedir="packages/${package-language}/" destfile="packages/upload/lang_${package-language}.tar.gz" compression="gzip" />
 	</target>
 
 	<target name="validate">
@@ -97,7 +97,7 @@
 	<target name="lint">
 		<phplint>
 			<fileset dir="language">
-				<include name="**/*.php"/>
+				<include name="**/${language}/*.php"/>
 			</fileset>
 		</phplint>
 	</target>
