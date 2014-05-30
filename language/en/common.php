@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* common [English]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -109,7 +111,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'The avatar’s filesize is too large. The maximum allowed upload size is %1$d %2$s.<br />Please note this is set in php.ini and cannot be overridden.',
 	'AVATAR_URL_INVALID'			=> 'The URL you specified is invalid.',
 	'AVATAR_URL_NOT_FOUND'			=> 'The file specified could not be found.',
-	'AVATAR_WRONG_FILESIZE'			=> 'The avatar’s filesize must be between 0 and %1d %2s.',
+	'AVATAR_WRONG_FILESIZE'			=> 'The avatar’s filesize must be between 0 and %1$d %2$s.',
 	'AVATAR_WRONG_SIZE'				=> 'The submitted avatar is %5$s wide and %6$s high. Avatars must be at least %1$s wide and %2$s high, but no larger than %3$s wide and %4$s high.',
 
 	'BACK_TO_TOP'			=> 'Top',
@@ -167,7 +169,8 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Congratulations to',
 	'CONNECTION_FAILED'		=> 'Connection failed.',
 	'CONNECTION_SUCCESS'	=> 'Connection was successful!',
-	'CONTACT_USER'			=> 'Contact',
+	'CONTACT'				=> 'Contact',
+	'CONTACT_USER'			=> 'Contact %s',
 	'COOKIES_DELETED'		=> 'All board cookies successfully deleted.',
 	'CURRENT_TIME'			=> 'It is currently %s',
 
@@ -228,7 +231,7 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'File size',
 	'FILEDATE'				=> 'File date',
 	'FILE_COMMENT'			=> 'File comment',
-	'FILE_NOT_FOUND'		=> 'The requested file could not be found.',
+	'FILE_NOT_FOUND'		=> 'The requested file could not be found: %s',
 	'FIND_USERNAME'			=> 'Find a member',
 	'FOLDER'				=> 'Folder',
 	'FORGOT_PASS'			=> 'I forgot my password',
@@ -555,7 +558,8 @@ $lang = array_merge($lang, array(
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, who is currently on your ignore list, made this post.',
 	'POST_DISPLAY'			=> '%1$sDisplay this post%2$s.',
 	'POST_DAY'				=> '%.2f posts per day',
-	'POST_DELETED'			=> 'Deleted post:',
+	'POST_DELETED_ACTION'	=> 'Deleted post:',
+	'POST_DELETED'			=> 'This post has been deleted.',
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s for the following reason: %4$s',
 	'POST_DETAILS'			=> 'Post details',
@@ -568,7 +572,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'Post subject',
 	'POST_TIME'				=> 'Post time',
 	'POST_TOPIC'			=> 'Post a new topic',
-	'POST_UNAPPROVED'		=> 'Post awaiting approval:',
+	'POST_UNAPPROVED_ACTION'	=> 'Post awaiting approval:',
+	'POST_UNAPPROVED'		=> 'This post has not been approved.',
 	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Preview',
 	'PREVIOUS'				=> 'Previous',		// Used in pagination
@@ -662,7 +667,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DESTINATION_FORUM'	=> 'Please select a destination forum',
 	'SELECT_FORUM'				=> 'Select a forum',
 	'SEND_EMAIL'				=> 'Email',				// Used for submit buttons
-	'SEND_EMAIL_USER'			=> 'Email',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> Email UserX
+	'SEND_EMAIL_USER'			=> 'Email %s',
 	'SEND_PRIVATE_MESSAGE'		=> 'Send private message',
 	'SETTINGS'					=> 'Settings',
 	'SIGNATURE'					=> 'Signature',
@@ -738,7 +743,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_MOVED'		=> 'Moved topic',
 	'TOPIC_REVIEW'		=> 'Topic review',
 	'TOPIC_TITLE'		=> 'Topic title',
-	'TOPIC_UNAPPROVED'	=> 'This topic has not been approved',
+	'TOPIC_UNAPPROVED'	=> 'This topic has not been approved.',
+	'TOPIC_DELETED'		=> 'This topic has been deleted.',
 	'TOTAL_ATTACHMENTS'	=> 'Attachment(s)',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d log',
@@ -748,6 +754,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d private message in total',
 		2	=> '%d private messages in total',
 	),
+	'TOPIC_POLL'		=> 'This topic has a poll.',
 	'TOTAL_POSTS'		=> 'Total posts',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> 'Total posts <strong>%d</strong>',

@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* posting [English]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -70,6 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Sorry but you cannot post announcements.',
 	'CANNOT_POST_STICKY'		=> 'Sorry but you cannot post sticky topics.',
 	'CHANGE_TOPIC_TO'			=> 'Change topic type to',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Your message contains %1$d character.',
+		2	=> 'Your message contains %1$d characters.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Your signature contains %1$d character.',
+		2	=> 'Your signature contains %1$d characters.',
+	),
 	'CLOSE_TAGS'				=> 'Close tags',
 	'CURRENT_TOPIC'				=> 'Current topic',
 
@@ -213,6 +223,7 @@ $lang = array_merge($lang, array(
 		1	=> 'You may embed only %d quote within each other.',
 		2	=> 'You may embed only %d quotes within each other.',
 	),
+	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.',
 
 	'SAVE'						=> 'Save',
 	'SAVE_DATE'					=> 'Saved at',
@@ -228,17 +239,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Your message contains too few characters.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Your message contains %1$d character. The minimum number of characters you need to enter is %2$d.',
-		2	=> 'Your message contains %1$d characters. The minimum number of characters you need to enter is %2$d.',
+		1	=> 'You need to enter at least %1$d character.',
+		2	=> 'You need to enter at least %1$d characters.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'You must enter at least two poll options.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Cannot add another attachment, %d is the maximum.',
 	'TOO_MANY_CHARS'			=> 'Your message contains too many characters.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Your message contains %1$d characters. The maximum number of allowed characters is %2$d.',
-	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Your signature contains %1$d characters. The maximum number of allowed characters is %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'The maximum number of allowed characters is %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'You have tried to enter too many poll options.',
 	'TOO_MANY_SMILIES'			=> 'Your message contains too many smilies. The maximum number of smilies allowed is %d.',
@@ -262,6 +270,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sView your submitted message%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sView your submitted private message%s',
 
-	'WRONG_FILESIZE'			=> 'The file is too big, maximum allowed size is %1d %2s.',
+	'WRONG_FILESIZE'			=> 'The file is too big, maximum allowed size is %1$d %2$s.',
 	'WRONG_SIZE'				=> 'The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
 ));
