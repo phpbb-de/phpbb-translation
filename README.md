@@ -12,7 +12,7 @@ inhaltlich in der Version für phpBB 3.0.0 vom 2007-12-13 geändert.
 
 Lizenz
 ------
-Diese Sprachdateien für phpBB3 unterliegen der GPL (siehe LICENSE).
+Diese Sprachdateien für phpBB unterliegen der GPL (siehe LICENSE).
 
 Rechtliche Hinweise
 -------------------
