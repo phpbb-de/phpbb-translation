@@ -1,10 +1,14 @@
 <?php
 /**
-* acp_permissions_phpbb (phpBB Permission Set) [English]
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
 /**
@@ -142,7 +146,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Can edit posts',
 	'ACL_M_DELETE'		=> 'Can permanently delete posts',
 	'ACL_M_SOFTDELETE'	=> 'Can soft delete posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>',
-	'ACL_M_APPROVE'		=> 'Can approve posts',
+	'ACL_M_APPROVE'		=> 'Can approve and restore posts',
 	'ACL_M_REPORT'		=> 'Can close and delete reports',
 	'ACL_M_CHGPOSTER'	=> 'Can change post author',
 

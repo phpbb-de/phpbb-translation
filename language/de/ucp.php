@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* ucp [Deutsch — Du]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -39,6 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
+	//TODO Group => Limited
 	'TERMS_OF_USE_CONTENT'	=> 'Mit dem Zugriff auf „%1$s“ wird zwischen dir und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
 		<h3>1. Nutzungsvertrag</h3>
 		<ol style="list-style-type: lower-alpha"><li>Mit dem Zugriff auf „%1$s“ (im Folgenden „das Board“) schließt du einen Nutzungsvertrag mit dem Betreiber des Boards ab (im Folgenden „Betreiber“) und erklärst dich mit den nachfolgenden Regelungen einverstanden.</li>
@@ -71,6 +74,7 @@ $lang = array_merge($lang, array(
 		<li>Die Änderungen gelten als anerkannt und verbindlich, wenn der Nutzer den Änderungen zugestimmt hat.</li></ol>
 
 		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzrichtlinie enthalten.',
+	//TODO Group => Limited
 	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
 		<h3>Umfang und Art der Datenspeicherung</h3>
 		<p>Deine Daten werden auf zwei verschiedene Arten gesammelt:</p>

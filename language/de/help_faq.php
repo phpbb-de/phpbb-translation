@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* help_faq [Deutsch — Du]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -66,7 +68,7 @@ $help = array(
 	),
 	array(
 		0 => 'Was ist COPPA?',
-		1 => 'COPPA, ausgeschrieben Child Online Privacy and Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn du dir unsicher bist, ob dies auf dich oder die Website, auf der du dich zu registrieren versuchst, zutrifft, ziehe einen rechtlichen Beistand zu Rate. Bitte beachte, dass das phpBB-Team keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die weiter unten behandelt werden.',
+		1 => 'COPPA, ausgeschrieben Child Online Privacy and Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn du dir unsicher bist, ob dies auf dich oder die Website, auf der du dich zu registrieren versuchst, zutrifft, ziehe einen rechtlichen Beistand zu Rate. Bitte beachte, dass phpBB Limited keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die weiter unten behandelt werden.',
 	),
 	array(
 		0 => 'Warum kann ich mich nicht registrieren?',
@@ -146,7 +148,7 @@ $help = array(
 	),
 	array(
 		0 => 'Weshalb wurde ich verwarnt?',
-		1 => 'In jedem Board gibt es eigene Regeln, die meistens von der Administration festgelegt werden. Wenn du gegen eine dieser Regeln verstoßen hast, kann sie dir eine Verwarnung erteilen. Bitte beachte, dass dies die Entscheidung der Administration dieses Boards ist und die phpBB Group nichts mit dieser Verwarnung zu tun hat. Kontaktiere einen Administrator, sofern du die nicht sicher bist, wieso du verwarnt wurdest.',
+		1 => 'In jedem Board gibt es eigene Regeln, die meistens von der Administration festgelegt werden. Wenn du gegen eine dieser Regeln verstoßen hast, kann sie dir eine Verwarnung erteilen. Bitte beachte, dass dies die Entscheidung der Administration dieses Boards ist und phpBB Limited nichts mit dieser Verwarnung zu tun hat. Kontaktiere einen Administrator, sofern du die nicht sicher bist, wieso du verwarnt wurdest.',
 	),
 	array(
 		0 => 'Wie kann ich Beiträge den Moderatoren melden?',
@@ -331,14 +333,14 @@ $help = array(
 	),
 	array(
 		0 => 'Wer hat diese Forensoftware entwickelt?',
-		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von der <a href="https://www.phpbb.com/">phpBB Group</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details findest du auf der Seite der phpBB Group. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
+		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details findest du auf der Seite der phpBB Group. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
 	),
 	array(
 		0 => 'Warum ist Funktion x oder y nicht enthalten?',
-		1 => 'Diese Software wurde von der phpBB Group geschrieben. Wenn du denkst, dass eine Funktion implementiert werden sollte, dann besuche <a href="https://www.phpbb.com/ideas/">phpBB Ideas</a>, wo du deine Stimme für bestehende Vorschläge abgeben oder neue Funktionen vorschlagen kannst.',
+		1 => 'Diese Software wurde von phpBB Limited geschrieben. Wenn du denkst, dass eine Funktion implementiert werden sollte, dann besuche <a href="https://www.phpbb.com/ideas/">phpBB Ideas</a>, wo du deine Stimme für bestehende Vorschläge abgeben oder neue Funktionen vorschlagen kannst.',
 	),
 	array(
 		0 => 'An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?',
-		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für deine Beschwerde. Wenn du so keine Antwort erhältst, solltest du den Besitzer der Domain kontaktieren (führe dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachte, dass die phpBB Group und phpBB.de <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktiere daher nie die phpBB Group oder phpBB.de in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com oder die phpBB-Software selbst beziehen. Falls du der phpBB Group E-Mails schreibst, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so wirst du, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
+		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für deine Beschwerde. Wenn du so keine Antwort erhältst, solltest du den Besitzer der Domain kontaktieren (führe dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachte, dass die phpBB Group und phpBB.de <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktiere daher nie phpBB Limited oder phpBB.de in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com oder die phpBB-Software selbst beziehen. Falls du der phpBB Group E-Mails schreibst, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so wirst du, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
 	),
 );

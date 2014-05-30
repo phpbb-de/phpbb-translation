@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* posting [Deutsch — Du]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -73,6 +75,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Du darfst keine Bekanntmachungen erstellen.',
 	'CANNOT_POST_STICKY'		=> 'Du darfst keine wichtigen Themen erstellen.',
 	'CHANGE_TOPIC_TO'			=> 'Art des Themas ändern zu',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Dein Beitrag enthält %1$d Zeichen.',
+		2	=> 'Dein Beitrag enthält %1$d Zeichen.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Deine Signatur enthält %1$d Zeichen.',
+		2	=> 'Deine Signatur enthält %1$d Zeichen.',
+	),
 	'CLOSE_TAGS'				=> 'Tags schließen',
 	'CURRENT_TOPIC'				=> 'Aktuelles Thema',
 
@@ -213,9 +223,10 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Statusanzeige',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'Du kannst Zitate nicht ineinander verschachteln.', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12433
+		1	=> 'Du kannst Zitate nicht ineinander verschachteln.',
 		2	=> 'Es können maximal %d Zitate ineinander verschachtelt werden.',
 	),
+	'QUOTE_NO_NESTING'			=> 'Du kannst Zitate nicht ineinander verschachteln.',
 
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
@@ -231,17 +242,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Die eingegebene Nachricht ist zu kurz.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
-		2	=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
+		1	=> 'Es müssen jedoch mindestens %1$d Zeichen verwendet werden.',
+		2	=> 'Es müssen jedoch mindestens %1$d Zeichen verwendet werden.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Du musst mindestens zwei Antwortmöglichkeiten für die Umfrage eingeben.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Du kannst keinen weiteren Dateianhang hinzufügen. Die maximale Anzahl liegt bei %d.',
 	'TOO_MANY_CHARS'			=> 'Dein Beitrag enthält zu viele Zeichen.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Dein Beitrag enthält %1$d Zeichen. Es sind maximal %2$d Zeichen erlaubt.',
-	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Deine Signatur enthält %1$d Zeichen. Es sind maximal %2$d Zeichen erlaubt.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> '#The maximum number of allowed characters is %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Du hast zu viele Antwortmöglichkeiten eingegeben',
 	'TOO_MANY_SMILIES'			=> 'Dein Beitrag enthält zu viele Smilies. Die maximal erlaubte Anzahl von Smilies ist %d.',
@@ -265,6 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sDen Beitrag anzeigen%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sDeine Private Nachricht anzeigen%s',
 
-	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Das Bild muss zwischen %1$s und %3$s breit sowie zwischen %2$s und %4$s hoch sein. Das angegebene Bild ist %5$s breit und %6$s hoch.',
 ));
