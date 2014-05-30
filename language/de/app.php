@@ -43,10 +43,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Fehlender Wert für Argument #%1$s: <strong>%3$s</strong> in Klasse <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'Es wurde kein Controller definiert.', // TODO: Übersetzung Controller
-	'CONTROLLER_NOT_FOUND'				=> 'Die angeforderte Seite konnte nicht gefunden werden.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Für den Controller wurde keine Methode festgelegt.', // TODO: Übersetzung Controller
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'Der Controller "<strong>%s</strong>" muss einen Service besitzen, der in ./config/routing.yml definiert wird.', // TODO: Übersetzung Controller
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Der Service für den Controller "<strong>%s</strong>" ist nicht in ./config/services.yml definiert.', // TODO: Übersetzung Controller
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'Das Controller-Objekt <strong>%s</strong> muss ein <em>Symfony\Component\HttpFoundation\Response</em>-Objekt zurückgeben.', // TODO: Übersetzung Controller
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Es wurde kein Controller (Steuerungsklasse) definiert.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Für den Controller (Steuerungsklasse) wurde keine Methode festgelegt.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Der Service für den Controller (Steuerungsklasse) "<strong>%s</strong>" ist nicht in ./config/services.yml definiert.',
 ));

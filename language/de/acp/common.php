@@ -242,9 +242,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Herunterladen',
 	'EXPORT_STORE'			=> 'Speichern',
 
-	'FILES_GONE'			=> 'Einige der Dateianhänge, die du zum Löschen ausgewählt hast, existieren nicht. Sie könnten bereits gelöscht worden sein. Dateianhänge, die existierten, wurden gelöscht.',
-	'FILES_STATS_WRONG'		=> 'Deine Datei-Statistik ist vermutlich fehlerhaft und muss resynchronisiert werden. Aktuelle Werte: Anzahl von Dateianhängen = %1$d, Gesamtgröße der Dateianhänge = %2$s.',
-
 	'GENERAL_OPTIONS'		=> 'Allgemeine Optionen',
 	'GENERAL_SETTINGS'		=> 'Allgemeine Einstellungen',
 	'GLOBAL_MASK'			=> 'Global effektive Berechtigungen',
@@ -287,8 +284,7 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Erinnern',
 	'RESYNC'							=> 'Synchronisieren',
-	'RESYNC_FILES_STATS'				=> 'Datei-Statistiken resynchronisieren',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Berechnet die Gesamtzahl und -größe der Dateien, die an Beiträge und Private Nachrichten angehangen wurden.',
+
 	'SELECT_ANONYMOUS'		=> 'Gäste-Benutzerkonto auswählen',
 	'SELECT_OPTION'			=> 'Option auswählen',
 
@@ -372,7 +368,7 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'Beiträge pro Tag',
 
-	'PURGE_CACHE'			=> 'Den Cache leeren',
+	'PURGE_CACHE'			=> 'Cache leeren',
 	'PURGE_CACHE_CONFIRM'	=> 'Bist du dir sicher, dass du den Cache leeren möchtest?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Löscht alle Daten des Caches, darunter alle zwischengespeicherten Template-Dateien und Abfragen.',
 	'PURGE_CACHE_SUCCESS'	=> 'Cache erfolgreich geleert.',
@@ -388,7 +384,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Besucherrekord zurücksetzen',
 	'RESET_ONLINE_CONFIRM'			=> 'Bist du dir sicher, dass du den Benutzerrekord zurücksetzen willst?',
 	'RESET_ONLINE_SUCCESS'			=> 'Der Besucherrekord wurde erfolgreich zurückgesetzt',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Bist du dir sicher, dass du die Datei-Statistiken zurücksetzen willst?',
 	'RESYNC_POSTCOUNTS'				=> 'Beitragszähler resynchronisieren',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Nur existierende Beiträge werden berücksichtigt, nicht jedoch automatisch gelöschte.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Bist du dir sicher, dass du die Beitragszähler resynchronisieren willst?',
@@ -557,7 +552,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Meldung zu Privater Nachricht geschlossen</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Meldung zu Privater Nachricht gelöscht</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Beitrag freigegeben</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Freigabe von Beitrag „%1$s“ verweigert aus folgendem Grund</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Freigabe von Beitrag „%1$s“ (Autor: „%3$s“) verweigert aus folgendem Grund</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Beitrag „%1$s“ geändert, erstellt von</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Beitrag wiederhergestellt</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Meldung geschlossen</strong><br />» %s',
@@ -570,7 +565,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Thema freigegeben</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Thema wiederhergestellt</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Freigabe von Thema „%1$s“ verweigert aus folgendem Grund</strong><br />» %2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Freigabe von Thema „%1$s“ (Autor: „%3$s“) verweigert aus folgendem Grund</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Thema resynchronisiert</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Themen-Art geändert</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Thema entsperrt</strong><br />» %s',
@@ -676,13 +671,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Inaktive Themen gelöscht</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Inaktive Themen automatisch gelöscht</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>Links zu verschobenen Themen automatisch gelöscht</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Benutzer deaktiviert</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Inaktive Benutzer mit Beiträgen gelöscht</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Inaktive Benutzer gelöscht, Beiträge beibehalten</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>Cache geleert</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>Sitzungsdaten gelöscht</strong>',
-
 
 	'LOG_RANK_ADDED'		=> '<strong>Neuen Rang hinzugefügt</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Rang entfernt</strong><br />» %s',
@@ -775,7 +770,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Aus Gruppe ausgetreten</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Verwarnung eines Benutzer gelöscht</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Verwarnungen von %2$s Benutzern gelöscht</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Verwarnung eines Benutzer gelöscht</strong><br />» %1$s',
+		2 => '<strong>Verwarnungen von %2$d Benutzern gelöscht</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Verwarnungen aller Benutzer gelöscht</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Zensiertes Wort hinzugefügt</strong><br />» %s',

@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Avatar-Galeriepfad',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Galerie-Avatare liegen (z.&nbsp;B. <samp>images/avatars/gallery</samp>).',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar Speicherpfad',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Avatare gespeichert werden (z.&nbsp;B. <samp>images/avatars/upload</samp>).',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Avatare gespeichert werden (z.&nbsp;B. <samp>images/avatars/upload</samp>).<br />Das Hochladen von Avataren <strong>wird nicht funktionieren</strong>, wenn dieser Ordner nicht beschreibbar ist.',
 	'MAX_AVATAR_SIZE'				=> 'Maximale Abmessungen für Avatare',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Breite &times; Höhe in Pixel',
 	'MAX_FILESIZE'					=> 'Maximale Dateigröße',
@@ -359,6 +359,8 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_CDN'						=> 'Nutzung von Drittanbieter-Servern zulassen',
 	'ALLOW_CDN_EXPLAIN'				=> 'Wenn diese Einstellung aktiviert ist, werden manche Dateien von Servern externer Drittanbieter bezogen und nicht von deinem Server. Dadurch wird die Bandbreite reduziert, die dein Server in Anspruch nimmt. Allerdings kann diese Einstellung aus Sicht einiger Administratoren datenschutzrechtlich problematisch sein. In einer Standard-phpBB-Installation betrifft dies „jQuery“ und die Schriftart „Open Sans“, die über das Netzwerk von Google bezogen werden.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Suchvorschläge zulassen',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Wenn diese Option aktiviert ist, erhalten Benutzer Vorschläge für Suchbegriffe beim Ausfüllen bestimmter Felder des Boards.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Benutzerdefinierte Profil-Felder',
 	'LIMIT_LOAD'					=> 'Schränke Systemauslastung ein',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Wenn die durchschnittliche Systemauslastung der letzten Minute (load average) diesen Wert überschreitet, geht das Board automatisch offline. 1.0 steht für eine ca. 100-prozentige Auslastung eines Prozessors. Diese Einstellung steht nur auf System zur Verfügung, die auf UNIX basieren und bei denen dieser Wert zugänglich ist. Der Wert stellt sich auf 0 zurück, wenn phpBB diesen Wert nicht auslesen konnte.',
@@ -396,7 +398,6 @@ $lang = array_merge($lang, array(
 // Auth settings
 $lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB unterstützt Authentifizierungs-Plugins oder -Module. Mit diesen kannst du festlegen, wie Benutzer authentifiziert werden, wenn sie sich im Forum anmelden. Standardmäßig gibt es vier Plugins: DB, LDAP, Apache und OAuth. Nicht alle Methoden benötigen zusätzliche Angaben, fülle daher nur Felder aus, wenn sie für die gewählte Methode von Belang sind.',
-
 
 	'AUTH_METHOD'				=> 'Authentifizierungs-Methode wählen',
 
@@ -528,6 +529,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Diese Funktion hält E-Mail-Adressen komplett privat.',
 	'CONTACT_EMAIL'					=> 'Kontakt-E-Mail-Adresse',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Diese Adresse wird angegeben, wann immer eine spezifische Kontaktmöglichkeit benötigt wird, z.&nbsp;B. bei Spam, Fehlermeldungen etc. Sie wird in allen E-Mails als <samp>Von</samp>- und <samp>Antwort</samp>-Adresse verwendet.',
+	'CONTACT_EMAIL_NAME'			=> 'Name des Kontakts',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Dieser Name für den Kontakt wird E-Mail-Empfängern angezeigt. Wenn du keinen Namen für den Kontakt verwenden willst, lass dieses Feld leer.',
 	'EMAIL_FUNCTION_NAME'			=> 'Name der E-Mail-Funktion',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'Die PHP-Funktion, die genutzt wird, um E-Mails zu versenden.',
 	'EMAIL_PACKAGE_SIZE'			=> 'Größe von E-Mail-Paketen',

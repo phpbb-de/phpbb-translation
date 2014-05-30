@@ -110,6 +110,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'RealMedia-Dateien',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media-Dateien',
 
+	'FILES_GONE'			=> 'Einige der Dateianhänge, die du zum Löschen ausgewählt hast, existieren nicht. Sie könnten bereits gelöscht worden sein. Dateianhänge, die existierten, wurden gelöscht.',
+	'FILES_STATS_WRONG'		=> 'Deine Datei-Statistik ist vermutlich fehlerhaft und muss resynchronisiert werden. Aktuelle Werte: Anzahl von Dateianhängen = %1$d, Gesamtgröße der Dateianhänge = %2$s.<br />%3$sDatei-Statistik resynchronisieren%4$s.',
+
 	'GO_TO_EXTENSIONS'		=> 'Dateierweiterungen bearbeiten',
 	'GROUP_NAME'			=> 'Gruppenname',
 
@@ -133,6 +136,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Nur in Beiträgen erlaubt',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Nicht erlaubt',
 	'NOT_ASSIGNED'				=> 'Nicht zugewiesen',
+	'NO_ATTACHMENTS'			=> 'Für den Zeitraum wurden keine Dateianhänge gefunden.',
 	'NO_EXT_GROUP'				=> 'Keine',
 	'NO_EXT_GROUP_NAME'			=> 'Kein Gruppenname eingegeben.',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Keine Dateityp-Gruppe angegeben.',
@@ -146,8 +150,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Erlauben',
 	'ORDER_DENY_ALLOW'		=> 'Verbieten',
 
-	'REMOVE_ALLOWED_IPS'		=> '<em>Erlaubte</em> IPs/Hostnamen oder Ausnahmen entfernen',
-	'REMOVE_DISALLOWED_IPS'		=> '<em>Verbotene</em> IPs/Hostnamen oder Ausnahmen entfernen',
+	'REMOVE_ALLOWED_IPS'			=> '<em>Erlaubte</em> IPs/Hostnamen oder Ausnahmen entfernen',
+	'REMOVE_DISALLOWED_IPS'			=> '<em>Verbotene</em> IPs/Hostnamen oder Ausnahmen entfernen',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Bist du dir sicher, dass du die Datei-Statistik neu synchronisieren willst?',
 
 	'SEARCH_IMAGICK'				=> 'Nach Imagemagick suchen',
 	'SECURE_ALLOW_DENY'				=> 'Erlauben-/Verbieten-Liste',

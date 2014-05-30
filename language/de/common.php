@@ -170,6 +170,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Glückwünsche an',
 	'CONNECTION_FAILED'		=> 'Die Verbindung ist gescheitert!',
 	'CONNECTION_SUCCESS'	=> 'Die Verbindung war erfolgreich!',
+	'CONTACT_USER'			=> 'Kontaktdaten', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12525
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 
@@ -220,8 +221,6 @@ $lang = array_merge($lang, array(
 	'ERROR'								=> 'Fehler',
 	'EXPAND_VIEW'						=> 'Ansicht erweitern',
 	'EXTENSION'							=> 'Dateierweiterung',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'Die Erweiterung <strong>%s</strong> besitzt keine controller-Klasse und ist daher nicht über die Oberfläche zugänglich.',
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'Die controller-Klasse <strong>%s</strong> der Erweiterung ist keine Instanz von phpbb_extension_controller_interface.',
 	'EXTENSION_DISABLED'				=> 'Die Erweiterung <strong>%s</strong> ist nicht aktiviert.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'Die Dateierweiterung <strong>%s</strong> wurde deaktiviert und kann nicht länger angezeigt werden.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'Die Erweiterung <strong>%s</strong> existiert nicht.',
@@ -352,6 +351,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Es konnte keine Verbindung zum LDAP-Server aufgebaut werden.',
 	'LDAP_SEARCH_FAILED'				=> 'Beim Durchsuchen des LDAP-Verzeichnisses ist ein Fehler aufgetreten.',
 	'LEGEND'							=> 'Legende',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Suchvorschläge sind nicht zugelassen.',
 	'LOADING'							=> 'Lade',
 	'LOCATION'							=> 'Wohnort',
 	'LOCK_POST'							=> 'Beitrag sperren',
@@ -426,28 +426,33 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Du wirst nicht mehr über neue Beiträge in diesem Forum informiert.',
 	'NOT_WATCHING_TOPIC'		=> 'Du wirst nicht mehr über neue Beiträge in diesem Thema informiert.',
 	'NOTIFICATIONS'				=> 'Benachrichtigungen',
-	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
+	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '%1$s hat auf das Thema „%2$s“ geantwortet, für das du ein Lesezeichen gesetzt hast.',
+		2	=> '%1$s haben auf das Thema „%2$s“ geantwortet, für das du ein Lesezeichen gesetzt hast.',
 	),
 	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s hat beantragt, Mitglied der Gruppe %2$s zu werden.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Dein Antrag, der Gruppe %1$s beizutreten, wurde akzeptiert.',
 	'NOTIFICATION_PM'					=> '%1$s hat dir eine Private Nachricht gesendet: „%2$s“.',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '%1$s hat auf das Thema „%2$s“ geantwortet.',
+		2	=> '%1$s haben auf das Thema „%2$s“ geantwortet.',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> 'Dein Beitrag wurde freigegeben: „%2$s“.',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Die Freigabe deines Beitrags „%1$s“ wurde mit folgender Begründung abgelehnt: „%2$s“.',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Ein neuer Beitrag mit dem Titel „%2$s“ wurde von %1$s erstellt und wartet auf Freigabe.',
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '%1$s hat dich im Beitrag „%2$s“ zitiert.',
+		2	=> '%1$s haben dich im Beitrag „%2$s“ zitiert.',
 	),
 	'NOTIFICATION_REPORT_PM'			=> '%1$s hat eine Private Nachricht „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s hat einen Beitrag „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
@@ -458,9 +463,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Ein neues Thema „%2$s“ wurde von %1$s erstellt und muss freigegeben werden.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Die notwendige Datei für die Benachrichtigungs-Art „%s“ ist nicht vorhanden.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'Der Benutzer „%1$s“ hat sich kürzlich registriert und muss freigegeben werden.',
-	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'viele weitere Mitglieder',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d andere',
+		2	=> '%d weitere Mitglieder',
 	),
 	'NOTIFY_ADMIN'				=> 'Bitte informiere die Board-Administration oder den Webmaster.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Bitte informiere die Board-Administration oder den Webmaster: <a href="mailto:%1$s">%1$s</a>',
@@ -762,7 +768,7 @@ $lang = array_merge($lang, array(
 	),
 	'TRACKED_PHP_ERROR'	=> 'Aufgefangene PHP-Fehler: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Die Größe des Bildes konnte nicht ermittelt werden.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Die Größe des Bildes konnte nicht ermittelt werden. Bitte prüfe, ob die angegebene URL korrekt ist.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Die Datei kann nicht übertragen werden.',
 	'UNKNOWN_BROWSER'		=> 'Unbekannter Browser',
 	'UNMARK_ALL'			=> 'Alle Markierungen entfernen',

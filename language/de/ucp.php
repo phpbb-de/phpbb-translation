@@ -453,6 +453,8 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'Gesendete Nachrichten',
 	'PM_SUBJECT'				=> 'Betreff',
 	'PM_TO'						=> 'Senden an',
+	'PM_TOOLS'					=> 'Nachrichten-Optionen',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Einige Benutzer konnten nicht hinzugefügt werden, da sie keine Berechtigung haben, Private Nachrichten zu lesen.',
 	'PM_USERS_REMOVED_NO_PM'	=> 'Einige Benutzer konnten nicht hinzugefügt werden, da sie den Empfang Privater Nachrichten deaktiviert haben.',
 	'POST_EDIT_PM'				=> 'Nachricht ändern',
 	'POST_FORWARD_PM'			=> 'Nachricht weiterleiten',
@@ -574,7 +576,7 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Profil ändern',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Registrierungs-Details ändern',
 	'UCP_PROFILE_SIGNATURE'		=> 'Signatur ändern',
-	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Verwalte gespeicherte Anmeldungen',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Gespeicherte Anmeldungen verwalten',
 
 	'UCP_USERGROUPS'			=> 'Benutzergruppen',
 	'UCP_USERGROUPS_MEMBER'		=> 'Mitgliedschaften ändern',
@@ -643,14 +645,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'In Ordner ablegen',
 		'MARK_AS_READ'		=> 'Als gelesen markieren',
 		'MARK_AS_IMPORTANT'	=> 'Markieren',
-		'DELETE_MESSAGE'	=> 'Nachricht löschen'
+		'DELETE_MESSAGE'	=> 'Nachricht löschen',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Betreff',
 		'SENDER'	=> 'Absender',
 		'MESSAGE'	=> 'Nachricht',
 		'STATUS'	=> 'Nachrichten-Status',
-		'TO'		=> 'Gesendet an'
+		'TO'		=> 'Gesendet an',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'ist wie',
@@ -666,9 +668,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'beantwortet',
 		'FORWARDED'		=> 'weitergeleitet',
 		'TO_GROUP'		=> 'meine Hauptgruppe',
-		'TO_ME'			=> 'mich'
+		'TO_ME'			=> 'mich',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'Benutzergruppen erleichtern den Administratoren die Benutzerverwaltung. Standardmäßig wirst du einer spezifischen Gruppe zugeordnet, deiner Hauptgruppe. Diese Gruppe legt fest, wie dich andere Benutzer sehen, z.&nbsp;B. die Farbe deines Benutzernamens, deinen Avatar oder deinen Rang. Du kannst deine Hauptgruppe ändern, sofern dies die Administratoren erlaubt haben. Du kannst auch anderen Gruppen zugeordnet werden oder das Recht erhalten, anderen Gruppen beizutreten. Durch manche Gruppen erhältst du das Recht, auf zusätzliche Inhalte zuzugreifen oder deine Möglichkeiten werden in anderen Bereichen erweitert.',
 	'GROUP_LEADER'		=> 'Gruppen-Leiter',
