@@ -76,12 +76,12 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> 'Du darfst keine wichtigen Themen erstellen.',
 	'CHANGE_TOPIC_TO'			=> 'Art des Themas ändern zu',
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> '#Your message contains %1$d character.',
-		2	=> '#Your message contains %1$d characters.',
+		1	=> 'Dein Beitrag enthält %1$d Zeichen.',
+		2	=> 'Dein Beitrag enthält %1$d Zeichen.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> '#Your signature contains %1$d character.',
-		2	=> '#Your signature contains %1$d characters.',
+		1	=> 'Deine Signatur enthält %1$d Zeichen.',
+		2	=> 'Deine Signatur enthält %1$d Zeichen.',
 	),
 	'CLOSE_TAGS'				=> 'Tags schließen',
 	'CURRENT_TOPIC'				=> 'Aktuelles Thema',
@@ -223,10 +223,10 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Statusanzeige',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'Du kannst Zitate nicht ineinander verschachteln.', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12433
+		1	=> 'Du kannst Zitate nicht ineinander verschachteln.',
 		2	=> 'Es können maximal %d Zitate ineinander verschachtelt werden.',
 	),
-	'QUOTE_NO_NESTING'			=> '#You may not embed quotes within each other.',
+	'QUOTE_NO_NESTING'			=> 'Du kannst Zitate nicht ineinander verschachteln.',
 
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
@@ -242,14 +242,8 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Die eingegebene Nachricht ist zu kurz.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		//TODO
-		//>>>>>> OLD <<<<<<: 'Your message contains %1$d character. The minimum number of characters you need to enter is %2$d.',
-		//>>>>>> NEW <<<<<<: 'You need to enter at least %1$d character.',
-		1	=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
-		//TODO
-		//>>>>>> OLD <<<<<<: 'Your message contains %1$d characters. The minimum number of characters you need to enter is %2$d.',
-		//>>>>>> NEW <<<<<<: 'You need to enter at least %1$d characters.',
-		2	=> 'Deine Nachricht enthält %1$d Zeichen. Es müssen jedoch mindestens %2$d Zeichen verwendet werden.',
+		1	=> 'Es müssen jedoch mindestens %1$d Zeichen verwendet werden.',
+		2	=> 'Es müssen jedoch mindestens %1$d Zeichen verwendet werden.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Du musst mindestens zwei Antwortmöglichkeiten für die Umfrage eingeben.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Du kannst keinen weiteren Dateianhang hinzufügen. Die maximale Anzahl liegt bei %d.',
@@ -279,9 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sDen Beitrag anzeigen%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sDeine Private Nachricht anzeigen%s',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The file is too big, maximum allowed size is %1d %2s.',
-	//>>>>>> NEW <<<<<<: 'The file is too big, maximum allowed size is %1$d %2$s.',
-	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Das Bild muss zwischen %1$s und %3$s breit sowie zwischen %2$s und %4$s hoch sein. Das angegebene Bild ist %5$s breit und %6$s hoch.',
 ));

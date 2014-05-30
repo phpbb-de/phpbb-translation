@@ -49,15 +49,9 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Sprachdetails erfolgreich aktualisiert.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Dieses Sprachpaket ist bereits installiert.',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The language pack <strong>%s</strong> has been removed successfully. All users using this language have been reset to the boards default language.',
-	//>>>>>> NEW <<<<<<: 'The language pack “%s” has been removed successfully. All users using this language have been reset to the board’s default language.',
-	'LANGUAGE_PACK_DELETED'				=> 'Das Sprachpaket <strong>%s</strong> wurde erfolgreich entfernt. Alle Benutzer, die dieses Paket genutzt haben, wurden auf die Standard-Sprache des Boards umgestellt.',
+	'LANGUAGE_PACK_DELETED'				=> 'Das Sprachpaket „%s“ wurde erfolgreich entfernt. Alle Benutzer, die dieses Paket genutzt haben, wurden auf die Standard-Sprache des Boards umgestellt.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Sprachpaket-Details',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The language pack <strong>%s</strong> has been successfully installed.',
-	//>>>>>> NEW <<<<<<: 'The language pack “%s” has been successfully installed.',
-	'LANGUAGE_PACK_INSTALLED'			=> 'Das Sprachpaket <strong>%s</strong> wurde erfolgreich installiert.',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Das Sprachpaket „%s“ wurde erfolgreich installiert.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Die Sprachvariablen der benutzerdefinierten Profilfelder wurden von der Standard-Sprache übernommen. Bitte passe sie gegebenenfalls an.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokaler Name',
@@ -81,14 +75,8 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br />Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache das Boards ändern.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Keine deinstallierten Sprachpakete',
 
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The following language files are missing from the %s language folder',
-	//>>>>>> NEW <<<<<<: 'The following language files are missing from the “%s” language folder',
-	'THOSE_MISSING_LANG_FILES'			=> 'Die folgenden Sprachdateien fehlen im %s-Sprachpaket',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The following language variables are missing from the <strong>%s</strong> language pack',
-	//>>>>>> NEW <<<<<<: 'The following language variables are missing from the “%s” language pack',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'Die folgenden Sprachvariablen fehlen im <strong>%s</strong>-Sprachpaket',
+	'THOSE_MISSING_LANG_FILES'			=> 'Die folgenden Sprachdateien fehlen im „%s“-Sprachpaket',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Die folgenden Sprachvariablen fehlen im „%s“-Sprachpaket',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Deinstallierte Sprachpakete',
 ));

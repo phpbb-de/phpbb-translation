@@ -73,13 +73,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Wenn diese Option aktiviert ist, wird das Feld bei der Registrierung angezeigt.',
 	'DISPLAY_ON_MEMBERLIST'			=> 'In Mitgliederliste anzeigen',
 	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Wenn diese Option aktiviert ist, wird das Feld in der Mitgliederliste angezeigt.',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'Display on view pm screen',
-	//>>>>>> NEW <<<<<<: 'Display on view private message screen',
 	'DISPLAY_ON_PM'					=> 'Bei Privaten Nachrichten anzeigen',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'If this option is enabled, the field will be displayed in the mini-profile on the pm screen.',
-	//>>>>>> NEW <<<<<<: 'If this option is enabled, the field will be displayed in the mini-profile on the private message screen.',
 	'DISPLAY_ON_PM_EXPLAIN'			=> 'Wenn diese Option aktiviert ist, wird das Feld im Kurzprofil neben Privaten Nachrichten angezeigt.',
 	'DISPLAY_ON_VT'					=> 'Bei der Themen-Ansicht anzeigen',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Wenn diese Option aktiviert ist, wird das Feld im Kurzprofil neben den Beiträgen angezeigt.',

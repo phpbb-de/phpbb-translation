@@ -114,10 +114,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Die Avatar-Datei ist zu groß, sie darf maximal %1$d %2$s groß sein.<br />Dieser Wert ist in der php.ini festgelegt und kann nicht überschrieben werden.',
 	'AVATAR_URL_INVALID'			=> 'Die angegebene URL ist ungültig.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Die angegebene Datei konnte nicht gefunden werden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The avatar’s filesize must be between 0 and %1d %2s.',
-	//>>>>>> NEW <<<<<<: 'The avatar’s filesize must be between 0 and %1$d %2$s.',
-	'AVATAR_WRONG_FILESIZE'			=> 'Der Avatar muss zwischen 0 und %1d %2s groß sein.',
+	'AVATAR_WRONG_FILESIZE'			=> 'Der Avatar muss zwischen 0 und %1$d %2$s groß sein.',
 	'AVATAR_WRONG_SIZE'				=> 'Der hochgeladene Avatar ist %5$s breit und %6$s hoch. Avatare müssen mindestens %1$s breit und %2$s hoch, aber dürfen maximal %3$s breit und %4$s hoch sein.',
 
 	'BACK_TO_TOP'			=> 'Nach oben',
@@ -175,11 +172,11 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Glückwünsche an',
 	'CONNECTION_FAILED'		=> 'Die Verbindung ist gescheitert!',
 	'CONNECTION_SUCCESS'	=> 'Die Verbindung war erfolgreich!',
-	'CONTACT'				=> '#Contact',
+	'CONTACT'				=> 'Kontaktdaten',
 	//TODO
 	//>>>>>> OLD <<<<<<: 'Contact',
 	//>>>>>> NEW <<<<<<: 'Contact %s',
-	'CONTACT_USER'			=> 'Kontaktdaten', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12525
+	'CONTACT_USER'			=> 'Kontaktdaten von %s', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12525
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 
@@ -240,10 +237,7 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Größe',
 	'FILEDATE'				=> 'Dateidatum',
 	'FILE_COMMENT'			=> 'Dateikommentar',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'The requested file could not be found.',
-	//>>>>>> NEW <<<<<<: 'The requested file could not be found: %s',
-	'FILE_NOT_FOUND'		=> 'Die angegebene Datei konnte nicht gefunden werden.',
+	'FILE_NOT_FOUND'		=> 'Die angegebene Datei konnte nicht gefunden werden: %s',
 	'FIND_USERNAME'			=> 'Nach einem Mitglied suchen',
 	'FOLDER'				=> 'Ordner',
 	'FORGOT_PASS'			=> 'Ich habe mein Passwort vergessen',
@@ -683,10 +677,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DESTINATION_FORUM'	=> 'Wähle bitte ein Zielforum aus',
 	'SELECT_FORUM'				=> 'Wähle ein Forum aus',
 	'SEND_EMAIL'				=> 'E-Mail senden',				// Used for submit buttons
-	//TODO
-	//>>>>>> OLD <<<<<<: 'Email',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> Email UserX
-	//>>>>>> NEW <<<<<<: 'Email %s',
-	'SEND_EMAIL_USER'			=> 'E-Mail senden an',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
+	'SEND_EMAIL_USER'			=> 'E-Mail an %s senden',
 	'SEND_PRIVATE_MESSAGE'		=> 'Private Nachricht senden',
 	'SETTINGS'					=> 'Einstellungen',
 	'SIGNATURE'					=> 'Signatur',
