@@ -114,6 +114,9 @@ $lang = array_merge($lang, array(
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Die Avatar-Datei ist zu groß, sie darf maximal %1$d %2$s groß sein.<br />Dieser Wert ist in der php.ini festgelegt und kann nicht überschrieben werden.',
 	'AVATAR_URL_INVALID'			=> 'Die angegebene URL ist ungültig.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Die angegebene Datei konnte nicht gefunden werden.',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'The avatar’s filesize must be between 0 and %1d %2s.',
+	//>>>>>> NEW <<<<<<: 'The avatar’s filesize must be between 0 and %1$d %2$s.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Der Avatar muss zwischen 0 und %1d %2s groß sein.',
 	'AVATAR_WRONG_SIZE'				=> 'Der hochgeladene Avatar ist %5$s breit und %6$s hoch. Avatare müssen mindestens %1$s breit und %2$s hoch, aber dürfen maximal %3$s breit und %4$s hoch sein.',
 
@@ -172,6 +175,10 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Glückwünsche an',
 	'CONNECTION_FAILED'		=> 'Die Verbindung ist gescheitert!',
 	'CONNECTION_SUCCESS'	=> 'Die Verbindung war erfolgreich!',
+	'CONTACT'				=> '#Contact',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'Contact',
+	//>>>>>> NEW <<<<<<: 'Contact %s',
 	'CONTACT_USER'			=> 'Kontaktdaten', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12525
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
@@ -233,6 +240,9 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Größe',
 	'FILEDATE'				=> 'Dateidatum',
 	'FILE_COMMENT'			=> 'Dateikommentar',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'The requested file could not be found.',
+	//>>>>>> NEW <<<<<<: 'The requested file could not be found: %s',
 	'FILE_NOT_FOUND'		=> 'Die angegebene Datei konnte nicht gefunden werden.',
 	'FIND_USERNAME'			=> 'Nach einem Mitglied suchen',
 	'FOLDER'				=> 'Ordner',
@@ -564,7 +574,8 @@ $lang = array_merge($lang, array(
 	'POST_BY_FOE'			=> 'Dieser Beitrag wurde von <strong>%1$s</strong>, einem von dir ignorierten Mitglied, erstellt.',
 	'POST_DISPLAY'			=> '%1$sDiesen Beitrag anzeigen%2$s.',
 	'POST_DAY'				=> '%.2f Beiträge pro Tag',
-	'POST_DELETED'			=> 'Gelöschter Beitrag:',
+	'POST_DELETED_ACTION'	=> 'Gelöschter Beitrag:',
+	'POST_DELETED'			=> '#This post has been deleted.',
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> hat den Beitrag von <strong>%1$s</strong> am %3$s gelöscht.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> hat den Beitrag von <strong>%1$s</strong> am %3$s aus folgendem Grund gelöscht: %4$s',
 	'POST_DETAILS'			=> 'Beitrags-Details',
@@ -577,7 +588,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'Betreff des Beitrags',
 	'POST_TIME'				=> 'Erstellungsdatum',
 	'POST_TOPIC'			=> 'Neues Thema erstellen',
-	'POST_UNAPPROVED'		=> 'Auf Freigabe wartende Beiträge:',
+	'POST_UNAPPROVED_ACTION'	=> 'Auf Freigabe wartende Beiträge:',
+	'POST_UNAPPROVED'		=> '#This post has not been approved.',
 	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Vorschau',
 	'PREVIOUS'				=> 'Vorherige',		// Used in pagination
@@ -671,6 +683,9 @@ $lang = array_merge($lang, array(
 	'SELECT_DESTINATION_FORUM'	=> 'Wähle bitte ein Zielforum aus',
 	'SELECT_FORUM'				=> 'Wähle ein Forum aus',
 	'SEND_EMAIL'				=> 'E-Mail senden',				// Used for submit buttons
+	//TODO
+	//>>>>>> OLD <<<<<<: 'Email',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> Email UserX
+	//>>>>>> NEW <<<<<<: 'Email %s',
 	'SEND_EMAIL_USER'			=> 'E-Mail senden an',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Private Nachricht senden',
 	'SETTINGS'					=> 'Einstellungen',
@@ -748,6 +763,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Die letzten Beiträge des Themas',
 	'TOPIC_TITLE'		=> 'Titel des Themas',
 	'TOPIC_UNAPPROVED'	=> 'Dieses Thema wurde nicht freigegeben.',
+	'TOPIC_DELETED'		=> '#This topic has been deleted.',
 	'TOTAL_ATTACHMENTS'	=> 'Dateianhang',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d Protokoll-Eintrag',
@@ -757,6 +773,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d Private Nachricht insgesamt',
 		2	=> '%d Private Nachrichten insgesamt',
 	),
+	'TOPIC_POLL'		=> '#This topic has a poll.',
 	'TOTAL_POSTS'		=> 'Beiträge insgesamt',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> 'Beiträge insgesamt <strong>%d</strong>',

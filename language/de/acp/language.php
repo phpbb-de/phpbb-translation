@@ -43,25 +43,20 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Sprachdateien Administrations-Bereich',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kannst du Sprachpakete installieren und entfernen. Das Standard-Sprachpaket ist mit einem Stern (*) gekennzeichnet.',
 
-	'EMAIL_FILES'			=> 'E-Mail-Templates',
+	'DELETE_LANGUAGE_CONFIRM'		=> '#Are you sure you wish to delete “%s”?',
 
-	'FILE_CONTENTS'				=> 'Datei-Inhalte',
-	'FILE_FROM_STORAGE'			=> 'Datei aus Speicher-Ordner',
-
-	'HELP_FILES'				=> 'Hilfe-Dateien',
-
-	'INSTALLED_LANGUAGE_PACKS'	=> 'Installierte Sprachpakete',
-	'INVALID_LANGUAGE_PACK'		=> 'Das gewählte Sprachpaket scheint ungültig zu sein. Bitte prüfe das Paket und lade es, wenn nötig, erneut hoch.',
-	'INVALID_UPLOAD_METHOD'		=> 'Die gewählte Methode zum Hochladen ist ungültig, bitte wähle eine andere.',
+	'INSTALLED_LANGUAGE_PACKS'		=> 'Installierte Sprachpakete',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Sprachdetails erfolgreich aktualisiert.',
-	'LANGUAGE_ENTRIES'					=> 'Sprachpaket-Einträge',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Hier kannst du bestehende oder noch nicht übersetzte Einträge der Sprachpakete ändern.<br /><strong>Beachte:</strong> Sobald du eine Sprachdatei geändert hast, werden die Änderungen in einem separaten Ordner abgelegt, von dem aus du sie herunterladen kannst. Deine Benutzer werden die Änderungen solange nicht sehen können, bis du die Originaldateien ersetzt hast (indem du sie mit den neuen Dateien überschreibst).',
-	'LANGUAGE_FILES'					=> 'Sprachdateien',
-	'LANGUAGE_KEY'						=> 'Sprachvariable',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Dieses Sprachpaket ist bereits installiert.',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'The language pack <strong>%s</strong> has been removed successfully. All users using this language have been reset to the boards default language.',
+	//>>>>>> NEW <<<<<<: 'The language pack “%s” has been removed successfully. All users using this language have been reset to the board’s default language.',
 	'LANGUAGE_PACK_DELETED'				=> 'Das Sprachpaket <strong>%s</strong> wurde erfolgreich entfernt. Alle Benutzer, die dieses Paket genutzt haben, wurden auf die Standard-Sprache des Boards umgestellt.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Sprachpaket-Details',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'The language pack <strong>%s</strong> has been successfully installed.',
+	//>>>>>> NEW <<<<<<: 'The language pack “%s” has been successfully installed.',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Das Sprachpaket <strong>%s</strong> wurde erfolgreich installiert.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Die Sprachvariablen der benutzerdefinierten Profilfelder wurden von der Standard-Sprache übernommen. Bitte passe sie gegebenenfalls an.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
@@ -75,31 +70,25 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'ISO-Code',
 	'LANG_LOCAL_NAME'					=> 'Lokaler Name',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Fehlende Sprachdatei: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_FILES'		=> '#Missing language files',
 	'MISSING_LANG_VARIABLES'	=> 'Fehlende Sprachvariablen',
-	'MODS_FILES'				=> 'MOD-Sprachdateien',
 
 	'NO_FILE_SELECTED'				=> 'Du hast keine Sprachdatei angegeben.',
 	'NO_LANG_ID'					=> 'Du hast kein Sprachpaket angegeben.',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
+	//>>>>>> NEW <<<<<<: 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your board’s default language first.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br />Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache das Boards ändern.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Keine deinstallierten Sprachpakete',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Aus dem Speicher-Ordner entfernen',
-
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Download-Format auswählen',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Absenden und Datei herunterladen',
-	'SUBMIT_AND_UPLOAD'			=> 'Absenden und Datei hochladen',
-
+	//TODO
+	//>>>>>> OLD <<<<<<: 'The following language files are missing from the %s language folder',
+	//>>>>>> NEW <<<<<<: 'The following language files are missing from the “%s” language folder',
 	'THOSE_MISSING_LANG_FILES'			=> 'Die folgenden Sprachdateien fehlen im %s-Sprachpaket',
+	//TODO
+	//>>>>>> OLD <<<<<<: 'The following language variables are missing from the <strong>%s</strong> language pack',
+	//>>>>>> NEW <<<<<<: 'The following language variables are missing from the “%s” language pack',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'Die folgenden Sprachvariablen fehlen im <strong>%s</strong>-Sprachpaket',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Deinstallierte Sprachpakete',
-
-	'UNABLE_TO_WRITE_FILE'		=> 'Die Datei konnte nicht nach %s geschrieben werden.',
-	'UPLOAD_COMPLETED'			=> 'Das Hochladen wurde abgeschlossen.',
-	'UPLOAD_FAILED'				=> 'Das Hochladen ist aus einem nicht bekanntem Grund gescheitert. Du musst eventuell die betroffene Datei manuell ersetzen.',
-	'UPLOAD_METHOD'				=> 'Methode zum Hochladen',
-	'UPLOAD_SETTINGS'			=> 'Einstellungen zum Hochladen',
-
-	'WRONG_LANGUAGE_FILE'		=> 'Die gewählte Sprachdatei ist ungültig.',
 ));

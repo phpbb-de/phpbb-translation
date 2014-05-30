@@ -87,6 +87,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Bist du dir sicher, dass du die Daten, die „%s“ zugeordnet sind, löschen möchtest?<br /><br />Dadurch werden alle Daten und Einstellungen dieser Erweiterung entfernt. <strong>Dieser Vorgang kann nicht rückgängig gemacht werden!</strong>',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ deaktivieren möchtest?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ aktivieren möchtest?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> '#Are you sure that you wish to force the use of unstable version?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Zurück zur Liste der Erweiterungen',
 
@@ -109,4 +110,14 @@ $lang = array_merge($lang, array(
 	'AUTHOR_EMAIL'			=> 'E-Mail',
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
 	'AUTHOR_ROLE'			=> 'Rolle',
+
+	'NOT_UP_TO_DATE'		=> '#%s is not up to date',
+	'UP_TO_DATE'			=> '#%s is up to date',
+	'ANNOUNCEMENT_TOPIC'	=> '#Release Announcement',
+	'DOWNLOAD_LATEST'		=> '#Download Version',
+	'NO_VERSIONCHECK'		=> '#No version check information given.',
+
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> '#Re-Check all versions',
+	'FORCE_UNSTABLE'					=> '#Always check for unstable versions',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> '#Version check settings',
 ));
