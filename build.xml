@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="German phpBB Translation" description="The phpBB forum software" default="all" basedir="">
+	<property name="validator-version" value="3.0" />
+	<property name="version" value="${version}" />
+	<property name="language" value="${language}" />
+
+	<!-- These are the main targets which you will probably want to use -->
+	<target name="all" depends="lint,clean,prepare,package,validate" />
+	<target name="build" depends="lint,clean,prepare,package" />
+
+	<target name="clean">
+		<delete dir="packages" />
+	</target>
+
+	<target name="prepare">
+		<mkdir dir="packages" />
+		<mkdir dir="packages/de" />
+		<mkdir dir="packages/de_x_sie" />
+		<mkdir dir="packages/en" />
+		<mkdir dir="packages/upload" />
+		<mkdir dir="packages/git" />
+	</target>
+
+	<target name="package">
+		<echo msg="Packaging ${version}" />
+
+		<phingcall target="git-archive">
+			<property name="archive-version" value="${version}" />
+		</phingcall>
+
+		<phingcall target="prepare-package-language">
+			<property name="package-language" value="en" />
+		</phingcall>
+		<phingcall target="prepare-package-language">
+			<property name="package-language" value="${language}" />
+		</phingcall>
+
+		<phingcall target="create-package-language">
+			<property name="package-language" value="${language}" />
+		</phingcall>
+	</target>
+
+	<target name="git-archive">
+		<echo msg="Getting archive for ${archive-version}" />
+
+		<exec command="git archive ${archive-version} --format zip --output packages/git/${archive-version}.zip"
+			checkreturn="true" />
+		<unzip file="packages/git/${archive-version}.zip" todir="packages/git/${archive-version}" />
+	</target>
+
+	<target name="prepare-package-language">
+		<echo msg="Preparing package (${package-language})" />
+
+		<copy todir="packages/${package-language}">
+			<fileset dir="packages/git/${version}">
+				<include name="**/${package-language}/**" />
+			</fileset>
+		</copy>
+		<copy todir="packages/${package-language}/language/${package-language}">
+			<filelist dir="packages/git/${version}" files="LICENSE,AUTHORS.md,README.md" />
+		</copy>
+	</target>
+
+	<target name="create-package-language">
+		<echo msg="Creating archives (${package-language})" />
+		<zip basedir="packages/${package-language}/" destfile="packages/upload/lang_${package-language}.zip" />
+		<tar basedir="packages/${package-language}/" destfile="packages/upload/lang_${package-language}.tar.gz" compression="gzip" />
+	</target>
+
+	<target name="validate">
+		<if>
+			<not><os family="windows"/></not>
+			<then>
+				<phingcall target="validate-non-windows" />
+			</then>
+			<else>
+				<phingcall target="validate-windows" />
+			</else>
+		</if>
+	</target>
+
+	<target name="validate-non-windows">
+		<exec command="php vendor/bin/PhpbbTranslationValidator.php
+				validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true"
+			checkreturn="true" />
+	</target>
+
+	<target name="validate-windows">
+		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
+				validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
+			passthru="true"
+			checkreturn="true" />
+	</target>
+
+	<target name="lint">
+		<phplint>
+			<fileset dir="language">
+				<include name="**/${language}/*.php"/>
+			</fileset>
+		</phplint>
+	</target>
+</project>
