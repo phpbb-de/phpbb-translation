@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d-mal heruntergeladen',
 	),
 
-	'EDIT_POST'							=> 'Ändere Beitrag',
+	'EDIT_POST'							=> 'Beitrag ändern',
 	'ELLIPSIS'							=> '…',
 	'EMAIL'								=> 'E-Mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'E-Mail-Adresse',
