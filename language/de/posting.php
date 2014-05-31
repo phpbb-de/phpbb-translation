@@ -76,12 +76,12 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> 'Du darfst keine wichtigen Themen erstellen.',
 	'CHANGE_TOPIC_TO'			=> 'Art des Themas ändern zu',
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> 'Dein Beitrag enthält %1$d Zeichen.',
-		2	=> 'Dein Beitrag enthält %1$d Zeichen.',
+		1	=> 'Dein Beitrag besteht aus %1$d Zeichen.',
+		2	=> 'Dein Beitrag besteht aus %1$d Zeichen.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> 'Deine Signatur enthält %1$d Zeichen.',
-		2	=> 'Deine Signatur enthält %1$d Zeichen.',
+		1	=> 'Deine Signatur besteht aus %1$d Zeichen.',
+		2	=> 'Deine Signatur besteht aus %1$d Zeichen.',
 	),
 	'CLOSE_TAGS'				=> 'Tags schließen',
 	'CURRENT_TOPIC'				=> 'Aktuelles Thema',
@@ -223,7 +223,7 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Statusanzeige',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'Du kannst Zitate nicht ineinander verschachteln.',
+		1	=> 'Es kann maximal %d Zitat ineinander verschachtelt werden.', // Wird nicht verwendet - stattdessen erscheint QUOTE_NO_NESTING
 		2	=> 'Es können maximal %d Zitate ineinander verschachtelt werden.',
 	),
 	'QUOTE_NO_NESTING'			=> 'Du kannst Zitate nicht ineinander verschachteln.',
@@ -242,14 +242,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Die eingegebene Nachricht ist zu kurz.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Es müssen jedoch mindestens %1$d Zeichen verwendet werden.',
-		2	=> 'Es müssen jedoch mindestens %1$d Zeichen verwendet werden.',
+		1	=> 'Es müssen mindestens %1$d Zeichen verwendet werden.',
+		2	=> 'Es müssen mindestens %1$d Zeichen verwendet werden.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Du musst mindestens zwei Antwortmöglichkeiten für die Umfrage eingeben.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Du kannst keinen weiteren Dateianhang hinzufügen. Die maximale Anzahl liegt bei %d.',
 	'TOO_MANY_CHARS'			=> 'Dein Beitrag enthält zu viele Zeichen.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
-		2	=> '#The maximum number of allowed characters is %1$d.',
+		2	=> 'Es sind maximal %1$d Zeichen erlaubt.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Du hast zu viele Antwortmöglichkeiten eingegeben',
 	'TOO_MANY_SMILIES'			=> 'Dein Beitrag enthält zu viele Smilies. Die maximal erlaubte Anzahl von Smilies ist %d.',
