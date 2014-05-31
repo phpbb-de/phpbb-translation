@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Sprachdateien Administrations-Bereich',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kannst du Sprachpakete installieren und entfernen. Das Standard-Sprachpaket ist mit einem Stern (*) gekennzeichnet.',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> '#Are you sure you wish to delete “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Bist du dir sicher, dass du „%s“ löschen willst?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Installierte Sprachpakete',
 
@@ -64,14 +64,11 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'ISO-Code',
 	'LANG_LOCAL_NAME'					=> 'Lokaler Name',
 
-	'MISSING_LANG_FILES'		=> '#Missing language files',
+	'MISSING_LANG_FILES'		=> 'Fehlende Sprachdateien',
 	'MISSING_LANG_VARIABLES'	=> 'Fehlende Sprachvariablen',
 
 	'NO_FILE_SELECTED'				=> 'Du hast keine Sprachdatei angegeben.',
 	'NO_LANG_ID'					=> 'Du hast kein Sprachpaket angegeben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
-	//>>>>>> NEW <<<<<<: 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your board’s default language first.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br />Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache das Boards ändern.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Keine deinstallierten Sprachpakete',
 
