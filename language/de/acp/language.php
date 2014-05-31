@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	//TODO
 	//>>>>>> OLD <<<<<<: 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
 	//>>>>>> NEW <<<<<<: 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your board’s default language first.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br />Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache das Boards ändern.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br />Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache des Boards ändern.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Keine deinstallierten Sprachpakete',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'Die folgenden Sprachdateien fehlen im „%s“-Sprachpaket',
