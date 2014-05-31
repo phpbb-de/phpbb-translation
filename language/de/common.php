@@ -173,10 +173,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_FAILED'		=> 'Die Verbindung ist gescheitert!',
 	'CONNECTION_SUCCESS'	=> 'Die Verbindung war erfolgreich!',
 	'CONTACT'				=> 'Kontaktdaten',
-	//TODO
-	//>>>>>> OLD <<<<<<: 'Contact',
-	//>>>>>> NEW <<<<<<: 'Contact %s',
-	'CONTACT_USER'			=> 'Kontaktdaten von %s', // TODO: https://tracker.phpbb.com/browse/PHPBB3-12525
+	'CONTACT_USER'			=> 'Kontaktdaten von %s', // TODO: Verwendung prüfen
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 
@@ -205,7 +202,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d-mal heruntergeladen',
 	),
 
-	'EDIT_POST'							=> 'Ändere Beitrag',
+	'EDIT_POST'							=> 'Beitrag ändern',
 	'ELLIPSIS'							=> '…',
 	'EMAIL'								=> 'E-Mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'E-Mail-Adresse',
@@ -569,7 +566,7 @@ $lang = array_merge($lang, array(
 	'POST_DISPLAY'			=> '%1$sDiesen Beitrag anzeigen%2$s.',
 	'POST_DAY'				=> '%.2f Beiträge pro Tag',
 	'POST_DELETED_ACTION'	=> 'Gelöschter Beitrag:',
-	'POST_DELETED'			=> '#This post has been deleted.',
+	'POST_DELETED'			=> 'Dieser Beitrag wurde gelöscht.',
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> hat den Beitrag von <strong>%1$s</strong> am %3$s gelöscht.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> hat den Beitrag von <strong>%1$s</strong> am %3$s aus folgendem Grund gelöscht: %4$s',
 	'POST_DETAILS'			=> 'Beitrags-Details',
@@ -582,8 +579,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'Betreff des Beitrags',
 	'POST_TIME'				=> 'Erstellungsdatum',
 	'POST_TOPIC'			=> 'Neues Thema erstellen',
-	'POST_UNAPPROVED_ACTION'	=> 'Auf Freigabe wartende Beiträge:',
-	'POST_UNAPPROVED'		=> '#This post has not been approved.',
+	'POST_UNAPPROVED_ACTION'	=> 'Auf Freigabe wartender Beitrag:',
+	'POST_UNAPPROVED'		=> 'Dieser Beitrag wurde noch nicht freigegeben.',
 	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Vorschau',
 	'PREVIOUS'				=> 'Vorherige',		// Used in pagination
@@ -753,8 +750,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_MOVED'		=> 'Verschobenes Thema',
 	'TOPIC_REVIEW'		=> 'Die letzten Beiträge des Themas',
 	'TOPIC_TITLE'		=> 'Titel des Themas',
-	'TOPIC_UNAPPROVED'	=> 'Dieses Thema wurde nicht freigegeben.',
-	'TOPIC_DELETED'		=> '#This topic has been deleted.',
+	'TOPIC_UNAPPROVED'	=> 'Dieses Thema wurde noch nicht freigegeben.',
+	'TOPIC_DELETED'		=> 'Dieses Thema wurde gelöscht.',
 	'TOTAL_ATTACHMENTS'	=> 'Dateianhang',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d Protokoll-Eintrag',
@@ -764,7 +761,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d Private Nachricht insgesamt',
 		2	=> '%d Private Nachrichten insgesamt',
 	),
-	'TOPIC_POLL'		=> '#This topic has a poll.',
+	'TOPIC_POLL'		=> 'Dieses Thema beinhaltet eine Umfrage.',
 	'TOTAL_POSTS'		=> 'Beiträge insgesamt',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> 'Beiträge insgesamt <strong>%d</strong>',
