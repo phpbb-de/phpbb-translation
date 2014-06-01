@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Bist du dir sicher, dass du die Daten, die „%s“ zugeordnet sind, löschen möchtest?<br /><br />Dadurch werden alle Daten und Einstellungen dieser Erweiterung entfernt. <strong>Dieser Vorgang kann nicht rückgängig gemacht werden!</strong>',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ deaktivieren möchtest?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ aktivieren möchtest?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> '#Are you sure that you wish to force the use of unstable version?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Willst du wirklich die Verwendung einer instabilen Entwicklungs-Version erzwingen?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Zurück zur Liste der Erweiterungen',
 
@@ -111,13 +111,13 @@ $lang = array_merge($lang, array(
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
 	'AUTHOR_ROLE'			=> 'Rolle',
 
-	'NOT_UP_TO_DATE'		=> '#%s is not up to date',
-	'UP_TO_DATE'			=> '#%s is up to date',
-	'ANNOUNCEMENT_TOPIC'	=> '#Release Announcement',
-	'DOWNLOAD_LATEST'		=> '#Download Version',
-	'NO_VERSIONCHECK'		=> '#No version check information given.',
+	'NOT_UP_TO_DATE'		=> '%s ist nicht aktuell',
+	'UP_TO_DATE'			=> '%s ist aktuell',
+	'ANNOUNCEMENT_TOPIC'	=> 'Release-Bekanntmachung',
+	'DOWNLOAD_LATEST'		=> 'Version herunterladen',
+	'NO_VERSIONCHECK'		=> 'Keine Informationen zur Abfrage der neuesten Version vorhanden.',
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> '#Re-Check all versions',
-	'FORCE_UNSTABLE'					=> '#Always check for unstable versions',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> '#Version check settings',
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Alle Versionen erneut prüfen',
+	'FORCE_UNSTABLE'					=> 'Immer auf instabile Entwicklungs-Versionen prüfen',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Einstellungen für Versions-Prüfung',
 ));

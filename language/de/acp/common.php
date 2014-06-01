@@ -782,7 +782,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Zensiertes Wort entfernt</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Zensiertes Wort geändert</strong><br />» %s',
 
-	'LOG_EXT_ENABLE'	=> '#<strong>Extension enabled</strong><br />» %s',
-	'LOG_EXT_DISABLE'	=> '#<strong>Extension disabled</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '#<strong>Extension’s data deleted</strong><br />» %s',
+	'LOG_EXT_ENABLE'	=> '<strong>Erweiterung aktiviert</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Erweiterung deaktiviert</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Daten der Erweiterung gelöscht</strong><br />» %s',
 ));

@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Du musst die Apache-Authentifizierung konfigurieren, bevor diese Methode in phpBB eingestellt wird. Beachte, dass der Benutzername der Apache-Authentifizierung deinem phpBB-Benutzernamen entsprechen muss. Die Apache-Authentifizierung kann nur mit mod_php (nicht mit der CGI-Version) und deaktiviertem safe_mode verwendet werden.',
 
-	'LDAP'							=> '#LDAP',
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP-Basis <var>DN</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Distinguished Name des Verzeichnisses, in dem sich die Benutzer-Daten befinden, z.&nbsp;B. <samp>o=Meine&nbsp;Firma,c=DE</samp>.',
 	'LDAP_EMAIL'					=> 'LDAP-E-Mail-Attribut',
