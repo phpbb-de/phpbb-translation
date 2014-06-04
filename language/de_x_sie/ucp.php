@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* ucp [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -39,24 +41,24 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Mit dem Zugriff auf „%1$s“ wird zwischen Ihnen und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
+	'TERMS_OF_USE_CONTENT'	=> '#Mit dem Zugriff auf „%1$s“ wird zwischen dir und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
 		<h3>1. Nutzungsvertrag</h3>
-		<ol style="list-style-type: lower-alpha"><li>Mit dem Zugriff auf „%1$s“ (im Folgenden „das Board“) schließen Sie einen Nutzungsvertrag mit dem Betreiber des Boards ab (im Folgenden „Betreiber“) und erklären sich mit den nachfolgenden Regelungen einverstanden.</li>
-		<li>Wenn Sie mit diesen Regelungen nicht einverstanden sind, so dürfen Sie das Board nicht weiter nutzen. Für die Nutzung des Boards gelten jeweils die an dieser Stelle veröffentlichten Regelungen.</li>
+		<ol style="list-style-type: lower-alpha"><li>Mit dem Zugriff auf „%1$s“ (im Folgenden „das Board“) schließt du einen Nutzungsvertrag mit dem Betreiber des Boards ab (im Folgenden „Betreiber“) und erklärst dich mit den nachfolgenden Regelungen einverstanden.</li>
+		<li>Wenn du mit diesen Regelungen nicht einverstanden bist, so darfst du das Board nicht weiter nutzen. Für die Nutzung des Boards gelten jeweils die an dieser Stelle veröffentlichten Regelungen.</li>
 		<li>Der Nutzungsvertrag wird auf unbestimmte Zeit geschlossen und kann von beiden Seiten ohne Einhaltung einer Frist jederzeit gekündigt werden.</li></ol>
 
 		<h3>2. Einräumung von Nutzungsrechten</h3>
-		<ol style="list-style-type: lower-alpha"><li>Mit dem Erstellen eines Beitrags erteilen Sie dem Betreiber ein einfaches, zeitlich und räumlich unbeschränktes und unentgeltliches Recht, Ihren Beitrag im Rahmen des Boards zu nutzen.</li>
+		<ol style="list-style-type: lower-alpha"><li>Mit dem Erstellen eines Beitrags erteilst du dem Betreiber ein einfaches, zeitlich und räumlich unbeschränktes und unentgeltliches Recht, deinen Beitrag im Rahmen des Boards zu nutzen.</li>
 		<li>Das Nutzungsrecht nach Punkt 2, Unterpunkt a bleibt auch nach Kündigung des Nutzungsvertrages bestehen.</li></ol>
 
 		<h3>3. Pflichten des Nutzers</h3>
-		<ol style="list-style-type: lower-alpha"><li>Sie erklären mit der Erstellung eines Beitrags, dass er keine Inhalte enthält, die gegen geltendes Recht oder die guten Sitten verstoßen. Sie erklären insbesondere, dass Sie das Recht besitzen, die in Ihren Beiträgen verwendeten Links und Bilder zu setzen bzw. zu verwenden.</li>
-		<li>Der Betreiber des Boards übt das Hausrecht aus. Bei Verstößen gegen diese Nutzungsbedingungen oder anderer im Board veröffentlichten Regeln kann der Betreiber Sie nach Abmahnung zeitweise oder dauerhaft von der Nutzung dieses Boards ausschließen und Ihnen ein Hausverbot erteilen.</li>
-		<li>Sie nehmen zur Kenntnis, dass der Betreiber keine Verantwortung für die Inhalte von Beiträgen übernimmt, die er nicht selbst erstellt hat oder die er nicht zur Kenntnis genommen hat. Sie gestatten dem Betreiber, Ihr Benutzerkonto, Beiträge und Funktionen jederzeit zu löschen oder zu sperren.</li>
-		<li>Sie gestatten dem Betreiber darüber hinaus, Ihre Beiträge abzuändern, sofern sie gegen o.&nbsp;g. Regeln verstoßen oder geeignet sind, dem Betreiber oder einem Dritten Schaden zuzufügen.</li></ol>
+		<ol style="list-style-type: lower-alpha"><li>Du erklärst mit der Erstellung eines Beitrags, dass er keine Inhalte enthält, die gegen geltendes Recht oder die guten Sitten verstoßen. Du erklärst insbesondere, dass du das Recht besitzt, die in deinen Beiträgen verwendeten Links und Bilder zu setzen bzw. zu verwenden.</li>
+		<li>Der Betreiber des Boards übt das Hausrecht aus. Bei Verstößen gegen diese Nutzungsbedingungen oder anderer im Board veröffentlichten Regeln kann der Betreiber dich nach Abmahnung zeitweise oder dauerhaft von der Nutzung dieses Boards ausschließen und dir ein Hausverbot erteilen.</li>
+		<li>Du nimmst zur Kenntnis, dass der Betreiber keine Verantwortung für die Inhalte von Beiträgen übernimmt, die er nicht selbst erstellt hat oder die er nicht zur Kenntnis genommen hat. Du gestattest dem Betreiber, dein Benutzerkonto, Beiträge und Funktionen jederzeit zu löschen oder zu sperren.</li>
+		<li>Du gestattest dem Betreiber darüber hinaus, deine Beiträge abzuändern, sofern sie gegen o.&nbsp;g. Regeln verstoßen oder geeignet sind, dem Betreiber oder einem Dritten Schaden zuzufügen.</li></ol>
 
 		<h3>4. General Public License</h3>
-		<ol style="list-style-type: lower-alpha"><li>Sie nehmen zur Kenntnis, dass es sich bei phpBB um eine unter der General Public License (GPL) bereitgestellten Foren-Software der phpBB Group (www.phpbb.com) handelt; deutschsprachige Informationen werden durch die deutschsprachige Community unter www.phpbb.de zur Verfügung gestellt. Beide haben keinen Einfluss auf die Art und Weise, wie die Software verwendet wird. Sie können insbesondere die Verwendung der Software für bestimmte Zwecke nicht untersagen oder auf Inhalte fremder Foren Einfluss nehmen.</li></ol>
+		<ol style="list-style-type: lower-alpha"><li>Du nimmst zur Kenntnis, dass es sich bei phpBB um eine unter der „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>“ (GPL) bereitgestellten Foren-Software von phpBB Limited (www.phpbb.com) handelt; deutschsprachige Informationen werden durch die deutschsprachige Community unter www.phpbb.de zur Verfügung gestellt. Beide haben keinen Einfluss auf die Art und Weise, wie die Software verwendet wird. Sie können insbesondere die Verwendung der Software für bestimmte Zwecke nicht untersagen oder auf Inhalte fremder Foren Einfluss nehmen.</li></ol>
 
 		<h3>5. Gewährleistung</h3>
 		<ol style="list-style-type: lower-alpha"><li>Der Betreiber haftet mit Ausnahme der Verletzung von Leben, Körper und Gesundheit und der Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) nur für Schäden, die auf ein vorsätzliches oder grob fahrlässiges Verhalten zurückzuführen sind. Dies gilt auch für mittelbare Folgeschäden wie insbesondere entgangenen Gewinn.</li>
@@ -70,30 +72,30 @@ $lang = array_merge($lang, array(
 		<li>Der Nutzer ist berechtigt, den Änderungen zu widersprechen. Im Falle des Widerspruchs erlischt das zwischen dem Betreiber und dem Nutzer bestehende Vertragsverhältnis mit sofortiger Wirkung.</li>
 		<li>Die Änderungen gelten als anerkannt und verbindlich, wenn der Nutzer den Änderungen zugestimmt hat.</li></ol>
 
-		<p>Informationen über den Umgang mit Ihren persönlichen Daten sind in der Datenschutzrichtlinie enthalten.',
-	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während Ihres Foren-Besuchs gesammelt werden.</p>
+		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzrichtlinie enthalten.',
+	'PRIVACY_POLICY'		=> '#Diese Richtlinie beschreibt, wie „%1$s“ und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
 		<h3>Umfang und Art der Datenspeicherung</h3>
-		<p>Ihre Daten werden auf zwei verschiedene Arten gesammelt:</p>
-		<ol style="list-style-type: decimal;"><li>phpBB erstellt bei Ihrem Besuch des Boards mehrere Cookies. Cookies sind kleine Textdateien, die Ihr Browser als temporäre Dateien ablegt. Zwei dieser Cookies enthalten eine eindeutige Benutzer-Nummer (Benutzer-ID) sowie eine anonyme Sitzungs-Nummer (Session-ID), die Ihnen von phpBB automatisch zugewiesen wird. Ein drittes Cookie wird erstellt, sobald Sie Themen besucht haben und wird dazu verwendet, Informationen über die von Ihnen gelesenen Beiträge zu speichern, um die ungelesenen Beiträge markieren zu können.</li>
-		<li>Weitere Daten werden gesammelt, wenn Informationen an den Betreiber übermittelt werden. Dies betrifft — ohne Anspruch auf Vollständigkeit — zum Beispiel Beiträge, die als Gast erstellt werden, Daten, die im Rahmen der Registrierung erfasst werden und die von Ihnen nach Ihrer Registrierung erstellten Nachrichten. Ihr Benutzerkonto besteht mindestens aus einem eindeutigen Benutzernamen, einem Passwort zur Anmeldung mit diesem Konto und einer persönlichen und gültigen E-Mail-Adresse.</li></ol>
-		<p>Ihr Passwort wird mit einer Einwege-Verschlüsselung (Hash) gespeichert, so dass es sicher ist. Jedoch wird Ihnen empfohlen, dieses Passwort nicht auf einer Vielzahl von Webseiten zu verwenden. Das Passwort ist Ihr Schlüssel zu Ihrem Benutzerkonto für das Board, also gehen Sie mit ihm sorgsam um. Insbesondere wird Sie kein Vertreter des Betreibers, der phpBB Group oder ein Dritter berechtigterweise nach Ihrem Passwort fragen. Sollten Sie Ihr Passwort vergessen haben, so können Sie die Funktion „Ich habe mein Passwort vergessen“ benutzen. Die phpBB-Software fragt Sie dann nach Ihrem Benutzernamen und Ihrer E-Mail-Adresse und sendet anschließend ein neu generiertes Passwort an diese Adresse, mit dem Sie dann auf das Board zugreifen können.</p>
+		<p>Deine Daten werden auf zwei verschiedene Arten gesammelt:</p>
+		<ol style="list-style-type: decimal;"><li>phpBB erstellt bei deinem Besuch des Boards mehrere Cookies. Cookies sind kleine Textdateien, die dein Browser als temporäre Dateien ablegt. Zwei dieser Cookies enthalten eine eindeutige Benutzer-Nummer (Benutzer-ID) sowie eine anonyme Sitzungs-Nummer (Session-ID), die dir von phpBB automatisch zugewiesen wird. Ein drittes Cookie wird erstellt, sobald du Themen besucht hast und wird dazu verwendet, Informationen über die von dir gelesenen Beiträge zu speichern, um die ungelesenen Beiträge markieren zu können.</li>
+		<li>Weitere Daten werden gesammelt, wenn Informationen an den Betreiber übermittelt werden. Dies betrifft — ohne Anspruch auf Vollständigkeit — zum Beispiel Beiträge, die als Gast erstellt werden, Daten, die im Rahmen der Registrierung erfasst werden und die von dir nach deiner Registrierung erstellten Nachrichten. Dein Benutzerkonto besteht mindestens aus einem eindeutigen Benutzernamen, einem Passwort zur Anmeldung mit diesem Konto und einer persönlichen und gültigen E-Mail-Adresse.</li></ol>
+		<p>Dein Passwort wird mit einer Einwege-Verschlüsselung (Hash) gespeichert, so dass es sicher ist. Jedoch wird dir empfohlen, dieses Passwort nicht auf einer Vielzahl von Webseiten zu verwenden. Das Passwort ist dein Schlüssel zu deinem Benutzerkonto für das Board, also geh mit ihm sorgsam um. Insbesondere wird dich kein Vertreter des Betreibers, von phpBB Limited oder ein Dritter berechtigterweise nach deinem Passwort fragen. Solltest du dein Passwort vergessen haben, so kannst du die Funktion „Ich habe mein Passwort vergessen“ benutzen. Die phpBB-Software fragt dich dann nach deinem Benutzernamen und deiner E-Mail-Adresse und sendet anschließend ein neu generiertes Passwort an diese Adresse, mit dem du dann auf das Board zugreifen kannst.</p>
 
 		<h3>Gestattung der Datenspeicherung</h3>
-		<p>Sie gestatten dem Betreiber, die von Ihnen im Rahmen der Registrierung eingegebenen Daten sowie laufende Zugriffsdaten (Datum und Uhrzeit der Nutzung, IP-Adresse und weitere von Ihrem Browser übermittelte Daten) zu speichern und für den Betrieb des Boards zu verwenden.</p>
+		<p>Du gestattest dem Betreiber, die von dir im Rahmen der Registrierung eingegebenen Daten sowie laufende Zugriffsdaten (Datum und Uhrzeit der Nutzung, IP-Adresse und weitere von deinem Browser übermittelte Daten) zu speichern und für den Betrieb des Boards zu verwenden.</p>
 
-		<h3>Regelungen bezüglich der Weitergabe Ihrer Daten</h3>
-		<p>Der Betreiber wird diese Daten nur mit Ihrer Zustimmung an Dritte weitergeben, sofern er nicht auf Grund gesetzlicher Regelungen zur Weitergabe der Daten verpflichtet ist oder die Daten zur Durchsetzung rechtlicher Interessen erforderlich sind.</p>
-		<p>Sie nehmen zur Kenntnis, dass die von Ihnen in Ihrem Profil angegebenen Daten und Ihre Beiträge je nach Konfiguration im Internet verfügbar und von jedermann abrufbar sein können.</p>
+		<h3>Regelungen bezüglich der Weitergabe deiner Daten</h3>
+		<p>Der Betreiber wird diese Daten nur mit deiner Zustimmung an Dritte weitergeben, sofern er nicht auf Grund gesetzlicher Regelungen zur Weitergabe der Daten verpflichtet ist oder die Daten zur Durchsetzung rechtlicher Interessen erforderlich sind.</p>
+		<p>Du nimmst zur Kenntnis, dass die von dir in deinem Profil angegebenen Daten und deine Beiträge je nach Konfiguration im Internet verfügbar und von jedermann abrufbar sein können.</p>
 
 		<h3>Gestattung der Kontaktaufnahme</h3>
-		<p>Sie gestatten dem Betreiber darüber hinaus, Sie unter den von Ihnen angegebenen Kontaktdaten zu kontaktieren, sofern dies zur Übermittlung zentraler Informationen über das Board erforderlich ist. Darüber hinaus dürfen er und andere Benutzer Sie kontaktieren, sofern Sie dies an entsprechender Stelle erlaubt haben.</p>
+		<p>Du gestattest dem Betreiber darüber hinaus, dich unter den von dir angegebenen Kontaktdaten zu kontaktieren, sofern dies zur Übermittlung zentraler Informationen über das Board erforderlich ist. Darüber hinaus dürfen er und andere Benutzer dich kontaktieren, sofern du dies an entsprechender Stelle erlaubt hast.</p>
 
 		<h3>Geltungsbereich dieser Richtlinie</h3>
-		<p>Diese Richtlinie umfasst nur den Bereich der Seiten, die die phpBB-Software umfassen. Sofern der Betreiber in anderen Bereichen seiner Software weitere personenbezogene Daten verarbeitet, wird er Sie darüber gesondert informieren.</p>
+		<p>Diese Richtlinie umfasst nur den Bereich der Seiten, die die phpBB-Software umfassen. Sofern der Betreiber in anderen Bereichen seiner Software weitere personenbezogene Daten verarbeitet, wird er dich darüber gesondert informieren.</p>
 
 		<h3>Auskunftsrecht</h3>
-		<p>Der Betreiber erteilt Ihnen auf Anfrage Auskunft, welche Daten über Sie gespeichert sind.</p>
-		<p>Sie können jederzeit die Löschung bzw. Sperrung Ihrer Daten verlangen. Kontaktieren Sie hierzu bitte den Betreiber.',
+		<p>Der Betreiber erteilt dir auf Anfrage Auskunft, welche Daten über dich gespeichert sind.</p>
+		<p>Du kannst jederzeit die Löschung bzw. Sperrung deiner Daten verlangen. Kontaktiere hierzu bitte den Betreiber.',
 ));
 
 // Common language entries
@@ -128,13 +130,24 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Dies ist eine Übersicht aller Dateianhänge, die Sie in Beiträgen dieses Boards erstellt haben.',
 	'ATTACHMENTS_DELETED'			=> 'Dateianhänge erfolgreich gelöscht.',
 	'ATTACHMENT_DELETED'			=> 'Dateianhang erfolgreich gelöscht.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> '#Die ausgewählten Anmelde-Schlüssel wurden erfolgreich gelöscht.',
 	'AVATAR_CATEGORY'				=> 'Kategorie',
-	'AVATAR_EXPLAIN'				=> 'Maximale Bildgröße: %1$d Pixel breit, %2$d Pixel hoch. Maximale Dateigröße: %3$.2f KiB.',
+	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> '#Gravatar',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> '#Gravatar ist ein Dienst, mit dem du den gleichen Avatar auf mehreren Websites verwenden kannst. Unter <a href="http://www.gravatar.com/">Gravatar</a> erhältst du weitere Informationen.',
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> '#Avatar aus Galerie',
+	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> '#Du kannst deinen Avatar aus einer lokalen Galerie von Avataren auswählen.',
+	'AVATAR_DRIVER_REMOTE_TITLE'	=> '#Avatar verlinken',
+	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> '#Erstelle einen Link auf einen Avatar von einer anderen Website.',
+	'AVATAR_DRIVER_UPLOAD_TITLE'	=> '#Avatar hochladen',
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> '#Lade deinen persönlichen Avatar hoch.',
+	'AVATAR_EXPLAIN'				=> '#Maximale Größe: Breite: %1$s, Höhe: %2$s, Dateigröße: %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Die Avatar-Funktion ist derzeit deaktiviert.',
 	'AVATAR_GALLERY'				=> 'Lokale Galerie',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Konnte Avatar nicht nach %s hochladen.',
 	'AVATAR_NOT_ALLOWED'			=> 'Ihr Avatar kann nicht angezeigt werden, da Avatare deaktiviert wurden.',
 	'AVATAR_PAGE'					=> 'Seite',
+	'AVATAR_SELECT'					=> '#Wähle deinen Avatar aus',
+	'AVATAR_TYPE'					=> '#Typ des Avatars',
 	'AVATAR_TYPE_NOT_ALLOWED'		=> 'Ihr aktueller Avatar kann nicht angezeigt werden, da der verwendete Avatar-Typ deaktiviert wurde.',
 
 	'BACK_TO_DRAFTS'			=> 'Zurück zu den gespeicherten Entwürfen',
@@ -143,7 +156,6 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'Wenn Sie ein Jahr angeben, wird an Ihrem Geburtstag Ihr Alter angezeigt.',
 	'BOARD_DATE_FORMAT'			=> 'Mein Datums-Format',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Der Syntax entspricht der der <a href="http://www.php.net/date">date()</a>-Funktion von PHP.',
-	'BOARD_DST'					=> 'Derzeit ist Sommerzeit',
 	'BOARD_LANGUAGE'			=> 'Meine Sprache',
 	'BOARD_STYLE'				=> 'Mein Board-Style',
 	'BOARD_TIMEZONE'			=> 'Meine Zeitzone',
@@ -163,8 +175,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sZurück zu Ihrem „%3$s“-Ordner%2$s',
 	'CONFIRMATION'				=> 'Bestätigung der Registrierung',
 	'CONFIRM_CHANGES'			=> 'Änderungen bestätigen',
-	'CONFIRM_EMAIL'				=> 'Bestätigung der E-Mail-Adresse',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Sie müssen die Bestätigung nur angeben, wenn Sie Ihre E-Mail-Adresse ändern möchten.',
 	'CONFIRM_EXPLAIN'			=> 'Um automatisierte Anmeldungen zu unterbinden, müssen Sie einen Bestätigungscode angeben. Der Code ist in dem Bild unterhalb dieses Textes enthalten. Wenn Sie nur über ein eingeschränktes Sehvermögen verfügen oder aus einem anderen Grund den Code nicht lesen können, kontaktieren Sie bitte die %sBoard-Administration%s.',
 	'VC_REFRESH'				=> 'Neuer Code',
 	'VC_REFRESH_EXPLAIN'		=> 'Wenn Sie den Bestätigungscode nicht lesen können, können Sie mit dieser Schaltfläche einen neuen anfordern.',
@@ -228,27 +238,42 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'Exportiere diese Ansicht',
 
 	'FIELD_REQUIRED'					=> 'Das Feld „%s“ muss ausgefüllt werden.',
-	'FIELD_TOO_SHORT'					=> '„%1$s“ ist zu kurz, es sind mindestens %2$d Zeichen erforderlich.',
-	'FIELD_TOO_LONG'					=> '„%1$s“ ist zu lang, es sind maximal %2$d Zeichen zulässig.',
-	'FIELD_TOO_SMALL'					=> 'Der Wert von „%1$s“ ist zu klein, er muss mindestens %2$d betragen.',
-	'FIELD_TOO_LARGE'					=> 'Der Wert von „%1$s“ ist zu groß, er darf maximal %2$d betragen.',
+	'FIELD_TOO_SHORT'					=> array(
+		1	=> '#„%2$s“ ist zu kurz, es ist mindestens %1$d Zeichen erforderlich.',
+		2	=> '#„%2$s“ ist zu kurz, es sind mindestens %1$d Zeichen erforderlich',
+	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> '#„%2$s“ ist zu lang, es ist maximal %1$d Zeichen zulässig.',
+		2	=> '#„%2$s“ ist zu lang, es sind maximal %1$d Zeichen zulässig.',
+	),
+	'FIELD_TOO_SMALL'					=> '#Der Wert von „%2$s“ ist zu klein, er muss mindestens %1$d betragen.',
+	'FIELD_TOO_LARGE'					=> '#Der Wert von „%2$s“ ist zu groß, er darf maximal %1$d betragen.',
+	'FIELD_INVALID_CHARS_INVALID'		=> '#„%s“ enthält ungültige Zeichen.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> '„%s“ enthält ungültige Zeichen. Es sind nur Zahlen zulässig.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> '„%s“ enthält ungültige Zeichen. Es sind nur alphanumerische Zeichen zulässig.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> '„%s“ enthält ungültige Zeichen. Es sind nur alphanumerische, Leer- und -+_[]-Zeichen zulässig.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> '#„%s“ enthält ungültige Zeichen. Es sind nur alphanumerische, Leer- und -+_[]-Zeichen zulässig.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> '#„%s“ enthält ungültige Zeichen. Es sind nur alphanumerische Zeichen und Unterstriche („_“) zulässig.',
 	'FIELD_INVALID_DATE'				=> '„%s“ enthält ein ungültiges Datum.',
+	'FIELD_INVALID_URL'					=> '#„%s“ enthält eine ungültige URL.',
 	'FIELD_INVALID_VALUE'				=> '„%s“ enthält einen ungültigen Wert.',
 
 	'FOE_MESSAGE'				=> 'Nachricht von ignoriertem Mitglied',
 	'FOES_EXPLAIN'				=> 'Diese Mitglieder werden durch Sie ignoriert. Ihre Beiträge sind nicht vollständig sichtbar. Ignorierte Mitglieder können Ihnen aber weiterhin Private Nachrichten senden. Bitte beachten Sie, dass Sie keine Moderatoren oder Administratoren ignorieren können.',
 	'FOES_UPDATED'				=> 'Die Liste Ihrer ignorierten Mitglieder wurde erfolgreich aktualisiert.',
 	'FOLDER_ADDED'				=> 'Ordner erfolgreich angelegt.',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d von %2$d Nachrichten gespeichert',
+	'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> '#%2$d von %1$s gespeichert',
+		2	=> '#%2$d von %1$s gespeichert',
+	),
 	'FOLDER_NAME_EMPTY'			=> 'Sie müssen einen Namen für den Ordner angeben.',
 	'FOLDER_NAME_EXIST'			=> 'Der Ordner <strong>%s</strong> existiert bereits.',
 	'FOLDER_OPTIONS'			=> 'Ordner-Einstellungen',
 	'FOLDER_RENAMED'			=> 'Ordner erfolgreich umbenannt.',
 	'FOLDER_REMOVED'			=> 'Ordner erfolgreich gelöscht.',
-	'FOLDER_STATUS_MSG'			=> 'Ordner ist zu %1$d%% voll (%2$d von %3$d Nachrichten gespeichert)',
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> '#Ordner ist zu %3$d%% voll (%2$d von %1$s gespeichert)',
+		2	=> '#Ordner ist zu %3$d%% voll (%2$d von %1$s gespeichert)',
+	),
 	'FORWARD_PM'				=> 'PN weiterleiten',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Sie müssen Ihr Passwort ändern, bevor Sie andere Bereiche des Boards besuchen können.',
 	'FRIEND_MESSAGE'			=> 'Nachricht von Freund',
@@ -265,6 +290,11 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'An: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globale Bekanntmachung',
+
+	'GRAVATAR_AVATAR_EMAIL'			=> '#Gravatar-E-Mail-Adresse',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> '#Gebe die E-Mail-Adresse an, die du für die Registrierung auf <a href="http://www.gravatar.com/">Gravatar</a> verwendet hast.',
+	'GRAVATAR_AVATAR_SIZE'			=> '#Avatar-Größen',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> '#Gebe die Breite und die Höhe des Avatars an. Du kannst die Felder auch leer lassen, um eine automatische Erkennung zu versuchen.',
 
 	'HIDE_ONLINE'				=> 'Verberge meinen Online-Status',
 	'HIDE_ONLINE_EXPLAIN'		=> 'Wenn Sie diese Einstellung ändern, wird Sie erst bei Ihrem nächsten Besuch des Boards aktiv.',
@@ -286,6 +316,12 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'Avatar-Größe',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Geben Sie die Breite und die Höhe des Avatars an. Wenn die Felder leer gelassen werden, wird eine automatische Erkennung versucht.',
 	'LOGIN_EXPLAIN_UCP'			=> 'Bitte melden Sie sich an, um auf Ihren persönlichen Bereich zuzugreifen.',
+	'LOGIN_LINK'					=> '#Verknüpfe das externe Konto mit deinem Benutzerkonto auf diesem Board oder registriere dich neu',
+	'LOGIN_LINK_EXPLAIN'			=> '#Du hast versucht, dich mit einem externen Konto anzumelden, das noch nicht mit einem Benutzerkonto auf diesem Board verknüpft ist. Du musst entweder das externe Konto mit einem bestehenden Benutzerkonto verknüpfen oder ein neues erstellen.',
+	'LOGIN_LINK_MISSING_DATA'		=> '#Daten, die zur Verknüpfung deines Benutzerkontos mit einem externen Konto notwendig sind, wurden nicht bereitgestellt. Bitte starte den Anmeldevorgang erneut.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> '#Dieser Seite wurden keine Daten übermittelt, die zur Verknüpfung deines Benutzerkontos mit einem externen Konto notwendig sind. Bitte wende dich an die Board-Administration, sofern das Problem regelmäßig auftritt.',
+	'LOGIN_KEY'					=> '#Anmelde-Schlüssel',
+	'LOGIN_TIME'				=> '#Zeitpunkt der Anmeldung',
 	'LOGIN_REDIRECT'			=> 'Sie wurden erfolgreich angemeldet.',
 	'LOGOUT_FAILED'				=> 'Sie wurden nicht abgemeldet, da die Anfrage nicht zu Ihrer Sitzung passte. Bitte wenden Sie sich an die Board-Administration, sofern das Problem regelmäßig auftritt.',
 	'LOGOUT_REDIRECT'			=> 'Sie wurden erfolgreich abgemeldet.',
@@ -306,19 +342,42 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Nachrichten im zu löschenden Ordner verschieben nach',
 	'MOVE_DOWN'						=> 'Nach unten',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Markierte verschieben nach %s',
-	'MOVE_PM_ERROR'					=> 'Beim Verschieben Ihrer Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurden nur %1$d von %2$d Nachrichten verschoben.',
+	'MOVE_PM_ERROR'					=> array(
+		1	=> '#Beim Verschieben deiner Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurde nur %2$d von %1$s verschoben.',
+		2	=> '#Beim Verschieben deiner Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurden nur %2$d von %1$s verschoben.',
+	),
 	'MOVE_TO_FOLDER'				=> 'In Ordner verschieben',
 	'MOVE_UP'						=> 'Nach oben',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Sie haben Ihre E-Mail-Adresse nicht bestätigt.',
-	'NEW_EMAIL_ERROR'			=> 'Die angegebenen E-Mail-Adressen stimmten nicht überein.',
 	'NEW_FOLDER_NAME'			=> 'Neuer Name des Ordners',
 	'NEW_PASSWORD'				=> 'Neues Passwort',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Sie haben das Passwort nicht bestätigt.',
 	'NEW_PASSWORD_ERROR'		=> 'Das angegebene Passwort stimmte nicht mit seiner Bestätigung überein.',
+
+	'NOTIFICATIONS_MARK_ALL_READ'						=> '#Alle Benachrichtigungen als gelesen markieren',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> '#Bist du dir sicher, dass du alle Benachrichtigungen als gelesen markieren willst?',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> '#Alle Benachrichtiungen wurden als gelesen markiert.',
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> '#Weitere Benachrichtigungen',
+	'NOTIFICATION_GROUP_MODERATION'						=> '#Benachrichtigungen für Moderatoren',
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> '#Benachrichtigungen für Administratoren',
+	'NOTIFICATION_GROUP_POSTING'						=> '#Benachrichtigungen zu Beiträgen',
+	'NOTIFICATION_METHOD_EMAIL'							=> '#E-Mail',
+	'NOTIFICATION_METHOD_JABBER'						=> '#Jabber',
+	'NOTIFICATION_TYPE'									=> '#Benachrichtigungs-Typ',
+	'NOTIFICATION_TYPE_BOOKMARK'						=> '#Jemand antwortet auf ein Thema, für das du ein Lesezeichen gesetzt hast',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> '#Jemand möchte einer Gruppe beitreten, deren Leiter du bist',
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> '#Ein Beitrag oder ein Thema muss freigegeben werden',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> '#Deine Themen/Beiträge wurden von einem Moderator freigegeben oder die Freigabe abgelehnt',
+	'NOTIFICATION_TYPE_PM'								=> '#Jemand sendet dir eine Private Nachricht',
+	'NOTIFICATION_TYPE_POST'							=> '#Jemand antwortet auf ein Thema, dass du beobachtest',
+	'NOTIFICATION_TYPE_QUOTE'							=> '#Jemand zitiert dich in einem Beitrag',
+	'NOTIFICATION_TYPE_REPORT'							=> '#Jemand hat einen Beitrag gemeldet',
+	'NOTIFICATION_TYPE_TOPIC'				   			=> '#Jemand erstellt einen Beitrag in einem Forum, dass du beobachtest',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> '#Ein neu registrierter Benutzer muss aktiviert werden',
+
 	'NOTIFY_METHOD'				=> 'Benachrichtigungs-Methode',
 	'NOTIFY_METHOD_BOTH'		=> 'Beide',
-	'NOTIFY_METHOD_EMAIL'		=> 'Nur per E-Mail',
+	'NOTIFY_METHOD_EMAIL'			=> 'Nur per E-Mail',
 	'NOTIFY_METHOD_EXPLAIN'		=> 'Methode, die für den Versand von Nachrichten über das Board verwendet wird.',
 	'NOTIFY_METHOD_IM'			=> 'Nur per Jabber',
 	'NOTIFY_ON_PM'				=> 'Benachrichtige mich über neue Nachrichten',
@@ -333,8 +392,10 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'Sie können sich nicht selbst zu Ihren ignorierten Mitgliedern hinzufügen.',
 	'NOT_AGREE'						=> 'Ich bin mit diesen Bedingungen nicht einverstanden',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Der Ziel-Ordner „%s“ scheint voll zu sein. Die gewählte Aktion wurde nicht durchgeführt.',
-	'NOT_MOVED_MESSAGE'				=> 'Sie haben 1 zurückgehaltene Private Nachricht, weil der Ordner voll ist.',
-	'NOT_MOVED_MESSAGES'			=> 'Sie haben %d zurückgehaltene Private Nachrichten, weil der Ordner voll ist.',
+	'NOT_MOVED_MESSAGES'			=> array(
+		1	=> '#Du hast %d zurückgehaltene Private Nachricht, weil der Ordner voll ist.',
+		2	=> '#Du hast %d zurückgehaltene Private Nachrichten, weil der Ordner voll ist.',
+	),
 	'NO_ACTION_MODE'				=> 'Keine Nachrichten-Aktion festgelegt.',
 	'NO_AUTHOR'						=> 'Es ist kein Autor für diese Nachricht festgelegt.',
 	'NO_AVATAR_CATEGORY'			=> 'Keine',
@@ -344,6 +405,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Sie sind nicht berechtigt, Private Nachrichten weiterzuleiten.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Sie sind nicht berechtigt, Private Nachrichten an Gruppen zu senden.',
 	'NO_AUTH_PASSWORD_REMINDER'		=> 'Sie sind nicht berechtigt, ein neues Passwort anzufordern.',
+	'NO_AUTH_PROFILEINFO'			=> '#Du bist nicht berechtigt, deine Profilinformationen zu ändern.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Sie sind nicht berechtigt, zurückgehaltene Private Nachrichten zu lesen.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Sie sind nicht berechtigt, Private Nachrichten zu lesen.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Sie können diese Nachricht nicht lesen, weil sie von ihrem Autor gelöscht wurde.',
@@ -374,10 +436,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Sie haben keine beobachteten Themen oder Foren ausgewählt.',
 	'NO_WATCHED_TOPICS'			=> 'Sie beobachten keine Themen.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Das Passwort muss zwischen %1$d und %2$d Zeichen lang sein und aus Groß- und Kleinbuchstaben sowie Ziffern bestehen.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Muss zwischen %1$d und %2$d Zeichen lang sein.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Das Passwort muss zwischen %1$d und %2$d Zeichen lang sein und muss aus Groß- und Kleinbuchstaben bestehen.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Das Passwort muss zwischen %1$d und %2$d Zeichen lang sein und muss aus Groß- und Kleinbuchstaben, Ziffern sowie Sonderzeichen bestehen.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> '#Das Passwort muss zwischen %1$s und %2$s lang sein und aus Groß- und Kleinbuchstaben sowie Ziffern bestehen.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> '#Muss zwischen %1$s und %2$s lang sein.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> '#Das Passwort muss zwischen %1$s und %2$s lang sein und muss aus Groß- und Kleinbuchstaben bestehen.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '#Das Passwort muss zwischen %1$s und %2$s lang sein und muss aus Groß- und Kleinbuchstaben, Ziffern sowie Sonderzeichen bestehen.',
 	'PASSWORD'					=> 'Passwort',
 	'PASSWORD_ACTIVATED'		=> 'Ihr neues Passwort wurde aktiviert.',
 	'PASSWORD_UPDATED'			=> 'Ihr neues Passwort wurde an Ihre hinterlegte E-Mail-Adresse gesendet.',
@@ -393,8 +455,9 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'Gesendete Nachrichten',
 	'PM_SUBJECT'				=> 'Betreff',
 	'PM_TO'						=> 'Senden an',
+	'PM_TOOLS'					=> '#Nachrichten-Optionen',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> '#Einige Benutzer konnten nicht hinzugefügt werden, da sie keine Berechtigung haben, Private Nachrichten zu lesen.',
 	'PM_USERS_REMOVED_NO_PM'	=> 'Einige Benutzer konnten nicht hinzugefügt werden, da sie den Empfang Privater Nachrichten deaktiviert haben.',
-	'POPUP_ON_PM'				=> 'Öffne ein Benachrichtigungsfenster bei neuen Privaten Nachrichten',
 	'POST_EDIT_PM'				=> 'Nachricht ändern',
 	'POST_FORWARD_PM'			=> 'Nachricht weiterleiten',
 	'POST_NEW_PM'				=> 'Neue Nachricht erstellen',
@@ -406,6 +469,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'Ihre Einstellungen wurden aktualisiert.',
 	'PROFILE_INFO_NOTICE'		=> 'Bitte beachten Sie, dass diese Angaben von anderen Mitgliedern einsehbar sind. Seien Sie daher vorsichtig, wenn Sie persönliche Daten angeben. Jedes mit einem * markierte Feld muss ausgefüllt werden.',
 	'PROFILE_UPDATED'			=> 'Ihr Profil wurde aktualisiert.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> '#Durch eine gespeicherte Anmeldung wirst du beim Aufruf des Boards automatisch angemeldet. Wenn du dich abmeldest, wird die Anmeldung nur auf dem Computer gelöscht, auf dem du die Abmeldung durchführst. Hier kannst du alle Anmelde-Schlüssel sehen, die du auf anderen Computern erstellt hast, um auf dieses Board zuzugreifen.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> '#Es gibt keine gespeicherten Anmeldungen.',
 
 	'RECIPIENT'							=> 'Empfänger',
 	'RECIPIENTS'						=> 'Empfänger',
@@ -430,8 +495,10 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'						=> 'Regel erfolgreich entfernt.',
 	'RULE_LIMIT_REACHED'				=> 'Sie können keine weiteren Regeln für Private Nachrichten erstellen, da Sie das Maximum möglicher Regeln erreicht haben.',
 	'RULE_NOT_DEFINED'					=> 'Die Regel wurde nicht korrekt definiert.',
-	'RULE_REMOVED_MESSAGE'				=> 'Eine Private Nachricht wurde auf Grund Ihrer Regeln entfernt.',
-	'RULE_REMOVED_MESSAGES'				=> '%d Private Nachrichten wurden auf Grund Ihrer Regeln entfernt.',
+	'RULE_REMOVED_MESSAGES'				=> array(
+		1	=> '#Eine Private Nachricht wurde auf Grund deiner Regeln entfernt.',
+		2	=> '#%d Private Nachrichten wurden auf Grund deiner Regeln entfernt.',
+	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Das von Ihnen eingegebene neue Passwort entspricht Ihrem aktuellen Passwort.',
 	'SEARCH_YOUR_POSTS'			=> 'Ihre Beiträge anzeigen',
@@ -441,6 +508,8 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_EXPLAIN'			=> 'Eine Signatur ist ein Text, der an Ihre Nachrichten angefügt werden kann. Sie ist auf %d Zeichen begrenzt.',
 	'SIGNATURE_PREVIEW'			=> 'Ihre Signatur wird folgendermaßen aussehen',
 	'SIGNATURE_TOO_LONG'		=> 'Ihre Signatur ist zu lang.',
+	'SELECT_CURRENT_TIME'		=> '#Aktuelle Zeitzone auswählen',
+	'SELECT_TIMEZONE'			=> '#Zeitzone auswählen',
 	'SORT'						=> 'Sortiere',
 	'SORT_COMMENT'				=> 'Dateikommentar',
 	'SORT_DOWNLOADS'			=> 'Downloads',
@@ -450,20 +519,33 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'Dateigröße',
 
 	'TIMEZONE'					=> 'Zeitzone',
-	'TO'						=> 'An',
+	'TIMEZONE_DATE_SUGGESTION'	=> '#Vorschlag: %s',
+	'TIMEZONE_INVALID'			=> '#Die von dir ausgewählte Zeitzone ist ungültig.',
+	'TO'						=> '#Empfänger',
+	'TO_MASS'					=> '#Empfänger',
+	'TO_ADD'					=> '#Empfänger hinzufügen',
+	'TO_ADD_MASS'				=> '#Empfänger hinzufügen',
+	'TO_ADD_GROUPS'				=> '#Gruppe hinzufügen',
 	'TOO_MANY_RECIPIENTS'		=> 'Sie haben versucht, eine Private Nachricht an zu viele Empfänger zu senden.',
 	'TOO_MANY_REGISTERS'		=> 'Sie haben die zulässige Zahl von Registrierungs-Versuchen in dieser Sitzung überschritten. Bitte versuchen Sie es später erneut.',
 
 	'UCP'						=> 'Persönlicher Bereich',
 	'UCP_ACTIVATE'				=> 'Benutzerkonto aktivieren',
 	'UCP_ADMIN_ACTIVATE'		=> 'Bitte beachten Sie, dass Sie eine gültige E-Mail-Adresse angeben müssen, bevor Ihr Benutzerkonto aktiviert wird. Ein Administrator wird Ihr Benutzerkonto überprüfen und wenn er es freigibt, erhalten Sie eine Nachricht an die angegebene E-Mail-Adresse.',
-	'UCP_AIM'					=> 'AOL-Webname',
 	'UCP_ATTACHMENTS'			=> 'Dateianhänge',
+	'UCP_AUTH_LINK'				=> '#Externes Konto',
+	'UCP_AUTH_LINK_ASK'			=> '#Du hast dein Benutzerkonto derzeit nicht mit diesem Dienst verknüpft. Mit unten stehender Schaltfläche kannst du dein Benutzerkonto mit einem Konto dieses externen Dienstes verknüpfen.',
+	'UCP_AUTH_LINK_ID'			=> '#Eindeutige ID',
+	'UCP_AUTH_LINK_LINK'		=> '#Verknüpfen',
+	'UCP_AUTH_LINK_MANAGE'		=> '#Verknüpfungen mit externen Konten verwalten',
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> '#Die Verknüpfung deines Benutzerkontos mit externen Konten wird durch die aktuelle Authentifizierungs-Methode des Boards nicht unterstützt.',
+	'UCP_AUTH_LINK_TITLE'		=> '#Verwalte deine Verknüpfungen mit externen Konten',
+	'UCP_AUTH_LINK_UNLINK'		=> '#Verknüpfung lösen',
 	'UCP_COPPA_BEFORE'			=> 'Vor dem %s',
 	'UCP_COPPA_ON_AFTER'		=> 'Am %s oder später',
 	'UCP_EMAIL_ACTIVATE'		=> 'Bitte beachten Sie, dass Sie eine gültige E-Mail-Adresse angeben müssen, bevor Ihr Benutzerkonto aktiviert wird. Sie erhalten eine E-Mail an die angegebene Adresse, in der ein Aktivierungs-Schlüssel enthalten ist.',
-	'UCP_ICQ'					=> 'ICQ-Nummer',
 	'UCP_JABBER'				=> 'Jabber-ID',
+	'UCP_LOGIN_LINK'			=> '#Verknüpfung mit externem Konto einrichten',
 
 	'UCP_MAIN'					=> 'Einstieg',
 	'UCP_MAIN_ATTACHMENTS'		=> 'Dateianhänge verwalten',
@@ -472,8 +554,12 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Übersicht',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Benachrichtigungen verwalten',
 
-	'UCP_MSNM'					=> 'WLM-Adresse',
 	'UCP_NO_ATTACHMENTS'		=> 'Sie haben keine Dateianhänge erstellt.',
+
+	'UCP_NOTIFICATION_LIST'				=> '#Benachrichtigungen verwalten',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> '#Hier kannst du alle Benachrichtigungen der Vergangenheit sehen.',
+	'UCP_NOTIFICATION_OPTIONS'			=> '#Benachrichtigungen einstellen',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> '#Hier kannst du die gewünschten Benachrichtigungswege für das Board festlegen.',
 
 	'UCP_PREFS'					=> 'Einstellungen',
 	'UCP_PREFS_PERSONAL'		=> 'Persönliche Einstellungen',
@@ -484,8 +570,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> 'Neue Nachricht erstellen',
 	'UCP_PM_DRAFTS'				=> 'PN-Entwürfe verwalten',
 	'UCP_PM_OPTIONS'			=> 'Regeln, Ordner &amp; Einstellungen',
-	'UCP_PM_POPUP'				=> 'Private Nachrichten',
-	'UCP_PM_POPUP_TITLE'		=> 'Benachrichtigung über Private Nachrichten',
 	'UCP_PM_UNREAD'				=> 'Ungelesene Nachrichten',
 	'UCP_PM_VIEW'				=> 'Nachrichten anzeigen',
 
@@ -494,16 +578,17 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Profil ändern',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Registrierungs-Details ändern',
 	'UCP_PROFILE_SIGNATURE'		=> 'Signatur ändern',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> '#Gespeicherte Anmeldungen verwalten',
 
 	'UCP_USERGROUPS'			=> 'Benutzergruppen',
 	'UCP_USERGROUPS_MEMBER'		=> 'Mitgliedschaften ändern',
 	'UCP_USERGROUPS_MANAGE'		=> 'Gruppen verwalten',
 
+	'UCP_PASSWORD_RESET_DISABLED'	=> '#Die Funktion zum Zurücksetzen eines Passworts wurde deaktiviert. Wenn du Unterstützung beim Zugriff auf dein Benutzerkonto benötigst, wende dich bitte an die %sBoard-Administration%s',
 	'UCP_REGISTER_DISABLE'			=> 'Eine Registrierung ist derzeit nicht möglich.',
 	'UCP_REMIND'					=> 'Passwort senden',
 	'UCP_RESEND'					=> 'Aktivierungs-Schlüssel senden',
 	'UCP_WELCOME'					=> 'Willkommen im persönlichen Bereich. Hier können Sie Ihr Profil, Ihre Präferenzen, Ihre beobachteten Foren und Themen überwachen, ansehen und aktualisieren. Sie können auch Nachrichten an andere Mitglieder schicken (sofern erlaubt). Bitte lesen Sie alle Bekanntmachungen, bevor Sie fortfahren.',
-	'UCP_YIM'						=> 'Yahoo!-ID',
 	'UCP_ZEBRA'						=> 'Freunde und ignorierte Mitglieder',
 	'UCP_ZEBRA_FOES'				=> 'Ignorierte Mitglieder verwalten',
 	'UCP_ZEBRA_FRIENDS'				=> 'Freunde verwalten',
@@ -513,12 +598,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Von Ihrem Rechner hochladen',
 	'UPLOAD_AVATAR_URL'				=> 'Von URL hochladen',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Geben Sie die URL an, an der sich das Avatar-Bild befindet. Es wird dann auf diese Site hochgeladen.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Der Benutzername muss zwischen %1$d und %2$d Zeichen lang sein und darf nur aus alphanumerischen Zeichen bestehen.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Der Benutzername muss zwischen %1$d und %2$d Zeichen lang sein und darf nur aus alphanumerischen, Leer- und -+_[]-Zeichen bestehen.',
-	'USERNAME_ASCII_EXPLAIN'		=> 'Der Benutzername muss zwischen %1$d und %2$d Zeichen lang sein und darf nur aus ASCII-Zeichen (also keinen Sonderzeichen oder Umlauten) bestehen.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Der Benutzername muss zwischen %1$d und %2$d Zeichen lang sein und darf nur aus Buchstaben und Ziffern bestehen.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Der Benutzername muss zwischen %1$d und %2$d Zeichen lang sein und darf nur aus Buchstaben, Ziffern, Leer- und -+_[]-Zeichen bestehen.',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Der Benutzername muss zwischen %1$d und %2$d Zeichen lang sein.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> '#Der Benutzername muss zwischen %1$s und %2$s lang sein und darf nur aus alphanumerischen Zeichen bestehen.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> '#Der Benutzername muss zwischen %1$s und %2$s lang sein und darf nur aus alphanumerischen, Leer- und -+_[]-Zeichen bestehen.',
+	'USERNAME_ASCII_EXPLAIN'		=> '#Der Benutzername muss zwischen %1$s und %2$s lang sein und darf nur aus ASCII-Zeichen (also keinen Sonderzeichen oder Umlauten) bestehen.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> '#Der Benutzername muss zwischen %1$s und %2$s lang sein und darf nur aus Buchstaben und Ziffern bestehen.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> '#Der Benutzername muss zwischen %1$s und %2$s lang sein und darf nur aus Buchstaben, Ziffern, Leer- und -+_[]-Zeichen bestehen.',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> '#Der Benutzername muss zwischen %1$s und %2$s lang sein.',
 	'USERNAME_TAKEN_USERNAME'		=> 'Der ausgewählte Benutzername ist bereits vergeben. Bitte wählen Sie einen anderen aus.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'Der ausgewählte Benutzername wurde gesperrt oder enthält ein zensiertes Wort. Bitte wählen Sie einen anderen Benutzernamen.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Die von Ihnen angegebenen Benutzernamen wurden entweder nicht gefunden oder es handelt sich um nicht aktivierte Benutzer.',
@@ -531,8 +616,10 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'Nächste PN',
 	'VIEW_PM'					=> 'Nachricht anzeigen',
 	'VIEW_PM_INFO'				=> 'Details der Nachricht',
-	'VIEW_PM_MESSAGE'			=> '1 Nachricht',
-	'VIEW_PM_MESSAGES'			=> '%d Nachrichten',
+	'VIEW_PM_MESSAGES'			=> array(
+		1	=> '#%d Nachricht',
+		2	=> '#%d Nachrichten',
+	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Vorherige PN im Verlauf',
 	'VIEW_PREVIOUS_PM'			=> 'Vorherige PN',
 	'VIEW_SIGS'					=> 'Signaturen anzeigen',
@@ -560,14 +647,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'In Ordner ablegen',
 		'MARK_AS_READ'		=> 'Als gelesen markieren',
 		'MARK_AS_IMPORTANT'	=> 'Markieren',
-		'DELETE_MESSAGE'	=> 'Nachricht löschen'
+		'DELETE_MESSAGE'	=> 'Nachricht löschen',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Betreff',
 		'SENDER'	=> 'Absender',
 		'MESSAGE'	=> 'Nachricht',
 		'STATUS'	=> 'Nachrichten-Status',
-		'TO'		=> 'Gesendet an'
+		'TO'		=> 'Gesendet an',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'ist wie',
@@ -583,9 +670,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'beantwortet',
 		'FORWARDED'		=> 'weitergeleitet',
 		'TO_GROUP'		=> 'meine Hauptgruppe',
-		'TO_ME'			=> 'mich'
+		'TO_ME'			=> 'mich',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'Benutzergruppen erleichtern den Administratoren die Benutzerverwaltung. Standardmäßig werden Sie einer spezifischen Gruppe zugeordnet, Ihrer Hauptgruppe. Diese Gruppe legt fest, wie Sie andere Benutzer sehen, z.&nbsp;B. die Farbe Ihres Benutzernamens, Ihren Avatar oder Ihren Rang. Sie können Ihre Hauptgruppe ändern, sofern dies die Administratoren erlaubt haben. Sie können auch anderen Gruppen zugeordnet werden oder das Recht erhalten, anderen Gruppen beizutreten. Durch manche Gruppen erhalten Sie das Recht, auf zusätzliche Inhalte zuzugreifen oder Ihre Möglichkeiten werden in anderen Bereichen erweitert.',
 	'GROUP_LEADER'		=> 'Gruppen-Leiter',

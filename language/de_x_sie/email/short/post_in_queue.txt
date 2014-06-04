@@ -1,0 +1,13 @@
+#Subject: Benachrichtigung zur Beitrags-Moderation — „{TOPIC_TITLE}“
+
+Hallo {USERNAME},
+
+du erhältst diese Nachricht, weil der Beitrag „{POST_SUBJECT}“ auf „{SITENAME}“ auf Freigabe wartet.
+
+Wenn du den Beitrag ansehen möchtest, verwende folgenden Link:
+{U_VIEW_POST}
+
+Wenn du das Thema ansehen möchtest, verwende folgenden Link:
+{U_TOPIC}
+
+{EMAIL_SIG}

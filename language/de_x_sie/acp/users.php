@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* acp_users [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -54,6 +56,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Sie können keine erneute Aktivierung für Benutzerkonten von Gründern erzwingen.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Sie können für Ihr eigenes Benutzerkonto keine erneute Aktivierung erzwingen.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Sie können das Gäste-Benutzerkonto nicht löschen.',
+	'CANNOT_REMOVE_FOUNDER'			=> '#Du kannst keine Benutzerkonten von Gründern löschen.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Sie können Ihr eigenes Benutzerkonto nicht löschen.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Sie können keine ignorierten Mitglieder zu Gründern ernennen.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Sie müssen Benutzer erst aktivieren, bevor Sie sie zum Gründer ernennen können, da nur aktive Benutzer zum Gründer ernannt werden können.',

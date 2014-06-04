@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* acp_permissions [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -198,7 +200,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Wie „Standard-Zugang“, kann aber auch Umfragen erstellen.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Kann das Forum lesen, aber keine neuen Themen oder Antworten erstellen.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Kann die meisten Foren-Funktionen inkl. Dateianhänge nutzen und kann eigene Themen löschen, kann aber keine Umfragen erstellen.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <samp>NIE</samp>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> '#Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <strong>NIE</strong>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Kann alle Moderations-Funktionen inkl. der Sperren nutzen.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Kann die Moderations-Warteschlange benutzen, um Beiträge zu bestätigen und zu ändern — aber nichts anderes.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Kann nur die themenbezogenen Grundfunktionen nutzen. Kann keine Verwarnungen erteilen oder die Moderations-Warteschlange nutzen.',
@@ -208,7 +210,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Hat eingeschränkte Rechte und kann keinen Avatar benutzen.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Hat eingeschränkte Rechte und kann keine Privaten Nachrichten benutzen.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Kann fast alle Benutzer-Funktionen verwenden. Ausgenommen sind z.&nbsp;B. die Änderung des Benutzernames oder das Übergehen der Wartezeit.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <samp>NIE</samp>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> '#Eine Rolle für Mitglieder der speziellen Gruppe neu registrierter Benutzer. Enthält <strong>NIE</strong>-Berechtigungen, um Funktionen für neue Benutzer zu sperren.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Sie können eine kurze Beschreibung angeben, was diese Rolle macht oder für was sie gedacht ist. Der Text, den Sie hier angeben, wird auch in der Berechtigungs-Verwaltung angezeigt.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Die Beschreibung der Rolle ist zu lang. Sie muss weniger als 4000 Zeichen umfassen.',
@@ -229,23 +231,23 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> 'Benutzer-Berechtigungen festlegen',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'Benutzerspezifische Forenrechte festlegen',
 
-	'TRACE_DEFAULT'							=> 'Standardmäßig ist jede Berechtigung auf <strong>NEIN</strong> (nicht definiert), so dass die Berechtigung durch andere Berechtigungen überschrieben werden kann.',
+	'TRACE_DEFAULT'					=> 'Standardmäßig ist jede Berechtigung auf <strong>NEIN</strong> (nicht definiert), so dass die Berechtigung durch andere Berechtigungen überschrieben werden kann.',
 	'TRACE_FOR'								=> 'Verfolgung der Einstellung von',
 	'TRACE_GLOBAL_SETTING'					=> '%s (global)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'			=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'			=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_NEVER_TOTAL_YES'			=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
-	'TRACE_GROUP_NO'						=> 'Die Berechtigung dieser Gruppe ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
-	'TRACE_GROUP_NO_LOCAL'					=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'			=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
-	'TRACE_GROUP_YES_TOTAL_NO'				=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
-	'TRACE_GROUP_YES_TOTAL_YES'				=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'		=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'Die Berechtigung dieser Gruppe ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NIE</strong>, was das Ergebnis <strong>JA</strong> für diesen Benutzer mit <strong>NIE</strong> überschreibt.',
+	'TRACE_GROUP_NO'				=> 'Die Berechtigung dieser Gruppe ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
+	'TRACE_GROUP_NO_LOCAL'			=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>NEIN</strong>, so dass die alte Berechtigung beibehalten wird.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, aber das Ergebnis <strong>NIE</strong> kann nicht überschritten werden.',
+	'TRACE_GROUP_YES_TOTAL_NO'		=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong>, was zum neuen Ergebnis wird, weil es bislang nicht definiert (<strong>NEIN</strong>) war.',
+	'TRACE_GROUP_YES_TOTAL_YES'		=> 'Die Berechtigung dieser Gruppe ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'Die Berechtigung dieser Gruppe für dieses Forum ist <strong>JA</strong> wie das Ergebnis, so dass das alte Ergebnis beibehalten wird.',
 	'TRACE_PERMISSION'						=> 'Einstellung verfolgen — %s',
 	'TRACE_RESULT'							=> 'Ergebnis der Verfolgung',
 	'TRACE_SETTING'							=> 'Einstellung verfolgen',

@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* acp_forums [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -104,6 +106,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'Das Forum-Passwort nutzt eine veraltete Hash-Methode und sollte geändert werden.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Die angegebenen Passwörter stimmen nicht überein.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Einstellungen zum automatischen Löschen',
+	'FORUM_PRUNE_SHADOW'				=> '#Automatische Löschen von Links zu verschobenen Themen',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> '#Löscht Links zu verschobenen Themen aus dem Forum. Die Einstellungen für Häufigkeit und Alter legst du unten fest.',
 	'FORUM_RESYNCED'					=> 'Forum „%s“ wurde erfolgreich resynchronisiert',
 	'FORUM_RULES_EXPLAIN'				=> 'Die Forumsregeln werden auf allen Seiten innerhalb des jeweiligen Forums angezeigt.',
 	'FORUM_RULES_LINK'					=> 'Link zu den Forumsregeln',

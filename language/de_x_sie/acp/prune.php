@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* acp_prune [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -39,7 +41,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Dieser Bereich erlaubt es Ihnen, Benutzer Ihres Boards zu löschen oder zu deaktivieren. Benutzerkonten können anhand verschiedener Kriterien selektriert werden: der Beitragszahl, der letzten Aktivität usw. Die Kriterien können kombiniert werden, so dass Sie die betroffenen Benutzer weiter einschränken können. So können Sie z.&nbsp;B. Benutzer löschen, die weniger als 10 Beiträge haben und deren letzte Aktivität vor dem 2002-01-01 war. Alternativ können Sie die Kriterien auch überspringen, indem Sie eine Liste von Benutzernamen direkt in das Textfeld eingeben (jeden Benutzer in eine Zeile). Gehen Sie mit diesem Tool vorsichtig um! Wenn ein Benutzer gelöscht ist, gibt es keine Funktion, um diesen Vorgang rückgängig zu machen.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> '#Dieser Bereich erlaubt es dir, Benutzer deines Boards zu löschen oder zu deaktivieren. Benutzerkonten können anhand verschiedener Kriterien selektriert werden: der Beitragszahl, der letzten Aktivität usw. Die Kriterien können kombiniert werden, so dass du die betroffenen Benutzer weiter einschränken kannst. So kannst du z.&nbsp;B. Benutzer löschen, die weniger als 10 Beiträge haben und deren letzte Aktivität vor dem 2002-01-01 war. Bei Textfeldern kannst Du einen Stern (*) als Platzhalter verwenden. Alternativ kannst du die Kriterien auch überspringen, indem du eine Liste von Benutzernamen direkt in das Textfeld eingibst (jeden Benutzer in eine Zeile). Gehe mit diesem Tool vorsichtig um! Wenn ein Benutzer gelöscht ist, gibt es keine Funktion, um diesen Vorgang rückgängig zu machen.',
+
+	'CRITERIA'				=> '#Kriterien',
 
 	'DEACTIVATE_DELETE'			=> 'Deaktivieren oder löschen',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Wählen Sie aus, ob der Benutzer deaktiviert oder gelöscht werden soll. Ein deaktivierter Benutzer kann in der Benutzerverwaltung wieder aktiviert werden, eine Löschung hingegen ist endgültig.',
@@ -47,13 +51,16 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Lösche Beiträge der gelöschten Benutzer',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Entfernt zusätzlich die Beiträge der gelöschten Benutzer. Hat keine Auswirkung, wenn die Benutzer deaktiviert werden.',
 
-	'JOINED_EXPLAIN'			=> 'Geben Sie ein Datum im Format <kbd>JJJJ-MM-TT</kbd> an.',
+	'JOINED_EXPLAIN'			=> '#Gib ein Datum im Format <kbd>JJJJ-MM-TT</kbd> an. Du kannst beide Felder verwenden, um einen abgeschlossenen Bereich auszuwählen oder ein Feld leer lassen, um einen offenen Bereich zu verwenden.',
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Geben Sie ein Datum im Format <kbd>JJJJ-MM-TT</kbd> an. Verwenden Sie <kbd>0000-00-00</kbd>, um die Benutzer zu löschen, die sich nie angemeldet haben; die <em>Vor dem</em>- und <em>Nach dem</em>-Bedingungen werden dann ignoriert.',
 
-	'PRUNE_USERS_LIST'				=> 'Zu löschende Benutzer',
-	'PRUNE_USERS_LIST_DELETE'		=> 'Mit den angegebenen Kriterien werden folgende Benutzer gelöscht:',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Mit den angegebenen Kriterien werden folgende Benutzer deaktiviert:',
+	'POSTS_ON_QUEUE'			=> '#Auf Freigabe wartende Beiträge',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> '#Beschränke auf Mitglieder folgender Gruppe.',
+	'PRUNE_USERS_GROUP_NONE'	=> '#Alle Gruppen',
+	'PRUNE_USERS_LIST'				=> 'Zu löschende Benutzer', // TODO: Das passt nicht ganz
+	'PRUNE_USERS_LIST_DELETE'		=> '#Mit den angegebenen Kriterien werden folgende Benutzer gelöscht. Du kannst einzelne Benutzer von der Liste der zu löschenden Benutzer entfernen, in dem du die Markierung neben dem Benutzernamen entfernst.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> '#Mit den angegebenen Kriterien werden folgende Benutzer deaktiviert. Du kannst einzelne Benutzer von der Liste der zu deaktivierenden Benutzer entfernen, in dem du die Markierung neben dem Benutzernamen entfernst.',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Geben Sie hier spezifische Benutzernamen ein. Die oben angegebenen Kriterien werden dann ignoriert. Gründer können nicht gelöscht werden.',
 

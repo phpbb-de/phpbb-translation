@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* memberlist [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -50,7 +52,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Vor dem',
 
 	'CC_EMAIL'				=> 'Eine Kopie dieser E-Mail an mich senden.',
-	'CONTACT_USER'			=> 'Kontaktdaten',
 
 	'DEST_LANG'				=> 'Sprache',
 	'DEST_LANG_EXPLAIN'		=> 'Wählen Sie — sofern verfügbar — eine passende Sprache aus, in der der Empfänger die Nachricht erhalten soll.',
@@ -74,16 +75,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Das Suchformular ausblenden',
 
 	'IM_ADD_CONTACT'		=> 'Kontakt hinzufügen',
-	'IM_AIM'				=> 'Bitte beachten Sie, dass Sie AOL Instant Messenger installiert haben müssen, um diese Funktion zu nutzen.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Anwendung herunterladen',
-	'IM_ICQ'				=> 'Bitte beachten Sie, dass die Benutzer den Empfang unverlangter Nachrichten deaktiviert haben können.',
 	'IM_JABBER'				=> 'Bitte beachten Sie, dass die Benutzer den Empfang unverlangter Nachrichten deaktiviert haben können.',
 	'IM_JABBER_SUBJECT'		=> 'Dies ist eine automatische Nachricht, bitte beantworten Sie sie nicht. Nachricht von Benutzer %1$s auf %2$s.',
 	'IM_MESSAGE'			=> 'Ihre Nachricht',
-	'IM_MSNM'				=> 'Bitte beachten Sie, dass Sie Windows Live Messenger installiert haben müssen, um diese Funktion zu nutzen.',
-	'IM_MSNM_BROWSER'		=> 'Ihr Browser unterstützt diese Funktion nicht.',
-	'IM_MSNM_CONNECT'		=> 'Es besteht keine Verbindung zu Windows Live Messenger.\nUm fortzufahren, muss eine Verbindung zu Windows Live Messenger bestehen.',
 	'IM_NAME'				=> 'Ihr Name',
 	'IM_NO_DATA'			=> 'Es gibt keine passenden Kontaktdaten für diesen Benutzer.',
 	'IM_NO_JABBER'			=> 'Direkter Kontakt zu Jabber-Benutzern wird auf diesem Board nicht unterstützt. Sie benötigen einen installierten Jabber-Client auf Ihrem Rechner, um den Benutzer kontaktieren zu können.',
@@ -95,9 +90,11 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Letzte Aktivität',
 	'LESS_THAN'					=> 'Weniger als',
-	'LIST_USER'					=> '1 Mitglied',
-	'LIST_USERS'				=> '%d Mitglieder',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Sie müssen registriert und angemeldet sein, um die Liste der Team-Mitglieder anzuschauen.',
+	'LIST_USERS'				=> array(
+		1	=> '#%d Mitglied',
+		2	=> '#%d Mitglieder',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> '#Du musst registriert und angemeldet sein, um die Liste der Team-Mitglieder anzuschauen.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Sie müssen registriert und angemeldet sein, um auf die Mitgliederliste zuzugreifen.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Sie müssen registriert und angemeldet sein, um nach Mitgliedern zu suchen.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Sie müssen registriert und angemeldet sein, um Profile anzuschauen.',
@@ -119,12 +116,10 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Markierte auswählen',
 	'SELECT_SORT_METHOD'	=> 'Sortierung auswählen',
-	'SEND_AIM_MESSAGE'		=> 'AIM-Nachricht senden',
 	'SEND_ICQ_MESSAGE'		=> 'ICQ-Nachricht senden',
 	'SEND_IM'				=> 'Instant Message senden',
 	'SEND_JABBER_MESSAGE'	=> 'Jabber-Nachricht senden',
 	'SEND_MESSAGE'			=> 'Nachricht',
-	'SEND_MSNM_MESSAGE'		=> 'WLM-Nachricht senden',
 	'SEND_YIM_MESSAGE'		=> 'YIM-Nachricht senden',
 	'SORT_EMAIL'			=> 'E-Mail',
 	'SORT_LAST_ACTIVE'		=> 'Letzte Aktivität',
@@ -141,9 +136,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Anwesenheit im Board',
+	'USERS_PER_PAGE'		=> '#Mitglieder pro Seite',
 
 	'VIEWING_PROFILE'		=> 'Profil von %s',
-	'VISITED'				=> 'Letzte Anmeldung',
-
-	'WWW'					=> 'Website',
 ));

@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* recaptcha [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -49,4 +51,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ihr privater reCaptcha-Schlüssel. Schlüssel können über <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> bezogen werden.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'Um automatische Eingaben zu unterbinden, müssen Sie die beiden angezeigten Wörter in das untenstehende Feld eingeben.',
+	'RECAPTCHA_SOCKET_ERROR'		=> '#Bei der Verbingung mit dem reCaptcha-Service ist ein Problem aufgetreten: Socket konnte nicht geöffnet werden. Bitte versuche es später erneut.',
 ));
