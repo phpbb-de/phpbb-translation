@@ -48,7 +48,7 @@ $help = array(
 	),
 	array(
 		0 => 'Warum werde ich automatisch abgemeldet?',
-		1 => '#Wenn du beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählst, wirst du nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch deines Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, kannst du dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn du dich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befindest. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
+		1 => 'Wenn Sie beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählen, werden Sie nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch Ihres Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, können Sie dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn Sie sich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befinden. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
 	),
 	array(
 		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
@@ -68,7 +68,7 @@ $help = array(
 	),
 	array(
 		0 => 'Was ist COPPA?',
-		1 => '#COPPA, ausgeschrieben Child Online Privacy and Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn du dir unsicher bist, ob dies auf dich oder die Website, auf der du dich zu registrieren versuchst, zutrifft, ziehe einen rechtlichen Beistand zu Rate. Bitte beachte, dass phpBB Limited keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die weiter unten behandelt werden.',
+		1 => 'COPPA, ausgeschrieben Child Online Privacy and Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn Sie sich unsicher sind, ob dies auf Sie oder die Website, auf der Sie sich zu registrieren versuchen, zutrifft, ziehen Sie einen rechtlichen Beistand zu Rate. Bitte beachten Sie, dass phpBB Limited keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die weiter unten behandelt werden.',
 	),
 	array(
 		0 => 'Warum kann ich mich nicht registrieren?',
@@ -92,7 +92,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ich habe die Zeitzone eingestellt, aber die Forenuhr geht immer noch falsch!',
-		1 => '#Wenn du dir sicher bist, dass du die Zeitzone richtig eingestellt hast und die Zeit trotzdem noch falsch ist, geht die Uhr des Servers vermutlich falsch. Kontaktiere einen Administrator, damit er das Problem beheben kann.',
+		1 => 'Wenn Sie sich sicher sind, dass Sie die Zeitzone richtig eingestellt haben und die Zeit trotzdem noch falsch ist, geht die Uhr des Servers vermutlich falsch. Kontaktieren Sie einen Administrator, damit er das Problem beheben kann.',
 		),
 	array(
 		0 => 'Meine Sprache steht auf diesem Board nicht zur Auswahl!',
@@ -148,7 +148,7 @@ $help = array(
 	),
 	array(
 		0 => 'Weshalb wurde ich verwarnt?',
-		1 => '#In jedem Board gibt es eigene Regeln, die meistens von der Administration festgelegt werden. Wenn du gegen eine dieser Regeln verstoßen hast, kann sie dir eine Verwarnung erteilen. Bitte beachte, dass dies die Entscheidung der Administration dieses Boards ist und phpBB Limited nichts mit dieser Verwarnung zu tun hat. Kontaktiere einen Administrator, sofern du die nicht sicher bist, wieso du verwarnt wurdest.',
+		1 => 'In jedem Board gibt es eigene Regeln, die meistens von der Administration festgelegt werden. Wenn Sie gegen eine dieser Regeln verstoßen haben, kann sie Ihnen eine Verwarnung erteilen. Bitte beachten Sie, dass dies die Entscheidung der Administration dieses Boards ist und phpBB Limited nichts mit dieser Verwarnung zu tun hat. Kontaktieren Sie einen Administrator, sofern Sie sich die nicht sicher sind, wieso Sie verwarnt wurden.',
 	),
 	array(
 		0 => 'Wie kann ich Beiträge den Moderatoren melden?',
@@ -333,14 +333,14 @@ $help = array(
 	),
 	array(
 		0 => 'Wer hat diese Forensoftware entwickelt?',
-		1 => '#Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details findest du auf der Seite der phpBB Group. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
+		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details finden Sie auf der Seite der phpBB Group. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
 	),
 	array(
 		0 => 'Warum ist Funktion x oder y nicht enthalten?',
-		1 => '#Diese Software wurde von phpBB Limited geschrieben. Wenn du denkst, dass eine Funktion implementiert werden sollte, dann besuche <a href="https://www.phpbb.com/ideas/">phpBB Ideas</a>, wo du deine Stimme für bestehende Vorschläge abgeben oder neue Funktionen vorschlagen kannst.',
+		1 => 'Diese Software wurde von phpBB Limited geschrieben. Wenn Sie denken, dass eine Funktion implementiert werden sollte, dann besuchen Sie <a href="https://www.phpbb.com/ideas/">phpBB Ideas</a>, wo Sie Ihre Stimme für bestehende Vorschläge abgeben oder neue Funktionen vorschlagen können.',
 	),
 	array(
 		0 => 'An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?',
-		1 => '#Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für deine Beschwerde. Wenn du so keine Antwort erhältst, solltest du den Besitzer der Domain kontaktieren (führe dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachte, dass die phpBB Group und phpBB.de <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktiere daher nie phpBB Limited oder phpBB.de in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com oder die phpBB-Software selbst beziehen. Falls du der phpBB Group E-Mails schreibst, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so wirst du, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
+		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für Ihre Beschwerde. Wenn Sie so keine Antwort erhalten, sollten Sie den Besitzer der Domain kontaktieren (führen Sie dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachten Sie, dass die phpBB Group und phpBB.de <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktieren Sie daher nie phpBB Limited oder phpBB.de in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com oder die phpBB-Software selbst beziehen. Falls Sie der phpBB Group E-Mails schreiben, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so werden Sie, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
 	),
 );
