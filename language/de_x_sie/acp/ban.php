@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* acp_ban [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group; 2006 phpBB.de
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -76,10 +78,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Dauerhaft',
 
 	'UNTIL'						=> 'Bis zum',
-	'USER_BAN'					=> 'Einen oder mehrere Benutzernamen sperren',
+	'USER_BAN'					=> '#Einen oder mehrere Benutzer anhand des Benutzernamens sperren',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um den Namen von allen aktuellen Sperren auszunehmen.',
 	'USER_BAN_EXPLAIN'			=> 'Um mehrere Benutzer auf einmal zu sperren, geben Sie jeden Namen in einer neuen Zeile ein. Benutzen Sie <span style="text-decoration: underline;">Nach einem Mitglied suchen</span>, um nach einem oder mehreren Benutzer(n) zu suchen und diese(n) der Liste hinzuzufügen.',
 	'USER_NO_BANNED'			=> 'Keine gesperrten Benutzernamen.',
-	'USER_UNBAN'				=> 'Benutzernamen entsperren oder Ausnahmen entfernen',
-	'USER_UNBAN_EXPLAIN'		=> 'Sie können mehrere Benutzer gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem Sie mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markieren. Benutzernamen auf der Ausnahmeliste sind hervorgehoben.'
+	'USER_UNBAN'				=> '#Sperrungen von Benutzern anhand des Benutzernamens aufheben oder Ausnahmen entfernen',
+	'USER_UNBAN_EXPLAIN'		=> 'Sie können mehrere Benutzer gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem Sie mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markieren. Benutzernamen auf der Ausnahmeliste sind hervorgehoben.',
 ));

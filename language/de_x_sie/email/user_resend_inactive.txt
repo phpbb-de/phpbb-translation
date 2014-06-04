@@ -14,7 +14,6 @@ Bitte besuchen Sie folgenden Link, um den Account zu aktivieren:
 
 {U_ACTIVATE}
 
-
 Vielen Dank für Ihre Registrierung.
 
 {EMAIL_SIG}

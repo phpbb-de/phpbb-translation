@@ -1,20 +1,19 @@
-Subject: Benachrichtigung über neue Antwort — „{TOPIC_TITLE}“
+#Subject: Benachrichtigung über neue Antwort — „{TOPIC_TITLE}“
 
-Guten Tag {USERNAME},
+Hallo {USERNAME},
 
-Sie erhalten diese Benachrichtigung, weil Sie das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ beobachten. Seit Ihrem letzten Besuch wurde zu diesem Thema eine neue Antwort<!-- IF AUTHOR_NAME !== '' --> von {AUTHOR_NAME}<!-- ENDIF --> erstellt. Sie können den folgenden Link benutzen, um die neuen Antworten anzusehen. Sie erhalten keine weitere Benachrichtigung, bis Sie das Thema besucht haben.
+du erhältst diese Benachrichtigung, weil du das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ beobachtest. Seit deinem letzten Besuch wurde zu diesem Thema eine neue Antwort<!-- IF AUTHOR_NAME !== '' --> von {AUTHOR_NAME}<!-- ENDIF --> erstellt. Du erhältst keine weitere Benachrichtigung, bis du das Thema besucht hast.
 
-Wenn Sie die neuesten Antworten seit Ihrem letzten Besuch ansehen möchten, verwenden Sie folgenden Link:
+Wenn du die neuesten Antworten seit deinem letzten Besuch ansehen möchtest, verwende folgenden Link:
 {U_NEWEST_POST}
 
-Wenn Sie das Thema ansehen möchten, verwenden Sie folgenden Link:
+Wenn du das Thema ansehen möchtest, verwende folgenden Link:
 {U_TOPIC}
 
-Wenn Sie das Forum ansehen möchten, verwenden Sie folgenden Link:
+Wenn du das Forum ansehen möchtest, verwende folgenden Link:
 {U_FORUM}
 
-Wenn Sie das Thema nicht länger beobachten möchten, verwenden Sie entweder den Link „Thema nicht mehr beobachten“ in dem entsprechenden Thema oder besuchen Sie folgenden Link:
-
+Wenn du das Thema nicht länger beobachten möchtest, verwende entweder den Link „Thema nicht mehr beobachten“ in dem entsprechenden Thema oder besuche folgenden Link:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

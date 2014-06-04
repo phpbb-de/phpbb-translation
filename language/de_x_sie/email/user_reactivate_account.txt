@@ -15,5 +15,4 @@ Bitte besuchen Sie folgenden Link, um Ihr Benutzerkonto zu reaktivieren:
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

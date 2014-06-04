@@ -8,5 +8,4 @@ Der folgende Grund wurde dafür angegeben:
 
 {REASON}
 
-
 {EMAIL_SIG}

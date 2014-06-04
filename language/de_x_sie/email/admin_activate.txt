@@ -10,5 +10,4 @@ Verwenden Sie diesen Link, um das Profil des Benutzers zu betrachten:
 Verwenden Sie diesen Link, um das Benutzerkonto zu aktivieren:
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

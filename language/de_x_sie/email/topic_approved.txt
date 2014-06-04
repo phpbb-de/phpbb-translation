@@ -7,5 +7,4 @@ Sie erhalten diese Benachrichtigung, weil Ihr Thema „{TOPIC_TITLE}“ auf „{
 Wenn Sie das Thema ansehen möchten, verwenden Sie folgenden Link:
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}

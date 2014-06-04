@@ -1,14 +1,16 @@
 <?php
 /**
 *
-* captcha_qa [Deutsch — Sie]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* siehe docs/AUTHORS und https://www.phpbb.de/go/ubersetzerteam
+* siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -61,4 +63,5 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Bitte füllen Sie alle Felder aus und geben Sie mindestens eine Antwort an.',
 	'QA_LAST_QUESTION'			=> 'Sie können nicht alle Fragen löschen, solange das Plugin aktiv ist.',
+
 ));
