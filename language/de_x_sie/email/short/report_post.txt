@@ -1,13 +1,13 @@
-#Subject: Gemeldeter Beitrag — „{TOPIC_TITLE}“
+Subject: Gemeldeter Beitrag — „{TOPIC_TITLE}“
 
-Hallo {USERNAME},
+Guten Tag {USERNAME},
 
-du erhältst diese Benachrichtigung, weil der Beitrag „{POST_SUBJECT}“ auf „{SITENAME}“ gemeldet wurde.
+Sie erhalten diese Benachrichtigung, weil der Beitrag „{POST_SUBJECT}“ auf „{SITENAME}“ gemeldet wurde.
 
-Wenn du die Meldung ansehen möchtest, verwende folgenden Link:
+Wenn Sie die Meldung ansehen möchten, verwenden Sie folgenden Link:
 {U_VIEW_REPORT}
 
-Wenn du den Beitrag ansehen möchtest, verwende folgenden Link:
+Wenn Sie den Beitrag ansehen möchten, verwenden Sie folgenden Link:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

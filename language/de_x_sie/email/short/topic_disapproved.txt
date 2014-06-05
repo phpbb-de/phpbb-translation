@@ -1,8 +1,8 @@
-#Subject: Themenfreigabe verweigert — „{TOPIC_TITLE}“
+Subject: Themenfreigabe verweigert — „{TOPIC_TITLE}“
 
-Hallo {USERNAME},
+Guten Tag {USERNAME},
 
-du erhältst diese Benachrichtigung, weil deinem Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ von einem Moderator oder Administrator die Freigabe verweigert wurde.
+Sie erhalten diese Benachrichtigung, weil Ihrem Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ von einem Moderator oder Administrator die Freigabe verweigert wurde.
 
 Der folgende Grund wurde dafür angegeben:
 

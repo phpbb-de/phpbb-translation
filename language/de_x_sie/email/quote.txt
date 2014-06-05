@@ -1,19 +1,19 @@
-#Subject: Benachrichtigung über neue Antwort — „{TOPIC_TITLE}“
+Subject: Benachrichtigung über neue Antwort — „{TOPIC_TITLE}“
 
-Hallo {USERNAME},
+Guten Tag {USERNAME},
 
-du erhältst diese Benachrichtigung, weil „{AUTHOR_NAME}“ dich im Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ zitiert hat. Du kannst den folgenden Link benutzen, um die erstellte Antwort anzusehen.
+Sie erhalten diese Benachrichtigung, weil „{AUTHOR_NAME}“ Sie im Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ zitiert hat. Sie können den folgenden Link benutzen, um die erstellte Antwort anzusehen.
 
-Wenn du den Beitrag, in dem du zitiert wurdest, ansehen möchtest, verwende folgenden Link:
+Wenn Sie den Beitrag, in dem Sie zitiert wurden, ansehen möchten, verwenden Sie folgenden Link:
 {U_VIEW_POST}
 
-Wenn du das Thema ansehen möchtest, verwende folgenden Link:
+Wenn Sie das Thema ansehen möchten, verwenden Sie folgenden Link:
 {U_TOPIC}
 
-Wenn du das Forum ansehen möchtest, verwende folgenden Link:
+Wenn Sie das Forum ansehen möchten, verwenden Sie folgenden Link:
 {U_FORUM}
 
-Wenn du nicht länger E-Mails erhalten willst, wenn du in einem Beitrag zitiert wurdest, ändere bitte deine Benachrichtigungseinstellungen unter folgender Adresse:
+Wenn Sie nicht länger E-Mails erhalten wollen, wenn Sie in einem Beitrag zitiert wurden, ändern Sie bitte Ihre Benachrichtigungseinstellungen unter folgender Adresse:
 
 {U_NOTIFICATION_SETTINGS}
 
