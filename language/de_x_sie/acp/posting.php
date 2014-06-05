@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'BBCode erfolgreich hinzugefügt.',
 	'BBCODE_EDITED'				=> 'BBCode erfolgreich bearbeitet.',
-	'BBCODE_DELETED'			=> '#Der BBCode wurde erfolgreich entfernt.',
+	'BBCODE_DELETED'			=> 'Der BBCode wurde erfolgreich entfernt.',
 	'BBCODE_NOT_EXIST'			=> 'Der gewählte BBCode existiert nicht.',
 	'BBCODE_HELPLINE'			=> 'Tipp-Anzeige',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Geben Sie hier den Text ein, der in der Tipp-Zeile erscheinen soll, wenn sich der Mauszeiger auf der Schaltfläche befindet.',
@@ -126,17 +126,17 @@ $lang = array_merge($lang, array(
 
 	'ICONS_ADD'				=> 'Neues Beitrags-Symbol hinzufügen',
 	'ICONS_ADDED'			=> array(
-		0	=> '#Kein Beitrags-Symbol wurde hinzugefügt.',
-		1	=> '#Das Beitrags-Symbol wurde erfolgreich hinzugefügt.',
-		2	=> '#Die Beitrags-Symbole wurden erfolgreich hinzugefügt.',
+		0	=> 'Kein Beitrags-Symbol wurde hinzugefügt.',
+		1	=> 'Das Beitrags-Symbol wurde erfolgreich hinzugefügt.',
+		2	=> 'Die Beitrags-Symbole wurden erfolgreich hinzugefügt.',
 	),
 	'ICONS_CONFIG'			=> 'Symbol-Konfiguration',
 	'ICONS_DELETED'			=> 'Das Beitrags-Symbol wurde erfolgreich entfernt.',
 	'ICONS_EDIT'			=> 'Beitrags-Symbol bearbeiten',
 	'ICONS_EDITED'			=> array(
-		0	=> '#Kein Beitrags-Symbol wurde aktualisiert.',
-		1	=> '#Das Beitrags-Symbol wurde erfolgreich aktualisiert.',
-		2	=> '#Die Beitrags-Symbole wurden erfolgreich aktualisiert.',
+		0	=> 'Kein Beitrags-Symbol wurde aktualisiert.',
+		1	=> 'Das Beitrags-Symbol wurde erfolgreich aktualisiert.',
+		2	=> 'Die Beitrags-Symbole wurden erfolgreich aktualisiert.',
 	),
 	'ICONS_HEIGHT'			=> 'Höhe',
 	'ICONS_IMAGE'			=> 'Symbol',
@@ -170,9 +170,9 @@ $lang = array_merge($lang, array(
 	'SELECT_PACKAGE'			=> 'Paket-Datei auswählen',
 	'SMILIES_ADD'				=> 'Neuen Smilie hinzufügen',
 	'SMILIES_ADDED'				=> array(
-		0	=> '#Kein Smilie wurde hinzugefügt.',
-		1	=> '#Der Smilie wurde erfolgreich hinzugefügt.',
-		2	=> '#Die Smilies wurden erfolgreich hinzugefügt.',
+		0	=> 'Kein Smilie wurde hinzugefügt.',
+		1	=> 'Der Smilie wurde erfolgreich hinzugefügt.',
+		2	=> 'Die Smilies wurden erfolgreich hinzugefügt.',
 	),
 	'SMILIES_CODE'				=> 'Smilie-Code',
 	'SMILIES_CONFIG'			=> 'Smilie-Konfiguration',
@@ -182,9 +182,9 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_EMOTION'			=> 'Der Smilie „%s“ wurde ignoriert, da keine Beschreibung angegeben wurde.',
 	'SMILIE_NO_FILE'			=> 'Der Smilie „%s“ wurde ignoriert, da die Datei nicht vorhanden ist.',
 	'SMILIES_EDITED'			=> array(
-		0	=> '#Kein Smilie wurde aktualisiert.',
-		1	=> '#Der Smilie wurde erfolgreich aktualisiert.',
-		2	=> '#Die Smilies wurden erfolgreich aktualisiert.',
+		0	=> 'Kein Smilie wurde aktualisiert.',
+		1	=> 'Der Smilie wurde erfolgreich aktualisiert.',
+		2	=> 'Die Smilies wurden erfolgreich aktualisiert.',
 	),
 	'SMILIES_EMOTION'			=> 'Beschreibung',
 	'SMILIES_HEIGHT'			=> 'Höhe',
@@ -198,8 +198,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_WIDTH'				=> 'Breite',
 
 	'TOO_MANY_SMILIES'			=> array(
-		1	=> '#Das Limit von %d Smilie wurde erreicht.',
-		2	=> '#Das Limit von %d Smilies wurde erreicht.',
+		1	=> 'Das Limit von %d Smilie wurde erreicht.',
+		2	=> 'Das Limit von %d Smilies wurde erreicht.',
 	),
 
 	'WRONG_PAK_TYPE'	=> 'Das angegebene Paket enthielt ungültige Daten.',
