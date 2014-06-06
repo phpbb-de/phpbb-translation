@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_ENABLE'		=> 'Aktivieren',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Durch das Löschen der Daten einer Erweiterung werden allen Daten und Einstellungen gelöscht. Die Dateien der Erweiterung bleiben erhalten, so dass sie erneut aktiviert werden kann.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Durch das Deaktivieren einer Erweiterung bleiben alle Dateien, Daten und Einstellungen erhalten, die Erweiterung steht auf deinem Board jedoch nicht mehr zur Verfügung.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Durch das Deaktivieren einer Erweiterung bleiben alle Dateien, Daten und Einstellungen erhalten, die Erweiterung steht auf Ihrem Board jedoch nicht mehr zur Verfügung.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Durch das Aktivieren einer Erweiterung können Sie sie auf Ihrem Board nutzen.',
 
 	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Die Daten der Erweiterung werden derzeit gelöscht. Bitte verlassen oder aktualisieren Sie diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
