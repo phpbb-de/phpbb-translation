@@ -1,10 +1,10 @@
-#Subject: Gemeldete Private Nachricht — „{TOPIC_TITLE}“
+Subject: Gemeldete Private Nachricht — „{TOPIC_TITLE}“
 
-Hallo {USERNAME},
+Guten Tag {USERNAME},
 
-du erhältst diese Benachrichtigung, weil eine Private Nachricht mit dem Titel „{SUBJECT}“ von „{AUTHOR_NAME}“ auf „{SITENAME}“ gemeldet wurde.
+Sie erhalten diese Benachrichtigung, weil eine Private Nachricht mit dem Titel „{SUBJECT}“ von „{AUTHOR_NAME}“ auf „{SITENAME}“ gemeldet wurde.
 
-Wenn du die Meldung ansehen möchtest, verwende folgenden Link:
+Wenn Sie die Meldung ansehen möchten, verwenden Sie folgenden Link:
 {U_VIEW_REPORT}
 
 {EMAIL_SIG}
