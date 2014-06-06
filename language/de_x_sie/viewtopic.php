@@ -79,8 +79,8 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> 'In Standard-Thema ändern',
 	'MAKE_STICKY'				=> 'In wichtiges Thema ändern',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Du kannst <strong>eine</strong> Option auswählen',
-		2	=> 'Du kannst bis zu <strong>%d</strong> Optionen auswählen',
+		1	=> 'Sie können <strong>eine</strong> Option auswählen',
+		2	=> 'Sie können bis zu <strong>%d</strong> Optionen auswählen',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'Der Dateianhang <strong>%s</strong> existiert nicht mehr.',
 	'MOVE_TOPIC'				=> 'Thema verschieben',
