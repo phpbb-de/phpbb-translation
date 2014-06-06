@@ -96,7 +96,7 @@ $help = array(
 		),
 	array(
 		0 => 'Meine Sprache steht auf diesem Board nicht zur Auswahl!',
-		1 => 'Meist hat die Board-Administration entweder deine Sprache nicht installiert oder niemand hat das Forum bislang in deine Sprache übersetzt. Frage ggf. einen Administrator, ob er das Sprachpaket, das du benötigst, installieren kann. Falls es noch nicht existiert, würden wir uns freuen, wenn du es übersetzen würdest. Weitere Informationen dazu können auf der Website der phpBB Group gefunden werden (siehe Link am Ende jeder Seite).',
+		1 => 'Meist hat die Board-Administration entweder deine Sprache nicht installiert oder niemand hat das Forum bislang in deine Sprache übersetzt. Frage ggf. einen Administrator, ob er das Sprachpaket, das du benötigst, installieren kann. Falls es noch nicht existiert, würden wir uns freuen, wenn du es übersetzen würdest. Weitere Informationen dazu können auf der Website von phpBB Limited gefunden werden (siehe Link am Ende jeder Seite).',
 	),
 	array(
 		0 => 'Wie kann ich ein Bild bei meinem Benutzernamen anzeigen?',
@@ -333,7 +333,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wer hat diese Forensoftware entwickelt?',
-		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details findest du auf der Seite der phpBB Group. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
+		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details findest du auf der Seite von phpBB Limited. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
 	),
 	array(
 		0 => 'Warum ist Funktion x oder y nicht enthalten?',
@@ -341,6 +341,6 @@ $help = array(
 	),
 	array(
 		0 => 'An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?',
-		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für deine Beschwerde. Wenn du so keine Antwort erhältst, solltest du den Besitzer der Domain kontaktieren (führe dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachte, dass die phpBB Group und phpBB.de <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktiere daher nie phpBB Limited oder phpBB.de in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com oder die phpBB-Software selbst beziehen. Falls du der phpBB Group E-Mails schreibst, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so wirst du, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
+		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für deine Beschwerde. Wenn du so keine Antwort erhältst, solltest du den Besitzer der Domain kontaktieren (führe dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachte, dass phpBB Limited und phpBB.de <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktiere daher nie phpBB Limited oder phpBB.de in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com oder die phpBB-Software selbst beziehen. Falls du phpBB Limited E-Mails schreibst, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so wirst du, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
 	),
 );
