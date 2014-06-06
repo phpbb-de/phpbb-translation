@@ -369,10 +369,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Ein Beitrag oder ein Thema muss freigegeben werden',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Ihre Themen/Beiträge wurden von einem Moderator freigegeben oder die Freigabe abgelehnt',
 	'NOTIFICATION_TYPE_PM'								=> 'Jemand sendet Ihnen eine Private Nachricht',
-	'NOTIFICATION_TYPE_POST'							=> 'Jemand antwortet auf ein Thema, dass Sie beobachten',
+	'NOTIFICATION_TYPE_POST'							=> 'Jemand antwortet auf ein Thema, das Sie beobachten',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Jemand zitiert Sie in einem Beitrag',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Jemand hat einen Beitrag gemeldet',
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Jemand erstellt einen Beitrag in einem Forum, dass Sie beobachten',
+	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Jemand erstellt einen Beitrag in einem Forum, das Sie beobachten',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Ein neu registrierter Benutzer muss aktiviert werden',
 
 	'NOTIFY_METHOD'				=> 'Benachrichtigungs-Methode',

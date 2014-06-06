@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'Führt die Unterforen, bei denen die Option „Führe Unterforum in der Legende des übergeordneten Forums auf“ aktiviert ist, in der Legende dieses Forums in der Foren-Übersicht und anderswo auf.',
 	'LOCKED'					=> 'Gesperrt',
 
-	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Das ausgewählte Forum kann keine Beiträge aufnehmen. Bitte wähle ein Forum aus, dass Beiträge aufnehmen kann.',
+	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Das ausgewählte Forum kann keine Beiträge aufnehmen. Bitte wähle ein Forum aus, das Beiträge aufnehmen kann.',
 	'MOVE_POSTS_TO'					=> 'Beiträge verschieben nach',
 	'MOVE_SUBFORUMS_TO'				=> 'Unterforen verschieben nach',
 
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSION_FORUM_ADD'		=> 'Du hast nicht die erforderlichen Berechtigungen, um Foren hinzuzufügen.',
 	'NO_PERMISSION_FORUM_DELETE'	=> 'Du hast nicht die erforderlichen Berechtigungen, um Foren zu löschen.',
 
-	'PARENT_IS_LINK_FORUM'		=> 'Das übergeordnete Forum, dass du ausgewählt hast, ist ein Forums-Link. Ein Forums-Link kann keine Unterforen enthalten. Bitte wähle ein Forum oder eine Kategorie als übergeordnetes Forum aus.',
+	'PARENT_IS_LINK_FORUM'		=> 'Das übergeordnete Forum, das du ausgewählt hast, ist ein Forums-Link. Ein Forums-Link kann keine Unterforen enthalten. Bitte wähle ein Forum oder eine Kategorie als übergeordnetes Forum aus.',
 	'PARENT_NOT_EXIST'			=> 'Übergeordnetes Forum existiert nicht.',
 	'PRUNE_ANNOUNCEMENTS'		=> 'Ankündigungen automatisch löschen',
 	'PRUNE_STICKY'				=> 'Wichtige Themen automatisch löschen',

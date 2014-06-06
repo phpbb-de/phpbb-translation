@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimale Wort-Länge für Schlüsselwörter',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximale Wort-Länge für Schlüsselwörter',
 	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'	=> 'Dieses Such-Backend kann nur mit PostgreSQL 8.3 oder höher genutzt werden.',
-	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'			=> 'Das Konfigurationsprofil für die Textsuche, dass den Parser und das Wörterbuch festlegt.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'			=> 'Das Konfigurationsprofil für die Textsuche, das den Parser und das Wörterbuch festlegt.',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'Wörter, die aus mindestens dieser Zahl von Zeichen bestehen, werden in der Datenbankabfrage berücksichtigt.',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Wörter, die aus nicht mehr als dieser Zahl von Zeichen bestehen, werden in der Datenbankabfrage berücksichtigt.',
 
