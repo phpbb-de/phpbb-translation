@@ -9,4 +9,4 @@ install:
 
 script:
   - vendor/bin/phing -Dlanguage=de -Dversion=HEAD
-  # Disable de-x-sie: - vendor/bin/phing -Dlanguage=de_x_sie -Dversion=HEAD
+  - vendor/bin/phing -Dlanguage=de_x_sie -Dversion=HEAD
