@@ -397,7 +397,7 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION'			=> 'Datei-Informationen',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Die folgende Liste zeigt Ihnen die Dateien, die eine Aktualisierung benötigen. Bitte lesen Sie die Informationen vor jedem Abschnitt durch, um zu verstehen was passiert und was Sie möglicherweise tun müssen, um ein erfolgreiches Update durchzuführen.',
 	'COLLECTING_FILE_DIFFS'			=> 'Ermittle Datei-Unterschiede',
-	'COMPLETE_LOGIN_TO_BOARD'		=> 'Sie sollten sich jetzt <a href="../ucp.php?mode=login">in Ihrem Forum anmelden</a> und prüfen, ob alles funktioniert. Vergessen Sie nicht, das Installations-Verzeichnis „install“ zu löschen, umzubenennen, oder zu verschieben!',
+	'COMPLETE_LOGIN_TO_BOARD'		=> 'Sie sollten sich jetzt <a href="../ucp.php?mode=login">in Ihrem Forum anmelden</a> und prüfen, ob alles funktioniert. Vergessen Sie nicht, das Installations-Verzeichnis „install“ zu löschen, umzubenennen oder zu verschieben!',
 	'CONTINUE_UPDATE_NOW'			=> 'Den Update-Prozess jetzt fortsetzen',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Update jetzt fortsetzen',					// Shown after file upload to indicate the update process is not yet finished
 	'CURRENT_FILE'					=> 'Anfang des Konflikts — Inhalt der originalen Datei vor Aktualisierung',
@@ -428,7 +428,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_USERNAME'	=> 'Benutzernamen ändern',
 	'ERROR'			=> 'Fehler',
-	'EVERYTHING_UP_TO_DATE'		=> 'Es wurde alles auf die aktuelle phpBB-Version aktualisiert. Sie sollten sich jetzt <a href="%1$s">in Ihrem Forum anmelden</a> und prüfen, ob alles funktioniert. Vergessen Sie nicht, das Installations-Verzeichnis „install“ zu löschen, umzubenennen, oder zu verschieben! Bitte senden Sie uns aktualisierte Informationen über Ihren Server und Ihre Board-Konfiguration über das <a href="%2$s">Statistik-Übermittlungs</a>-Modul in Ihrem Administrations-Bereich.',
+	'EVERYTHING_UP_TO_DATE'		=> 'Es wurde alles auf die aktuelle phpBB-Version aktualisiert. Sie sollten sich jetzt <a href="%1$s">in Ihrem Forum anmelden</a> und prüfen, ob alles funktioniert. Vergessen Sie nicht, das Installations-Verzeichnis „install“ zu löschen, umzubenennen oder zu verschieben! Bitte senden Sie uns aktualisierte Informationen über Ihren Server und Ihre Board-Konfiguration über das <a href="%2$s">Statistik-Übermittlungs</a>-Modul in Ihrem Administrations-Bereich.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Die Datei ist bereits auf dem neuesten Stand.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Unterschiedsanzeige für diese Datei nicht möglich.',
