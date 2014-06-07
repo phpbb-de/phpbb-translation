@@ -7,6 +7,9 @@ php:
 install:
   - php composer.phar install --dev --no-interaction --prefer-source
 
+before_script:
+  - vendor/bin/phing prepare_test -Dversion=HEAD
+
 script:
-  - vendor/bin/phing -Dlanguage=de -Dversion=HEAD
-  - vendor/bin/phing -Dlanguage=de_x_sie -Dversion=HEAD
+  - vendor/bin/phing test -Dversion=HEAD -Dlanguage=de
+  - vendor/bin/phing test -Dversion=HEAD -Dlanguage=de_x_sie
