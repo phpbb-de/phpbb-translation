@@ -69,28 +69,20 @@
 
 	<target name="validate">
 		<if>
-			<not><os family="windows"/></not>
+			<os family="windows"/>
 			<then>
-				<phingcall target="validate-non-windows" />
+				<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
+						validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
+					passthru="true"
+					checkreturn="true" />
 			</then>
 			<else>
-				<phingcall target="validate-windows" />
+				<exec command="php vendor/bin/PhpbbTranslationValidator.php
+						validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
+					passthru="true"
+					checkreturn="true" />
 			</else>
 		</if>
-	</target>
-
-	<target name="validate-non-windows">
-		<exec command="php vendor/bin/PhpbbTranslationValidator.php
-				validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
-			passthru="true"
-			checkreturn="true" />
-	</target>
-
-	<target name="validate-windows">
-		<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
-				validate ${language} --package-dir=packages --phpbb-version=${validator-version}"
-			passthru="true"
-			checkreturn="true" />
 	</target>
 
 	<target name="lint">
