@@ -6,14 +6,16 @@
 	<property name="language" value="${language}" />
 
 	<!-- These are the main targets which you will probably want to use -->
-	<target name="all" depends="lint,clean,prepare,package,validate" />
-	<target name="build" depends="lint,clean,prepare,package" />
+	<target name="all" depends="prepare-structure,prepare,test,package" />
+	<target name="build" depends="prepare-structure,prepare,package" />
+	<target name="prepare_test" depends="prepare-structure,prepare" />
+	<target name="test" depends="lint,validate" />
 
 	<target name="clean">
 		<delete dir="packages" />
 	</target>
 
-	<target name="prepare">
+	<target name="prepare-structure" depends="clean">
 		<mkdir dir="packages" />
 		<mkdir dir="packages/de" />
 		<mkdir dir="packages/de_x_sie" />
@@ -22,8 +24,8 @@
 		<mkdir dir="packages/git" />
 	</target>
 
-	<target name="package">
-		<echo msg="Packaging ${version}" />
+	<target name="prepare">
+		<echo msg="Exracting ${version}" />
 
 		<phingcall target="git-archive">
 			<property name="archive-version" value="${version}" />
@@ -33,9 +35,14 @@
 			<property name="package-language" value="en" />
 		</phingcall>
 		<phingcall target="prepare-package-language">
-			<property name="package-language" value="${language}" />
+			<property name="package-language" value="de" />
 		</phingcall>
+		<phingcall target="prepare-package-language">
+			<property name="package-language" value="de_x_sie" />
+		</phingcall>
+	</target>
 
+	<target name="package">
 		<phingcall target="create-package-language">
 			<property name="package-language" value="${language}" />
 		</phingcall>
