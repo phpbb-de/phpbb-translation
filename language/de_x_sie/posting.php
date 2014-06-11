@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Im Beitrag anzeigen',
 	'POLL_DELETE'				=> 'Umfrage löschen',
 	'POLL_FOR'					=> 'Umfrage durchführen für',
-	'POLL_FOR_EXPLAIN'			=> 'Damit diese Umfrage nie endet, stellen Sie als Wert 0 ein.',
+	'POLL_FOR_EXPLAIN'			=> 'Diese Umfrage endet nie, wenn 0 als Wert eingestellt wird.',
 	'POLL_MAX_OPTIONS'			=> 'Auswahlmöglichkeiten pro Benutzer',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Diese Anzahl an Optionen kann ein Benutzer maximal auswählen.',
 	'POLL_OPTIONS'				=> 'Antworten der Umfrage',
@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Smilies sind <em>eingeschaltet</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Zeitlimit für wichtige Themen/Bekanntmachungen',
 	'STICK_TOPIC_FOR'			=> 'Thema anpinnen für',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Damit dieses Thema für immer als wichtig/Bekanntmachung erscheint, stellen Sie als Wert 0 ein. Beachten Sie, dass sich diese Angabe auf den Erstellungszeitpunkt des Themas bezieht.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Dieses Thema erscheint für immer als wichtig/Bekanntmachung, wenn 0 als Wert eingestellt wird. Beachten Sie, dass sich diese Angabe auf den Erstellungszeitpunkt des Themas bezieht.',
 	'STYLES_TIP'				=> 'Tipp: Formatierungen können schnell auf den markierten Text angewandt werden.',
 
 	'TOO_FEW_CHARS'				=> 'Die eingegebene Nachricht ist zu kurz.',
