@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Smilies sind <em>eingeschaltet</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Zeitlimit für wichtige Themen/Bekanntmachungen',
 	'STICK_TOPIC_FOR'			=> 'Thema anpinnen für',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Dieses Thema erscheint für immer als wichtig/Bekanntmachung, wenn 0 als Wert eingestellt wird. Beachte, dass sich diese Angabe auf den Erstellungszeitpunkt des Themas bezieht.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Dieses Thema erscheint dauerhaft als wichtig/Bekanntmachung, wenn 0 als Wert eingestellt wird. Beachte, dass sich diese Angabe auf den Erstellungszeitpunkt des Themas bezieht.',
 	'STYLES_TIP'				=> 'Tipp: Formatierungen können schnell auf den markierten Text angewandt werden.',
 
 	'TOO_FEW_CHARS'				=> 'Die eingegebene Nachricht ist zu kurz.',
