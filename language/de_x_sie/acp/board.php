@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Das standardmäßige Verhalten, wenn der Ordner eines Benutzers voll ist und die von ihm eingestellte Aktion nicht durchführbar ist bzw. diese nicht festgelegt wurde. Eine Ausnahme gilt für den Ordner „Gesendete Nachrichten“, wo das Standard-Verhalten immer so eingestellt ist, dass alte Nachrichten gelöscht werden.',
 	'HOLD_NEW_MESSAGES'			=> 'Neue Nachrichten zurückhalten',
 	'PM_EDIT_TIME'				=> 'Nachträgliche Bearbeitung einschränken',
-	'PM_EDIT_TIME_EXPLAIN'		=> 'Limitiert die Zeit zur Bearbeitung einer gesendeten, aber noch ungelesenen Privaten Nachricht. Bei einem Wert von 0 wird dieses Verhalten abgeschaltet.',
+	'PM_EDIT_TIME_EXPLAIN'		=> 'Limitiert die Zeit zur Bearbeitung einer gesendeten, aber noch ungelesenen Privaten Nachricht. Eine zeitlich unbegrenzte Bearbeitung ist möglich, wenn 0 als Wert eingestellt wird.',
 	'PM_MAX_RECIPIENTS'			=> 'Maximale Anzahl zulässiger Empfänger',
 	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Die maximale Anzahl zulässiger Empfänger für eine Private Nachricht. Bei einem Wert von 0 sind unbegrenzt viele Empfänger zulässig. Diese Einstellung kann gruppenbezogen in den Gruppeneinstellungen angepasst werden.',
 ));
@@ -487,7 +487,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_CHECK_MX'				=> 'E-Mail-Domain auf gültigen MX-Eintrag prüfen',
 	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Wenn aktiviert, wird die Domain der E-Mail-Adresse bei der Registrierung und der Änderung des Profils auf einen gültigen MX-Eintrag geprüft.',
 	'FORCE_PASS_CHANGE'				=> 'Passwortänderung erzwingen',
-	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Verlangt von den Benutzern, ihr Passwort nach einer festgelegten Anzahl an Tagen zu erneuern. Bei einem Wert von 0 wird dieses Verhalten abgeschaltet.',
+	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Verlangt von den Benutzern, ihr Passwort nach einer festgelegten Anzahl an Tagen zu erneuern. Es wird keine Passwortänderung erzwungen, wenn 0 als Wert eingestellt wird.',
 	'FORM_TIME_MAX'					=> 'Maximale Zeit zur Übermittlung eines Formulars',
 	'FORM_TIME_MAX_EXPLAIN'			=> 'Die Zeit, die ein Benutzer hat, um ein Formular abzusenden. Stellen Sie als Wert -1 ein, um das Verhalten abzuschalten. Beachten Sie, dass ein Formular unabhängig dieser Einstellung ungültig werden kann, wenn die Sitzung abläuft.',
 	'FORM_SID_GUESTS'				=> 'Formulare an Gast-Sitzungen binden',
