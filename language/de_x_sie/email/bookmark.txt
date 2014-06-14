@@ -13,7 +13,7 @@ Sie können sich das Thema ansehen, wenn Sie folgenden Link aufrufen:
 Sie können sich das Forum ansehen, wenn Sie folgenden Link aufrufen:
 {U_FORUM}
 
-Wenn Sie nicht länger E-Mails erhalten wollen, wenn auf ein Thema, für das Sie ein Lesezeichen gesetzt haben, geantwortet wurde, müssen Sie Ihre Benachrichtigungseinstellungen ändern. Dazu müssen Sie folgenden Link aufrufen:
+Wenn Sie nicht länger E-Mails erhalten wollen, wenn auf ein Thema, für das Sie ein Lesezeichen gesetzt haben, geantwortet wurde, müssen Sie Ihre Benachrichtigungseinstellungen ändern. Diese können Sie ändern, wenn Sie folgenden Link aufrufen:
 
 {U_NOTIFICATION_SETTINGS}
 

@@ -13,7 +13,7 @@ Du kannst dir das Thema ansehen, wenn du folgenden Link aufrufst:
 Du kannst dir das Forum ansehen, wenn du folgenden Link aufrufst:
 {U_FORUM}
 
-Wenn du nicht länger E-Mails erhalten willst, wenn du in einem Beitrag zitiert wurdest, musst du deine Benachrichtigungseinstellungen ändern. Dazu musst du folgenden Link aufrufen: 
+Wenn du nicht länger E-Mails erhalten willst, wenn du in einem Beitrag zitiert wurdest, musst du deine Benachrichtigungseinstellungen ändern. Diese kannst du ändern, wenn du folgenden Link aufrufst: 
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}
