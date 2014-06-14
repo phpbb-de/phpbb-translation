@@ -4,10 +4,10 @@ Hallo {USERNAME},
 
 du erhältst diese Benachrichtigung, weil der Beitrag „{POST_SUBJECT}“ auf „{SITENAME}“ gemeldet wurde.
 
-Wenn du die Meldung ansehen möchtest, verwende folgenden Link:
+Du kannst dir die Meldung ansehen, wenn du folgenden Link aufrufst:
 {U_VIEW_REPORT}
 
-Wenn du den Beitrag ansehen möchtest, verwende folgenden Link:
+Du kannst dir den Beitrag ansehen, wenn du folgenden Link aufrufst:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

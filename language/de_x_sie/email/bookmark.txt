@@ -4,16 +4,16 @@ Guten Tag {USERNAME},
 
 Sie erhalten diese Benachrichtigung, weil Sie für das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ ein Lesezeichen gesetzt haben. Seit Ihrem letzten Besuch wurde zu diesem Thema eine neue Antwort erstellt. Sie können den folgenden Link benutzen, um die neuen Antworten anzusehen. Sie erhalten keine weitere Benachrichtigung, bis Sie das Thema besucht haben.
 
-Wenn Sie die neuesten Antworten seit Ihrem letzten Besuch ansehen möchten, verwenden Sie folgenden Link:
+Sie können sich die neuesten Antworten seit Ihrem letzten Besuch ansehen, wenn Sie folgenden Link aufrufen:
 {U_NEWEST_POST}
 
-Wenn Sie das Thema ansehen möchten, verwenden Sie folgenden Link:
+Sie können sich das Thema ansehen, wenn Sie folgenden Link aufrufen:
 {U_TOPIC}
 
-Wenn Sie das Forum ansehen möchten, verwenden Sie folgenden Link:
+Sie können sich das Forum ansehen, wenn Sie folgenden Link aufrufen:
 {U_FORUM}
 
-Wenn Sie nicht länger E-Mails erhalten wollen, wenn auf ein Thema, für das Sie ein Lesezeichen gesetzt haben, geantwortet wurde, ändern Sie bitte Ihre Benachrichtigungseinstellungen unter folgender Adresse:
+Wenn Sie nicht länger E-Mails erhalten wollen, wenn auf ein Thema, für das Sie ein Lesezeichen gesetzt haben, geantwortet wurde, müssen Sie Ihre Benachrichtigungseinstellungen ändern. Dazu müssen Sie folgenden Link aufrufen:
 
 {U_NOTIFICATION_SETTINGS}
 
