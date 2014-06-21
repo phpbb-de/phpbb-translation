@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME'				=> 'Nachträgliche Bearbeitung einschränken',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Limitiert die Zeit zur Bearbeitung einer gesendeten, aber noch ungelesenen Privaten Nachricht. Eine zeitlich unbegrenzte Bearbeitung ist möglich, wenn 0 als Wert eingestellt wird.',
 	'PM_MAX_RECIPIENTS'			=> 'Maximale Anzahl zulässiger Empfänger',
-	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Die maximale Anzahl zulässiger Empfänger für eine Private Nachricht. Bei einem Wert von 0 sind unbegrenzt viele Empfänger zulässig. Diese Einstellung kann gruppenbezogen in den Gruppeneinstellungen angepasst werden.',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Die maximale Anzahl zulässiger Empfänger für eine Private Nachricht. Eine unbegrenzte Anzahl von Empfängern ist zulässig, wenn 0 als Wert eingestellt wird. Diese Einstellung kann gruppenbezogen in den Gruppeneinstellungen angepasst werden.',
 ));
 
 // Post Settings
@@ -497,13 +497,13 @@ $lang = array_merge($lang, array(
 	'IP_VALID'						=> 'Überprüfung der Sitzungs-IP',
 	'IP_VALID_EXPLAIN'				=> 'Legt fest, welche Teile der IP eines Benutzers zur Validierung einer Sitzung herangezogen werden. <samp>Alle</samp> bedeutet, dass die komplette IP Adresse verglichen wird; <samp>A.B.C</samp> vergleicht die ersten drei Oktetts; <samp>A.B</samp> vergleicht die ersten zwei Oktetts; <samp>Keine</samp> deaktiviert die Prüfung. Bei IPv6-Adressen prüft <samp>A.B.C</samp> die ersten 4 Blöcke und <samp>A.B</samp> die ersten 3.',
 	'IP_LOGIN_LIMIT_MAX'			=> 'Maximale Anzahl an Anmeldeversuchen pro IP-Adresse',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Anzahl erfolgloser Anmeldeversuche von einer IP-Adresse, nach der zusätzlich eine Anti-Spam-Bot-Aufgabe gelöst werden muss. Bei einem Wert von 0 wird die Prüfung erfolgloser Anmeldungen für IP-Adressen deaktiviert.',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Anzahl erfolgloser Anmeldeversuche von einer IP-Adresse, nach der zusätzlich eine Anti-Spam-Bot-Aufgabe gelöst werden muss. Die Prüfung erfolgloser Anmeldungen für IP-Adressen wird deaktiviert, wenn 0 als Wert eingestellt wird.',
 	'IP_LOGIN_LIMIT_TIME'			=> 'Ablaufzeit für erfolglose Anmeldeversuche von einer IP-Adresse',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Erfolglose Anmeldeversuche verfallen nach dieser Zeit.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Anmeldeversuche anhand <var>X_FORWARDED_FOR</var>-Header prüfen',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Anstatt einer Prüfung der IP-Adressen erfolgt eine Prüfung der <var>X_FORWARDED_FOR</var>-Werte im Header.<br /><em><strong>Warnung:</strong> Diese Funktion darf nur aktiviert werden, wenn sich Ihr Board hinter einem Proxy-Server befindet, der den <var>X_FORWARDED_FOR</var>-Header vertrauenswürdig festlegt.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximale Anzahl an Anmeldeversuchen pro Benutzername',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Anzahl erfolgloser Anmeldeversuche für ein Benutzerkonto, nach der zusätzlich eine Anti-Spam-Bot-Aufgabe gelöst werden muss. Bei einem Wert von 0 wird die Prüfung erfolgloser Anmeldungen für Benutzerkonten deaktiviert.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Anzahl erfolgloser Anmeldeversuche für ein Benutzerkonto, nach der zusätzlich eine Anti-Spam-Bot-Aufgabe gelöst werden muss. Die Prüfung erfolgloser Anmeldungen für Benutzerkonten wird deaktiviert, wenn 0 als Wert eingestellt wird.',
 	'NO_IP_VALIDATION'				=> 'Keine',
 	'NO_REF_VALIDATION'				=> 'Keine',
 	'PASSWORD_TYPE'					=> 'Passwort-Komplexität',
