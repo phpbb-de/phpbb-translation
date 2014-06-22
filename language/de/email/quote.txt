@@ -4,17 +4,16 @@ Hallo {USERNAME},
 
 du erhältst diese Benachrichtigung, weil „{AUTHOR_NAME}“ dich im Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ zitiert hat. Du kannst den folgenden Link benutzen, um die erstellte Antwort anzusehen.
 
-Wenn du den Beitrag, in dem du zitiert wurdest, ansehen möchtest, verwende folgenden Link:
+Du kannst dir den Beitrag, in dem du zitiert wurdest, ansehen, wenn du folgenden Link aufrufst:
 {U_VIEW_POST}
 
-Wenn du das Thema ansehen möchtest, verwende folgenden Link:
+Du kannst dir das Thema ansehen, wenn du folgenden Link aufrufst:
 {U_TOPIC}
 
-Wenn du das Forum ansehen möchtest, verwende folgenden Link:
+Du kannst dir das Forum ansehen, wenn du folgenden Link aufrufst:
 {U_FORUM}
 
-Wenn du nicht länger E-Mails erhalten willst, wenn du in einem Beitrag zitiert wurdest, ändere bitte deine Benachrichtigungseinstellungen unter folgender Adresse:
-
+Wenn du nicht länger E-Mails erhalten willst, wenn du in einem Beitrag zitiert wurdest, musst du deine Benachrichtigungseinstellungen ändern. Diese kannst du ändern, wenn du folgenden Link aufrufst: 
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

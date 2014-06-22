@@ -6,10 +6,10 @@ Sie haben auf „{SITENAME}“ eine neue Private Nachricht von „{AUTHOR_NAME}�
 
 {SUBJECT}
 
-Sie können Ihre neue Nachricht ansehen, indem Sie den folgenden Link besuchen:
+Sie können sich die neue Nachricht ansehen, wenn Sie folgenden Link aufrufen:
 
 {U_VIEW_MESSAGE}
 
-Sie haben ausgewählt, dass Sie bei neuen Privaten Nachrichten informiert werden möchten. Sie können diese Benachrichtigungen jederzeit in Ihrem persönlichen Bereich abstellen.
+Sie haben ausgewählt, dass Sie bei neuen Privaten Nachrichten informiert werden möchten. Sie können diese Benachrichtigungen in Ihrem persönlichen Bereich abstellen.
 
 {EMAIL_SIG}
