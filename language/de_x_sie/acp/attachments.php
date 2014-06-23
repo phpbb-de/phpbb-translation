@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXT_GROUPS_URL'				=> 'Dateityp-Gruppen',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Maximale Dateigröße',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Maximale Größe pro Datei; bei 0 wird die Dateigröße nur durch die PHP-Konfiguration limitiert.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Die Dateigröße wird nur durch die PHP-Konfiguration limitiert, wenn 0 als Wert eingestellt wird.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Maximale Dateigröße in Privaten Nachrichten',
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximale Größe pro Datei in Privaten Nachrichten; 0 bedeutet unbegrenzt.',
 	'ATTACH_ORPHAN_URL'					=> 'Verwaiste Dateianhänge',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'			=> 'Gruppenname',
 
 	'IMAGE_LINK_SIZE'			=> 'Dateigröße für verlinkte Bilder',
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Bild-Dateianhänge werden als Link dargestellt, wenn deren Größe diese Werte überschreitet. Um dieses Verhalten abzuschalten, stellen Sie als Werte 0px &times; 0px ein.',
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Bild-Dateianhänge werden als Link dargestellt, wenn deren Größe diese Werte überschreitet. Bei der Verwendung von 0px &times; 0px wird dieses Verhalten abgeschaltet.',
 	'IMAGICK_PATH'				=> 'Imagemagick-Pfad',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Voller Pfad zum Imagemagick-Programm, z.&nbsp;B. <samp>/usr/bin/</samp>.',
 
