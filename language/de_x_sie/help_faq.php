@@ -132,7 +132,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wieso kann ich nicht mehr Antwortmöglichkeiten erstellen?',
-		1 => 'Die maximal zulässige Zahl von Antwortmöglichkeiten wird durch die Board-Administration festgelegt. Wenn Sie glauben, mehr Antwortmöglichkeiten als zugelassen zu benötigen, kontaktieren Sie einen Administrator.',
+		1 => 'Die maximal zulässige Anzahl von Antwortmöglichkeiten wird durch die Board-Administration festgelegt. Wenn Sie glauben, mehr Antwortmöglichkeiten als zugelassen zu benötigen, kontaktieren Sie einen Administrator.',
 	),
 	array(
 		0 => 'Wie bearbeite oder lösche ich eine Umfrage?',

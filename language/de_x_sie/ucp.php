@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
 	'TO_ADD_MASS'				=> 'Empfänger hinzufügen',
 	'TO_ADD_GROUPS'				=> 'Gruppe hinzufügen',
 	'TOO_MANY_RECIPIENTS'		=> 'Sie haben versucht, eine Private Nachricht an zu viele Empfänger zu senden.',
-	'TOO_MANY_REGISTERS'		=> 'Sie haben die zulässige Zahl von Registrierungs-Versuchen in dieser Sitzung überschritten. Bitte versuchen Sie es später erneut.',
+	'TOO_MANY_REGISTERS'		=> 'Sie haben die zulässige Anzahl von Registrierungs-Versuchen in dieser Sitzung überschritten. Bitte versuchen Sie es später erneut.',
 
 	'UCP'						=> 'Persönlicher Bereich',
 	'UCP_ACTIVATE'				=> 'Benutzerkonto aktivieren',
