@@ -59,8 +59,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Die MySQL-Volltextsuche kann nur mit MySQL 4 oder höher verwendet werden.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Die MySQL-Volltextsuche kann nur mit MyISAM- oder InnoDB-Tabellen genutzt werden. Für eine Volltextsuche mit InnoDB-Tabellen ist MySQL 5.6.4 oder höher erforderlich.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Insgesamt indizierte Beiträge',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Nur Wörter mit mindestens dieser Anzahl an Zeichen werden indiziert. Dieser Wert kann nur durch den Server-Betreiber in der MySQL-Konfiguration geändert werden.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Nur Wörter mit maximal dieser Anzahl an Zeichen werden indiziert. Dieser Wert kann nur durch den Server-Betreiber in der MySQL-Konfiguration geändert werden.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Nur Wörter mit mindestens dieser Anzahl von Zeichen werden indiziert. Dieser Wert kann nur durch den Server-Betreiber in der MySQL-Konfiguration geändert werden.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Nur Wörter mit maximal dieser Anzahl von Zeichen werden indiziert. Dieser Wert kann nur durch den Server-Betreiber in der MySQL-Konfiguration geändert werden.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Die PostgreSQL-Volltextsuche kann nur mit PostgreSQL genutzt werden.',
 	'FULLTEXT_POSTGRES_TS_NOT_USABLE'		=> 'Die PostgreSQL-Volltextsuche kann nur mit PostgreSQL 8.3 oder höher genutzt werden.',
@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximale Wort-Länge für Schlüsselwörter',
 	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'	=> 'Dieses Such-Backend kann nur mit PostgreSQL 8.3 oder höher genutzt werden.',
 	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'			=> 'Das Konfigurationsprofil für die Textsuche, das den Parser und das Wörterbuch festlegt.',
-	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'Wörter, die aus mindestens dieser Zahl von Zeichen bestehen, werden in der Datenbankabfrage berücksichtigt.',
-	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Wörter, die aus nicht mehr als dieser Zahl von Zeichen bestehen, werden in der Datenbankabfrage berücksichtigt.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'Wörter, die aus mindestens dieser Anzahl von Zeichen bestehen, werden in der Datenbankabfrage berücksichtigt.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Wörter, die aus nicht mehr als dieser Anzahl von Zeichen bestehen, werden in der Datenbankabfrage berücksichtigt.',
 
 	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Passe die folgenden Einstellungen an, um eine Sphinx-Konfigurationsdatei zu erstellen',
 	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Pfad zum Daten-Verzeichnis',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'MIN_SEARCH_CHARS'						=> 'Minimal indizierte Zeichen',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Wörter mit mindestens so vielen Zeichen werden für die Suche indiziert.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Mindestlänge für Suche nach Benutzernamen',
-	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Benutzer müssen mindestens diese Zahl von Zeichen eingeben, wenn sie eine Mitgliedersuche mit Platzhaltern durchführen. Wenn der Benutzername des Autors kürzer als diese Zahl ist, kannst du immer noch nach den Beiträgen des Benutzers suchen, indem du nach dem vollständigen Namen suchst.',
+	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Benutzer müssen mindestens diese Anzahl von Zeichen eingeben, wenn sie eine Mitgliedersuche mit Platzhaltern durchführen. Wenn der Benutzername des Autors kürzer als diese Zahl ist, kannst du immer noch nach den Beiträgen des Benutzers suchen, indem du nach dem vollständigen Namen suchst.',
 
 	'PROGRESS_BAR'							=> 'Fortschritt',
 

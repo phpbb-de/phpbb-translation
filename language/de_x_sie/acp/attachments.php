@@ -123,8 +123,8 @@ $lang = array_merge($lang, array(
 	'IMAGICK_PATH'				=> 'Imagemagick-Pfad',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Voller Pfad zum Imagemagick-Programm, z.&nbsp;B. <samp>/usr/bin/</samp>.',
 
-	'MAX_ATTACHMENTS'				=> 'Maximale Anzahl an Dateianhängen pro Beitrag',
-	'MAX_ATTACHMENTS_PM'			=> 'Maximale Anzahl an Dateianhängen pro Privater Nachricht',
+	'MAX_ATTACHMENTS'				=> 'Maximale Anzahl von Dateianhängen pro Beitrag',
+	'MAX_ATTACHMENTS_PM'			=> 'Maximale Anzahl von Dateianhängen pro Privater Nachricht',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximale Dateigröße',
 	'MAX_IMAGE_SIZE'				=> 'Maximale Bildgröße',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maximale Größe von Bild-Dateianhängen. Um die Überprüfung der Bildgröße abzuschalten, stellen Sie als Werte 0px &times; 0px ein.',
