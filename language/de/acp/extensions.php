@@ -120,4 +120,7 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Alle Versionen erneut prüfen',
 	'FORCE_UNSTABLE'					=> 'Immer auf instabile Entwicklungs-Versionen prüfen',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Einstellungen für Versions-Prüfung',
+
+	'META_FIELD_NOT_SET'	=> '#Required meta field %s has not been set.',
+	'META_FIELD_INVALID'	=> '#Meta field %s is invalid.',
 ));

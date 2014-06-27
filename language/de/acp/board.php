@@ -114,9 +114,15 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Erlaubt das Hochladen eines Avatars von einer anderen Website.',
 	'ALLOW_UPLOAD'					=> 'Hochladen von Avataren erlauben',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar-Galeriepfad',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Galerie-Avatare liegen (z.&nbsp;B. <samp>images/avatars/gallery</samp>).',
+	//TODO
+	//>>>>>> OLD <<<<<<: Path under your phpBB root directory for pre-loaded images, e.g. <samp>images/avatars/gallery</samp>.
+	//>>>>>>> NEW <<<<<<: Path under your phpBB root directory for pre-loaded images, e.g. <samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> '#Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Galerie-Avatare liegen (z.&nbsp;B. <samp>images/avatars/gallery</samp>).',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar Speicherpfad',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Avatare gespeichert werden (z.&nbsp;B. <samp>images/avatars/upload</samp>).<br />Das Hochladen von Avataren <strong>wird nicht funktionieren</strong>, wenn dieser Ordner nicht beschreibbar ist.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Path under your phpBB root directory, e.g. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.
+	//>>>>>>> NEW <<<<<<: Path under your phpBB root directory, e.g. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> '#Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Avatare gespeichert werden (z.&nbsp;B. <samp>images/avatars/upload</samp>).<br />Das Hochladen von Avataren <strong>wird nicht funktionieren</strong>, wenn dieser Ordner nicht beschreibbar ist.',
 	'MAX_AVATAR_SIZE'				=> 'Maximale Abmessungen für Avatare',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Breite &times; Höhe in Pixel',
 	'MAX_FILESIZE'					=> 'Maximale Dateigröße',
@@ -355,6 +361,19 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Die Zeit in Sekunden, nach der Sitzungen ungültig werden.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> '#Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+
+	'CONTACT_US_ENABLE'				=> '#Enable contact page',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> '#This page allows users to send emails to board administrators',
+
+	'CONTACT_US_INFO'				=> '#Contact information',
+	'CONTACT_US_INFO_EXPLAIN'		=> '#The message is displayed on the contact page',
+	'CONTACT_US_INFO_PREVIEW'		=> '#Contact page information - Preview',
+	'CONTACT_US_INFO_UPDATED'		=> '#Contact page information has been updated.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Hier kannst du einige Board-Funktionen aktivieren und deaktivieren, um die beanspruchte Rechenleistung zu verringern. Auf den meisten Servern ist es allerdings nicht nötig, irgendeine Funktion zu deaktivieren. Andererseits kann es auf einigen Systemen oder auf Servern, die man sich mit anderen teilt, durchaus Vorteile bringen, wenn Funktionen abgeschaltet werden, die nicht wirklich benötigt werden. Du kannst hier auch Limits für die Systemauslastung und für die aktiven Sitzungen festlegen, bei deren Überschreitung das Board offline geht.',
@@ -404,7 +423,10 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Authentifizierungs-Methode wählen',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Für jeden aktivierten OAuth-Anbieter muss sowohl der Key als auch das Secret angegeben werden. Für einen OAuth-Anbieter wurde nur ein Wert angegeben.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Für jeden OAuth-Anbieter wird sowohl ein eindeutiger Key <em>(Schlüssel)</em> als auch ein Secret <em>(Geheimnis)</em> benötigt, um eine Authentifizierung vornehmen zu können.<br />Diese sollten dir vom OAuth-Provider bei der Registrierung deiner Website bereitgestellt werden und exakt so eingegeben werden, wie sie bereitgestellt wurden.<br />Ein Anbieter, für den nicht sowohl Key als auch Secret angegeben wurde, wird den Benutzern deines Forums nicht zur Verfügung stehen.',
+	//TODO
+	//>>>>>> OLD <<<<<<: Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.
+	//>>>>>>> NEW <<<<<<: Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> '#Für jeden OAuth-Anbieter wird sowohl ein eindeutiger Key <em>(Schlüssel)</em> als auch ein Secret <em>(Geheimnis)</em> benötigt, um eine Authentifizierung vornehmen zu können.<br />Diese sollten dir vom OAuth-Provider bei der Registrierung deiner Website bereitgestellt werden und exakt so eingegeben werden, wie sie bereitgestellt wurden.<br />Ein Anbieter, für den nicht sowohl Key als auch Secret angegeben wurde, wird den Benutzern deines Forums nicht zur Verfügung stehen.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
@@ -463,8 +485,11 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Speicherpfad der Dateityp-Gruppen-Symbole',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> 'Wiederkehrende Aufgaben über Cron-Job des Systems ausführen',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Wenn deaktiviert, wird sich phpBB darum kümmern, dass wiederkehrende Aufgaben automatisch ausgeführt werden. Wenn aktiviert, wird phpBB wiederkehrende Aufgaben nicht selbst ausführen; der System-Administrator muss dann dafür sorgen, dass <code>cron.php</code> regelmäßig (z.&nbsp;B. alle 5 Minuten) durch einen Cron-Job des Systems aufgerufen wird.',
+	'USE_SYSTEM_CRON'		=> 'Wiederkehrende Aufgaben über Cron-Job des Systems ausführen',
+	//TODO
+	//>>>>>> OLD <<<<<<: When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).
+	//>>>>>>> NEW <<<<<<: When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).
+	'USE_SYSTEM_CRON_EXPLAIN'		=> '#Wenn deaktiviert, wird sich phpBB darum kümmern, dass wiederkehrende Aufgaben automatisch ausgeführt werden. Wenn aktiviert, wird phpBB wiederkehrende Aufgaben nicht selbst ausführen; der System-Administrator muss dann dafür sorgen, dass <code>cron.php</code> regelmäßig (z.&nbsp;B. alle 5 Minuten) durch einen Cron-Job des Systems aufgerufen wird.',
 ));
 
 // Security Settings

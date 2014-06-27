@@ -77,6 +77,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Benutzer',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Client-Kommunikation',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookies',
+	'ACP_CONTACT'				=> '#Contact page',
+	'ACP_CONTACT_SETTINGS'		=> '#Contact page settings',
 	'ACP_CRITICAL_LOGS'			=> 'Fehler-Protokoll',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Benutzerdefinierte Profilfelder',
 
@@ -225,8 +227,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Zurück',
 
+	'CLI_DESCRIPTION_CRON_LIST'				=> '#Prints a list of ready and unready cron jobs.',
+	'CLI_DESCRIPTION_CRON_RUN'				=> '#Runs all ready cron tasks.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> '#Name of the task to be run',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> '#Launch the shell.',
+
 	'COLOUR_SWATCH'			=> 'Websichere Farbpalette',
 	'CONFIG_UPDATED'		=> 'Konfiguration erfolgreich aktualisiert.',
+	'CRON_LOCK_ERROR'		=> '#Could not obtain cron lock.',
+	'CRON_NO_SUCH_TASK'		=> '#Could not find cron task “%s”.',
+	'CRON_NO_TASK'			=> '#No cron tasks need to be run right now.',
+	'CRON_NO_TASKS'			=> '#No cron tasks could be found.',
 
 	'DEACTIVATE'				=> 'Deaktivieren',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Der angegebene Pfad „%s“ existiert nicht.',
@@ -287,6 +299,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Erinnern',
 	'RESYNC'							=> 'Synchronisieren',
 
+	'RUNNING_TASK'			=> '#Running task: %s.',
 	'SELECT_ANONYMOUS'		=> 'Gäste-Benutzerkonto auswählen',
 	'SELECT_OPTION'			=> 'Option auswählen',
 
@@ -297,6 +310,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Alle Vorgänge anzeigen',
 
+	'TASKS_NOT_READY'			=> '#Not ready tasks:',
+	'TASKS_READY'			=> '#Ready tasks:',
 	'TOTAL_SIZE'      		=> 'Gesamtgröße',
 
 	'UCP'					=> 'Persönlicher Bereich',
@@ -543,9 +558,15 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Thema freigegeben</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Thema als neu markiert</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Beitrag „%1$s“ gelöscht — geschrieben von</strong><br />» %2$s',
+	//TODO
+	//>>>>>> OLD <<<<<<: <strong>Deleted post “%1$s” written by</strong><br />» %2$s
+	//>>>>>>> NEW <<<<<<: <strong>Deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s
+	'LOG_DELETE_POST'			=> '#<strong>Beitrag „%1$s“ gelöscht — geschrieben von</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Link zum verschobenem Thema gelöscht</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Thema „%1$s“ gelöscht — geschrieben von</strong><br />» %2$s',
+	//TODO
+	//>>>>>> OLD <<<<<<: <strong>Deleted topic “%1$s” written by</strong><br />» %2$s
+	//>>>>>>> NEW <<<<<<: <strong>Deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s
+	'LOG_DELETE_TOPIC'			=> '#<strong>Thema „%1$s“ gelöscht — geschrieben von</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Thema dupliziert</strong><br />» von %s',
 	'LOG_LOCK'					=> '<strong>Thema gesperrt</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Beitrag gesperrt</strong><br />» %s',
@@ -555,13 +576,22 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Meldung zu Privater Nachricht gelöscht</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Beitrag freigegeben</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Freigabe von Beitrag „%1$s“ (Autor: „%3$s“) verweigert aus folgendem Grund</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Beitrag „%1$s“ geändert, erstellt von</strong><br />» %2$s',
+	//TODO
+	//>>>>>> OLD <<<<<<: <strong>Edited post “%1$s” written by</strong><br />» %2$s
+	//>>>>>>> NEW <<<<<<: <strong>Edited post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s
+	'LOG_POST_EDITED'			=> '#<strong>Beitrag „%1$s“ geändert, erstellt von</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Beitrag wiederhergestellt</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Meldung geschlossen</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Meldung gelöscht</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Thema „%1$s“ wiederhergestellt — geschrieben von</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Beitrag „%1$s“ als gelöscht markiert — geschrieben von</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Thema „%1$s“ als gelöscht markiert — geschrieben von</strong><br />» %2$s',
+	//TODO
+	//>>>>>> OLD <<<<<<: <strong>Soft deleted post “%1$s” written by</strong><br />» %2$s
+	//>>>>>>> NEW <<<<<<: <strong>Soft deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s
+	'LOG_SOFTDELETE_POST'		=> '#<strong>Beitrag „%1$s“ als gelöscht markiert — geschrieben von</strong><br />» %2$s',
+	//TODO
+	//>>>>>> OLD <<<<<<: <strong>Soft deleted topic “%1$s” written by</strong><br />» %2$s
+	//>>>>>>> NEW <<<<<<: <strong>Soft deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s
+	'LOG_SOFTDELETE_TOPIC'		=> '#<strong>Thema „%1$s“ als gelöscht markiert — geschrieben von</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Abgetrennte Beiträge verschoben</strong><br />» nach %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Beiträge abgetrennt</strong><br />» von %s',
 
