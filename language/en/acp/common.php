@@ -75,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Users',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Client communication',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookie settings',
+	'ACP_CONTACT'				=> 'Contact page',
+	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings',
 	'ACP_CRITICAL_LOGS'			=> 'Error log',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Custom profile fields',
 
@@ -223,8 +225,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Back',
 
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Prints a list of ready and unready cron jobs.',
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Runs all ready cron tasks.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Name of the task to be run',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Launch the shell.',
+
 	'COLOUR_SWATCH'			=> 'Web-safe colour swatch',
 	'CONFIG_UPDATED'		=> 'Configuration updated successfully.',
+	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
+	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.',
+	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
+	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
 
 	'DEACTIVATE'				=> 'Deactivate',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'The entered path “%s” does not exist.',
@@ -285,6 +297,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Remind',
 	'RESYNC'							=> 'Resynchronise',
 
+	'RUNNING_TASK'			=> 'Running task: %s.',
 	'SELECT_ANONYMOUS'		=> 'Select anonymous user',
 	'SELECT_OPTION'			=> 'Select option',
 
@@ -295,6 +308,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Show all operations',
 
+	'TASKS_NOT_READY'			=> 'Not ready tasks:',
+	'TASKS_READY'			=> 'Ready tasks:',
 	'TOTAL_SIZE'      		=> 'Total size',
 
 	'UCP'					=> 'User Control Panel',
@@ -541,9 +556,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Approved topic</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>User bumped topic</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Deleted post “%1$s” written by</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Deleted shadow topic</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Deleted topic “%1$s” written by</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Copied topic</strong><br />» from %s',
 	'LOG_LOCK'					=> '<strong>Locked topic</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Locked post</strong><br />» %s',
@@ -553,13 +568,13 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Deleted PM report</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Approved post</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Restored post</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Closed report</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Deleted report</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Restored topic “%1$s” written by</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Moved split posts</strong><br />» to %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Split posts</strong><br />» from %s',
 
