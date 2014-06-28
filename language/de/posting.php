@@ -228,6 +228,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'Du kannst Zitate nicht ineinander verschachteln.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> '#The specified file could not be uploaded because the request timed out.',
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
 	'SAVE_DRAFT'				=> 'Entwurf speichern',
@@ -259,6 +260,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Du darfst bestimmte BBCodes nicht verwenden: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Um die Art dieses Themas von global auf normal zu setzen, musst du ein Forum wählen, in dem das Thema erscheinen soll.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> '#Your message contains the following unsupported characters:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> '#Your subject contains the following unsupported characters:<br />%s',
 	'UPDATE_COMMENT'			=> 'Kommentar aktualisieren',
 	'URL_INVALID'				=> 'Die eingegebene URL ist ungültig.',
 	'URL_NOT_FOUND'				=> 'Die angegebene Datei konnte nicht gefunden werden.',

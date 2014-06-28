@@ -42,9 +42,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Benutzerdefiniertes Profilfeld erfolgreich hinzugefügt.',
+	'ALPHA_DOTS'			=> '#Alphanumeric and dots (periods)',
 	'ALPHA_ONLY'			=> 'Nur alphanumerische Zeichen',
 	'ALPHA_SPACERS'			=> 'Nur alphanumerische, Leer- und -+_[]-Zeichen',
 	'ALPHA_UNDERSCORE'		=> 'Nur alphanumerische Zeichen und Unterstriche',
+	'ALPHA_PUNCTUATION'		=> '#Alphanumeric with comma, dots, underscore and dashes beginning with a letter',
 	'ALWAYS_TODAY'			=> 'Immer das aktuelle Datum',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Gib hier die Optionen an.',
@@ -94,6 +96,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Feld-Beschreibung',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Die dem Benutzer angezeigte Beschreibung für das Feld.',
 	'FIELD_DROPDOWN'			=> 'Auswahlfeld',
+	'FIELD_GOOGLEPLUS'			=> '#Google+',
 	'FIELD_IDENT'				=> 'Feld-Kennung',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Die ausgewählte Feld-Kennung existiert bereits. Bitte gib eine andere an.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Die Feld-Kennung dient dir zur Identifizierung des Feldes. Sie wird den Benutzern nicht angezeigt.',

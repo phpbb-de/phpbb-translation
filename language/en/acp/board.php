@@ -111,9 +111,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Allow uploading of avatars from another website.',
 	'ALLOW_UPLOAD'					=> 'Enable avatar uploading',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar gallery path',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Path under your phpBB root directory for pre-loaded images, e.g. <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Path under your phpBB root directory for pre-loaded images, e.g. <samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar storage path',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Path under your phpBB root directory, e.g. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Path under your phpBB root directory, e.g. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.',
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar dimensions',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Width x Height in pixels.',
 	'MAX_FILESIZE'					=> 'Maximum avatar file size',
@@ -352,6 +352,19 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessions will expire after this time, in seconds.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+
+	'CONTACT_US_ENABLE'				=> 'Enable contact page',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
+
+	'CONTACT_US_INFO'				=> 'Contact information',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
+	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Here you can enable and disable certain board functions to reduce the amount of processing required. On most servers there is no need to disable any functions. However on certain systems or in shared hosting environments it may be beneficial to disable capabilities you do not really need. You can also specify limits for system load and active sessions beyond which the board will go offline.',
@@ -401,7 +414,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Select an authentication method',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
@@ -461,7 +474,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Extension group icons storage path',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Path under your phpBB root directory, e.g. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Run periodic tasks from system cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).',
 ));
 
 // Security Settings
