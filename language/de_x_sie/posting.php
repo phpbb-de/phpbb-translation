@@ -260,8 +260,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Sie dürfen bestimmte BBCodes nicht verwenden: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Um die Art dieses Themas von global auf normal zu setzen, müssen Sie ein Forum wählen, in dem das Thema erscheinen soll.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Deine Nachricht enthält folgende unzulässigen Zeichen:<br />%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Dein Betreff enthält folgende unzulässigen Zeichen:<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Ihre Nachricht enthält folgende unzulässigen Zeichen:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Ihr Betreff enthält folgende unzulässigen Zeichen:<br />%s',
 	'UPDATE_COMMENT'			=> 'Kommentar aktualisieren',
 	'URL_INVALID'				=> 'Die eingegebene URL ist ungültig.',
 	'URL_NOT_FOUND'				=> 'Die angegebene Datei konnte nicht gefunden werden.',

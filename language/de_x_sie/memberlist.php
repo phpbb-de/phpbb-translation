@@ -66,8 +66,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Sie müssen eine Nachricht angeben, die versendet werden soll.',
 	'EMPTY_MESSAGE_IM'		=> 'Sie müssen eine Nachricht angeben, die versendet werden soll.',
 	'EMPTY_NAME_EMAIL'		=> 'Sie müssen den Namen des Empfängers angeben.',
-	'EMPTY_SENDER_EMAIL'	=> 'Du musst eine gültige E-Mail-Adresse angeben.',
-	'EMPTY_SENDER_NAME'		=> 'Du musst einen Namen angeben.',
+	'EMPTY_SENDER_EMAIL'	=> 'Sie müssen eine gültige E-Mail-Adresse angeben.',
+	'EMPTY_SENDER_NAME'		=> 'Sie müssen einen Namen angeben.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Sie müssen einen Betreff für die E-Mail angeben.',
 	'EQUAL_TO'				=> 'Entspricht',
 
