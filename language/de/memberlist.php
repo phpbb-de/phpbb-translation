@@ -52,8 +52,8 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Vor dem',
 
 	'CC_EMAIL'				=> 'Eine Kopie dieser E-Mail an mich senden.',
-	'CONTACT_USER'			=> '#Contact',
-	'CONTACT_ADMIN'			=> '#Contact a Board Administrator',
+	'CONTACT_USER'			=> 'Kontaktieren',
+	'CONTACT_ADMIN'			=> 'Kontaktiere die Board-Administration',
 
 	'DEST_LANG'				=> 'Sprache',
 	'DEST_LANG_EXPLAIN'		=> 'Wähle — sofern verfügbar — eine passende Sprache aus, in der der Empfänger die Nachricht erhalten soll.',
@@ -66,8 +66,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Du musst eine Nachricht angeben, die versendet werden soll.',
 	'EMPTY_MESSAGE_IM'		=> 'Du musst eine Nachricht angeben, die versendet werden soll.',
 	'EMPTY_NAME_EMAIL'		=> 'Du musst den Namen des Empfängers angeben.',
-	'EMPTY_SENDER_EMAIL'	=> '#You must provide a valid email address.',
-	'EMPTY_SENDER_NAME'		=> '#You must provide a name.',
+	'EMPTY_SENDER_EMAIL'	=> 'Du musst eine gültige E-Mail-Adresse angeben.',
+	'EMPTY_SENDER_NAME'		=> 'Du musst einen Namen angeben.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Du musst einen Betreff für die E-Mail angeben.',
 	'EQUAL_TO'				=> 'Entspricht',
 
@@ -105,8 +105,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Mehr als',
 
-	'NO_CONTACT_FORM'		=> '#The board administrator contact form has been disabled.',
-	'NO_CONTACT_PAGE'		=> '#The board administrator contact page has been disabled.',
+	'NO_CONTACT_FORM'		=> 'Das Kontaktformular für die Board-Administration wurde deaktiviert.',
+	'NO_CONTACT_PAGE'		=> 'Das Kontaktseite für die Board-Administration wurde deaktiviert.',
 	'NO_EMAIL'				=> 'Du bist nicht berechtigt, eine E-Mail an diesen Benutzer zu senden.',
 	'NO_VIEW_USERS'			=> 'Du bist nicht berechtigt, die Mitgliederliste oder Profile anzusehen.',
 
@@ -122,8 +122,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Markierte auswählen',
 	'SELECT_SORT_METHOD'	=> 'Sortierung auswählen',
-	'SENDER_EMAIL_ADDRESS'	=> '#Your email address',
-	'SENDER_NAME'			=> '#Your name',
+	'SENDER_EMAIL_ADDRESS'	=> 'Deine E-Mail-Adresse',
+	'SENDER_NAME'			=> 'Dein Name',
 	'SEND_ICQ_MESSAGE'		=> 'ICQ-Nachricht senden',
 	'SEND_IM'				=> 'Instant Message senden',
 	'SEND_JABBER_MESSAGE'	=> 'Jabber-Nachricht senden',
@@ -147,9 +147,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Mitglieder pro Seite',
 
 	'VIEWING_PROFILE'		=> 'Profil von %s',
-	'VIEW_FACEBOOK_PROFILE'	=> '#View Facebook Profile',
-	'VIEW_SKYPE_PROFILE'	=> '#View Skype Profile',
-	'VIEW_TWITTER_PROFILE'	=> '#View Twitter Profile',
-	'VIEW_YOUTUBE_CHANNEL'  => '#View YouTube Channel',
-	'VIEW_GOOGLEPLUS_PROFILE' => '#View Google+ Profile',
+	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook-Profil anzeigen',
+	'VIEW_SKYPE_PROFILE'	=> 'Skype-Profil anzeigen',
+	'VIEW_TWITTER_PROFILE'	=> 'Twitter-Profil anzeigen',
+	'VIEW_YOUTUBE_CHANNEL'  => 'YouTube-Kanal anzeigen',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+-Profil anzeigen',
 ));
