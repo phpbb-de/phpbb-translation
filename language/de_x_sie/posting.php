@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'Sie können Zitate nicht ineinander verschachteln.',
 
-	'REMOTE_UPLOAD_TIMEOUT'		=> 'Die angegebene Datei konnte nicht hochgeladen werden, da bei der Anfrage eine Zeitüberschreitung aufgetreten ist.',
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Die ausgewählte Datei konnte nicht hochgeladen werden, da bei der Anfrage eine Zeitüberschreitung aufgetreten ist.',
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
 	'SAVE_DRAFT'				=> 'Entwurf speichern',
