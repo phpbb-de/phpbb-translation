@@ -114,15 +114,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Erlaubt das Hochladen eines Avatars von einer anderen Website.',
 	'ALLOW_UPLOAD'					=> 'Hochladen von Avataren erlauben',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar-Galeriepfad',
-	//TODO
-	//>>>>>> OLD <<<<<<: Path under your phpBB root directory for pre-loaded images, e.g. <samp>images/avatars/gallery</samp>.
-	//>>>>>>> NEW <<<<<<: Path under your phpBB root directory for pre-loaded images, e.g. <samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> '#Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Galerie-Avatare liegen (z.&nbsp;B. <samp>images/avatars/gallery</samp>).',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Galerie-Avatare liegen (z.&nbsp;B. <samp>images/avatars/gallery</samp>).<br />Doppelte Punkte (<samp>../</samp>) werden aus Sicherheitsgründen aus der Pfadangabe entfernt.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar Speicherpfad',
-	//TODO
-	//>>>>>> OLD <<<<<<: Path under your phpBB root directory, e.g. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.
-	//>>>>>>> NEW <<<<<<: Path under your phpBB root directory, e.g. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> '#Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Avatare gespeichert werden (z.&nbsp;B. <samp>images/avatars/upload</samp>).<br />Das Hochladen von Avataren <strong>wird nicht funktionieren</strong>, wenn dieser Ordner nicht beschreibbar ist.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Avatare gespeichert werden (z.&nbsp;B. <samp>images/avatars/upload</samp>).<br />Das Hochladen von Avataren <strong>wird nicht funktionieren</strong>, wenn dieser Ordner nicht beschreibbar ist.<br />Doppelte Punkte (<samp>../</samp>) werden aus Sicherheitsgründen aus der Pfadangabe entfernt.',
 	'MAX_AVATAR_SIZE'				=> 'Maximale Abmessungen für Avatare',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Breite &times; Höhe in Pixel',
 	'MAX_FILESIZE'					=> 'Maximale Dateigröße',
@@ -363,15 +357,15 @@ $lang = array_merge($lang, array(
 
 // Contact Settings
 $lang = array_merge($lang, array(
-	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> '#Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Hier kannst du die Kontaktseite aktivieren oder deaktivieren. Du kannst auch einen Text festlegen, der auf der Seite angezeigt wird.',
 
-	'CONTACT_US_ENABLE'				=> '#Enable contact page',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> '#This page allows users to send emails to board administrators',
+	'CONTACT_US_ENABLE'				=> 'Kontaktseite aktivieren',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Diese Seite erlaubt es Benutzern, E-Mails an die Board-Administration zu senden',
 
-	'CONTACT_US_INFO'				=> '#Contact information',
-	'CONTACT_US_INFO_EXPLAIN'		=> '#The message is displayed on the contact page',
-	'CONTACT_US_INFO_PREVIEW'		=> '#Contact page information - Preview',
-	'CONTACT_US_INFO_UPDATED'		=> '#Contact page information has been updated.',
+	'CONTACT_US_INFO'				=> 'Kontakt-Informationen',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Diese Nachricht wird auf der Kontaktseite angezeigt',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Kontaktseite — Vorschau',
+	'CONTACT_US_INFO_UPDATED'		=> 'Die Kontaktseite wurden aktualisiert.',
 ));
 
 // Load Settings
@@ -423,10 +417,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Authentifizierungs-Methode wählen',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Für jeden aktivierten OAuth-Anbieter muss sowohl der Key als auch das Secret angegeben werden. Für einen OAuth-Anbieter wurde nur ein Wert angegeben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.
-	//>>>>>>> NEW <<<<<<: Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> '#Für jeden OAuth-Anbieter wird sowohl ein eindeutiger Key <em>(Schlüssel)</em> als auch ein Secret <em>(Geheimnis)</em> benötigt, um eine Authentifizierung vornehmen zu können.<br />Diese sollten dir vom OAuth-Provider bei der Registrierung deiner Website bereitgestellt werden und exakt so eingegeben werden, wie sie bereitgestellt wurden.<br />Ein Anbieter, für den nicht sowohl Key als auch Secret angegeben wurde, wird den Benutzern deines Forums nicht zur Verfügung stehen.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Für jeden OAuth-Anbieter wird sowohl ein eindeutiger Key <em>(Schlüssel)</em> als auch ein Secret <em>(Geheimnis)</em> benötigt, um eine Authentifizierung vornehmen zu können. Diese sollten dir vom OAuth-Provider bei der Registrierung deiner Website bereitgestellt werden und exakt so eingegeben werden, wie sie bereitgestellt wurden.<br />Ein Anbieter, für den nicht sowohl Key als auch Secret angegeben wurde, wird den Benutzern deines Forums nicht zur Verfügung stehen. Beachte, dass die Benutzer weiterhin die Möglichkeit haben, sich über das DB-Plugin anzumelden.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
@@ -486,10 +477,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Speicherpfad der Dateityp-Gruppen-Symbole',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pfad von deinem phpBB-Hauptverzeichnis aus, z.&nbsp;B. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Wiederkehrende Aufgaben über Cron-Job des Systems ausführen',
-	//TODO
-	//>>>>>> OLD <<<<<<: When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).
-	//>>>>>>> NEW <<<<<<: When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).
-	'USE_SYSTEM_CRON_EXPLAIN'		=> '#Wenn deaktiviert, wird sich phpBB darum kümmern, dass wiederkehrende Aufgaben automatisch ausgeführt werden. Wenn aktiviert, wird phpBB wiederkehrende Aufgaben nicht selbst ausführen; der System-Administrator muss dann dafür sorgen, dass <code>cron.php</code> regelmäßig (z.&nbsp;B. alle 5 Minuten) durch einen Cron-Job des Systems aufgerufen wird.',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Wenn deaktiviert, wird sich phpBB darum kümmern, dass wiederkehrende Aufgaben automatisch ausgeführt werden. Wenn aktiviert, wird phpBB wiederkehrende Aufgaben nicht selbst ausführen; der System-Administrator muss dann dafür sorgen, dass <code>bin/phpbbcli.php cron:run</code> regelmäßig (z.&nbsp;B. alle 5 Minuten) durch einen Cron-Job des Systems ausgeführt wird.',
 ));
 
 // Security Settings
