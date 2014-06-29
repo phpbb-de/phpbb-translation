@@ -1,7 +1,7 @@
 
 Hallo {TO_USERNAME},
 
-die folgende Nachricht wurde dir über die Funktion „Die Board-Administration kontaktieren“ auf „{SITENAME}“ gesendet:
+die folgende Nachricht wurde dir als Administrator über die Kontakt-Funktion auf „{SITENAME}“ gesendet:
 
 <!-- IF S_IS_REGISTERED -->
 Die Nachricht wurde von einem registrierten Benutzer gesendet.
