@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_SUCCESS'	=> 'Die Verbindung war erfolgreich!',
 	'CONTACT'				=> 'Kontaktdaten',
 	'CONTACT_USER'			=> 'Kontaktdaten von %s', // TODO: Verwendung prüfen
-	'CONTACT_US'			=> 'Kontaktiere uns',
+	'CONTACT_US'			=> 'Kontakt',
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 
