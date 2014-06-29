@@ -364,8 +364,8 @@ $lang = array_merge($lang, array(
 
 	'CONTACT_US_INFO'				=> 'Kontakt-Informationen',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Diese Nachricht wird auf der Kontaktseite angezeigt',
-	'CONTACT_US_INFO_PREVIEW'		=> 'Kontaktseite — Vorschau',
-	'CONTACT_US_INFO_UPDATED'		=> 'Die Kontaktseite wurden aktualisiert.',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Kontakt-Informationen — Vorschau',
+	'CONTACT_US_INFO_UPDATED'		=> 'Die Einstellungen für den Administrations-Kontakt wurden aktualisiert.',
 ));
 
 // Load Settings
