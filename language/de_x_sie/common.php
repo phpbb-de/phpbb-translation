@@ -348,7 +348,7 @@ $lang = array_merge($lang, array(
 	'JOINED'				=> 'Registriert',
 	'JUMP_PAGE'				=> 'Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.',
 	'JUMP_TO'				=> 'Gehe zu',
-	'JUMP_TO_PAGE'			=> 'Gehe zur Seite',
+	'JUMP_TO_PAGE'			=> 'Gehe zu Seite',
 	'JUMP_TO_PAGE_CLICK'	=> 'Klicken Sie, um auf Seite … zu gehen',
 
 	'KB'					=> 'KB',
