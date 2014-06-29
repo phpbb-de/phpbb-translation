@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'MORE_THAN'				=> 'Mehr als',
 
 	'NO_CONTACT_FORM'		=> 'Das Kontaktformular für die Board-Administration wurde deaktiviert.',
-	'NO_CONTACT_PAGE'		=> 'Das Kontaktseite für die Board-Administration wurde deaktiviert.',
+	'NO_CONTACT_PAGE'		=> 'Die Kontaktseite für die Board-Administration wurde deaktiviert.',
 	'NO_EMAIL'				=> 'Du bist nicht berechtigt, eine E-Mail an diesen Benutzer zu senden.',
 	'NO_VIEW_USERS'			=> 'Du bist nicht berechtigt, die Mitgliederliste oder Profile anzusehen.',
 
