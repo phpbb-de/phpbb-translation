@@ -1,6 +1,6 @@
-Deutsch (Du) für phpBB 3.1.0-b4
--------------------------------
-Stand: 2014-06-01
+Deutsche Sprachdateien für phpBB 3.1.0-RC1
+------------------------------------------
+Stand: 2014-06-30
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
