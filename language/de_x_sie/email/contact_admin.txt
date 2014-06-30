@@ -1,23 +1,23 @@
-#
-Hello {TO_USERNAME},
 
-The following is an e-mail sent to you through the administration contact page on "{SITENAME}".
+Guten Tag {TO_USERNAME},
+
+die folgende Nachricht wurde Ihnen als Administrator über die Kontakt-Funktion auf „{SITENAME}“ gesendet:
 
 <!-- IF S_IS_REGISTERED -->
-The message has been sent from an account on the site.
-Username: {FROM_USERNAME}
-E-mail address: {FROM_EMAIL_ADDRESS}
-IP Address: {FROM_IP_ADDRESS}
-Profile: {U_FROM_PROFILE}
+Die Nachricht wurde von einem registrierten Benutzer gesendet.
+Benutzername: {FROM_USERNAME}
+E-mail-Adresse: {FROM_EMAIL_ADDRESS}
+IP-Adresse: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
 <!-- ELSE -->
-The message was sent from a guest who specified the following contact information:
+Die Nachricht wurde von einem Gast gesendet, der folgende Kontaktdaten angegeben hat:
 Name: {FROM_USERNAME}
-E-mail address: {FROM_EMAIL_ADDRESS}
-IP Address: {FROM_IP_ADDRESS}
+E-mail-Adresse: {FROM_EMAIL_ADDRESS}
+IP-Adresse: {FROM_IP_ADDRESS}
 <!-- ENDIF -->
 
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Es folgt die an Sie gesendete Nachricht
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
