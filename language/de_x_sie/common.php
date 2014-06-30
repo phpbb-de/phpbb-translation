@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Die ausgewählte Datei wurde nur unvollständig hochgeladen.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Die Avatar-Datei ist zu groß.<br />Die durch PHP in der php.ini festgelegte maximale Größe konnte nicht ermittelt werden.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Die Avatar-Datei ist zu groß, sie darf maximal %1$d %2$s groß sein.<br />Dieser Wert ist in der php.ini festgelegt und kann nicht überschrieben werden.',
-	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> '#The specified avatar could not be uploaded because the request timed out.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'Der ausgewählte Avatar konnte nicht hochgeladen werden, da bei der Anfrage eine Zeitüberschreitung aufgetreten ist.',
 	'AVATAR_URL_INVALID'			=> 'Die angegebene URL ist ungültig.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Die angegebene Datei konnte nicht gefunden werden.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Der Avatar muss zwischen 0 und %1$d %2$s groß sein.',
@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_SUCCESS'	=> 'Die Verbindung war erfolgreich!',
 	'CONTACT'				=> 'Kontaktdaten',
 	'CONTACT_USER'			=> 'Kontaktdaten von %s', // TODO: Verwendung prüfen
-	'CONTACT_US'			=> '#Contact us',
+	'CONTACT_US'			=> 'Kontakt',
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 
@@ -230,15 +230,15 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'Die Dateierweiterung <strong>%s</strong> wurde deaktiviert und kann nicht länger angezeigt werden.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'Die Erweiterung <strong>%s</strong> existiert nicht.',
 
-	'FACEBOOK'				=> '#Facebook',
+	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'FAQ',
 	'FAQ_EXPLAIN'			=> 'Häufig gestellte Fragen',
 	'FILENAME'				=> 'Dateiname',
 	'FILESIZE'				=> 'Größe',
 	'FILEDATE'				=> 'Dateidatum',
 	'FILE_COMMENT'			=> 'Dateikommentar',
-	'FILE_CONTENT_ERR'		=> '#Could not read the contents of file: %s',
-	'FILE_JSON_DECODE_ERR'	=> '#Failed to decode json file: %s',
+	'FILE_CONTENT_ERR'		=> 'Dateiinhalt konnte nicht gelesen werden: %s',
+	'FILE_JSON_DECODE_ERR'	=> 'JSON-Datei konnte nicht dekodiert werden: %s',
 	'FILE_NOT_FOUND'		=> 'Die angegebene Datei konnte nicht gefunden werden: %s',
 	'FIND_USERNAME'			=> 'Nach einem Mitglied suchen',
 	'FOLDER'				=> 'Ordner',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Los',
-	'GOOGLEPLUS'				=> '#Google+',
+	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Gehe zum ersten Beitrag',
 	'GOTO_LAST_POST'			=> 'Gehe zum letzten Beitrag',
 	'GOTO_PAGE'					=> 'Gehe zu Seite',
@@ -348,11 +348,8 @@ $lang = array_merge($lang, array(
 	'JOINED'				=> 'Registriert',
 	'JUMP_PAGE'				=> 'Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.',
 	'JUMP_TO'				=> 'Gehe zu',
-	//TODO
-	//>>>>>> OLD <<<<<<: Click to jump to page…
-	//>>>>>>> NEW <<<<<<: Jump to page
-	'JUMP_TO_PAGE'			=> '#Klicken Sie, um auf Seite … zu gehen',
-	'JUMP_TO_PAGE_CLICK'	=> '#Click to jump to page…',
+	'JUMP_TO_PAGE'			=> 'Gehe zu Seite',
+	'JUMP_TO_PAGE_CLICK'	=> 'Klicken Sie, um auf Seite … zu gehen',
 
 	'KB'					=> 'KB',
 	'KIB'					=> 'KiB',
@@ -450,86 +447,35 @@ $lang = array_merge($lang, array(
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
-		//TODO
-		//>>>>>> OLD <<<<<<: %1$s replied to the topic “%2$s” you have bookmarked.
-		//>>>>>>> NEW <<<<<<: <strong>Reply</strong> from %1$s in bookmarked topic:
-		1	=> '#%1$s hat auf das Thema „%2$s“ geantwortet, für das Sie ein Lesezeichen gesetzt haben.',
-		2	=> '#%1$s haben auf das Thema „%2$s“ geantwortet, für das Sie ein Lesezeichen gesetzt haben.',
+		1	=> '<strong>Antwort</strong> von %1$s in Thema mit gesetztem Lesezeichen.',
+		2	=> '<strong>Antworten</strong> von %1$s in Thema mit gesetztem Lesezeichen.',
 	),
-	'NOTIFICATION_FORUM'				=> '##<em>Forum:</em> %1$s',
-	//TODO
-	//>>>>>> OLD <<<<<<: %1$s is requesting to join the group %2$s.
-	//>>>>>>> NEW <<<<<<: <strong>Group request</strong> from %1$s to join the group %2$s.
-	'NOTIFICATION_GROUP_REQUEST'		=> '#%1$s hat beantragt, Mitglied der Gruppe %2$s zu werden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Your request to join the group %1$s has been approved.
-	//>>>>>>> NEW <<<<<<: <strong>Group request approved</strong> to join the group %1$s.
-	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '#Ihr Antrag, der Gruppe %1$s beizutreten, wurde akzeptiert.',
-	//TODO
-	//>>>>>> OLD <<<<<<: %1$s sent you a Private Message "%2$s".
-	//>>>>>>> NEW <<<<<<: <strong>Private Message</strong> from %1$s:
-	'NOTIFICATION_PM'					=> '#%1$s hat Ihnen eine Private Nachricht gesendet: „%2$s“.',
+	'NOTIFICATION_FORUM'				=> '<em>Forum:</em> %1$s',
+	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Beitrittsgesuch</strong> von %1$s für Gruppe %2$s.',
+	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Beitrittsgesuch akzeptiert</strong> für Gruppe %1$s.',
+	'NOTIFICATION_PM'					=> '<strong>Private Nachricht</strong> von %1$s',
 	'NOTIFICATION_POST'					=> array(
-		//TODO
-		//>>>>>> OLD <<<<<<: %1$s replied to the topic “%2$s”.
-		//>>>>>>> NEW <<<<<<: <strong>Reply</strong> from %1$s in topic:
-		1	=> '#%1$s hat auf das Thema „%2$s“ geantwortet.',
-		2	=> '#%1$s haben auf das Thema „%2$s“ geantwortet.',
+		1	=> '<strong>Antwort</strong> von %1$s in Thema:',
+		2	=> '<strong>Antworten</strong> von %1$s in Thema:',
 	),
-	//TODO
-	//>>>>>> OLD <<<<<<: Your post was approved "%2$s".
-	//>>>>>>> NEW <<<<<<: <strong>Post approved</strong>:
-	'NOTIFICATION_POST_APPROVED'		=> '#Ihr Beitrag wurde freigegeben: „%2$s“.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Your post "%1$s" was disapproved for reason: "%2$s".
-	//>>>>>>> NEW <<<<<<: <strong>Post disapproved</strong>:
-	'NOTIFICATION_POST_DISAPPROVED'		=> '#Die Freigabe Ihres Beitrags „%1$s“ wurde mit folgender Begründung abgelehnt: „%2$s“.',
-	//TODO
-	//>>>>>> OLD <<<<<<: A new post titled "%2$s" was posted by %1$s and needs approval.
-	//>>>>>>> NEW <<<<<<: <strong>Post approval</strong> request by %1$s:
-	'NOTIFICATION_POST_IN_QUEUE'		=> '#Ein neuer Beitrag mit dem Titel „%2$s“ wurde von %1$s erstellt und wartet auf Freigabe.',
+	'NOTIFICATION_POST_APPROVED'		=> '<strong>Beitrag freigegeben</strong>:',
+	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Beitragsfreigabe verweigert</strong>:',
+	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Beitragsfreigabe</strong> angefordert von %1$s:',
 	'NOTIFICATION_QUOTE'				=> array(
-		//TODO
-		//>>>>>> OLD <<<<<<: %1$s quoted you in the post “%2$s”.
-		//>>>>>>> NEW <<<<<<: <strong>Quoted</strong> by %1$s in:
-		1	=> '#%1$s hat Sie im Beitrag „%2$s“ zitiert.',
-		2	=> '#%1$s haben Sie im Beitrag „%2$s“ zitiert.',
+		1	=> '<strong>Zitiert</strong> von %1$s in:',
+		2	=> '<strong>Zitiert</strong> von %1$s in:',
 	),
-	'NOTIFICATION_REFERENCE'			=> '##"%1$s"',
-	'NOTIFICATION_REASON'				=> '##<em>Reason:</em> %1$s.',
-	//TODO
-	//>>>>>> OLD <<<<<<: %1$s reported a Private Message "%2$s" for reason: "%3$s".
-	//>>>>>>> NEW <<<<<<: <strong>Private Message reported</strong> by %1$s:
-	'NOTIFICATION_REPORT_PM'			=> '#%1$s hat eine Private Nachricht „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
-	//TODO
-	//>>>>>> OLD <<<<<<: %1$s reported a post "%2$s" for reason: "%3$s".
-	//>>>>>>> NEW <<<<<<: <strong>Post reported</strong> by %1$s:
-	'NOTIFICATION_REPORT_POST'			=> '#%1$s hat einen Beitrag „%2$s“ aus folgendem Grund gemeldet: „%3$s“.',
-	//TODO
-	//>>>>>> OLD <<<<<<: %1$s closed the report you made for "%2$s".
-	//>>>>>>> NEW <<<<<<: <strong>Report closed</strong> by %1$s for:
-	'NOTIFICATION_REPORT_CLOSED'		=> '#%1$s hat die Meldung geschlossen, die Sie für „%2$s“ erstellt haben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: %1$s posted a new topic "%2$s" in the forum "%3$s".
-	//>>>>>>> NEW <<<<<<: <strong>New topic</strong> by %1$s:
-	'NOTIFICATION_TOPIC'				=> '#%1$s hat ein neues Thema „%2$s“ im Forum „%3$s“ erstellt.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Your topic "%2$s" in the forum "%3$s" was approved.
-	//>>>>>>> NEW <<<<<<: <strong>Topic approved</strong>:
-	'NOTIFICATION_TOPIC_APPROVED'		=> '#Ihr Beitrag „%2$s“ im Forum „%3$s“ wurde freigegeben.',
-	//TODO
-	//>>>>>> OLD <<<<<<: Your topic "%1$s" was disapproved for reason: "%2$s".
-	//>>>>>>> NEW <<<<<<: <strong>Topic disapproved</strong>:
-	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '#Die Freigabe Ihres Beitrags „%1$s“ wurde aus folgendem Grund abgelehnt: „%2$s“.',
-	//TODO
-	//>>>>>> OLD <<<<<<: A new topic titled "%2$s" was posted by %1$s and needs approval.
-	//>>>>>>> NEW <<<<<<: <strong>Topic approval</strong> request by %1$s:
-	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '#Ein neues Thema „%2$s“ wurde von %1$s erstellt und muss freigegeben werden.',
+	'NOTIFICATION_REFERENCE'			=> '„%1$s“',
+	'NOTIFICATION_REASON'				=> '<em>Grund:</em> %1$s.',
+	'NOTIFICATION_REPORT_PM'			=> '<strong>Private Nachricht gemeldet</strong> von %1$s:',
+	'NOTIFICATION_REPORT_POST'			=> '<strong>Beitrag gemeldet</strong> von %1$s:',
+	'NOTIFICATION_REPORT_CLOSED'   		=> '<strong>Meldung geschlossen</strong> von %1$s für:',
+	'NOTIFICATION_TOPIC'				=> '<strong>Neues Thema</strong> von %1$s:',
+	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Thema freigegeben</strong>:',
+	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Themenfreigabe verweigert</strong>:',
+	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Themenfreigabe</strong> angefordert von %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Die notwendige Datei für die Benachrichtigungs-Art „%s“ ist nicht vorhanden.',
-	//TODO
-	//>>>>>> OLD <<<<<<: The user “%1$s” is newly registered and requires activation.
-	//>>>>>>> NEW <<<<<<: <strong>Activation required</strong> for newly registered user: “%1$s”
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '#Der Benutzer „%1$s“ hat sich kürzlich registriert und muss freigegeben werden.',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Benutzerfreigabe erforderlich</strong> für kürzlich registrierten Benutzer: „%1$s“',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'viele weitere Mitglieder',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -743,7 +689,7 @@ $lang = array_merge($lang, array(
 	'SETTINGS'					=> 'Einstellungen',
 	'SIGNATURE'					=> 'Signatur',
 	'SKIP'						=> 'Zum Inhalt',
-	'SKYPE'						=> '#Skype',
+	'SKYPE'						=> 'Skype',
 	'SMTP_NO_AUTH_SUPPORT'		=> 'Der SMTP-Server unterstützt keine Authentifizierung.',
 	'SORRY_AUTH_READ'			=> 'Sie haben keine Berechtigung, dieses Forum zu lesen.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'Sie haben keine Berechtigung, diesen Dateianhang herunterzuladen.',
@@ -802,7 +748,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_USER_PASSWORD'		=> 'Das angegebene Passwort ist zu kurz.',
 	'TOO_SHORT_USERNAME'			=> 'Der angegebene Benutzername ist zu kurz.',
 	'TOO_SHORT_EMAIL'				=> 'Die angegebene E-Mail-Adresse ist zu kurz.',
-	'TOO_SHORT_EMAIL_CONFIRM'		=> '#The email address confirmation you entered is too short.',
+	'TOO_SHORT_EMAIL_CONFIRM'		=> 'Die angegebene Bestätigung der E-Mail-Adresse ist zu kurz.',
 	'TOO_SMALL'						=> 'Der angegebene Wert ist zu klein.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Die Zahl, die als <strong>Maximale Anzahl zulässiger Empfänger pro Privater Nachricht</strong> angegeben wurde, ist zu klein.',
 
@@ -839,7 +785,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Mitglieder insgesamt <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Aufgefangene PHP-Fehler: %s',
-	'TWITTER'			=> '#Twitter',
+	'TWITTER'			=> 'Twitter',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Die Größe des Bildes konnte nicht ermittelt werden. Bitte prüfen Sie, ob die angegebene URL korrekt ist.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Die Datei kann nicht übertragen werden.',
@@ -926,7 +872,7 @@ $lang = array_merge($lang, array(
 	'WROTE'						=> 'hat geschrieben',
 
 	'YAHOO'				=> 'Yahoo Messenger',
-	'YOUTUBE'			=> '#YouTube',
+	'YOUTUBE'			=> 'YouTube',
 	'YEAR'				=> 'Jahr',
 	'YEAR_MONTH_DAY'	=> '(JJJJ-MM-TT)',
 	'YES'				=> 'Ja',
