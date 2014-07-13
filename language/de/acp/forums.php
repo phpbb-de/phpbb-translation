@@ -47,7 +47,11 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Das Intervall, in dem nach automatisch zu löschenden Themen gesucht wird.',
 	'AUTO_PRUNE_VIEWED'			=> 'Seit dem letzten Zugriff vergangene Tage',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Die Anzahl der Tage seit dem letzten Zugriff auf das Thema, nach denen es entfernt wird.',
-
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Prüfungsintervall für automatisches Löschen von Links zu verschobenen Themen',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Seit dem Verschieben des Themas vergangene Tage',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Die Anzahl der Tage seit dem Verschieben eines Themas, nach denen der Link auf das verschobene Thema im alten Forum gelöscht wird.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Das Intervall, in dem nach automatisch zu löschenden Links zu verschobenen Themen gesucht wird.',
+	
 	'CONTINUE'						=> 'Fortsetzen',
 	'COPY_PERMISSIONS'				=> 'Kopiere Berechtigungen von',
 	'COPY_PERMISSIONS_EXPLAIN'		=> 'Um die Konfiguration deines neuen Forums zu erleichtern, kannst du die Berechtigungen eines bestehenden Forums kopieren.',

@@ -63,7 +63,6 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Nur Wörter mit maximal dieser Anzahl von Zeichen werden indiziert. Dieser Wert kann nur durch den Server-Betreiber in der MySQL-Konfiguration geändert werden.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'Die PostgreSQL-Volltextsuche kann nur mit PostgreSQL genutzt werden.',
-	'FULLTEXT_POSTGRES_TS_NOT_USABLE'		=> 'Die PostgreSQL-Volltextsuche kann nur mit PostgreSQL 8.3 oder höher genutzt werden.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Gesamtzahl indizierter Beiträge',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL-Version',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Konfigurationsprofil für die Textsuche:',
