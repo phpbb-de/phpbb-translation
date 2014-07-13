@@ -257,7 +257,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ich bekomme ständig unerwünschte Private Nachrichten!',
-		1 => 'Sie können unterbinden, dass ein Mitglied Ihnen Private Nachrichten sendet, indem Sie in Ihrem persönlichen Bereich eine entsprechende Regel erstellen. Falls Sie belästigende Nachrichten von jemandem erhalten, so können Sie dies auch einem Administrator melden. Dieser kann dem betreffenden Mitglied dann verbieten, Private Nachrichten zu versenden.',
+		1 => 'Sie können Private Nachrichten, die Ihnen ein Mitglied sendet, automatisch löschen, indem Sie in Ihrem persönlichen Bereich eine entsprechende Regel erstellen. Falls Sie belästigende Nachrichten von jemandem erhalten, so können Sie dies auch einem Administrator melden. Dieser kann dem betreffenden Mitglied dann verbieten, Private Nachrichten zu versenden.',
 	),
 	array(
 		0 => 'Ich habe eine Spam-E-Mail von einem Mitglied dieses Forums erhalten!',

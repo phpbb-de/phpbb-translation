@@ -52,7 +52,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Vor dem',
 
 	'CC_EMAIL'				=> 'Eine Kopie dieser E-Mail an mich senden.',
-	'CONTACT_USER'			=> 'Kontaktdaten',
 	'CONTACT_ADMIN'			=> 'Kontakt an die Board-Administration',
 
 	'DEST_LANG'				=> 'Sprache',
@@ -150,6 +149,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook-Profil anzeigen',
 	'VIEW_SKYPE_PROFILE'	=> 'Skype-Profil anzeigen',
 	'VIEW_TWITTER_PROFILE'	=> 'Twitter-Profil anzeigen',
-	'VIEW_YOUTUBE_CHANNEL'  => 'YouTube-Kanal anzeigen',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube-Kanal anzeigen',
 	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+-Profil anzeigen',
 ));

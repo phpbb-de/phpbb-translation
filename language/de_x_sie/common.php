@@ -469,7 +469,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REASON'				=> '<em>Grund:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Private Nachricht gemeldet</strong> von %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Beitrag gemeldet</strong> von %1$s:',
-	'NOTIFICATION_REPORT_CLOSED'   		=> '<strong>Meldung geschlossen</strong> von %1$s für:',
+	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Meldung geschlossen</strong> von %1$s für:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Neues Thema</strong> von %1$s:',
 	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Thema freigegeben</strong>:',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Themenfreigabe verweigert</strong>:',
@@ -571,6 +571,7 @@ $lang = array_merge($lang, array(
 	'POSTED_ON_DATE'		=> 'am',
 	'POSTS'					=> 'Beiträge',
 	'POSTS_UNAPPROVED'		=> 'Mindestens ein Beitrag in diesem Thema wurde noch nicht freigegeben.',
+	'POSTS_UNAPPROVED_FORUM'=> 'Mindestens ein Beitrag in diesem Forum wurde noch nicht freigegeben.',
 	'POST_BY_AUTHOR'		=> 'von',
 	'POST_BY_FOE'			=> 'Dieser Beitrag wurde von <strong>%1$s</strong>, einem von Ihnen ignorierten Mitglied, erstellt.',
 	'POST_DISPLAY'			=> '%1$sDiesen Beitrag anzeigen%2$s.',
@@ -600,6 +601,8 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Private Nachrichten',
 	'PRIVATE_MESSAGING'		=> 'Private Nachrichten',
 	'PROFILE'				=> 'Persönlicher Bereich',
+
+	'QUICK_LINKS'			=> 'Schnellzugriffe',
 
 	'RANK'						=> 'Rang',
 	'READING_FORUM'				=> 'Liest Themen in %s',
