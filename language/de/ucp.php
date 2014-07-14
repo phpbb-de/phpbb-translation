@@ -369,12 +369,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Jemand antwortet auf ein Thema, für das du ein Lesezeichen gesetzt hast',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Jemand möchte einer Gruppe beitreten, deren Leiter du bist',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Ein Beitrag oder ein Thema muss freigegeben werden',
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Deine Themen/Beiträge wurden von einem Moderator freigegeben oder die Freigabe abgelehnt',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Deine Themen/Beiträge wurden von einem Moderator freigegeben oder die Freigabe abgelehnt',
 	'NOTIFICATION_TYPE_PM'								=> 'Jemand sendet dir eine Private Nachricht',
 	'NOTIFICATION_TYPE_POST'							=> 'Jemand antwortet auf ein Thema, das du beobachtest',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Jemand zitiert dich in einem Beitrag',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Jemand hat einen Beitrag gemeldet',
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Jemand erstellt einen Beitrag in einem Forum, das du beobachtest',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Jemand erstellt einen Beitrag in einem Forum, das du beobachtest',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Ein neu registrierter Benutzer muss aktiviert werden',
 
 	'NOTIFY_METHOD'				=> 'Benachrichtigungs-Methode',
@@ -400,6 +400,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'Keine Nachrichten-Aktion festgelegt.',
 	'NO_AUTHOR'						=> 'Es ist kein Autor für diese Nachricht festgelegt.',
+	'NO_AVATAR'						=> 'Kein Avatar ausgewählt',
 	'NO_AVATAR_CATEGORY'			=> 'Keine',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'Du bist nicht berechtigt, Private Nachrichten zu löschen.',
