@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Download as',
 	'DOWNLOAD_STORE'			=> 'Download or store file',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'You may directly download the file or save it in your <samp>store/</samp> folder.',
-	'DOWNLOADS'          		=> 'Downloads',
+	'DOWNLOADS'					=> 'Downloads',
 
 	'EDIT'					=> 'Edit',
 	'ENABLE'				=> 'Enable',
@@ -310,7 +310,7 @@ $lang = array_merge($lang, array(
 
 	'TASKS_NOT_READY'			=> 'Not ready tasks:',
 	'TASKS_READY'			=> 'Ready tasks:',
-	'TOTAL_SIZE'      		=> 'Total size',
+	'TOTAL_SIZE'			=> 'Total size',
 
 	'UCP'					=> 'User Control Panel',
 	'USERNAMES_EXPLAIN'		=> 'Place each username on a separate line.',
@@ -702,7 +702,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Removed report/denial reason</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Updated report/denial reason</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'		=> '<strong>Referer validation failed</strong><br />»Referer was “<em>%1$s</em>”. The request was rejected and the session killed.',
+	'LOG_REFERER_INVALID'		=> '<strong>Referrer validation failed</strong><br />»Referrer was “<em>%1$s</em>”. The request was rejected and the session killed.',
 	'LOG_RESET_DATE'			=> '<strong>Board start date reset</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Most users online reset</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronised</strong>',
