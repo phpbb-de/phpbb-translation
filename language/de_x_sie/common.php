@@ -602,7 +602,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'		=> 'Private Nachrichten',
 	'PROFILE'				=> 'Persönlicher Bereich',
 
-	'QUICK_LINKS'			=> 'Schnellzugriffe',
+	'QUICK_LINKS'			=> 'Schnellzugriff',
 
 	'RANK'						=> 'Rang',
 	'READING_FORUM'				=> 'Liest Themen in %s',
