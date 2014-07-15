@@ -2,8 +2,17 @@
 
 <project name="German phpBB Translation" description="The phpBB forum software" default="all" basedir="">
 	<property name="validator-version" value="3.1" />
-	<property name="version" value="${version}" />
 	<property name="language" value="${language}" />
+	<property name="version" value="${version}" />
+	<if>
+		<equals arg1="${package-version}" arg2="" />
+		<then>
+			<property name="package-version" value="${version}" />
+		</then>
+		<else>
+			<property name="package-version" value="${package-version}" />
+		</else>
+	</if>
 
 	<!-- These are the main targets which you will probably want to use -->
 	<target name="all" depends="prepare-structure,prepare,test,package" />
@@ -37,6 +46,7 @@
 	<target name="package">
 		<phingcall target="create-package-language">
 			<property name="package-language" value="${language}" />
+			<property name="package-version" value="${package-version}" />
 		</phingcall>
 	</target>
 
@@ -62,9 +72,9 @@
 	</target>
 
 	<target name="create-package-language">
-		<echo msg="Creating archives (${package-language})" />
-		<zip basedir="packages/${package-language}/" destfile="packages/upload/lang_${package-language}.zip" />
-		<tar basedir="packages/${package-language}/" destfile="packages/upload/lang_${package-language}.tar.gz" compression="gzip" />
+		<echo msg="Creating archives (${package-language} ${package-version})" />
+		<zip basedir="packages/${package-language}/" destfile="packages/upload/phpBB_lang_${package-language}-${package-version}.zip" />
+		<tar basedir="packages/${package-language}/" destfile="packages/upload/phpBB_lang_${package-language}-${package-version}.tar.bz2" compression="bzip2" />
 	</target>
 
 	<target name="validate">
