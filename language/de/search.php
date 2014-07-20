@@ -75,8 +75,8 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH'				=> 'Du bist leider nicht berechtigt, die Suche zu verwenden.',
 	'NO_SEARCH_RESULTS'		=> 'Es wurden keine passenden Ergebnisse gefunden.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Die Suche steht dir derzeit leider nicht zur Verfügung. Bitte versuche es in %d Sekunde erneut.',
-		2	=> 'Die Suche steht dir derzeit leider nicht zur Verfügung. Bitte versuche es in %d Sekunden erneut.',
+		1	=> 'Die Suche steht dir momentan leider nicht zur Verfügung. Bitte versuche es in %d Sekunde erneut.',
+		2	=> 'Die Suche steht dir momentan leider nicht zur Verfügung. Bitte versuche es in %d Sekunden erneut.',
 	),
 	'NO_SEARCH_UNREADS'		=> 'Die Suche nach ungelesenen Beiträgen wurde auf diesem Board deaktiviert.',
 	'WORD_IN_NO_POST'		=> 'Es wurden keine Beiträge gefunden, weil das Wort <strong>%s</strong> in keinem Beitrag enthalten ist.',

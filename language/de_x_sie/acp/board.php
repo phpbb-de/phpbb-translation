@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'So würde die Anzeige des Plugins mit den aktuellen Einstellungen aussehen.',
 
 	'CAPTCHA_SELECT'						=> 'Installierte Plugins',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'Die Liste enthält die Plugins, die vom Board gefunden wurden. Ausgegraute Elemente stehen derzeit nicht zur Verfügung und müssen ggf. erst konfiguriert werden, bevor sie genutzt werden können.',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'Die Liste enthält die Plugins, die vom Board gefunden wurden. Ausgegraute Elemente stehen nicht zur Verfügung und müssen ggf. erst konfiguriert werden, bevor sie genutzt werden können.',
 	'CAPTCHA_CONFIGURE'						=> 'Plugins konfigurieren',
 	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Ändert die Einstellungen für das ausgewählte Plugin.',
 	'CONFIGURE'								=> 'Konfigurieren',
@@ -554,7 +554,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'E-Mail-Signatur',
 	'EMAIL_SIG_EXPLAIN'				=> 'Dieser Text wird an alle E-Mails angehängt, die das Board versendet.',
 	'ENABLE_EMAIL'					=> 'Aktiviere E-Mail-Funktionalität',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Die Aktivierung von Benutzerkonten durch den Benutzer oder einen Administrator erfordert, dass diese Option aktiviert ist. Wenn derzeit die Aktivierung durch den Benutzer oder einen Administrator aktiviert ist, ist bei einer Deaktivierung dieser Option keine Aktivierung mehr erforderlich.</em>',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Die Aktivierung von Benutzerkonten durch den Benutzer oder einen Administrator erfordert, dass diese Option aktiviert ist. Wenn die Aktivierung durch den Benutzer oder einen Administrator aktiviert ist, ist bei einer Deaktivierung dieser Option keine Aktivierung mehr erforderlich.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Authentifizierungsmethode für SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Nur benötigt, wenn ein Benutzername/Passwort eingegeben ist. Fragen Sie Ihren Webhosting-Provider, falls Sie nicht sicher sind, welche Methode Sie wählen sollen.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -580,7 +580,7 @@ $lang = array_merge($lang, array(
 
 	'JAB_ENABLE'				=> 'Jabber aktivieren',
 	'JAB_ENABLE_EXPLAIN'		=> 'Aktiviert die Nutzung von Jabber-Nachrichten und -Benachrichtigungen.',
-	'JAB_GTALK_NOTE'			=> 'Beachten Sie, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht gefunden werden konnte. Diese Funktion ist in PHP 4 nicht verfügbar und nicht in Windows-Plattformen implementiert. Sie funktioniert derzeit nicht auf BSD-basierten Systemen inklusive Mac OS.',
+	'JAB_GTALK_NOTE'			=> 'Beachten Sie, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht gefunden werden konnte. Diese Funktion ist in PHP 4 nicht verfügbar und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
 	'JAB_PACKAGE_SIZE'			=> 'Jabber-Paketgröße',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Dies ist die Anzahl der Nachrichten, die in einem Paket gesendet werden. Die Nachrichten werden sofort versendet, wenn 0 als Wert eingestellt wird.',
 	'JAB_PASSWORD'				=> 'Jabber-Passwort',

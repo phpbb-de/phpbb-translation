@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Hier können Sie festlegen, welches Backend zur Indizierung von und zur Suche nach Beiträgen verwendet wird. Sie können verschiedene Optionen festlegen, die die Verarbeitungszeit dieser Vorgänge beeinflussen können. Manche Einstellungen sind für alle Backends identisch.',
 
 	'COMMON_WORD_THRESHOLD'					=> 'Schwelle für häufig vorkommende Wörter',
-	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Wörter, die in einem größeren als dem angegebenen Anteil von Beiträgen enthalten sind, werden als häufig vorkommende Wörter angesehen und in Suchanfragen ignoriert. Keine häufig vorkommenden Wörter werden ermittelt, wenn 0 als Wert eingestellt wird. Die Funktion greift nur, wenn mehr als 100 Beiträge existieren. Wenn Wörter, die derzeit als häufig gekennzeichnet sind, wieder in den Suchindex aufgenommen werden sollen, muss der Index neu aufgebaut werden.',
+	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Wörter, die in einem größeren als dem angegebenen Anteil von Beiträgen enthalten sind, werden als häufig vorkommende Wörter angesehen und in Suchanfragen ignoriert. Keine häufig vorkommenden Wörter werden ermittelt, wenn 0 als Wert eingestellt wird. Die Funktion greift nur, wenn mehr als 100 Beiträge existieren. Wenn Wörter, die momentan als häufig gekennzeichnet sind, wieder in den Suchindex aufgenommen werden sollen, muss der Index neu aufgebaut werden.',
 	'CONFIRM_SEARCH_BACKEND'				=> 'Sind Sie sich sicher, dass Sie das Backend für die Suchen ändern möchten? Nach dem Wechsel des Backends müssen Sie einen neuen Index für das neue Backend aufbauen. Wenn Sie nicht planen, zum alten Backend zurückzukehren, können Sie auch den Index des alten Backends löschen, um Systemressourcen zu sparen.',
 	'CONTINUE_DELETING_INDEX'				=> 'Letzte Index-Löschung fortsetzen',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Die Löschung eines Indexes wurde gestartet. Um auf die Such-Indizes-Seite zugreifen zu können, muss dieser Vorgang erst abgeschlossen oder abgebrochen werden.',
@@ -53,8 +53,8 @@ $lang = array_merge($lang, array(
 	'CREATE_INDEX'							=> 'Index erstellen',
 
 	'DELETE_INDEX'							=> 'Index löschen',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Index wird derzeit gelöscht',
-	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Das Backend löscht derzeit seinen Index. Dieser Vorgang kann einige Minuten beanspruchen.',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Index wird gelöscht',
+	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Das Backend löscht seinen Index. Dieser Vorgang kann einige Minuten beanspruchen.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Die MySQL-Volltextsuche kann nur mit MySQL 4 oder höher verwendet werden.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Die MySQL-Volltextsuche kann nur mit MyISAM- oder InnoDB-Tabellen genutzt werden. Für eine Volltextsuche mit InnoDB-Tabellen ist MySQL 5.6.4 oder höher erforderlich.',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 
 	'INDEX_STATS'							=> 'Index-Statistik',
 	'INDEXING_IN_PROGRESS'					=> 'Indizierung erfolgt',
-	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Das Backend indiziert derzeit alle Beiträge des Boards. Dies kann abhängig von der Größe Ihres Boards zwischen wenigen Minuten und einigen Stunden dauern.',
+	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Das Backend indiziert alle Beiträge des Boards. Dies kann abhängig von der Größe Ihres Boards zwischen wenigen Minuten und einigen Stunden dauern.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Systemauslastungs-Limit für Suche',
 	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Wenn die Systemauslastung der letzten Minute (load average) diesen Wert überschreitet, wird die Suchfunktion deaktiviert. 1.0 steht für eine ca. 100-prozentige Auslastung eines Prozessors. Diese Einstellung steht nur auf System zur Verfügung, die auf UNIX basieren und bei denen dieser Wert zugänglich ist.',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Die Indizierungs-Rate beträgt ungefähr %1$.1f Beiträge pro Sekunde.<br />Indizierung erfolgt…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Alle Beiträge bis zur Beitrags-ID #%2$d wurden bereits vom Suchindex entfernt.<br />Index wird derzeit gelöscht…',
+		2	=> 'Alle Beiträge bis zur Beitrags-ID #%2$d wurden bereits vom Suchindex entfernt.<br />Index wird gelöscht…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Alle Beiträge in der Datenbank wurden erfolgreich indiziert.',
 	'SEARCH_INDEX_REMOVED'					=> 'Der Suchindex für das Backend wurde erfolgreich gelöscht.',

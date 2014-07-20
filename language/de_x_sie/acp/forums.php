@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 	'REDIRECT_ACL'	=> 'Nun können Sie für dieses Forum %sBefugnisse vergeben%s.',
 
 	'SYNC_IN_PROGRESS'			=> 'Synchronisiere Foren',
-	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Derzeit wird Thema %1$d von %2$d synchronisiert.',
+	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Es wird Thema %1$d von %2$d synchronisiert.',
 
 	'TYPE_CAT'			=> 'Kategorie',
 	'TYPE_FORUM'		=> 'Forum',

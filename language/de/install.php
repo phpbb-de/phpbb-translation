@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Konvertierung abgeschlossen',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Du hast nun dein Board erfolgreich auf phpBB 3.1 konvertiert. Du kannst dich jetzt anmelden und <a href="../">dein Board betreten</a>. Bitte prüfe, ob alle Einstellungen richtig übernommen wurden, bevor du dein Board durch Löschen des „install“-Verzeichnisses freigibst. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/documentation/3.0/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3/dokumentation">deutsche Übersetzung</a>) und das <a href="https://www.phpbb.com/community/viewforum.php?f=46">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
 	'CONVERT_INTRO'				=> 'Willkommen beim phpBB-Konvertierungs-System',
-	'CONVERT_INTRO_BODY'		=> 'Von hier aus kannst du Daten aus anderen (installierten) Boards importieren. Die unten stehende Liste zeigt alle derzeit verfügbaren Konverter-Module. Falls in dieser Liste kein Konverter für die Board-Software, von der du konvertieren möchtest, enthalten ist, schaue bitte auf unserer Website nach, wo möglicherweise weitere Konvertierungs-Module verfügbar sind.',
+	'CONVERT_INTRO_BODY'		=> 'Von hier aus kannst du Daten aus anderen (installierten) Boards importieren. Die unten stehende Liste zeigt alle verfügbaren Konverter-Module. Falls in dieser Liste kein Konverter für die Board-Software, von der du konvertieren möchtest, enthalten ist, schaue bitte auf unserer Website nach, wo möglicherweise weitere Konvertierungs-Module verfügbar sind.',
 	'CONVERT_NEW_CONVERSION'	=> 'Neue Konvertierung',
 	'CONVERT_NOT_EXIST'			=> 'Der angegebene Konverter existiert nicht.',
 	'CONVERT_OPTIONS'			=> 'Optionen',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Datenbank-Passwort',
 	'DB_PORT'					=> 'Datenbankserver-Port',
 	'DB_PORT_EXPLAIN'			=> 'Lass dieses Feld frei, es sei denn, du weißt, dass der Server nicht den Standard-Port verwendet.',
-	'DB_UPDATE_NOT_SUPPORTED'	=> 'Leider unterstützt diese Skript kein Update von phpBB-Versionen vor „%1$s“. Du hast derzeit Version „%2$s“ instlliert. Bitte aktualisiere auf eine frühere Version, bevor du dieses Script ausführst. Unterstützung dabei erhältst du in den Support-Foren von phpBB.com und phpBB.de.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Leider unterstützt diese Skript kein Update von phpBB-Versionen vor „%1$s“. Du hast momentan Version „%2$s“ instlliert. Bitte aktualisiere auf eine frühere Version, bevor du dieses Script ausführst. Unterstützung dabei erhältst du in den Support-Foren von phpBB.com und phpBB.de.',
 	'DB_USERNAME'				=> 'Datenbank-Benutzername',
 	'DB_TEST'					=> 'Verbindung testen',
 	'DEFAULT_LANG'				=> 'Standardsprache',
@@ -395,7 +395,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_UPDATE_NOW'			=> 'Den Update-Prozess jetzt fortsetzen',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Update jetzt fortsetzen',					// Shown after file upload to indicate the update process is not yet finished
 	'CURRENT_FILE'					=> 'Anfang des Konflikts — Inhalt der originalen Datei vor Aktualisierung',
-	'CURRENT_VERSION'				=> 'Derzeit installierte Version',
+	'CURRENT_VERSION'				=> 'Momentan installierte Version',
 
 	'DATABASE_TYPE'						=> 'Datenbank-Typ',
 	'DATABASE_UPDATE_COMPLETE'			=> 'Das Datenbank-Update wurde fertiggestellt!',
@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'MERGE_MODIFICATIONS_OPTION'	=> 'Änderungen zusammenführen',
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nicht zusammenführen — neue Datei verwenden',
-	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nicht zusammenführen — derzeit installierte Datei verwenden',
+	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nicht zusammenführen — vorhandene Datei verwenden',
 	'MERGE_MOD_FILE_OPTION'		=> 'Unterschiede zusammenführen (Ignoriert bei Konflikt neuen phpBB-Code)',
 	'MERGE_NEW_FILE_OPTION'		=> 'Unterschiede zusammenführen (Ignoriert bei Konflikt geänderten Code)',
 	'MERGE_SELECT_ERROR'		=> 'Es wurde keine gültige Methode zum Lösen von Dateikonflikten gewählt.',
@@ -579,8 +579,8 @@ $lang = array_merge($lang, array(
 	'VERSION_NOT_UP_TO_DATE'		=> 'Deine phpBB-Version ist nicht auf dem neuesten Stand. Bitte fahre mit der Aktualisierung fort.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Deine phpBB-Version ist nicht auf dem neuesten Stand<br />Im Folgenden findest du einen Link zur Release-Ankündigung der neuesten Version, die weitere Informationen sowie Hinweise, wie du deine Version aktualisieren kannst, enthält.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Deine phpBB-Version ist nicht auf dem neuesten Stand.',
-	'VERSION_UP_TO_DATE'			=> 'Deine phpBB-Installation ist auf dem neuesten Stand. Obwohl derzeit keine Updates zur Verfügung stehen, kannst du fortfahren, um die Dateien auf Gültigkeit zu überprüfen.',
-	'VERSION_UP_TO_DATE_ACP'		=> 'Deine phpBB-Installation ist auf dem neuesten Stand. Es stehen derzeit keine Updates zur Verfügung.',
+	'VERSION_UP_TO_DATE'			=> 'Deine phpBB-Installation ist auf dem neuesten Stand. Obwohl keine Updates zur Verfügung stehen, kannst du fortfahren, um die Dateien auf Gültigkeit zu überprüfen.',
+	'VERSION_UP_TO_DATE_ACP'		=> 'Deine phpBB-Installation ist auf dem neuesten Stand. Es stehen keine Updates zur Verfügung.',
 	'VIEWING_FILE_CONTENTS'			=> 'Dateiinhalte anzeigen',
 	'VIEWING_FILE_DIFF'				=> 'Dateiunterschiede anzeigen',
 
