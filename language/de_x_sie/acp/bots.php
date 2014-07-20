@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'BOT_STYLE_EXPLAIN'	=> 'Der Style, der genutzt wird, um dem Bot das Board anzuzeigen.',
 	'BOT_UPDATED'		=> 'Bestehender Bot erfolgreich aktualisiert.',
 
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Die angegebene Browser-Signatur ist identisch mit der, die Sie aktuell verwenden. Bitte änderen Sie die angegebene Browser-Signatur des Agenten.',
+	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Die angegebene Browser-Signatur ist identisch mit der, die Sie verwenden. Bitte änderen Sie die angegebene Browser-Signatur des Agenten.',
 	'ERR_BOT_NO_IP'				=> 'Die angegebenen IP-Adressen waren unzulässig oder der Hostname konnte nicht ermittelt werden.',
 	'ERR_BOT_NO_MATCHES'		=> 'Sie müssen mindestens eine Agenten-Übereinstimmung oder IP für diesen Bot angeben.',
 

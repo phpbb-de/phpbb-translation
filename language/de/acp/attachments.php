@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media-Dateien',
 
 	'FILES_GONE'			=> 'Einige der Dateianhänge, die du zum Löschen ausgewählt hast, existieren nicht. Sie könnten bereits gelöscht worden sein. Dateianhänge, die existierten, wurden gelöscht.',
-	'FILES_STATS_WRONG'		=> 'Deine Datei-Statistik ist vermutlich fehlerhaft und muss resynchronisiert werden. Aktuelle Werte: Anzahl von Dateianhängen = %1$d, Gesamtgröße der Dateianhänge = %2$s.<br />%3$sDatei-Statistik resynchronisieren%4$s.',
+	'FILES_STATS_WRONG'		=> 'Deine Datei-Statistik ist vermutlich fehlerhaft und muss resynchronisiert werden. Derzeitige Werte: Anzahl von Dateianhängen = %1$d, Gesamtgröße der Dateianhänge = %2$s.<br />%3$sDatei-Statistik resynchronisieren%4$s.',
 
 	'GO_TO_EXTENSIONS'		=> 'Dateierweiterungen bearbeiten',
 	'GROUP_NAME'			=> 'Gruppenname',

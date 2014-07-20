@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Alle Beiträge bis zur Beitrag-ID #%2$d wurden bereits indiziert, davon %1$d Beiträge in diesem Durchgang.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Die aktuelle Indizierungs-Rate beträgt ungefähr %1$.1f Beiträge pro Sekunde.<br />Indizierung erfolgt…',
+		2	=> 'Die Indizierungs-Rate beträgt ungefähr %1$.1f Beiträge pro Sekunde.<br />Indizierung erfolgt…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
 		2	=> 'Alle Beiträge bis zur Beitrags-ID #%2$d wurden bereits vom Suchindex entfernt.<br />Index wird derzeit gelöscht…',

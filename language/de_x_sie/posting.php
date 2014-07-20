@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Ihre Signatur besteht aus %1$d Zeichen.',
 	),
 	'CLOSE_TAGS'				=> 'Tags schließen',
-	'CURRENT_TOPIC'				=> 'Aktuelles Thema',
+	'CURRENT_TOPIC'				=> 'Derzeitiges Thema',
 
 	'DELETE_FILE'				=> 'Datei löschen',
 	'DELETE_MESSAGE'			=> 'Nachricht löschen',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'LOAD'						=> 'Laden',
 	'LOAD_DRAFT'				=> 'Entwurf laden',
-	'LOAD_DRAFT_EXPLAIN'		=> 'Hier können Sie den Entwurf auswählen, mit dessen Erstellung Sie fortfahren möchten. Ihr aktueller Beitrag wird abgebrochen und die Inhalte der Eingabefelder gelöscht. In Ihrem persönlichen Bereich können Sie Entwürfe ansehen, bearbeiten oder löschen.',
+	'LOAD_DRAFT_EXPLAIN'		=> 'Hier können Sie den Entwurf auswählen, mit dessen Erstellung Sie fortfahren möchten. Ihr derzeitiger Beitrag wird abgebrochen und die Inhalte der Eingabefelder gelöscht. In Ihrem persönlichen Bereich können Sie Entwürfe ansehen, bearbeiten oder löschen.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Sie müssen sich anmelden, um in diesem Forum Themen als neu zu markieren.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Sie müssen sich anmelden, um in diesem Forum Beiträge zu löschen.',
 	'LOGIN_EXPLAIN_POST'		=> 'Sie müssen sich anmelden, um in diesem Forum Beiträge zu schreiben.',
