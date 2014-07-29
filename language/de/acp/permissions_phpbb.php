@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_DELETE'		=> 'Kann eigene Beiträge löschen',
 	'ACL_F_SOFTDELETE'	=> 'Kann eigene Beiträge als gelöscht markieren<br /><em>Moderatoren, die Beiträge freigeben können, können als gelöscht markierte Beiträge wiederherstellen.</em>',
 	'ACL_F_IGNOREFLOOD' => 'Kann die Wartezeit umgehen',
-	'ACL_F_POSTCOUNT'	=> 'Beitrags-Zähler wird erhöht<br /><em>Bitte beachte, dass diese Einstellung nur für neue Beiträge greift.</em>',
+	'ACL_F_POSTCOUNT'	=> 'Beitrags-Zähler wird erhöht<br /><em>Bitte beachte, dass diese Einstellung nur bei neu erstellten Beiträgen wirkt.</em>',
 	'ACL_F_NOAPPROVE'	=> 'Kann Beiträge ohne Freigabe erstellen',
 
 	'ACL_F_ATTACH'		=> 'Kann Dateianhänge anfügen',
