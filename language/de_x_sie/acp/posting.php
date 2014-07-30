@@ -105,10 +105,10 @@ $lang = array_merge($lang, array(
 	'AFTER_SMILIES'			=> 'Nach %s',
 
 	'CODE'						=> 'Code',
-	'CURRENT_ICONS'				=> 'Derzeitige Beitrags-Symbole',
-	'CURRENT_ICONS_EXPLAIN'		=> 'Wählen Sie, was mit den aktuell eingestellten Beitrags-Symbolen geschehen soll.',
-	'CURRENT_SMILIES'			=> 'Derzeitige Smilies',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Wählen Sie, was mit den aktuell eingestellten Smilies geschehen soll.',
+	'CURRENT_ICONS'				=> 'Vorhandene Beitrags-Symbole',
+	'CURRENT_ICONS_EXPLAIN'		=> 'Wählen Sie, was mit den vorhandenen Beitrags-Symbolen geschehen soll.',
+	'CURRENT_SMILIES'			=> 'Vorhandene Smilies',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Wählen Sie, was mit den vorhandenen Smilies geschehen soll.',
 
 	'DISPLAY_ON_POSTING'		=> 'Beim Verfassen eines Beitrags anzeigen',
 	'DISPLAY_POSTING'			=> 'Auf Verfassen-Seite',
@@ -118,9 +118,9 @@ $lang = array_merge($lang, array(
 	'EDIT_SMILIES'				=> 'Smilies bearbeiten',
 	'EMOTION'					=> 'Beschreibung',
 	'EXPORT_ICONS'				=> 'Symbol-Paket erzeugen',
-	'EXPORT_ICONS_EXPLAIN'		=> '%sMit diesem Link können Sie die Konfiguration der installierten Symbole in eine Datei <samp>icons.pak</samp> schreiben. Diese kann nach dem Download dazu verwendet werden, ein <samp>.zip</samp>- oder <samp>.tgz</samp>-Archiv zu erstellen, welches alle Symbole und die <samp>icons.pak</samp> Konfigurations-Datei enthält.%s',
+	'EXPORT_ICONS_EXPLAIN'		=> '%sMit diesem Link können Sie die Konfiguration der installierten Symbole in eine Datei <samp>icons.pak</samp> schreiben. Diese kann nach dem Download dazu verwendet werden, ein <samp>.zip</samp>- oder <samp>.tgz</samp>-Archiv zu erstellen, welches alle Symbole und die <samp>icons.pak</samp>-Konfigurations-Datei enthält.%s',
 	'EXPORT_SMILIES'			=> 'Smilie-Paket erzeugen',
-	'EXPORT_SMILIES_EXPLAIN'	=> '%sMit diesem Link können Sie die Konfiguration der installierten Smilies in eine Datei <samp>smilies.pak</samp> schreiben. Diese kann nach dem Download dazu verwendet werden, ein <samp>.zip</samp>- oder <samp>.tgz</samp>-Archiv zu erstellen, welches alle Smilies und die <samp>smilies.pak</samp> Konfigurations-Datei enthält.%s',
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sMit diesem Link können Sie die Konfiguration der installierten Smilies in eine Datei <samp>smilies.pak</samp> schreiben. Diese kann nach dem Download dazu verwendet werden, ein <samp>.zip</samp>- oder <samp>.tgz</samp>-Archiv zu erstellen, welches alle Smilies und die <samp>smilies.pak</samp>-Konfigurations-Datei enthält.%s',
 
 	'FIRST'			=> 'am Anfang',
 

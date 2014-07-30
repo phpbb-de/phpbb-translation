@@ -1,6 +1,6 @@
 Subject: Reaktiviere dein Benutzerkonto „{SITENAME}“
 
-Ein Board-Administrator hat eine erneute Aktivierung deines Benutzerkontos erzwungen. Dein Benutzerkonto ist derzeit inaktiv.
+Ein Board-Administrator hat eine erneute Aktivierung deines Benutzerkontos erzwungen. Dein Benutzerkonto ist momentan inaktiv.
 Bitte folge den Anweisungen, um dein Konto wieder zu aktivieren.
 
 Bitte bewahre diese E-Mail in deinen Unterlagen auf. Die Daten deines Benutzerkontos lauten:

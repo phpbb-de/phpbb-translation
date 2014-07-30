@@ -2,7 +2,7 @@ Subject: Willkommen auf „{SITENAME}“
 
 {WELCOME_MSG}
 
-Gemäß den Regelungen des COPPA ist Ihr Benutzerkonto derzeit inaktiv.
+Gemäß den Regelungen des COPPA ist Ihr Benutzerkonto momentan inaktiv.
 
 Bitte drucken Sie diese Nachricht aus und lassen Sie sie von einem Elternteil oder einem Erziehungsberechtigten unterzeichnen und datieren. Senden Sie sie anschließend per Fax an:
 

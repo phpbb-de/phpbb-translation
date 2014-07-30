@@ -56,14 +56,14 @@ $lang = array_merge($lang, array(
 	'BANNED_UNTIL_DURATION'	=> '%1$s (bis zum %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'Eine oder mehrere E-Mail-Adressen sperren',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um die Adresse von allen aktuellen Sperren auszunehmen.',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um die Adresse von allen aktiven Sperren auszunehmen.',
 	'EMAIL_BAN_EXPLAIN'			=> 'Um mehr als eine E-Mail-Adresse anzugeben, geben Sie jede Adresse in einer neuen Zeile ein. Um Übereinstimmungen von Teilen einer Adresse anzugeben, verwenden Sie „*“ als Platzhalter; z.&nbsp;B. <samp>*@phpbb.com</samp>, <samp>*@*.domain.tld</samp> usw.',
 	'EMAIL_NO_BANNED'			=> 'Keine gesperrten E-Mail-Adressen.',
 	'EMAIL_UNBAN'				=> 'E-Mail-Adressen entsperren oder Ausnahmen entfernen',
 	'EMAIL_UNBAN_EXPLAIN'		=> 'Sie können mehrere E-Mail-Adressen gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem Sie mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markieren. E-Mail-Adressen auf der Ausnahmeliste sind hervorgehoben.',
 
 	'IP_BAN'					=> 'Eine oder mehrere IP-Adressen sperren',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um die Adresse von allen aktuellen Sperren auszunehmen.',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um die Adresse von allen aktiven Sperren auszunehmen.',
 	'IP_BAN_EXPLAIN'			=> 'Um mehrere IP-Adressen oder Host-Namen zu sperren, geben Sie jede(n) in einer neuen Zeile ein. Um einen ganzen IP-Bereich zu sperren, trennen Sie die Anfangs- und die Endadresse mit einem Bindestrich (-), verwenden Sie „*“ als Platzhalter.',
 	'IP_HOSTNAME'				=> 'IP-Adressen oder Hostnamen',
 	'IP_NO_BANNED'				=> 'Keine gesperrten IP-Adressen.',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 
 	'UNTIL'						=> 'Bis zum',
 	'USER_BAN'					=> 'Einen oder mehrere Benutzer anhand des Benutzernamens sperren',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um den Namen von allen aktuellen Sperren auszunehmen.',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um den Namen von allen aktiven Sperren auszunehmen.',
 	'USER_BAN_EXPLAIN'			=> 'Um mehrere Benutzer auf einmal zu sperren, geben Sie jeden Namen in einer neuen Zeile ein. Benutzen Sie <span style="text-decoration: underline;">Nach einem Mitglied suchen</span>, um nach einem oder mehreren Benutzer(n) zu suchen und diese(n) der Liste hinzuzufügen.',
 	'USER_NO_BANNED'			=> 'Keine gesperrten Benutzernamen.',
 	'USER_UNBAN'				=> 'Sperrungen von Benutzern anhand des Benutzernamens aufheben oder Ausnahmen entfernen',

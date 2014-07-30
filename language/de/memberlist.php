@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'EQUAL_TO'				=> 'Entspricht',
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Benutze dieses Formular, um nach Mitgliedern zu suchen. Es müssen nicht alle Felder ausgefüllt werden. Verwende ein * als Platzhalter für teilweise Übereinstimmungen. Verwende das Format <kbd>JJJJ-MM-TT</kbd> (z.&nbsp;B. <samp>2002-01-01</samp>), um Datumswerte anzugeben. Benutze die Kontrollkästchen, um mehrere Benutzer auszuwählen (mehrere Benutzer werden abhängig vom Formular akzeptiert) und wähle dann „Markierte auswählen“.',
-	'FLOOD_EMAIL_LIMIT'		=> 'Du kannst derzeit keine weitere E-Mail versenden. Bitte versuche es später erneut.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Du kannst momentan keine weitere E-Mail versenden. Bitte versuche es später erneut.',
 
 	'GROUP_LEADER'			=> 'Gruppenleiter',
 

@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_UPDATED'		=> 'Konfiguration erfolgreich aktualisiert.',
 	'CRON_LOCK_ERROR'		=> 'Konnte Sperre für Cron-Job nicht bekommen.',
 	'CRON_NO_SUCH_TASK'		=> 'Cron-Job „%s“ konnte nicht gefunden werden.',
-	'CRON_NO_TASK'			=> 'Derzeit muss kein Cron-Job ausgeführt werden.',
+	'CRON_NO_TASK'			=> 'Momentan muss kein Cron-Job ausgeführt werden.',
 	'CRON_NO_TASKS'			=> 'Es konnten keine Cron-Jobs gefunden werden.',
 
 	'DEACTIVATE'				=> 'Deaktivieren',
@@ -293,7 +293,7 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> 'Smilies erkennen',
 	'PARSE_URLS'						=> 'Links erkennen',
 	'PERMISSIONS_TRANSFERRED'			=> 'Berechtigungen übernommen',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Du hast derzeit die Berechtigungen von %1$s übernommen. Du kannst das Board mit den Rechten dieses Benutzers testen; du kannst jedoch nicht den Administrations-Bereich benutzen, da Administrations-Rechte nicht übernommen werden. Du kannst jederzeit <a href="%2$s"><strong>zu deinen Berechtigungen zurückkehren</strong></a>.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Du hast die Berechtigungen von %1$s übernommen. Du kannst das Board mit den Rechten dieses Benutzers testen; du kannst jedoch nicht den Administrations-Bereich benutzen, da Administrations-Rechte nicht übernommen werden. Du kannst jederzeit <a href="%2$s"><strong>zu deinen Berechtigungen zurückkehren</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sZum Administrations-Bereich%s',
 
 	'REMIND'							=> 'Erinnern',
@@ -432,7 +432,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Inaktive Benutzer anzeigen',
 
 	'WELCOME_PHPBB'			=> 'Willkommen bei phpBB',
-	'WRITABLE_CONFIG'		=> 'Deine Konfigurations-Datei (config.php) ist derzeit von jedermann beschreibbar. Es wird dringend empfohlen, die Berechtigungen auf 640 oder zumindest auf 644 (z.&nbsp;B.: <a href="http://de.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) zu setzen.',
+	'WRITABLE_CONFIG'		=> 'Deine Konfigurations-Datei (config.php) ist momentan von jedermann beschreibbar. Es wird dringend empfohlen, die Berechtigungen auf 640 oder zumindest auf 644 (z.&nbsp;B.: <a href="http://de.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) zu setzen.',
 ));
 
 // Inactive Users

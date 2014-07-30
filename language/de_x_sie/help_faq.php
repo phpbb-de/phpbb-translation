@@ -192,7 +192,7 @@ $help = array(
 	),
 	array(
 		0 => 'Was sind Bekanntmachungen?',
-		1 => 'Bekanntmachungen beinhalten meist wichtige Informationen über den Bereich, den Sie gerade lesen. Sie sollten sie stets lesen. Bekanntmachungen erscheinen oben auf jeder Seite des Forums, in dem sie erstellt wurden. Wie bei globalen Bekanntmachungen hängt es von Ihren Befugnissen ab, ob Sie Bekanntmachungen erstellen können oder nicht; die Befugnisse stellt die Board-Administration ein.',
+		1 => 'Bekanntmachungen beinhalten meist wichtige Informationen zu dem Bereich des Boards, in dem Sie sich befinden. Sie sollten sie stets lesen. Bekanntmachungen erscheinen oben auf jeder Seite des Forums, in dem sie erstellt wurden. Wie bei globalen Bekanntmachungen hängt es von Ihren Befugnissen ab, ob Sie Bekanntmachungen erstellen können oder nicht; die Befugnisse stellt die Board-Administration ein.',
 	),
 	array(
 		0 => 'Was sind wichtige Themen?',
