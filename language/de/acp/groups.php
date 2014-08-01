@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
 	'GROUP_COLOR'					=> 'Gruppen-Farbe',
 	'GROUP_COLOR_EXPLAIN'			=> 'Farbe, die für die Mitglieder der Gruppe benutzt wird. Frei lassen für Standardfarbe der Benutzer.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
-		1	=> 'Bist du dir sicher, dass du den Benutzer %2$s der Gruppe hinzufügen willst?',
-		2	=> 'Bist du dir sicher, dass du die Benutzer %2$s der Gruppe hinzufügen willst?',
+		1	=> 'Bist du dir sicher, dass du den Benutzer %2$s der Gruppe hinzufügen möchtest?',
+		2	=> 'Bist du dir sicher, dass du die Benutzer %2$s der Gruppe hinzufügen möchtest?',
 	),
 	'GROUP_CREATED'					=> 'Gruppe erfolgreich erstellt.',
 	'GROUP_DEFAULT'					=> 'Zur Hauptgruppe des Mitglieds machen',

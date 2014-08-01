@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 Minuten',
 	'6_HOURS'		=> '6 Stunden',
 
-	'ACP_BAN_EXPLAIN'	=> 'Hier kannst du die Sperrung von Benutzern nach Benutzername, IP-Adresse oder E-Mail-Adresse steuern. Wenn du willst, kannst du eine kurze Begründung (bis zu 3000 Zeichen) für die Sperre angeben, die im Administrations-Protokoll angezeigt wird. Die Dauer der Sperre kann ebenfalls festgelegt werden. Wenn du willst, dass die Sperre statt nach einer festgelegten Zeit an einem bestimmten Tag endet, wähle <span style="text-decoration: underline;">Bis zum -&gt;</span> für die Dauer aus und gib das Enddatum im Format <kbd>JJJJ-MM-TT</kbd> an.',
+	'ACP_BAN_EXPLAIN'	=> 'Hier kannst du die Sperrung von Benutzern nach Benutzername, IP-Adresse oder E-Mail-Adresse steuern. Wenn du möchtest, kannst du eine kurze Begründung (bis zu 3000 Zeichen) für die Sperre angeben, die im Administrations-Protokoll angezeigt wird. Die Dauer der Sperre kann ebenfalls festgelegt werden. Wenn du möchtest, dass die Sperre statt nach einer festgelegten Zeit an einem bestimmten Tag endet, wähle <span style="text-decoration: underline;">Bis zum -&gt;</span> für die Dauer aus und gib das Enddatum im Format <kbd>JJJJ-MM-TT</kbd> an.',
 
 	'BAN_EXCLUDE'			=> 'Von Sperre ausnehmen',
 	'BAN_LENGTH'			=> 'Dauer der Sperre',

@@ -309,11 +309,11 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich ein Forum oder ein Thema beobachten?',
-		1 => 'Um ein Forum zu beobachten, findest du im Forum einen Link „Forum beobachten“. Wenn du ein Thema beobachten willst, kannst du entweder die Option „Mich per E-Mail benachrichtigen, sobald eine Antwort geschrieben wurde“ beim Verfassen eines Beitrages zu diesem Thema aktivieren oder den Link „Thema beobachten“ innerhalb des Themas verwenden.',
+		1 => 'Um ein Forum zu beobachten, findest du im Forum einen Link „Forum beobachten“. Wenn du ein Thema beobachten möchtest, kannst du entweder die Option „Mich per E-Mail benachrichtigen, sobald eine Antwort geschrieben wurde“ beim Verfassen eines Beitrages zu diesem Thema aktivieren oder den Link „Thema beobachten“ innerhalb des Themas verwenden.',
 	),
 	array(
 		0 => 'Wie deaktiviere ich meine Benachrichtigungen?',
-		1 => 'Wenn du mehrere Benachrichtigungen deaktivieren willst, so kannst du dies im persönlichen Bereich unter „Einstieg“ – „Benachrichtigen verwalten“ machen.',
+		1 => 'Wenn du mehrere Benachrichtigungen deaktivieren möchtest, so kannst du dies im persönlichen Bereich unter „Einstieg“ – „Benachrichtigen verwalten“ machen.',
 	),
 	array(
 		0 => '--',

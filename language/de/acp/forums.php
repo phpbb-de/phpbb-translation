@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_CONFIRM_EXPLAIN'	=> 'Muss nur ausgefüllt werden, wenn ein Forum-Passwort vergeben wird.',
 	'FORUM_PASSWORD_EXPLAIN'			=> 'Definiert ein Passwort für dieses Forum. Es wird empfohlen, vorzugsweise das Berechtigungs-System zu nutzen.',
 	'FORUM_PASSWORD_UNSET'				=> 'Forum-Passwort entfernen',
-	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> 'Aktiviere diese Option, wenn du das Forum-Passwort entfernen willst.',
+	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> 'Aktiviere diese Option, wenn du das Forum-Passwort entfernen möchtest.',
 	'FORUM_PASSWORD_OLD'				=> 'Das Forum-Passwort nutzt eine veraltete Hash-Methode und sollte geändert werden.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Die angegebenen Passwörter stimmten nicht überein.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Einstellungen zum automatischen Löschen',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'						=> 'Forum-Typ',
 	'FORUM_UPDATED'						=> 'Forumseinstellungen erfolgreich aktualisiert.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'Du willst ein Forum mit Unterforen in einen Link umwandeln. Bitte verschiebe alle Unterforen aus diesem Forum, bevor du fortfährst, da du nach der Umwandlung in einen Link die Unterforen dieses Forums nicht länger sehen kannst.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'Du möchtest ein Forum mit Unterforen in einen Link umwandeln. Bitte verschiebe alle Unterforen aus diesem Forum, bevor du fortfährst, da du nach der Umwandlung in einen Link die Unterforen dieses Forums nicht länger sehen kannst.',
 
 	'GENERAL_FORUM_SETTINGS'	=> 'Allgemeine Forumseinstellungen',
 

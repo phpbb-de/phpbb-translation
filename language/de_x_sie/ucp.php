@@ -357,7 +357,7 @@ $lang = array_merge($lang, array(
 	'NEW_PASSWORD_ERROR'		=> 'Das angegebene Passwort stimmte nicht mit seiner Bestätigung überein.',
 
 	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Alle Benachrichtigungen als gelesen markieren',
-	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Sind Sie sich sicher, dass Sie alle Benachrichtigungen als gelesen markieren wollen?',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Sind Sie sich sicher, dass Sie alle Benachrichtigungen als gelesen markieren möchten?',
 	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Alle Benachrichtiungen wurden als gelesen markiert.',
 	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Weitere Benachrichtigungen',
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Benachrichtigungen für Moderatoren',

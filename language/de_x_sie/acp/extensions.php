@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Sind Sie sich sicher, dass Sie die Daten, die „%s“ zugeordnet sind, löschen möchten?<br /><br />Dadurch werden alle Daten und Einstellungen dieser Erweiterung entfernt. <strong>Dieser Vorgang kann nicht rückgängig gemacht werden!</strong>',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Sind Sie sich sicher, dass Sie die Erweiterung „%s“ deaktivieren möchten?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Sind Sie sich sicher, dass Sie die Erweiterung „%s“ aktivieren möchten?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Wollen Sie wirklich die Verwendung einer instabilen Entwicklungs-Version erzwingen?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Möchten Sie wirklich die Verwendung einer instabilen Entwicklungs-Version erzwingen?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Zurück zur Liste der Erweiterungen',
 
