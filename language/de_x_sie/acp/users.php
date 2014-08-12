@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ADMIN_SIG_PREVIEW'		=> 'Signatur-Vorschau',
-	'AT_LEAST_ONE_FOUNDER'	=> 'Sie können diesen Gründer nicht in einen normalen Benutzer umwandeln. Es muss mindestens ein Gründer in diesem Board vorhanden sein. Wenn Sie den Gründer-Status dieses Benutzers ändern wollen, müssen Sie zuerst einen anderen Benutzer zum Gründer ernennen.',
+	'AT_LEAST_ONE_FOUNDER'	=> 'Sie können diesen Gründer nicht in einen normalen Benutzer umwandeln. Es muss mindestens ein Gründer in diesem Board vorhanden sein. Wenn Sie den Gründer-Status dieses Benutzers ändern möchten, müssen Sie zuerst einen anderen Benutzer zum Gründer ernennen.',
 
 	'BAN_ALREADY_ENTERED'	=> 'Die Sperre wurde bereits früher erfolgreich erstellt. Die Liste der Sperren wurde nicht aktualisiert.',
 	'BAN_SUCCESSFUL'		=> 'Sperre erfolgreich hinzugefügt.',

@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLES_EXPLAIN'	=> 'Hier können Sie die auf Ihrem Board verfügbaren Styles verwalten. Sie können bestehende Styles ändern, löschen, deaktivieren, reaktivieren oder neue installieren. Sie können mit der Vorschau-Funktion auch sehen, wie ein Style aussehen wird. Außerdem ist die Zahl der Benutzer angegeben, die ein Style verwenden. Bitte beachten Sie, dass hier nicht berücksichtigt wird, ob der Style überschrieben wird.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Kann nicht installiert werden',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Sind Sie sich sicher, dass Sie den ausgewählten Style deinstallieren wollen?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Sind Sie sich sicher, dass Sie den ausgewählten Style deinstallieren möchten?',
 	'COPYRIGHT'						=> 'Copyright',
 
 	'DEACTIVATE_DEFAULT'		=> 'Sie können den Standard-Style nicht deaktivieren.',

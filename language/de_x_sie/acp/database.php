@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Die Backup-Datei könnte beschädigt sein.',
 	'RESTORE_OPTIONS'		=> 'Wiederherstellungs-Optionen',
-	'RESTORE_SELECTED_BACKUP'	=> 'Sind Sie sich sicher, dass Sie das ausgewählte Backup wiederherstellen wollen?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Sind Sie sich sicher, dass Sie das ausgewählte Backup wiederherstellen möchten?',
 	'RESTORE_SUCCESS'		=> 'Die Datenbank wurde erfolgreich wiederhergestellt.<br /><br />Ihr Board sollte nun den Stand haben, den es zur Zeit des Backups hatte.',
 
 	'SELECT_ALL'			=> 'Alle markieren',

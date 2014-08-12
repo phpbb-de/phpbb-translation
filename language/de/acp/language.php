@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Sprachdateien Administrations-Bereich',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kannst du Sprachpakete installieren und entfernen. Das Standard-Sprachpaket ist mit einem Stern (*) gekennzeichnet.',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Bist du dir sicher, dass du „%s“ löschen willst?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Bist du dir sicher, dass du „%s“ löschen möchtest?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Installierte Sprachpakete',
 

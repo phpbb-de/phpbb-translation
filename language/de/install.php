@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_PHPBB_EMPTY'		=> 'Die phpBB3-Konfigurationsvariable für „%s“ ist leer.',
 	'CONFIG_RETRY'				=> 'Erneuter Versuch',
 	'CONTINUE_CONVERT'			=> 'Konvertierung fortsetzen',
-	'CONTINUE_CONVERT_BODY'		=> 'Ein bereits gestarteter Konvertierungs-Versuch wurde gefunden. Du kannst auswählen, ob du ihn fortsetzen oder einen neuen starten willst.',
+	'CONTINUE_CONVERT_BODY'		=> 'Ein bereits gestarteter Konvertierungs-Versuch wurde gefunden. Du kannst auswählen, ob du ihn fortsetzen oder einen neuen starten möchtest.',
 	'CONTINUE_LAST'				=> 'Mit den abschließenden Anweisungen fortfahren',
 	'CONTINUE_OLD_CONVERSION'	=> 'Bereits gestartete Konvertierung fortsetzen',
 	'CONVERT'					=> 'Konvertieren',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, array(
 	'DB_USERNAME'				=> 'Datenbank-Benutzername',
 	'DB_TEST'					=> 'Verbindung testen',
 	'DEFAULT_LANG'				=> 'Standardsprache',
-	'DEFAULT_PREFIX_IS'			=> 'Der Konverter konnte keine Tabellen mit dem angegebenen Präfix finden. Bitte stelle sicher, dass du die richtigen Daten des Boards angegeben hast, von dem du konvertieren willst. Der standardmäßige Tabellenpräfix für %1$s ist <strong>%2$s</strong>.',
+	'DEFAULT_PREFIX_IS'			=> 'Der Konverter konnte keine Tabellen mit dem angegebenen Präfix finden. Bitte stelle sicher, dass du die richtigen Daten des Boards angegeben hast, von dem du konvertieren möchtest. Der standardmäßige Tabellenpräfix für %1$s ist <strong>%2$s</strong>.',
 	'DEV_NO_TEST_FILE'			=> 'Für die test_file-Variable im Konverter wurde kein Wert angegeben. Falls du ein Nutzer dieses Konverters bist, solltest du diesen Fehler nicht sehen. Bitte melde diese Nachricht an die Autoren des Konverters. Falls du ein Konverter-Autor bist, musst du den Namen einer im Quell-Board existierenden Datei angeben, damit der Pfad dorthin verifiziert werden kann.',
 	'DIRECTORIES_AND_FILES'		=> 'Verzeichnis- und Datei-Setup',
 	'DISABLE_KEYS'				=> 'Deaktiviere Datenbank-Schlüssel',
@@ -193,7 +193,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		Du hast phpBB %1$s erfolgreich installiert. Bitte fahre mit einer der folgenden Optionen fort:</p>
 		<h2>Ein bestehendes Board auf phpBB3 konvertieren</h2>
-		<p>Das phpBB-Konvertierungs-System unterstützt die Konvertierung von phpBB 2.0.x und anderen Board-Systemen auf phpBB3. Wenn du ein bestehendes Board konvertieren willst, fahre bitte <a href="%2$s">mit dem Konverter fort</a>.</p>
+		<p>Das phpBB-Konvertierungs-System unterstützt die Konvertierung von phpBB 2.0.x und anderen Board-Systemen auf phpBB3. Wenn du ein bestehendes Board konvertieren möchtest, fahre bitte <a href="%2$s">mit dem Konverter fort</a>.</p>
 		<h2>Starte mit phpBB3 durch!</h2>
 		<p>Wenn du unten auf die Schaltfläche klickst, wirst du zu einem Formular im Administrations-Bereich weitergeleitet, mit dem du statistische Daten an phpBB.com übermitteln kannst. Wir würden uns freuen, wenn du unsere Arbeit mit deinen Angaben unterstützen würdest. Anschließend solltest du dir etwas Zeit nehmen, um die verfügbaren Optionen kennen zu lernen. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/documentation/3.0/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3/dokumentation">deutsche Übersetzung</a>), die <a href="%3$s">README</a> und das <a href="https://www.phpbb.com/community/viewforum.php?f=46">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).<br /><br /><strong>Bitte lösche oder verschiebe das Installations-Verzeichnis „install“ oder nenne es um, bevor du dein Board benutzt. Solange dieses Verzeichnis existiert, ist nur der Administrations-Bereich zugänglich.</strong>',
 	'INSTALL_INTRO'				=> 'Willkommen bei der Installation',
@@ -438,7 +438,7 @@ $lang = array_merge($lang, array(
 	'FILES_NEW_CONFLICT'			=> 'Neue Dateien, die bereits existieren',
 	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Die folgenden Dateien sind neu innerhalb der aktuellen Version, aber es wurde festgestellt, dass bereits eine Datei mit dem gleichen Namen im gleichen Verzeichnis existiert. Diese wird durch die neue Datei überschrieben.',
 	'FILES_NOT_MODIFIED'			=> 'Nicht geänderte Dateien',
-	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Die folgenden Dateien sind nicht geändert und entsprechen den originalen phpBB-Dateien der Version, von der aus du updaten willst.',
+	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Die folgenden Dateien sind nicht geändert und entsprechen den originalen phpBB-Dateien der Version, von der aus du updaten möchtest.',
 	'FILES_UP_TO_DATE'				=> 'Bereits aktualisierte Dateien',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Die folgenden Dateien sind bereits auf dem neuesten Stand und müssen nicht aktualisiert werden.',
 	'FTP_SETTINGS'					=> 'FTP-Einstellungen',
@@ -593,7 +593,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Ein kurzer Text, der dein Forum beschreibt',
 	'CONFIG_SITENAME'				=> 'deinedomain.tld',
 
-	'DEFAULT_INSTALL_POST'			=> 'Dies ist ein Beispielbeitrag deiner phpBB3-Installation. Alles scheint zu funktionieren. Wenn du willst, kannst du diesen Beitrag löschen und mit der Einrichtung deines Boards fortfahren. Während des Installationsvorgangs wurden deiner ersten Kategorie und deinem ersten Forum passende Berechtigungen für die Benutzergruppen Administratoren, Bots, globale Moderatoren, Gäste, Registrierte Benutzer und Registrierte COPPA-Benutzer zugewiesen. Wenn du dich entscheidest, auch deine erste Kategorie und dein erstes Forum zu löschen, darfst du nicht vergessen, den genannten Gruppen entsprechende Rechte für alle neuen Kategorien und Foren, die du erstellst, zuzuweisen. Es wird jedoch empfohlen, deine erste Kategorie und dein erstes Forum umzubenennen und deren Rechte zu übernehmen, wenn neue Kategorien und Foren erstellt werden. Viel Spaß mit phpBB!',
+	'DEFAULT_INSTALL_POST'			=> 'Dies ist ein Beispielbeitrag deiner phpBB3-Installation. Alles scheint zu funktionieren. Wenn du möchtest, kannst du diesen Beitrag löschen und mit der Einrichtung deines Boards fortfahren. Während des Installationsvorgangs wurden deiner ersten Kategorie und deinem ersten Forum passende Berechtigungen für die Benutzergruppen Administratoren, Bots, globale Moderatoren, Gäste, Registrierte Benutzer und Registrierte COPPA-Benutzer zugewiesen. Wenn du dich entscheidest, auch deine erste Kategorie und dein erstes Forum zu löschen, darfst du nicht vergessen, den genannten Gruppen entsprechende Rechte für alle neuen Kategorien und Foren, die du erstellst, zuzuweisen. Es wird jedoch empfohlen, deine erste Kategorie und dein erstes Forum umzubenennen und deren Rechte zu übernehmen, wenn neue Kategorien und Foren erstellt werden. Viel Spaß mit phpBB!',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Deine erste Kategorie',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Beschreibung deines ersten Forums.',

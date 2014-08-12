@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nie',
 	'ACL_SET'				=> 'Berechtigungen setzen',
-	'ACL_SET_EXPLAIN'		=> 'Berechtigungen basieren auf einem einfachen <strong>JA/NEIN</strong>-System. Wird eine Einstellung für einen Benutzer oder eine Gruppe auf <strong>NIE</strong> gesetzt, so überschreibt dieser Wert alle anderen gesetzten Werte. Wenn Sie bei diesem Benutzer/dieser Gruppe keinen Wert für eine Einstellung vornehmen wollen, wählen Sie <strong>NEIN</strong> aus. Wenn an anderer Stelle eine Einstellung vorgenommen wurde, so wird diese verwendet; ansonsten wird von <strong>NIE</strong> ausgegangen. Alle (mit dem davorstehendem Kontrollkästchen) ausgewählten Objekte werden die von Ihnen definierten Berechtigungen übernehmen.',
+	'ACL_SET_EXPLAIN'		=> 'Berechtigungen basieren auf einem einfachen <strong>JA/NEIN</strong>-System. Wird eine Einstellung für einen Benutzer oder eine Gruppe auf <strong>NIE</strong> gesetzt, so überschreibt dieser Wert alle anderen gesetzten Werte. Wenn Sie bei diesem Benutzer/dieser Gruppe keinen Wert für eine Einstellung vornehmen möchten, wählen Sie <strong>NEIN</strong> aus. Wenn an anderer Stelle eine Einstellung vorgenommen wurde, so wird diese verwendet; ansonsten wird von <strong>NIE</strong> ausgegangen. Alle (mit dem davorstehendem Kontrollkästchen) ausgewählten Objekte werden die von Ihnen definierten Berechtigungen übernehmen.',
 	'ACL_SETTING'			=> 'Einstellung',
 
 	'ACL_TYPE_A_'			=> 'Administrator-Berechtigungen',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT'					=> 'Standard',
 	'DELETE_ROLE'				=> 'Rolle löschen',
-	'DELETE_ROLE_CONFIRM'		=> 'Sind Sie sich sicher, dass Sie diese Rolle löschen wollen? Objekte, denen diese Rolle zugewiesen wurde, werden ihre Rechte <strong>nicht</strong> verlieren.',
+	'DELETE_ROLE_CONFIRM'		=> 'Sind Sie sich sicher, dass Sie diese Rolle löschen möchten? Objekte, denen diese Rolle zugewiesen wurde, werden ihre Rechte <strong>nicht</strong> verlieren.',
 	'DISPLAY_ROLE_ITEMS'		=> 'Objekte anzeigen, die diese Rolle verwenden',
 
 	'EDIT_PERMISSIONS'			=> 'Berechtigungen ändern',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'Keine definierten Berechtigungen gefunden',
 	'NO_ROLE_ASSIGNED'			=> 'Keine Rolle zugewiesen …',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Die Auswahl dieser Rolle ändert die rechts angegebenen Rechte nicht. Wenn Sie alle Berechtigungen entfernen wollen, verwenden Sie den „<strong>Alle Nie</strong>“-Link.',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Die Auswahl dieser Rolle ändert die rechts angegebenen Rechte nicht. Wenn Sie alle Berechtigungen entfernen möchten, verwenden Sie den „<strong>Alle Nie</strong>“-Link.',
 	'NO_ROLE_AVAILABLE'			=> 'Keine Rolle verfügbar',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Bitte geben Sie der Rolle einen Namen.',
 	'NO_ROLE_SELECTED'			=> 'Die Rolle kann nicht gefunden werden.',
