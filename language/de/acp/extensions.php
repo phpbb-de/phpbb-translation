@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INVALID_LIST'	=> 'Die Erweiterung „%s“ ist ungültig.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'Die ausgewählte Erweiterung ist nicht mit deinem Board kompatibel. Bitte prüfe auf der Details-Seite, ob deine phpBB- und PHP-Version unterstützt werden.',
 	'EXTENSION_DIR_INVALID'		=> 'Die ausgewählte Erweiterung besitzt eine ungültige Verzeichnisstruktur und kann nicht aktiviert werden.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'Die ausgewählte Erweiterung kann nicht aktiviert werden. Bitte prüfe die Voraussetzungen, die für die Erweiterung notwendig sind.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'Die ausgewählte Erweiterung kann nicht aktiviert werden. Bitte prüfe die Systemvoraussetzungen, die für die Erweiterung notwendig sind.',
 
 	'DETAILS'				=> 'Details',
 
