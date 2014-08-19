@@ -7,7 +7,7 @@ du erhältst diese Benachrichtigung, weil du das Forum „{FORUM_NAME}“ auf �
 Du kannst dir das Forum ansehen, wenn du folgenden Link aufrufst:
 {U_FORUM}
 
-Wenn du das Forum nicht länger abonnieren möchtest, verwende entweder den Link „Forum nicht mehr abonnieren“ im entsprechenden Forum oder rufe folgenden Link auf:
+Wenn du das Forum nicht länger abonnieren möchtest, verwende entweder den Link „Abonnement des Forums beenden“ im entsprechenden Forum oder rufe folgenden Link auf:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

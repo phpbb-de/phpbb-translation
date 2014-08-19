@@ -13,7 +13,7 @@ Du kannst dir das Thema ansehen, wenn du folgenden Link aufrufst:
 Du kannst dir das Forum ansehen, wenn du folgenden Link aufrufst:
 {U_FORUM}
 
-Wenn du das Thema nicht länger abonnieren möchtest, verwende entweder den Link „Thema nicht mehr abonnieren“ im entsprechenden Thema oder rufe folgenden Link auf:
+Wenn du das Thema nicht länger abonnieren möchtest, verwende entweder den Link „Abonnement des Themas beenden“ im entsprechenden Thema oder rufe folgenden Link auf:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}
