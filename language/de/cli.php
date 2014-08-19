@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Gibt eine Liste aller bereiten und aller nicht bereiten Cron-Jobs aus.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Führt alle bereiten Cron-Jobs aus.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Name des Jobs, der ausgeführt wird',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Name des Jobs, der ausgeführt werden soll',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Aktualisiert die Datenbank über eine Migration.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Löscht eine Konfigurations-Einstellung',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Deaktiviert die angegebene Erweiterung.',
