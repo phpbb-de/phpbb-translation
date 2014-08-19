@@ -227,12 +227,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Zurück',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Gibt eine Liste aller bereiten und aller nicht bereiten Cron-Jobs aus.',
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Führt alle bereiten Cron-Jobs aus.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Name des Jobs, der ausgeführt wird',
-
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Komandozeile starten.',
-
 	'COLOUR_SWATCH'			=> 'Websichere Farbpalette',
 	'CONFIG_UPDATED'		=> 'Konfiguration erfolgreich aktualisiert.',
 	'CRON_LOCK_ERROR'		=> 'Konnte Sperre für Cron-Job nicht bekommen.',
