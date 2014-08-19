@@ -634,7 +634,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> 'Sortiere Beiträge',
 	'VIEW_POSTS_KEY'			=> 'Zeige Beiträge sortiert nach',
 
-	'WATCHED_EXPLAIN'			=> 'Unten befindet sich eine Liste der Foren und Themen, die du abonniert hast. Du wirst über neue Beiträge in den abonnierten Foren und Themen benachrichtigt. Um ein Abonnement zu deaktivieren, markiere sie und klicke auf „Ausgewählte Abonnements beenden“.',
+	'WATCHED_EXPLAIN'			=> 'Unten befindet sich eine Liste der Foren und Themen, die du abonniert hast. Du wirst über neue Beiträge in den abonnierten Foren und Themen benachrichtigt. Um Abonnements zu beenden, markiere sie und klicke auf „Ausgewählte Abonnements beenden“.',
 	'WATCHED_FORUMS'			=> 'Abonnierte Foren',
 	'WATCHED_TOPICS'			=> 'Abonnierte Themen',
 	'WRONG_ACTIVATION'			=> 'Der angegebene Aktivierungs-Schlüssel passt auf keinen in der Datenbank vorhandenen Schlüssel.',
