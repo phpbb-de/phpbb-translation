@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Vor dem',
 
 	'CC_EMAIL'				=> 'Eine Kopie dieser E-Mail an mich senden.',
-	'CONTACT_ADMIN'			=> 'Kontakt an die Board-Administration',
+	'CONTACT_ADMIN'			=> 'Kontakt mit der Board-Administration aufnehmen',
 
 	'DEST_LANG'				=> 'Sprache',
 	'DEST_LANG_EXPLAIN'		=> 'Wähle — sofern verfügbar — eine passende Sprache aus, in der der Empfänger die Nachricht erhalten soll.',
