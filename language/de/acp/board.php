@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_BOOKMARKS'			=> 'Setzen von Lesezeichen für Themen erlauben',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'Der Benutzer darf persönliche Lesezeichen speichern.',
 	'ALLOW_BBCODE'				=> 'BBCode erlauben',
-	'ALLOW_FORUM_NOTIFY'		=> 'Beobachten von Foren erlauben',
+	'ALLOW_FORUM_NOTIFY'		=> 'Abonnieren von Foren erlauben',
 	'ALLOW_NAME_CHANGE'			=> 'Namenswechsel erlauben',
 	'ALLOW_NO_CENSORS'			=> 'Deaktivieren der Wortzensur erlauben',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Benutzer können die automatische Wortzensur in Beiträgen und Privaten Nachrichten deaktivieren.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_LINKS_EXPLAIN'	=> '„Nein“ deaktiviert den <code>[URL]</code> BBCode-Tag und die automatische Verlinkung von URLs.',
 	'ALLOW_SIG_SMILIES'			=> 'Smilies in Signaturen erlauben',
 	'ALLOW_SMILIES'				=> 'Smilies erlauben',
-	'ALLOW_TOPIC_NOTIFY'		=> 'Beobachten von Themen erlauben',
+	'ALLOW_TOPIC_NOTIFY'		=> 'Abonnieren von Themen erlauben',
 	'BOARD_PM'					=> 'Private Nachrichten',
 	'BOARD_PM_EXPLAIN'			=> 'Aktiviert Private Nachrichten für alle Benutzer.',
 ));

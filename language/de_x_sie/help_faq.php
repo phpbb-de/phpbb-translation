@@ -301,19 +301,19 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Benachrichtigungen und Lesezeichen',
+		1 => 'Abonnements und Lesezeichen',
 	),
 	array(
-		0 => 'Was ist der Unterschied zwischen einem Lesezeichen und der Beobachtung eines Themas oder Forums?',
-		1 => 'Lesezeichen in phpBB3 sind ähnlich der Lesezeichen oder Favoriten Ihres Browsers. Sie werden nicht über Änderungen informiert, können aber später das Thema schnell erneut aufrufen. Wenn Sie ein Thema oder Forum beobachten, werden Sie hingegen informiert, wenn es neue Beiträge oder Themen gibt. Die Benachrichtigung erfolgt mit der von Ihnen gewählten Benachrichtigungs-Methode.',
+		0 => 'Was ist der Unterschied zwischen einem Abonnements und einem Lesezeichen für ein Thema oder Forum?',
+		1 => 'Lesezeichen in phpBB3 sind ähnlich der Lesezeichen oder Favoriten Ihres Browsers. Sie werden nicht über Änderungen informiert, können aber später das Thema schnell erneut aufrufen. Wenn Sie ein Thema oder Forum abonnieren, werden Sie hingegen informiert, wenn es neue Beiträge oder Themen gibt. Die Benachrichtigung erfolgt mit der von Ihnen gewählten Benachrichtigungs-Methode.',
 	),
 	array(
-		0 => 'Wie kann ich ein Forum oder ein Thema beobachten?',
-		1 => 'Um ein Forum zu beobachten, finden Sie im Forum einen Link „Forum beobachten“. Wenn Sie ein Thema beobachten möchten, können Sie entweder die Option „Mich per E-Mail benachrichtigen, sobald eine Antwort geschrieben wurde“ beim Verfassen eines Beitrages zu diesem Thema aktivieren oder den Link „Thema beobachten“ innerhalb des Themas verwenden.',
+		0 => 'Wie kann ich ein Forum oder ein Thema abonnieren?',
+		1 => 'Um ein Forum zu abonnieren, finden Sie im Forum einen Link „Forum abonnieren“. Wenn Sie ein Thema abonnieren möchten, können Sie entweder die Option „Mich per E-Mail benachrichtigen, sobald eine Antwort geschrieben wurde“ beim Verfassen eines Beitrages zu diesem Thema aktivieren oder den Link „Thema abonnieren“ innerhalb des Themas verwenden.',
 	),
 	array(
-		0 => 'Wie deaktiviere ich meine Benachrichtigungen?',
-		1 => 'Wenn Sie mehrere Benachrichtigungen deaktivieren möchten, so können Sie dies im persönlichen Bereich unter „Einstieg“ – „Benachrichtigen verwalten“ machen.',
+		0 => 'Wie deaktiviere ich meine Abonnements?',
+		1 => 'Wenn Sie mehrere Abonnements deaktivieren möchten, so können Sie dies im persönlichen Bereich unter „Einstieg“ – „Abonnements verwalten“ machen.',
 	),
 	array(
 		0 => '--',
