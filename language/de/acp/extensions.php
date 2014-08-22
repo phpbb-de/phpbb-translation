@@ -52,19 +52,19 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_DISABLED'	=> 'Deaktivierte Erweiterungen',
 	'EXTENSIONS_ENABLED'	=> 'Aktivierte Erweiterungen',
 
-	'EXTENSION_DELETE_DATA'	=> 'Daten löschen',
+	'EXTENSION_DELETE_DATA'	=> 'Arbeitsdaten löschen',
 	'EXTENSION_DISABLE'		=> 'Deaktivieren',
 	'EXTENSION_ENABLE'		=> 'Aktivieren',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Durch das Löschen der Daten einer Erweiterung werden allen Daten und Einstellungen gelöscht. Die Dateien der Erweiterung bleiben erhalten, so dass sie erneut aktiviert werden kann.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Durch das Löschen der Arbeitsdaten einer Erweiterung werden allen Daten und Einstellungen gelöscht. Die Dateien der Erweiterung bleiben erhalten, so dass sie erneut aktiviert werden kann.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Durch das Deaktivieren einer Erweiterung bleiben alle Dateien, Daten und Einstellungen erhalten, die Erweiterung steht auf deinem Board jedoch nicht mehr zur Verfügung.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Durch das Aktivieren einer Erweiterung kannst du sie auf deinem Board nutzen.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Die Daten der Erweiterung werden gelöscht. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Die Arbeitsdaten der Erweiterung werden gelöscht. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Die Erweiterung wird deaktiviert. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Die Erweiterung wird aktiviert. Bitte verlasse oder aktualisiere diese Seite nicht, bis der Vorgang abgeschlossen wurde.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Die Daten der Erweiterung wurden erfolgreich gelöscht',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Die Arbeitsdaten der Erweiterung wurden erfolgreich gelöscht',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'Die Erweiterung wurde erfolgreich deaktiviert',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'Die Erweiterung wurde erfolgreich aktiviert',
 
@@ -81,11 +81,11 @@ $lang = array_merge($lang, array(
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Eine Erweiterung komplett aus dem Board entfernen',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
 			<li>Deaktiviere die Erweiterung</li>
-			<li>Lösche die Daten der Erweiterung</li>
+			<li>Lösche die Arbeitsdaten der Erweiterung</li>
 			<li>Lösche die Dateien der Erweiterung aus dem Dateisystem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Bist du dir sicher, dass du die Daten, die „%s“ zugeordnet sind, löschen möchtest?<br /><br />Dadurch werden alle Daten und Einstellungen dieser Erweiterung entfernt. <strong>Dieser Vorgang kann nicht rückgängig gemacht werden!</strong>',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Bist du dir sicher, dass du die Arbeitsdaten, die „%s“ zugeordnet sind, löschen möchtest?<br /><br />Dadurch werden alle Daten und Einstellungen dieser Erweiterung entfernt. <strong>Dieser Vorgang kann nicht rückgängig gemacht werden!</strong>',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ deaktivieren möchtest?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Bist du dir sicher, dass du die Erweiterung „%s“ aktivieren möchtest?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Möchtest du wirklich die Verwendung einer instabilen Entwicklungs-Version erzwingen?',
