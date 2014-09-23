@@ -525,6 +525,10 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Es wurde kein Benutzername angegeben.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_ATTACHMENTS'		=> array(
+		1	=> '%d Dateianhang',
+		2	=> '%d Dateianhänge',
+	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Kein Beitrag in der Warteschlange',		// 0
 		1			=> '1 Beitrag in der Warteschlange',		// 1
@@ -871,6 +875,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'Der angegebene Farbwert ist nicht gültig.',
 	'WRONG_DATA_JABBER'			=> 'Die angegebene ID ist keine gültige Jabber-ID.',
 	'WRONG_DATA_LANG'			=> 'Die von Ihnen ausgewählte Sprache ist nicht gültig.',
+	'WRONG_DATA_POST_SD'		=> 'Die von Ihnen ausgewählte Sortierreihenfolge für Beiträge ist nicht gültig.',
+	'WRONG_DATA_POST_SK'		=> 'Die von Ihnen ausgewählte Sortierungs-Option für Beiträge ist nicht gültig.',
+	'WRONG_DATA_TOPIC_SD'		=> 'Die von Ihnen ausgewählte Sortierreihenfolge für Themen ist nicht gültig.',
+	'WRONG_DATA_TOPIC_SK'		=> 'Die von Ihnen ausgewählte Sortierungs-Option für Themen ist nicht gültig.',
 	'WROTE'						=> 'hat geschrieben',
 
 	'YAHOO'				=> 'Yahoo Messenger',
