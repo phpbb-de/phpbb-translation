@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Suchzeitraum begrenzen',
 	'RESULT_SORT'			=> 'Ergebnisse sortieren nach',
 	'RETURN_FIRST'			=> 'Die ersten',
-	'RETURN_TO_SEARCH_ADV'	=> 'Zur erweiterten Suche',
+	'GO_TO_SEARCH_ADV'	=> 'Zur erweiterten Suche',
 
 	'SEARCHED_FOR'				=> 'Benutzte Suchanfrage',
 	'SEARCHED_TOPIC'			=> 'Durchsuchtes Thema',
