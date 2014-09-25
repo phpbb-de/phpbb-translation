@@ -301,6 +301,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Hier kannst du Plugins auswählen und konfigurieren, die das automatisierte Versenden von Formularen durch Spam-Bots unterbinden sollen. Diese Plugins zeigen dem Benutzer normalerweise einen <em>CAPTCHA</em>-Test an, der für einen Computer nur schwer zu lösen ist.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Weitere (und eventuell bessere) Anti-Spam-Plugins findest du in der <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Erweiterungs-Datenbank auf phpBB.com</strong></a>. Weitere Informationen, wie du Spam auf deinem Board unterbinden kannst, kannst du in der <a href="https://www.phpbb.com/go/anti-spam"><strong>Knowledge-Base auf phpBB.com</strong></a> finden.',
 	'AVAILABLE_CAPTCHAS'					=> 'Verfügbare Plugins',
 	'CAPTCHA_UNAVAILABLE'					=> 'Das Plugin kann nicht ausgewählt werden, da seine Voraussetzungen nicht erfüllt werden.',
 	'CAPTCHA_GD'							=> 'GD-Grafik',
