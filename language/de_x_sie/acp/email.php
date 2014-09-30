@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Hier können Sie eine Nachricht per E-Mail an alle Mitglieder des Boards oder einer spezifischen Gruppe senden, <strong>sofern diese den Erhalt von Informationen per E-Mail zugelassen haben</strong>. Dazu wird eine E-Mail an die festgelegte administrative E-Mail-Adresse verschickt und alle Empfänger als Blindkopie (BCC) hinzugefügt. Standardmäßig wird pro 50 Empfänger eine solche E-Mail versandt; bei mehreren Empfängern werden mehrere E-Mails versandt. Bitte haben Sie nach dem Absenden Geduld, wenn Sie eine Nachricht an eine große Gruppe schicken und brechen Sie den Vorgang nicht ab. Bei einer Massen-E-Mail ist es normal, dass ihr Versand länger dauert. Sie werden benachrichtigt, sobald der Vorgang abgeschlossen wurde.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Hier können Sie eine Nachricht per E-Mail an alle Mitglieder des Boards oder einer spezifischen Gruppe senden, <strong>sofern diese den Erhalt von Informationen per E-Mail zugelassen haben</strong>. Dazu wird eine E-Mail an die festgelegte administrative E-Mail-Adresse verschickt und alle Empfänger als Blindkopie (BCC) hinzugefügt. Standardmäßig wird pro 20 Empfänger eine solche E-Mail versandt; bei mehreren Empfängern werden mehrere E-Mails versandt. Bitte haben Sie nach dem Absenden Geduld, wenn Sie eine Nachricht an eine große Gruppe schicken und brechen Sie den Vorgang nicht ab. Bei einer Massen-E-Mail ist es normal, dass ihr Versand länger dauert. Sie werden benachrichtigt, sobald der Vorgang abgeschlossen wurde.',
 	'ALL_USERS'						=> 'Alle Mitglieder',
 
 	'COMPOSE'				=> 'Entwerfen',
