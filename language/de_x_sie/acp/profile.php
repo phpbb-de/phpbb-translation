@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_EXPLAIN'		=> 'Die Feld-Kennung dient Ihnen zur Identifizierung des Feldes. Sie wird den Benutzern nicht angezeigt.',
 	'FIELD_INT'					=> 'Zahlen',
 	'FIELD_IS_CONTACT'			=> 'Feld als Kontakt anzeigen',
-	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktfelder werden im Abschnitt „Kontaktdaten“ des Profils angezeigt und in den Kurzprofilen neben Beiträgen und Privaten Nachrichten anders dargestellt.',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktfelder werden im Abschnitt „Kontaktdaten“ des Profils angezeigt und in den Kurzprofilen neben Beiträgen und Privaten Nachrichten anders dargestellt. Sie können <samp>%s</samp> als Platzhalter verwenden, der durch den vom Benutzer angegebenen Wert ersetzt wird.',
 	'FIELD_LENGTH'				=> 'Größe des Eingabefelds',
 	'FIELD_NOT_FOUND'			=> 'Profilfeld nicht gefunden.',
 	'FIELD_STRING'				=> 'Einzeiliges Textfeld',
@@ -121,6 +121,7 @@ $lang = array_merge($lang, array(
 	'ISO_LANGUAGE'				=> 'Sprache [ %s ]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Sprachspezifische Optionen [ <strong>%s</strong> ]',
+
 	'LETTER_NUM_DOTS'			=> 'Nur Buchstaben, Zahlen und Punkte',
 	'LETTER_NUM_ONLY'			=> 'Nur Buchstaben und Zahlen',
 	'LETTER_NUM_PUNCTUATION'	=> 'Nur Buchstaben, Zahlen, Kommas, Punkte, Unterstriche und Bindestriche mit einem Buchstaben am Anfang',
