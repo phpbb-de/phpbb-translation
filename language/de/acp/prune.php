@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'USER_DELETE_SUCCESS'		=> 'Die ausgewählten Benutzer wurden erfolgreich gelöscht.',
 	'USER_PRUNE_FAILURE'		=> 'Keine Benutzer entsprachen den ausgewählten Kriterien.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'Das eingegebene Datum ist fehlerhaft, es wird in der Forum <kbd>JJJJ-MM-TT</kbd> erwartet.',
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'Das eingegebene Datum ist fehlerhaft, es wird in der Form <kbd>JJJJ-MM-TT</kbd> erwartet.',
 ));
 
 // Forum Pruning
