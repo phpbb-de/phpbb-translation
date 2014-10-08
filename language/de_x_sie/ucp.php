@@ -190,7 +190,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Sie müssen Ihr derzeitiges Passwort eingeben, wenn Sie Ihren Benutzernamen oder Ihre E-Mail-Adresse abändern möchten.',
 	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Damit Sie Ihr Passwort, Ihre E-Mail-Adresse oder Ihren Benutzernamen ändern können, müssen Sie Ihr derzeitiges Passwort eingeben.',
 	'CUR_PASSWORD_EMPTY'		=> 'Sie haben Ihr derzeitiges Passwort nicht angegeben.',
-	'CUR_PASSWORD_ERROR'		=> 'Das angegebene derzeitige Passwort ist fehlerhaft.',
+	'CUR_PASSWORD_ERROR'		=> 'Das angegebene derzeitige Passwort ist falsch.',
 	'CUSTOM_DATEFORMAT'			=> 'Eigenes …',
 
 	'DEFAULT_ACTION'			=> 'Standard-Verhalten',
