@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Das Profilfeld wird an allen Stellen angezeigt, die in den Einstellungen zur Serverlast aktiviert sind. Wird diese Option auf „Nein“ gestellt, so wird das Feld im Beitrag, im Profil und in der Mitgliederliste ausgeblendet.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Gib hier die Optionen an; jede Option in einer neuen Zeile.',
 
-	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Bitte beachte, dass du den Text der Optionen ändern oder neue Optionen an das Ende hinzufügen kannst. Es wird nicht empfohlen, neue Optionen zwischen bestehenden hinzuzufügen, weil dies zu falsch zugeordneten Optionen bei den Benutzern führen kann. Dies kann auch passieren, wenn du Optionen löscht, die nicht am Ende stehen. Wenn Optionen vom Ende entfernt werden, wird den Benutzern, die diese Optionen ausgewählt haben, die Standard-Option zugewiesen.',
+	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Bitte beachte, dass du den Text der Optionen ändern oder neue Optionen an das Ende hinzufügen kannst. Es wird nicht empfohlen, neue Optionen zwischen bestehenden hinzuzufügen, weil dies zu fehlerhaft zugeordneten Optionen bei den Benutzern führen kann. Dies kann auch passieren, wenn du Optionen löscht, die nicht am Ende stehen. Wenn Optionen vom Ende entfernt werden, wird den Benutzern, die diese Optionen ausgewählt haben, die Standard-Option zugewiesen.',
 	'EMPTY_FIELD_IDENT'				=> 'Die	Feld-Kennung ist nicht angegeben.',
 	'EMPTY_USER_FIELD_NAME'			=> 'Bitte fülle den dem Benutzer angezeigten Namen/Titel aus.',
 	'ENTRIES'						=> 'Optionen',

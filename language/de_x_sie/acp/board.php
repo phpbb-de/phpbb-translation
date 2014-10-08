@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Hier legen Sie die Einstellungen fest, die verwendet werden, um Cookies an die Browser Ihrer Benutzer zu senden. In den meisten Fällen sollten die Standardwerte ausreichend sein. Führe Änderungen mit Bedacht durch, falsche Einstellungen könnten Ihre Benutzer daran hindern, sich anzumelden.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Hier legen Sie die Einstellungen fest, die verwendet werden, um Cookies an die Browser Ihrer Benutzer zu senden. In den meisten Fällen sollten die Standardwerte ausreichend sein. Führe Änderungen mit Bedacht durch, fehlerhafte Einstellungen könnten Ihre Benutzer daran hindern, sich anzumelden.',
 
 	'COOKIE_DOMAIN'				=> 'Cookie-Domain',
 	'COOKIE_NAME'				=> 'Cookie-Name',

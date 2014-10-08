@@ -42,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Diese Frage dient dazu, das automatisierte Versenden von Formularen durch Spam-Bots zu verhindern.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Sie haben eine fehlerhafte Antwort auf die Frage angegeben.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Sie haben eine falsche Antwort auf die Frage angegeben.',
 
 	'QUESTION_ANSWERS'			=> 'Antworten',
 	'ANSWERS_EXPLAIN'			=> 'Bitte geben Sie gültige Antworten auf die Frage ein, jede Antwort in eine Zeile.',
