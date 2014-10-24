@@ -39,12 +39,12 @@ $help = array(
 		1 => 'Registrierung und Anmeldung',
 	),
 	array(
-		0 => 'Wozu muss ich mich überhaupt registrieren?',
+		0 => 'Wozu muss ich mich registrieren?',
 		1 => 'Eine Registrierung ist nicht unbedingt zwingend. Die Board-Administration dieses Forums entscheidet, ob du registriert sein musst, um Beiträge zu schreiben. Auf jeden Fall erhältst du als registriertes Mitglied zusätzliche Funktionen, die Gäste nicht haben: zum Beispiel Avatarbilder, Private Nachrichten, E-Mail-Versand an andere Mitglieder, Beitritt zu Benutzergruppen und so weiter. Wir empfehlen dir eine Anmeldung, da sie schnell erledigt ist und dir zahlreiche Vorteile bringt.',
 	),
 	array(
 		0 => 'Was ist COPPA?',
-		1 => 'COPPA, ausgeschrieben Child Online Privacy and Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn Sie sich unsicher sind, ob dies auf Sie oder die Website, auf der Sie sich zu registrieren versuchen, zutrifft, ziehen Sie einen rechtlichen Beistand zu Rate. Bitte beachten Sie, dass phpBB Limited keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die weiter unten behandelt werden.',
+		1 => 'COPPA, ausgeschrieben Children’s Online Privacy Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn Sie sich unsicher sind, ob dies auf Sie oder die Website, auf der Sie sich zu registrieren versuchen, zutrifft, ziehen Sie einen rechtlichen Beistand zu Rate. Bitte beachten Sie, dass phpBB Limited und der Besitzer dieses Boards keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die unter der Frage „An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?“ behandelt werden.',
 	),
 	array(
 		0 => 'Warum kann ich mich nicht registrieren?',
@@ -64,15 +64,15 @@ $help = array(
 	),
 	array(
 		0 => 'Ich habe mein Passwort vergessen!',
-		1 => 'Das ist nicht schlimm! Wir können Ihnen zwar Ihr altes Passwort nicht wieder mitteilen, Sie können es jedoch zurücksetzen. Dies machen Sie, indem Sie auf der Anmelde-Seite auf „Ich habe mein Passwort vergessen“ klicken und den Anweisungen folgen. So sollten Sie sich schnell wieder anmelden können.',
+		1 => 'Das ist nicht schlimm! Wir können Ihnen zwar Ihr altes Passwort nicht wieder mitteilen, Sie können es jedoch zurücksetzen. Dies machen Sie, indem Sie auf der Anmelde-Seite auf „Ich habe mein Passwort vergessen“ klicken und den Anweisungen folgen. So sollten Sie sich schnell wieder anmelden können.<br />Sollten Sie trotzdem nicht in der Lage sein, Ihr Passwort zurückzusetzen, so wenden Sie sich an die Board-Administration.',
 	),
 	array(
 		0 => 'Warum werde ich automatisch abgemeldet?',
-		1 => 'Wenn Sie beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählen, werden Sie nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch Ihres Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, können Sie dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn Sie sich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befinden. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
+		1 => 'Wenn Sie beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählen, werden Sie nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch Ihres Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, können Sie das Kästchen „Angemeldet bleiben“ beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn Sie sich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befinden. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
 	),
 	array(
 		0 => 'Wozu ist die „Alle Cookies des Boards löschen“-Funktion?',
-		1 => '„Alle Cookies des Boards löschen“ löscht die Cookies, die phpBB erstellt hat und die dafür sorgen, dass Sie im Forum angemeldet bleiben. Außerdem ermöglichen sie einige Funktionen, wie beispielsweise den „Gelesen“-Status – sofern von der Administration aktiviert. Wenn Sie Probleme bei der An- oder Abmeldung haben, kann es helfen, wenn Sie die Cookies des Boards löschen.',
+		1 => '„Alle Cookies des Boards löschen“ löscht die Cookies, die phpBB erstellt hat und die dafür sorgen, dass Sie im Forum angemeldet bleiben. Außerdem ermöglichen Cookies einige Funktionen, wie beispielsweise den „Gelesen“-Status – sofern sie von der Board-Administration aktiviert wurden. Wenn Sie Probleme bei der An- oder Abmeldung haben, kann es helfen, wenn Sie die Cookies des Boards löschen.',
 	),
 	array(
 		0 => '--',
@@ -80,7 +80,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich meine Einstellungen ändern?',
-		1 => 'Wenn Sie sich registriert haben, werden alle Ihre Einstellungen in der Datenbank des Boards gespeichert. Um diese zu ändern, gehen Sie in den „Persönlichen Bereich“; der Link dazu wird meist oben auf der Seite angezeigt. Dort können Sie alle Ihre Einstellungen ändern.',
+		1 => 'Wenn Sie sich registriert haben, werden alle Ihre Einstellungen in der Datenbank des Boards gespeichert. Um diese zu ändern, gehen Sie in den „Persönlichen Bereich“; der Link dazu wird meist oben auf der Seite angezeigt, wenn Sie auf Ihren Benutzernamen klicken. Dort können Sie alle Ihre Einstellungen ändern.',
 	),
 	array(
 		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',

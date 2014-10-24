@@ -36,12 +36,12 @@ $help = array(
 		1 => 'Login and Registration Issues'
 	),
 	array(
-		0 => 'Why do I need to register at all?',
+		0 => 'Why do I need to register?',
 		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
 	),
 	array(
 		0 => 'What is COPPA?',
-		1 => 'COPPA, or the Child Online Privacy and Protection Act of 1998, is a law in the United States requiring websites which can potentially collect information from minors under the age of 13 to have written parental consent or some other method of legal guardian acknowledgment, allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register or to the website you are trying to register on, contact legal counsel for assistance. Please note that the phpBB Limited cannot provide legal advice and is not a point of contact for legal concerns of any kind, except as outlined below.',
+		1 => 'COPPA, or the Children’s Online Privacy Protection Act of 1998, is a law in the United States requiring websites which can potentially collect information from minors under the age of 13 to have written parental consent or some other method of legal guardian acknowledgment, allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register or to the website you are trying to register on, contact legal counsel for assistance. Please note that phpBB Limited and the owner’s of this board cannot provide legal advice and is not a point of contact for legal concerns of any kind, except as outlined in question “Who do I contact about abusive and/or legal matters related to this board?”.',
 	),
 	array(
 		0 => 'Why can’t I register?',
@@ -61,15 +61,15 @@ $help = array(
 	),
 	array(
 		0 => 'I’ve lost my password!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I’ve forgotten my password</em>. Follow the instructions and you should be able to log in again shortly.'
+		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I forgot my password</em>. Follow the instructions and you should be able to log in again shortly.<br />However, if you are not able to reset your password, contact a board administrator.',
 	),
 	array(
 		0 => 'Why do I get logged off automatically?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
+		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the <em>Remember me</em> box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means a board administrator has disabled this feature.',
 	),
 	array(
 		0 => 'What does the “Delete all board cookies” do?',
-		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. It also provides functions such as read tracking if they have been enabled by the board owner. If you are having login or logout problems, deleting board cookies may help.',
+		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. Cookies also provide functions such as read tracking if they have been enabled by a board administrator. If you are having login or logout problems, deleting board cookies may help.',
 	),
 	array(
 		0 => '--',
@@ -77,11 +77,11 @@ $help = array(
 	),
 	array(
 		0 => 'How do I change my settings?',
-		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found at the top of board pages. This system will allow you to change all your settings and preferences.'
+		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found by clicking on your username at the top of board pages. This system will allow you to change all your settings and preferences.',
 	),
 	array(
 		0 => 'How do I prevent my username appearing in the online user listings?',
-		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option with <samp>Yes</samp> and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
+		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
 	),
 	array(
 		0 => 'The times are not correct!',
@@ -93,7 +93,7 @@ $help = array(
 	),
 	array(
 		0 => 'My language is not in the list!',
-		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking the board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the phpBB website (see link at the bottom of board pages).'
+		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking a board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the <a href="https://www.phpbb.com/">phpBB</a>&reg; website.',
 	),
 	array(
 		0 => 'How do I show an image along with my username?',
@@ -306,7 +306,7 @@ $help = array(
 	),
 	array(
 		0 => 'How do I subscribe to specific forums?',
-		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link, at the bottom of page, upon entering the forum.'
+		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link, at the bottom of page, upon entering the forum.',
 	),
 	array(
 		0 => 'How do I remove my subscriptions?',
