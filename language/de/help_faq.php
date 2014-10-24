@@ -39,32 +39,8 @@ $help = array(
 		1 => 'Registrierung und Anmeldung',
 	),
 	array(
-		0 => 'Warum kann ich mich nicht anmelden?',
-		1 => 'Dafür gibt es viele mögliche Gründe. Versichere dich zunächst, dass dein Benutzername und dein Passwort richtig sind. Wenn dies der Fall ist, wende dich an einen Administrator, um sicherzugehen, dass du nicht gesperrt wurdest. Es ist ebenfalls möglich, dass ein Konfigurationsproblem mit der Website vorliegt, welches ein Administrator lösen muss.',
-	),
-	array(
 		0 => 'Wozu muss ich mich überhaupt registrieren?',
 		1 => 'Eine Registrierung ist nicht unbedingt zwingend. Die Board-Administration dieses Forums entscheidet, ob du registriert sein musst, um Beiträge zu schreiben. Auf jeden Fall erhältst du als registriertes Mitglied zusätzliche Funktionen, die Gäste nicht haben: zum Beispiel Avatarbilder, Private Nachrichten, E-Mail-Versand an andere Mitglieder, Beitritt zu Benutzergruppen und so weiter. Wir empfehlen dir eine Anmeldung, da sie schnell erledigt ist und dir zahlreiche Vorteile bringt.',
-	),
-	array(
-		0 => 'Warum werde ich automatisch abgemeldet?',
-		1 => 'Wenn du beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählst, wirst du nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch deines Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, kannst du dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn du dich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befindest. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
-	),
-	array(
-		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
-		1 => 'In deinem persönlichen Bereich findest du in den Einstellungen eine Option „Verbirg meinen Online-Status“. Wenn du diese Option einschaltest, können nur Administratoren, Moderatoren und du selbst deinen Online-Status sehen. Du wirst dann als unsichtbarer Besucher gezählt.',
-	),
-	array(
-		0 => 'Ich habe mein Passwort vergessen!',
-		1 => 'Das ist nicht schlimm! Wir können dir zwar dein altes Passwort nicht wieder mitteilen, du kannst es jedoch zurücksetzen. Dies machst du, indem du auf der Anmelde-Seite auf „Ich habe mein Passwort vergessen“ klickst und den Anweisungen folgst. So solltest du dich schnell wieder anmelden können.',
-	),
-	array(
-		0 => 'Ich habe mich registriert, kann mich aber nicht anmelden!',
-		1 => 'Überprüfe zuerst, ob du den richtigen Benutzernamen und das richtige Passwort eingegeben hast. Wenn diese stimmen, dann gibt es zwei Möglichkeiten. Wenn <a href="#f07">COPPA</a> aktiviert ist und du angegeben hast, dass du unter 13 Jahre alt bist, musst du bzw. einer deiner Eltern oder deiner Erziehungsberechtigten den Anweisungen folgen, die du erhalten hast. Wenn dies nicht der Fall ist, muss dein Benutzerkonto vielleicht aktiviert werden. Bei einigen Boards müssen alle neu angemeldeten Mitglieder erst freigeschaltet werden – entweder musst du dies selbst erledigen oder ein Administrator. Bei der Registrierung wurde dir mitgeteilt, ob eine Aktivierung nötig ist oder nicht. Wenn du eine E-Mail erhalten hast, folge den dort enthaltenen Anweisungen. Ansonsten prüfe, ob du deine E-Mail-Adresse korrekt eingegeben hast oder die E-Mail von einem Spam-Filter blockiert wurde. Wenn du dir sicher bist, dass deine E-Mail-Adresse korrekt eingegeben wurde, dann kontaktiere einen Administrator.',
-	),
-	array(
-		0 => 'Ich habe mich vor einiger Zeit registriert, kann mich aber nicht mehr anmelden?!',
-		1 => 'Es kann sein, dass ein Administrator dein Benutzerkonto aus verschieden Gründen deaktiviert oder gelöscht hat. Außerdem löschen viele Boards regelmäßig Benutzer, die für längere Zeit keine Beiträge geschrieben haben, um die Datenbankgröße zu verringern. Registriere dich einfach erneut und nimm aktiv an den Diskussionen teil!',
 	),
 	array(
 		0 => 'Was ist COPPA?',
@@ -73,6 +49,26 @@ $help = array(
 	array(
 		0 => 'Warum kann ich mich nicht registrieren?',
 		1 => 'Es kann sein, dass deine IP-Adresse oder der Benutzername, mit dem du dich anmelden möchtest, von der Board-Administration gesperrt wurde. Die Registrierung könnte außerdem komplett ausgeschaltet sein, damit sich keine neuen Benutzer mehr anmelden können. Um Hilfe zu erhalten, wende dich an die Board-Administration.',
+	),
+	array(
+		0 => 'Ich habe mich registriert, kann mich aber nicht anmelden!',
+		1 => 'Überprüfe zuerst, ob du den richtigen Benutzernamen und das richtige Passwort eingegeben hast. Wenn diese stimmen, dann gibt es zwei Möglichkeiten. Wenn <a href="#f07">COPPA</a> aktiviert ist und du angegeben hast, dass du unter 13 Jahre alt bist, musst du bzw. einer deiner Eltern oder deiner Erziehungsberechtigten den Anweisungen folgen, die du erhalten hast. Wenn dies nicht der Fall ist, muss dein Benutzerkonto vielleicht aktiviert werden. Bei einigen Boards müssen alle neu angemeldeten Mitglieder erst freigeschaltet werden – entweder musst du dies selbst erledigen oder ein Administrator. Bei der Registrierung wurde dir mitgeteilt, ob eine Aktivierung nötig ist oder nicht. Wenn du eine E-Mail erhalten hast, folge den dort enthaltenen Anweisungen. Ansonsten prüfe, ob du deine E-Mail-Adresse korrekt eingegeben hast oder die E-Mail von einem Spam-Filter blockiert wurde. Wenn du dir sicher bist, dass deine E-Mail-Adresse korrekt eingegeben wurde, dann kontaktiere einen Administrator.',
+	),
+	array(
+		0 => 'Warum kann ich mich nicht anmelden?',
+		1 => 'Dafür gibt es viele mögliche Gründe. Versichere dich zunächst, dass dein Benutzername und dein Passwort richtig sind. Wenn dies der Fall ist, wende dich an einen Administrator, um sicherzugehen, dass du nicht gesperrt wurdest. Es ist ebenfalls möglich, dass ein Konfigurationsproblem mit der Website vorliegt, welches ein Administrator lösen muss.',
+	),
+	array(
+		0 => 'Ich habe mich vor einiger Zeit registriert, kann mich aber nicht mehr anmelden?!',
+		1 => 'Es kann sein, dass ein Administrator dein Benutzerkonto aus verschieden Gründen deaktiviert oder gelöscht hat. Außerdem löschen viele Boards regelmäßig Benutzer, die für längere Zeit keine Beiträge geschrieben haben, um die Datenbankgröße zu verringern. Registriere dich einfach erneut und nimm aktiv an den Diskussionen teil!',
+	),
+	array(
+		0 => 'Ich habe mein Passwort vergessen!',
+		1 => 'Das ist nicht schlimm! Wir können dir zwar dein altes Passwort nicht wieder mitteilen, du kannst es jedoch zurücksetzen. Dies machst du, indem du auf der Anmelde-Seite auf „Ich habe mein Passwort vergessen“ klickst und den Anweisungen folgst. So solltest du dich schnell wieder anmelden können.',
+	),
+	array(
+		0 => 'Warum werde ich automatisch abgemeldet?',
+		1 => 'Wenn du beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählst, wirst du nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch deines Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, kannst du dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn du dich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befindest. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
 	),
 	array(
 		0 => 'Wozu ist die „Alle Cookies des Boards löschen“-Funktion?',
@@ -85,6 +81,10 @@ $help = array(
 	array(
 		0 => 'Wie kann ich meine Einstellungen ändern?',
 		1 => 'Wenn du dich registriert hast, werden alle deine Einstellungen in der Datenbank des Boards gespeichert. Um diese zu ändern, gehe in den „Persönlichen Bereich“; der Link dazu wird meist oben auf der Seite angezeigt. Dort kannst du alle deine Einstellungen ändern.',
+	),
+	array(
+		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
+		1 => 'In deinem persönlichen Bereich findest du in den Einstellungen eine Option „Verbirg meinen Online-Status“. Wenn du diese Option einschaltest, können nur Administratoren, Moderatoren und du selbst deinen Online-Status sehen. Du wirst dann als unsichtbarer Besucher gezählt.',
 	),
 	array(
 		0 => 'Die Forenuhr geht falsch!',
@@ -285,7 +285,7 @@ $help = array(
 	),
 	array(
 		0 => 'Weshalb erhalte ich bei der Suche keine Ergebnisse?',
-		1 => 'Deine Suche war möglicherweise zu allgemein gehalten und enthielt zu viele gängige Wörter, welche von phpBB3 nicht indiziert werden. Stelle eine spezifischere Anfrage und benutze die Optionen, die dir die erweiterte Suche bietet. Außerdem ist es natürlich auch möglich, dass dein(e) Suchbegriff(e) hier nirgends im Forum verwendet wurden. Prüfe ggf. die Rechtschreibung der Begriffe!',
+		1 => 'Deine Suche war möglicherweise zu allgemein gehalten und enthielt zu viele gängige Wörter, welche von phpBB nicht indiziert werden. Stelle eine spezifischere Anfrage und benutze die Optionen, die dir die erweiterte Suche bietet. Außerdem ist es natürlich auch möglich, dass dein(e) Suchbegriff(e) hier nirgends im Forum verwendet wurden. Prüfe ggf. die Rechtschreibung der Begriffe!',
 	),
 	array(
 		0 => 'Warum bekomme ich bei der Suche eine leere Seite?',
@@ -308,8 +308,8 @@ $help = array(
 		1 => 'Lesezeichen in phpBB3 sind ähnlich der Lesezeichen oder Favoriten deines Browsers. Du wirst nicht über Änderungen informiert, kannst aber später das Thema schnell erneut aufrufen. Wenn du ein Thema oder Forum abonnierst, wirst du hingegen informiert, wenn es neue Beiträge oder Themen gibt. Die Benachrichtigung erfolgt mit der von dir gewählten Benachrichtigungs-Methode.',
 	),
 	array(
-		0 => 'Wie kann ich ein Forum oder ein Thema abonnieren?',
-		1 => 'Um ein Forum zu abonnieren, findest du im Forum einen Link „Forum abonnieren“. Wenn du ein Thema abonnieren möchtest, kannst du entweder die Option „Mich per E-Mail benachrichtigen, sobald eine Antwort geschrieben wurde“ beim Verfassen eines Beitrages zu diesem Thema aktivieren oder den Link „Thema abonnieren“ innerhalb des Themas verwenden.',
+		0 => 'Wie kann ich ein Forum abonnieren?',
+		1 => 'Um ein Forum zu abonnieren, verwende im Forum den Link „Forum abonnieren“, der sich meist am Ende der Seite befindet.',
 	),
 	array(
 		0 => 'Wie deaktiviere ich meine Abonnements?',
@@ -329,11 +329,11 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB3 betreffende Fragen',
+		1 => 'phpBB betreffende Fragen',
 	),
 	array(
 		0 => 'Wer hat diese Forensoftware entwickelt?',
-		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details findest du auf der Seite von phpBB Limited. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
+		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License, Version 2 (GPL-2.0) veröffentlicht und kann frei vertrieben werden. Weitere Details findest du <a href="https://www.phpbb.com/about/">auf der Seite von phpBB Limited</a>. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
 	),
 	array(
 		0 => 'Warum ist Funktion x oder y nicht enthalten?',
@@ -342,5 +342,9 @@ $help = array(
 	array(
 		0 => 'An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?',
 		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für deine Beschwerde. Wenn du so keine Antwort erhältst, solltest du den Besitzer der Domain kontaktieren (führe dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachte, dass phpBB Limited (phpBB.com) und phpBB Deutschland e.&nbsp;V. (phpBB.de) <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktiere daher nie phpBB Limited oder phpBB Deutschland e.&nbsp;V. in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Websiten phpbb.com, phpbb.de oder die phpBB-Software selbst beziehen. Falls du phpBB Limited oder phpBB Deutschland e.&nbsp;V. E-Mails schreibst, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so wirst du, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
+	),
+	array(
+		0 => 'Wie kann ich einen Administrator des Boards kontaktieren?',
+		1 => 'Alle Benutzer des Boards können das „Kontakt“-Formular nutzen, wenn die Funktion durch die Board-Administration aktiviert wurde.<br />Mitglieder des Boards können zusätzlich den Link „Das Team“ verwenden.',
 	),
 );

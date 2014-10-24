@@ -36,16 +36,16 @@ $help = array(
 		1 => 'Login and Registration Issues'
 	),
 	array(
-		0 => 'Why do I need to register?',
+		0 => 'Why do I need to register at all?',
 		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
 	),
 	array(
 		0 => 'What is COPPA?',
-		1 => 'COPPA, or the Children’s Online Privacy Protection Act of 1998, is a law in the United States requiring websites which can potentially collect information from minors under the age of 13 to have written parental consent or some other method of legal guardian acknowledgment, allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register or to the website you are trying to register on, contact legal counsel for assistance. Please note that phpBB Limited and the owner’s of this board cannot provide legal advice and is not a point of contact for legal concerns of any kind, except as outlined in question “Who do I contact about abusive and/or legal matters related to this board?”.',
+		1 => 'COPPA, or the Child Online Privacy and Protection Act of 1998, is a law in the United States requiring websites which can potentially collect information from minors under the age of 13 to have written parental consent or some other method of legal guardian acknowledgment, allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register or to the website you are trying to register on, contact legal counsel for assistance. Please note that the phpBB Limited cannot provide legal advice and is not a point of contact for legal concerns of any kind, except as outlined below.',
 	),
 	array(
 		0 => 'Why can’t I register?',
-		1 => 'It is possible a board administrator has disabled registration to prevent new visitors from signing up. A board administrator could have also banned your IP address or disallowed the username you are attempting to register. Contact a board administrator for assistance.',
+		1 => 'It is possible the website owner has banned your IP address or disallowed the username you are attempting to register. The website owner could have also disabled registration to prevent new visitors from signing up. Contact a board administrator for assistance.',
 	),
 	array(
 		0 => 'I registered but cannot login!',
@@ -53,7 +53,7 @@ $help = array(
 	),
 	array(
 		0 => 'Why can’t I login?',
-		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact a board administrator to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.',
+		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact the board owner to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.'
 	),
 	array(
 		0 => 'I registered in the past but cannot login any more?!',
@@ -61,15 +61,15 @@ $help = array(
 	),
 	array(
 		0 => 'I’ve lost my password!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I forgot my password</em>. Follow the instructions and you should be able to log in again shortly.<br />However, if you are not able to reset your password, contact a board administrator.',
+		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I’ve forgotten my password</em>. Follow the instructions and you should be able to log in again shortly.'
 	),
 	array(
 		0 => 'Why do I get logged off automatically?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the <em>Remember me</em> box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means a board administrator has disabled this feature.',
+		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
 	),
 	array(
 		0 => 'What does the “Delete all board cookies” do?',
-		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. Cookies also provide functions such as read tracking if they have been enabled by a board administrator. If you are having login or logout problems, deleting board cookies may help.',
+		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. It also provides functions such as read tracking if they have been enabled by the board owner. If you are having login or logout problems, deleting board cookies may help.',
 	),
 	array(
 		0 => '--',
@@ -77,11 +77,11 @@ $help = array(
 	),
 	array(
 		0 => 'How do I change my settings?',
-		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found by clicking on your username at the top of board pages. This system will allow you to change all your settings and preferences.',
+		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found at the top of board pages. This system will allow you to change all your settings and preferences.'
 	),
 	array(
 		0 => 'How do I prevent my username appearing in the online user listings?',
-		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
+		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option with <samp>Yes</samp> and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
 	),
 	array(
 		0 => 'The times are not correct!',
@@ -93,15 +93,11 @@ $help = array(
 	),
 	array(
 		0 => 'My language is not in the list!',
-		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking a board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the <a href="https://www.phpbb.com/">phpBB</a>&reg; website.',
+		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking the board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the phpBB website (see link at the bottom of board pages).'
 	),
 	array(
-		0 => 'What are the images next to my username?',
-		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually larger, image is known as an avatar and is generally unique or personal to each user.',
-	),
-	array(
-		0 => 'How do I display an avatar?',
-		1 => 'Within your User Control Panel, under “Profile” you can add an avatar by using one of the four following methods: Gravatar, Gallery, Remote or Upload. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator.',
+		0 => 'How do I show an image along with my username?',
+		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually a larger image, is known as an avatar and is generally unique or personal to each user. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator and ask them for their reasons.'
 	),
 	array(
 		0 => 'What is my rank and how do I change it?',
@@ -116,8 +112,8 @@ $help = array(
 		1 => 'Posting Issues'
 	),
 	array(
-		0 => 'How do I create a new topic or post a reply?',
-		1 => 'To post a new topic in a forum, click "New Topic". To post a reply to a topic, click "Post Reply". You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can post attachments, etc.',
+		0 => 'How do I post a topic in a forum?',
+		1 => 'To post a new topic in a forum, click the relevant button on either the forum or topic screens. You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can vote in polls, etc.'
 	),
 	array(
 		0 => 'How do I edit or delete a post?',
@@ -298,7 +294,7 @@ $help = array(
 	),
 	array(
 		0 => 'How can I find my own posts and topics?',
-		1 => 'Your own posts can be retrieved either by clicking the “Show your posts” link within the User Control Panel or by clicking the “Search user’s posts” link via your own profile page or by clicking the “Quick links” menu at the top of the board. To search for your topics, use the Advanced search page and fill in the various options appropriately.',
+		1 => 'Your own posts can be retrieved either by clicking the “Search user’s posts” within the User Control Panel or via your own profile page. To search for your topics, use the Advanced search page and fill in the various options appropriately.'
 	),
 	array(
 		0 => '--',
@@ -306,15 +302,11 @@ $help = array(
 	),
 	array(
 		0 => 'What is the difference between bookmarking and subscribing?',
-		1 => 'In phpBB 3.0, bookmarking topics worked much like bookmarking in a web browser. You were not alerted when there was an update. As of phpBB 3.1, bookmarking is more like subscribing to a topic. You can be notified when a bookmarked topic is updated. Subscribing, however, will notify you when there is an update to a topic or forum on the board. Notification options for bookmarks and subscriptions can be configured in the User Control Panel, under “Board preferences”.',
-	),
-	array(
-		0 => 'How do I bookmark or subscribe to specific topics?',
-		1 => 'You can bookmark or subscribe to a specific topic by clicking the appropriate link in the “Topic tools” menu, conveniently located near the top and bottom of a topic discussion.<br />Replying to a topic with the “Notify me when a reply is posted” option checked will also subscribe you to the topic.',
+		1 => 'Bookmarking in phpBB3 is much like bookmarking in your web browser. You aren’t alerted when there’s an update, but you can come back to the topic later. Subscribing, however, will notify you when there is an update to the topic or forum on the board via your preferred method or methods.'
 	),
 	array(
 		0 => 'How do I subscribe to specific forums?',
-		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link, at the bottom of page, upon entering the forum.',
+		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link, at the bottom of page, upon entering the forum.'
 	),
 	array(
 		0 => 'How do I remove my subscriptions?',
