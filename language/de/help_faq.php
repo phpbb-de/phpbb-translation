@@ -48,7 +48,7 @@ $help = array(
 	),
 	array(
 		0 => 'Warum kann ich mich nicht registrieren?',
-		1 => 'Es kann sein, dass deine IP-Adresse oder der Benutzername, mit dem du dich anmelden möchtest, von der Board-Administration gesperrt wurde. Die Registrierung könnte außerdem komplett ausgeschaltet sein, damit sich keine neuen Benutzer mehr anmelden können. Um Hilfe zu erhalten, wende dich an die Board-Administration.',
+		1 => 'Es kann sein, dass die Board-Administration die Registrierung komplett ausgeschaltet hat, damit sich keine neuen Benutzer mehr anmelden können. Es könnte auch sein, dass deine IP-Adresse oder der Benutzername, mit dem du dich registrieren möchtest, gesperrt wurden. Um Hilfe zu erhalten, wende dich an die Board-Administration.',
 	),
 	array(
 		0 => 'Ich habe mich registriert, kann mich aber nicht anmelden!',
@@ -56,7 +56,7 @@ $help = array(
 	),
 	array(
 		0 => 'Warum kann ich mich nicht anmelden?',
-		1 => 'Dafür gibt es viele mögliche Gründe. Versichere dich zunächst, dass dein Benutzername und dein Passwort richtig sind. Wenn dies der Fall ist, wende dich an einen Administrator, um sicherzugehen, dass du nicht gesperrt wurdest. Es ist ebenfalls möglich, dass ein Konfigurationsproblem mit der Website vorliegt, welches ein Administrator lösen muss.',
+		1 => 'Dafür gibt es viele mögliche Gründe. Prüfe zunächst, ob dein Benutzername und dein Passwort richtig sind. Wenn dies der Fall ist, wende dich an einen Board-Administrator, um sicherzugehen, dass du nicht gesperrt wurdest. Es ist ebenfalls möglich, dass ein Konfigurationsproblem mit der Website vorliegt, welches ein Administrator lösen muss.',
 	),
 	array(
 		0 => 'Ich habe mich vor einiger Zeit registriert, kann mich aber nicht mehr anmelden?!',
@@ -99,8 +99,12 @@ $help = array(
 		1 => 'Meist hat die Board-Administration entweder deine Sprache nicht installiert oder niemand hat das Forum bislang in deine Sprache übersetzt. Frage ggf. einen Board-Administrator, ob er das Sprachpaket, das du benötigst, installieren kann. Falls es noch nicht existiert, würden wir uns freuen, wenn du es übersetzen würdest. Weitere Informationen dazu können auf der Website von <a href="https://www.phpbb.com/">phpBB Limited</a> oder auf <a href="https://www.phpbb.de/">phpBB.de</a> gefunden werden.',
 	),
 	array(
-		0 => 'Wie kann ich ein Bild bei meinem Benutzernamen anzeigen?',
-		1 => 'In der Beitragsansicht können zwei Bilder bei deinem Benutzernamen stehen. Eines dieser Bilder ist meist mit deinem Rang verknüpft: Oft sind dies Sterne, Kästchen oder Punkte, die deine Beitragszahl oder deinen Status im Forum angeben. Das andere, meist größere Bild, ist auch als „Avatar“ bezeichnet. Es handelt sich hierbei in der Regel um ein persönliches Bild, welches von Benutzer zu Benutzer unterschiedlich ist. Die Board-Administration kann bestimmen, ob und wie die Benutzer Avatare benutzen können. Wenn du keinen Avatar benutzen darfst, solltest du die Board-Administration nach den Gründen dafür fragen.',
+		0 => 'Was sind das für Bilder, die bei meinem Benutzernamen angezeigt werden?',
+		1 => 'In der Beitragsansicht können zwei Bilder bei deinem Benutzernamen stehen. Eines dieser Bilder ist meist mit deinem Rang verknüpft: Oft sind dies Sterne, Kästchen oder Punkte, die deine Beitragszahl oder deinen Status im Forum angeben. Das andere, meist größere, Bild ist auch als „Avatar“ bezeichnet. Es handelt sich hierbei in der Regel um ein persönliches Bild, welches von Benutzer zu Benutzer unterschiedlich ist.',
+	),
+	array(
+		0 => 'Wie verwende ich einen Avatar?',
+		1 => 'In deinem persönlichen Bereich kannst du unter „Profil“ einen Avatar über eine der folgenden vier Methoden hinzufügen: Gravatar, Galerie, Remote oder Hochladen. Die Board-Administration kann bestimmen, ob und wie die Benutzer Avatare benutzen können. Wenn du keinen Avatar benutzen kannst, solltest du die Board-Administration kontaktieren.',
 	),
 	array(
 		0 => 'Was ist mein Rang und wie kann ich ihn ändern?',
