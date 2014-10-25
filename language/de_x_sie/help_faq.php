@@ -40,7 +40,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wozu muss ich mich registrieren?',
-		1 => 'Eine Registrierung ist nicht unbedingt zwingend. Die Board-Administration dieses Forums entscheidet, ob du registriert sein musst, um Beiträge zu schreiben. Auf jeden Fall erhältst du als registriertes Mitglied zusätzliche Funktionen, die Gäste nicht haben: zum Beispiel Avatarbilder, Private Nachrichten, E-Mail-Versand an andere Mitglieder, Beitritt zu Benutzergruppen und so weiter. Wir empfehlen dir eine Anmeldung, da sie schnell erledigt ist und dir zahlreiche Vorteile bringt.',
+		1 => 'Eine Registrierung ist nicht unbedingt zwingend. Die Board-Administration dieses Forums entscheidet, ob Sie registriert sein müssen, um Beiträge zu schreiben. Auf jeden Fall erhalten Sie als registriertes Mitglied Zugriff auf zusätzliche Funktionen, die Gästen nicht zur Verfügung stehen: zum Beispiel Avatarbilder, Private Nachrichten, E-Mail-Versand an andere Mitglieder, Beitritt zu Benutzergruppen und so weiter. Wir empfehlen Ihnen eine Anmeldung, da sie schnell erledigt ist und Ihnen zahlreiche Vorteile bietet.',
 	),
 	array(
 		0 => 'Was ist COPPA?',
@@ -84,7 +84,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
-		1 => 'In Ihrem persönlichen Bereich finden Sie in den Einstellungen eine Option „Verbirg meinen Online-Status“. Wenn Sie diese Option einschalten, können nur Administratoren, Moderatoren und Sie selbst Ihren Online-Status sehen. Sie werden dann als unsichtbarer Besucher gezählt.',
+		1 => 'In Ihrem persönlichen Bereich finden Sie in den Einstellungen eine Option „Meinen Online-Status während dieser Sitzung verbergen“. Wenn Sie diese Option einschalten, können nur Administratoren, Moderatoren und Sie selbst Ihren Online-Status sehen. Sie werden dann als unsichtbarer Besucher gezählt.',
 	),
 	array(
 		0 => 'Die Forenuhr geht falsch!',
