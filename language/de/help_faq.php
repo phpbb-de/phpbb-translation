@@ -241,7 +241,7 @@ $help = array(
 	),
 	array(
 		0 => 'Weshalb werden verschiedene Benutzergruppen farbig dargestellt?',
-		1 => 'Es ist der Board-Administration möglich, den Benutzergruppen verschiedene Farben zuzuteilen, sodass deren Mitglieder leichter zu identifizieren sind.',
+		1 => 'Es ist der Board-Administration möglich, den Benutzergruppen verschiedene Farben zuzuteilen, so dass deren Mitglieder leichter zu identifizieren sind.',
 	),
 	array(
 		0 => 'Was ist eine Hauptgruppe?',
