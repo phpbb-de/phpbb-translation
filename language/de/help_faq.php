@@ -119,8 +119,8 @@ $help = array(
 		1 => 'Beiträge schreiben',
 	),
 	array(
-		0 => 'Wie schreibe ich ein Thema?',
-		1 => 'Um eine neues Thema in einem Forum zu eröffnen, klicke auf das entsprechende Symbol, entweder in der Foren- oder der Beitragsansicht. Es könnte sein, dass eine Registrierung erforderlich ist, bevor du einen Beitrag schreiben kannst. Deine Berechtigungen sind jeweils am Ende der Foren- und der Beitragsansicht aufgelistet. Z.&nbsp;B. „Du darfst neue Themen erstellen“, „Du darfst an Abstimmungen in diesem Forum teilnehmen“ usw.',
+		0 => 'Wie erstelle ich ein neues Thema oder eine Antwort?',
+		1 => 'Um eine neues Thema in einem Forum zu eröffnen, klicke auf „Neues Thema“. Um einen Beitrag zu antworten, klicke auf „Antworten“. Es könnte sein, dass eine Registrierung erforderlich ist, bevor du einen Beitrag schreiben kannst. Deine Berechtigungen sind jeweils am Ende der Foren- und der Beitragsansicht aufgelistet. Z.&nbsp;B. „Du darfst neue Themen erstellen“, „Du darfst Dateianhänge erstellen“ usw.',
 	),
 	array(
 		0 => 'Wie kann ich einen Beitrag bearbeiten oder löschen?',
@@ -301,15 +301,19 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich meine eigenen Beiträge und Themen finden?',
-		1 => 'Deine eigenen Beiträge kannst du dir anzeigen lassen, indem du auf den Link „Eigene Beiträge“ in der Foren-Übersicht klickst. Alternativ kannst du auch „Beiträge des Mitglieds anzeigen“ in deinem persönlichen Bereich oder auf deiner eigenen Profilseite verwenden. Benutze die erweiterte Suche, um nach von dir erstellen Themen zu suchen. Trage dort die entsprechenden Optionen in die Suchmaske ein.',
+		1 => 'Deine eigenen Beiträge kannst du dir anzeigen lassen, indem du „Eigene Beiträge“ im Schnellzugriff oben auf der Boardseite auswählst. Alternativ kannst du auch „Deine Beiträge anzeigen“ in deinem persönlichen Bereich oder „Beiträge des Benutzers suchen“ auf deiner eigenen Profilseite verwenden. Benutze die erweiterte Suche, um nach von dir erstellen Themen zu suchen. Trage dort die entsprechenden Optionen in die Suchmaske ein.',
 	),
 	array(
 		0 => '--',
 		1 => 'Abonnements und Lesezeichen',
 	),
 	array(
-		0 => 'Was ist der Unterschied zwischen einem Abonnements und einem Lesezeichen für ein Thema oder Forum?',
-		1 => 'Lesezeichen in phpBB3 sind ähnlich der Lesezeichen oder Favoriten deines Browsers. Du wirst nicht über Änderungen informiert, kannst aber später das Thema schnell erneut aufrufen. Wenn du ein Thema oder Forum abonnierst, wirst du hingegen informiert, wenn es neue Beiträge oder Themen gibt. Die Benachrichtigung erfolgt mit der von dir gewählten Benachrichtigungs-Methode.',
+		0 => 'Was ist der Unterschied zwischen einem Lesezeichen und einem Abonnements für ein Thema oder Forum?',
+		1 => 'In phpBB 3.0 funktionierten Lesezeichen ähnlich den Lesezeichen in Web-Browsern: du bekamst keine Informationen bei einem Update. In phpBB 3.1 ähneln Lesezeichen mehr einem Abonnement: du kannst eine Benachrichtigung erhalten, wenn ein Thema aktualisiert wird. Abonnements hingegen informieren dich bei einer Aktualisierung eines Themas oder eines Forums des Boards. Die Benachrichtigungsoptionen für Lesezeichen und Abonnements können im persönlichen Bereich unter „Benachrichtigungen einstellen“ geändert werden.',
+	),
+	array(
+		0 => 'Wie kann ich ein Lesezeichen auf ein Thema setzen oder ein Thema abonnieren?',
+		1 => 'Du kannst ein Lesezeichen auf ein Thema setzen oder es abonnieren, in dem du die entsprechende Option in den „Themen-Optionen“ auswählst, die sich normalerweise ober- und unterhalb des Diskussionsverlaufs des Themas befinden.<br />Wenn du bei der Antwort auf ein Thema die Option „Mich benachrichtigen, sobald eine Antwort geschrieben wurde“ aktivierst, wird das Thema ebenfalls für dich abonniert.',
 	),
 	array(
 		0 => 'Wie kann ich ein Forum abonnieren?',
