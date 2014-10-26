@@ -642,16 +642,16 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> 'Sortiere Beiträge',
 	'VIEW_POSTS_KEY'			=> 'Zeige Beiträge sortiert nach',
 
-	'WATCHED_EXPLAIN'			=> 'Unten befindet sich eine Liste der Foren und Themen, die Sie abonniert haben. Sie werden über neue Beiträge in den abonnierten Foren und Themen benachrichtigt. Um Abonnements zu beenden, markieren Sie sie und klicken Sie auf „Ausgewählte Abonnements beenden“.',
+	'WATCHED_EXPLAIN'			=> 'Unten befindet sich eine Liste der Foren und Themen, die Sie abonniert haben. Sie werden über neue Beiträge in den abonnierten Foren und Themen benachrichtigt. Um Abonnements zu beenden, markieren Sie sie und klicken anschließend auf „Ausgewählte Abonnements beenden“.',
 	'WATCHED_FORUMS'			=> 'Abonnierte Foren',
 	'WATCHED_TOPICS'			=> 'Abonnierte Themen',
 	'WRONG_ACTIVATION'			=> 'Der angegebene Aktivierungs-Schlüssel passt auf keinen in der Datenbank vorhandenen Schlüssel.',
 
 	'YOUR_DETAILS'				=> 'Ihre Aktivität',
 	'YOUR_FOES'					=> 'Ihre ignorierten Mitglieder',
-	'YOUR_FOES_EXPLAIN'			=> 'Um Benutzer zu entfernen, markieren Sie sie und klicken Sie auf Absenden.',
+	'YOUR_FOES_EXPLAIN'			=> 'Um Benutzer zu entfernen, markieren Sie sie und klicken anschließend auf Absenden.',
 	'YOUR_FRIENDS'				=> 'Ihre Freunde',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Um Benutzer zu entfernen, markieren Sie sie und klicken Sie auf Absenden.',
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Um Benutzer zu entfernen, markieren Sie sie und klicken anschließend auf Absenden.',
 	'YOUR_WARNINGS'				=> 'Ihre Verwarnungs-Stufe',
 
 	'PM_ACTION' => array(
