@@ -353,6 +353,6 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich einen Administrator des Boards kontaktieren?',
-		1 => 'Alle Benutzer des Boards können das „Kontakt“-Formular nutzen, wenn die Funktion durch die Board-Administration aktiviert wurde.<br />Mitglieder des Boards können zusätzlich den Link „Das Team“ verwenden.',
+		1 => 'Alle Benutzer des Boards können das Kontaktformular nutzen, wenn die Funktion durch die Board-Administration aktiviert wurde.<br />Mitglieder des Boards können zusätzlich den Link „Das Team“ verwenden.',
 	),
 );
