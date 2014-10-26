@@ -39,44 +39,40 @@ $help = array(
 		1 => 'Registrierung und Anmeldung',
 	),
 	array(
-		0 => 'Warum kann ich mich nicht anmelden?',
-		1 => 'Dafür gibt es viele mögliche Gründe. Versichern Sie sich zunächst, dass Ihr Benutzername und Ihr Passwort richtig sind. Wenn dies der Fall ist, wenden Sie sich an einen Administrator, um sicherzugehen, dass Sie nicht gesperrt wurden. Es ist ebenfalls möglich, dass ein Konfigurationsproblem mit der Website vorliegt, welches ein Administrator lösen muss.',
+		0 => 'Wozu muss ich mich registrieren?',
+		1 => 'Eine Registrierung ist nicht unbedingt zwingend. Die Board-Administration dieses Forums entscheidet, ob Sie registriert sein müssen, um Beiträge zu schreiben. Auf jeden Fall erhalten Sie als registriertes Mitglied Zugriff auf zusätzliche Funktionen, die Gästen nicht zur Verfügung stehen: zum Beispiel Avatarbilder, Private Nachrichten, E-Mail-Versand an andere Mitglieder, Beitritt zu Benutzergruppen und so weiter. Wir empfehlen Ihnen eine Anmeldung, da sie schnell erledigt ist und Ihnen zahlreiche Vorteile bietet.',
 	),
 	array(
-		0 => 'Wozu muss ich mich überhaupt registrieren?',
-		1 => 'Eine Registrierung ist nicht unbedingt zwingend. Die Board-Administration dieses Forums entscheidet, ob Sie registriert sein müssen, um Beiträge zu schreiben. Auf jeden Fall erhalten Sie als registriertes Mitglied zusätzliche Funktionen, die Gäste nicht haben: zum Beispiel Avatarbilder, Private Nachrichten, E-Mail-Versand an andere Mitglieder, Beitritt zu Benutzergruppen und so weiter. Wir empfehlen Ihnen eine Anmeldung, da sie schnell erledigt ist und Ihnen zahlreiche Vorteile bringt.',
+		0 => 'Was ist COPPA?',
+		1 => 'COPPA, ausgeschrieben Children’s Online Privacy Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn Sie sich unsicher sind, ob dies auf Sie oder die Website, auf der Sie sich zu registrieren versuchen, zutrifft, ziehen Sie einen rechtlichen Beistand zu Rate. Bitte beachten Sie, dass phpBB Limited und der Besitzer dieses Boards keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die unter der Frage „An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?“ behandelt werden.',
 	),
 	array(
-		0 => 'Warum werde ich automatisch abgemeldet?',
-		1 => 'Wenn Sie beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählen, werden Sie nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch Ihres Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, können Sie dieses Kästchen beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn Sie sich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befinden. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
-	),
-	array(
-		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
-		1 => 'In Ihrem persönlichen Bereich finden Sie in den Einstellungen eine Option „Verbirg meinen Online-Status“. Wenn Sie diese Option einschalten, können nur Administratoren, Moderatoren und Sie selbst Ihren Online-Status sehen. Sie werden dann als unsichtbarer Besucher gezählt.',
-	),
-	array(
-		0 => 'Ich habe mein Passwort vergessen!',
-		1 => 'Das ist nicht schlimm! Wir können Ihnen zwar Ihr altes Passwort nicht wieder mitteilen, Sie können es jedoch zurücksetzen. Dies machen Sie, indem Sie auf der Anmelde-Seite auf „Ich habe mein Passwort vergessen“ klicken und den Anweisungen folgen. So sollten Sie sich schnell wieder anmelden können.',
+		0 => 'Warum kann ich mich nicht registrieren?',
+		1 => 'Es kann sein, dass die Board-Administration die Registrierung komplett ausgeschaltet hat, damit sich keine neuen Benutzer mehr anmelden können. Es könnte auch sein, dass Ihre IP-Adresse oder der Benutzername, mit dem Sie sich registrieren möchten, gesperrt wurden. Um Hilfe zu erhalten, wenden Sie sich an die Board-Administration.',
 	),
 	array(
 		0 => 'Ich habe mich registriert, kann mich aber nicht anmelden!',
 		1 => 'Überprüfen Sie zuerst, ob Sie den richtigen Benutzernamen und das richtige Passwort eingegeben haben. Wenn diese stimmen, dann gibt es zwei Möglichkeiten. Wenn <a href="#f07">COPPA</a> aktiviert ist und Sie angegeben haben, dass Sie unter 13 Jahre alt sind, müssen Sie bzw. einer Ihrer Eltern oder Ihrer Erziehungsberechtigten den Anweisungen folgen, die Sie erhalten haben. Wenn dies nicht der Fall ist, muss Ihr Benutzerkonto vielleicht aktiviert werden. Bei einigen Foren müssen alle neu angemeldeten Mitglieder erst freigeschaltet werden – entweder müssen Sie dies selbst erledigen oder ein Administrator. Bei der Registrierung wurde Ihnen mitgeteilt, ob eine Aktivierung nötig ist oder nicht. Wenn Sie eine E-Mail erhalten haben, folgen Sie den dort enthaltenen Anweisungen. Ansonsten prüfen Sie, ob Sie Ihre E-Mail-Adresse korrekt eingegeben haben oder die E-Mail von einem Spam-Filter blockiert wurde. Wenn Sie sich sicher sind, dass Ihre E-Mail-Adresse korrekt eingegeben wurde, dann kontaktieren Sie einen Administrator.',
 	),
 	array(
+		0 => 'Warum kann ich mich nicht anmelden?',
+		1 => 'Dafür gibt es viele mögliche Gründe. Prüfen Sie zunächst, ob Ihr Benutzername und Ihr Passwort richtig sind. Wenn dies der Fall ist, wenden Sie sich an einen Board-Administrator, um sicherzugehen, dass Sie nicht gesperrt wurden. Es ist ebenfalls möglich, dass ein Konfigurationsproblem mit der Website vorliegt, welches ein Administrator lösen muss.',
+	),
+	array(
 		0 => 'Ich habe mich vor einiger Zeit registriert, kann mich aber nicht mehr anmelden?!',
 		1 => 'Es kann sein, dass ein Administrator Ihr Benutzerkonto aus verschieden Gründen deaktiviert oder gelöscht hat. Außerdem löschen viele Boards regelmäßig Benutzer, die für längere Zeit keine Beiträge geschrieben haben, um die Datenbankgröße zu verringern. Registrieren Sie sich einfach erneut und nehmen Sie aktiv an den Diskussionen teil!',
 	),
 	array(
-		0 => 'Was ist COPPA?',
-		1 => 'COPPA, ausgeschrieben Child Online Privacy and Protection Act of 1998 (deutsch: Gesetz zum Schutz der Privatsphäre von Kindern im Internet von 1998) ist ein Gesetz in den USA, welches festlegt, dass Websites, die möglicherweise persönliche Daten von Kindern unter 13 Jahren erheben, hierzu die Zustimmung der Eltern beziehungsweise des oder der Erziehungsberechtigten benötigen. Wenn Sie sich unsicher sind, ob dies auf Sie oder die Website, auf der Sie sich zu registrieren versuchen, zutrifft, ziehen Sie einen rechtlichen Beistand zu Rate. Bitte beachten Sie, dass phpBB Limited keine Rechtsberatung anbieten kann und nicht die Anlaufstelle für Rechtsangelegenheiten jeglicher Art ist; außer solchen, die weiter unten behandelt werden.',
+		0 => 'Ich habe mein Passwort vergessen!',
+		1 => 'Das ist nicht schlimm! Wir können Ihnen zwar Ihr altes Passwort nicht wieder mitteilen, Sie können es jedoch zurücksetzen. Dies machen Sie, indem Sie auf der Anmelde-Seite auf „Ich habe mein Passwort vergessen“ klicken und den Anweisungen folgen. So sollten Sie sich schnell wieder anmelden können.<br />Sollten Sie trotzdem nicht in der Lage sein, Ihr Passwort zurückzusetzen, so wenden Sie sich an die Board-Administration.',
 	),
 	array(
-		0 => 'Warum kann ich mich nicht registrieren?',
-		1 => 'Es kann sein, dass Ihre IP-Adresse oder der Benutzername, mit dem Sie sich anmelden möchten, von der Board-Administration gesperrt wurde. Die Registrierung könnte außerdem komplett ausgeschaltet sein, damit sich keine neuen Benutzer mehr anmelden können. Um Hilfe zu erhalten, wenden Sie sich an die Board-Administration.',
+		0 => 'Warum werde ich automatisch abgemeldet?',
+		1 => 'Wenn Sie beim Anmelden das Kontrollkästchen „Angemeldet bleiben“ nicht auswählen, werden Sie nur für eine Sitzung angemeldet. Dies verhindert den Missbrauch Ihres Benutzerkontos durch einen Dritten. Um angemeldet zu bleiben, können Sie das Kästchen „Angemeldet bleiben“ beim Anmelden auswählen. Dies ist nicht empfehlenswert, wenn Sie sich an einem öffentlichen Computer, zum Beispiel in einem Internetcafé, befinden. Wenn diese Option nicht zur Verfügung steht, dann wurde sie vermutlich von der Board-Administration ausgeschaltet.',
 	),
 	array(
 		0 => 'Wozu ist die „Alle Cookies des Boards löschen“-Funktion?',
-		1 => '„Alle Cookies des Boards löschen“ löscht die Cookies, die phpBB erstellt hat und die dafür sorgen, dass Sie im Forum angemeldet bleiben. Außerdem ermöglichen sie einige Funktionen, wie beispielsweise den „Gelesen“-Status – sofern von der Administration aktiviert. Wenn Sie Probleme bei der An- oder Abmeldung haben, kann es helfen, wenn Sie die Cookies des Boards löschen.',
+		1 => '„Alle Cookies des Boards löschen“ löscht die Cookies, die phpBB erstellt hat und die dafür sorgen, dass Sie im Forum angemeldet bleiben. Außerdem ermöglichen Cookies einige Funktionen, wie beispielsweise den „Gelesen“-Status – sofern sie von der Board-Administration aktiviert wurden. Wenn Sie Probleme bei der An- oder Abmeldung haben, kann es helfen, wenn Sie die Cookies des Boards löschen.',
 	),
 	array(
 		0 => '--',
@@ -84,7 +80,11 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich meine Einstellungen ändern?',
-		1 => 'Wenn Sie sich registriert haben, werden alle Ihre Einstellungen in der Datenbank des Boards gespeichert. Um diese zu ändern, gehen Sie in den „Persönlichen Bereich“; der Link dazu wird meist oben auf der Seite angezeigt. Dort können Sie alle Ihre Einstellungen ändern.',
+		1 => 'Wenn Sie sich registriert haben, werden alle Ihre Einstellungen in der Datenbank des Boards gespeichert. Um diese zu ändern, gehen Sie in den „Persönlichen Bereich“; der Link dazu wird meist oben auf der Seite angezeigt, wenn Sie auf Ihren Benutzernamen klicken. Dort können Sie alle Ihre Einstellungen ändern.',
+	),
+	array(
+		0 => 'Wie kann ich verhindern, dass mein Benutzername in der Online-Liste auftaucht?',
+		1 => 'In Ihrem persönlichen Bereich finden Sie in den Einstellungen eine Option „Meinen Online-Status während dieser Sitzung verbergen“. Wenn Sie diese Option einschalten, können nur Administratoren, Moderatoren und Sie selbst Ihren Online-Status sehen. Sie werden dann als unsichtbarer Besucher gezählt.',
 	),
 	array(
 		0 => 'Die Forenuhr geht falsch!',
@@ -96,11 +96,15 @@ $help = array(
 		),
 	array(
 		0 => 'Meine Sprache steht auf diesem Board nicht zur Auswahl!',
-		1 => 'Meist hat die Board-Administration entweder Ihre Sprache nicht installiert oder niemand hat das Forum bislang in Ihre Sprache übersetzt. Fragen Sie ggf. einen Administrator, ob er das Sprachpaket, das Sie benötigen, installieren kann. Falls es noch nicht existiert, würden wir uns freuen, wenn Sie es übersetzen würden. Weitere Informationen dazu können auf der Website von phpBB Limited gefunden werden (siehe Link am Ende jeder Seite).',
+		1 => 'Meist hat die Board-Administration entweder Ihre Sprache nicht installiert oder niemand hat das Forum bislang in Ihre Sprache übersetzt. Fragen Sie ggf. einen Board-Administrator, ob er das Sprachpaket, das Sie benötigen, installieren kann. Falls es noch nicht existiert, würden wir uns freuen, wenn Sie es übersetzen würden. Weitere Informationen dazu können auf der Website von <a href="https://www.phpbb.com/">phpBB Limited</a> oder auf <a href="https://www.phpbb.de/">phpBB.de</a> gefunden werden.',
 	),
 	array(
-		0 => 'Wie kann ich ein Bild bei meinem Benutzernamen anzeigen?',
-		1 => 'In der Beitragsansicht können zwei Bilder bei Ihrem Benutzernamen stehen. Eines dieser Bilder ist meist mit Ihrem Rang verknüpft: Oft sind dies Sterne, Kästchen oder Punkte, die Ihre Beitragszahl oder Ihren Status im Forum angeben. Das andere, meist größere Bild, wird auch als „Avatar“ bezeichnet. Es handelt sich hierbei in der Regel um ein persönliches Bild, welches von Benutzer zu Benutzer unterschiedlich ist. Die Board-Administration kann bestimmen, ob und wie die Benutzer Avatare benutzen können. Wenn Sie keinen Avatar benutzen dürfen, sollten Sie die Board-Administration nach den Gründen dafür fragen.',
+		0 => 'Was sind das für Bilder, die bei meinem Benutzernamen angezeigt werden?',
+		1 => 'In der Beitragsansicht können zwei Bilder bei Ihrem Benutzernamen stehen. Eines dieser Bilder ist meist mit Ihrem Rang verknüpft: Oft sind dies Sterne, Kästchen oder Punkte, die Ihre Beitragszahl oder Ihren Status im Forum angeben. Das andere, meist größere, Bild wird auch als „Avatar“ bezeichnet. Es handelt sich hierbei in der Regel um ein persönliches Bild, welches von Benutzer zu Benutzer unterschiedlich ist.',
+	),
+	array(
+		0 => 'Wie verwende ich einen Avatar?',
+		1 => 'In Ihrem persönlichen Bereich können Sie unter „Profil“ einen Avatar über eine der folgenden vier Methoden hinzufügen: Gravatar, Galerie, Remote oder Hochladen. Die Board-Administration kann bestimmen, ob und wie die Benutzer Avatare benutzen können. Wenn Sie keinen Avatar benutzen können, sollten Sie die Board-Administration kontaktieren.',
 	),
 	array(
 		0 => 'Was ist mein Rang und wie kann ich ihn ändern?',
@@ -115,8 +119,8 @@ $help = array(
 		1 => 'Beiträge schreiben',
 	),
 	array(
-		0 => 'Wie schreibe ich ein Thema?',
-		1 => 'Um eine neues Thema in einem Forum zu eröffnen, klicken Sie auf das entsprechende Symbol, entweder in der Foren- oder der Beitragsansicht. Es könnte sein, dass eine Registrierung erforderlich ist, bevor Sie einen Beitrag schreiben können. Ihre Berechtigungen sind jeweils am Ende der Foren- und der Beitragsansicht aufgelistet. Z.&nbsp;B. „Sie dürfen neue Themen erstellen“, „Sie dürfen an Abstimmungen in diesem Forum teilnehmen“ usw.',
+		0 => 'Wie erstelle ich ein neues Thema oder eine Antwort?',
+		1 => 'Um eine neues Thema in einem Forum zu eröffnen, klicken Sie auf „Neues Thema“. Um einen Beitrag zu antworten, klicken Sie auf „Antworten“. Es könnte sein, dass eine Registrierung erforderlich ist, bevor Sie einen Beitrag schreiben können. Ihre Berechtigungen sind jeweils am Ende der Foren- und der Beitragsansicht aufgelistet. Z.&nbsp;B. „Sie dürfen neue Themen erstellen“, „Sie dürfen Dateianhänge erstellen“ usw.',
 	),
 	array(
 		0 => 'Wie kann ich einen Beitrag bearbeiten oder löschen?',
@@ -237,7 +241,7 @@ $help = array(
 	),
 	array(
 		0 => 'Weshalb werden verschiedene Benutzergruppen farbig dargestellt?',
-		1 => 'Es ist der Board-Administration möglich, den Benutzergruppen verschiedene Farben zuzuteilen, sodass deren Mitglieder leichter zu identifizieren sind.',
+		1 => 'Es ist der Board-Administration möglich, den Benutzergruppen verschiedene Farben zuzuteilen, so dass deren Mitglieder leichter zu identifizieren sind.',
 	),
 	array(
 		0 => 'Was ist eine Hauptgruppe?',
@@ -285,7 +289,7 @@ $help = array(
 	),
 	array(
 		0 => 'Weshalb erhalte ich bei der Suche keine Ergebnisse?',
-		1 => 'Ihre Suche war möglicherweise zu allgemein gehalten und enthielt zu viele gängige Wörter, welche von phpBB3 nicht indiziert werden. Stellen Sie eine spezifischere Anfrage und benutzen Sie die Optionen, die Ihnen die erweiterte Suche bietet. Außerdem ist es natürlich auch möglich, dass Ihr(e) Suchbegriff(e) hier nirgends im Forum verwendet wurden. Prüfen Sie ggf. die Rechtschreibung der Begriffe!',
+		1 => 'Ihre Suche war möglicherweise zu allgemein gehalten und enthielt zu viele gängige Wörter, welche von phpBB nicht indiziert werden. Stellen Sie eine spezifischere Anfrage und benutzen Sie die Optionen, die Ihnen die erweiterte Suche bietet. Außerdem ist es natürlich auch möglich, dass Ihr(e) Suchbegriff(e) hier nirgends im Forum verwendet wurden. Prüfen Sie ggf. die Rechtschreibung der Begriffe!',
 	),
 	array(
 		0 => 'Warum bekomme ich bei der Suche eine leere Seite?',
@@ -297,19 +301,23 @@ $help = array(
 	),
 	array(
 		0 => 'Wie kann ich meine eigenen Beiträge und Themen finden?',
-		1 => 'Ihre eigenen Beiträge können Sie sich anzeigen lassen, indem Sie auf den Link „Eigene Beiträge“ in der Foren-Übersicht klicken. Alternativ können Sie auch „Beiträge des Mitglieds anzeigen“ in Ihrem persönlichen Bereich oder auf Ihrer eigenen Profilseite verwenden. Benutzen Sie die erweiterte Suche, um nach von Ihnen erstellen Themen zu suchen. Tragen Sie dort die entsprechenden Optionen in die Suchmaske ein.',
+		1 => 'Ihre eigenen Beiträge können Sie sich anzeigen lassen, indem Sie „Eigene Beiträge“ im Schnellzugriff oben auf der Boardseite auswählen. Alternativ können Sie auch „Ihre Beiträge anzeigen“ in Ihrem persönlichen Bereich oder „Beiträge des Benutzers suchen“ auf Ihrer eigenen Profilseite verwenden. Benutzen Sie die erweiterte Suche, um nach von Ihnen erstellen Themen zu suchen. Tragen Sie dort die entsprechenden Optionen in die Suchmaske ein.',
 	),
 	array(
 		0 => '--',
 		1 => 'Abonnements und Lesezeichen',
 	),
 	array(
-		0 => 'Was ist der Unterschied zwischen einem Abonnements und einem Lesezeichen für ein Thema oder Forum?',
-		1 => 'Lesezeichen in phpBB3 sind ähnlich der Lesezeichen oder Favoriten Ihres Browsers. Sie werden nicht über Änderungen informiert, können aber später das Thema schnell erneut aufrufen. Wenn Sie ein Thema oder Forum abonnieren, werden Sie hingegen informiert, wenn es neue Beiträge oder Themen gibt. Die Benachrichtigung erfolgt mit der von Ihnen gewählten Benachrichtigungs-Methode.',
+		0 => 'Was ist der Unterschied zwischen einem Lesezeichen und einem Abonnements für ein Thema oder Forum?',
+		1 => 'In phpBB 3.0 funktionierten Lesezeichen ähnlich den Lesezeichen in Web-Browsern: Sie bekamen keine Informationen bei einem Update. In phpBB 3.1 ähneln Lesezeichen mehr einem Abonnement: Sie können eine Benachrichtigung erhalten, wenn ein Thema aktualisiert wird. Abonnements hingegen informieren Sie bei einer Aktualisierung eines Themas oder eines Forums des Boards. Die Benachrichtigungsoptionen für Lesezeichen und Abonnements können im persönlichen Bereich unter „Benachrichtigungen einstellen“ geändert werden.',
 	),
 	array(
-		0 => 'Wie kann ich ein Forum oder ein Thema abonnieren?',
-		1 => 'Um ein Forum zu abonnieren, finden Sie im Forum einen Link „Forum abonnieren“. Wenn Sie ein Thema abonnieren möchten, können Sie entweder die Option „Mich per E-Mail benachrichtigen, sobald eine Antwort geschrieben wurde“ beim Verfassen eines Beitrages zu diesem Thema aktivieren oder den Link „Thema abonnieren“ innerhalb des Themas verwenden.',
+		0 => 'Wie kann ich ein Lesezeichen auf ein Thema setzen oder ein Thema abonnieren?',
+		1 => 'Sie können ein Lesezeichen auf ein Thema setzen oder es abonnieren, in dem Sie die entsprechende Option in den „Themen-Optionen“ auswählen, die sich normalerweise ober- und unterhalb des Diskussionsverlaufs des Themas befinden.<br />Wenn Sie bei der Antwort auf ein Thema die Option „Mich benachrichtigen, sobald eine Antwort geschrieben wurde“ aktivieren, wird das Thema ebenfalls für Sie abonniert.',
+	),
+	array(
+		0 => 'Wie kann ich ein Forum abonnieren?',
+		1 => 'Um ein Forum zu abonnieren, verwenden Sie im Forum den Link „Forum abonnieren“, der sich meist am Ende der Seite befindet.',
 	),
 	array(
 		0 => 'Wie deaktiviere ich meine Abonnements?',
@@ -329,11 +337,11 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB3 betreffende Fragen',
+		1 => 'phpBB betreffende Fragen',
 	),
 	array(
 		0 => 'Wer hat diese Forensoftware entwickelt?',
-		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License veröffentlicht und kann frei vertrieben werden. Weitere Details finden Sie auf der Seite von phpBB Limited. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
+		1 => 'Diese Software (in ihrer unmodifizierten Fassung) wurde von <a href="https://www.phpbb.com/">phpBB Limited</a> entwickelt und veröffentlicht. Sie ist urheberrechtlich geschützt. Sie wurde unter der GNU General Public License, Version 2 (GPL-2.0) veröffentlicht und kann frei vertrieben werden. Weitere Details finden Sie <a href="https://www.phpbb.com/about/">auf der Seite von phpBB Limited</a>. Eine deutschsprachige Anlaufstelle ist unter <a href="https://www.phpbb.de/">phpBB.de</a> zu finden.',
 	),
 	array(
 		0 => 'Warum ist Funktion x oder y nicht enthalten?',
@@ -342,5 +350,9 @@ $help = array(
 	array(
 		0 => 'An wen soll ich mich wenden, falls es Beschwerden oder juristische Anfragen zu diesem Forum gibt?',
 		1 => 'Jeder Administrator, der auf der „Das Team“-Seite aufgeführt ist, ist ein geeigneter Kontakt für Ihre Beschwerde. Wenn Sie so keine Antwort erhalten, sollten Sie den Besitzer der Domain kontaktieren (führen Sie dazu eine <a href="http://www.google.com/search?q=whois">„WHOIS“-Abfrage</a> durch) oder — falls diese Seite bei einem kostenlosen Webhoster wie z.&nbsp;B. Yahoo!, free.fr, funpic.de usw. liegt — den Support oder den Abuse-Kontakt des betreffenden Dienstes. Bitte beachten Sie, dass phpBB Limited (phpBB.com) und phpBB Deutschland e.&nbsp;V. (phpBB.de) <strong>absolut keinen Einfluss</strong> auf die Benutzung oder den oder die Benutzer der Forensoftware haben und dafür in keiner Weise zur Verantwortung herangezogen werden können. Kontaktieren Sie daher nie phpBB Limited oder phpBB Deutschland e.&nbsp;V. in Zusammenhang mit jeglichen juristischen Fragen (Unterlassungserklärungen, Haftungsfragen usw.), die <strong>sich nicht direkt</strong> auf die Website phpbb.com, phpbb.de oder die phpBB-Software selbst beziehen. Falls Sie phpBB Limited oder phpBB Deutschland e.&nbsp;V. E-Mails schreiben, die die <strong>Softwarenutzung durch Dritte</strong> betreffen, so werden Sie, wenn überhaupt, höchstens eine knappe Antwort erhalten.',
+	),
+	array(
+		0 => 'Wie kann ich einen Administrator des Boards kontaktieren?',
+		1 => 'Alle Benutzer des Boards können das Kontaktformular nutzen, wenn die Funktion durch die Board-Administration aktiviert wurde.<br />Mitglieder des Boards können zusätzlich den Link „Das Team“ verwenden.',
 	),
 );
