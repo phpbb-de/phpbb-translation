@@ -120,7 +120,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wie erstelle ich ein neues Thema oder eine Antwort?',
-		1 => 'Um eine neues Thema in einem Forum zu eröffnen, musst du auf „Neues Thema“ klicken. Um einen Beitrag zu antworten, musst du auf „Antworten“ klicken. Es könnte sein, dass eine Registrierung erforderlich ist, bevor du einen Beitrag schreiben kannst. Deine Berechtigungen sind jeweils am Ende der Foren- und der Beitragsansicht aufgelistet. Z.&nbsp;B. „Du darfst neue Themen erstellen“, „Du darfst Dateianhänge erstellen“ usw.',
+		1 => 'Um ein neues Thema in einem Forum zu eröffnen, musst du auf „Neues Thema“ klicken. Um einen Beitrag zu antworten, musst du auf „Antworten“ klicken. Es könnte sein, dass eine Registrierung erforderlich ist, bevor du einen Beitrag schreiben kannst. Deine Berechtigungen sind jeweils am Ende der Foren- und der Beitragsansicht aufgelistet. Z.&nbsp;B. „Du darfst neue Themen erstellen“, „Du darfst Dateianhänge erstellen“ usw.',
 	),
 	array(
 		0 => 'Wie kann ich einen Beitrag bearbeiten oder löschen?',
