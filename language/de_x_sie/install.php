@@ -549,7 +549,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Gehen Sie zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und laden Sie das entsprechende „Automatisches-Update-Paket“ herunter (<a href="https://www.phpbb.de/go/3.1/downloads">deutschsprachige Downloadseite</a>).<br /><br /></li>
 			<li>Entpacken Sie das Archiv.<br /><br /></li>
-			<li>Laden Sie das entpackte Installationsverzeichnis komplett in Ihr phpBB-Hauptverzeichnis (dort, wo die config.php ist).<br /><br /></li>
+			<li>Laden Sie die entpackten Verzeichnisse „install“ und „vendor“ komplett in Ihr phpBB-Hauptverzeichnis (dort, wo die config.php ist).<br /><br /></li>
 		</ul>
 
 		<p>Nach dem Upload wird das Forum vorübergehend für normale Benutzer nicht zugänglich sein, da das von Ihnen hochgeladene Installations-Verzeichnis vorhanden ist.<br /><br />
