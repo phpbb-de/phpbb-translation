@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'ACP_CLIENT_COMMUNICATION'	=> 'Client-Kommunikation',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookies',
 	'ACP_CONTACT'				=> 'Kontaktseite',
-	'ACP_CONTACT_SETTINGS'		=> 'Kontaktseiten-Einstellungen',
+	'ACP_CONTACT_SETTINGS'		=> 'Kontaktseite',
 	'ACP_CRITICAL_LOGS'			=> 'Fehler-Protokoll',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Benutzerdefinierte Profilfelder',
 
@@ -162,7 +162,7 @@ $lang = array_merge($lang, array(
 	'ACP_RESTORE'				=> 'Wiederherstellen',
 
 	'ACP_FEED'					=> 'Feed-Verwaltung',
-	'ACP_FEED_SETTINGS'			=> 'Feed-Einstellungen',
+	'ACP_FEED_SETTINGS'			=> 'Feeds',
 
 	'ACP_SEARCH'				=> 'Such-Konfiguration',
 	'ACP_SEARCH_INDEX'			=> 'Such-Indizes',
