@@ -77,11 +77,11 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Dauerhaft',
 
 	'UNTIL'						=> 'Bis zum',
-	'USER_BAN'					=> 'Einen oder mehrere Benutzernamen sperren',
+	'USER_BAN'					=> 'Einen oder mehrere Benutzer über Benutzernamen sperren',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um den Namen von allen aktuellen Sperren auszunehmen.',
 	'USER_BAN_EXPLAIN'			=> 'Um mehrere Benutzer auf einmal zu sperren, geben Sie jeden Namen in einer neuen Zeile ein. Benutzen Sie <span style="text-decoration: underline;">Nach einem Mitglied suchen</span>, um nach einem oder mehreren Benutzer(n) zu suchen und diese(n) der Liste hinzuzufügen.',
 	'USER_NO_BANNED'			=> 'Keine gesperrten Benutzernamen.',
-	'USER_UNBAN'				=> 'Benutzernamen entsperren oder Ausnahmen entfernen',
+	'USER_UNBAN'				=> 'Benutzer über Benutzernamen entsperren oder Ausnahmen entfernen',
 	'USER_UNBAN_EXPLAIN'		=> 'Sie können mehrere Benutzer gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem Sie mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markieren. Benutzernamen auf der Ausnahmeliste sind hervorgehoben.'
 ));
 
