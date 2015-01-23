@@ -1,6 +1,6 @@
-Deutsch (Du) für phpBB 3.0.11
+Deutsch (Du) für phpBB 3.0.13-RC1
 -----------------------------
-Stand: 2012-08-25
+Stand: 2014-01-23
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
