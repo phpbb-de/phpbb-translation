@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Anwesenheit im Board',
-	'USERS_PER_PAGE'		=> 'Nutzer pro Seite',
+	'USERS_PER_PAGE'		=> 'Benutzer pro Seite',
 
 	'VIEWING_PROFILE'		=> 'Profil von %s',
 	'VISITED'				=> 'Letzte Anmeldung',
