@@ -658,7 +658,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_USERS_ZERO'	=> 'Mitglieder insgesamt: <strong>0</strong>',
 	'TRACKED_PHP_ERROR'	=> 'Aufgefangene PHP-Fehler: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Die Größe des Bildes konnte nicht ermittelt werden. Bitte kontrollieren Sie, dass die eingegebene URL korrekt ist.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Die Größe des Bildes konnte nicht ermittelt werden. Bitte kontrollieren Sie, ob die eingegebene URL korrekt ist.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Die Datei kann nicht übertragen werden.',
 	'UNKNOWN_BROWSER'		=> 'Unbekannter Browser',
 	'UNMARK_ALL'			=> 'Alle Markierungen entfernen',
