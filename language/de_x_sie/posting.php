@@ -181,6 +181,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Es können maximal %1$d Zitate ineinander verschachtelt werden.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Diese Datei konnte nicht hochgeladen werden, da die Anfrage zu lange gedauert hat.',
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
 	'SAVE_DRAFT'				=> 'Entwurf speichern',
@@ -222,7 +223,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sDen Beitrag anzeigen%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sIhre Private Nachricht anzeigen%s',
 
-	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Die Datei ist zu groß. Die maximal erlaubte Dateigröße ist %1$d %2$s.',
 	'WRONG_SIZE'				=> 'Das Bild muss zwischen %1$d und %3$d Pixel breit sowie zwischen %2$d und %4$d Pixel hoch sein. Das angegebene Bild ist %5$d Pixel breit und %6$d Pixel hoch.',
 ));
 

@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Nachrichten im zu löschenden Ordner verschieben nach',
 	'MOVE_DOWN'						=> 'Nach unten',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Markierte verschieben nach %s',
-	'MOVE_PM_ERROR'					=> 'Beim Verschieben deiner Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurden nur %1$d von %2$d Nachrichten verschoben.',
+	'MOVE_PM_ERROR'					=> 'Beim Verschieben deiner Nachrichten in den neuen Ordner ist ein Fehler aufgetreten. Es wurden nur %1$d von %2$d Nachrichten verschoben.', 
 	'MOVE_TO_FOLDER'				=> 'In Ordner verschieben',
 	'MOVE_UP'						=> 'Nach oben',
 
