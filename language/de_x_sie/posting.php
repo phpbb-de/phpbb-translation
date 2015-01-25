@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Es können maximal %1$d Zitate ineinander verschachtelt werden.',
 
-	'REMOTE_UPLOAD_TIMEOUT'		=> 'Diese Datei konnte nicht hochgeladen werden, da die Anfrage zu lange dauerte.',
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Diese Datei konnte nicht hochgeladen werden, da die Anfrage zu lange gedauert hat.',
 	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
 	'SAVE_DRAFT'				=> 'Entwurf speichern',
