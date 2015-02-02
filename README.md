@@ -1,6 +1,6 @@
-Deutsche Sprachdateien für phpBB 3.1.3-RC1
+Deutsche Sprachdateien für phpBB 3.1.3
 --------------------------------------
-Stand: 2015-01-28
+Stand: 2015-02-02
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
