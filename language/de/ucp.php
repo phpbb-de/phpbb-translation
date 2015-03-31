@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globale Bekanntmachung',
 
 	'HIDE_ONLINE'				=> 'Verberge meinen Online-Status',
-	'HIDE_ONLINE_EXPLAIN'		=> 'Wenn Du diese Einstellung änderst, wird Sie erst bei deinem nächsten Besuch des Boards aktiv.',
+	'HIDE_ONLINE_EXPLAIN'		=> 'Wenn Du diese Einstellung änderst, wird sie erst bei deinem nächsten Besuch des Boards aktiv.',
 	'HOLD_NEW_MESSAGES'			=> 'Akzeptiere keine neuen Nachrichten (Neue Nachrichten werden zurückgehalten, bis ausreichend Speicherplatz vorhanden ist)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Neue Nachrichten werden zurückgehalten',
 
