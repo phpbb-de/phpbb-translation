@@ -1,6 +1,6 @@
-Deutsch (Du) für phpBB 3.0.13-PL1
+Deutsch (Du) für phpBB 3.0.14
 ---------------------------------
-Stand: 2015-01-31
+Stand: 2015-05-04
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
