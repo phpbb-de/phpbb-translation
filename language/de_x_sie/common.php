@@ -319,7 +319,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d unsichtbare Mitglieder',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
-		1	=> '%d unsichtbares',
+		1	=> '%d unsichtbarer',
 		2	=> '%d unsichtbare',
 	),
 	'HIDE_GUESTS'					=> 'Gäste ausblenden',
