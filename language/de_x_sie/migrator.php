@@ -54,6 +54,13 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_VALID'				=> '%s ist keine gültige Migration.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Installiertes Schema: %1$s; Dauer: %2$.2f Sekunden',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Installiere Schema: %s.',
+	
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Eine Migration ist ungültig. Einem "if statement helper" fehlt eine Bedingung.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Eine Migration ist ungültig. Einem "if statement helper" fehlt ein gültiger Aufruf eines Migrationsschritts.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Eine Migration ist ungültig. Eine angepasste aufrufbare Funktion konnte nicht aufgerufen werden.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Eine Migration ist ungültig. Ein unbekannter Migrationstool-Typ wurde gefunden.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Eine Migration ist ungültig. Ein undefiniertes Migrationstool wurde gefunden.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Eine Migration ist ungültig. Eine undefinierte Migrationstool-Methode wurde gefunden.',
 
 	'MODULE_ERROR'						=> 'Bei der Erstellung eines Moduls ist ein Fehler aufgetreten: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Eine erforderliche Informationsdatei für ein Modul existiert nicht: %2$s',
