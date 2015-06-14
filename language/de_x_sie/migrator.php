@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Eine Migration ist ungültig. Einer Hilfsfunktion für bedingte Anweisungen fehlt eine Bedingung. („An if statement helper is missing a condition.“)',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Eine Migration ist ungültig. Einer Hilfsfunktion für bedingte Anweisungen fehlt ein gültiger Aufruf eines Migrationsschritts. („An if statement helper is missing a valid call to a migration step.“)',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Eine Migration ist ungültig. Eine angepasste aufrufbare Funktion konnte nicht aufgerufen werden. („A custom callable function could not be called.“)',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Eine Migration ist ungültig. Der Aufruf einer angepassten Funktion ist gescheitert. („A custom callable function could not be called.“)',
 	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Eine Migration ist ungültig. Ein unbekannter Migrationstool-Typ wurde gefunden. („An unknown migration tool type was encountered.“)',
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Eine Migration ist ungültig. Ein undefiniertes Migrationstool wurde gefunden. („An undefined migration tool was encountered.“)',
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Eine Migration ist ungültig. Eine undefinierte Migrationstool-Methode wurde gefunden. („An undefined migration tool method was encountered.“)',
