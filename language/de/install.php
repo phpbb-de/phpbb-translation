@@ -169,7 +169,7 @@ $lang = array_merge($lang, array(
 	'FILES_OPTIONAL'			=> 'Optionale Dateien und Verzeichnisse',
 	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Optional</strong> — Diese Dateien, Verzeichnisse oder Rechte-Einstellungen sind keine Voraussetzung für die Installation. Das Installationssystem wird versuchen, diese auf verschiedene Weisen zu erstellen, falls sie nicht existieren oder nicht beschreibbar sind. Wenn sie vorhanden und beschreibbar sind, wird allerdings die Installation vereinfacht.',
 	'FILES_REQUIRED'			=> 'Dateien und Verzeichnisse',
-	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Voraussetzung</strong> — phpBB muss auf diverse Dateien und Verzeichnisse zugreifen oder diese beschreiben können, um reibungslos zu funktionieren. Wenn „Nicht gefunden“ angezeigt wird, musst du die entsprechende Datei oder das Verzeichnis erstellen. Wenn „Nicht beschreibbar“ angezeigt wird, musst du die Befugnisse für die Datei oder das Verzeichnis so ändern, dass phpBB darauf schreiben kann.',
+	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Voraussetzung</strong> — phpBB muss auf diverse Dateien und Verzeichnisse zugreifen oder diese beschreiben können, um reibungslos zu funktionieren. Wenn „Nicht gefunden“ angezeigt wird, musst du die entsprechende Datei oder das Verzeichnis erstellen. Wenn „Nicht beschreibbar“ angezeigt wird, musst du die Berechtigungen für die Datei oder das Verzeichnis so ändern, dass phpBB darauf schreiben kann.',
 	'FILLING_TABLE'				=> 'Fülle Tabelle <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Fülle Tabellen',
 
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_LOGIN'				=> 'Anmelden',
 	'INSTALL_NEXT'				=> 'Nächster Schritt',
 	'INSTALL_NEXT_FAIL'			=> 'Einige Tests sind fehlgeschlagen. Du solltest diese Probleme zuerst korrigieren, bevor du mit dem nächsten Schritt weiter machst. Wenn du dies unterlässt, könnte dies zu einer unvollständigen Installation führen.',
-	'INSTALL_NEXT_PASS'			=> 'Alle Voraussetzungen wurden erfolgreich geprüft und du kannst nun mit dem nächsten Schritt der Installation weitermachen. Solltest du Befugnisse, Module o.&nbsp;ä. geändert haben und einen erneuten Testdurchlauf wünschen, so kannst du den Test wiederholen.',
+	'INSTALL_NEXT_PASS'			=> 'Alle Voraussetzungen wurden erfolgreich geprüft und du kannst nun mit dem nächsten Schritt der Installation weitermachen. Solltest du Berechtigungen, Module o.&nbsp;ä. geändert haben und einen erneuten Testdurchlauf wünschen, so kannst du den Test wiederholen.',
 	'INSTALL_PANEL'				=> 'Installations-Routine',
 	'INSTALL_SEND_CONFIG'		=> 'phpBB konnte leider die Konfiguration nicht direkt in die config.php schreiben. Dies kann daran liegen, dass die Datei entweder nicht existiert oder nicht beschreibbar ist. Dir werden unten einige Möglichkeiten angeboten, wie du die Installation bezüglich der config.php abschließen kannst.',
 	'INSTALL_START'				=> 'Installation starten',
