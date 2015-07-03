@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Alle Benachrichtigungen als gelesen markieren',
 	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Sind Sie sich sicher, dass Sie alle Benachrichtigungen als gelesen markieren möchten?',
-	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Alle Benachrichtiungen wurden als gelesen markiert.',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'Alle Benachrichtigungen wurden als gelesen markiert.',
 	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Weitere Benachrichtigungen',
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Benachrichtigungen für Moderatoren',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Benachrichtigungen für Administratoren',
