@@ -86,4 +86,6 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'Verwendet von (inklusive Spiders/Robots)',
 
 	'UNINSTALL_DEFAULT'		=> 'Der Standard-Style kann nicht deinstalliert werden.',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Styledatenbank durchsuchen',
 ));
