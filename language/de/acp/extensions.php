@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INSTALL_HEADLINE'=> 'Eine Erweiterung installieren',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Lade die Erweiterung aus der phpBB-Erweiterungsdatenbank herunter</li>
-			<li>Entpacke die Erweiterung und lade sie in das <samp>ext/</samp>-Verzeichnis deiner phpBB-Installation hoch.</li>
+			<li>Entpacke die Erweiterung und lade sie in das <samp>ext/</samp>-Verzeichnis deiner phpBB-Installation hoch</li>
 			<li>Aktiviere die Erweiterung in der Erweiterungs-Verwaltung</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Eine Erweiterung aktualisieren',
