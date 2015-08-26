@@ -73,9 +73,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_OPTIONS'			=> 'Optionen',
 	'EXTENSION_INSTALL_HEADLINE'=> 'Eine Erweiterung installieren',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
-			<li>Lade die Erweiterung aus der phpBB Erweiterungsdatenbank herunter</li>
-			<li>Entpacke die Erweiterung und lade sie in das <samp>ext/</samp> Verzeichnis deines phpBB Boards hoch.</li>
-			<li>Aktiviere die Erweiterung hier in der Erweiterungs-Verwaltung</li>
+			<li>Lade die Erweiterung aus der phpBB-Erweiterungsdatenbank herunter</li>
+			<li>Entpacke die Erweiterung und lade sie in das <samp>ext/</samp>-Verzeichnis deiner phpBB-Installation hoch.</li>
+			<li>Aktiviere die Erweiterung in der Erweiterungs-Verwaltung</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Eine Erweiterung aktualisieren',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'FORCE_UNSTABLE'					=> 'Immer auf instabile Entwicklungs-Versionen prüfen',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Einstellungen für Versions-Prüfung',
 
-	'BROWSE_EXTENSIONS_DATABASE'			=> 'Erweiterungsdatenbank durchsuchen',
+	'BROWSE_EXTENSIONS_DATABASE'			=> 'phpBB-Erweiterungsdatenbank durchsuchen',
 
 	'META_FIELD_NOT_SET'	=> 'Erforderliches Meta-Feld %s wurde nicht angegeben.',
 	'META_FIELD_INVALID'	=> 'Meta-Feld %s ist ungültig.',

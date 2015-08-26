@@ -77,5 +77,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Deinstallierte Sprachpakete',
 
-	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Sprachpaketdatenbank durchsuchen',
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'phpBB-Sprachpaket-Datenbank durchsuchen',
 ));
