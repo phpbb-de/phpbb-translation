@@ -413,8 +413,8 @@ $lang = array_merge($lang, array(
 	'WARNED_USERS'			=> 'Verwarnte Benutzer',
 	'WARNED_USERS_EXPLAIN'	=> 'Dies ist eine Liste von Benutzern, die noch nicht abgelaufene Verwarnungen erhalten haben.',
 	'WARNING_PM_BODY'		=> 'Ihnen wurde eine Verwarnung durch einen Administrator oder Moderator dieses Forums erteilt:[quote]%s[/quote]',
-	'WARNING_PM_SUBJECT'	=> 'Verwarnung erteilt.',
-	'WARNING_POST_DEFAULT'	=> 'Dies ist eine Verwarnung wegen dieses von Ihnen erstellten Beitrags: %s.',
+	'WARNING_PM_SUBJECT'	=> 'Verwarnung erhalten.',
+	'WARNING_POST_DEFAULT'	=> 'Diese Verwarnung wurde Ihnen wegen folgendem Beitrag erteilt: %s.',
 	'NO_WARNINGS'	=> 'Es existieren keine Verwarnungen.',
 
 	'YOU_SELECTED_TOPIC'	=> 'Sie haben das Thema mit der ID %d ausgewählt: %s.',
