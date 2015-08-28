@@ -87,5 +87,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALL_DEFAULT'		=> 'Der Standard-Style kann nicht deinstalliert werden.',
 
-	'BROWSE_STYLES_DATABASE'	=> 'phpBB-Style-Datenbank durchsuchen',
+	'BROWSE_STYLES_DATABASE'	=> 'phpBB-Style-Datenbank',
 ));

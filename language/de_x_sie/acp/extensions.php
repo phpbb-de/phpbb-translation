@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'FORCE_UNSTABLE'					=> 'Immer auf instabile Entwicklungs-Versionen prüfen',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Einstellungen für Versions-Prüfung',
 
-	'BROWSE_EXTENSIONS_DATABASE'			=> 'phpBB-Erweiterungsdatenbank durchsuchen',
+	'BROWSE_EXTENSIONS_DATABASE'			=> 'phpBB-Erweiterungsdatenbank',
 
 	'META_FIELD_NOT_SET'	=> 'Erforderliches Meta-Feld %s wurde nicht angegeben.',
 	'META_FIELD_INVALID'	=> 'Meta-Feld %s ist ungültig.',
