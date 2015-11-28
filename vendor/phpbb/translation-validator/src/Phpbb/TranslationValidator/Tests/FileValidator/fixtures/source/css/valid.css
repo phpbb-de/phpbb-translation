@@ -1,0 +1,11 @@
+﻿/* Icon images */
+.pm-icon, .pm-icon a				{ background-image: url("./icon_contact_pm.gif"); }
+.quote-icon, .quote-icon a		{ background-image: url("./icon_post_quote.gif"); }
+.edit-icon, .edit-icon a			{ background-image: url("./icon_post_edit.gif"); }
+
+/* EN Language Pack */
+.imageset.icon_contact_pm {
+	background-image: url("./icon_contact_pm.gif");
+	padding-left: 28px;
+	padding-top: 20px;
+}

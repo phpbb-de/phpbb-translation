@@ -1,0 +1,3 @@
+<?php
+
+$words = 'aber';
