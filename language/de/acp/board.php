@@ -102,6 +102,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Abonnieren von Themen erlauben',
 	'BOARD_PM'					=> 'Private Nachrichten',
 	'BOARD_PM_EXPLAIN'			=> 'Aktiviert Private Nachrichten für alle Benutzer.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Board-Benachrichtigungen erlauben',
 ));
 
 // Avatar Settings
@@ -561,6 +562,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Dieser Text wird an alle E-Mails angehängt, die das Board versendet.',
 	'ENABLE_EMAIL'					=> 'Aktiviere E-Mail-Funktionalität',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Wenn eine Bestätigung der Registrierung durch den Benutzer oder einen Adminstrator erforderlich sein soll, darf diese Option nicht deaktiviert sein. Ansonsten ist keine Registrierung möglich.</em>',
+	'SEND_TEST_EMAIL'				=> 'Test-Mail senden',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Sendet eine Test-Mail an die in deinem Benutzerkonto hinterlegte Adresse.',
 	'SMTP_AUTH_METHOD'				=> 'Authentifizierungsmethode für SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Nur benötigt, wenn ein Benutzername/Passwort eingegeben ist. Frage deinen Webhosting-Provider, falls du nicht sicher bist, welche Methode du wählen sollst.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -576,6 +579,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-Einstellungen',
 	'SMTP_USERNAME'					=> 'SMTP-Benutzername',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Gib nur einen Benutzernamen ein, wenn dein SMTP-Server dies erfordert.',
+	'TEST_EMAIL_SENT'				=> 'Die Test-Mail wurde gesendet.<br />Falls du sie nicht erhalten solltest, prüfe bitte deine E-Mail-Konfiguration.<br /><br />Wenn du Unterstützung brauchst, besuche die <a href="https://www.phpbb.com/community/">phpBB-Support-Foren (englisch)</a> (<a href="https://www.phpbb.de/go/3.2/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
 	'USE_SMTP'						=> 'SMTP-Server für E-Mail nutzen',
 	'USE_SMTP_EXPLAIN'				=> 'Wähle „Ja“ aus, wenn du E-Mails über einen SMTP-Server senden möchtest (oder musst), anstatt die PHP-eigene Mail-Funktion zu nutzen.',
 ));
