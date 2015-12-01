@@ -51,10 +51,17 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Die Migration wurde bereits erfolgreich durchgeführt (übersprungen): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Während der Anpassung der Datenbank ist etwas falsch gelaufen und ein Fehler aufgetreten. Die Änderungen, die vor dem Fehler durchgeführt wurden, wurden so weit wie möglich rückgängig gemacht. Sie sollten jedoch prüfen, ob Ihr Board fehlerfrei funktioniert.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Die Migration „%1$s“ kann nicht durchgeführt werden. Fehlender Migrations-Schritt: „%2$s“.',
+	'MIGRATION_NOT_INSTALLED'			=> 'Die Migration „%s“ ist nicht installiert.',
 	'MIGRATION_NOT_VALID'				=> '%s ist keine gültige Migration.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Installiertes Schema: %1$s; Dauer: %2$.2f Sekunden',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Installiere Schema: %s.',
-	
+
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Wiederhergestellte Daten: %1$s; Dauer: %2$.2f Sekunden',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Stelle Daten wieder her: %1$s; Dauer: %2$.2f Sekunden',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Stelle Daten wieder her: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Wiederhergestelltes Schema: %1$s; Dauer: %2$.2f Sekunden',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Stelle Schema wieder her: %s.',
+
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Eine Migration ist ungültig. Einer Hilfsfunktion für bedingte Anweisungen fehlt eine Bedingung. („An if statement helper is missing a condition.“)',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Eine Migration ist ungültig. Einer Hilfsfunktion für bedingte Anweisungen fehlt ein gültiger Aufruf eines Migrationsschritts. („An if statement helper is missing a valid call to a migration step.“)',
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Eine Migration ist ungültig. Der Aufruf einer benutzerdefinierten Rückruffunktion ist gescheitert. („A custom callable function could not be called.“)',

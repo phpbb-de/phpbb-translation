@@ -368,6 +368,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Benachrichtigungen für Moderatoren',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Benachrichtigungen für Administratoren',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Benachrichtigungen zu Beiträgen',
+	'NOTIFICATION_METHOD_BOARD'							=> 'Benachrichtigung',
 	'NOTIFICATION_METHOD_EMAIL'							=> 'E-Mail',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Benachrichtigungs-Typ',
