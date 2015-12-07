@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
 	'DB_NAME'				=> 'Name der Datenbank',
 	'DB_USERNAME'			=> 'Datenbank-Benutzername',
 	'TABLE_PREFIX'			=> 'Präfix der Tabellen in der Datenbank',
-	'TABLE_PREFIX_EXPLAIN'	=> 'Der Tabellen-Präfix muss mit einem Buchstaben beginnen und darf nur Buchstaben, Ziffern und Unterstriche enthalten.',
+	'TABLE_PREFIX_EXPLAIN'	=> 'Das Tabellen-Präfix muss mit einem Buchstaben beginnen und darf nur Buchstaben, Ziffern und Unterstriche enthalten.',
 
 	// Database options
 	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 
 	// Install finish tasks
 	'TASK_NOTIFY_USER'			=> 'Sende Benachrichtigungs-Mail',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Rolle Migrationen aus', // TODO: passende Übersetzung
+	'TASK_POPULATE_MIGRATIONS'	=> 'Führe Migrationen durch',
 
 	// Installer general progress messages
 	'INSTALLER_FINISHED'	=> 'Die Installations-Routine wurde erfolgreich beendet',
@@ -294,16 +294,16 @@ $lang = array_merge($lang, array(
 // Installer's general messages
 $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Modul nicht gefunden',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Ein Modul konnte nicht gefunden werden, da der Service „%s“ nicht definiert ist.',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Ein Modul konnte nicht gefunden werden, da der Dienst „%s“ nicht definiert ist.',
 
-	'TASK_NOT_FOUND'				=> 'Vorgang nicht gefunden',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Ein Vorgang konnte nicht gefunden werden, da der Service „%s“ nicht definiert ist.',
+	'TASK_NOT_FOUND'				=> 'Aufgabe nicht gefunden',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Ein Aufgabe konnte nicht gefunden werden, da der Dienst „%s“ nicht definiert ist.',
 
-	'SKIP_MODULE'	=> 'Überspringe „%s“-Modul',
-	'SKIP_TASK'		=> 'Überspringe „%s“-Vorgang',
+	'SKIP_MODULE'	=> 'Überspringe Modul „%s“',
+	'SKIP_TASK'		=> 'Überspringe Aufgabe „%s“',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Alle Tasks für die Installations-Routine sollen mit „installer“ beginnen',
-	'TASK_CLASS_NOT_FOUND'				=> 'Die Defininition eines Vorgangs für die Installations-Routine ist ungültig. Der Name des Service ist „%1$s“, der erwartete Namensraum der Klasse „%2$s“. Weitere Informationen können in der Dokumentation von „task_interface“ gefunden werden.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Alle Aufgaben für die Installations-Routine sollen mit „installer“ beginnen',
+	'TASK_CLASS_NOT_FOUND'				=> 'Die Defininition einer Aufgabe für die Installations-Routine ist ungültig. Der Name des Dienstes ist „%1$s“, der erwartete Namensraum der Klasse „%2$s“. Weitere Informationen können in der Dokumentation von „task_interface“ gefunden werden.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Die Konfigurationsdatei für die Installations-Routine ist nicht beschreibbar.',
 ));
@@ -362,7 +362,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_CHECK_FILES'	=> 'Prüfe Dateien',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Der Dateivergleich konnte die Datei %s nicht öffnen.',
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Die Datei %s konnte nicht für den Dateivergleich geöffnet werden.',
 
 	'UPDATE_FILE_DIFF'		=> 'Vergleiche geänderte Dateien',
 	'ALL_FILES_DIFFED'		=> 'Alle geänderten Dateien wurden verglichen.',
