@@ -69,14 +69,14 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Komandozeile starten.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Löscht die angegebene Erweiterung.',
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Listet die Arten von Texten auf, die neu analysiert werden können.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Analysiert gespeicherte Texte mit dem aktuellen text_formatter-Service neu.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Text-Art die neu analysiert werden soll. Leer lassen, um alles neu zu analysieren',
+	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Listet die Arten von Texten auf, die neu verarbeitet werden können.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Verarbeitet gespeicherte Texte mit dem aktuellen text_formatter-Dienst neu.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Text-Art die neu verarbeitet werden soll. Leer lassen, um alles neu zu verarbeiten.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Keine Änderungen speichern; nur ausgeben, was passieren würde',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Niedrigste Eintrags-ID, die verarbeitet wird',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Höchste Eintrags-ID, die verarbeitet wird',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschätzte Zahl von Einträgen, die in einem Durchgang verarbeitet werden',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Startet die Analyse dort, wo die letzte Ausführung endete',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Startet die Verarbeitung dort, wo die letzte Ausführung endete',
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Berechnet die Einträge im Feld user_email_hash der Benutzer-Tabelle neu.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Legt den Wert für eine Konfigurations-Einstellung fest, wenn die derzeitige Einstellung dem angegebenen Vergleichswert entspricht',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Legt den Wert für eine Konfigurations-Einstellung fest',
@@ -105,9 +105,9 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Nur installierte Migrationen anzeigen',
 	'CLI_MIGRATIONS_EMPTY'                  => 'Keine Migrationen.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Analysiere %1$s (Bereich %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Analysiere %s...',
-	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Analyse erfolgreich abgeschlossen',
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Verarbeite %1$s (Bereich %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Verarbeite %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Verarbeitung erfolgreich abgeschlossen',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
