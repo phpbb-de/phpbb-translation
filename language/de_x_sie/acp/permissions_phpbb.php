@@ -160,7 +160,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_M_INFO'		=> 'Kann Beitrags-Details ansehen',
 	'ACL_M_WARN'		=> 'Kann Verwarnungen erteilen<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Kann Meldungen zu privaten Nachrichten schließen und löschen<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Kann Meldungen zu Privaten Nachrichten schließen und löschen<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'		=> 'Kann Sperren verwalten<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
 ));
 
