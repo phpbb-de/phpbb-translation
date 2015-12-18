@@ -337,6 +337,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Der Grafikdateityp %d wird für den MIME-Typ %s nicht unterstützt.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Fehlerhafter Grafikdateityp: Dateiendung %1$s erwartet, aber Endung %2$s erhalten.',
 	'IN'						=> 'in',
+	'INACTIVE'					=> 'Inaktiv',
 	'INDEX'						=> 'Foren-Übersicht',
 	'INFORMATION'				=> 'Information',
 	'INSECURE_REDIRECT'			=> 'Es wurde versucht, zu einer möglicherweise unsicheren URL weiterzuleiten.',
@@ -479,7 +480,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Themenfreigabe verweigert</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Themenfreigabe</strong> angefordert von %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Die notwendige Datei für die Benachrichtigungs-Art „%s“ ist nicht vorhanden.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Benutzerfreigabe erforderlich</strong> für kürzlich registrierten Benutzer: „%1$s“',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Benutzerfreigabe erforderlich</strong> für deaktivierten oder kürzlich registrierten Benutzer: „%1$s“',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'viele weitere Mitglieder',
 	'NOTIFICATION_X_OTHERS'				=> array(
