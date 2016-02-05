@@ -84,6 +84,9 @@ $lang = array_merge($lang, array(
 	<p>Es werden nur die Datenbank-Typen zur Auswahl angeboten, die dein Server unterstützt.',
 
 	'ACP_LINK'	=> '<a href="%1$s">Zum Administrations-Bereich</a>',
+
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB ist bereits installiert.',
++	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ist nicht installiert.'
 ));
 
 // Requirements translation
@@ -314,6 +317,9 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Zeige die Konfigurationsdatei, die verwendet wird',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validiere eine Konfigurationsdatei',
 	'CLI_CONFIG_FILE'				=> 'Zu verwendende Konfigurationsdatei',
+	'MISSING_FILE'					=> 'Auf die Datei %1$s kann nicht zugegriffen werden',
+	'MISSING_DATA'					=> 'Der Konfigurationsdatei fehlen Einträge oder enthält ungültige Einstellungen.',
+	'INVALID_YAML_FILE'				=> 'Die YAML-Datei %1$s konnte nicht verarbeitet werden',
 ));
 
 // Common updater messages

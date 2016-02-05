@@ -233,6 +233,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'Cron-Job „%s“ konnte nicht gefunden werden.',
 	'CRON_NO_TASK'			=> 'Momentan muss kein Cron-Job ausgeführt werden.',
 	'CRON_NO_TASKS'			=> 'Es konnten keine Cron-Jobs gefunden werden.',
+	'CURRENT_VERSION'		=> 'Aktuelle Version',
 
 	'DEACTIVATE'				=> 'Deaktivieren',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Der angegebene Pfad „%s“ existiert nicht.',
@@ -258,6 +259,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Benutzer-IP',
 	'IP_HOSTNAME'			=> 'IP-Adressen oder Host-Namen',
 
+	'LATEST_VERSION'		=> 'Neueste Version',
 	'LOAD_NOTIFICATIONS'			=> 'Benachrichtigungen anzeigen',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Zeigt die Liste der Benachrichtigungen auf jeder Seite an (üblicherweise in der Kopfzeile).',
 	'LOGGED_IN_AS'			=> 'Du bist angemeldet als:',
@@ -290,7 +292,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Du hast die Berechtigungen von %1$s übernommen. Du kannst das Board mit den Rechten dieses Benutzers testen; du kannst jedoch nicht den Administrations-Bereich benutzen, da Administrations-Rechte nicht übernommen werden. Du kannst jederzeit <a href="%2$s"><strong>zu deinen Berechtigungen zurückkehren</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sZum Administrations-Bereich%s',
 
+	'RELEASE_ANNOUNCEMENT'				=> 'Ankündigung',
 	'REMIND'							=> 'Erinnern',
+	'REPARSE_LOCK_ERROR'				=> 'Die Verarbeitung wird bereits durch einen anderen Prozess ausgeführt.',
 	'RESYNC'							=> 'Synchronisieren',
 
 	'RUNNING_TASK'			=> 'Laufende Jobs: %s.',
@@ -422,6 +426,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Wert',
 	'VERSIONCHECK_FAIL'			=> 'Die Informationen über die aktuelle Version konnten nicht abgerufen werden.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Version erneut prüfen',
+	'VERSION_CHECK'				=> 'Versionsprüfung',
+	'VERSION_CHECK_EXPLAIN'		=> 'Prüft ob deine phpBB-Installation aktuell ist.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Deine phpBB-Installation ist nicht aktuell.<br />Unterhalb ist ein Link zur Release-Ankündigung, die zusätzliche Informationen und Anweisung für die Aktualisierung enthält.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Deine phpBB-Installation ist nicht aktuell.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Deine phpBB-Installation ist aktuell. Zurzeit sind keine Updates verfügbar.',
 	'VIEW_ADMIN_LOG'			=> 'Administrations-Protokoll anzeigen',
 	'VIEW_INACTIVE_USERS'		=> 'Inaktive Benutzer anzeigen',
 
