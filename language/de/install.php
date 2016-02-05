@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> '<a href="%1$s">Zum Administrations-Bereich</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB ist bereits installiert.',
-+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ist nicht installiert.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ist nicht installiert.'
 ));
 
 // Requirements translation
