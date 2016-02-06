@@ -292,9 +292,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Sie haben die Berechtigungen von %1$s übernommen. Sie können das Board mit den Rechten dieses Benutzers testen; Sie können jedoch nicht den Administrations-Bereich benutzen, da Administrations-Rechte nicht übernommen werden. Sie können jederzeit <a href="%2$s"><strong>zu Ihren Berechtigungen zurückkehren</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sZum Administrations-Bereich%s',
 
-	'RELEASE_ANNOUNCEMENT'				=> 'Ankündigung',
+	'RELEASE_ANNOUNCEMENT'				=> 'Bekanntmachung',
 	'REMIND'							=> 'Erinnern',
-	'REPARSE_LOCK_ERROR'				=> 'Die Verarbeitung wird bereits durch einen anderen Prozess ausgeführt.',
+	'REPARSE_LOCK_ERROR'				=> 'Ein anderer Prozess ist bereits mit der Verarbeitung beschäftigt.',
 	'RESYNC'							=> 'Synchronisieren',
 
 	'RUNNING_TASK'			=> 'Laufende Jobs: %s.',
@@ -427,8 +427,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FAIL'			=> 'Die Informationen über die aktuelle Version konnten nicht abgerufen werden.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Version erneut prüfen',
 	'VERSION_CHECK'				=> 'Versionsprüfung',
-	'VERSION_CHECK_EXPLAIN'		=> 'Prüft ob Ihre phpBB-Installation aktuell ist.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Ihre phpBB-Installation ist nicht aktuell.<br />Unterhalb ist ein Link zur Release-Ankündigung, die zusätzliche Informationen und Anweisung für die Aktualisierung enthält.',
+	'VERSION_CHECK_EXPLAIN'		=> 'Prüft, ob die phpBB-Installation aktuell ist.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Ihre phpBB-Installation ist nicht aktuell.<br />Unten ist ein Link zur Release-Bekanntmachung, die zusätzliche Informationen und Anweisung für die Aktualisierung enthält.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Ihre phpBB-Installation ist nicht aktuell.',
 	'VERSION_UP_TO_DATE_ACP'	=> 'Ihre phpBB-Installation ist aktuell. Zurzeit sind keine Updates verfügbar.',
 	'VIEW_ADMIN_LOG'			=> 'Administrations-Protokoll anzeigen',

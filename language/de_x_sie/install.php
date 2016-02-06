@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> '<a href="%1$s">Zum Administrations-Bereich</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB ist bereits installiert.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ist nicht installiert.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ist noch nicht installiert.'
 ));
 
 // Requirements translation
@@ -318,7 +318,7 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validiere eine Konfigurationsdatei',
 	'CLI_CONFIG_FILE'				=> 'Zu verwendende Konfigurationsdatei',
 	'MISSING_FILE'					=> 'Auf die Datei %1$s kann nicht zugegriffen werden',
-	'MISSING_DATA'					=> 'Der Konfigurationsdatei fehlen Einträge oder enthält ungültige Einstellungen.',
+	'MISSING_DATA'					=> 'Die Konfigurationsdatei enthält ungültige Einstellungen oder ihr fehlen Einträge.',
 	'INVALID_YAML_FILE'				=> 'Die YAML-Datei %1$s konnte nicht verarbeitet werden',
 ));
 
