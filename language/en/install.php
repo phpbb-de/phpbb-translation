@@ -82,6 +82,9 @@ $lang = array_merge($lang, array(
 	<p>Only those databases supported on your server will be displayed.',
 
 	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.'
 ));
 
 // Requirements translation
@@ -312,6 +315,9 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file',
 	'CLI_CONFIG_FILE'				=> 'Config file to use',
+	'MISSING_FILE'					=> 'Unable to access file %1$s',
+	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.',
+	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s',
 ));
 
 // Common updater messages
