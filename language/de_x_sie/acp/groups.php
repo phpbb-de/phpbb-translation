@@ -133,6 +133,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'			=> 'Es wurden keine Benutzer der Gruppe hinzugefügt.',
 	'NO_VALID_USERS'			=> 'Sie haben keine Benutzer angegeben, für die dieser Vorgang möglich wäre.',
 
+	'PENDING_MEMBERS'			=> 'Wartend',
+
 	'SELECT_GROUP'				=> 'Gruppe auswählen',
 	'SPECIAL_GROUPS'			=> 'Systemgruppen',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Systemgruppen sind spezielle Gruppen, die nicht gelöscht oder bearbeitet werden können. Allerdings können Sie Benutzer hinzufügen und Grundeinstellungen ändern.',
