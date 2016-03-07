@@ -326,6 +326,30 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Update der phpBB-Installation',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Mit dieser Option kannst du deine phpBB-Version auf den neuesten Stand bringen.<br />Während dieses Prozesses wird die Integrität aller deiner Dateien überprüft. Du hast die Möglichkeit, alle Dateiunterschiede vor dem Update zu überprüfen.<br /><br />Die Dateiaktualisierung an sich kann auf zwei Wegen erfolgen:</p><h2>Manuelle Aktualisierung</h2><p>Bei dieser Methode lädst du nur die von dir geänderten Dateien herunter, damit du sichergehen kannst, dass die von dir durchgeführten Dateiänderungen nicht verloren gehen. Nach dem Herunterladen dieses Archivs musst du die Dateien in die entsprechenden Verzeichnisse deiner phpBB-Installation hochladen. Nachdem du das getan hast, kannst du die Dateiüberprüfung erneut ausführen, um zu sehen, ob du alle Dateien korrekt hochgeladen hast.</p><h2>Automatische Aktualisierung über FTP</h2><p>Diese Methode ist der ersten sehr ähnlich, mit dem Unterschied, dass du die veränderten Dateien nicht herunter- und anschließend von Hand wieder hochladen musst. Dies wird automatisch erledigt. Um diese Methode nutzen zu können, musst du deine FTP-Anmeldedaten kennen, da sie abgefragt werden. Nach der Fertigstellung wird auch hier eine Integritätsprüfung der Dateien ausgeführt.<br /><br />',
+	'UPDATE_INSTRUCTIONS'			=> '
+
+		<h1>Release-Bekanntmachung</h1>
+
+		<p>Bitte lies die Release-Bekanntmachung (release announcement) der aktuellsten Version, bevor du den Update-Prozess beginnst — sie enthält wichtige Informationen. Außerdem enthält sie die Links zum Download der Installationspakete sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
+
+		<br />
+
+		<h1>Wie du ein Update deiner Installation mit dem „Automatischen-Update-Paket“ durchführst</h1>
+
+		<p>Dieser empfohlene Weg zum Update deiner Installation gilt nur für das „Automatische-Update-Paket“ („automatic update package“). Du kannst deine Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum automatischen Update von phpBB musst du folgende Schritte ausführen:</p>
+
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Gehe zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und lade das entsprechende „Automatische-Update-Paket“ herunter (<a href="https://www.phpbb.de/go/3.1/downloads">deutschsprachige Downloadseite</a>).<br /><br /></li>
+			<li>Entpacke das Archiv.<br /><br /></li>
+			<li>Lade die entpackten Verzeichnisse „install“ und „vendor“ vollständig in dein phpBB-Hauptverzeichnis (dort, wo die config.php ist).<br /><br /></li>
+		</ul>
+
+		<p>Nach dem Upload wird das Forum vorübergehend für normale Benutzer nicht zugänglich sein, da das von dir hochgeladene Installations-Verzeichnis vorhanden ist.<br /><br />
+		<strong><a href="%1$s" title="%1$s">Starte nun den Update-Prozess, indem du in deinem Webbrowser die Adresse zum Installationsverzeichnis angibst</a>.</strong><br />
+		<br />
+		Anschließend wirst du durch den Update-Prozess geführt. Du wirst benachrichtigt, sobald das Update abgeschlossen ist.
+		</p>
+	',
 ));
 
 // Updater forms
@@ -416,4 +440,113 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Datenbank aktualisieren',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Die Datenbank wurde erfolgreich aktualisiert',
+));
+
+// Converter
+$lang = array_merge($lang, array(
+	// Common converter messages
+	'CONVERT_NOT_EXIST'			=> 'Der angegebene Konverter existiert nicht.',
+	'DEV_NO_TEST_FILE'			=> 'Für die test_file-Variable im Konverter wurde kein Wert angegeben. Falls du ein Nutzer dieses Konverters bist, solltest du diesen Fehler nicht sehen. Bitte melde diese Nachricht an die Autoren des Konverters. Falls du ein Konverter-Autor bist, musst du den Namen einer im Quell-Board existierenden Datei angeben, damit der Pfad dorthin verifiziert werden kann.',
+	'COULD_NOT_FIND_PATH'		=> 'Der Pfad zu deinem alten Board konnte nicht gefunden werden. Bitte prüfe deine Einstellungen und versuche es erneut.<br />» Der angegebene Quell-Pfad war: %s',
+	'CONFIG_PHPBB_EMPTY'		=> 'Die phpBB3-Konfigurationsvariable für „%s“ ist leer.',
+
+	'MAKE_FOLDER_WRITABLE'		=> 'Bitte stelle sicher, dass dieser Ordner existiert und durch den Webserver beschreibbar ist. Versuche es dann erneut:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Bitte stelle sicher, dass diese Ordner existieren und durch den Webserver beschreibbar sind. Versuche es dann erneut:<br />»<strong>%s</strong>.',
+
+	'INSTALL_TEST'				=> 'Erneut prüfen',
+
+	'NO_TABLES_FOUND'			=> 'Keine Tabellen gefunden.',
+	'TABLES_MISSING'			=> 'Kann diese Tabellen nicht finden<br />» <strong>%s</strong>.',
+	'CHECK_TABLE_PREFIX'		=> 'Bitte prüfe dein Tabellen-Präfix und versuche es erneut.',
+
+	// Conversion in progress
+	'CONTINUE_CONVERT'			=> 'Konvertierung fortsetzen',
+	'CONTINUE_CONVERT_BODY'		=> 'Ein bereits gestarteter Konvertierungs-Versuch wurde gefunden. Du kannst auswählen, ob du ihn fortsetzen oder einen neuen starten möchtest.',
+	'CONVERT_NEW_CONVERSION'	=> 'Neue Konvertierung',
+	'CONTINUE_OLD_CONVERSION'	=> 'Bereits gestartete Konvertierung fortsetzen',
+
+	// Start conversion
+	'SUB_INTRO'					=> 'Einführung',
+	'CONVERT_INTRO'				=> 'Willkommen beim phpBB-Konvertierungs-System',
+	'CONVERT_INTRO_BODY'		=> 'Von hier aus kannst du Daten aus anderen (installierten) Boards importieren. Die unten stehende Liste zeigt alle verfügbaren Konverter-Module. Falls in dieser Liste kein Konverter für die Board-Software, von der aus du konvertieren möchtest, enthalten ist, schaue bitte auf unserer Website nach, wo möglicherweise weitere Konvertierungs-Module verfügbar sind.',
+	'AVAILABLE_CONVERTORS'		=> 'Verfügbare Konverter',
+	'NO_CONVERTORS'				=> 'Es stehen keine Konverter zur Verfügung.',
+	'CONVERT_OPTIONS'			=> 'Optionen',
+	'SOFTWARE'					=> 'Board-Software',
+	'VERSION'					=> 'Version',
+	'CONVERT'					=> 'Konvertieren',
+
+	// Settings
+	'STAGE_SETTINGS'			=> 'Einstellungen',
+	'TABLE_PREFIX_SAME'			=> 'Das Tabellen-Präfix muss mit dem übereinstimmen, das von der Software, von der aus du konvertieren möchtest, genutzt wird.<br />» Das angegebene Tabellen-Präfix lautete %s.',
+	'DEFAULT_PREFIX_IS'			=> 'Der Konverter konnte keine Tabellen mit dem angegebenen Präfix finden. Bitte stelle sicher, dass du die richtigen Daten des Boards angegeben hast, von dem aus du konvertieren möchtest. Der standardmäßige Tabellenpräfix für %1$s ist <strong>%2$s</strong>.',
+	'SPECIFY_OPTIONS'			=> 'Konvertierungs-Optionen festlegen',
+	'FORUM_PATH'				=> 'Board-Pfad',
+	'FORUM_PATH_EXPLAIN'		=> 'Dies ist der <strong>relative</strong> Pfad im Dateisystem zu deinem alten Board vom <strong>Hauptverzeichnis dieser neuen phpBB-Installation</strong> aus.',
+	'REFRESH_PAGE'				=> 'Seite aktualisieren, um Konvertierung fortzusetzen',
+	'REFRESH_PAGE_EXPLAIN'		=> 'Wenn auf Ja gesetzt, wird der Konverter die Seite aktualisieren, wenn er einen Schritt abgeschlossen hat. Wenn dies deine erste Konvertierung zu Testzwecken und um Fehler im Vorfeld festzustellen ist, empfehlen wir, dies auf Nein zu stellen.',
+
+	// Conversion
+	'STAGE_IN_PROGRESS'			=> 'Konvertierung wird durchgeführt',
+
+	'AUTHOR_NOTES'				=> 'Autoren-Anmerkungen<br />» %s',
+	'STARTING_CONVERT'			=> 'Starte Konvertierungsprozess',
+	'CONFIG_CONVERT'			=> 'Konvertiere die Konfiguration',
+	'DONE'						=> 'Erledigt',
+	'PREPROCESS_STEP'			=> 'Vorbereitende Funktionen/Abfragen werden ausgeführt.',
+	'FILLING_TABLE'				=> 'Fülle Tabelle <strong>%s</strong>',
+	'FILLING_TABLES'			=> 'Fülle Tabellen',
+	'DB_ERR_INSERT'				=> 'Fehler bei der Verarbeitung der <code>INSERT</code>-Anfrage.',
+	'DB_ERR_LAST'				=> 'Fehler bei der Verarbeitung von <var>query_last</var>.',
+	'DB_ERR_QUERY_FIRST'		=> 'Fehler bei der Ausführung von <var>query_first</var>.',
+	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Fehler bei der Ausführung von <var>query_first</var>, %s („%s“).',
+	'DB_ERR_SELECT'				=> 'Fehler beim Durchführen der <code>SELECT</code>-Anfrage.',
+	'STEP_PERCENT_COMPLETED'	=> 'Schritt <strong>%d</strong> von <strong>%d</strong>',
+	'FINAL_STEP'				=> 'Abschließenden Schritt ausführen',
+	'SYNC_FORUMS'				=> 'Beginne, die Foren zu synchronisieren',
+	'SYNC_POST_COUNT'			=> 'Synchronisiere post_counts',
+	'SYNC_POST_COUNT_ID'		=> 'Synchronisiere post_counts von <var>Eintrag</var> %1$s bis %2$s.',
+	'SYNC_TOPICS'				=> 'Beginne, die Themen zu synchronisieren',
+	'SYNC_TOPIC_ID'				=> 'Synchronisiere Themen von <var>topic_id</var> %1$s bis %2$s.',
+	'PROCESS_LAST'					=> 'Verarbeite abschließende Anweisungen',
+	'UPDATE_TOPICS_POSTED'		=> 'Ermittle Informationen über Themen mit eigenen Beiträgen',
+	'UPDATE_TOPICS_POSTED_ERR'	=> 'Während der Ermittlung der Informationen über Themen mit eigenen Beiträgen ist ein Fehler aufgetreten. Du kannst diesen Vorgang nach der Konvertierung im Administrations-Bereich erneut aufrufen.',
+	'CONTINUE_LAST'				=> 'Mit den abschließenden Anweisungen fortfahren',
+	'CLEAN_VERIFY'				=> 'Aufräumen und Prüfen der endgültigen Struktur',
+	'NOT_UNDERSTAND'			=> 'Kann %s #%d nicht verstehen, Tabelle %s („%s“)',
+	'NAMING_CONFLICT'			=> 'Namens-Konflikt: %s und %s sind beides Aliasse<br /><br />%s',
+
+	// Finish conversion
+	'CONVERT_COMPLETE'			=> 'Konvertierung abgeschlossen',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Dein Board wurde erfolgreich auf phpBB 3.2 konvertiert. Du kannst dich jetzt anmelden und <a href="../">dein Board betreten</a>. Bitte prüfe, ob alle Einstellungen richtig übernommen wurden, bevor du dein Board durch Löschen des „install“-Verzeichnisses freigibst. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3.1/dokumentation">deutsche Übersetzung</a>) und das <a href="https://www.phpbb.com/community/viewforum.php?f=466">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3.1/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
+
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Der FTP-Upload für Dateianhänge ist im alten Forum eingeschaltet. Bitte deaktiviere den FTP-Upload und stelle sicher, dass ein gültiges Upload-Verzeichnis angegeben ist. Kopiere dann alle Dateianhänge in dieses neue, aus dem Web zugängliche Verzeichnis. Sobald du dies getan hast, kannst du das Konvertierungsprogramm erneut aufrufen.',
+	'CONV_ERROR_CONFIG_EMPTY'			=> 'Es sind keine Konfigurationsinformationen für die Konvertierung verfügbar.',
+	'CONV_ERROR_FORUM_ACCESS'			=> 'Foren-Berechtigungen konnten nicht ausgelesen werden',
+	'CONV_ERROR_GET_CATEGORIES'			=> 'Kategorien konnten nicht ausgelesen werden',
+	'CONV_ERROR_GET_CONFIG'				=> 'Deine Boardkonfiguration konnte nicht ausgelesen werden.',
+	'CONV_ERROR_COULD_NOT_READ'			=> 'Konnte nicht auf „%s“ zugreifen / nicht lesen.',
+	'CONV_ERROR_GROUP_ACCESS'			=> 'Konnte Gruppen-Berechtigungen nicht auslesen',
+	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'add_bots() hat eine Unstimmigkeit in der Gruppen-Tabelle festgestellt — du musst alle Systemgruppen manuell hinzufügen.',
+	'CONV_ERROR_INSERT_BOT'				=> 'Konnte Bot nicht in users-Tabelle eintragen.',
+	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Konnte Bot nicht in bots-Tabelle eintragen.',
+	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Konnte Benutzer nicht in user_group-Tabelle eintragen.',
+	'CONV_ERROR_MESSAGE_PARSER'			=> 'Fehler im Message Parser',
+	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Hinweis an Entwickler: $convertor[\'avatar_path\'] muss angegeben werden, um %s zu benutzen.',
+	'CONV_ERROR_NO_FORUM_PATH'			=> 'Der relative Pfad zum Quell-Board wurde nicht angegeben.',
+	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Hinweis an Entwickler: $convertor[\'avatar_gallery_path\'] muss angegeben werden, um %s zu benutzen.',
+	'CONV_ERROR_NO_GROUP'				=> 'Gruppe „%1$s“ konnte nicht in %2$s gefunden werden.',
+	'CONV_ERROR_NO_RANKS_PATH'			=> 'Hinweis an Entwickler: $convertor[\'ranks_path\'] muss angegeben werden, um %s zu benutzen.',
+	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Hinweis an Entwickler: $convertor[\'smilies_path\'] muss angegeben werden, um %s zu benutzen.',
+	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Hinweis an Entwickler: $convertor[\'upload_path\'] muss angegeben werden, um %s zu benutzen.',
+	'CONV_ERROR_PERM_SETTING'			=> 'Konnte Berechtigungen nicht einfügen / ändern.',
+	'CONV_ERROR_PM_COUNT'				=> 'Konnte Nachrichtenzahl des PN-Verzeichnisses nicht abrufen.',
+	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Konnte neues Forum als Ersatz der alten Kategorie nicht einfügen.',
+	'CONV_ERROR_REPLACE_FORUM'			=> 'Konnte neues Forum als Ersatz des alten Forums nicht einfügen.',
+	'CONV_ERROR_USER_ACCESS'			=> 'Konnte Benutzer-Authentifizierungsinformationen nicht abrufen.',
+	'CONV_ERROR_WRONG_GROUP'			=> 'Falsche Gruppe „%1$s“ in %2$s definiert.',
+	'CONV_OPTIONS_BODY'					=> 'Diese Seite fragt die Daten ab, die zum Zugriff auf das Quell-Board erforderlich sind. Gib die Datenbank-Daten deines alten Boards ein; der Konverter wird an der unten angegebenen Datenbank keine Änderungen vornehmen. Das Quell-Board sollte deaktiviert sein, um eine konsistente Konvertierung zu ermöglichen.',
+	'CONV_SAVED_MESSAGES'				=> 'Gesicherte Nachrichten',
+
+	'PRE_CONVERT_COMPLETE'			=> 'Die vorbereitenden Schritte der Konvertierung wurden erfolgreich abgeschlossen. Du kannst nun mit der eigentlichen Konvertierung beginnen. Bitte beachte, dass du einige Dinge manuell einstellen und anpassen musst. Nach der Konvertierung solltest du insbesondere die zugewiesenen Berechtigungen prüfen, sofern nötig deinen Suchindex neu aufbauen und sicherstellen, dass alle Dateien wie z.&nbsp;B. Benutzerbilder und Smilies richtig kopiert wurden.',
 ));
