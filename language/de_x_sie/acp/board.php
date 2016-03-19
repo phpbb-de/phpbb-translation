@@ -538,6 +538,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Wenn aktiviert, wird der Referrer von POST-Anfragen gegen die Einstellungen des Hostnamen/Skript-Pfads geprüft. Dies kann bei Boards zu Problemen führen, die mehrere Domains oder eine externe Anmeldung nutzen.',
 	'TPL_ALLOW_PHP'					=> 'Erlaube PHP in Templates',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Wenn diese Option eingeschaltet ist, werden <code>PHP</code>- und <code>INCLUDEPHP</code>-Anweisungen in Templates erkannt und ausgeführt.',
+	'UPLOAD_CERT_VALID'				=> 'Zertifikat beim Hochladen validieren',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Wenn diese Option eingeschaltet ist, werden Zertifikate beim Hochladen von Dateien validiert. Dazu ist es erforderlich, dass das CA-Bundel über die Einstellungen <samp>openssl.cafile</samp> oder <samp>curl.cainfo</samp> der php.ini definiert wird.',
 ));
 
 // Email Settings
