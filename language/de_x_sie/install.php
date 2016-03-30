@@ -280,9 +280,9 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_CONFIG_FILE'	=> 'Erstelle Konfigurationsdatei',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'		=> 'Füge Konfigurationseinstellungen hinzu',
-	'TASK_ADD_DEFAULT_DATA'			=> 'Lege Standard-Einstellungen in der Datenbank fest',
-	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Erstelle Datenbankstruktur',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'Füge Konfigurationseinstellungen hinzu',
+	'TASK_ADD_DEFAULT_DATA'				=> 'Lege Standard-Einstellungen in der Datenbank fest',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Erstelle Datei für Datenbankstruktur',
 	'TASK_SETUP_DATABASE'				=> 'Richte Datenbank ein',
 	'TASK_CREATE_TABLES'				=> 'Erstelle Tabellen',
 
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'MISSING_FILE'					=> 'Auf die Datei %1$s kann nicht zugegriffen werden',
 	'MISSING_DATA'					=> 'Die Konfigurationsdatei enthält ungültige Einstellungen oder ihr fehlen Einträge.',
 	'INVALID_YAML_FILE'				=> 'Die YAML-Datei %1$s konnte nicht verarbeitet werden',
-	'CONFIGURATION_VALID'			=> 'Die Konfigurations-Datei ist fehlerfrei',
+	'CONFIGURATION_VALID'			=> 'Die Konfigurations-Datei ist valide',
 ));
 
 // Common updater messages

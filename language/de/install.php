@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'MISSING_FILE'					=> 'Auf die Datei %1$s kann nicht zugegriffen werden',
 	'MISSING_DATA'					=> 'Die Konfigurationsdatei enthält ungültige Einstellungen oder ihr fehlen Einträge.',
 	'INVALID_YAML_FILE'				=> 'Die YAML-Datei %1$s konnte nicht verarbeitet werden',
-	'CONFIGURATION_VALID'			=> 'Die Konfigurations-Datei ist fehlerfrei',
+	'CONFIGURATION_VALID'			=> 'Die Konfigurations-Datei ist valide',
 ));
 
 // Common updater messages
