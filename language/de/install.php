@@ -122,7 +122,9 @@ $lang = array_merge($lang, array(
 // General error messages
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Du musst alle Felder dieses Blocks ausfüllen.',
-	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB ist bereits installiert.'
+
+	'TIMEOUT_DETECTED_TITLE'	=> 'Die Installations-Routine hat eine Zeitüberschreitung festgestellt',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Die Installations-Routine hat festgestellt, dass eine Zeitüberschreitung aufgetreten ist. Du kannst versuchen, die Seite neu zu laden — dies kann aber zu einer Daten-Korruption führen. Wir empfehlen dir, entweder das Limit für eine Zeitüberschreitung (Timeout) zu erhöhen oder die Kommandozeile (CLI) zu verwenden.',
 ));
 
 // Data obtaining translations
@@ -202,6 +204,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Die installierte Version der SQLite-Erweiterung ist zu alt. Sie muss auf 3.6.15 oder höher aktualisiert werden.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Die installierte Oracle-Version erfordert, dass der Parameter <var>NLS_CHARACTERSET</var> auf <var>UTF8</var> gesetzt ist. Bitte aktualisiere Oracle auf Version 9.2 oder höher oder ändere den genannten Parameter entsprechend.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Die ausgewählte Datenbank wurde nicht mit der Codierung <var>UNICODE</var> oder <var>UTF8</var> erstellt. Bitte versuche die Installation erneut mit einer Datenbank, die mit dieser Codierung erstellt wurde.',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Die Datei für die Datenbankstruktur kann nicht beschrieben werden',
 
 	//
 	// Email data
@@ -277,9 +280,11 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_CONFIG_FILE'	=> 'Erstelle Konfigurationsdatei',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'		=> 'Füge Konfigurationseinstellungen hinzu',
-	'TASK_ADD_DEFAULT_DATA'			=> 'Lege Standard-Einstellungen in der Datenbank fest',
-	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Erstelle Datenbankstruktur',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'Füge Konfigurationseinstellungen hinzu',
+	'TASK_ADD_DEFAULT_DATA'				=> 'Lege Standard-Einstellungen in der Datenbank fest',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Erstelle Datei für Datenbankstruktur',
+	'TASK_SETUP_DATABASE'				=> 'Richte Datenbank ein',
+	'TASK_CREATE_TABLES'				=> 'Erstelle Tabellen',
 
 	// Install data
 	'TASK_ADD_BOTS'			=> 'Registriere Bots',
@@ -314,12 +319,14 @@ $lang = array_merge($lang, array(
 // CLI messages
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Installiere phpBB',
+	'CLI_UPDATE_BOARD'				=> 'Aktualisiere phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Zeige die Konfigurationsdatei, die verwendet wird',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validiere eine Konfigurationsdatei',
 	'CLI_CONFIG_FILE'				=> 'Zu verwendende Konfigurationsdatei',
 	'MISSING_FILE'					=> 'Auf die Datei %1$s kann nicht zugegriffen werden',
 	'MISSING_DATA'					=> 'Die Konfigurationsdatei enthält ungültige Einstellungen oder ihr fehlen Einträge.',
 	'INVALID_YAML_FILE'				=> 'Die YAML-Datei %1$s konnte nicht verarbeitet werden',
+	'CONFIGURATION_VALID'			=> 'Die Konfigurations-Datei ist valide',
 ));
 
 // Common updater messages

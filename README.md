@@ -1,6 +1,6 @@
-Deutsche Sprachdateien für phpBB 3.2.0-b1
+Deutsche Sprachdateien für phpBB 3.2.0-b2
 -----------------------------------------
-Stand: 2016-02-23
+Stand: 2016-03-19
 =================
 
 
