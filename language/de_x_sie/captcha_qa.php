@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Diese Frage dient dazu, das automatisierte Versenden von Formularen durch Spam-Bots zu verhindern.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Sie haben eine falsche Antwort auf die Frage angegeben.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Die Fragen für dieses CAPTCHA konnten nicht abgerufen werden. Bitte kontaktiere die Board-Administration.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Die Fragen für dieses CAPTCHA konnten nicht abgerufen werden. Bitte kontaktieren Sie die Board-Administration.',
 
 	'QUESTION_ANSWERS'			=> 'Antworten',
 	'ANSWERS_EXPLAIN'			=> 'Bitte geben Sie gültige Antworten auf die Frage ein, jede Antwort in eine Zeile.',
