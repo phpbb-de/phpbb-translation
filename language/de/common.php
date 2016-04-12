@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
-	'1_DAY'			=> '1 Tag',
+	'1_DAY'			=> '1 Tag'
 	'1_MONTH'		=> '1 Monat',
 	'1_YEAR'		=> '1 Jahr',
 	'2_WEEKS'		=> '2 Wochen',
