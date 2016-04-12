@@ -9,7 +9,6 @@ install:
   - if [ "${TRAVIS_PHP_VERSION}" = '5.3.3' ]; then composer config -g secure-http false; fi;
   - php composer.phar install --dev --no-interaction --prefer-source
 
-
 before_script:
   - vendor/bin/phing prepare-test -Dversion=HEAD -Dlanguage=de,de_x_sie
 
