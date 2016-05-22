@@ -92,15 +92,19 @@ $lang = array_merge($lang, array(
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'			=> 'Datei existiert nicht',
-	'FILE_NOT_EXISTS_EXPLAIN'	=> 'Um phpBB installieren zu können, muss die Datei „%1$s“ existieren.',
-	'FILE_NOT_WRITABLE'			=> 'Datei nicht beschreibbar',
-	'FILE_NOT_WRITABLE_EXPLAIN'	=> 'Um phpBB installieren zu können, muss die Datei „%1$s“ beschreibbar sein.',
+	'FILE_NOT_EXISTS'						=> 'Datei existiert nicht',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Um phpBB installieren zu können, muss die Datei „%1$s“ existieren.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Es wird empfohlen, dass die Datei %1$s existiert, damit die Benutzer ein besseres Foren-Erlebnis haben.',
+	'FILE_NOT_WRITABLE'						=> 'Datei nicht beschreibbar',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Um phpBB installieren zu können, muss die Datei „%1$s“ beschreibbar sein.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Es wird empfohlen, dass die Datei %1$s beschreibbar ist, damit die Benutzer ein besseres Foren-Erlebnis haben.',
 
-	'DIRECTORY_NOT_EXISTS'				=> 'Verzeichnis existiert nicht',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'Um phpBB installieren zu können, muss das Verzeichnis „%1$s“ existieren.',
-	'DIRECTORY_NOT_WRITABLE'			=> 'Verzeichnis nicht beschreibbar',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'Um phpBB installieren zu können, muss das Verzeichnis „%1$s“ beschreibbar sein.',
+	'DIRECTORY_NOT_EXISTS'						=> 'Verzeichnis existiert nicht',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'Um phpBB installieren zu können, muss das Verzeichnis „%1$s“ existieren.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Es wird empfohlen, dass das Verzeichnis %1$s existiert, damit die Benutzer ein besseres Foren-Erlebnis haben.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'Verzeichnis nicht beschreibbar',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'Um phpBB installieren zu können, muss das Verzeichnis „%1$s“ beschreibbar sein.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Es wird empfohlen, dass das Verzeichnis %1$s beschreibbar ist, damit die Benutzer ein besseres Foren-Erlebnis haben.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-Version',
