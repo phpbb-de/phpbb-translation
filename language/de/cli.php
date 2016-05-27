@@ -136,9 +136,24 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Keine Vorschaubilder zu erstellen.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Keine Vorschaubilder zu löschen.',
+
+	'CLI_USER_ADD_SUCCESS'		=> 'Benutzer %s erfolgreich angelegt.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Soll „%s“ wirklich gelöscht werden? [y/N]',
+	'CLI_USER_RECLEAN_START'	=> 'Benutzernamen werden erneut bereinigt',
+	'CLI_USER_RECLEAN_DONE'		=> [
+		0	=> 'Bereinigung abgeschlossen. Es musste kein Benutzername bereinigt werden.',
+		1	=> 'Bereinigung abgeschlossen. %d Benutzername wurde bereinigt.',
+		2	=> 'Bereinigung abgeschlossen. %d Benutzernamen wurden bereinigt.',
+	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Optional kannst du den Namen eines Cron-Jobs angeben, um nur diesen auszuführen.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Aktiviert ein Benutzerkonto oder deaktiviert es, wenn die <info>--deactivate</info>-Option verwendet wird.
+Um zusätzlich eine Aktivierungs-E-Mail an den Benutzer zu senden, verwende die <info>--send-email</info>-Option.',
+	'CLI_HELP_USER_ADD'			=> 'Mit dem <info>%command.name%</info>-Befehl wird ein neues Benutzerkonto erstellt:
+Wenn der Befehl ohne Optionen ausgeführt wird, werden diese von dir abgefragt.
+Um zusätzlich eine Aktivierungs-E-Mail an den neuen Benutzer zu senden, verwende die <info>--send-email</info>-Option.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Die erneute Bereinigung der Benutzernamen prüft alle gespeicherten Benutzernamen und stellt sicher, dass die bereinigten Versionen auch vorhanden sind. Bereinigte Benutzernamen sind unabhängig von Groß- und Kleinschreibung, NFC-normalisiert und in ASCII umgewandelt.',
 ));
