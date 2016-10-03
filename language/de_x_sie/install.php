@@ -535,7 +535,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Datenbankstruktur wird aktualisiert',
 	'UPDATE_FILES'					=> 'Dateien jetzt aktualisieren',
 	'UPDATE_FILES_NOTICE'			=> 'Bitte stellen Sie sicher, dass Sie auch die Dateien des Boards aktualisiert haben. Diese Datei aktualisiert nur die Datenbank.',
-	'UPDATE_INCOMPLETE'				=> 'Ihre phpBB-Version wurde nicht erfolgreich aktualisiert.',
+	'UPDATE_INCOMPLETE'				=> 'Ihre phpBB-Installation wurde nicht erfolgreich aktualisiert.',
 	'UPDATE_INCOMPLETE_MORE'		=> 'Bitte folgen Sie den untenstehenden Anweisungen, um das Problem zu beheben.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Unvollständiges Update</h1>
 

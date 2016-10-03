@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 	'MODULE_ERROR'						=> 'Bei der Erstellung eines Moduls ist ein Fehler aufgetreten: %s',
 	'MODULE_EXISTS'						=> 'Ein Modul existiert bereits: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Es existieren mehrere Module mit dem angegebenen übergeordneten Sprachnamen: %s. Verwenden Sie die Nach-Oben-/Nach-Unten-Schaltflächen, um die Position des Moduls festzulegen.',
+	'MODULE_EXIST_MULTIPLE'				=> 'Es existieren mehrere Module mit dem angegebenen übergeordneten Namen: %s. Verwenden Sie die Nach-Oben-/Nach-Unten-Schaltflächen, um die Position des Moduls festzulegen.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Eine erforderliche Informationsdatei für ein Modul existiert nicht: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Ein erforderliches Modul existiert nicht: %s',
 
