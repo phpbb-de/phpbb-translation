@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Eine erforderliche Informationsdatei für ein Modul existiert nicht: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Ein erforderliches Modul existiert nicht: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Die Kennung des übergeordneten Moduls konnte nicht gefunden werden: %s',
+	'PARENT_MODULE_FIND_ERROR'			=> 'Es wurde kein übergeordnetes Modul mit diesem Namen gefunden: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Die Berechtigungs-Einstellung „%s“ existiert unerwarteterweise nicht.',
 
 	'ROLE_NOT_EXIST'					=> 'Die Berechtigungs-Rolle „%s“ existiert unerwarteterweise nicht.',
