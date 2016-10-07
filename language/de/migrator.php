@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'Die Migration „%s“ ist nicht installiert.',
 	'MIGRATION_NOT_VALID'				=> '%s ist keine gültige Migration.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Installiertes Schema: %1$s; Dauer: %2$.2f Sekunden',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Installiere Schema: %1$s; Dauer: %2$.2f Sekunden',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Installiere Schema: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Rückgängig gemachte Daten-Änderungen: %1$s; Dauer: %2$.2f Sekunden',
@@ -71,9 +72,12 @@ $lang = array_merge($lang, array(
 
 
 	'MODULE_ERROR'						=> 'Bei der Erstellung eines Moduls ist ein Fehler aufgetreten: %s',
+	'MODULE_EXISTS'						=> 'Ein Modul existiert bereits: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Es existieren mehrere Module mit dem angegebenen übergeordneten Namen: %s. Verwende die Nach-Oben-/Nach-Unten-Schaltflächen, um die Position des Moduls festzulegen.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Eine erforderliche Informationsdatei für ein Modul existiert nicht: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Ein erforderliches Modul existiert nicht: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Es wurde kein übergeordnetes Modul mit diesem Namen gefunden: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Die Berechtigungs-Einstellung „%s“ existiert unerwarteterweise nicht.',
 
 	'ROLE_NOT_EXIST'					=> 'Die Berechtigungs-Rolle „%s“ existiert unerwarteterweise nicht.',
