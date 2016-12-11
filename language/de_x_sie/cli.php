@@ -88,11 +88,11 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Erstellt alle Vorschaubilder neu.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Prüft, ob das Board auf dem neusten Stand ist.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name der zu überprüfenden Erweiterung (bei „all“, werden alle Erweiterungen überprüft)',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Führe den „check“-Befehl mit Cache aus.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Führe den „check“-Befehl mit der Auswahl „stable“- oder „unstable“-Versionen aus.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name der zu überprüfenden Erweiterung (bei „all“ werden alle Erweiterungen überprüft)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Führt den „check“-Befehl auf Basis der im Cache gespeicherten Informationen aus.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Führt den „check“-Befehl mit der Auswahl „stable“- oder „unstable“-Stabilität aus.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" ist keine gültige Version.',
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" ist keine gültige Stabilität.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktiviert (oder deaktiviert) ein Benutzerkonto.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Benutzername des Kontos, das aktiviert werden soll.',

@@ -217,10 +217,10 @@ $lang = array_merge($lang, array(
 	// Package info
 	'PACKAGE_VERSION'				=> 'Paketversion installiert',
 	'UPDATE_INCOMPLETE'				=> 'Ihre phpBB-Installation wurde nicht richtig aktualisiert.',
-	'UPDATE_INCOMPLETE_MORE'		=> 'Bitte lesen Sie sich die folgenden Information durch, um diesen Fehler zu beheben.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Bitte lesen Sie die folgenden Information durch, um diesen Fehler zu beheben.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Unvollständige Aktualisierung</h1>
 
-		<p>Wir haben bemerkt, dass die letzte Aktualisierung Ihrer phpBB-Installation nicht vollständig durchgeführt wurde. Besuchen Sie die <a href="%1$s" title="%1$s">Datenbank-Aktualisierung</a>, stellen Sie sicher, dass <em>Nur die Datenbank aktualisieren</em> ausgewählt ist und klicken Sie auf <strong>Absenden</strong>. Nachdem Sie die Datenbank erfolgreich aktualisiert haben, vergessen Sie nicht das "install"-Verzeichnis zu löschen.</p>',
+		<p>Die letzte Aktualisierung Ihrer phpBB-Installation wurde nicht vollständig durchgeführt. Rufen Sie die <a href="%1$s" title="%1$s">Datenbank-Aktualisierung</a> auf, stellen Sie sicher, dass <em>Nur die Datenbank aktualisieren</em> ausgewählt ist und klicken Sie danach auf <strong>Absenden</strong>. Nachdem Sie die Datenbank erfolgreich aktualisiert haben, vergessen Sie nicht das „install“-Verzeichnis zu löschen.</p>',
 
 	//
 	// Server data
