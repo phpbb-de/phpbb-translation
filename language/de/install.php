@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Datenbank-Passwort',
 	'DB_NAME'				=> 'Name der Datenbank',
 	'DB_USERNAME'			=> 'Datenbank-Benutzername',
-	'DATABASE_VERSION'		=> 'Databankversion',
+	'DATABASE_VERSION'		=> 'Datenbank-Version',
 	'TABLE_PREFIX'			=> 'Präfix der Tabellen in der Datenbank',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Das Tabellen-Präfix muss mit einem Buchstaben beginnen und darf nur Buchstaben, Ziffern und Unterstriche enthalten.',
 
@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 
 	// Package info
 	'PACKAGE_VERSION'				=> 'Paketversion installiert',
-	'UPDATE_INCOMPLETE'				=> 'Deine phpBB-Installation wurde nicht richtig aktualisiert.',
+	'UPDATE_INCOMPLETE'				=> 'Deine phpBB-Installation wurde nicht vollständig aktualisiert.',
 	'UPDATE_INCOMPLETE_MORE'		=> 'Bitte lies die folgenden Information, um diesen Fehler zu beheben.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Unvollständige Aktualisierung</h1>
 
