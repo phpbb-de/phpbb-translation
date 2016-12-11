@@ -74,7 +74,6 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 und höher (MySQLi wird unterstützt)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 und höher (direkt oder über ODBC)</li>
 		<li>MS SQL Server 2005 und höher (nativ)</li>
@@ -115,6 +114,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB wird nicht funktionieren, wenn die PHP-Installation ohne UTF-8-Unterstützung in der PCRE-Erweiterung kompiliert wurde.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON-Unterstützung',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Damit phpBB richtig funktioniert, muss die PHP JSON-Erweiterung verfügbar sein.',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM-Unterstützung',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Damit phpBB richtig funktioniert, muss die PHP XML/DOM-Erweiterung verfügbar sein.',
 	'PHP_SUPPORTED_DB'					=> 'Unterstützte Datenbanken',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Du musst Unterstützung für mindestens eine kompatible Datenbank in PHP bereitstellen. Falls keine Datenbank-Module als verfügbar angezeigt werden, solltest du deinen Webhosting-Provider kontaktieren oder die entsprechende PHP-Dokumentation zu Rate ziehen.',
 
@@ -180,18 +181,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Datenbank-Passwort',
 	'DB_NAME'				=> 'Name der Datenbank',
 	'DB_USERNAME'			=> 'Datenbank-Benutzername',
+	'DATABASE_VERSION'		=> 'Databankversion',
 	'TABLE_PREFIX'			=> 'Präfix der Tabellen in der Datenbank',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Das Tabellen-Präfix muss mit einem Buchstaben beginnen und darf nur Buchstaben, Ziffern und Unterstriche enthalten.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Nativ ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi-Erweiterung',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -204,7 +204,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'Es wurde keine Fehlermeldung übergeben.',
 	'INST_ERR_PREFIX'				=> 'Es existieren bereits Tabellen mit dem angegebenen Präfix, bitte wähle ein alternatives.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Die auf diesem System installierte MySQL-Version ist nicht kompatibel mit der „MySQL mit MySQLi-Erweiterung“-Option, die von dir gewählt wurde. Bitte versuche stattdessen die „MySQL“-Option.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'Die installierte Version der SQLite-Erweiterung ist zu alt. Sie muss auf 2.8.2 oder höher aktualisiert werden.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Die installierte Version der SQLite-Erweiterung ist zu alt. Sie muss auf 3.6.15 oder höher aktualisiert werden.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Die installierte Oracle-Version erfordert, dass der Parameter <var>NLS_CHARACTERSET</var> auf <var>UTF8</var> gesetzt ist. Bitte aktualisiere Oracle auf Version 9.2 oder höher oder ändere den genannten Parameter entsprechend.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Die ausgewählte Datenbank wurde nicht mit der Codierung <var>UNICODE</var> oder <var>UTF8</var> erstellt. Bitte versuche die Installation erneut mit einer Datenbank, die mit dieser Codierung erstellt wurde.',
@@ -214,6 +213,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'E-Mail-Konfiguration',
+
+	// Package info
+	'PACKAGE_VERSION'				=> 'Paketversion installiert',
+	'UPDATE_INCOMPLETE'				=> 'Deine phpBB-Installation wurde nicht richtig aktualisiert.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Bitte lies die folgenden Information, um diesen Fehler zu beheben.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Unvollständige Aktualisierung</h1>
+
+		<p>Wir haben bemerkt, dass die letzte Aktualisierung deiner phpBB-Installation nicht vollständig durchgeführt wurde. Besuche die <a href="%1$s" title="%1$s">Datenbank-Aktualisierung</a>, stell sicher, dass <em>Nur die Datenbank aktualisieren</em> ausgewählt ist und klicke auf <strong>Absenden</strong>. Nachdem du die Datenbank erfolgreich aktualisiert hast, vergiss nicht das "install"-Verzeichnis zu löschen.</p>',
 
 	//
 	// Server data
@@ -296,6 +303,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Installiere Module',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Installiere gepackte Erweiterungen',
 	'TASK_NOTIFY_USER'			=> 'Sende Benachrichtigungs-Mail',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Führe Migrationen durch',
 
@@ -434,6 +442,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Die folgenden Dateien sind nicht geändert und entsprechen den originalen phpBB-Dateien der Version, von der aus du updaten möchtest.',
 	'FILES_UP_TO_DATE'				=> 'Bereits aktualisierte Dateien',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Die folgenden Dateien sind bereits auf dem neuesten Stand und müssen nicht aktualisiert werden.',
+	'FILES_VERSION'					=> 'Dateien-Version',
 	'TOGGLE_DISPLAY'				=> 'Datei-Liste ein-/ausblenden',
 
 	// File updater
@@ -451,6 +460,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Datenbank aktualisieren',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Die Datenbank wurde erfolgreich aktualisiert',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Aktualisiere Erweiterungen',
 ));
 
 // Converter
