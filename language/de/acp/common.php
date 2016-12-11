@@ -330,7 +330,7 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Verwende für jeden Benutzernamen eine neue Zeile.',
 	'USER_CONTROL_PANEL'	=> 'Persönlicher Bereich',
 
-	'UPDATE_NEEDED'			=> 'Das Board ist nicht auf dem neusten Stand.',
+	'UPDATE_NEEDED'			=> 'Die Board-Software ist nicht auf dem neusten Stand.',
 	'UPDATE_NOT_NEEDED'		=> 'Das Board ist auf dem neusten Stand.',
 	'UPDATES_AVAILABLE'		=> 'Es sind Aktualisierungen verfügbar:',
 
@@ -492,7 +492,7 @@ $lang = array_merge($lang, array(
 	'SEND_STATISTICS_LONG'		=> 'Statistische Informationen senden',
 	'SHOW_STATISTICS'			=> 'Details anzeigen',
 	'THANKS_SEND_STATISTICS'	=> 'Vielen Dank für die Übermittlung deiner Informationen.',
-	'FAIL_SEND_STATISTICS'		=> 'phpBB konnte die Statistiken nicht senden',
+	'FAIL_SEND_STATISTICS'		=> 'Die Statistiken konnten nicht gesendet werden',
 ));
 
 // Log Entries
