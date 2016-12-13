@@ -330,8 +330,8 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Verwende für jeden Benutzernamen eine neue Zeile.',
 	'USER_CONTROL_PANEL'	=> 'Persönlicher Bereich',
 
-	'UPDATE_NEEDED'			=> 'Die Board-Software ist nicht auf dem neusten Stand.',
-	'UPDATE_NOT_NEEDED'		=> 'Das Board ist auf dem neusten Stand.',
+	'UPDATE_NEEDED'			=> 'Die Board-Software ist nicht auf dem neuesten Stand.',
+	'UPDATE_NOT_NEEDED'		=> 'Das Board ist auf dem neuesten Stand.',
 	'UPDATES_AVAILABLE'		=> 'Es sind Aktualisierungen verfügbar:',
 
 	'WARNING'				=> 'Warnung',
