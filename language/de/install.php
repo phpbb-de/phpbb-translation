@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE_MORE'		=> 'Bitte lies die folgenden Information, um diesen Fehler zu beheben.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Unvollständige Aktualisierung</h1>
 
-		<p>Die letzte Aktualisierung deiner phpBB-Installation wurde nicht vollständig durchgeführt. Rufe die <a href="%1$s" title="%1$s">Datenbank-Aktualisierung</a> auf, stelle sicher, dass <em>Nur die Datenbank aktualisieren</em> ausgewählt ist und klicke danach auf <strong>Absenden</strong>. Nachdem du die Datenbank erfolgreich aktualisiert hast, vergiss nicht das "install"-Verzeichnis zu löschen.</p>',
+		<p>Die letzte Aktualisierung deiner phpBB-Installation wurde nicht vollständig durchgeführt. Rufe die <a href="%1$s" title="%1$s">Datenbank-Aktualisierung</a> auf, stelle sicher, dass <em>Nur die Datenbank aktualisieren</em> ausgewählt ist und klicke danach auf <strong>Absenden</strong>. Nachdem du die Datenbank erfolgreich aktualisiert hast, vergiss nicht, das "install"-Verzeichnis zu löschen.</p>',
 
 	//
 	// Server data
@@ -303,7 +303,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Installiere Module',
 
 	// Install finish tasks
-	'TASK_INSTALL_EXTENSIONS'	=> 'Installiere gepackte Erweiterungen',
+	'TASK_INSTALL_EXTENSIONS'	=> 'Installiere mitgelieferte Erweiterungen',
 	'TASK_NOTIFY_USER'			=> 'Sende Benachrichtigungs-Mail',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Führe Migrationen durch',
 
