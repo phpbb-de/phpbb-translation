@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Erstellt alle fehlenden Vorschaubilder.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Erstellt alle Vorschaubilder neu.',
 
-	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Prüft, ob das Board auf dem neusten Stand ist.',
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Prüft, ob das Board auf dem neuesten Stand ist.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name der zu überprüfenden Erweiterung (bei „all“ werden alle Erweiterungen überprüft)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Führt den „check“-Befehl auf Basis der im Cache gespeicherten Informationen aus.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Führt den „check“-Befehl wahlweise mit der Stabilität „stable“ oder „unstable“ aus.',
