@@ -110,6 +110,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Gruppenrechte',
 	'ACP_GROUPS_POSITION'			=> 'Gruppen-Positionierung verwalten',
 
+	'ACP_HELP_PHPBB'			=> 'Unterstütze phpBB',
+
 	'ACP_ICONS'					=> 'Beitrags-Symbole',
 	'ACP_ICONS_SMILIES'			=> 'Beitrags-Symbole/Smilies',
 	'ACP_INACTIVE_USERS'		=> 'Inaktive Benutzer',
@@ -169,7 +171,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Suchfunktion',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Sicherheit',
-	'ACP_SEND_STATISTICS'		=> 'Statistische Daten übermitteln',
 	'ACP_SERVER_CONFIGURATION'	=> 'Server-Konfiguration',
 	'ACP_SERVER_SETTINGS'		=> 'Server und Domain',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Signaturen',
@@ -329,6 +330,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Verwende für jeden Benutzernamen eine neue Zeile.',
 	'USER_CONTROL_PANEL'	=> 'Persönlicher Bereich',
 
+	'UPDATE_NEEDED'			=> 'Die Board-Software ist nicht auf dem neuesten Stand.',
+	'UPDATE_NOT_NEEDED'		=> 'Das Board ist auf dem neuesten Stand.',
+	'UPDATES_AVAILABLE'		=> 'Es sind Aktualisierungen verfügbar:',
+
 	'WARNING'				=> 'Warnung',
 ));
 
@@ -476,16 +481,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Benutzer ist inaktiv',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Bitte übermittle Informationen über deinen Server und deine Board-Konfiguration für statistische Analysen an phpBB.com. Alle Daten, die dich selbst oder deine Website identifizieren könnten, wurden entfernt — die Daten sind vollkommen <strong>anonym</strong>. Entscheidungen über zukünftige phpBB-Versionen werden auf Basis dieser Daten getroffen. Die statistischen Daten werden öffentlich zur Verfügung gestellt. Die Daten werden auch mit dem PHP-Projekt ausgetauscht, das die Programmiersprache betreut, in der phpBB geschrieben ist.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Mit der folgenden Schaltfläche kannst du alle Informationen anzeigen, die übermittelt werden.',
 	'DONT_SEND_STATISTICS'		=> 'Kehre zum Administrations-Bereich zurück, wenn du keine statistischen Daten an phpBB.com senden möchtest.',
 	'GO_ACP_MAIN'				=> 'Zur Startseite des Administrations-Bereichs gehen',
 	'HIDE_STATISTICS'			=> 'Details verbergen',
-	'SEND_STATISTICS'			=> 'Statistische Informationen senden',
+	'SEND_STATISTICS'			=> 'Statistiken senden',
+	'SEND_STATISTICS_LONG'		=> 'Statistische Informationen senden',
 	'SHOW_STATISTICS'			=> 'Details anzeigen',
 	'THANKS_SEND_STATISTICS'	=> 'Vielen Dank für die Übermittlung deiner Informationen.',
+	'FAIL_SEND_STATISTICS'		=> 'Die Statistiken konnten nicht gesendet werden',
 ));
 
 // Log Entries
@@ -818,4 +825,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Erweiterung aktiviert</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Erweiterung deaktiviert</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Daten der Erweiterung gelöscht</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Erweiterung aktualisiert</strong><br />» %s',
 ));
