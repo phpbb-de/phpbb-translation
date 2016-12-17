@@ -69,21 +69,30 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Komandozeile starten.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Löscht die angegebene Erweiterung.',
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Listet die Arten von Texten auf, die neu verarbeitet werden können.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Verarbeitet gespeicherte Texte mit dem aktuellen text_formatter-Dienst neu.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Text-Art die neu verarbeitet werden soll. Leer lassen, um alles neu zu verarbeiten.',
+	
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Listet die Arten von Texten auf, die neu verarbeitet werden können.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Verarbeitet gespeicherte Texte mit dem aktuellen text_formatter-Dienst neu.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Text-Art die neu verarbeitet werden soll. Leer lassen, um alles neu zu verarbeiten.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Keine Änderungen speichern; nur ausgeben, was passieren würde',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Niedrigste Eintrags-ID, die verarbeitet wird',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Höchste Eintrags-ID, die verarbeitet wird',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschätzte Zahl von Einträgen, die in einem Durchgang verarbeitet werden',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Startet die Verarbeitung dort, wo die letzte Ausführung endete',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Berechnet die Einträge im Feld user_email_hash der Benutzer-Tabelle neu.',
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Legt den Wert für eine Konfigurations-Einstellung fest, wenn die derzeitige Einstellung dem angegebenen Vergleichswert entspricht',
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Legt den Wert für eine Konfigurations-Einstellung fest',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Berechnet die Einträge im Feld user_email_hash der Benutzer-Tabelle neu.',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Löscht alle existierenden Vorschaubilder.',
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Erstellt alle fehlenden Vorschaubilder.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Erstellt alle Vorschaubilder neu.',
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Legt den Wert für eine Konfigurations-Einstellung fest, wenn die derzeitige Einstellung dem angegebenen Vergleichswert entspricht',
+	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Legt den Wert für eine Konfigurations-Einstellung fest',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Löscht alle existierenden Vorschaubilder.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Erstellt alle fehlenden Vorschaubilder.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Erstellt alle Vorschaubilder neu.',
+
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Prüft, ob das Board auf dem neuesten Stand ist.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name der zu überprüfenden Erweiterung (bei „all“ werden alle Erweiterungen überprüft)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Führt den Befehl („check“) auf Basis der im Cache gespeicherten Informationen aus.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Nur auf produktive ("stable") oder vorläufige Versionen ("unstable") prüfen.',
+	
+	'CLI_ERROR_INVALID_STABILITY' => '„%s“ ist keine gültige Stabilität.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktiviert (oder deaktiviert) ein Benutzerkonto.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Benutzername des Kontos, das aktiviert werden soll.',
@@ -107,6 +116,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Name der Erweiterung',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Konnte Arbeitsdaten der Erweiterung %s nicht löschen',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Arbeitsdaten der Erweiterung %s erfolgreich gelöscht',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Die Erweiterung %s konnte nicht aktualisiert werden',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Erweiterung %s wurde erfolgreich aktualisiert',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Es wurden keine Erweiterungen gefunden.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Verfügbar',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Deaktiviert',

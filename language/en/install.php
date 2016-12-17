@@ -72,7 +72,6 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 or above (MySQLi supported)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
 		<li>MS SQL Server 2005 or above (native)</li>
@@ -113,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM support',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP XML/DOM extension needs to be available.',
 	'PHP_SUPPORTED_DB'					=> 'Supported databases',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
 
@@ -178,18 +179,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Database password',
 	'DB_NAME'				=> 'Database name',
 	'DB_USERNAME'			=> 'Database username',
+	'DATABASE_VERSION'		=> 'Database version',
 	'TABLE_PREFIX'			=> 'Prefix for tables in database',
 	'TABLE_PREFIX_EXPLAIN'	=> 'The prefix must start with a letter and must only contain letters, numbers and underscores.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -202,7 +202,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
 	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
@@ -212,6 +211,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'E-mail configuration',
+
+	// Package info
+	'PACKAGE_VERSION'				=> 'Package version installed',
+	'UPDATE_INCOMPLETE'				=> 'Your phpBB installation has not been correctly updated.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
+
+		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database sucessfully.</p>',
 
 	//
 	// Server data
@@ -294,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Installing modules',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Installing packaged extensions',
 	'TASK_NOTIFY_USER'			=> 'Sending notification e-mail',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
 
@@ -432,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'The following files are not modified and represent the original phpBB files from the version you want to update from.',
 	'FILES_UP_TO_DATE'				=> 'Already updated files',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'The following files are already up to date and do not need to be updated.',
+	'FILES_VERSION'					=> 'Files Version',
 	'TOGGLE_DISPLAY'				=> 'View/Hide file list',
 
 	// File updater
@@ -449,6 +458,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Update database',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful.',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Updating extensions',
 ));
 
 // Converter
@@ -527,7 +538,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversion completed',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.2. You can now login and <a href="../">access your board</a>. Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory. Remember that help on using phpBB is available online via the <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentation</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=466">support forums</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.2. You can now login and <a href="../">access your board</a>. Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory. Remember that help on using phpBB is available online via the <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Documentation</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=466">support forums</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP upload for attachments is enabled at the old board. Please disable the FTP upload option and make sure a valid upload directory is specified, then copy all attachment files to this new web accessible directory. Once you have done this, restart the convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'There is no configuration information available for the conversion.',
