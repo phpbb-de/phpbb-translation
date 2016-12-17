@@ -61,6 +61,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Mache Daten-Änderungen rückgängig: %1$s; Dauer: %2$.2f Sekunden',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Mache Daten-Änderungen rückgängig: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Rückgängig gemachte Schema-Änderungen: %1$s; Dauer: %2$.2f Sekunden',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Mache Schema-Änderungen rückgängig: %1$s; Dauer: %2$.2f Sekunden',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Mache Schema-Änderungen rückgängig: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Eine Migration ist ungültig. Einer Hilfsfunktion für bedingte Anweisungen fehlt eine Bedingung. („An if statement helper is missing a condition.“)',
