@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_OPTIONS'			=> 'Options',
 	'EXTENSION_INSTALL_HEADLINE'=> 'Installing an extension',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
-			<li>Download an extension from phpBB’s extensions database</li>
+			<li>Download an extension from phpBBâ€™s extensions database</li>
 			<li>Unzip the extension and upload it to the <samp>ext/</samp> directory of your phpBB board</li>
 			<li>Enable the extension, here in the Extensions manager</li>
 		</ol>',
