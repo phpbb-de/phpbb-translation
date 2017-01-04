@@ -6,6 +6,9 @@
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
+ * siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
+ *
  */
 
 /**

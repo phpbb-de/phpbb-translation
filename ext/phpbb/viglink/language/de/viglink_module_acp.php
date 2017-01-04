@@ -6,6 +6,9 @@
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
+ * siehe language/de/AUTHORS.md und https://www.phpbb.de/go/ubersetzerteam
+ *
  */
 
 /**
@@ -40,16 +43,16 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_VIGLINK'					=> 'VigLink',
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink-Einstellungen',
-	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink ist ein externer Dienst, der von Benutzern deines Forums erstellte Links monetarisiert, ohne sich auf das Nutzungserlebnis auszuwirken. Wenn Besucher auf diese Links klicken und auf der Ziel-Website zum Beispiel Waren oder Dienstleistungen einkaufen, dann zahlen einige Händler VigLink eine Provision. Hiervon wird ein Anteil an das phpBB-Projekt weitergegeben. Indem du der Verwendung von VigLink und der Weitergabe der Provision an phpBB.com zustimmst, unterstützt du das Open-Source-Projekt und trägst zu seiner finanziellen Absicherung bei.',
+	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink ist ein externer Affiliate-Dienst, der Provisionen aus Links generiert, die Benutzer in deinem Forum erstellen. Dazu werden die Links von VigLink um Tracking-Informationen ergänzt, ohne dass sich für den Benutzer beim Aufruf des Links etwas ändert (VigLink Convert). Wenn Besucher auf der Ziel-Website zum Beispiel Waren oder Dienstleistungen einkaufen, dann zahlen einige Händler VigLink eine Provision. Hiervon wird ein Anteil an das phpBB-Projekt weitergegeben. Indem du der Verwendung von VigLink und der Weitergabe der Provision an phpBB Limited zustimmst, unterstützt du das Open-Source-Projekt und trägst zu seiner finanziellen Absicherung bei.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Du kannst diese Einstellungen jederzeit in den VigLink-Einstellungen ändern.',
 	'ACP_VIGLINK_ENABLE'			=> 'VigLink aktivieren',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Aktiviert die Verwendung des VigLink-Dienstes.',
-	'ACP_VIGLINK_EARNINGS'			=> 'Beanspruche deine eigenen Erträge (optional)',
-	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Du kannst die durch dein Forum generierten Erträge selbst beanspruchen, indem du einen eigenen VigLink Account erstellst.',
-	'ACP_VIGLINK_API_KEY_INVALID'	=> '„%s“ ist kein gültiger VigLink Convert API Schlüssel.',
-	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Die VigLink Dienste wurden von phpBB deaktiviert.',
-	'ACP_VIGLINK_CLAIM'				=> 'Beanspruche deine Erträge',
-	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Du kannst die in deinem Forum aus den von VigLink monetarisierten Links generierten Erträge beanspruchen anstatt sie dem phpBB Projekt zu überlassen. Um deine Accounteinstellungen zu verwalten erstelle deinen eigenen „VigLink Convert“ Account, indem du auf „Convert Account“ klickst',
-	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Convert Account',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Der VigLink Convert Account Link konnte nicht abgerufen werden.'
+	'ACP_VIGLINK_EARNINGS'			=> 'Beanspruche deine eigenen Provisionen (optional)',
+	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Du kannst die durch dein Forum generierten Provisionen selbst beanspruchen, indem du einen eigenen VigLink-Account erstellst.',
+	'ACP_VIGLINK_API_KEY_INVALID'	=> '„%s“ ist kein gültiger API Schlüssel für VigLink Convert.',
+	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Die VigLink Dienste wurden von phpBB Limited deaktiviert.',
+	'ACP_VIGLINK_CLAIM'				=> 'Beanspruche deine Provisionen',
+	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Du kannst die in deinem Forum über VigLink generierten Provisionen beanspruchen, anstatt sie phpBB Limited zu überlassen. Um deine Accounteinstellungen zu verwalten, erstelle deinen eigenen „VigLink Convert“ Account, indem du auf „VigLink Convert-Account“ klickst',
+	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'VigLink Convert-Account',
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Der Account-Link von VigLink Convert konnte nicht abgerufen werden.'
 ));
