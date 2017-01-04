@@ -433,7 +433,7 @@ $lang = array_merge($lang, array(
 
 	'STATISTIC'					=> 'Statistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronisieren oder Statistiken zurücksetzen',
-	
+
 	'TIMEZONE_INVALID'	=> 'Die ausgewählte Zeitzone ist ungültig.',
 	'TIMEZONE_SELECTED'	=> '(derzeit ausgewählt)',
 	'TOPICS_PER_DAY'	=> 'Themen pro Tag',

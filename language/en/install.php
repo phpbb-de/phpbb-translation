@@ -213,7 +213,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_CONFIG'	=> 'E-mail configuration',
 
 	// Package info
-	'PACKAGE_VERSION'				=> 'Package version installed',
+	'PACKAGE_VERSION'					=> 'Package version installed',
 	'UPDATE_INCOMPLETE'				=> 'Your phpBB installation has not been correctly updated.',
 	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>

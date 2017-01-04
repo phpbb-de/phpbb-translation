@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Komandozeile starten.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Löscht die angegebene Erweiterung.',
-	
+
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Listet die Arten von Texten auf, die neu verarbeitet werden können.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Verarbeitet gespeicherte Texte mit dem aktuellen text_formatter-Dienst neu.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Text-Art die neu verarbeitet werden soll. Leer lassen, um alles neu zu verarbeiten.',
@@ -78,6 +78,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Höchste Eintrags-ID, die verarbeitet wird',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschätzte Zahl von Einträgen, die in einem Durchgang verarbeitet werden',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Startet die Verarbeitung dort, wo die letzte Ausführung endete',
+
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Berechnet die Einträge im Feld user_email_hash der Benutzer-Tabelle neu.',
 
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Legt den Wert für eine Konfigurations-Einstellung fest, wenn die derzeitige Einstellung dem angegebenen Vergleichswert entspricht',
