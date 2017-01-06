@@ -49,10 +49,10 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Aktiviert die Verwendung des VigLink-Dienstes.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Beanspruche deine eigenen Provisionen (optional)',
 	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Du kannst die durch dein Forum generierten Provisionen selbst beanspruchen, indem du einen eigenen VigLink-Account erstellst.',
-	'ACP_VIGLINK_API_KEY_INVALID'	=> '„%s“ ist kein gültiger API Schlüssel für VigLink Convert.',
-	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Die VigLink Dienste wurden von phpBB Limited deaktiviert.',
+	'ACP_VIGLINK_API_KEY_INVALID'	=> '„%s“ ist kein gültiger API-Schlüssel für VigLink Convert.',
+	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Die VigLink-Dienste wurden von phpBB Limited deaktiviert.',
 	'ACP_VIGLINK_CLAIM'				=> 'Beanspruche deine Provisionen',
-	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Du kannst die in deinem Forum über VigLink generierten Provisionen beanspruchen, anstatt sie phpBB Limited zu überlassen. Um deine Accounteinstellungen zu verwalten, erstelle deinen eigenen „VigLink Convert“ Account, indem du auf „VigLink Convert-Account“ klickst',
+	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Du kannst die in deinem Forum über VigLink generierten Provisionen selbst beanspruchen, anstatt sie phpBB Limited zu überlassen. Um deine Accounteinstellungen zu verwalten, erstelle deinen eigenen „VigLink Convert“ Account, indem du auf „VigLink Convert-Account“ klickst.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'VigLink Convert-Account',
 	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Der Account-Link von VigLink Convert konnte nicht abgerufen werden.'
 ));
