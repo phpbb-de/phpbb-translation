@@ -38,18 +38,16 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK'					=> 'VigLink',
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink settings',
-	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink is a non-invasive third-party service that will monetise existing links posted by users of your forum. When visitors click on those existing links and perform certain actions, such as shopping, the merchants pay VigLink a commission, of which a share is donated to the phpBB project. By agreeing to enable VigLink and donating proceeds to the phpBB project, you are supporting our open source organisation and ensuring our continued financial security.',
-	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'You can change these settings at any time in VigLink settings panel.',
+	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink is third-party service that discretely monetises links posted by users of your forum without any change to the user experience. When users click on your outbound links to products or services and buy something, the merchants pay VigLink a commission, of which a share is donated to the phpBB project. By choosing to enable VigLink and donating proceeds to the phpBB project, you are supporting our open source organisation and ensuring our continued financial security.',
+	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'You can change these settings at any time in the “<a href="%1$s">VigLink settings</a>” panel.',
 	'ACP_VIGLINK_ENABLE'			=> 'Enable VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Enables use of VigLink services.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Claim your own earnings (optional)',
-	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'You can claim your own earnings by signing up for a VigLink account.',
-	'ACP_VIGLINK_API_KEY_INVALID'	=> '“%s” is not a valid VigLink Convert API key.',
+	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'You can claim your own earnings by signing up for a VigLink Convert account.',
 	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'VigLink services have been disabled by phpBB.',
 	'ACP_VIGLINK_CLAIM'				=> 'Claim your earnings',
-	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'You can claim your forum’s earnings from VigLink monetised links, instead of allowing the earnings to go to the phpBB project. To manage your account settings, sign up for a “VigLink Convert” account by clicking on “Convert account”',
+	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'You can claim your forum’s earnings from VigLink monetised links, instead of donating the earnings to the phpBB project. To manage your account settings, sign up for a “VigLink Convert” account by clicking on “Convert account”.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Convert account',
 	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'VigLink convert account link could not be retrieved.'
 ));
