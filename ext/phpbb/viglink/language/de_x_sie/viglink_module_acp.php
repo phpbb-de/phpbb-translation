@@ -41,15 +41,13 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK'					=> 'VigLink',
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink-Einstellungen',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink ist ein externer Affiliate-Dienst, der Provisionen aus Links generiert, die Benutzer in Ihrem Forum erstellen. Dazu werden die Links von VigLink um Tracking-Informationen ergänzt, ohne dass sich für den Benutzer beim Aufruf des Links etwas ändert (VigLink Convert). Wenn Besucher auf der Ziel-Website zum Beispiel Waren oder Dienstleistungen einkaufen, dann zahlen einige Händler VigLink eine Provision. Hiervon wird ein Anteil an das phpBB-Projekt weitergegeben. Indem Sie der Verwendung von VigLink und der Weitergabe der Provision an phpBB Limited zustimmen, unterstützen Sie das Open-Source-Projekt und tragen zu seiner finanziellen Absicherung bei.',
-	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Sie können diese Einstellungen jederzeit in den VigLink-Einstellungen ändern.',
+	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Sie können diese Einstellungen jederzeit in den „<a href="%1$s">VigLink-Einstellungen</a>“ ändern.',
 	'ACP_VIGLINK_ENABLE'			=> 'VigLink aktivieren',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Aktiviert die Verwendung des VigLink-Dienstes.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Beanspruchen Sie Ihre eigenen Provisionen (optional)',
-	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Sie können die durch Ihr Forum generierten Provisionen selbst beanspruchen, indem Sie einen eigenen VigLink-Account erstellen.',
-	'ACP_VIGLINK_API_KEY_INVALID'	=> '„%s“ ist kein gültiger API-Schlüssel für VigLink Convert.',
+	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Sie können die durch Ihr Forum generierten Provisionen selbst beanspruchen, indem Sie einen eigenen VigLink Convert-Account erstellen.',
 	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Die VigLink-Dienste wurden von phpBB Limited deaktiviert.',
 	'ACP_VIGLINK_CLAIM'				=> 'Beanspruchen Sie Ihre Provisionen',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Sie können die in Ihrem Forum über VigLink generierten Provisionen selbst beanspruchen, anstatt sie phpBB Limited zu überlassen. Um Ihre Accounteinstellungen zu verwalten, erstellen Sie Ihren eigenen „VigLink Convert“ Account, indem Sie auf „VigLink Convert-Account“ klicken.',
