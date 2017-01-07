@@ -181,6 +181,9 @@ $lang = array_merge($lang, array(
 	'CONTACT'				=> 'Kontaktdaten',
 	'CONTACT_USER'			=> 'Kontaktdaten von %s', // TODO: Verwendung prüfen
 	'CONTACT_US'			=> 'Kontakt',
+	'COOKIE_CONSENT_INFO'	=> 'Mehr erfahren',
+	'COOKIE_CONSENT_MSG'	=> 'Diese Website nutzt Cookies, um Ihnen den bestmöglichen Komfort bei der Nutzung zu bieten.',
+	'COOKIE_CONSENT_OK'		=> 'Verstanden!',
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 
@@ -345,6 +348,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Interessen',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Ungültiger Digest Challenge.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> ist vermutlich eine ungültige E-Mail-Adresse.',
+	'INVALID_FEED_ATTACHMENTS'	=> 'Der ausgewählte Feed versuchte Anhänge mit ungültigen Parametern abzurufen.',
 	'INVALID_PLURAL_RULE'		=> 'Die ausgewählte Plural-Regel ist ungültig. Zulässig sind ganzzahlige Werte von 0 bis 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Ihre IP-Adresse %1$s wurde gesperrt, da sie auf der schwarzen Liste steht. Details finden Sie unter <a href="%2$s">%2$s</a>.',

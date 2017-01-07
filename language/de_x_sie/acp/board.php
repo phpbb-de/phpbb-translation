@@ -353,6 +353,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Cookie-Domain',
 	'COOKIE_NAME'				=> 'Cookie-Name',
+	'COOKIE_NOTICE'				=> 'Cookie-Hinweis',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Wenn aktiviert, wird den Besuchern Ihres Boards ein Cookie-Hinweis angezeigt. Dies kann abhängig der in Ihrem Land geltenden rechtlichen Regelungen, des Inhalts Ihres Boards und der aktivierten Erweiterungen notwendig sein.',
 	'COOKIE_PATH'				=> 'Cookie-Pfad',
 	'COOKIE_SECURE'				=> 'Sicherer Server',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Falls Ihr Server über SSL läuft, aktivieren Sie diese Option, ansonsten lassen Sie sie deaktiviert. Wenn diese Option aktiviert ist, obwohl der Server nicht über SSL aufgerufen wird, können Fehler bei der Weiterleitung auftreten.',
