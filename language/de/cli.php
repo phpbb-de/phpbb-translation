@@ -71,6 +71,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Löscht die angegebene Erweiterung.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Listet die Arten von Texten auf, die neu verarbeitet werden können.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Verfügbare Verarbeitungs-Routinen:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Verarbeitet gespeicherte Texte mit dem aktuellen text_formatter-Dienst neu.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Text-Art die neu verarbeitet werden soll. Leer lassen, um alles neu zu verarbeiten.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Keine Änderungen speichern; nur ausgeben, was passieren würde',
