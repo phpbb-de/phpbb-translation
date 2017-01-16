@@ -1,4 +1,12 @@
 {
+	"name": "phpbb-de/phpbb-translation",
+	"description": "German Translation of phpBB",
+	"type": "project",
+	"homepage": "https://github.com/phpbb-de/phpbb-translation",
+	"version": "3.1.11-dev",
+	"time": "2017-01-16",
+	"license": "GPL-2.0",
+
 	"require-dev": {
 		"phing/phing": "2.7.*",
 		"phpbb/translation-validator": "1.3.*"

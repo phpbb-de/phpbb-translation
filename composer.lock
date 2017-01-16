@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3ead757fedb2bfd7e3ffe7ac1525d26",
-    "content-hash": "e180d1e76be7a273837ba73b6b5586a0",
+    "hash": "019bd9e3992537eb6ee2904491b6932f",
+    "content-hash": "d8cacc72dd47cb5474b815332b4444eb",
     "packages": [],
     "packages-dev": [
         {
@@ -44,7 +44,8 @@
             "authors": [
                 {
                     "name": "Michiel Rook",
-                    "email": "mrook@php.net"
+                    "email": "mrook@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Phing Community",
@@ -62,16 +63,16 @@
         },
         {
             "name": "phpbb/translation-validator",
-            "version": "1.3.9",
+            "version": "1.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbb/phpbb-translation-validator.git",
-                "reference": "59df1be0536f297255455aa96621fbe307bbb4eb"
+                "reference": "dee7d51d4bc93876d92e5651cd1b608f19a2a03d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/59df1be0536f297255455aa96621fbe307bbb4eb",
-                "reference": "59df1be0536f297255455aa96621fbe307bbb4eb",
+                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/dee7d51d4bc93876d92e5651cd1b608f19a2a03d",
+                "reference": "dee7d51d4bc93876d92e5651cd1b608f19a2a03d",
                 "shasum": ""
             },
             "require": {
@@ -106,11 +107,11 @@
             ],
             "description": "A language package validator for phpBB language packs. Language packs are required to pass the validator when submitted to the language pack database.",
             "homepage": "https://github.com/phpbb/phpbb-translation-validator",
-            "time": "2015-11-28 11:21:17"
+            "time": "2017-01-04 23:07:21"
         },
         {
             "name": "symfony/console",
-            "version": "v2.6.12",
+            "version": "v2.6.13",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
@@ -168,7 +169,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.6.12",
+            "version": "v2.6.13",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
@@ -218,7 +219,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.6.12",
+            "version": "v2.6.13",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
