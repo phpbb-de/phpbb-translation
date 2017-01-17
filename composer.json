@@ -3,8 +3,6 @@
 	"description": "German Translation of phpBB",
 	"type": "phpbb-language",
 	"homepage": "https://github.com/phpbb-de/phpbb-translation",
-	"version": "3.1.11-dev",
-	"time": "2017-01-16",
 	"license": "GPL-2.0",
 
 	"require-dev": {
