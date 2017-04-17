@@ -1,0 +1,19 @@
+*Missing subject in line 1*
+
+Hello *{TEMPLATE_VAR_DOES_NOT_EXIST}*,
+
+The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+
+Use this link to view the user's profile:
+{U_USER_DETAILS}
+
+<!-- IF AUTHOR_NAME -->Allow Template Syntax<!-- ENDIF --> 
+
+Use this link to activate the account:
+{U_ACTIVATE*NOT_USING_NORMAL_VAR*}
+
+<a href="localhost">Haxxor translator adds a URL and HTML to the Email</a>
+
+{EMAIL_SIG}
+
+*Email Sig not at the end, and no new Line at End*

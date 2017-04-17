@@ -1,0 +1,5 @@
+<?php
+
+$foobar = array(
+	'aber',
+);
