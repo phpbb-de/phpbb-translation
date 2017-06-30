@@ -597,7 +597,7 @@ $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier kannst du die Nutzung von <a href="http://de.wikipedia.org/wiki/Jabber">Jabber</a> für Instant Messages und Benachrichtigungen des Boards aktivieren und kontrollieren. Jabber ist ein OpenSource-Protokoll und daher für jeden verfügbar. Einige Jabber-Server nutzen Gateways oder Transport-Dienste, die es dir erlauben, Benutzer anderer Netzwerke zu kontaktieren. Nicht alle Server bieten alle Transport-Dienste an, und Änderungen an den Protokollen können Transport-Dienste am Funktionieren hindern. Stelle sicher, dass du die korrekten Daten eines bereits registrierten Jabber-Kontos eingibst — phpBB verwendet die Daten so, wie sie hier eingegeben sind.',
 
 	'JAB_ALLOW_SELF_SIGNED'			=> 'Erlaube selbst signierte SSL Zertifikate',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber Servern mit selbst signiertem SSL Zertifikat. <em><strong>Warnung:</strong> Das Erlauben von selbst signierten SSL Zertifikaten kann die Sicherheit beeinträchtigen.',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber Servern mit selbst signiertem SSL Zertifikat. <em><strong>Warnung:</strong></em> Das Erlauben von selbst signierten SSL Zertifikaten kann die Sicherheit beeinträchtigen.',
 	'JAB_ENABLE'					=> 'Jabber aktivieren',
 	'JAB_ENABLE_EXPLAIN'			=> 'Aktiviert die Nutzung von Jabber-Nachrichten und -Benachrichtigungen.',
 	'JAB_GTALK_NOTE'				=> 'Beachte, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht gefunden werden konnte. Diese Funktion ist in PHP 4 nicht verfügbar und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
@@ -615,7 +615,7 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'					=> 'Jabber-Benutzername oder JID',
 	'JAB_USERNAME_EXPLAIN'			=> 'Gib einen bereits registrierten Benutzernamen oder eine gültige JID an. Der Benutzername wird nicht auf Gültigkeit geprüft. Wenn du nur einen Benutzernamen angibst, wird die JID aus dem Benutzernamen und dem oben festgelegten Server ermittelt. Gebe ansonsten eine gültige JID wie <samp>user@jabber.org</samp> ein.',
 	'JAB_VERIFY_PEER'				=> 'Verifiziere SSL Zertifikat',
-	+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Erfordere die Verifizierung von SSL Zertifikaten, die vom Jabber Server verwendet werden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
-	+	'JAB_VERIFY_PEER_NAME'			=> 'Verifiziere Jabber Server-Namen',
-	+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erfordere die Verifizierung des Server-Namens für Jabber Server, die SSL / TLS Verbindungen verwenden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten Server-Namen kann die Sicherheit beeinträchtigen.</em>',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Erfordere die Verifizierung von SSL Zertifikaten, die vom Jabber Server verwendet werden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Verifiziere Jabber Server-Namen',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erfordere die Verifizierung des Server-Namens für Jabber Server, die SSL / TLS Verbindungen verwenden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten Server-Namen kann die Sicherheit beeinträchtigen.</em>',
 ));
