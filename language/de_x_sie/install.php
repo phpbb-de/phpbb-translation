@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Daten werden aktualisiert',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Die Datenbank wird auf die neueste Version aktualisiert',
 	'UPDATED_VERSION'				=> 'Aktualisierte Version',
-	'UPGRADE_INSTRUCTIONS'			=> 'Ein neues Feature Release  <strong>%1$s</strong> ist verfügbar. Bitte lesen Sie <a href="%2$s" title="%2$s"><strong>die Release Ankündigung</strong></a> um die Neuerungen zu erfahren und eine Anleitung zum Upgrade zu erhalten.',
+	'UPGRADE_INSTRUCTIONS'			=> 'Ein neues Feature Release <strong>%1$s</strong> ist verfügbar. Bitte lesen Sie <a href="%2$s" title="%2$s"><strong>die Release Ankündigung</strong></a> um die Neuerungen zu erfahren und eine Anleitung zum Upgrade zu erhalten.',
 	'UPLOAD_METHOD'					=> 'Upload-Methode',
 
 	'UPDATE_DB_SUCCESS'				=> 'Das Update der Datenbank war erfolgreich.',

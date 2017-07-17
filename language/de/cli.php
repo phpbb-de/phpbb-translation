@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Berechnet die Einträge im Feld user_email_hash der Benutzer-Tabelle neu.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Legt den Wert für eine Konfigurations-Einstellung fest, wenn die derzeitige Einstellung dem angegebenen Vergleichswert entspricht',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Legt den Wert für eine Konfigurations-Einstellung fest',
-	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Hasht veraltete Passwort-Hashes mit bcrypt und aktualisiert diese beim nächsten Login.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Hasht veraltete Passwort-Hashes mit bcrypt.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Konnte Erweiterung %s nicht deaktivieren',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Erweiterung %s erfolgreich deaktiviert',
