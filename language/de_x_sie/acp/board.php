@@ -564,8 +564,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Dieser Text wird an alle E-Mails angehängt, die das Board versendet.',
 	'ENABLE_EMAIL'					=> 'Aktiviere E-Mail-Funktionalität',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Wenn eine Bestätigung der Registrierung durch den Benutzer oder einen Adminstrator erforderlich sein soll, darf diese Option nicht deaktiviert sein. Ansonsten ist keine Registrierung möglich.</em>',
-	'SMTP_ALLOW_SELF_SIGNED'		=> 'Selbst signierte SSL-Zertifikate erlauben',
-	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Erlaube Verbindungen zu einem SMTP-Server mit einem selbst signierten SSL-Zertifikat. <em><strong>Warnung:</strong> Das Erlauben von selbst signierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Selbstsignierte SSL-Zertifikate erlauben',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Erlaube Verbindungen zu einem SMTP-Server mit einem selbstsignierten SSL-Zertifikat. <em><strong>Warnung:</strong> Das Erlauben von selbstsignierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Authentifizierungsmethode für SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Nur benötigt, wenn ein Benutzername/Passwort eingegeben ist. Fragen Sie Ihren Webhosting-Provider, falls Sie nicht sicher sind, welche Methode Sie wählen sollen.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -595,8 +595,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier können Sie die Nutzung von <a href="http://de.wikipedia.org/wiki/Jabber">Jabber</a> für Instant Messages und Benachrichtigungen des Boards aktivieren und kontrollieren. Jabber ist ein OpenSource-Protokoll und daher für jeden verfügbar. Einige Jabber-Server nutzen Gateways oder Transport-Dienste, die es Ihnen erlauben, Benutzer anderer Netzwerke zu kontaktieren. Nicht alle Server bieten alle Transport-Dienste an, und Änderungen an den Protokollen können Transport-Dienste am Funktionieren hindern. Stellen Sie sicher, dass Sie die korrekten Daten eines bereits registrierten Jabber-Kontos eingeben — phpBB verwendet die Daten so, wie sie hier eingegeben sind.',
 
-	'JAB_ALLOW_SELF_SIGNED'			=> 'Selbst signierte SSL-Zertifikate erlauben',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber Servern mit selbst signiertem SSL-Zertifikat. <em><strong>Warnung:</strong></em> Das Erlauben von selbst signierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.',
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Selbstsignierte SSL-Zertifikate erlauben',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber Servern mit selbstsigniertem SSL-Zertifikat. <em><strong>Warnung:</strong></em> Das Erlauben von selbstsignierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.',
 	'JAB_ENABLE'				=> 'Jabber aktivieren',
 	'JAB_ENABLE_EXPLAIN'		=> 'Aktiviert die Nutzung von Jabber-Nachrichten und -Benachrichtigungen.',
 	'JAB_GTALK_NOTE'			=> 'Beachten Sie, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht gefunden werden konnte. Diese Funktion ist in PHP 4 nicht verfügbar und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
