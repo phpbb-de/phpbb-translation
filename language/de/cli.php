@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Deaktiviert die angegebene Erweiterung.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Aktiviert die angegebene Erweiterung.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Findet Migrationen, die von keinen anderen Migrationen vorausgesetzt werden.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Repariert die Baumstruktur der Foren und Module.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Gibt den Wert einer Konfigurations-Einstellung aus',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Erhöht den ganzzahligen Wert einer Konfigurations-Einstellung',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Gibt alle in der Datenbank und im Dateisystem vorhandenen Erweiterungen aus.',
@@ -94,6 +95,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Führt den Befehl („check“) auf Basis der im Cache gespeicherten Informationen aus.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Nur auf produktive ("stable") oder vorläufige Versionen ("unstable") prüfen.',
 
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Hasht veraltete Passwort-Hashes mit bcrypt.',
+
 	'CLI_ERROR_INVALID_STABILITY' => '„%s“ ist keine gültige Stabilität.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktiviert (oder deaktiviert) ein Benutzerkonto.',
@@ -125,7 +128,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Deaktiviert',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Aktiviert',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Die Baumstruktur der Foren und Module wurde erfolgreich repariert.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle E-Mail-Hashes wurden erfolgreich neu ermittelt.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Die veralteten Passwort-Hashes wurden erfolgreich auf bcrypt aktualisiert.',
 
 	'CLI_MIGRATION_NAME'					=> 'Name der Migration inkl. Namesraum (Schrägstriche statt Backslashes verwenden, um Probleme zu vermeiden).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Verfügbare Migrationen',
