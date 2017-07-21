@@ -340,6 +340,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Interessen',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Ungültiger Digest Challenge.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> ist vermutlich eine ungültige E-Mail-Adresse.',
+	'INVALID_FEED_ATTACHMENTS'	=> 'Der ausgewählte Feed hat versucht, Anhänge mit ungültigen Einschränkungen zu laden.',
 	'INVALID_PLURAL_RULE'		=> 'Die ausgewählte Plural-Regel ist ungültig. Zulässig sind ganzzahlige Werte von 0 bis 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Ihre IP-Adresse %1$s wurde gesperrt, da sie auf der schwarzen Liste steht. Details finden Sie unter <a href="%2$s">%2$s</a>.',

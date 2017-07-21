@@ -351,8 +351,11 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Hier legen Sie die Einstellungen fest, die verwendet werden, um Cookies an die Browser Ihrer Benutzer zu senden. In den meisten Fällen sollten die Standardwerte ausreichend sein. Führe Änderungen mit Bedacht durch, fehlerhafte Einstellungen könnten Ihre Benutzer daran hindern, sich anzumelden.',
 
 	'COOKIE_DOMAIN'				=> 'Cookie-Domain',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'In den meisten Fällen ist die Cookie-Domain optional. Lassen Sie diese leer, wenn Sie sich unsicher sind.<br /><br /> Falls Sie Ihr Board mit anderer Software integriert haben oder mehrere Domains verwenden, dann können Sie die benötigte Cookie-Domain wie folgt bestimmen: Falls Sie Domainkombinationen wie <i>example.com</i> und <i>forums.example.com</i> oder auch <i>forums.example.com</i> und <i>blog.example.com</i> verwenden, dann entfernen Sie die Subdomains, bis Sie den gemeinsamen Domainteil gefunden haben; in diesem Beispiel <i>example.com</i>. Nun fügen Sie einen Punkt vor den gemeinsamen Domain-Namen und tragen diesen in das Feld ein. In unserem Beispiel würden Sie also <i>.example.com</i> einfügen (beachten Sie den Punkt am Anfang).',
 	'COOKIE_NAME'				=> 'Cookie-Name',
+	'COOKIE_NAME_EXPLAIN'		=> 'Dies kann ein beliebiger Wert sein, z.&nbsp;B. eine zufällige Buchstabenkombination. Wenn die übrigen Cookie Einstellungen geändert werden, sollte der Cookie-Name ebenfalls geändert werden.',
 	'COOKIE_PATH'				=> 'Cookie-Pfad',
+	'COOKIE_PATH_EXPLAIN'		=> 'Beachten Sie, dass dies immer ein Slash (/) ist, egal wie Ihre Board-URL aussieht.',
 	'COOKIE_SECURE'				=> 'Sicherer Server',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Falls Ihr Server über SSL läuft, aktivieren Sie diese Option, ansonsten lassen Sie sie deaktiviert. Wenn diese Option aktiviert ist, obwohl der Server nicht über SSL aufgerufen wird, können Fehler bei der Weiterleitung auftreten.',
 	'ONLINE_LENGTH'				=> 'Zeitspanne für die Online-Anzeige',
@@ -535,7 +538,7 @@ $lang = array_merge($lang, array(
 	'REF_PATH'						=> 'Prüfe auch den Skript-Pfad',
 	'REFERRER_VALID'				=> 'Referrer prüfen',
 	'REFERRER_VALID_EXPLAIN'		=> 'Wenn aktiviert, wird der Referrer von POST-Anfragen gegen die Einstellungen des Hostnamen/Skript-Pfads geprüft. Dies kann bei Boards zu Problemen führen, die mehrere Domains oder eine externe Anmeldung nutzen.',
-	'TPL_ALLOW_PHP'					=> 'Erlaube PHP in Templates',
+	'TPL_ALLOW_PHP'					=> 'PHP in Templates erlauben',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Wenn diese Option eingeschaltet ist, werden <code>PHP</code>- und <code>INCLUDEPHP</code>-Anweisungen in Templates erkannt und ausgeführt.',
 ));
 
@@ -561,6 +564,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Dieser Text wird an alle E-Mails angehängt, die das Board versendet.',
 	'ENABLE_EMAIL'					=> 'Aktiviere E-Mail-Funktionalität',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Wenn dies deaktiviert ist, werden keinerlei E-Mails vom Board versendet. <em>Wenn eine Bestätigung der Registrierung durch den Benutzer oder einen Adminstrator erforderlich sein soll, darf diese Option nicht deaktiviert sein. Ansonsten ist keine Registrierung möglich.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Selbstsignierte SSL-Zertifikate erlauben',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Erlaube Verbindungen zu einem SMTP-Server mit einem selbstsignierten SSL-Zertifikat. <em><strong>Warnung:</strong> Das Erlauben von selbstsignierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Authentifizierungsmethode für SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Nur benötigt, wenn ein Benutzername/Passwort eingegeben ist. Fragen Sie Ihren Webhosting-Provider, falls Sie nicht sicher sind, welche Methode Sie wählen sollen.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -577,6 +582,11 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-Einstellungen',
 	'SMTP_USERNAME'					=> 'SMTP-Benutzername',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Geben Sie nur einen Benutzernamen ein, wenn Ihr SMTP-Server dies erfordert.',
+	'SMTP_VERIFY_PEER'				=> 'Verifiziere SSL-Zertifikat',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Erzwinge eine Verifizierung des SSL-Zertifikats, das vom SMTP-Server verwendet wird. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Verifiziere Namen des SMTP-Servers',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erzwinge eine Verifizierung des Namens des SMTP-Servers, falls eine SSL / TLS Verbindung verwendet wird. <em><strong>Warnung:</strong> Die Verbindung zu unverifizierten Servern kann die Sicherheit beeinträchtigen.</em>',
+
 	'USE_SMTP'						=> 'SMTP-Server für E-Mail nutzen',
 	'USE_SMTP_EXPLAIN'				=> 'Wählen Sie „Ja“ aus, wenn Sie E-Mails über einen SMTP-Server senden möchten (oder müssen), anstatt die PHP-eigene Mail-Funktion zu nutzen.',
 ));
@@ -585,9 +595,11 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier können Sie die Nutzung von <a href="http://de.wikipedia.org/wiki/Jabber">Jabber</a> für Instant Messages und Benachrichtigungen des Boards aktivieren und kontrollieren. Jabber ist ein OpenSource-Protokoll und daher für jeden verfügbar. Einige Jabber-Server nutzen Gateways oder Transport-Dienste, die es Ihnen erlauben, Benutzer anderer Netzwerke zu kontaktieren. Nicht alle Server bieten alle Transport-Dienste an, und Änderungen an den Protokollen können Transport-Dienste am Funktionieren hindern. Stellen Sie sicher, dass Sie die korrekten Daten eines bereits registrierten Jabber-Kontos eingeben — phpBB verwendet die Daten so, wie sie hier eingegeben sind.',
 
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Selbstsignierte SSL-Zertifikate erlauben',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber-Servern mit selbstsigniertem SSL-Zertifikat. <em><strong>Warnung:</strong></em> Das Erlauben von selbstsignierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.',
 	'JAB_ENABLE'				=> 'Jabber aktivieren',
 	'JAB_ENABLE_EXPLAIN'		=> 'Aktiviert die Nutzung von Jabber-Nachrichten und -Benachrichtigungen.',
-	'JAB_GTALK_NOTE'			=> 'Beachten Sie, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht gefunden werden konnte. Diese Funktion ist in PHP 4 nicht verfügbar und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
+	'JAB_GTALK_NOTE'			=> 'Beachten Sie, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht verfügbar ist. Diese Funktion ist in PHP 4 nicht vorhanden und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
 	'JAB_PACKAGE_SIZE'			=> 'Jabber-Paketgröße',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Dies ist die Anzahl der Nachrichten, die in einem Paket gesendet werden. Die Nachrichten werden sofort versendet, wenn 0 als Wert eingestellt wird.',
 	'JAB_PASSWORD'				=> 'Jabber-Passwort',
@@ -601,4 +613,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> 'Wenn aktiviert, wird versucht, eine sichere Verbindung zu verwenden. Der Jabber-Port wird auf 5223 geändert, sofern Port 5222 angegeben ist.',
 	'JAB_USERNAME'				=> 'Jabber-Benutzername oder JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Geben Sie einen bereits registrierten Benutzernamen oder eine gültige JID an. Der Benutzername wird nicht auf Gültigkeit geprüft. Wenn Sie nur einen Benutzernamen angeben, wird die JID aus dem Benutzernamen und dem oben festgelegten Server ermittelt. Geben Sie ansonsten eine gültige JID wie <samp>user@jabber.org</samp> ein.',
+	'JAB_VERIFY_PEER'				=> 'Verifiziere SSL-Zertifikat',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Erzwinge die Verifizierung von SSL-Zertifikaten, die vom Jabber-Server verwendet werden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Verifiziere Namen des Jabber-Servers',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erzwinge die Verifizierung des Namens des Jabber-Servers, falls eine SSL / TLS Verbindung verwendet wird. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten Server-Namen kann die Sicherheit beeinträchtigen.</em>',
 ));
