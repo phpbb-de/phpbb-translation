@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Daten werden aktualisiert',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Die Datenbank wird auf die neueste Version aktualisiert',
 	'UPDATED_VERSION'				=> 'Aktualisierte Version',
-	'UPGRADE_INSTRUCTIONS'			=> 'Ein neues Feature Release <strong>%1$s</strong> ist verfügbar. Bitte lesen Sie <a href="%2$s" title="%2$s"><strong>die Release Ankündigung</strong></a> um die Neuerungen zu erfahren und eine Anleitung zum Upgrade zu erhalten.',
+	'UPGRADE_INSTRUCTIONS'			=> 'Ein neues Feature-Release <strong>%1$s</strong> ist verfügbar. Bitte lesen Sie <a href="%2$s" title="%2$s"><strong>die Release-Bekanntmachung</strong></a> um die Neuerungen zu erfahren und eine Anleitung zum Upgrade zu erhalten.',
 	'UPLOAD_METHOD'					=> 'Upload-Methode',
 
 	'UPDATE_DB_SUCCESS'				=> 'Das Update der Datenbank war erfolgreich.',
@@ -587,7 +587,7 @@ $lang = array_merge($lang, array(
 	'VERSION_CHECK'					=> 'Versionsprüfung',
 	'VERSION_CHECK_EXPLAIN'			=> 'Prüft, ob Ihre phpBB-Installation auf dem neuesten Stand ist.',
 	'VERSION_NOT_UP_TO_DATE'		=> 'Ihre phpBB-Version ist nicht auf dem neuesten Stand. Bitte fahren Sie mit der Aktualisierung fort.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Ihre phpBB-Version ist nicht auf dem neuesten Stand<br />Im Folgenden finden Sie einen Link zur Release-Ankündigung der neuesten Version, die weitere Informationen sowie Hinweise, wie Sie Ihre Version aktualisieren können, enthält.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Ihre phpBB-Version ist nicht auf dem neuesten Stand<br />Im Folgenden finden Sie einen Link zur Release-Bekanntmachung der neuesten Version, die weitere Informationen sowie Hinweise, wie Sie Ihre Version aktualisieren können, enthält.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Ihre phpBB-Version ist nicht auf dem neuesten Stand.',
 	'VERSION_UP_TO_DATE'			=> 'Ihre phpBB-Installation ist auf dem neuesten Stand. Obwohl keine Updates zur Verfügung stehen, können Sie fortfahren, um die Dateien auf Gültigkeit zu überprüfen.',
 	'VERSION_UP_TO_DATE_ACP'		=> 'Ihre phpBB-Installation ist auf dem neuesten Stand. Es stehen keine Updates zur Verfügung.',

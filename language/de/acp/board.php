@@ -351,10 +351,10 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Hier legst du die Einstellungen fest, die verwendet werden, um Cookies an die Browser deiner Benutzer zu senden. In den meisten Fällen sollten die Standardwerte ausreichend sein. Führe Änderungen mit Bedacht durch, fehlerhafte Einstellungen könnten deine Benutzer daran hindern, sich anzumelden. Wenn du Probleme mit Benutzern hast, die nicht angemeldet bleiben, besuche die <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b> (<a href="https://www.phpbb.de/go/cookie-settings/" rel="external">Deutschsprachiger Artikel</a>).',
 
 	'COOKIE_DOMAIN'				=> 'Cookie-Domain',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'In den meisten Fällen ist die Cookie-Domain optional. Lasse diese leer, wenn du dir unsicher bist.<br /><br /> Falls du dein Board mit anderer Software integriert hast oder mehrere Domains verwendest, dann kannst du die benötigte Cookie-Domain wie folgt bestimmen: Falls du Domainkombinationen wie <i>example.com</i> und <i>forums.example.com</i> oder auch <i>forums.example.com</i> und <i>blog.example.com</i> verwendest, dann entferne die Subdomains bis du den gemeinsamen Domainteil gefunden hast, in diesem Beispiel <i>example.com</i>. Nun füge einen Punkt vor den gemeinsamen Domain-Namen und füge diesen in das Feld ein. In unserem Beispiel würdest du also <i>.example.com</i> einfügen (beachte den Punkt am Anfang).',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'In den meisten Fällen ist die Cookie-Domain optional. Lasse diese leer, wenn du dir unsicher bist.<br /><br /> Falls du dein Board mit anderer Software integriert hast oder mehrere Domains verwendest, dann kannst du die benötigte Cookie-Domain wie folgt bestimmen: Falls du Domainkombinationen wie <i>example.com</i> und <i>forums.example.com</i> oder auch <i>forums.example.com</i> und <i>blog.example.com</i> verwendest, dann entferne die Subdomains, bis du den gemeinsamen Domainteil gefunden hast; in diesem Beispiel <i>example.com</i>. Nun füge einen Punkt vor den gemeinsamen Domain-Namen und trage diesen in das Feld ein. In unserem Beispiel würdest du also <i>.example.com</i> einfügen (beachte den Punkt am Anfang).',
 
 	'COOKIE_NAME'				=> 'Cookie-Name',
-	'COOKIE_NAME_EXPLAIN'		=> 'Dies kann ein beliebiger Wert sein, z.&nbsp;B. eine zufällige Buchstabenkombination. Wenn die übrigen Cookie Einstellungen geändert werden sollte der Cookie-Name ebenfalls geändert werden.',
+	'COOKIE_NAME_EXPLAIN'		=> 'Dies kann ein beliebiger Wert sein, z.&nbsp;B. eine zufällige Buchstabenkombination. Wenn die übrigen Cookie Einstellungen geändert werden, sollte der Cookie-Name ebenfalls geändert werden.',
 	'COOKIE_PATH'				=> 'Cookie-Pfad',
 	'COOKIE_PATH_EXPLAIN'		=> 'Beachte, dass dies immer ein Slash (/) ist, egal wie deine Board-URL aussieht.',
 	'COOKIE_SECURE'				=> 'Sicherer Server',
@@ -586,7 +586,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER'				=> 'Verifiziere SSL-Zertifikat',
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Erzwinge eine Verifizierung des SSL-Zertifikats, das vom SMTP-Server verwendet wird. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'Verifiziere Namen des SMTP-Servers',
-	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erzwinge eine Verifizierung des Namens des SMTP-Servers, falls eine SSL / TLS Verbindung verwendet wird. <em><strong>Warnung:</strong> Verbindung zu unverifizierten Servern kann die Sicherheit beeinträchtigen.</em>',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erzwinge eine Verifizierung des Namens des SMTP-Servers, falls eine SSL / TLS Verbindung verwendet wird. <em><strong>Warnung:</strong> Die Verbindung zu unverifizierten Servern kann die Sicherheit beeinträchtigen.</em>',
 
 	'USE_SMTP'						=> 'SMTP-Server für E-Mail nutzen',
 	'USE_SMTP_EXPLAIN'				=> 'Wähle „Ja“ aus, wenn du E-Mails über einen SMTP-Server senden möchtest (oder musst), anstatt die PHP-eigene Mail-Funktion zu nutzen.',
@@ -597,10 +597,10 @@ $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier kannst du die Nutzung von <a href="http://de.wikipedia.org/wiki/Jabber">Jabber</a> für Instant Messages und Benachrichtigungen des Boards aktivieren und kontrollieren. Jabber ist ein OpenSource-Protokoll und daher für jeden verfügbar. Einige Jabber-Server nutzen Gateways oder Transport-Dienste, die es dir erlauben, Benutzer anderer Netzwerke zu kontaktieren. Nicht alle Server bieten alle Transport-Dienste an, und Änderungen an den Protokollen können Transport-Dienste am Funktionieren hindern. Stelle sicher, dass du die korrekten Daten eines bereits registrierten Jabber-Kontos eingibst — phpBB verwendet die Daten so, wie sie hier eingegeben sind.',
 
 	'JAB_ALLOW_SELF_SIGNED'			=> 'Selbstsignierte SSL-Zertifikate erlauben',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber Servern mit selbstsigniertem SSL-Zertifikat. <em><strong>Warnung:</strong></em> Das Erlauben von selbstsignierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN' => 'Erlaube Verbindungen zu Jabber-Servern mit selbstsigniertem SSL-Zertifikat. <em><strong>Warnung:</strong></em> Das Erlauben von selbstsignierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.',
 	'JAB_ENABLE'					=> 'Jabber aktivieren',
 	'JAB_ENABLE_EXPLAIN'			=> 'Aktiviert die Nutzung von Jabber-Nachrichten und -Benachrichtigungen.',
-	'JAB_GTALK_NOTE'				=> 'Beachte, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht gefunden werden konnte. Diese Funktion ist in PHP 4 nicht verfügbar und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
+	'JAB_GTALK_NOTE'				=> 'Beachte, dass GTalk nicht funktionieren wird, da die <samp>dns_get_record</samp>-Funktion nicht verfügbar ist. Diese Funktion ist in PHP 4 nicht vorhanden und nicht in Windows-Plattformen implementiert. Sie funktioniert im Moment nicht auf BSD-basierten Systemen inklusive Mac OS.',
 	'JAB_PACKAGE_SIZE'				=> 'Jabber-Paketgröße',
 	'JAB_PACKAGE_SIZE_EXPLAIN'		=> 'Dies ist die Anzahl der Nachrichten, die in einem Paket gesendet werden. Die Nachrichten werden sofort versendet, wenn 0 als Wert eingestellt wird.',
 	'JAB_PASSWORD'					=> 'Jabber-Passwort',
@@ -615,7 +615,7 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'					=> 'Jabber-Benutzername oder JID',
 	'JAB_USERNAME_EXPLAIN'			=> 'Gib einen bereits registrierten Benutzernamen oder eine gültige JID an. Der Benutzername wird nicht auf Gültigkeit geprüft. Wenn du nur einen Benutzernamen angibst, wird die JID aus dem Benutzernamen und dem oben festgelegten Server ermittelt. Gebe ansonsten eine gültige JID wie <samp>user@jabber.org</samp> ein.',
 	'JAB_VERIFY_PEER'				=> 'Verifiziere SSL-Zertifikat',
-	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Erzwinge die Verifizierung von SSL-Zertifikaten, die vom Jabber Server verwendet werden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Erzwinge die Verifizierung von SSL-Zertifikaten, die vom Jabber-Server verwendet werden. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
 	'JAB_VERIFY_PEER_NAME'			=> 'Verifiziere Namen des Jabber-Servers',
 	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erzwinge die Verifizierung des Namens des Jabber-Servers, falls eine SSL / TLS Verbindung verwendet wird. <em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten Server-Namen kann die Sicherheit beeinträchtigen.</em>',
 ));
