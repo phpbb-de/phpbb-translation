@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Hasht veraltete Passwort-Hashes mit bcrypt.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" ist keine gültige Stabilität.',
+	'CLI_ERROR_INVALID_STABILITY' => 'Für "%s" muss „stable“ oder „unstable“ eingetragen werden.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktiviert (oder deaktiviert) ein Benutzerkonto.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Benutzername des Kontos, das aktiviert werden soll.',
@@ -116,8 +116,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Konnte Erweiterung %s nicht deaktivieren',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Erweiterung %s erfolgreich deaktiviert',
+	'CLI_EXTENSION_DISABLED'			=> 'Extension %s ist nicht aktiviert',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Konnte Erweiterung %s nicht aktivieren',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Erweiterung %s erfolgreich aktiviert',
+	'CLI_EXTENSION_ENABLED'				=> 'Extension %s ist bereits aktiviert',
 	'CLI_EXTENSION_NAME'				=> 'Name der Erweiterung',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Konnte Arbeitsdaten der Erweiterung %s nicht löschen',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Arbeitsdaten der Erweiterung %s erfolgreich gelöscht',

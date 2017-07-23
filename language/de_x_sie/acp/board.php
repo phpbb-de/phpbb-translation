@@ -164,6 +164,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Hier können Sie alle Standard-Einstellungen für Beiträge vornehmen.',
 	'ALLOW_POST_LINKS'					=> 'Links in Beiträgen/Privaten Nachrichten erlauben',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> '„Nein“ deaktiviert den <code>[URL]</code> BBCode-Tag und die automatische Verlinkung von URLs.',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Zulässige Schemata in Links',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Es können von den Benutzern entweder nur URLs ohne Schemata verwendet werden oder Schemata aus der kommagetrennten Liste der zulässigen Schemata.',
 	'ALLOW_POST_FLASH'					=> 'BBCode-Tag <code>[FLASH]</code> in Beiträgen erlauben',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Wenn deaktiviert, ist der <code>[FLASH]</code> BBCode-Tag in Beiträgen deaktiviert. Andernfalls wird durch das Berechtigungssystem festgelegt, welche Benutzer den <code>[FLASH]</code> BBCode-Tag benutzen können.',
 
@@ -399,6 +401,8 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'Benutzerdefinierte Profil-Felder in der Themen-Ansicht anzeigen',
 	'LOAD_USER_ACTIVITY'			=> 'Aktivität der Mitglieder anzeigen',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Zeigt im Profil und im persönlichen Bereich an, in welchen Foren und Themen ein Mitglied am aktivsten ist. Es wird empfohlen, diese Funktion in Foren zu deaktivieren, die mehr als eine Million Beiträge haben.',
+	'LOAD_USER_ACTIVITY_LIMIT'		=> 'Beitragsgrenze für Benutzeraktivität',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'	=> 'Bei Benutzern mit mehr Beiträgen als hier angegeben, wird das aktivste Thema/Forum nicht angezeigt. Es wird keine Beitragsgrenze festgelegt, wenn 0 als Wert eingestellt wird.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Aufbewahrung gelesener Benachrichtungen',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Anzahl von Tagen, nach denen gelesene Benachrichtungen automatisch gelöscht werden. Benachrichtigungen bleiben dauerhaft erhalten, wenn 0 als Wert eingestellt wird.',
 	'RECOMPILE_STYLES'				=> 'Rekompilieren veralteter Style-Komponenten',
