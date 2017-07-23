@@ -184,6 +184,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Mehr erfahren',
 	'COOKIE_CONSENT_MSG'	=> 'Diese Website nutzt Cookies, um Ihnen den bestmöglichen Komfort bei der Nutzung zu bieten.',
 	'COOKIE_CONSENT_OK'		=> 'Verstanden!',
+	'COOKIE_CONSENT_HREF'	=> 'https://de.wikipedia.org/wiki/HTTP-Cookie',
 	'COOKIES_DELETED'		=> 'Alle Cookies des Boards wurden erfolgreich gelöscht.',
 	'CURRENT_TIME'			=> 'Aktuelle Zeit: %s',
 

@@ -164,6 +164,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Hier kannst du alle Standard-Einstellungen für Beiträge vornehmen.',
 	'ALLOW_POST_LINKS'					=> 'Links in Beiträgen/Privaten Nachrichten erlauben',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> '„Nein“ deaktiviert den <code>[URL]</code> BBCode-Tag und die automatische Verlinkung von URLs.',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Zulässige Schemas in Links',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Es können von den Benutzern entweder nur URLs ohne Schema verwendet werden oder solche aus der kommagetrennten Liste an zulässigen Schemas.',
 	'ALLOW_POST_FLASH'					=> 'BBCode-Tag <code>[FLASH]</code> in Beiträgen erlauben',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Wenn deaktiviert, ist der <code>[FLASH]</code> BBCode-Tag in Beiträgen deaktiviert. Andernfalls wird durch das Berechtigungssystem festgelegt, welche Benutzer den <code>[FLASH]</code> BBCode-Tag benutzen können.',
 
@@ -399,6 +401,8 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'Benutzerdefinierte Profil-Felder in der Themen-Ansicht anzeigen',
 	'LOAD_USER_ACTIVITY'			=> 'Aktivität der Mitglieder anzeigen',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Zeigt im Profil und im persönlichen Bereich an, in welchen Foren und Themen ein Mitglied am aktivsten ist. Es wird empfohlen, diese Funktion in Foren zu deaktivieren, die mehr als eine Million Beiträge haben.',
+	'LOAD_USER_ACTIVITY_LIMIT'		=> 'Beitragsgrenze für Benutzeraktivität',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'	=> 'Bei Benutzern, die mehr Beiträge haben als hier angegeben, wird nicht mehr angezeigt, in welchen Foren und Themen sie am aktivsten sind. Mit 0 werden diese Informationen bei allen Benutzern angezeigt.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Aufbewahrung gelesener Benachrichtungen',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Anzahl von Tagen, nach denen gelesene Benachrichtungen automatisch gelöscht werden. Benachrichtigungen bleiben dauerhaft erhalten, wenn 0 als Wert eingestellt wird.',
 	'RECOMPILE_STYLES'				=> 'Rekompilieren veralteter Style-Komponenten',
