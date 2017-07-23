@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
-	'UPGRADE_INSTRUCTIONS'		=> 'Ein neuer Feature-Release <strong>%1$s</strong> ist verfügbar. Bitte lies dir die <a href="%2$s" title="%2$s"><strong>Release-Bekanntmachung</strong></a> durch, so erfährst du was neu ist und wie du aktualisieren kannst.',
+	'UPGRADE_INSTRUCTIONS'		=> 'Ein neues Feature-Release <strong>%1$s</strong> ist verfügbar. Bitte lese <a href="%2$s" title="%2$s"><strong>die Release-Bekanntmachung</strong></a> um die Neuerungen zu erfahren und eine Anleitung zum Upgrade zu erhalten.',
 	'SERVER_CONFIG'				=> 'Server-Konfiguration',
 	'SCRIPT_PATH'				=> 'Scriptpfad',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Der Pfad, in dem die phpBB-Dateien abgelegt sind, relativ zum Domainnamen. Z.&nbsp;B. <samp>/phpBB3</samp>.',
