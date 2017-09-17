@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 	'EMAIL_BAN'					=> 'Eine oder mehrere E-Mail-Adressen sperren',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Aktivieren Sie diese Option, um die Adresse von allen aktiven Sperren auszunehmen.',
-	'EMAIL_BAN_EXPLAIN'			=> 'Um mehr als eine E-Mail-Adresse anzugeben, geben Sie jede Adresse in einer neuen Zeile ein. Um Übereinstimmungen von Teilen einer Adresse anzugeben, verwenden Sie „*“ als Platzhalter; z.&nbsp;B. <samp>*@phpbb.com</samp>, <samp>*@*.domain.tld</samp> usw.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Um mehr als eine E-Mail-Adresse anzugeben, geben Sie jede Adresse in einer neuen Zeile ein. Um Übereinstimmungen von Teilen einer Adresse anzugeben, verwenden Sie „*“ als Platzhalter; z.&nbsp;B. <samp>*@phpbb.com</samp>, <samp>*@*.example.org</samp> usw.',
 	'EMAIL_NO_BANNED'			=> 'Keine gesperrten E-Mail-Adressen.',
 	'EMAIL_UNBAN'				=> 'E-Mail-Adressen entsperren oder Ausnahmen entfernen',
 	'EMAIL_UNBAN_EXPLAIN'		=> 'Sie können mehrere E-Mail-Adressen gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem Sie mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markieren. E-Mail-Adressen auf der Ausnahmeliste sind hervorgehoben.',

@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 
 	'FINAL_STEP'				=> 'Abschließenden Schritt ausführen',
 	'FORUM_ADDRESS'				=> 'Board-Adresse',
-	'FORUM_ADDRESS_EXPLAIN'		=> 'Dies ist die URL Ihres alten Boards, zum Beispiel <samp>http://www.domain.tld/phpBB2/</samp>. Wenn hier eine Adresse angegeben wird und das Feld nicht leer gelassen wird, wird jedes Vorkommen dieser Adresse in Beiträgen, Privaten Nachrichten und Signaturen mit der neuen Adresse Ihres Forums aktualisiert.',
+	'FORUM_ADDRESS_EXPLAIN'		=> 'Dies ist die URL Ihres alten Boards, zum Beispiel <samp>http://www.example.org/phpBB2/</samp>. Wenn hier eine Adresse angegeben wird und das Feld nicht leer gelassen wird, wird jedes Vorkommen dieser Adresse in Beiträgen, Privaten Nachrichten und Signaturen mit der neuen Adresse Ihres Forums aktualisiert.',
 	'FORUM_PATH'				=> 'Board-Pfad',
 	'FORUM_PATH_EXPLAIN'		=> 'Dies ist der <strong>relative</strong> Pfad im Dateisystem zu Ihrem alten Board vom <strong>Hauptverzeichnis dieser neuen phpBB-Installation</strong> aus.',
 	'FOUND'						=> 'Gefunden',
