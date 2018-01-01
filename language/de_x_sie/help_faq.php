@@ -188,7 +188,7 @@ $help = array(
 	),
 	array(
 		0 => 'Kann ich Bilder in meine Beiträge einfügen?',
-		1 => 'Ja, Bilder können in Ihrem Beitrag angezeigt werden. Wenn die Administration Dateianhänge erlaubt hat, können Sie das Bild auch direkt hochladen. Ansonsten müssen Sie zu einem Bild verlinken, das auf einem öffentlich zugänglichen Server liegt, z.&nbsp;B. http://www.domain.tld/mein-bild.gif. Sie können weder Bilder verlinken, die sich auf Ihrem eigenen PC befinden (außer es ist ein öffentlich zugänglicher Server), noch zu Bildern, die nur nach einer Anmeldung verfügbar sind, z.&nbsp;B. Hotmail- oder Yahoo-Mailboxen, mit einem Passwort geschützte Seiten usw. Um das Bild anzuzeigen, benutze den BBCode-Tag „[img]“.',
+		1 => 'Ja, Bilder können in Ihrem Beitrag angezeigt werden. Wenn die Administration Dateianhänge erlaubt hat, können Sie das Bild auch direkt hochladen. Ansonsten müssen Sie zu einem Bild verlinken, das auf einem öffentlich zugänglichen Server liegt, z.&nbsp;B. http://www.example.org/mein-bild.gif. Sie können weder Bilder verlinken, die sich auf Ihrem eigenen PC befinden (außer es ist ein öffentlich zugänglicher Server), noch zu Bildern, die nur nach einer Anmeldung verfügbar sind, z.&nbsp;B. Hotmail- oder Yahoo-Mailboxen, mit einem Passwort geschützte Seiten usw. Um das Bild anzuzeigen, benutze den BBCode-Tag „[img]“.',
 	),
 	array(
 		0 => 'Was sind globale Bekanntmachungen?',
