@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be62ad0784de43ccd1767da896036c92",
-    "content-hash": "9b13e67704ac3b153b2cf589b7ad3607",
+    "content-hash": "46a528b71dff80415d5662129eb3d778",
     "packages": [],
     "packages-dev": [
         {
@@ -59,30 +58,30 @@
                 "task",
                 "tool"
             ],
-            "time": "2014-02-13 13:17:59"
+            "time": "2014-02-13T13:17:59+00:00"
         },
         {
             "name": "phpbb/translation-validator",
-            "version": "1.3.10",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbb/phpbb-translation-validator.git",
-                "reference": "dee7d51d4bc93876d92e5651cd1b608f19a2a03d"
+                "reference": "f442139c41cff5bc7d812ec1d63c56cbbeb526a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/dee7d51d4bc93876d92e5651cd1b608f19a2a03d",
-                "reference": "dee7d51d4bc93876d92e5651cd1b608f19a2a03d",
+                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/f442139c41cff5bc7d812ec1d63c56cbbeb526a2",
+                "reference": "f442139c41cff5bc7d812ec1d63c56cbbeb526a2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": ">=5.6",
                 "symfony/console": "2.6.*",
                 "symfony/finder": "2.6.*",
                 "symfony/yaml": "2.6.*"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.4.*"
+                "phpunit/phpunit": "~5.7"
             },
             "bin": [
                 "src/Phpbb/TranslationValidator/PhpbbTranslationValidator.php"
@@ -107,7 +106,7 @@
             ],
             "description": "A language package validator for phpBB language packs. Language packs are required to pass the validator when submitted to the language pack database.",
             "homepage": "https://github.com/phpbb/phpbb-translation-validator",
-            "time": "2017-01-04 23:07:21"
+            "time": "2017-12-31T14:37:57+00:00"
         },
         {
             "name": "symfony/console",
@@ -165,7 +164,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-26 09:08:40"
+            "time": "2015-07-26T09:08:40+00:00"
         },
         {
             "name": "symfony/finder",
@@ -215,7 +214,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:02:48"
+            "time": "2015-07-09T16:02:48+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -265,7 +264,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-26 08:59:42"
+            "time": "2015-07-26T08:59:42+00:00"
         }
     ],
     "aliases": [],
