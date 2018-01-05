@@ -1,6 +1,6 @@
-Deutsche Sprachdateien für phpBB 3.2.1
+Deutsche Sprachdateien für phpBB 3.2.2
 --------------------------------------
-Stand: 2017-07-23
+Stand: 2018-01-05
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
