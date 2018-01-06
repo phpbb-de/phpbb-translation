@@ -1,4 +1,4 @@
-Subject: phpBB is für den E-Mail-Versand konfiguriert
+Subject: phpBB ist für den E-Mail-Versand konfiguriert
 
 Hallo {USERNAME},
 
