@@ -53,5 +53,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Beanspruche deine Provisionen',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Du kannst die in deinem Forum über VigLink generierten Provisionen selbst beanspruchen, anstatt sie phpBB Limited zu überlassen. Um deine Accounteinstellungen zu verwalten, erstelle deinen eigenen „VigLink Convert“ Account, indem du auf „VigLink Convert-Account“ klickst.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'VigLink Convert-Account',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Der Account-Link von VigLink Convert konnte nicht abgerufen werden.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Der Account-Link von VigLink Convert konnte nicht abgerufen werden.',
 ));
