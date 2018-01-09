@@ -647,7 +647,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Forum verschoben</strong> %1$s <strong>über</strong> %2$s',
 	'LOG_FORUM_SYNC'						=> '<strong>Forum resynchronisiert</strong><br />» %s',
 
-	'LOG_GENERAL_ERROR'	=> '<strong>Ein allgemeiner Fehler ist aufgetreten</strong>: %1$s <br />» %2$s',
+	'LOG_GENERAL_ERROR'	=> '<strong>Ein allgemeiner Fehler ist aufgetreten</strong>: %1$s<br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Benutzergruppe erstellt</strong><br />» %s',
 	'LOG_GROUP_DEFAULTS'	=> '<strong>Gruppe „%1$s“ als Standardgruppe für Mitglieder gesetzt</strong><br />» %2$s',
