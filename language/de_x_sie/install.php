@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Wie Sie ein Update Ihrer Installation mit dem „Komplettpaket“ durchführen</h1>
 
-		<p>Es wird empfohlen Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen:</p>
+		<p>Es wird empfohlen Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Sichern Sie alle Board-Dateien und die Datenbank.</strong></li>
@@ -374,9 +374,9 @@ $lang = array_merge($lang, array(
 			<li>Löschen Sie via FTP oder SSH das Verzeichnis <code class="inline">/install</code> vom Hauptverzeichnis Ihrer Board-Installation.<br><br></li>
 		</ol>
 		
-		<p>Sie haben nur ein neues, aktuelles Board, was alle Ihre Benutzer und Beiträge enthält. Folgendes ist noch zu tun:</p>
+		<p>Sie haben nun ein neues, aktuelles Board, das alle Ihre Benutzer und Beiträge enthält. Folgendes ist noch zu tun:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Aktualisieren Sie Ihre Sprachpakete</li>
+			<li>Aktualisieren Sie Ihre Sprachpakete (sofern das Deutschen Komplettpaket verwendet wird, aktualisiert sich das Sprachpaket automatisch)</li>
 			<li>Aktualisieren Sie Ihre Styles<br><br></li>
 		</ul>
 
