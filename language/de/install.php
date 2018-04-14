@@ -359,17 +359,17 @@ $lang = array_merge($lang, array(
 
 		<h1>Wie du ein Update deiner Installation mit dem „Komplettpaket“ durchführst</h1>
 
-		<p>Es wird empfohlen deine Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in deiner Installation die phpBB-Hauptdateien verändert wurden, solltest du stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Du kannst deine Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets musst du folgende Schritte ausführen:</p>
+		<p>Es wird empfohlen, deine Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in deiner Installation die phpBB-Hauptdateien verändert wurden, solltest du stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Du kannst deine Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets musst du folgende Schritte ausführen:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Sichere alle Board-Dateien und die Datenbank.</strong></li>
 			<li>Gehe zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und lade das neuste „Komplettpaket“-Archiv runter (<a href="https://www.phpbb.de/go/3.2/downloads">deutschsprachige Downloadseite</a>).</li>
 			<li>Entpacke das Archiv.</li>
-			<li>Entferne (lösche) die <code class="inline">config.php</code>-Datei, und die Verzeichnisse <code class="inline">/images</code>, <code class="inline">/store</code> und <code class="inline">/files</code> <em>aus dem Paket</em> (nicht von deiner Website).</li>
-			<li>Gehe in den Administrations-Bereich, Board-Einstellungen, und stelle sicher, dass prosilver als Standard-Style eingerichtet ist. Wenn nicht, stelle ihn auf prosilver.</li>
+			<li>Lösche die <code class="inline">config.php</code>-Datei und die Verzeichnisse <code class="inline">/images</code>, <code class="inline">/store</code> und <code class="inline">/files</code> <em>aus dem Paket</em> (nicht von deiner Website).</li>
+			<li>Gehe in den Administrations-Bereich unter Board-Einstellungen und stelle sicher, dass prosilver als Standard-Style eingerichtet ist. Wenn nicht, stelle den Standard-Style auf prosilver.</li>
 			<li>Lösche die Verzeichnisse <code class="inline">/vendor</code> und <code class="inline">/cache</code> aus deinem Board-Hauptverzeichnis auf dem Server.</li>
-			<li>Lade die übrigen Dateien und Verzeichnisse via FTP oder SSH (damit sind die übrigen Inhalte des phpBB3-Verzeichnisses gemeint) in das Hauptverzeichnis deiner Board-Installation auf den Server hoch, überschreibe die vorhandenen Dateien. (Hinweis: Stelle sicher, dass du keine Erweiterungen (Extensions) im <code class="inline">/ext</code>-Verzeichnis beim Hochladen der neuen phpBB3 Inhalte löschst.)</li>
-			<li><strong><a href="%1$s" title="%1$s">Starte nun den Update-Prozess, indem du in deinem Webbrowser die Adresse zum Installationsverzeichnis angibst</a>.</strong></li>
+			<li>Lade die übrigen Dateien und Verzeichnisse (damit sind die übrigen Inhalte des phpBB3-Verzeichnisses gemeint) via FTP oder SSH auf den Server in das Hauptverzeichnis deiner Board-Installation hoch und überschreibe die vorhandenen Dateien. (Hinweis: Stelle sicher, dass du keine Erweiterungen (Extensions) im <code class="inline">/ext</code>-Verzeichnis beim Hochladen der neuen phpBB3 Inhalte löschst.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Starte nun den Update-Prozess, indem du in deinem Webbrowser die Adresse zum Installationsverzeichnis aufrufst</a>.</strong></li>
 			<li>Folge den Anweisungen, um deine Datenbank zu aktualisieren und lasse es bis zum Abschluss durchlaufen.</li>
 			<li>Lösche via FTP oder SSH das Verzeichnis <code class="inline">/install</code> vom Hauptverzeichnis deiner Board-Installation.<br><br></li>
 		</ol>

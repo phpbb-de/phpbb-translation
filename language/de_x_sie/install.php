@@ -359,17 +359,17 @@ $lang = array_merge($lang, array(
 
 		<h1>Wie Sie ein Update Ihrer Installation mit dem „Komplettpaket“ durchführen</h1>
 
-		<p>Es wird empfohlen Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen:</p>
+		<p>Es wird empfohlen, Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Sichern Sie alle Board-Dateien und die Datenbank.</strong></li>
 			<li>Gehen Sie zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und laden Sie das neuste „Komplettpaket“-Archiv runter (<a href="https://www.phpbb.de/go/3.2/downloads">deutschsprachige Downloadseite</a>).</li>
 			<li>Entpacken Sie das Archiv.</li>
-			<li>Entfernen (löschen) Sie die <code class="inline">config.php</code>-Datei, und die Verzeichnisse <code class="inline">/images</code>, <code class="inline">/store</code> und <code class="inline">/files</code> <em>aus dem Paket</em> (nicht von Ihrer Website).</li>
-			<li>Gehen Sie in den Administrations-Bereich, Board-Einstellungen, und stellen Sie sicher, dass prosilver als Standard-Style eingerichtet ist. Wenn nicht, stellen Sie ihn auf prosilver.</li>
+			<li>Löschen Sie die <code class="inline">config.php</code>-Datei und die Verzeichnisse <code class="inline">/images</code>, <code class="inline">/store</code> und <code class="inline">/files</code> <em>aus dem Paket</em> (nicht von Ihrer Website).</li>
+			<li>Gehen Sie in den Administrations-Bereich unter Board-Einstellungen und stellen Sie sicher, dass prosilver als Standard-Style eingerichtet ist. Wenn nicht, stellen Sie den Standard-Style auf prosilver.</li>
 			<li>Löschen Sie die Verzeichnisse <code class="inline">/vendor</code> und <code class="inline">/cache</code> aus Ihrem Board-Hauptverzeichnis auf dem Server.</li>
-			<li>Laden Sie die übrigen Dateien und Verzeichnisse via FTP oder SSH (damit sind die übrigen Inhalte des phpBB3-Verzeichnisses gemeint) in das Hauptverzeichnis Ihrer Board-Installation auf den Server hoch, überschreibe die vorhandenen Dateien. (Hinweis: Stellen Sie sicher, dass Sie keine Erweiterungen (Extensions) im <code class="inline">/ext</code>-Verzeichnis beim Hochladen der neuen phpBB3 Inhalte löschen.)</li>
-			<li><strong><a href="%1$s" title="%1$s">Starten Sie nun den Update-Prozess, indem Sie in Ihrem Webbrowser die Adresse zum Installationsverzeichnis angeben</a>.</strong></li>
+			<li>Laden Sie die übrigen Dateien und Verzeichnisse (damit sind die übrigen Inhalte des phpBB3-Verzeichnisses gemeint) via FTP oder SSH auf den Server in das Hauptverzeichnis Ihrer Board-Installation hoch und überschreiben Sie die vorhandenen Dateien. (Hinweis: Stellen Sie sicher, dass Sie keine Erweiterungen (Extensions) im <code class="inline">/ext</code>-Verzeichnis beim Hochladen der neuen phpBB3 Inhalte löschen.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Starten Sie nun den Update-Prozess, indem Sie in Ihrem Webbrowser die Adresse zum Installationsverzeichnis aufrufen</a>.</strong></li>
 			<li>Folgen Sie den Anweisungen, um Ihre Datenbank zu aktualisieren und lassen Sie es bis zum Abschluss durchlaufen.</li>
 			<li>Löschen Sie via FTP oder SSH das Verzeichnis <code class="inline">/install</code> vom Hauptverzeichnis Ihrer Board-Installation.<br><br></li>
 		</ol>
