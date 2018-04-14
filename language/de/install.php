@@ -376,7 +376,7 @@ $lang = array_merge($lang, array(
 		
 		<p>Du hast nun ein neues, aktuelles Board, das alle deine Benutzer und Beiträge enthält. Folgendes ist noch zu tun:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Aktualisiere deine Sprachpakete (sofern das Deutschen Komplettpaket verwendet wird, aktualisiert sich das Sprachpaket automatisch)</li>
+			<li>Aktualisiere deine Sprachpakete (sofern das deutsche Komplettpaket verwendet wird, aktualisiert sich das Sprachpaket automatisch)</li>
 			<li>Aktualisiere deine Styles<br><br></li>
 		</ul>
 
