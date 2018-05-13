@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Wie Sie ein Update Ihrer Installation mit dem „Komplettpaket“ durchführen</h1>
 
-		<p>Es wird empfohlen, Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen:</p>
+		<p>Es wird empfohlen, Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen (ausführliche Anleitung auf <a href="https://www.phpbb.de/go/3.2/update">www.phpBB.de</a>):</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Sichern Sie alle Board-Dateien und die Datenbank.</strong></li>
