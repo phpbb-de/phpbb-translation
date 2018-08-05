@@ -83,6 +83,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'			=> 'Deinstallieren',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style „%s“ kann nicht deinstalliert werden, da untergeordnete Styles auf ihn aufbauen.',
 	'STYLE_UNINSTALLED'			=> 'Style „%s“ wurde erfolgreich deinstalliert.',
+	'STYLE_PHPBB_VERSION'		=> 'phpBB-Version',
 	'STYLE_USED_BY'				=> 'Verwendet von (inklusive Spiders/Robots)',
 	'STYLE_VERSION'				=> 'Style-Version',
 

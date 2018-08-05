@@ -195,6 +195,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Fehler bei der Datenbank-Installation',
 	'INST_ERR_NO_DB'				=> 'Kann das PHP-Modul für den gewählten Datenbank-Typ nicht laden.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'Das angegebene Tabellen-Präfix ist nicht zulässig. Es muss mit einem Buchstaben beginnen und darf nur Buchstaben, Ziffern und Unterstriche enthalten.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'Das angegebene Tabellen-Präfix ist zu lang. Die maximale Länge beträgt %d Zeichen.',
@@ -356,15 +357,38 @@ $lang = array_merge($lang, array(
 
 		<br />
 
+		<h1>Wie Sie ein Update Ihrer Installation mit dem „Komplettpaket“ durchführen</h1>
+
+		<p>Es wird empfohlen, Ihre Installation mit Hilfe des Komplettpakets zu aktualisieren. Wenn allerdings in Ihrer Installation die phpBB-Hauptdateien verändert wurden, sollten Sie stattdessen das „Automatische-Update-Paket“ verwenden, um diese Veränderung nicht zu verlieren. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum Aktualisieren von phpBB mit Hilfe des Komplettpakets müssen Sie folgende Schritte ausführen (ausführliche Anleitung auf <a href="https://www.phpbb.de/go/3.2/update">www.phpBB.de</a>):</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Sichern Sie alle Board-Dateien und die Datenbank.</strong></li>
+			<li>Gehen Sie zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und laden Sie das neuste „Komplettpaket“-Archiv runter (<a href="https://www.phpbb.de/go/3.2/downloads">deutschsprachige Downloadseite</a>).</li>
+			<li>Entpacken Sie das Archiv.</li>
+			<li>Löschen Sie die <code class="inline">config.php</code>-Datei und die Verzeichnisse <code class="inline">/images</code>, <code class="inline">/store</code> und <code class="inline">/files</code> <em>aus dem Paket</em> (nicht von Ihrer Website).</li>
+			<li>Gehen Sie in den Administrations-Bereich unter Board-Einstellungen und stellen Sie sicher, dass prosilver als Standard-Style eingerichtet ist. Wenn nicht, stellen Sie den Standard-Style auf prosilver.</li>
+			<li>Löschen Sie die Verzeichnisse <code class="inline">/vendor</code> und <code class="inline">/cache</code> aus Ihrem Board-Hauptverzeichnis auf dem Server.</li>
+			<li>Laden Sie die übrigen Dateien und Verzeichnisse (damit sind die übrigen Inhalte des phpBB3-Verzeichnisses gemeint) via FTP oder SSH auf den Server in das Hauptverzeichnis Ihrer Board-Installation hoch und überschreiben Sie die vorhandenen Dateien. (Hinweis: Stellen Sie sicher, dass Sie keine Erweiterungen (Extensions) im <code class="inline">/ext</code>-Verzeichnis beim Hochladen der neuen phpBB3 Inhalte löschen.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Starten Sie nun den Update-Prozess, indem Sie in Ihrem Webbrowser die Adresse zum Installationsverzeichnis aufrufen</a>.</strong></li>
+			<li>Folgen Sie den Anweisungen, um Ihre Datenbank zu aktualisieren und lassen Sie es bis zum Abschluss durchlaufen.</li>
+			<li>Löschen Sie via FTP oder SSH das Verzeichnis <code class="inline">/install</code> vom Hauptverzeichnis Ihrer Board-Installation.<br><br></li>
+		</ol>
+		
+		<p>Sie haben nun ein neues, aktuelles Board, das alle Ihre Benutzer und Beiträge enthält. Folgendes ist noch zu tun:</p>
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Aktualisieren Sie Ihre Sprachpakete (sofern das deutsche Komplettpaket verwendet wird, aktualisiert sich das deutsche Sprachpaket automatisch)</li>
+			<li>Aktualisieren Sie Ihre Styles<br><br></li>
+		</ul>
+
 		<h1>Wie Sie ein Update Ihrer Installation mit dem „Automatischen-Update-Paket“ durchführen</h1>
 
-		<p>Dieser empfohlene Weg zum Update Ihrer Installation gilt nur für das „Automatische-Update-Paket“ („automatic update package“). Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum automatischen Update von phpBB müssen Sie folgende Schritte ausführen:</p>
+		<p>Das „Automatische-Update-Paket“ wird nur in dem Fall empfohlen, wenn in Ihrer Installation die phpBB-Hauptdateien verändert wurden. Sie können Ihre Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum automatischen Update von phpBB müssen Sie folgende Schritte ausführen:</p>
 
-		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Gehen Sie zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und laden Sie das entsprechende „Automatische-Update-Paket“ herunter (<a href="https://www.phpbb.de/go/3.2/downloads">deutschsprachige Downloadseite</a>).<br /><br /></li>
-			<li>Entpacken Sie das Archiv.<br /><br /></li>
-			<li>Laden Sie die entpackten Verzeichnisse „install“ und „vendor“ vollständig in Ihr phpBB-Hauptverzeichnis (dort, wo die config.php ist).<br /><br /></li>
-		</ul>
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li>Gehen Sie zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und laden Sie das entsprechende „Automatische-Update-Paket“ herunter (<a href="https://www.phpbb.de/go/3.2/downloads">deutschsprachige Downloadseite</a>).</li>
+			<li>Entpacken Sie das Archiv.</li>
+			<li>Laden Sie die entpackten Verzeichnisse „install“ und „vendor“ vollständig in Ihr phpBB-Hauptverzeichnis (dort, wo die config.php ist).</li>
+		</ol>
 
 		<p>Nach dem Upload wird das Forum vorübergehend für normale Benutzer nicht zugänglich sein, da das von Ihnen hochgeladene Installations-Verzeichnis vorhanden ist.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Starten Sie nun den Update-Prozess, indem Sie in Ihrem Webbrowser die Adresse zum Installationsverzeichnis angeben</a>.</strong><br />
