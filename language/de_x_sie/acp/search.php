@@ -119,7 +119,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Die Indizierungs-Rate beträgt ungefähr %1$.1f Beiträge pro Sekunde.<br />Indizierung erfolgt…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Alle Beiträge bis zur Beitrags-ID #%2$d wurden bereits vom Suchindex entfernt.<br />Index wird gelöscht…',
+		2	=> 'Alle Beiträge bis zur Beitrags-ID #%2$d wurden bereits vom Suchindex entfernt, davon %1$d Beiträge in diesem Durchlauf.<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'Die aktuelle Löschrate beträgt näherungsweise %1$.1f Beiträge pro Sekunde.<br />Index wird gelöscht…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Alle Beiträge in der Datenbank wurden erfolgreich indiziert.',
 	'SEARCH_INDEX_REMOVED'					=> 'Der Suchindex für das Backend wurde erfolgreich gelöscht.',
