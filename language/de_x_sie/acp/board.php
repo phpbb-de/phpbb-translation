@@ -351,7 +351,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Hier legen Sie die Einstellungen fest, die verwendet werden, um Cookies an die Browser Ihrer Benutzer zu senden. In den meisten Fällen sollten die Standardwerte ausreichend sein. Führe Änderungen mit Bedacht durch, fehlerhafte Einstellungen könnten Ihre Benutzer daran hindern, sich anzumelden.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Hier legen Sie die Einstellungen fest, die verwendet werden, um Cookies an die Browser Ihrer Benutzer zu senden. In den meisten Fällen sollten die Standardwerte ausreichend sein. Führen Sie Änderungen mit Bedacht durch, fehlerhafte Einstellungen könnten Ihre Benutzer daran hindern, sich anzumelden. Wenn Sie Probleme mit Benutzern haben, die nicht angemeldet bleiben, besuchen Sie die <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong> (<a href="https://www.phpbb.de/go/cookie-settings/" rel="external">Deutschsprachiger Artikel</a>).',
 
 	'COOKIE_DOMAIN'				=> 'Cookie-Domain',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'In den meisten Fällen ist die Cookie-Domain optional. Lassen Sie diese leer, wenn Sie sich unsicher sind.<br><br>Falls Sie Ihr Board mit anderer Software integriert haben oder mehrere Domains verwenden, dann können Sie die benötigte Cookie-Domain wie folgt bestimmen: Falls Sie Domainkombinationen wie <i>example.com</i> und <i>forums.example.com</i> oder auch <i>forums.example.com</i> und <i>blog.example.com</i> verwenden, dann entfernen Sie die Subdomains, bis Sie den gemeinsamen Domainteil gefunden haben; in diesem Beispiel <i>example.com</i>. Nun fügen Sie einen Punkt vor den gemeinsamen Domain-Namen und tragen das Ergebnis in das Feld ein. In unserem Beispiel würden Sie also <i>.example.com</i> einfügen (beachten Sie den Punkt am Anfang).',
@@ -407,10 +407,10 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Anzahl von Tagen, nach denen gelesene Benachrichtungen automatisch gelöscht werden. Benachrichtigungen bleiben dauerhaft erhalten, wenn 0 als Wert eingestellt wird.',
 	'RECOMPILE_STYLES'				=> 'Rekompilieren veralteter Style-Komponenten',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Prüft auf neue Style-Komponenten und rekompiliert diese.',
-	'YES_ANON_READ_MARKING'			=> 'Gelesen-Markierung für Gäste',
-	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Speichert auch für Gäste, ob ein Thema gelesen oder ungelesen ist. Wenn diese Option deaktiviert ist, erscheinen Beiträge für Gäste immer als gelesen.',
 	'YES_ACCURATE_PM_BUTTON'			=> 'Aktiviert die berechtigungsabhängige PN-Schaltfläche in der Themenansicht',
 	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Wenn diese Option aktiviert ist, wird nur dann eine Schaltfläche für Private Nachrichten angezeigt, wenn der Empfänger auch berechtigt ist, Private Nachrichten zu lesen.',
+	'YES_ANON_READ_MARKING'			=> 'Gelesen-Markierung für Gäste',
+	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Speichert auch für Gäste, ob ein Thema gelesen oder ungelesen ist. Wenn diese Option deaktiviert ist, erscheinen Beiträge für Gäste immer als gelesen.',
 	'YES_BIRTHDAYS'					=> 'Anzeige der Geburtstage aktivieren',
 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Wenn deaktiviert, wird die Liste der Geburtstage nicht länger angezeigt. Um diese Funktion zu aktivieren, muss die Geburtstagsfunktion ebenfalls aktiviert werden.',
 	'YES_JUMPBOX'					=> 'Anzeige der Jumpbox aktivieren',
