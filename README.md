@@ -1,12 +1,12 @@
-Deutsche Sprachdateien für phpBB 3.2.2
+Deutsche Sprachdateien für phpBB 3.2.3
 --------------------------------------
-Stand: 2018-01-08
+Stand: 2018-09-14
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
 Das aktuelle Team: https://www.phpbb.de/go/ubersetzerteam
 
-Die Nutzungsbedingungen und die Datenschutzrichtlinie wurden zuletzt
+Die Nutzungsbedingungen und die Datenschutzerklärung wurden zuletzt
 inhaltlich in der Version für phpBB 3.0.0 vom 2007-12-13 geändert.
 
 
@@ -18,7 +18,7 @@ Rechtliche Hinweise
 -------------------
 In diesem Paket sind teilweise auch Hinweise enthalten, die auf
 rechtliche Fragestellungen Bezug nehmen. Dies gilt insbesondere für die
-Nutzungsbedingungen und die Datenschutzrichtlinie. Es wurde versucht,
+Nutzungsbedingungen und die Datenschutzerklärung. Es wurde versucht,
 diese Hinweise allgemein zu halten, sie beziehen sich jedoch primär auf
 deutsches Recht. Diese Regelungen sollen und können jedoch keine
 rechtliche Beratung in diesen Fragen ersetzen. Sie werden daher - außer
@@ -29,10 +29,10 @@ deren Beachtung wir dringend empfehlen:
 - durch europäisches Recht ist für die meisten Websites ein Impressum
   zwingend vorgeschrieben, das zentral zugänglich sein muss und
   Mindestangaben enthalten muss.
-- Die Datenschutzrichtlinie (PRIVACY_POLICY in ucp.php) enthält
+- Die Datenschutzerklärung (PRIVACY_POLICY in ucp.php) enthält
   Hinweise zum Auskunftsrecht der Nutzer. Diese Stelle sollte um einen
   Hinweis zu den Kontaktmöglichkeiten ergänzt werden.
-- Änderungen an den Nutzungsbedingungen und der Datenschutzrichtlinie
+- Änderungen an den Nutzungsbedingungen und der Datenschutzerklärung
   bedürfen nach höchstrichterlicher Rechtsprechung einer Zustimmung
   durch die Nutzer. Dies gilt auch bereits für den Wechsel von einer
   Vorversion auf diese Version der Sprachdateien (Hinweise zur letzten
