@@ -68,11 +68,11 @@ $lang = array_merge($lang, array(
 		<li>Ansprüche für eine Haftung aus zwingendem nationalem Recht bleiben unberührt.</li></ol>
 
 		<h3>6. Änderungsvorbehalt</h3>
-		<ol style="list-style-type: lower-alpha"><li>Der Betreiber ist berechtigt, die Nutzungsbedingungen und die Datenschutzrichtlinie zu ändern. Die Änderung wird dem Nutzer per E-Mail mitgeteilt.</li>
+		<ol style="list-style-type: lower-alpha"><li>Der Betreiber ist berechtigt, die Nutzungsbedingungen und die Datenschutzerklärung zu ändern. Die Änderung wird dem Nutzer per E-Mail mitgeteilt.</li>
 		<li>Der Nutzer ist berechtigt, den Änderungen zu widersprechen. Im Falle des Widerspruchs erlischt das zwischen dem Betreiber und dem Nutzer bestehende Vertragsverhältnis mit sofortiger Wirkung.</li>
 		<li>Die Änderungen gelten als anerkannt und verbindlich, wenn der Nutzer den Änderungen zugestimmt hat.</li></ol>
 
-		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzrichtlinie enthalten.',
+		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzerklärung enthalten.',
 	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ („%2$s“) und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
 		<h3>Umfang und Art der Datenspeicherung</h3>
 		<p>Deine Daten werden auf zwei verschiedene Arten gesammelt:</p>
