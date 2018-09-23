@@ -81,9 +81,11 @@ $lang = array_merge($lang, array(
 	'STYLE_NOT_INSTALLED'		=> 'Style „%s“ wurde nicht installiert.',
 	'STYLE_PATH'				=> 'Pfad des Styles',
 	'STYLE_UNINSTALL'			=> 'Deinstallieren',
-	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style „%s“ kann nicht deinstalliert werden, da untegeordnete Styles auf ihn aufbauen.',
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style „%s“ kann nicht deinstalliert werden, da untergeordnete Styles auf ihn aufbauen.',
 	'STYLE_UNINSTALLED'			=> 'Style „%s“ wurde erfolgreich deinstalliert.',
+	'STYLE_PHPBB_VERSION'		=> 'phpBB-Version',
 	'STYLE_USED_BY'				=> 'Verwendet von (inklusive Spiders/Robots)',
+	'STYLE_VERSION'				=> 'Style-Version',
 
 	'UNINSTALL_DEFAULT'		=> 'Der Standard-Style kann nicht deinstalliert werden.',
 

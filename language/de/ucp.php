@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Mit dem Zugriff auf „%1$s“ wird zwischen dir und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
+	'TERMS_OF_USE_CONTENT'	=> 'Mit dem Zugriff auf „%1$s“ („%2$s“) wird zwischen dir und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
 		<h3>1. Nutzungsvertrag</h3>
 		<ol style="list-style-type: lower-alpha"><li>Mit dem Zugriff auf „%1$s“ (im Folgenden „das Board“) schließt du einen Nutzungsvertrag mit dem Betreiber des Boards ab (im Folgenden „Betreiber“) und erklärst dich mit den nachfolgenden Regelungen einverstanden.</li>
 		<li>Wenn du mit diesen Regelungen nicht einverstanden bist, so darfst du das Board nicht weiter nutzen. Für die Nutzung des Boards gelten jeweils die an dieser Stelle veröffentlichten Regelungen.</li>
@@ -68,12 +68,12 @@ $lang = array_merge($lang, array(
 		<li>Ansprüche für eine Haftung aus zwingendem nationalem Recht bleiben unberührt.</li></ol>
 
 		<h3>6. Änderungsvorbehalt</h3>
-		<ol style="list-style-type: lower-alpha"><li>Der Betreiber ist berechtigt, die Nutzungsbedingungen und die Datenschutzrichtlinie zu ändern. Die Änderung wird dem Nutzer per E-Mail mitgeteilt.</li>
+		<ol style="list-style-type: lower-alpha"><li>Der Betreiber ist berechtigt, die Nutzungsbedingungen und die Datenschutzerklärung zu ändern. Die Änderung wird dem Nutzer per E-Mail mitgeteilt.</li>
 		<li>Der Nutzer ist berechtigt, den Änderungen zu widersprechen. Im Falle des Widerspruchs erlischt das zwischen dem Betreiber und dem Nutzer bestehende Vertragsverhältnis mit sofortiger Wirkung.</li>
 		<li>Die Änderungen gelten als anerkannt und verbindlich, wenn der Nutzer den Änderungen zugestimmt hat.</li></ol>
 
-		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzrichtlinie enthalten.',
-	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
+		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzerklärung enthalten.',
+	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ („%2$s“) und ggf. verbundene Institutionen (im Folgenden „das Board“) und phpBB die Daten verwenden, die während deines Foren-Besuchs gesammelt werden.</p>
 		<h3>Umfang und Art der Datenspeicherung</h3>
 		<p>Deine Daten werden auf zwei verschiedene Arten gesammelt:</p>
 		<ol style="list-style-type: decimal;"><li>phpBB erstellt bei deinem Besuch des Boards mehrere Cookies. Cookies sind kleine Textdateien, die dein Browser als temporäre Dateien ablegt. Zwei dieser Cookies enthalten eine eindeutige Benutzer-Nummer (Benutzer-ID) sowie eine anonyme Sitzungs-Nummer (Session-ID), die dir von phpBB automatisch zugewiesen wird. Ein drittes Cookie wird erstellt, sobald du Themen besucht hast und wird dazu verwendet, Informationen über die von dir gelesenen Beiträge zu speichern, um die ungelesenen Beiträge markieren zu können.</li>
@@ -103,11 +103,11 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Dein Benutzerkonto wurde aktiviert. Vielen Dank für deine Registrierung.',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Das Benutzerkonto wurde aktiviert.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Dein Benutzerkonto wurde erfolgreich reaktiviert.',
-	'ACCOUNT_ADDED'					=> 'Vielen Dank für die Registrierung, dein Benutzerkonto wurde erstellt. Du kannst dich nun mit deinem Benutzername und deinem Passwort anmelden.',
+	'ACCOUNT_ADDED'					=> 'Vielen Dank für die Registrierung, dein Benutzerkonto wurde erstellt. Du kannst dich nun mit deinem Benutzernamen und deinem Passwort anmelden.',
 	'ACCOUNT_COPPA'					=> 'Dein Benutzerkonto wurde erstellt, muss jedoch erst freigegeben werden. Bitte überprüfe deine E-Mails für weitere Informationen.',
 	'ACCOUNT_EMAIL_CHANGED'			=> 'Dein Benutzerkonto wurde aktualisiert. Jedoch erfordert dieses Board nach der Änderung der E-Mail-Adresse eine erneute Aktivierung. Dazu wurde ein Aktivierungs-Schlüssel an die von dir neu angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Dein Benutzerkonto wurde aktualisiert. Jedoch erfordert dieses Board nach der Änderung der E-Mail-Adresse eine erneute Aktivierung durch einen Administrator. Die Administratoren wurden per E-Mail informiert und du wirst benachrichtigt, sobald dein Benutzerkonto wieder freigeschaltet wurde.',
-	'ACCOUNT_INACTIVE'				=> 'Dein Benutzerkonto wurde erstellt. Du musst es jedoch erst freischalten. Dazu wurde ein Aktivierungs-Schlüssel an die von dir angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen.',
+	'ACCOUNT_INACTIVE'				=> 'Dein Benutzerkonto wurde erstellt. Du musst es jedoch erst freischalten. Dazu wurde ein Aktivierungs-Schlüssel an die von dir angegebene Adresse geschickt. Bitte überprüfe deine E-Mails für weitere Informationen. Es kann eine Weile dauern, bis dir die E-Mail zugestellt wird. Prüfe bitte ggf. auch die Ordner, in denen Spam- oder Junk-Mails abgelegt werden.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Dein Benutzerkonto wurde erstellt. Es muss jedoch erst durch einen Administrator freigeschaltet werden. Die Administratoren wurden per E-Mail über dein neues Benutzerkonto informiert und du wirst benachrichtigt, sobald dein Benutzerkonto freigeschaltet wurde.',
 	'ACTIVATION_EMAIL_SENT'			=> 'Der Aktivierungs-Schlüssel wurde an deine E-Mail-Adresse geschickt.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Der Aktivierungs-Schlüssel wurde per E-Mail an die Board-Administration gesendet.',
@@ -140,7 +140,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Erstelle einen Link auf einen Avatar von einer anderen Website.',
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Avatar hochladen',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Lade deinen persönlichen Avatar hoch.',
-	'AVATAR_EXPLAIN'				=> 'Maximale Größe: Breite: %1$s, Höhe: %2$s, Dateigröße: %3$.2f KiB.',
+	'AVATAR_EXPLAIN'				=> 'Maximale Abmessungen: Breite: %1$s, Höhe: %2$s; maximale Dateigröße: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximale Abmessungen: Breite: %1$s, Höhe: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Die Avatar-Funktion ist deaktiviert.',
 	'AVATAR_GALLERY'				=> 'Lokale Galerie',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Konnte Avatar nicht nach %s hochladen.',
@@ -368,6 +369,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Benachrichtigungen für Moderatoren',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Benachrichtigungen für Administratoren',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Benachrichtigungen zu Beiträgen',
+	'NOTIFICATION_METHOD_BOARD'							=> 'Benachrichtigung',
 	'NOTIFICATION_METHOD_EMAIL'							=> 'E-Mail',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Benachrichtigungs-Typ',
@@ -380,7 +382,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Jemand zitiert dich in einem Beitrag',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Jemand hat einen Beitrag gemeldet',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Jemand erstellt einen Beitrag in einem Forum, das du abonniert hast',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Ein neu registrierter Benutzer muss aktiviert werden',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Ein Benutzer muss aktiviert werden',
 
 	'NOTIFY_METHOD'				=> 'Benachrichtigungs-Methode',
 	'NOTIFY_METHOD_BOTH'		=> 'Beide',

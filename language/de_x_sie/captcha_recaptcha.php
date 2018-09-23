@@ -40,16 +40,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'de',
+	'RECAPTCHA_LANG'				=> 'de', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Um reCaptcha nutzen zu können, müssen Sie sich ein Konto auf <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> anlegen.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'Der von Ihnen eingegebene Bestätigungscode ist falsch',
+	'RECAPTCHA_INCORRECT'			=> 'Die von Ihnen eingegebene Antwort ist falsch',
+	'RECAPTCHA_NOSCRIPT'			=> 'Bitte aktivieren Sie JavaScript in Ihrem Browser, um die Aufgabe zu laden.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Öffentlicher reCaptcha-Schlüssel',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Ihr öffentlicher reCaptcha-Schlüssel. Schlüssel können über <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> bezogen werden.',
 	'RECAPTCHA_PRIVATE'				=> 'Privater reCaptcha-Schlüssel',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Ihr privater reCaptcha-Schlüssel. Schlüssel können über <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> bezogen werden.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Um automatische Eingaben zu unterbinden, müssen Sie den angezeigten Text in das untenstehende Feld eingeben.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Bei der Verbindung mit dem reCaptcha-Service ist ein Problem aufgetreten: Socket konnte nicht geöffnet werden. Bitte versuchen Sie es später erneut.',
+	'RECAPTCHA_EXPLAIN'				=> 'Um automatische Eingaben zu unterbinden, müssen Sie die nachfolgende Aufgabe lösen.',
 ));

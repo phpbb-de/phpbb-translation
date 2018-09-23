@@ -73,9 +73,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Flash-Dateien',
 	'CAT_IMAGES'				=> 'Bilder',
-	'CAT_QUICKTIME_FILES'		=> 'QuickTime-Dateien',
-	'CAT_RM_FILES'				=> 'RealMedia-Dateien',
-	'CAT_WM_FILES'				=> 'Windows Media-Dateien',
 	'CHECK_CONTENT'				=> 'Dateianhänge prüfen',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Manchen Browsern kann ein fehlerhafter MIME-Typ für hochgeladene Dateien vorgetäuscht werden. Diese Option stellt sicher, dass Dateien, die dieses Verhalten provozieren könnten, abgewiesen werden.',
 	'CREATE_GROUP'				=> 'Neue Gruppe erstellen',
@@ -108,9 +105,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Flash-Dateien',
 	'EXT_GROUP_IMAGES'				=> 'Bilder',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Text-Dateien',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'QuickTime-Dateien',
-	'EXT_GROUP_REAL_MEDIA'			=> 'RealMedia-Dateien',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media-Dateien',
 
 	'FILES_GONE'			=> 'Einige der Dateianhänge, die Sie zum Löschen ausgewählt haben, existieren nicht. Sie könnten bereits gelöscht worden sein. Dateianhänge, die existierten, wurden gelöscht.',
 	'FILES_STATS_WRONG'		=> 'Ihre Datei-Statistik ist vermutlich fehlerhaft und muss resynchronisiert werden. Derzeitige Werte: Anzahl von Dateianhängen = %1$d, Gesamtgröße der Dateianhänge = %2$s.<br />%3$sDatei-Statistik resynchronisieren%4$s.',
@@ -120,15 +114,15 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Abmessungen, ab denen angehängte Bilder verlinkt werden',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Bild-Dateianhänge werden als Link dargestellt, wenn deren Größe diese Werte überschreitet. Bei der Verwendung von 0px &times; 0px wird dieses Verhalten abgeschaltet.',
-	'IMAGICK_PATH'				=> 'Imagemagick-Pfad',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Voller Pfad zum Imagemagick-Programm, z.&nbsp;B. <samp>/usr/bin/</samp>.',
+	'IMAGICK_PATH'				=> 'ImageMagick-Pfad',
+	'IMAGICK_PATH_EXPLAIN'		=> 'Voller Pfad zum ImageMagick-Programm, z.&nbsp;B. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximale Anzahl von Dateianhängen pro Beitrag',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximale Anzahl von Dateianhängen pro Privater Nachricht',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximale Dateigröße',
 	'MAX_IMAGE_SIZE'				=> 'Maximale Abmessungen von Bildern',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maximale Abmessungen von Bild-Dateianhängen. Um die Überprüfung der Abmessungen abzuschalten, stellen Sie als Werte 0px &times; 0px ein.',
-	'MAX_THUMB_WIDTH'				=> 'Maximale Breite der Vorschaubilder in Pixeln',
+	'MAX_THUMB_WIDTH'				=> 'Maximale Breite/Höhe der Vorschaubilder in Pixeln',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'Ein Vorschaubild wird nicht breiter sein als der hier eingestellte Wert.',
 	'MIN_THUMB_FILESIZE'			=> 'Minimale Vorschaubild-Dateigröße',
 	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Erstellt keine Vorschaubilder bei Bildern, die kleiner sind als dieser Wert.',
@@ -156,7 +150,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> '<em>Verbotene</em> IPs/Hostnamen oder Ausnahmen entfernen',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Sind Sie sich sicher, dass Sie die Datei-Statistik neu synchronisieren möchten?',
 
-	'SEARCH_IMAGICK'				=> 'Nach Imagemagick suchen',
+	'SEARCH_IMAGICK'				=> 'Nach ImageMagick suchen',
 	'SECURE_ALLOW_DENY'				=> 'Erlauben-/Verbieten-Liste',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Ändert, wenn sichere Downloads aktiviert sind, das Verhalten der Erlauben-/Verbieten-Liste zu einer Liste von erlaubten bzw. verbotenen Adressen.',
 	'SECURE_DOWNLOADS'				=> 'Sichere Downloads aktivieren',

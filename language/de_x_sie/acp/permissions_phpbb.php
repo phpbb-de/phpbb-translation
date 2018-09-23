@@ -110,6 +110,7 @@ $lang = array_merge($lang, array(
 // Forum Permissions
 $lang = array_merge($lang, array(
 	'ACL_F_LIST'		=> 'Kann Forum sehen',
+	'ACL_F_LIST_TOPICS' => 'Kann Themen sehen',
 	'ACL_F_READ'		=> 'Kann Forum lesen',
 	'ACL_F_SEARCH'		=> 'Kann das Forum durchsuchen',
 	'ACL_F_SUBSCRIBE'	=> 'Kann Forum abonnieren',
@@ -123,6 +124,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Kann neue Themen im Forum starten',
 	'ACL_F_STICKY'		=> 'Kann wichtige Themen erstellen',
 	'ACL_F_ANNOUNCE'	=> 'Kann Bekanntmachungen erstellen',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Kann globale Bekanntmachungen erstellen',
 	'ACL_F_REPLY'		=> 'Kann auf Themen antworten',
 	'ACL_F_EDIT'		=> 'Kann eigene Beiträge ändern',
 	'ACL_F_DELETE'		=> 'Kann eigene Beiträge löschen',
@@ -158,8 +160,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'Kann Themen teilen',
 	'ACL_M_MERGE'	=> 'Kann Themen zusammenführen',
 
-	'ACL_M_INFO'	=> 'Kann Beitrags-Details ansehen',
-	'ACL_M_WARN'	=> 'Kann Verwarnungen erteilen<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_INFO'		=> 'Kann Beitrags-Details ansehen',
+	'ACL_M_WARN'		=> 'Kann Verwarnungen erteilen<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Kann Meldungen zu Privaten Nachrichten schließen und löschen<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'		=> 'Kann Sperren verwalten<br /><em>Diese Berechtigung wird global und nicht forenbezogen erteilt.</em>', // This moderator setting is only global (and not local)
 ));
 

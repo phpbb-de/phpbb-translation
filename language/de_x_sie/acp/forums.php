@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DELETE_EXPLAIN'				=> 'Das folgende Formular erlaubt Ihnen, ein Forum zu löschen. Wenn in dem Forum Beiträge erstellt werden können, können Sie entscheiden, was mit den darin enthaltenen Themen (oder Foren) geschehen soll.',
 	'FORUM_DELETED'						=> 'Forum wurde erfolgreich gelöscht.',
 	'FORUM_DESC'						=> 'Beschreibung',
-	'FORUM_DESC_EXPLAIN'				=> 'Jede verwendete HTML-Auszeichnung wird so, wie sie ist, angezeigt.',
+	'FORUM_DESC_EXPLAIN'				=> 'Eine Verwendung von HTML-Auszeichnungen ist nicht möglich. Wenn als Forum-Typ „Kategorie“ ausgewählt ist, wird die Beschreibung nicht verwendet.',
 	'FORUM_EDIT_EXPLAIN'				=> 'Das unten stehende Formular erlaubt Ihnen, dieses Forum individuell anzupassen. Beachten Sie bitte, dass Moderations- und Beitragszähler-Einstellungen über die Foren-Berechtigungen für jeden Benutzer oder jede Benutzergruppe gesetzt werden.',
 	'FORUM_IMAGE'						=> 'Forum-Bild',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Der Ort eines Bildes, relativ zum phpBB-Hauptverzeichnis, das diesem Forum zusätzlich zugeordnet werden soll.',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 
 	'PARENT_IS_LINK_FORUM'		=> 'Das übergeordnete Forum, das Sie ausgewählt haben, ist ein Forums-Link. Ein Forums-Link kann keine Unterforen enthalten. Bitte wählen Sie ein Forum oder eine Kategorie als übergeordnetes Forum aus.',
 	'PARENT_NOT_EXIST'			=> 'Übergeordnetes Forum existiert nicht.',
-	'PRUNE_ANNOUNCEMENTS'		=> 'Ankündigungen automatisch löschen',
+	'PRUNE_ANNOUNCEMENTS'		=> 'Bekanntmachungen automatisch löschen',
 	'PRUNE_STICKY'				=> 'Wichtige Themen automatisch löschen',
 	'PRUNE_OLD_POLLS'			=> 'Abgeschlossene Umfragen automatisch löschen',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'Löscht Themen mit Umfragen, in denen im angegebenen Zeitraum keine Abstimmung erfolgte.',

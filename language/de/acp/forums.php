@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Seit dem Verschieben des Themas vergangene Tage',
 	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Die Anzahl der Tage seit dem Verschieben eines Themas, nach denen der Link auf das verschobene Thema im alten Forum gelöscht wird.',
 	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Das Intervall, in dem nach automatisch zu löschenden Links zu verschobenen Themen gesucht wird.',
-	
+
 	'CONTINUE'						=> 'Fortsetzen',
 	'COPY_PERMISSIONS'				=> 'Kopiere Berechtigungen von',
 	'COPY_PERMISSIONS_EXPLAIN'		=> 'Um die Konfiguration deines neuen Forums zu erleichtern, kannst du die Berechtigungen eines bestehenden Forums kopieren.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DELETE_EXPLAIN'				=> 'Das folgende Formular erlaubt dir, ein Forum zu löschen. Wenn in dem Forum Beiträge erstellt werden können, kannst du entscheiden, was mit den darin enthaltenen Themen (oder Foren) geschehen soll.',
 	'FORUM_DELETED'						=> 'Forum wurde erfolgreich gelöscht.',
 	'FORUM_DESC'						=> 'Beschreibung',
-	'FORUM_DESC_EXPLAIN'				=> 'Jede verwendete HTML-Auszeichnung wird so, wie sie ist, angezeigt.',
+	'FORUM_DESC_EXPLAIN'				=> 'Eine Verwendung von HTML-Auszeichnungen ist nicht möglich. Wenn als Forum-Typ „Kategorie“ ausgewählt ist, wird die Beschreibung nicht verwendet.',
 	'FORUM_EDIT_EXPLAIN'				=> 'Das unten stehende Formular erlaubt dir, dieses Forum individuell anzupassen. Beachte bitte, dass Moderations- und Beitragszähler-Einstellungen über die Foren-Berechtigungen für jeden Benutzer oder jede Benutzergruppe gesetzt werden.',
 	'FORUM_IMAGE'						=> 'Forum-Bild',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Der Ort eines Bildes, relativ zum phpBB-Hauptverzeichnis, das diesem Forum zusätzlich zugeordnet werden soll.',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 
 	'PARENT_IS_LINK_FORUM'		=> 'Das übergeordnete Forum, das du ausgewählt hast, ist ein Forums-Link. Ein Forums-Link kann keine Unterforen enthalten. Bitte wähle ein Forum oder eine Kategorie als übergeordnetes Forum aus.',
 	'PARENT_NOT_EXIST'			=> 'Übergeordnetes Forum existiert nicht.',
-	'PRUNE_ANNOUNCEMENTS'		=> 'Ankündigungen automatisch löschen',
+	'PRUNE_ANNOUNCEMENTS'		=> 'Bekanntmachungen automatisch löschen',
 	'PRUNE_STICKY'				=> 'Wichtige Themen automatisch löschen',
 	'PRUNE_OLD_POLLS'			=> 'Abgeschlossene Umfragen automatisch löschen',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'Löscht Themen mit Umfragen, in denen im angegebenen Zeitraum keine Abstimmung erfolgte.',
