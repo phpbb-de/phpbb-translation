@@ -557,13 +557,13 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'Freunde online',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'Insgesamt ist <strong>%1$d</strong> Besucher online :: %2$s und %3$s',
-		2	=> 'Insgesamt sind <strong>%1$d</strong> Besucher online :: %2$s und %3$s',
+		1	=> 'Insgesamt ist <strong>%1$d</strong> Besucher online : %2$s und %3$s',
+		2	=> 'Insgesamt sind <strong>%1$d</strong> Besucher online : %2$s und %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'Insgesamt ist <strong>%1$d</strong> Besucher online :: %2$s, %3$s und %4$s',
-		2	=> 'Insgesamt sind <strong>%1$d</strong> Besucher online :: %2$s, %3$s und %4$s',
+		1	=> 'Insgesamt ist <strong>%1$d</strong> Besucher online : %2$s, %3$s und %4$s',
+		2	=> 'Insgesamt sind <strong>%1$d</strong> Besucher online : %2$s, %3$s und %4$s',
 	),
 	'OPTIONS'					=> 'Optionen',
 
