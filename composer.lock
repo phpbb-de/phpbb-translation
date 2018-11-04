@@ -62,16 +62,16 @@
         },
         {
             "name": "phpbb/translation-validator",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbb/phpbb-translation-validator.git",
-                "reference": "f442139c41cff5bc7d812ec1d63c56cbbeb526a2"
+                "reference": "dc7bf187cad019ddad6bcd9db83ae2ba2c70b7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/f442139c41cff5bc7d812ec1d63c56cbbeb526a2",
-                "reference": "f442139c41cff5bc7d812ec1d63c56cbbeb526a2",
+                "url": "https://api.github.com/repos/phpbb/phpbb-translation-validator/zipball/dc7bf187cad019ddad6bcd9db83ae2ba2c70b7e1",
+                "reference": "dc7bf187cad019ddad6bcd9db83ae2ba2c70b7e1",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
             ],
             "description": "A language package validator for phpBB language packs. Language packs are required to pass the validator when submitted to the language pack database.",
             "homepage": "https://github.com/phpbb/phpbb-translation-validator",
-            "time": "2017-12-31T14:37:57+00:00"
+            "time": "2018-10-30T21:56:59+00:00"
         },
         {
             "name": "symfony/console",
