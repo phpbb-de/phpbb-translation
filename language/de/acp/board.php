@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE'					=> 'Remote-Avatare erlauben',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Avatare, die von einer anderen Website verlinkt werden.<br><em><strong class="error">Achtung:</strong> Wenn du diese Funktion aktivierst, können Benutzer evtl. die Existenz von Dateien und Diensten prüfen, die nur über das lokale Netzwerk zugänglich sind, in dem sich der Server befindet.</em>',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Avatar-Upload von URL aktivieren',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Erlaubt das Hochladen eines Avatars von einer anderen Website.<br><em><strong class="error">Achtung:</strong> Wenn du diese Funktion aktivierst, können Benutzer evtl. die Existenz von Dateien und Diensten prüfen, die nur über das lokale Netzwerk zugänglich sind, in dem sich der Server befindet.',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Erlaubt das Hochladen eines Avatars von einer anderen Website.<br><em><strong class="error">Achtung:</strong> Wenn du diese Funktion aktivierst, können Benutzer evtl. die Existenz von Dateien und Diensten prüfen, die nur über das lokale Netzwerk zugänglich sind, in dem sich der Server befindet.</em>',
 	'ALLOW_UPLOAD'					=> 'Hochladen von Avataren erlauben',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar-Galeriepfad',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Der Pfad von deinem phpBB-Hauptverzeichnis aus, in dem die Galerie-Avatare liegen (z.&nbsp;B. <samp>images/avatars/gallery</samp>).<br>Doppelte Punkte (<samp>../</samp>) werden aus Sicherheitsgründen aus der Pfadangabe entfernt.',
