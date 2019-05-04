@@ -582,7 +582,7 @@ $lang = array_merge($lang, array(
 
 	'UCP_PREFS'					=> 'Einstellungen',
 	'UCP_PREFS_PERSONAL'		=> 'Persönliche Einstellungen',
-	'UCP_PREFS_POST'			=> 'Nachrichten erstellen',
+	'UCP_PREFS_POST'			=> 'Beitragsoptionen ändern',
 	'UCP_PREFS_VIEW'			=> 'Anzeigeoptionen ändern',
 
 	'UCP_PM'					=> 'Private Nachrichten',
