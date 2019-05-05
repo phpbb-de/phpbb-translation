@@ -81,7 +81,7 @@
 		<if>
 			<os family="windows"/>
 			<then>
-				<exec command="php vendor\bin\translation.php
+				<exec command="vendor\bin\translation.php.bat
 						validate ${language} --package-dir=packages --phpbb-version=${validator-version} --display-notices --ansi"
 					passthru="true"
 					checkreturn="true" />
