@@ -81,13 +81,13 @@
 		<if>
 			<os family="windows"/>
 			<then>
-				<exec command="vendor\bin\PhpbbTranslationValidator.php.bat
+				<exec command="vendor\bin\translation.php.bat
 						validate ${language} --package-dir=packages --phpbb-version=${validator-version} --display-notices --ansi"
 					passthru="true"
 					checkreturn="true" />
 			</then>
 			<else>
-				<exec command="php vendor/bin/PhpbbTranslationValidator.php
+				<exec command="php vendor/bin/translation.php
 						validate ${language} --package-dir=packages --phpbb-version=${validator-version} --display-notices --ansi"
 					passthru="true"
 					checkreturn="true" />
