@@ -270,6 +270,17 @@ $lang = array_merge($lang, array(
 	'FSOCK_DISABLED'		=> 'Dieser Vorgang kann nicht abgeschlossen werden, da die <var>fsockopen</var>-Funktion deaktiviert wurde oder weil der angegebene Server nicht gefunden werden konnte.',
 	'FSOCK_TIMEOUT'			=> 'Beim Lesen des Datenstroms ist eine Zeitüberschreitung aufgetreten.',
 
+	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'		=> 'Kann Dateigruppe nicht ändern.',
+	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kann Dateiberechtigungen nicht ändern.',
+	'FILESYSTEM_CANNOT_COPY_FILES'				=> 'Kann Dateien nicht kopieren.',
+	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'Kann keinen symbolischen Link anlegen.',
+	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Kann das Verzeichnis nicht anlegen.',
+	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'Kann Dateien nicht vom System entfernen.',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Kann Datei nicht schreiben.',
+	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Kann Verzeichnis nicht spiegeln.',
+	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Kann Datei nicht umbenennen.',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Kann nicht festellen, ob die Datei existiert.',
+
 	'FTP_FSOCK_HOST'				=> 'FTP-Server',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'FTP-Server, auf dem sich deine Website befindet.',
 	'FTP_FSOCK_PASSWORD'			=> 'FTP-Passwort',
@@ -385,7 +396,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_CHECK_PM'					=> 'Melde dich an, um deine Privaten Nachrichten zu prüfen.',
 	'LOGIN_CONFIRMATION'				=> 'Bestätigung der Anmeldung',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Um einen Brute-Force-Angriff auf Benutzerkonten zu verhindern, musst du nach einer bestimmten Anzahl von fehlerhaften Anmeldungen einen Bestätigungscode angeben. Der Code wird im unten stehenden Bild angezeigt. Wenn du nur über ein eingeschränktes Sehvermögen verfügst oder aus einem anderen Grund den Code nicht lesen kannst, kontaktiere bitte die %sBoard-Administration%s.', // unused
-	'LOGIN_ERROR_ATTEMPTS'				=> 'Du hast die maximal zulässige Anzahl von Anmeldeversuchen überschritten. Du musst nun deinen Benutzernamen und dein Passwort erneut eingeben sowie eine Sicherheitsabfrage beantworten.',
+	'LOGIN_ERROR_ATTEMPTS'				=> 'Du hast die maximal zulässige Anzahl von Anmeldeversuchen überschritten. Du musst nun deinen Benutzernamen und dein Passwort erneut eingeben sowie einen Sicherheitstest bestehen.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Du wurdest nicht durch Apache authentifiziert.',
 	'LOGIN_ERROR_OAUTH_SERVICE_DOES_NOT_EXIST'	=> 'Es wurde ein nicht existierender OAuth-Dienst angefordert.',
 	'LOGIN_ERROR_PASSWORD'				=> 'Du hast ein falsches Passwort angegeben. Bitte prüfe dein Passwort und versuche es erneut. Wenn du weiterhin auf Probleme stößt, wende dich bitte an die %sBoard-Administration%s.',
@@ -491,7 +502,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Themenfreigabe</strong> angefordert von %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Die notwendige Datei für die Benachrichtigungs-Art „%s“ ist nicht vorhanden.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Benutzerfreigabe erforderlich</strong> für deaktivierten oder kürzlich registrierten Benutzer: „%1$s“',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'viele weitere Mitglieder',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d weitere Mitglieder',
@@ -526,7 +537,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Für den ausgewählten Zeitraum existieren keine Beiträge in diesem Thema.',
 	'NO_FEED_ENABLED'			=> 'Auf diesem Board sind keine Feeds verfügbar.',
 	'NO_FEED'					=> 'Der angeforderte Feed ist nicht verfügbar.',
-	'NO_STYLE_DATA'				=> 'Die Style-Daten konnten nicht abgerufen werden',
+	'NO_STYLE_DATA'				=> 'Die Style-Daten für user_style %s, die für user_id %s gesetzt sind konnten nicht abgerufen werden',
 	'NO_STYLE_CFG'				=> 'Die Konfigurationsdatei für folgenden Style konnte nicht geladen werden: %s',
 	'NO_SUBJECT'				=> 'Kein Betreff vorhanden',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'Das angegebene Such-Backend existiert nicht.',
