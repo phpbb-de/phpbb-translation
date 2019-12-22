@@ -59,7 +59,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'Der eingegebene BBCode-Tag ist ungültig.',
 	'BBCODE_INVALID'			=> 'Dein BBCode ist in einer unzulässigen Weise aufgebaut.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Dein benutzerdefinierter BBCode-Tag muss sowohl einen öffnenden als auch einen schließenden Tag enthalten.',
 	'BBCODE_TAG'				=> 'Tag',
 	'BBCODE_TAG_TOO_LONG'		=> 'Die Name des eingegebenen Tags ist zu lang.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Die eingegebene Tag-Definition ist zu lang. Bitte kürze die Tag-Definition.',
@@ -81,13 +80,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Du kannst keine weiteren BBCodes mehr erstellen. Bitte lösche einige BBCodes und versuche es erneut.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Jeder Text, einschließlich fremder Zeichen, Ziffern usw. Du solltest dieses Token nicht innerhalb von HTML-Tags verwenden, sondern IDENTIFIER, INTTEXT oder SIMPLETEXT vorziehen.',
+		'TEXT'			=> 'Jeder Text, einschließlich fremder Zeichen, Ziffern usw.',
 		'SIMPLETEXT'	=> 'Zeichen des lateinischen Alphabets (A-Z), Ziffern, Leerzeichen, Komma, Punkt, Minus, Plus und Unterstrich',
 		'INTTEXT'		=> 'Unicode-Buchstaben, Ziffern, Leerzeichen, Komma, Punkt, Minus, Plus, Bindestrich, Unterstrich und Leerräume.',
 		'IDENTIFIER'	=> 'Zeichen des lateinischen Alphabets (A-Z), Ziffern, Bindestrich und Unterstrich',
 		'NUMBER'		=> 'Ziffernfolgen',
 		'EMAIL'			=> 'Eine gültige E-Mail-Adresse',
-		'URL'			=> 'Eine gültige URL eines beliebigen Protokolls (http, ftp usw. — kann nicht für JavaScript-Exploits verwendet werden). Falls nicht angegeben, wird „http://“ vorangestellt.',
+		'URL'			=> 'Eine gültige URL eines beliebigen erlaubten Protokolls (http, ftp usw. — kann nicht für JavaScript-Exploits verwendet werden). Falls nicht angegeben, wird „http://“ vorangestellt.',
 		'LOCAL_URL'		=> 'Eine lokale URL. Muss relativ zur Themenansicht angegeben werden. Protokoll und Domain darf nicht vorangestellt werden, da den Links „%s“ vorangestellt wird.',
 		'RELATIVE_URL'	=> 'Eine relative URL. Kann verwendet werden, um Teile einer URL zu prüfen. Achtung: auch eine vollständige URL ist eine gültige relative URL. Wenn relative URLs zur Adresse des Boards verwendet werden sollen, sollte der LOCAL_URL-Token verwendet werden.',
 		'COLOR'			=> 'Eine HTML-Farbe. Es kann entweder der hexadezimale Wert (z.&nbsp;B. <samp>#FF1234</samp>) oder ein <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS-Farbwert</a> wie z.&nbsp;B. <samp>fuchsia</samp> oder <samp>InactiveBorder</samp> angegeben werden.',
