@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode ist eine spezielle HTML-Implementierung, die eine größere Kontrolle über das, was angezeigt wird, bietet. Hier kannst du benutzerdefinierte BBCodes hinzufügen, ändern oder entfernen.',
 	'ADD_BBCODE'				=> 'BBCode hinzufügen',
 
-	'BBCODE_DANGER'				=> 'Der BBCode, den du anlegen möchtest, scheint unsicher zu sein. Wenn der BBCode ein {TEXT}-Token in einer heiklen Position verwendet, versuche stattdessen einen mehr restriktiven Token zu verwenden. Fahre nur fort, wenn du dir der Risiken bewusst bist.',
+	'BBCODE_DANGER'				=> 'Der BBCode, den du anlegen möchtest, scheint nicht sicher zu sein. Wenn der BBCode ein {TEXT}-Token in einer sensiblen Position verwendet, versuche stattdessen, ein restriktiveres Token zu verwenden. Fahre nur fort, wenn du dir der Risiken bewusst bist.',
 	'BBCODE_DANGER_PROCEED'		=> 'Fortfahren', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode erfolgreich hinzugefügt.',
