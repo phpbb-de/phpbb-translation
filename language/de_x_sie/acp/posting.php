@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 		'IDENTIFIER'	=> 'Zeichen des lateinischen Alphabets (A-Z), Ziffern, Bindestrich und Unterstrich',
 		'NUMBER'		=> 'Ziffernfolgen',
 		'EMAIL'			=> 'Eine gültige E-Mail-Adresse',
-		'URL'			=> 'Eine gültige URL eines beliebigen erlaubten Protokolls (http, ftp usw. — kann nicht für JavaScript-Exploits verwendet werden). Falls nicht angegeben, wird „http://“ vorangestellt.',
+		'URL'			=> 'Eine gültige URL eines erlaubten Protokolls (http, ftp usw. — kann nicht für JavaScript-Exploits verwendet werden). Falls nicht angegeben, wird „http://“ vorangestellt.',
 		'LOCAL_URL'		=> 'Eine lokale URL. Muss relativ zur Themenansicht angegeben werden. Protokoll und Domain darf nicht vorangestellt werden, da den Links „%s“ vorangestellt wird.',
 		'RELATIVE_URL'	=> 'Eine relative URL. Kann verwendet werden, um Teile einer URL zu prüfen. Achtung: auch eine vollständige URL ist eine gültige relative URL. Wenn relative URLs zur Adresse des Boards verwendet werden sollen, sollte der LOCAL_URL-Token verwendet werden.',
 		'COLOR'			=> 'Eine HTML-Farbe. Es kann entweder der hexadezimale Wert (z.&nbsp;B. <samp>#FF1234</samp>) oder ein <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS-Farbwert</a> wie z.&nbsp;B. <samp>fuchsia</samp> oder <samp>InactiveBorder</samp> angegeben werden.',
