@@ -59,7 +59,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'Der eingegebene BBCode-Tag ist ungültig.',
 	'BBCODE_INVALID'			=> 'Dein BBCode ist in einer unzulässigen Weise aufgebaut.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Dein benutzerdefinierter BBCode-Tag muss sowohl einen öffnenden als auch einen schließenden Tag enthalten.',
 	'BBCODE_TAG'				=> 'Tag',
 	'BBCODE_TAG_TOO_LONG'		=> 'Die Name des eingegebenen Tags ist zu lang.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Die eingegebene Tag-Definition ist zu lang. Bitte kürze die Tag-Definition.',
@@ -81,7 +80,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Du kannst keine weiteren BBCodes mehr erstellen. Bitte lösche einige BBCodes und versuche es erneut.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Jeder Text, einschließlich fremder Zeichen, Ziffern usw. Du solltest dieses Token nicht innerhalb von HTML-Tags verwenden, sondern IDENTIFIER, INTTEXT oder SIMPLETEXT vorziehen.',
+		'TEXT'			=> 'Jeder Text, einschließlich fremder Zeichen, Ziffern usw.',
 		'SIMPLETEXT'	=> 'Zeichen des lateinischen Alphabets (A-Z), Ziffern, Leerzeichen, Komma, Punkt, Minus, Plus und Unterstrich',
 		'INTTEXT'		=> 'Unicode-Buchstaben, Ziffern, Leerzeichen, Komma, Punkt, Minus, Plus, Bindestrich, Unterstrich und Leerräume.',
 		'IDENTIFIER'	=> 'Zeichen des lateinischen Alphabets (A-Z), Ziffern, Bindestrich und Unterstrich',
