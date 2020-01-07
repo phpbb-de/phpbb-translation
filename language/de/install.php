@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-Version',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB erfordert PHP 7.1.0 oder höher.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB erfordert PHP 7.1.3 oder höher.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-Funktion getimagesize() ist erforderlich',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Damit phpBB richtig funktioniert, muss die Funktion getimagesize() verfügbar sein.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8-Unterstützung',
@@ -566,7 +566,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konvertierung abgeschlossen',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Dein Board wurde erfolgreich auf phpBB 3.3 konvertiert. Du kannst dich jetzt anmelden und <a href="../">dein Board betreten</a>. Bitte prüfe, ob alle Einstellungen richtig übernommen wurden, bevor du dein Board durch Löschen des „install“-Verzeichnisses freigibst. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/dokumentation">deutsche Übersetzung</a>) und das <a href="https://www.phpbb.com/community/viewforum.php?f=466">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Dein Board wurde erfolgreich auf phpBB 3.3 konvertiert. Du kannst dich jetzt anmelden und <a href="../">dein Board betreten</a>. Bitte prüfe, ob alle Einstellungen richtig übernommen wurden, bevor du dein Board durch Löschen des „install“-Verzeichnisses freigibst. Hilfe zum Gebrauch von phpBB erhältst du online über die <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokumentation (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/dokumentation">deutsche Übersetzung</a>) und das <a href="https://www.phpbb.com/community/viewforum.php?f=661">Support-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Der FTP-Upload für Dateianhänge ist im alten Forum eingeschaltet. Bitte deaktiviere den FTP-Upload und stelle sicher, dass ein gültiges Upload-Verzeichnis angegeben ist. Kopiere dann alle Dateianhänge in dieses neue, aus dem Web zugängliche Verzeichnis. Sobald du dies getan hast, kannst du das Konvertierungsprogramm erneut aufrufen.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Es sind keine Konfigurationsinformationen für die Konvertierung verfügbar.',
