@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode ist eine spezielle HTML-Implementierung, die eine größere Kontrolle über das, was angezeigt wird, bietet. Hier kannst du benutzerdefinierte BBCodes hinzufügen, ändern oder entfernen.',
 	'ADD_BBCODE'				=> 'BBCode hinzufügen',
 
-	'BBCODE_DANGER'				=> 'Der BBCode, den du anlegen möchtest, scheint ein {TEXT}-Token innerhalb eines HTML-Attributs zu nutzen. Dies ist ein möglicher Angriffspunkt für Cross-Site Scripting (XSS). Verwende stattdessen, wenn möglich, die restriktiveren {SIMPLETEXT}- oder {INTTEXT}-Typen. Fahre nur fort, wenn du dich dem Risiko bewusst bist und die Verwendung von {TEXT} unvermeidbar ist.',
+	'BBCODE_DANGER'				=> 'Der BBCode, den du anlegen möchtest, scheint nicht sicher zu sein. Wenn der BBCode ein {TEXT}-Token in einer sensiblen Position verwendet, versuche stattdessen, ein restriktiveres Token zu verwenden. Fahre nur fort, wenn du dir der Risiken bewusst bist.',
 	'BBCODE_DANGER_PROCEED'		=> 'Fortfahren', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode erfolgreich hinzugefügt.',
@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'Der eingegebene BBCode-Tag ist ungültig.',
 	'BBCODE_INVALID'			=> 'Dein BBCode ist in einer unzulässigen Weise aufgebaut.',
+	'BBCODE_INVALID_TEMPLATE'	=> 'Dein BBCode-Template ist ungültig.',
 	'BBCODE_TAG'				=> 'Tag',
 	'BBCODE_TAG_TOO_LONG'		=> 'Die Name des eingegebenen Tags ist zu lang.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Die eingegebene Tag-Definition ist zu lang. Bitte kürze die Tag-Definition.',
