@@ -2,6 +2,7 @@ Deutsche Sprachdateien für phpBB 3.3.0
 --------------------------------------
 Stand: 2020-01-07
 
+
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
 Siehe docs/AUTHORS für die aktuellen und die ehemaligen Mitglieder
 Das aktuelle Team: https://www.phpbb.de/go/ubersetzerteam
