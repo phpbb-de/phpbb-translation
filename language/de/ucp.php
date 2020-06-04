@@ -224,7 +224,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Führung niederlegen',
 	'DISABLE_CENSORS'			=> 'Wortzensur aktivieren',
 	'DISPLAY_GALLERY'			=> 'Galerie anzeigen',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Die für die E-Mail angegebene Domain hat keinen gültigen MX-Eintrag.',
 	'DOWNLOADS'					=> 'Downloads',
 	'DRAFTS_DELETED'			=> 'Alle ausgewählten Entwürfe wurden erfolgreich gelöscht.',
 	'DRAFTS_EXPLAIN'			=> 'Hier kannst du deine gespeicherten Entwürfe ansehen, ändern oder löschen.',
