@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'IMAGE_LINK_SIZE'			=> 'Abmessungen, ab denen angehängte Bilder verlinkt werden',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Bild-Dateianhänge werden als Link dargestellt, wenn deren Größe diese Werte überschreitet. Bei der Verwendung von 0px &times; 0px wird dieses Verhalten abgeschaltet.',
 	'IMAGE_QUALITY'				=> 'Qualität von angehängten Bildern (nur JPEGs)',
-	'IMAGE_QUALITY_EXPLAIN'		=> 'Legen Sie einen Wert zwischen 50% (kleinere Dateigröße) und 90% (höhere Qualität) fest. Werte größer als 90% erhöhen die Dateigröße und sind daher deaktiviert. Die Einstellung greift nur, wenn die maximale Bildgröße auf einen anderen Wert als 0px × 0px gesetzt ist.',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Legen Sie einen Wert zwischen 50% (kleinere Dateigröße) und 90% (höhere Qualität) fest. Werte größer als 90% erhöhen die Dateigröße und sind daher deaktiviert. Die Einstellung greift nur, wenn die maximale Bildgröße auf einen anderen Wert als 0px &times; 0px gesetzt ist.',
 	'IMAGE_STRIP_METADATA'		=> 'Entferne Metadaten (nur JPEGs)',
-	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Entfernt die Exif-Metadaten wie Name des Autors, GPS-Koordinaten und Kamera-Details. Die Einstellung greift nur, wenn die maximale Bildgröße auf einen anderen Wert als 0px × 0px gesetzt ist.',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Entfernt die Exif-Metadaten wie Name des Autors, GPS-Koordinaten und Kamera-Details. Die Einstellung greift nur, wenn die maximale Bildgröße auf einen anderen Wert als 0px &times; 0px gesetzt ist.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximale Anzahl von Dateianhängen pro Beitrag',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximale Anzahl von Dateianhängen pro Privater Nachricht',
