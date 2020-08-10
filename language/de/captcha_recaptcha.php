@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_INCORRECT'			=> 'Die von dir eingegebene Antwort ist falsch',
 	'RECAPTCHA_NOSCRIPT'			=> 'Bitte aktiviere JavaScript in deinem Browser, um die Aufgabe zu laden.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Um reCaptcha nutzen zu können, musst du dir ein Konto auf <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> anlegen.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Um reCaptcha nutzen zu können, musst du dir ein Konto auf <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> anlegen.',
 	'RECAPTCHA_INVISIBLE'			=> 'Dieses CAPTCHA ist unsichtbar. Wenn es korrekt funktioniert, sollte ein kleines Symbol in der rechten unteren Ecke dieser Seite erscheinen.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Website-Schlüssel',
