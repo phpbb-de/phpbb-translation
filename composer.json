@@ -3,7 +3,7 @@
 	"description": "German Translation of phpBB",
 	"type": "phpbb-language",
 	"homepage": "https://github.com/phpbb-de/phpbb-translation",
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 
 	"require-dev": {
 		"phing/phing": "2.7.*",
