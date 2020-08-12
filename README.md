@@ -44,4 +44,4 @@ deren Beachtung wir dringend empfehlen:
 Fehler
 ------
 Fehler in den deutschen Sprachdateien können unter
-https://www.phpbb.de/go/3.2/sprachdateienfehler gemeldet werden.
+https://www.phpbb.de/go/3.3/sprachdateienfehler gemeldet werden.

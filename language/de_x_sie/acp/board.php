@@ -603,7 +603,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Erzwinge eine Verifizierung des SSL-Zertifikats, das vom SMTP-Server verwendet wird.<br><em><strong>Warnung:</strong> Die Verbindung zu Servern mit unverifizierten SSL-Zertifikaten kann die Sicherheit beeinträchtigen.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'Verifiziere Namen des SMTP-Servers',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Erzwinge eine Verifizierung des Namens des SMTP-Servers, falls eine SSL-/TLS-Verbindung verwendet wird.<br><em><strong>Warnung:</strong> Die Verbindung zu unverifizierten Servern kann die Sicherheit beeinträchtigen.</em>',
-	'TEST_EMAIL_SENT'				=> 'Die Test-Mail wurde gesendet.<br>Falls Sie sie nicht erhalten sollten, prüfen Sie bitte Ihre E-Mail-Konfiguration.<br><br>Wenn Sie Unterstützung brauchen, besuchen Sie die <a href="https://www.phpbb.com/community/">phpBB-Support-Foren (englisch)</a> (<a href="https://www.phpbb.de/go/3.2/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
+	'TEST_EMAIL_SENT'				=> 'Die Test-Mail wurde gesendet.<br>Falls Sie sie nicht erhalten sollten, prüfen Sie bitte Ihre E-Mail-Konfiguration.<br><br>Wenn Sie Unterstützung brauchen, besuchen Sie die <a href="https://www.phpbb.com/community/">phpBB-Support-Foren (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/supportforum">deutschsprachiges Forum auf phpBB.de</a>).',
 
 	'USE_SMTP'						=> 'SMTP-Server für E-Mail nutzen',
 	'USE_SMTP_EXPLAIN'				=> 'Wählen Sie „Ja“ aus, wenn Sie E-Mails über einen SMTP-Server senden möchten (oder müssen), anstatt die PHP-eigene Mail-Funktion zu nutzen.',

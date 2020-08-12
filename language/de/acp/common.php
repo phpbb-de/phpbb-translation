@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Zurück',
 
-	'CONTAINER_EXCEPTION' => 'Beim Aufbau des Containers durch phpBB ist wegen einer installierten Erweiterung ein Fehler aufgetreten. Aus diesem Grund wurden alle Erweiterungen vorrübergehend deaktiviert. Bitte versuche das Problem zu beheben, in dem du den Cache des Boards leerst. Alle Erweiterungen werden automatisch wieder aktiviert, sobald der Container-Fehler behoben ist. Wenn das Problem dauerhaft auftritt, besuche bitte <a href="https://www.phpbb.com/support">phpBB.com (englisch)</a> für Support (<a href="https://www.phpbb.de/go/3.2/supportforum">deutschsprachiger Support auf phpBB.de</a>).',
+	'CONTAINER_EXCEPTION' => 'Beim Aufbau des Containers durch phpBB ist wegen einer installierten Erweiterung ein Fehler aufgetreten. Aus diesem Grund wurden alle Erweiterungen vorrübergehend deaktiviert. Bitte versuche das Problem zu beheben, in dem du den Cache des Boards leerst. Alle Erweiterungen werden automatisch wieder aktiviert, sobald der Container-Fehler behoben ist. Wenn das Problem dauerhaft auftritt, besuche bitte <a href="https://www.phpbb.com/support">phpBB.com (englisch)</a> für Support (<a href="https://www.phpbb.de/go/3.3/supportforum">deutschsprachiger Support auf phpBB.de</a>).',
 	'EXCEPTION' => 'Fehler',
 
 	'COLOUR_SWATCH'			=> 'Websichere Farbpalette',

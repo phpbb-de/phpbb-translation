@@ -8,6 +8,6 @@ Herzlichen Glückwunsch. Wenn du diese Nachricht erhältst, ist phpBB richtig f�
 {MESSAGE}
 
 <!-- ENDIF -->
-Falls du Unterstützung brauchst, kannst du die phpBB Support-Foren unter https://www.phpbb.com/community/ (englisch) oder https://www.phpbb.de/go/3.2/supportforum (deutsches Forum von phpBB.de) besuchen.
+Falls du Unterstützung brauchst, kannst du die phpBB Support-Foren unter https://www.phpbb.com/community/ (englisch) oder https://www.phpbb.de/go/3.3/supportforum (deutsches Forum von phpBB.de) besuchen.
 
 {EMAIL_SIG}
