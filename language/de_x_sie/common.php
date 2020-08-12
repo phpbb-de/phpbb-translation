@@ -314,7 +314,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Los',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Gehe zum ersten Beitrag',
 	'GOTO_LAST_POST'			=> 'Gehe zum letzten Beitrag',
 	'GOTO_PAGE'					=> 'Gehe zu Seite',
