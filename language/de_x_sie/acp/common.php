@@ -319,7 +319,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Persönlicher Bereich',
 	'URL_INVALID'			=> 'Die für die Einstellung „%1$s“ angegebene URL ist ungültig.',
-	'URL_SCHEME_INVALID'	=> 'Das in der CSV-Einstellung „%1$s“ verwendete Schema „%12s“ ist ungültig. Das Schema muss mit einem lateinischen Buchstaben anfangen und der Name darf nur aus alphanumerischen Zeichen, Bindestrichen und Punkten bestehen.',
+	'URL_SCHEME_INVALID'	=> 'Das in der CSV-Einstellung „%1$s“ verwendete Schema „%2$s“ ist ungültig. Das Schema muss mit einem lateinischen Buchstaben anfangen und der Name darf nur aus alphanumerischen Zeichen, Bindestrichen und Punkten bestehen.',
 	'USERNAMES_EXPLAIN'		=> 'Verwenden Sie für jeden Benutzernamen eine neue Zeile.',
 	'USER_CONTROL_PANEL'	=> 'Persönlicher Bereich',
 
