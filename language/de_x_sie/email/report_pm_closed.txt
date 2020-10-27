@@ -1,4 +1,4 @@
-Subject: Meldung zu Privater Nachricht geschlossen — „{POST_SUBJECT}“
+Subject: Meldung zu Privater Nachricht geschlossen — „{SUBJECT}“
 
 Guten Tag {USERNAME},
 
