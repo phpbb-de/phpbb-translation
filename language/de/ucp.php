@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Mit dem Zugriff auf „%1$s“ („%2$s“) wird zwischen dir und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
+	'TERMS_OF_USE_CONTENT'	=> '<p>Mit dem Zugriff auf „%1$s“ („%2$s“) wird zwischen dir und dem Betreiber ein Vertrag mit folgenden Regelungen geschlossen:</p>
 		<h3>1. Nutzungsvertrag</h3>
 		<ol style="list-style-type: lower-alpha"><li>Mit dem Zugriff auf „%1$s“ (im Folgenden „das Board“) schließt du einen Nutzungsvertrag mit dem Betreiber des Boards ab (im Folgenden „Betreiber“) und erklärst dich mit den nachfolgenden Regelungen einverstanden.</li>
 		<li>Wenn du mit diesen Regelungen nicht einverstanden bist, so darfst du das Board nicht weiter nutzen. Für die Nutzung des Boards gelten jeweils die an dieser Stelle veröffentlichten Regelungen.</li>
@@ -72,8 +72,8 @@ $lang = array_merge($lang, array(
 		<li>Der Nutzer ist berechtigt, den Änderungen zu widersprechen. Im Falle des Widerspruchs erlischt das zwischen dem Betreiber und dem Nutzer bestehende Vertragsverhältnis mit sofortiger Wirkung.</li>
 		<li>Die Änderungen gelten als anerkannt und verbindlich, wenn der Nutzer den Änderungen zugestimmt hat.</li></ol>
 
-		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzerklärung enthalten.',
-	'PRIVACY_POLICY'		=> 'Diese Richtlinie beschreibt, wie „%1$s“ („%2$s“) (im Folgenden „der Betreiber“) die Daten verwendet, die während deines Foren-Besuchs gesammelt werden.</p>
+		<p>Informationen über den Umgang mit deinen persönlichen Daten sind in der Datenschutzerklärung enthalten.</p>',
+	'PRIVACY_POLICY'		=> '<p>Diese Richtlinie beschreibt, wie „%1$s“ („%2$s“) (im Folgenden „der Betreiber“) die Daten verwendet, die während deines Foren-Besuchs gesammelt werden.</p>
 		<h3>Umfang und Art der Datenspeicherung</h3>
 		<p>Deine Daten werden auf vier verschiedene Arten gesammelt:</p>
 		<ol style="list-style-type: decimal;"><li>Die Forensoftware phpBB erstellt bei deinem Besuch des Boards mehrere Cookies. Cookies sind kleine Textdateien, die dein Browser als temporäre Dateien ablegt und die zwischen den einzelnen Aufrufen des Boards erhalten bleiben. In diesen Cookies sind die aktuelle ID deiner Sitzung (damit dir alle Seitenaufrufe zugeordnet werden können), Informationen über die von dir gelesenen Beiträge (zur Markierung dieser als gelesen/ungelesen; sofern du nicht angemeldet bist) sowie Informationen über deine Teilnahme an Umfragen (sofern du nicht angemeldet bist) gespeichert. Ferner werden deine Benutzer-ID, ein Authentifizierungsschlüssel und eine Session-ID gespeichert. Die Cookies haben standardmäßig eine Gültigkeit von einem Jahr. Alle Cookies kannst du jederzeit über die Funktion „Alle Cookies löschen“ löschen.</li>
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 
 		<h3>Auskunftsrecht</h3>
 		<p>Der Betreiber erteilt dir auf Anfrage Auskunft, welche Daten über dich gespeichert sind.</p>
-		<p>Du kannst jederzeit die Löschung bzw. Sperrung deiner Daten verlangen. Kontaktiere hierzu bitte den Betreiber.',
+		<p>Du kannst jederzeit die Löschung bzw. Sperrung deiner Daten verlangen. Kontaktiere hierzu bitte den Betreiber.</p>',
 ));
 
 // Common language entries
