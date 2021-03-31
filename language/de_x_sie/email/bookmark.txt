@@ -4,7 +4,7 @@ Guten Tag {USERNAME},
 
 im Thema „{TOPIC_TITLE}“ gab es eine neue Antwort, seitdem Sie „{SITENAME}“ zuletzt besucht haben. Sie haben ein Lesezeichen auf dieses Thema gesetzt. Sie erhalten keine weitere Benachrichtigung, bis Sie das Thema besucht haben.
 
-Sie können sich die jüngste Antwort ansehen, wenn Sie folgenden Link aufrufen:
+Sie können sich die neueste Antwort ansehen, wenn Sie folgenden Link aufrufen:
 {U_NEWEST_POST}
 
 Sie können sich das Thema ansehen, wenn Sie folgenden Link aufrufen:

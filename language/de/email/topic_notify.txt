@@ -4,7 +4,7 @@ Hallo {USERNAME},
 
 im Thema „{TOPIC_TITLE}“ gab es eine neue Antwort, seitdem du „{SITENAME}“ zuletzt besucht hast. Du erhältst keine weitere Benachrichtigung, bis du das Thema besucht hast.
 
-Du kannst dir die jüngste Antwort ansehen, wenn du folgenden Link aufrufst:
+Du kannst dir die neueste Antwort ansehen, wenn du folgenden Link aufrufst:
 {U_NEWEST_POST}
 
 Du kannst dir das Thema ansehen, wenn du folgenden Link aufrufst:
