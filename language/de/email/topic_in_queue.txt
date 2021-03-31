@@ -1,8 +1,8 @@
-Subject: Thema erfordert Freigabe — „{TOPIC_TITLE}“
+Subject: Thema muss freigegeben werden — „{TOPIC_TITLE}“
 
 Hallo {USERNAME},
 
-das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ erfordert eine Freigabe.
+das Thema „{TOPIC_TITLE}“ auf „{SITENAME}“ muss freigegeben werden.
 
 Du kannst dir das Thema ansehen, wenn du folgenden Link aufrufst:
 {U_VIEW_TOPIC}
