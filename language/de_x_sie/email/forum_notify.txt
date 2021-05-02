@@ -1,4 +1,4 @@
-Subject: Neue Antwort in „{FORUM_NAME}“
+Subject: Antwort in „{FORUM_NAME}“
 List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Guten Tag {USERNAME},
