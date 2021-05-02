@@ -1,6 +1,6 @@
-Deutsche Sprachdateien für phpBB 3.3.3
+Deutsche Sprachdateien für phpBB 3.3.4
 --------------------------------------
-Stand: 2021-01-31
+Stand: 2021-05-02
 
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
