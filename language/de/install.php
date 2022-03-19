@@ -381,9 +381,9 @@ $lang = array_merge($lang, array(
 			<li>Aktualisiere deine Styles<br><br></li>
 		</ul>
 
-		<h1>Wie du ein Update deiner Installation mit dem „Erweiterte-Update-Paket“ durchführst</h1>
+		<h1>Wie du ein Update deiner Installation mit dem „Erweiterten-Update-Paket“ durchführst</h1>
 
-		<p>Das „Erweiterte-Update-Paket“ wird nur in dem Fall empfohlen, wenn in deiner Installation die phpBB-Hauptdateien verändert wurden. Du kannst deine Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum automatischen Update von phpBB musst du folgende Schritte ausführen:</p>
+		<p>Das „Erweiterte-Update-Paket“ wird nur in dem Fall empfohlen, wenn in deiner Installation die phpBB-Hauptdateien verändert wurden. Du kannst deine Installation auch mit den in der INSTALL.html beschriebenen Methoden aktualisieren. Zum erweiterten Update von phpBB musst du folgende Schritte ausführen:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Gehe zur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com-Downloadseite</a> und lade das entsprechende „Erweiterte-Update-Paket“ herunter (<a href="https://www.phpbb.de/go/3.3/downloads">deutschsprachige Downloadseite</a>).</li>
