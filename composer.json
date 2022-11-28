@@ -6,7 +6,7 @@
 	"license": "GPL-2.0-only",
 
 	"require-dev": {
-		"phing/phing": "2.7.*",
+		"phing/phing": "~2.4",
 		"phpbb/translation-validator": "1.5.*"
 	},
 	"authors": [
