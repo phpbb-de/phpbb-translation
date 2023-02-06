@@ -741,8 +741,8 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Suchindex entfernt für</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx-Fehler</strong><br />» %s',
 
-	'LOG_SPAMHAUS_OPEN_RESOLVER'	=> 'Spamhaus erlaubt keine Anfragen mit einem offenen Resolver. Die Blacklist-Prüfung wurde deaktiviert. Unter: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/ erhälst du mehr Informationen.',
-	'LOG_SPAMHAUS_VOLUME_LIMIT'		=> 'Das Anfragenlimit für Spamhaus wurde überschritten. Die Blacklist-Prüfung wurde deaktiviert. Unter: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/ erhälst du mehr Informationen.',
+	'LOG_SPAMHAUS_OPEN_RESOLVER'	=> 'Spamhaus erlaubt keine Anfragen mit einem offenen Resolver. Die Blacklist-Prüfung wurde deaktiviert. Unter: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/ erhältst du mehr Informationen.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'		=> 'Das Anfragenlimit für Spamhaus wurde überschritten. Die Blacklist-Prüfung wurde deaktiviert. Unter: https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/ erhältst du mehr Informationen.',
 
 	'LOG_STYLE_ADD'				=> '<strong>Neuen Style hinzugefügt</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Style gelöscht</strong><br />» %s',
