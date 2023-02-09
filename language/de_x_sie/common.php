@@ -685,6 +685,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sZurück zum zuletzt besuchten Thema%s',
 	'RETURN_TO'					=> 'Zurück zu „%s“',
 	'RETURN_TO_INDEX'			=> 'Zurück zur Foren-Übersicht',
+
+	'ROUTE_NOT_FOUND'				=> 'Die angeforderte Route „%s” konnte nicht gefunden werden.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Die übergebenen Parameter für die Route „%s“ sind ungültig oder fehlen.',
+
 	'FEED'						=> 'Feed',
 	'FEED_NEWS'					=> 'Neuigkeiten',
 	'FEED_TOPICS_ACTIVE'		=> 'Aktive Themen',
