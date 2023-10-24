@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Wartezeit zwischen zwei Suchvorgängen von Gästen',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Zeit in Sekunden, die Gäste zwischen Suchvorgängen warten müssen. Wenn ein Gast eine Suche durchgeführt hat, müssen alle Gäste so lange warten, bis sie die Suchfunktion wieder nutzen können.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Die Beiträge bis zur Beitrag-ID #%2$d wurden bereits indiziert, davon %1$d Beiträge in diesem Durchgang.',
+		2	=> 'Die Beiträge bis zur Beitrags-ID #%2$d wurden bereits indiziert, davon %1$d Beiträge in diesem Durchgang.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
 		2	=> 'Die Indizierungs-Rate beträgt ungefähr %1$.1f Beiträge pro Sekunde.',
