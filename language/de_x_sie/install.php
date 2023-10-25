@@ -574,8 +574,8 @@ $lang = array_merge($lang, array(
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> ist der bereinigte Benutzername für:',
 	'COLLIDING_USER'					=> '» Benutzer-ID: <strong>%d</strong> Benutzername: <strong>%s</strong> (%d Beiträge)',
-	'COLLIDING_USERNAMES_FOUND'			=> 'Es wurden doppelte Benutzernamen in Ihrem Board gefunden. Um mit der Konvertierung fortzufahren, müssen diese Benutzer gelöscht oder umbenannt werden, so dass in Ihrem alten Board nur ein Benutzer mit jedem bereinigtem Benutzernamen existiert.',
-	'CONV_ERR_FATAL'					=> 'Konvertierung: Fatal-Error',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Es wurden doppelte Benutzernamen in Ihrem Board gefunden. Um mit der Konvertierung fortzufahren, müssen diese Benutzer gelöscht oder umbenannt werden, so dass in deinem alten Board jeder bereinigte Benutzername nur einmal verwendet wird.',
+	'CONV_ERR_FATAL'					=> 'Schwerer Fehler bei der Konvertierung',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Der FTP-Upload für Dateianhänge ist im alten Forum eingeschaltet. Bitte deaktivieren Sie den FTP-Upload und stellen Sie sicher, dass ein gültiges Upload-Verzeichnis angegeben ist. Kopieren Sie dann alle Dateianhänge in dieses neue, aus dem Web zugängliche Verzeichnis. Sobald Sie dies getan haben, können Sie das Konvertierungsprogramm erneut aufrufen.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Es sind keine Konfigurationsinformationen für die Konvertierung verfügbar.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Foren-Berechtigungen konnten nicht ausgelesen werden',
