@@ -1,6 +1,6 @@
-Deutsche Sprachdateien für phpBB 3.3.15
+Deutsche Sprachdateien für phpBB 3.3.16
 ---------------------------------------
-Stand: 2025-04-02
+Stand: 2025-04-30
 
 
 Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de
