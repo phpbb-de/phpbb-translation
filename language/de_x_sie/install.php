@@ -232,7 +232,7 @@ $lang = array_merge($lang, array(
 	// Form labels
 	'UPGRADE_INSTRUCTIONS'		=> 'Ein neues Feature-Release <strong>%1$s</strong> ist verfügbar. Bitte lesen Sie <a href="%2$s" title="%2$s"><strong>die Release-Bekanntmachung</strong></a>, um die Neuerungen zu erfahren und eine Anleitung zum Upgrade zu erhalten.',
 	'SERVER_CONFIG'				=> 'Server-Konfiguration',
-	'SCRIPT_PATH'				=> 'Scriptpfad',
+	'SCRIPT_PATH'				=> 'Skript-Pfad',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Der Pfad, in dem die phpBB-Dateien abgelegt sind, relativ zum Domainnamen. Z.&nbsp;B. <samp>/phpBB3</samp>.',
 ));
 
@@ -375,7 +375,7 @@ $lang = array_merge($lang, array(
 			<li>Folgen Sie den Anweisungen, um Ihre Datenbank zu aktualisieren und lassen Sie es bis zum Abschluss durchlaufen.</li>
 			<li>Löschen Sie via FTP oder SSH das Verzeichnis <code class="inline">/install</code> vom Hauptverzeichnis Ihrer Board-Installation.<br><br></li>
 		</ol>
-		
+
 		<p>Sie haben nun ein neues, aktuelles Board, das alle Ihre Benutzer und Beiträge enthält. Folgendes ist noch zu tun:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Aktualisieren Sie Ihre Sprachpakete (sofern das deutsche Komplettpaket verwendet wird, aktualisiert sich das deutsche Sprachpaket automatisch)</li>
