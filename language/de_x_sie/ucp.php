@@ -393,6 +393,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Ihre Meldung zu einer Privaten Nachricht wurde von einem Moderator geschlossen',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Jemand erstellt einen Beitrag in einem Forum, das Sie abonniert haben',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Ein Benutzer muss aktiviert werden',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'Benachrichtigungen zu phpBB-Updates',
 
 	'NOTIFY_METHOD'				=> 'Benachrichtigungs-Methode',
 	'NOTIFY_METHOD_BOTH'		=> 'Beide',
