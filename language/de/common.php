@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Das OAuth-Token wurde nicht gespeichert.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Das OAuth-Token wurde fehlerhaft gespeichert.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Die hochgeladene Datei wurde abgewiesen, da sie als möglicher Angriffsversuch identifiziert wurde.',
@@ -342,6 +342,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d Gäste',
 	),
 	'G_ADMINISTRATORS'			=> 'Administratoren',
+	'G_AI_CRAWLERS'				=> 'KI-Crawler',
 	'G_BOTS'					=> 'Bots',
 	'G_GUESTS'					=> 'Gäste',
 	'G_REGISTERED'				=> 'Registrierte Benutzer',
@@ -516,6 +517,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Themenfreigabe</strong> angefordert von %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Die notwendige Datei für die Benachrichtigungs-Art „%s“ ist nicht vorhanden.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Benutzerfreigabe erforderlich</strong> für deaktivierten oder kürzlich registrierten Benutzer: „%1$s“',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>phpBB %2$s-Update verfügbar – Kritisches Update erforderlich</strong>: Dein Forum läuft unter %1$s. Eine neue Version mit kritischen Sicherheitsupdates sollte umgehend installiert werden.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>phpBB %2$s-Update verfügbar</strong>: Dein Forum läuft unter %1$s und es ist eine neue Version verfügbar.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>phpBB %2$s-Update verfügbar – Sicherheitsupdate</strong>: Dein Forum läuft unter %1$s, und es ist eine neue Version mit Sicherheitsupdates verfügbar. Wir empfehlen dir, dein Forum zu aktualisieren, um die Sicherheit zu gewährleisten.',
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'viele weitere Mitglieder',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -849,7 +853,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Mitglieder insgesamt <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Aufgefangene PHP-Fehler: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Die Größe des Bildes konnte nicht ermittelt werden. Bitte prüfe, ob die angegebene URL korrekt ist.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Die Datei kann nicht übertragen werden.',

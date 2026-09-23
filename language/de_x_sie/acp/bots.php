@@ -53,6 +53,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'Bot wurde erfolgreich gelöscht.',
 	'BOT_EDIT'			=> 'Bots bearbeiten',
 	'BOT_EDIT_EXPLAIN'	=> 'Hier können Sie bestehende Bots bearbeiten oder neue hinzufügen. Sie können eine Agenten-Zeichenfolge oder eine oder mehrere IP-Adressen (oder Bereiche von Adressen) definieren, die mit der des Bot übereinstimmen müssen. Des Weiteren können Sie einen Style oder eine Sprache angeben, der/die verwendet werden soll, wenn der Bot das Board besucht. Indem Sie einen einfachen Style für Bots einsetzen, können Sie die Bandbreite reduzieren, die der Bot in Anspruch nimmt. Denken Sie daran, passende Berechtigungen für die Bots-Gruppe zu setzen.',
+	'BOT_GROUP'			=> 'Bot-Gruppe',
+	'BOT_GROUP_EXPLAIN'	=> 'Wählen Sie die Gruppe aus, zu der dieser Bot gehört.',
 	'BOT_LANG'			=> 'Sprache für den Bot',
 	'BOT_LANG_EXPLAIN'	=> 'Die Sprache, in der dem Bot das Board angezeigt wird, wenn er es besucht.',
 	'BOT_LAST_VISIT'	=> 'Letzter Besuch',
@@ -69,6 +71,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Die angegebene Browser-Signatur ist identisch mit der, die Sie verwenden. Bitte änderen Sie die angegebene Browser-Signatur des Agenten.',
 	'ERR_BOT_NO_IP'				=> 'Die angegebenen IP-Adressen waren unzulässig oder der Hostname konnte nicht ermittelt werden.',
 	'ERR_BOT_NO_MATCHES'		=> 'Sie müssen mindestens eine Agenten-Übereinstimmung oder IP für diesen Bot angeben.',
+	'ERR_BOT_NO_NAME'			=> 'Sie müssen einen Bot-Namen angeben.',
 
 	'NO_BOT'		=> 'Konnte keinen Bot mit der angegebenen ID finden.',
 	'NO_BOT_GROUP'	=> 'Die spezielle Bot-Gruppe konnte nicht gefunden werden.',

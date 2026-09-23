@@ -303,6 +303,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Erstelle Tabellen',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'		=> 'Registriere KI-Crawler',
 	'TASK_ADD_BOTS'				=> 'Registriere Bots',
 	'TASK_ADD_LANGUAGES'		=> 'Installiere verfügbare Sprachen',
 	'TASK_ADD_MODULES'			=> 'Installiere Module',
@@ -498,6 +499,7 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Der angegebene Konverter existiert nicht.',
 	'DEV_NO_TEST_FILE'			=> 'Für die test_file-Variable im Konverter wurde kein Wert angegeben. Falls Sie ein Nutzer dieses Konverters sind, sollten Sie diesen Fehler nicht sehen. Bitte melden Sie diese Nachricht an die Autoren des Konverters. Falls Sie ein Konverter-Autor sind, müssen Sie den Namen einer im Quell-Board existierenden Datei angeben, damit der Pfad dorthin verifiziert werden kann.',
+	'COULD_NOT_COPY'			=> 'Die Datei <strong>%1$s</strong> konnte nicht nach <strong>%2$s</strong><br><br> kopiert werden. Bitte überprüfen Sie, ob das Zielverzeichnis vorhanden ist und vom Webserver beschrieben werden kann.',
 	'COULD_NOT_FIND_PATH'		=> 'Der Pfad zu Ihrem alten Board konnte nicht gefunden werden. Bitte prüfen Sie Ihre Einstellungen und versuchen Sie es erneut.<br />» Der angegebene Quell-Pfad war: %s',
 	'CONFIG_PHPBB_EMPTY'		=> 'Die phpBB3-Konfigurationsvariable für „%s“ ist leer.',
 
