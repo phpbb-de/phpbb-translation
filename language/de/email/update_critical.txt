@@ -6,7 +6,7 @@ mit dieser Benachrichtigung möchten wir dich darüber informieren, dass ein kri
 
 Deine aktuelle Version ist {CURRENT_VERSION} und es ist eine neue Version verfügbar, die kritische Sicherheitsupdates enthält. Wir empfehlen dir, dein Forum umgehend auf die neueste verfügbare Version {NEW_VERSION} zu aktualisieren, um die Sicherheit zu gewährleisten.
 
-Die Details zur Veröffentlichung kann im Administrations-Bereich deiner phpBB-Installation eingesehen werden.
+Die Details zur Veröffentlichung können im Administrations-Bereich deiner phpBB-Installation eingesehen werden.
 {U_BOARD}
 
 Wenn du Hilfe bei der Aktualisierung benötigst, lese bitte die Dokumentation oder besuche ein phpBB-Supportforum.

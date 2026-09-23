@@ -6,7 +6,7 @@ mit dieser Benachrichtigung möchten wir dich darüber informieren, dass ein neu
 
 Deine aktuelle Version ist {CURRENT_VERSION}, und die neueste verfügbare Version ist {NEW_VERSION}. Es wird dringend empfohlen, dein Forum auf dem neuesten Stand zu halten, um seine Stabilität, Sicherheit und Leistung zu gewährleisten.
 
-Die Details zur neuen Version kann im Administrations-Bereich deiner phpBB-Installation einsehen werden.
+Die Details zur neuen Version können im Administrations-Bereich deiner phpBB-Installation eingesehen werden.
 {U_BOARD}
 
 Wenn du Hilfe bei der Aktualisierung benötigst, lese bitte die Dokumentation oder besuche ein phpBB-Supportforum.
