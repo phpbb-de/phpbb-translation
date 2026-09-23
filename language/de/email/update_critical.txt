@@ -1,4 +1,4 @@
-Betreff: phpBB {NEW_VERSION} Update verfügbar – Kritisches Update für „{SITENAME}“ erforderlich
+Subject: phpBB {NEW_VERSION} Update verfügbar – Kritisches Update für „{SITENAME}“ erforderlich
 
 Hallo {USERNAME},
 

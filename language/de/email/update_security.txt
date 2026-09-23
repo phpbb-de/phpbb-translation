@@ -1,4 +1,4 @@
-Betreff: phpBB {NEW_VERSION} Update verfügbar – Sicherheitsupdate für „{SITENAME}“ verfügbar
+Subject: phpBB {NEW_VERSION} Update verfügbar – Sicherheitsupdate für „{SITENAME}“ verfügbar
 
 Hallo {USERNAME},
 
