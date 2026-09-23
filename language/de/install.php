@@ -303,7 +303,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Erstelle Tabellen',
 
 	// Install data
-	'TASK_ADD_AI_CRAWLERS'		=> 'Registrierte KI-Crawler',
+	'TASK_ADD_AI_CRAWLERS'		=> 'Registriere KI-Crawler',
 	'TASK_ADD_BOTS'				=> 'Registriere Bots',
 	'TASK_ADD_LANGUAGES'		=> 'Installiere verfügbare Sprachen',
 	'TASK_ADD_MODULES'			=> 'Installiere Module',

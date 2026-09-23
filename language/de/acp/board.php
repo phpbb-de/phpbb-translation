@@ -369,11 +369,11 @@ $lang = array_merge($lang, array(
 	'ONLINE_LENGTH_EXPLAIN'			=> 'Die Zeit in Minuten, nach der inaktive Benutzer nicht mehr in der „Wer ist online“-Anzeige erscheinen. Je größer dieser Wert ist, desto größer ist die Rechenleistung, die zur Erstellung dieser Liste benötigt wird.',
 	'SESSION_LENGTH'				=> 'Sitzungslänge',
 	'SESSION_LENGTH_EXPLAIN'		=> 'Die Zeit in Sekunden, nach der Sitzungen ungültig werden.',
-	'SESSION_GC'					=> 'Intervall für die Bereinigung von Sitzungen',
+	'SESSION_GC'					=> 'Intervall für die Sitzungsbereinigung',
 	'SESSION_GC_EXPLAIN'			=> 'Nach Ablauf dieser Zeit (in Sekunden), werden die Sitzungen gelöscht.',
-	'SESSION_GUEST_LENGTH'			=> 'Dauer der Gast-Sitzung',
-	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'Die Gast-Sitzungen laufen nach dieser Zeit (in Sekunden) ab.',
-	'SESSION_GUEST_GC'				=> 'Intervall für die Bereinigung von Gast-Sitzungen',
+	'SESSION_GUEST_LENGTH'			=> 'Dauer der Gastsitzung',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'Die Gastsitzungen laufen nach dieser Zeit (in Sekunden) ab.',
+	'SESSION_GUEST_GC'				=> 'Intervall für die Sitzungsbereinigung von Gästen',
 	'SESSION_GUEST_GC_EXPLAIN'		=> 'Gastsitzungen werden nach Ablauf dieser Zeit (in Sekunden) gelöscht.',
 ));
 
