@@ -67,7 +67,6 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'Dein Benutzerkonto wurde manuell deaktiviert und kann nur durch einen Administrator reaktiviert werden.',
 	'ACP'							=> 'Administrations-Bereich',
 	'ACP_SHORT'						=> 'Adm.',
-	'ACTIVATION_ALREADY_SENT'		=> 'Die Aktivierungs-E-Mail wurde bereits an deine E-Mail-Adresse gesendet. Du kannst sie frühestens nach 24 Stunden erneut anfordern. Solltest du weiterhin Probleme mit der Aktivierung deines Accounts haben, wende dich bitte an die Board-Adminstration.',
 	'ACTIVE'						=> 'aktiv',
 	'ACTIVE_ERROR'					=> 'Der angegebene Benutzer ist momentan inaktiv. Wenn du weiterhin Probleme bei der Aktivierung deines Benutzerkontos hast, wende dich bitte an die Board-Administration.',
 	'ADMINISTRATOR'					=> 'Administrator',
